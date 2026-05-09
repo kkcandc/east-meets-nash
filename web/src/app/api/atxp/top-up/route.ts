@@ -11,7 +11,7 @@ export async function POST(request: Request) {
       mode: "mock",
       amount,
       url: `https://accounts.atxp.ai/mock-checkout?product=east_meets_nash&amount=${amount}`,
-      note: "No ATXP connection_token present. This is the placeholder path.",
+      note: "No account connection token present. This is the placeholder path.",
     });
   }
 

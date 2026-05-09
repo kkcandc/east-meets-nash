@@ -40,7 +40,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             ))}
           </nav>
           <Link className="atxp-button" href="/feed">
-            ATXP Preview
+            Login
           </Link>
         </header>
         {children}

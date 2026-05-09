@@ -200,8 +200,7 @@ resetPreferences.addEventListener("click", () => {
 });
 
 feedLoginButton.addEventListener("click", () => {
-  feedLoginButton.textContent =
-    feedLoginButton.textContent === "ATXP Preview" ? "Connected Mock" : "ATXP Preview";
+  feedLoginButton.textContent = feedLoginButton.textContent === "Login" ? "Logged In" : "Login";
 });
 
 async function loadData() {

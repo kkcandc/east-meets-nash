@@ -322,6 +322,6 @@ export const launchTasks: LaunchTask[] = [
     title: "Self-serve sponsor shelf",
     owner: "Codex",
     status: "Next",
-    detail: "Products and copy exist. Checkout/ATXP payment wiring is the next implementation pass.",
+    detail: "Products and copy exist. Checkout payment wiring is the next implementation pass.",
   },
 ];

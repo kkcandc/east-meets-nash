@@ -12,10 +12,10 @@ export default function FeedPage() {
     <main>
       <section className="feed-hero">
         <div>
-          <p className="eyebrow">ATXP Account Preview</p>
+          <p className="eyebrow">Account Preview</p>
           <h1>Your East Nashville, sorted by what you actually care about.</h1>
           <p>
-            This production route is ready for ATXP-backed preferences. Until auth is connected, it renders a tuned
+            This production route is ready for login-backed preferences. Until auth is connected, it renders a tuned
             editorial feed from seed data.
           </p>
         </div>

@@ -87,8 +87,8 @@ export default async function AdminPage() {
           <strong>Check publication/API configuration</strong>
         </a>
         <a className="dashboard-card" href="/api/atxp/balance">
-          <span>ATXP Placeholder</span>
-          <strong>Check mock/live balance route</strong>
+          <span>Account Balance</span>
+          <strong>Check mock/live credit route</strong>
         </a>
       </section>
 

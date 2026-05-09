@@ -262,13 +262,12 @@ document.querySelector(".signup-form").addEventListener("submit", (event) => {
   input.value = "";
   loginButton.textContent = "Subscribed";
   setTimeout(() => {
-    loginButton.textContent = "ATXP Login";
+    loginButton.textContent = "Login";
   }, 1800);
 });
 
 loginButton.addEventListener("click", () => {
-  loginButton.textContent =
-    loginButton.textContent === "ATXP Login" ? "ATXP Preview On" : "ATXP Login";
+  loginButton.textContent = loginButton.textContent === "Login" ? "Logged In" : "Login";
 });
 
 loadData().catch((error) => {

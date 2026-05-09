@@ -58,7 +58,7 @@ function renderSelected() {
 function renderReceipt(formData = null) {
   const product = state.selected;
   if (!product) {
-    receiptPreview.innerHTML = '<div class="empty-state">Pick a product to see the mock ATXP order.</div>';
+    receiptPreview.innerHTML = '<div class="empty-state">Pick a product to see the mock order.</div>';
     return;
   }
 
@@ -80,7 +80,7 @@ function renderReceipt(formData = null) {
         <div><dt>URL</dt><dd>${escapeHtml(url)}</dd></div>
         <div><dt>Price</dt><dd>${money(product.price)}</dd></div>
         <div><dt>Balance after</dt><dd>${money(remaining)}</dd></div>
-        <div><dt>ATXP action</dt><dd>${canBuy ? "Charge balance and reserve inventory" : "Create top-up payment link"}</dd></div>
+        <div><dt>Checkout action</dt><dd>${canBuy ? "Charge balance and reserve inventory" : "Create top-up payment link"}</dd></div>
       </dl>
     </article>
   `;
