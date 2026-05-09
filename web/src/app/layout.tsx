@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <header className="site-header">
           <Link className="brand-lockup" href="/">
-            <span className="seal">EMN</span>
+            <img className="brand-seal" src="/assets/seal.svg" alt="East Meets Nash seal" />
             <span>
               <strong>East Meets Nash</strong>
               <small>East Nashville, with receipts</small>

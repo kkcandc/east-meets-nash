@@ -20,7 +20,9 @@ export default function HomePage() {
             neighborhood feel like a neighborhood.
           </p>
         </div>
-        <div className="seal-stage">Patios, Permits, Traffic, Gossip</div>
+        <div className="seal-stage" aria-hidden="true">
+          <img src="/assets/seal.svg" alt="" />
+        </div>
       </section>
 
       <section className="front-layout">

@@ -38,12 +38,13 @@ The look should feel like a civic institution that found a confetti cannon in a 
 Primary mark:
 
 - Circular parody civic seal.
-- Skyline, river, traffic cone, hot chicken, Shelby/park reference, tiny official nonsense.
-- Text can include "Traffic - Gossip - Patios - Receipts."
+- `EMN` monogram first, with skyline/river/local-color hints around it.
+- No long text wrapped around the seal; the surrounding page copy can carry the joke.
+- Tiny official nonsense is allowed only when it does not hurt readability.
 
 Secondary marks:
 
-- `EMN` monogram.
+- Ultra-simple `EMN` monogram.
 - Reporter headshot lockups.
 - "Group Chat Says" stamp.
 - "Cone Watch" stamp.
