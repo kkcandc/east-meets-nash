@@ -1,4 +1,4 @@
-import type { Reporter, SourceItem, SponsorProduct, Story } from "@/lib/types";
+import type { LaunchIssueSlot, LaunchTask, Reporter, SourceItem, SponsorProduct, Story } from "@/lib/types";
 
 export const reporters: Reporter[] = [
   {
@@ -233,5 +233,95 @@ export const sponsorProducts: SponsorProduct[] = [
     inventory: 10,
     deliverables: ["20 placements", "1 sponsored post", "Founding sponsor badge", "First right on a category"],
     checkoutCopy: "Get in early before the seal becomes insufferable.",
+  },
+];
+
+export const launchIssueSlots: LaunchIssueSlot[] = [
+  {
+    id: "lead",
+    name: "Lead Story",
+    description: "The thing that makes the brief feel worth forwarding before anyone has finished coffee.",
+    status: "Ready",
+    storyId: "what-people-are-mad-about",
+    note: "Use the recurring outrage format as the launch signature. It explains the brand fastest.",
+  },
+  {
+    id: "traffic",
+    name: "Useful Pain",
+    description: "Traffic, cones, closures, and anything that changes how people move through the neighborhood.",
+    status: "Ready",
+    storyId: "traffic-gallatin-ballet",
+    sourceItemId: "src-ndot-permits",
+    note: "Pair the joke with one concrete street or permit source so it earns trust immediately.",
+  },
+  {
+    id: "restaurant",
+    name: "Restaurant Whisper",
+    description: "Openings, soft launches, menu sightings, bar changes, and patio theater.",
+    status: "Ready",
+    storyId: "restaurant-soft-launch",
+    note: "Needs a real Instagram/link source before launch, but the format is locked.",
+  },
+  {
+    id: "watchdog",
+    name: "Boring PDF, Loud Implications",
+    description: "Permits, zoning, council, development tracker items, and records that explain the fight.",
+    status: "Drafting",
+    storyId: "permit-file-whisper",
+    sourceItemId: "src-dev-tracker-gallatin",
+    note: "Keep June dry and exact. Let the facts do the sharpest part.",
+  },
+  {
+    id: "events",
+    name: "Weekend Agenda",
+    description: "The useful event block: music, family stuff, markets, and one weird pick.",
+    status: "Needs source",
+    note: "Populate from Do615, venue calendars, Instagram, and Metro parks once source automation is added.",
+  },
+  {
+    id: "sponsor",
+    name: "Founding Sponsor Slot",
+    description: "One loud local advertiser placement that makes the business engine visible on day one.",
+    status: "Sponsor open",
+    sponsorProductId: "founding-sponsor",
+    note: "Default to founding sponsor offer until a local business buys the slot.",
+  },
+];
+
+export const launchTasks: LaunchTask[] = [
+  {
+    id: "beehiiv-signups",
+    title: "beehiiv signup pipe",
+    owner: "Codex",
+    status: "Live",
+    detail: "Publication status and subscription creation are connected locally.",
+  },
+  {
+    id: "beehiiv-posts",
+    title: "beehiiv post creation",
+    owner: "beehiiv access",
+    status: "Blocked",
+    detail: "Create Post needs posts:write or Enterprise/beta access, so the desk exports copy until that is enabled.",
+  },
+  {
+    id: "facebook-capture",
+    title: "Private Facebook source capture",
+    owner: "Kenny",
+    status: "Blocked",
+    detail: "Needs the logged-in capture workflow tomorrow. The source queue already has the private group slot.",
+  },
+  {
+    id: "social-channels",
+    title: "Social channel launch packs",
+    owner: "Codex",
+    status: "Ready",
+    detail: "Each story has X, Instagram, and video/script variants ready to become scheduled posts.",
+  },
+  {
+    id: "sponsor-page",
+    title: "Self-serve sponsor shelf",
+    owner: "Codex",
+    status: "Next",
+    detail: "Products and copy exist. Checkout/ATXP payment wiring is the next implementation pass.",
   },
 ];

@@ -1,3 +1,4 @@
+import { SourceToDraftPanel } from "@/components/SourceToDraftPanel";
 import { getReporter, getSourceItems } from "@/lib/content";
 
 export const metadata = {
@@ -15,6 +16,9 @@ export default function SourceDeskPage() {
           <h1>Rank the neighborhood noise before it becomes copy.</h1>
           <p>Every lead gets locality, confidence, risk, suggested reporter, and next format.</p>
         </div>
+      </section>
+      <section className="page-band">
+        <SourceToDraftPanel items={items} />
       </section>
       <section className="page-band">
         <div className="source-list">

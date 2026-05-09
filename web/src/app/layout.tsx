@@ -17,7 +17,7 @@ const navItems = [
   ["Topics", "/topics"],
   ["Desk", "/admin/sources"],
   ["Issue", "/admin/issues"],
-  ["Admin", "/admin"],
+  ["Launch", "/admin"],
 ];
 
 export default function RootLayout({ children }: { children: ReactNode }) {

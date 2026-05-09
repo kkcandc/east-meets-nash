@@ -1,5 +1,5 @@
-import { reporters, sourceItems, sponsorProducts, stories } from "@/data/seed";
-import type { Reporter, SourceItem, SponsorProduct, Story } from "@/lib/types";
+import { launchIssueSlots, launchTasks, reporters, sourceItems, sponsorProducts, stories } from "@/data/seed";
+import type { LaunchIssueSlot, LaunchTask, Reporter, SourceItem, SponsorProduct, Story } from "@/lib/types";
 
 export function getStories(): Story[] {
   return stories.slice().sort((a, b) => b.priority - a.priority);
@@ -23,6 +23,14 @@ export function getSourceItems(): SourceItem[] {
 
 export function getSponsorProducts(): SponsorProduct[] {
   return sponsorProducts;
+}
+
+export function getLaunchIssueSlots(): LaunchIssueSlot[] {
+  return launchIssueSlots;
+}
+
+export function getLaunchTasks(): LaunchTask[] {
+  return launchTasks;
 }
 
 export function getZones(): string[] {
@@ -65,6 +73,24 @@ export function buildBeehiivExport(storyCount = 5): string {
 
 export function buildBeehiivPostTitle(): string {
   return "Five Things Before The Coffee Gets Weird";
+}
+
+export function buildSocialPack(story: Story): Array<{ channel: string; copy: string }> {
+  const reporter = getReporter(story.reporterId);
+  return [
+    {
+      channel: "X / Threads",
+      copy: `${story.social.x}\n\nLabel: ${story.label}. Zone: ${story.zone}. Filed by ${reporter.name}.`,
+    },
+    {
+      channel: "Instagram",
+      copy: `${story.social.instagram}\n\n${story.deck}`,
+    },
+    {
+      channel: "TikTok / Reels Script",
+      copy: `${reporter.name} on camera: ${story.social.video} Cut to source receipts, then close with: "East Nashville, please behave until lunch."`,
+    },
+  ];
 }
 
 function escapeHtml(value: string): string {

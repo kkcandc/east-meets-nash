@@ -74,6 +74,25 @@ export interface SponsorProduct {
   checkoutCopy: string;
 }
 
+export interface LaunchIssueSlot {
+  id: string;
+  name: string;
+  description: string;
+  status: "Ready" | "Needs source" | "Sponsor open" | "Drafting";
+  storyId?: string;
+  sourceItemId?: string;
+  sponsorProductId?: string;
+  note: string;
+}
+
+export interface LaunchTask {
+  id: string;
+  title: string;
+  owner: string;
+  status: "Ready" | "Blocked" | "Next" | "Live";
+  detail: string;
+}
+
 export interface DraftInput {
   title: string;
   deck: string;
