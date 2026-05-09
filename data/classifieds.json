@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Music Gear",
+    "title": "Pedals, amps, and the amp someone insists has tone",
+    "price": 25,
+    "status": "Mock inventory"
+  },
+  {
+    "category": "Kid Stuff",
+    "title": "Strollers, toys, tiny shoes, and birthday party leftovers",
+    "price": 25,
+    "status": "Mock inventory"
+  },
+  {
+    "category": "Local Jobs",
+    "title": "Restaurant shifts, childcare, retail, freelance, venue gigs",
+    "price": 25,
+    "status": "Mock inventory"
+  },
+  {
+    "category": "Services",
+    "title": "Handypeople, tutors, pet sitters, yard help, chaos management",
+    "price": 25,
+    "status": "Mock inventory"
+  }
+]

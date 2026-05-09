@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Feed | East Meets Nash</title>
+    <meta
+      name="description"
+      content="Personalized East Nashville feed mock for East Meets Nash readers."
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-lockup" href="/" aria-label="East Meets Nash home">
+        <img src="/assets/seal.svg" alt="East Meets Nash seal" />
+        <span>
+          <strong>East Meets Nash</strong>
+          <small>Your east-side feed</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="/">Front</a>
+        <a href="/feed.html">Feed</a>
+        <a href="/categories.html">Topics</a>
+        <a href="/desk.html">Desk</a>
+        <a href="/issue.html">Issue</a>
+        <a href="/admin.html">Admin</a>
+        <a href="/tips.html">Tips</a>
+        <a href="/commerce.html">Buy</a>
+      </nav>
+      <button class="atxp-button" type="button" id="feedLoginButton">ATXP Preview</button>
+    </header>
+
+    <main>
+      <section class="feed-hero">
+        <div>
+          <p class="eyebrow">Logged-In Mock</p>
+          <h1>Your East Nashville, sorted by what you actually care about.</h1>
+          <p>
+            Pick zones and beats, then the feed reshuffles around your preferences. In production,
+            this ties to ATXP login, saves, comments, reactions, and email personalization.
+          </p>
+        </div>
+        <aside class="feed-account">
+          <span>East Nash Credits</span>
+          <strong id="feedBalance">$18.40</strong>
+          <small>Use for classifieds, sponsor spots, event tickets, vouchers, and future local nonsense.</small>
+        </aside>
+      </section>
+
+      <section class="feed-layout">
+        <aside class="desk-panel preference-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Preferences</p>
+            <h2>Tune The Feed</h2>
+          </div>
+          <div id="preferenceControls" class="preference-controls"></div>
+          <button class="wide-action" type="button" id="resetPreferences">Reset</button>
+        </aside>
+
+        <section class="desk-panel">
+          <div class="section-heading">
+            <p class="eyebrow">For You</p>
+            <h2 id="feedTitle">The Feed</h2>
+          </div>
+          <div id="personalFeed" class="personal-feed"></div>
+        </section>
+
+        <aside class="desk-panel feed-activity">
+          <div class="section-heading">
+            <p class="eyebrow">Activity</p>
+            <h2>Local Signals</h2>
+          </div>
+          <div id="feedSignals"></div>
+        </aside>
+      </section>
+    </main>
+
+    <script src="/scripts/feed.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>East Meets Nash Desk</title>
+    <meta
+      name="description"
+      content="East Meets Nash editorial command center for sources, assignments, sponsors, classifieds, and social packages."
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-lockup" href="/" aria-label="East Meets Nash home">
+        <img src="/assets/seal.svg" alt="East Meets Nash seal" />
+        <span>
+          <strong>East Meets Nash</strong>
+          <small>Editorial command center</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="/">Front</a>
+        <a href="/feed.html">Feed</a>
+        <a href="/categories.html">Topics</a>
+        <a href="/desk.html">Desk</a>
+        <a href="/issue.html">Issue</a>
+        <a href="/admin.html">Admin</a>
+        <a href="/tips.html">Tips</a>
+        <a href="#sources">Sources</a>
+        <a href="#issue">Issue</a>
+        <a href="/commerce.html">Buy</a>
+      </nav>
+      <button class="atxp-button" type="button" id="deskRunButton">Run Desk</button>
+    </header>
+
+    <main>
+      <section class="desk-hero">
+        <div>
+          <p class="eyebrow">No Access Needed Mode</p>
+          <h1>Build the newsroom while the keys are still in somebody else's pocket.</h1>
+          <p>
+            This desk turns seed sources, public links, sponsor inventory, and the launch calendar into
+            assignments, issue blocks, social posts, and video prompts.
+          </p>
+        </div>
+        <div class="desk-metrics" id="deskMetrics"></div>
+      </section>
+
+      <section class="desk-layout">
+        <section class="desk-panel" id="sources">
+          <div class="section-heading">
+            <p class="eyebrow">Source Desk</p>
+            <h2>Lead Queue</h2>
+          </div>
+          <div class="desk-controls">
+            <label>
+              <span>Beat</span>
+              <select id="sourceBeatFilter">
+                <option value="all">All beats</option>
+              </select>
+            </label>
+            <label>
+              <span>Risk</span>
+              <select id="sourceRiskFilter">
+                <option value="all">All risk levels</option>
+              </select>
+            </label>
+          </div>
+          <div class="source-list" id="sourceList"></div>
+        </section>
+
+        <aside class="desk-panel assignment-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Assignment Editor</p>
+            <h2 id="assignmentTitle">Select a lead</h2>
+          </div>
+          <div id="assignmentDetail" class="assignment-detail"></div>
+        </aside>
+      </section>
+
+      <section class="desk-layout two-up">
+        <section class="desk-panel" id="issue">
+          <div class="section-heading">
+            <p class="eyebrow">Issue Builder</p>
+            <h2>Launch Calendar</h2>
+          </div>
+          <div id="calendarList" class="calendar-list"></div>
+        </section>
+
+        <section class="desk-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Social Kit</p>
+            <h2>Auto Package</h2>
+          </div>
+          <div id="socialKit" class="social-kit"></div>
+        </section>
+      </section>
+
+      <section class="desk-panel commerce-panel" id="commerce">
+        <div class="section-heading">
+          <p class="eyebrow">Commerce</p>
+          <h2>Sponsor And Classified Inventory</h2>
+        </div>
+        <div class="commerce-grid" id="commerceGrid"></div>
+      </section>
+    </main>
+
+    <script src="/scripts/desk.js" type="module"></script>
+  </body>
+</html>

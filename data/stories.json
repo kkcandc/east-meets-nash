@@ -1,0 +1,298 @@
+[
+  {
+    "id": "traffic-gallatin-ballet",
+    "title": "Gallatin Performed Its Daily Ballet Of Brakes, Cones, And Quiet Screaming",
+    "deck": "A prototype traffic quick hit for the people who said they were leaving in five and are still looking at the same vape shop sign.",
+    "body": "The morning crawl on Gallatin is exactly the kind of resident pain East Meets Nash should track: useful, local, and emotionally expensive. Launch coverage should pair traffic notes with construction records, NDOT alerts, and resident sightings.",
+    "zone": "Gallatin",
+    "beat": "Civic",
+    "label": "Seed Item",
+    "confidence": "Prototype",
+    "reporterId": "parker",
+    "time": "Today",
+    "priority": 94,
+    "imageStyle": "street",
+    "sources": [
+      {
+        "name": "Prototype source note",
+        "url": "#",
+        "type": "Internal"
+      }
+    ],
+    "reactions": {
+      "Traffic Sigh": 41,
+      "Cone Watch": 28,
+      "Bless It": 17
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_17",
+        "text": "If the cones start charging rent, they can afford the new apartments."
+      }
+    ],
+    "social": {
+      "x": "Gallatin is once again less of a road and more of a group project with brake lights.",
+      "instagram": "The daily Gallatin crawl: cones, vibes, and everyone pretending this route was a choice.",
+      "video": "Parker stands at a crosswalk with coffee and declares the traffic cone East Nashville's most stable resident."
+    }
+  },
+  {
+    "id": "restaurant-soft-launch",
+    "title": "A New Restaurant Soft-Launched So Softly Half The Neighborhood Is Pretending They Already Knew",
+    "deck": "The launch playbook: one blurry Instagram story, three excited texts, and a reservation list that somehow has hierarchy.",
+    "body": "This is the kind of restaurant/opening format the site should run constantly: what opened, where, who posted first, what the menu hints at, and whether it belongs in the daily brief or weekly issue.",
+    "zone": "Five Points",
+    "beat": "Restaurants",
+    "label": "Seed Item",
+    "confidence": "Prototype",
+    "reporterId": "mabel",
+    "time": "Today",
+    "priority": 91,
+    "imageStyle": "food",
+    "sources": [
+      {
+        "name": "Prototype Instagram placeholder",
+        "url": "#",
+        "type": "Social"
+      }
+    ],
+    "reactions": {
+      "Hot Chicken": 36,
+      "Five Points FOMO": 44,
+      "Side-Eye": 12
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_04",
+        "text": "I need to know if the fries are real fries or architectural potatoes."
+      }
+    ],
+    "social": {
+      "x": "A new Five Points spot appears to be in the soft-launch fog machine phase.",
+      "instagram": "New place, soft launch, everyone suddenly an investor in the comment section.",
+      "video": "Mabel reviews the sacred stages of an East Nashville restaurant opening: rumor, blurry photo, patio judgment."
+    }
+  },
+  {
+    "id": "sidewalk-parent-index",
+    "title": "The Sidewalk Parent Index Is Flashing Red Around Shelby",
+    "deck": "Stroller math, scooter dodgeball, and one crosswalk that appears to be decorative.",
+    "body": "A recurring family/civic column can track walkability, kids' activities, playground conditions, and the specific places where normal family logistics become endurance sport.",
+    "zone": "Shelby",
+    "beat": "Family",
+    "label": "Seed Item",
+    "confidence": "Prototype",
+    "reporterId": "parker",
+    "time": "This Morning",
+    "priority": 88,
+    "imageStyle": "park",
+    "sources": [
+      {
+        "name": "Prototype resident observation",
+        "url": "#",
+        "type": "Tip"
+      }
+    ],
+    "reactions": {
+      "Porch Clap": 31,
+      "Traffic Sigh": 23,
+      "Bless It": 19
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_22",
+        "text": "Please add a sub-index for playground shade and snack distance."
+      }
+    ],
+    "social": {
+      "x": "Launching soon: the Sidewalk Parent Index, because some crosswalks feel theoretical.",
+      "instagram": "Shelby-area parent logistics, ranked by coffee loss and stroller vibration.",
+      "video": "Parker attempts to narrate a peaceful walk and immediately finds three civic side quests."
+    }
+  },
+  {
+    "id": "permit-file-whisper",
+    "title": "The Permit File Is Whispering Again",
+    "deck": "When the boring PDF starts explaining why everyone is suddenly yelling about parking.",
+    "body": "June Parcel's watchdog lane should convert permits, agendas, zoning applications, and council records into readable, funny, useful context for residents.",
+    "zone": "Lockeland",
+    "beat": "Development",
+    "label": "Seed Item",
+    "confidence": "Prototype",
+    "reporterId": "june",
+    "time": "Yesterday",
+    "priority": 86,
+    "imageStyle": "permit",
+    "sources": [
+      {
+        "name": "Prototype public-record placeholder",
+        "url": "#",
+        "type": "Public Record"
+      }
+    ],
+    "reactions": {
+      "Side-Eye": 38,
+      "Cone Watch": 21,
+      "Porch Clap": 15
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_09",
+        "text": "June reading permit PDFs so I can remain emotionally unqualified is the service."
+      }
+    ],
+    "social": {
+      "x": "A permit file is not boring if it explains the fight everyone is about to have.",
+      "instagram": "June found the boring document. Unfortunately it matters.",
+      "video": "June opens a permit file like a detective opening a cold case."
+    }
+  },
+  {
+    "id": "weekend-chaos-calendar",
+    "title": "The Weekend Calendar Is Already Acting Like It Has A Publicist",
+    "deck": "Markets, shows, pop-ups, patio decisions, and the eternal question of whether you should leave the house.",
+    "body": "Events coverage should be lightweight but high-volume: calendars, picks, social captions, ticket links, and a social-first version for each event cluster.",
+    "zone": "Inglewood",
+    "beat": "Events",
+    "label": "Seed Item",
+    "confidence": "Prototype",
+    "reporterId": "lila",
+    "time": "Tomorrow",
+    "priority": 84,
+    "imageStyle": "event",
+    "sources": [
+      {
+        "name": "Prototype event calendar placeholder",
+        "url": "#",
+        "type": "Event"
+      }
+    ],
+    "reactions": {
+      "Five Points FOMO": 27,
+      "Hot Chicken": 11,
+      "Porch Clap": 22
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_31",
+        "text": "Please rank by parking pain. I am old now."
+      }
+    ],
+    "social": {
+      "x": "The weekend calendar is doing a lot, emotionally and logistically.",
+      "instagram": "Your weekend options, sorted by vibe, distance, and how much you enjoy standing near a food truck.",
+      "video": "Lila runs through the weekend like a weather report for extroverts."
+    }
+  },
+  {
+    "id": "what-people-are-mad-about",
+    "title": "What People Are Mad About This Week: Parking, Patios, And A Suspiciously Confident Sign",
+    "deck": "A recurring outrage forecast for East Nashville's most renewable natural resource: informed irritation.",
+    "body": "This should become a signature module. It can synthesize Facebook, Nextdoor, comments, tips, and public records into a funny but sourced neighborhood mood board.",
+    "zone": "East Nashville",
+    "beat": "Gossip",
+    "label": "Group Chat Says",
+    "confidence": "Prototype",
+    "reporterId": "mabel",
+    "time": "Weekly",
+    "priority": 96,
+    "imageStyle": "gossip",
+    "sources": [
+      {
+        "name": "Prototype group chatter placeholder",
+        "url": "#",
+        "type": "Community Chatter"
+      }
+    ],
+    "reactions": {
+      "Side-Eye": 52,
+      "Bless It": 25,
+      "Traffic Sigh": 18
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_02",
+        "text": "The sign knows what it did."
+      }
+    ],
+    "social": {
+      "x": "This week's neighborhood outrage forecast includes parking, patios, and one sign with too much confidence.",
+      "instagram": "What people are mad about this week, presented with love and a small amount of fear.",
+      "video": "Mabel reads the outrage forecast like severe weather."
+    }
+  },
+  {
+    "id": "music-venue-ghost",
+    "title": "Riff Investigates Whether A New Venue Has Soul Or Just Edison Bulbs",
+    "deck": "A nightlife review format for the city where every room claims it is intimate and every tab says otherwise.",
+    "body": "Nightlife coverage should mix listings, reviews, owner posts, community chatter, ticket links, and Riff's recurring suspicion of anything with a mural too eager to be photographed.",
+    "zone": "Riverside",
+    "beat": "Music",
+    "label": "Seed Item",
+    "confidence": "Prototype",
+    "reporterId": "riff",
+    "time": "This Week",
+    "priority": 79,
+    "imageStyle": "music",
+    "sources": [
+      {
+        "name": "Prototype venue placeholder",
+        "url": "#",
+        "type": "Business"
+      }
+    ],
+    "reactions": {
+      "Side-Eye": 29,
+      "Porch Clap": 16,
+      "Five Points FOMO": 14
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_15",
+        "text": "Does the sound person look tired? That is my quality metric."
+      }
+    ],
+    "social": {
+      "x": "Riff's first venue test: does the room have soul, or just a lighting package?",
+      "instagram": "East side venue energy, judged by sound, crowd, and mural desperation.",
+      "video": "Riff stands outside a venue and describes Edison bulbs as a cry for help."
+    }
+  },
+  {
+    "id": "classifieds-launch",
+    "title": "Classifieds Are Coming For Jobs, Gear, Kid Stuff, And Neighborhood Pleas",
+    "deck": "A self-serve marketplace where East Nashville can sell a guitar pedal, find a babysitter, or beg someone to take the extra moving boxes.",
+    "body": "Classifieds are an early ATXP-commerce fit: charge a small amount, let logged-in users post, and make the listings feel local enough to beat generic marketplaces.",
+    "zone": "East Nashville",
+    "beat": "Classifieds",
+    "label": "Confirmed",
+    "confidence": "Prototype",
+    "reporterId": "lila",
+    "time": "Soon",
+    "priority": 76,
+    "imageStyle": "classifieds",
+    "sources": [
+      {
+        "name": "Internal product plan",
+        "url": "../docs/product-roadmap.md",
+        "type": "Internal"
+      }
+    ],
+    "reactions": {
+      "Porch Clap": 30,
+      "Hot Chicken": 9,
+      "Bless It": 12
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_44",
+        "text": "Please add a category for toys my kid ignored immediately."
+      }
+    ],
+    "social": {
+      "x": "East Nashville classifieds should include jobs, gear, kid stuff, and public pleas about cardboard.",
+      "instagram": "Coming soon: classifieds for the exact radius where your weird extra chair might find love.",
+      "video": "Lila pitches classifieds like QVC for neighborhood odds and ends."
+    }
+  }
+]

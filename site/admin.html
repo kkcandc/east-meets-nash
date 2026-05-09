@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Draft Admin | East Meets Nash</title>
+    <meta
+      name="description"
+      content="Local East Meets Nash draft admin for source intake, story preview, and publishing simulation."
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-lockup" href="/" aria-label="East Meets Nash home">
+        <img src="/assets/seal.svg" alt="East Meets Nash seal" />
+        <span>
+          <strong>East Meets Nash</strong>
+          <small>Local draft room</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="/">Front</a>
+        <a href="/feed.html">Feed</a>
+        <a href="/categories.html">Topics</a>
+        <a href="/desk.html">Desk</a>
+        <a href="/issue.html">Issue</a>
+        <a href="/admin.html">Admin</a>
+        <a href="/tips.html">Tips</a>
+        <a href="/commerce.html">Buy</a>
+      </nav>
+      <button class="atxp-button" type="button" id="clearDraftsButton">Clear Drafts</button>
+    </header>
+
+    <main>
+      <section class="admin-hero">
+        <div>
+          <p class="eyebrow">Local CMS Mock</p>
+          <h1>Turn a tip, link, or rumor into a labeled draft.</h1>
+          <p>
+            This stores drafts in your browser only. It is the shape of the future admin:
+            source in, label applied, reporter assigned, social kit generated.
+          </p>
+        </div>
+      </section>
+
+      <section class="admin-layout">
+        <section class="desk-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Intake</p>
+            <h2>New Draft</h2>
+          </div>
+          <form id="draftForm" class="checkout-form">
+            <label>
+              <span>Headline</span>
+              <input name="title" required placeholder="What happened?" />
+            </label>
+            <label>
+              <span>Deck</span>
+              <input name="deck" required placeholder="Why should East Nashville care?" />
+            </label>
+            <label>
+              <span>Zone</span>
+              <select name="zone">
+                <option>East Nashville</option>
+                <option>Five Points</option>
+                <option>Gallatin</option>
+                <option>Shelby</option>
+                <option>Inglewood</option>
+                <option>Lockeland</option>
+                <option>Riverside</option>
+              </select>
+            </label>
+            <label>
+              <span>Beat</span>
+              <select name="beat">
+                <option>Gossip</option>
+                <option>Restaurants</option>
+                <option>Civic</option>
+                <option>Development</option>
+                <option>Events</option>
+                <option>Family</option>
+                <option>Classifieds</option>
+              </select>
+            </label>
+            <label>
+              <span>Confidence</span>
+              <select name="confidence">
+                <option>Confirmed</option>
+                <option>Reported</option>
+                <option>Group Chat Says</option>
+                <option>Seen in the Wild</option>
+                <option>Allegedly</option>
+                <option>Tip Line</option>
+              </select>
+            </label>
+            <label>
+              <span>Source URL</span>
+              <input name="sourceUrl" type="url" placeholder="https://..." />
+            </label>
+            <label>
+              <span>Notes / body</span>
+              <textarea name="body" rows="6" placeholder="Source notes, what is known, what is not known."></textarea>
+            </label>
+            <button type="submit">Save Local Draft</button>
+          </form>
+        </section>
+
+        <section class="desk-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Drafts</p>
+            <h2>Local Queue</h2>
+          </div>
+          <div id="draftList" class="draft-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/scripts/admin.js" type="module"></script>
+  </body>
+</html>

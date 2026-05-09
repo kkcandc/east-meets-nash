@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mabel",
+    "name": "Mabel Pearl Calhoun",
+    "beat": "Restaurants, gossip, openings, closings",
+    "tagline": "Knows who soft-launched and who is acting brand new.",
+    "look": "Big hair, maximalist patterns, dramatic glasses, purse full of receipts.",
+    "voice": "Warm, nosy, theatrical, with a one-line sting.",
+    "color": "#ef4d37"
+  },
+  {
+    "id": "riff",
+    "name": "Riff Darnell",
+    "beat": "Music, bars, Gallatin, development",
+    "tagline": "Failed musician, successful detector of fake authenticity.",
+    "look": "Long hair, denim, boots, one permanent wristband.",
+    "voice": "Bitter, poetic, funny, allergic to luxury guitar murals.",
+    "color": "#222222"
+  },
+  {
+    "id": "parker",
+    "name": "Parker Mae Stroller",
+    "beat": "Families, parks, sidewalks, traffic",
+    "tagline": "Civic rage with snacks in the tote bag.",
+    "look": "Coffee, stroller, phone at 4 percent, three tote bags.",
+    "voice": "Furious but organized, funny because the anger has bullet points.",
+    "color": "#2f7dd1"
+  },
+  {
+    "id": "june",
+    "name": "June Parcel",
+    "beat": "Permits, zoning, council, records",
+    "tagline": "The permit file has entered the chat.",
+    "look": "Crisp shirt, tiny notebook, measuring tape, indoor sunglasses.",
+    "voice": "Dry, exacting, mildly terrifying, funny in footnotes.",
+    "color": "#1b8a5a"
+  },
+  {
+    "id": "lila",
+    "name": "Lila Neon",
+    "beat": "Events, style, creators, weekend plans",
+    "tagline": "Not an influencer, just locally over-informed.",
+    "look": "Bright jacket, disposable camera, lipstick, event wristbands.",
+    "voice": "Upbeat, sharp, stylish, unserious until details matter.",
+    "color": "#ffba08"
+  }
+]

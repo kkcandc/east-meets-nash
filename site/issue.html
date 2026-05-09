@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Issue Builder | East Meets Nash</title>
+    <meta
+      name="description"
+      content="Build East Meets Nash morning brief and weekly issue packages for web and beehiiv."
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-lockup" href="/" aria-label="East Meets Nash home">
+        <img src="/assets/seal.svg" alt="East Meets Nash seal" />
+        <span>
+          <strong>East Meets Nash</strong>
+          <small>Issue builder</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="/">Front</a>
+        <a href="/feed.html">Feed</a>
+        <a href="/categories.html">Topics</a>
+        <a href="/desk.html">Desk</a>
+        <a href="/issue.html">Issue</a>
+        <a href="/admin.html">Admin</a>
+        <a href="/tips.html">Tips</a>
+        <a href="/commerce.html">Buy</a>
+      </nav>
+      <button class="atxp-button" type="button" id="copyIssueButton">Copy Brief</button>
+    </header>
+
+    <main>
+      <section class="issue-hero">
+        <div>
+          <p class="eyebrow">Beehiiv + Web</p>
+          <h1>Build the morning brief before the neighborhood finishes its first complaint.</h1>
+          <p>
+            Pick a package type, tune the story count, and generate copy blocks for beehiiv,
+            web, and social.
+          </p>
+        </div>
+        <div class="issue-controls">
+          <label>
+            <span>Package</span>
+            <select id="issueType">
+              <option value="morning">Morning Brief</option>
+              <option value="weekly">Weekly Flagship</option>
+              <option value="social">Social Recap</option>
+            </select>
+          </label>
+          <label>
+            <span>Stories</span>
+            <input id="issueCount" type="number" min="3" max="8" value="5" />
+          </label>
+        </div>
+      </section>
+
+      <section class="issue-layout">
+        <section class="desk-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Preview</p>
+            <h2 id="issueTitle">Morning Brief</h2>
+          </div>
+          <div id="issuePreview" class="issue-preview"></div>
+        </section>
+
+        <aside class="desk-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Blocks</p>
+            <h2>Beehiiv Copy</h2>
+          </div>
+          <textarea id="issueCopy" class="copy-box" rows="22"></textarea>
+        </aside>
+      </section>
+    </main>
+
+    <script src="/scripts/issue.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tips | East Meets Nash</title>
+    <meta
+      name="description"
+      content="Send East Meets Nash tips, rumors, corrections, takedown requests, and neighborhood complaints."
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-lockup" href="/" aria-label="East Meets Nash home">
+        <img src="/assets/seal.svg" alt="East Meets Nash seal" />
+        <span>
+          <strong>East Meets Nash</strong>
+          <small>Tip line and corrections</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="/">Front</a>
+        <a href="/feed.html">Feed</a>
+        <a href="/categories.html">Topics</a>
+        <a href="/desk.html">Desk</a>
+        <a href="/issue.html">Issue</a>
+        <a href="/admin.html">Admin</a>
+        <a href="/tips.html">Tips</a>
+        <a href="/commerce.html">Buy</a>
+      </nav>
+      <button class="atxp-button" type="button" id="clearTipsButton">Clear Local</button>
+    </header>
+
+    <main>
+      <section class="tips-hero">
+        <div>
+          <p class="eyebrow">Tip Line</p>
+          <h1>Send the thing everyone is whispering about. Receipts appreciated.</h1>
+          <p>
+            This local mock stores submissions in your browser. Production can route tips to email,
+            source queue, Slack, or the editorial desk.
+          </p>
+        </div>
+      </section>
+
+      <section class="tips-layout">
+        <section class="desk-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Submit</p>
+            <h2>Tip, Rumor, Correction, Or Complaint</h2>
+          </div>
+          <form id="tipForm" class="checkout-form">
+            <label>
+              <span>Type</span>
+              <select name="type">
+                <option>Tip</option>
+                <option>Rumor</option>
+                <option>Correction</option>
+                <option>Takedown Request</option>
+                <option>What People Are Mad About</option>
+              </select>
+            </label>
+            <label>
+              <span>Subject</span>
+              <input name="subject" required placeholder="What should we look at?" />
+            </label>
+            <label>
+              <span>Zone</span>
+              <select name="zone">
+                <option>East Nashville</option>
+                <option>Five Points</option>
+                <option>Gallatin</option>
+                <option>Shelby</option>
+                <option>Inglewood</option>
+                <option>Lockeland</option>
+                <option>Riverside</option>
+              </select>
+            </label>
+            <label>
+              <span>Source link</span>
+              <input name="sourceUrl" type="url" placeholder="https://..." />
+            </label>
+            <label>
+              <span>Details</span>
+              <textarea name="details" required rows="7" placeholder="Tell us what happened, who said it, what is confirmed, and what is just neighborhood smoke."></textarea>
+            </label>
+            <label>
+              <span>Contact</span>
+              <input name="contact" placeholder="Optional email or phone" />
+            </label>
+            <button type="submit">Add To Local Tip Queue</button>
+          </form>
+        </section>
+
+        <section class="desk-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Queue</p>
+            <h2>Local Submissions</h2>
+          </div>
+          <div id="tipList" class="tip-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/scripts/tips.js" type="module"></script>
+  </body>
+</html>

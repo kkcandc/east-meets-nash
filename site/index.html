@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>East Meets Nash</title>
+    <meta
+      name="description"
+      content="East Nashville local news, gossip, civic watchdog coverage, events, restaurants, and classifieds."
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-lockup" href="#front" aria-label="East Meets Nash home">
+        <img src="/assets/seal.svg" alt="East Meets Nash seal" />
+        <span>
+          <strong>East Meets Nash</strong>
+          <small>East Nashville, with receipts</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="#front">Front</a>
+        <a href="/feed.html">Feed</a>
+        <a href="/categories.html">Topics</a>
+        <a href="/desk.html">Desk</a>
+        <a href="/issue.html">Issue</a>
+        <a href="/admin.html">Admin</a>
+        <a href="/tips.html">Tips</a>
+        <a href="#brief">Brief</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="/commerce.html">Buy</a>
+      </nav>
+      <button class="atxp-button" type="button" id="loginButton">ATXP Login</button>
+    </header>
+
+    <main id="front">
+      <section class="masthead">
+        <div class="masthead-copy">
+          <p class="eyebrow">Prototype Edition</p>
+          <h1>East Nashville, everything you wanted to know, nothing held back.</h1>
+          <p class="promise">
+            Restaurants, rumors, permits, traffic pain, weekend chaos, and the group-text-level
+            detail that makes a neighborhood feel like a neighborhood.
+          </p>
+        </div>
+        <div class="seal-stage" aria-hidden="true">
+          <img src="/assets/seal.svg" alt="" />
+        </div>
+      </section>
+
+      <section class="control-band" aria-label="Story filters">
+        <label class="search-control">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Gallatin, patios, permits..." />
+        </label>
+        <label>
+          <span>Zone</span>
+          <select id="zoneFilter">
+            <option value="all">All East Nashville</option>
+          </select>
+        </label>
+        <label>
+          <span>Beat</span>
+          <select id="beatFilter">
+            <option value="all">All beats</option>
+          </select>
+        </label>
+        <div class="result-count" id="resultCount">Loading the feed</div>
+      </section>
+
+      <section class="front-layout" aria-label="East Meets Nash front page">
+        <div class="lead-column">
+          <div class="section-heading">
+            <p class="eyebrow">The River Feed</p>
+            <h2>What East Nashville Is Talking About</h2>
+          </div>
+          <div id="leadStory"></div>
+          <div class="story-grid" id="storyGrid"></div>
+        </div>
+
+        <aside class="side-rail" aria-label="Side rail">
+          <section class="brief-panel" id="brief">
+            <p class="eyebrow">Morning Brief</p>
+            <h2>Five Things Before The Coffee Gets Weird</h2>
+            <ol id="briefList"></ol>
+            <form class="signup-form">
+              <label for="emailInput">Daily email</label>
+              <div>
+                <input id="emailInput" type="email" placeholder="neighbor@example.com" />
+                <button type="submit">Join</button>
+              </div>
+            </form>
+          </section>
+
+          <section class="wallet-panel">
+            <p class="eyebrow">ATXP Preview</p>
+            <h2>East Nash Credits</h2>
+            <div class="balance-line">
+              <span>Balance</span>
+              <strong id="mockBalance">$18.40</strong>
+            </div>
+            <div class="wallet-actions">
+              <button type="button">Top Up</button>
+              <button type="button">Run Classified</button>
+              <button type="button">Buy Sponsor Spot</button>
+            </div>
+          </section>
+
+          <section class="reporter-panel">
+            <p class="eyebrow">Bureau</p>
+            <h2>The Reporters</h2>
+            <div id="reporterList" class="reporter-list"></div>
+          </section>
+        </aside>
+      </section>
+
+      <section class="market-band" id="sponsors">
+        <div>
+          <p class="eyebrow">Self-Serve Sponsors</p>
+          <h2>Buy The Neighborhood's Attention Before Someone Else Names A Cocktail After It</h2>
+          <p>
+            Launch inventory starts at $100 per placement. Sponsored posts start at $1,000.
+            Founding sponsors get a bigger bundle while the seal is still warm.
+          </p>
+          <a class="big-link-button" href="/commerce.html">Open Sponsor Desk</a>
+        </div>
+        <div class="sponsor-menu" aria-label="Sponsor options">
+          <article>
+            <span>$100</span>
+            <h3>Local Placement</h3>
+            <p>Homepage, category, or morning brief slot.</p>
+          </article>
+          <article>
+            <span>$1,000</span>
+            <h3>Sponsored Post</h3>
+            <p>Web story, newsletter mention, social package.</p>
+          </article>
+          <article>
+            <span>$1,500</span>
+            <h3>Founding Sponsor</h3>
+            <p>20 placements, 1 post, founding badge, first right on a category.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="classifieds-band" id="classifieds">
+        <div class="section-heading">
+          <p class="eyebrow">Classifieds</p>
+          <h2>Jobs, Gear, Kid Stuff, Services, And Neighborhood Pleas</h2>
+        </div>
+        <div class="classified-grid">
+          <article>
+            <strong>Music Gear</strong>
+            <p>Pedals, amps, cases, cables, and one thing someone swears is vintage.</p>
+          </article>
+          <article>
+            <strong>Kid Stuff</strong>
+            <p>Strollers, toys, seats, tiny shoes, and birthday party leftovers.</p>
+          </article>
+          <article>
+            <strong>Local Jobs</strong>
+            <p>Restaurant shifts, childcare, freelance help, retail, and venue gigs.</p>
+          </article>
+          <article>
+            <strong>Missed Connections</strong>
+            <p>For the person at the coffee shop who understood the parking complaint.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <template id="storyTemplate">
+      <article class="story-card">
+        <div class="story-art"></div>
+        <div class="story-content">
+          <div class="story-meta"></div>
+          <h3></h3>
+          <p class="deck"></p>
+          <div class="reaction-row"></div>
+          <div class="story-footer"></div>
+        </div>
+      </article>
+    </template>
+
+    <script src="/scripts/app.js" type="module"></script>
+  </body>
+</html>

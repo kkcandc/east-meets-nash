@@ -1,0 +1,87 @@
+[
+  {
+    "name": "East Nashville Facebook group",
+    "type": "Private community",
+    "status": "Needs Kenny's logged-in access workflow",
+    "beats": ["Gossip", "Events", "Restaurants", "Civic", "Family"]
+  },
+  {
+    "name": "Metro Council and public records",
+    "type": "Official",
+    "status": "Public",
+    "beats": ["Civic", "Development"]
+  },
+  {
+    "name": "Restaurant and venue Instagram accounts",
+    "type": "Social",
+    "status": "Needs account list",
+    "beats": ["Restaurants", "Events", "Music"]
+  },
+  {
+    "name": "X / Twitter search",
+    "type": "Social",
+    "status": "Needs API or monitoring workflow",
+    "beats": ["Civic", "Breaking", "Gossip"]
+  },
+  {
+    "name": "Nextdoor",
+    "type": "Private community",
+    "status": "Needs access workflow",
+    "beats": ["Family", "Crime", "Services", "Gossip"]
+  },
+  {
+    "name": "Reader tips email",
+    "type": "Direct",
+    "status": "Needs inbox",
+    "beats": ["All"]
+  },
+  {
+    "name": "Metro Council Office",
+    "type": "Official",
+    "status": "Public",
+    "url": "https://www.nashville.gov/council",
+    "beats": ["Civic", "Development"]
+  },
+  {
+    "name": "Metro Planning Development Tracker",
+    "type": "Official data",
+    "status": "Public",
+    "url": "https://maps.nashville.gov/DevelopmentTracker/",
+    "beats": ["Development", "Civic"]
+  },
+  {
+    "name": "Metro Codes ePermits",
+    "type": "Official data",
+    "status": "Public inquiry",
+    "url": "https://www.nashville.gov/departments/codes/construction-and-permits/e-permits-system",
+    "beats": ["Development", "Restaurants", "Civic"]
+  },
+  {
+    "name": "Tomato Art Fest",
+    "type": "Event",
+    "status": "Public",
+    "url": "https://www.tomatoartfest.com/",
+    "beats": ["Events", "Family", "Restaurants"]
+  },
+  {
+    "name": "Lockeland Springs Neighborhood Association",
+    "type": "Neighborhood association",
+    "status": "Public",
+    "url": "https://lockelandsprings.org/",
+    "beats": ["Civic", "History", "Events"]
+  },
+  {
+    "name": "No Quarter",
+    "type": "Business",
+    "status": "Public",
+    "url": "https://noquarternashville.com/",
+    "beats": ["Events", "Music", "Restaurants"]
+  },
+  {
+    "name": "Lost and Found",
+    "type": "Business",
+    "status": "Public",
+    "url": "https://www.lostandfoundnashville.com/",
+    "beats": ["Restaurants", "Events", "Family"]
+  }
+]

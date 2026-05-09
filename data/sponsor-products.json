@@ -1,0 +1,42 @@
+[
+  {
+    "id": "placement",
+    "name": "Local Placement",
+    "price": 100,
+    "inventory": 40,
+    "deliverables": ["Homepage or category slot", "Daily brief mention", "Basic click tracking"],
+    "checkoutCopy": "Buy a small but loud local placement."
+  },
+  {
+    "id": "sponsored-post",
+    "name": "Sponsored Post",
+    "price": 1000,
+    "inventory": 8,
+    "deliverables": ["Web post", "Newsletter inclusion", "Instagram caption", "X/Threads copy"],
+    "checkoutCopy": "Tell East Nashville what you are doing, clearly marked and not boring."
+  },
+  {
+    "id": "founding-sponsor",
+    "name": "Founding Sponsor",
+    "price": 1500,
+    "inventory": 10,
+    "deliverables": ["20 placements", "1 sponsored post", "Founding sponsor badge", "First right on a category"],
+    "checkoutCopy": "Get in early before the seal becomes insufferable."
+  },
+  {
+    "id": "classified-standard",
+    "name": "Standard Classified",
+    "price": 25,
+    "inventory": 200,
+    "deliverables": ["7 day listing", "Category placement", "Search inclusion"],
+    "checkoutCopy": "Sell the guitar pedal, find the sitter, move the weird chair."
+  },
+  {
+    "id": "classified-featured",
+    "name": "Featured Classified",
+    "price": 50,
+    "inventory": 80,
+    "deliverables": ["14 day listing", "Featured placement", "Morning brief eligible"],
+    "checkoutCopy": "Make the neighborhood notice your listing without taping flyers to a pole."
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "east-meets-nash",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "East Nashville local news, gossip, civic watchdog, classifieds, and sponsor prototype.",
+  "scripts": {
+    "dev": "node site/server.js",
+    "start": "node site/server.js"
+  },
+  "engines": {
+    "node": ">=22 <26"
+  }
+}

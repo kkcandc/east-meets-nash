@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2026-05-09",
+    "theme": "Source map and voice calibration",
+    "publishingGoal": "Build backlog, no public posting required",
+    "mustHave": ["Reporter prompt pack", "Source queue", "Sponsor product copy"]
+  },
+  {
+    "date": "2026-05-10",
+    "theme": "Starter content sprint",
+    "publishingGoal": "Draft 20 to 40 web items from approved/public sources",
+    "mustHave": ["Restaurants", "Events", "Civic", "What people are mad about"]
+  },
+  {
+    "date": "2026-05-11",
+    "theme": "Production scaffold",
+    "publishingGoal": "Move prototype toward Next.js app with real article routes",
+    "mustHave": ["Article template", "SEO metadata", "beehiiv signup"]
+  },
+  {
+    "date": "2026-05-12",
+    "theme": "Commerce and community",
+    "publishingGoal": "Mock ATXP login, comments, reactions, classifieds, sponsors",
+    "mustHave": ["Sponsor page", "Classified form", "Wallet states"]
+  },
+  {
+    "date": "2026-05-13",
+    "theme": "Launch issue assembly",
+    "publishingGoal": "Prepare first daily brief and weekly issue",
+    "mustHave": ["Subject line", "Issue blocks", "Social queue", "Video scripts"]
+  },
+  {
+    "date": "2026-05-14",
+    "theme": "Public launch",
+    "publishingGoal": "Publish site, morning brief, socials, sponsor offer",
+    "mustHave": ["Main story", "Quick hits", "Sponsor CTA", "Tip line"]
+  }
+]

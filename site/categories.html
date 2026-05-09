@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Topics | East Meets Nash</title>
+    <meta
+      name="description"
+      content="Browse East Meets Nash stories by East Nashville zone, beat, and recurring franchise."
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-lockup" href="/" aria-label="East Meets Nash home">
+        <img src="/assets/seal.svg" alt="East Meets Nash seal" />
+        <span>
+          <strong>East Meets Nash</strong>
+          <small>Zones, beats, receipts</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="/">Front</a>
+        <a href="/feed.html">Feed</a>
+        <a href="/categories.html">Topics</a>
+        <a href="/desk.html">Desk</a>
+        <a href="/issue.html">Issue</a>
+        <a href="/admin.html">Admin</a>
+        <a href="/tips.html">Tips</a>
+        <a href="/commerce.html">Buy</a>
+      </nav>
+      <button class="atxp-button" type="button" id="topicModeButton">Zones</button>
+    </header>
+
+    <main>
+      <section class="topic-hero">
+        <div>
+          <p class="eyebrow">Browse</p>
+          <h1>Every beat, zone, and recurring local obsession.</h1>
+          <p>
+            Category pages are the SEO and habit engine: useful for residents,
+            easy for Google, and dangerously good for sponsor inventory.
+          </p>
+        </div>
+      </section>
+
+      <section class="topic-layout">
+        <section class="desk-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Index</p>
+            <h2 id="topicTitle">Zones</h2>
+          </div>
+          <div id="topicGrid" class="topic-grid"></div>
+        </section>
+
+        <aside class="desk-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Franchises</p>
+            <h2>Recurring Columns</h2>
+          </div>
+          <div class="franchise-list">
+            <article><strong>What People Are Mad About</strong><span>Weekly outrage forecast.</span></article>
+            <article><strong>Permit File Says</strong><span>Public records, translated.</span></article>
+            <article><strong>Soft Launch Watch</strong><span>Restaurants before the announcement.</span></article>
+            <article><strong>Cone Watch</strong><span>Traffic pain with receipts.</span></article>
+            <article><strong>Sidewalk Parent Index</strong><span>Family logistics and civic rage.</span></article>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <script src="/scripts/categories.js" type="module"></script>
+  </body>
+</html>

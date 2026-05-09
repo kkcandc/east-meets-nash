@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>East Meets Nash Sponsor Desk</title>
+    <meta
+      name="description"
+      content="Mock self-serve sponsor and classified checkout for East Meets Nash using ATXP credits."
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-lockup" href="/" aria-label="East Meets Nash home">
+        <img src="/assets/seal.svg" alt="East Meets Nash seal" />
+        <span>
+          <strong>East Meets Nash</strong>
+          <small>Self-serve local attention</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="/">Front</a>
+        <a href="/feed.html">Feed</a>
+        <a href="/categories.html">Topics</a>
+        <a href="/desk.html">Desk</a>
+        <a href="/issue.html">Issue</a>
+        <a href="/admin.html">Admin</a>
+        <a href="/tips.html">Tips</a>
+        <a href="/commerce.html">Buy</a>
+      </nav>
+      <button class="atxp-button" type="button" id="mockConnect">ATXP Preview</button>
+    </header>
+
+    <main>
+      <section class="commerce-hero">
+        <div>
+          <p class="eyebrow">Sponsor Desk</p>
+          <h1>Buy a little slice of East Nashville's attention.</h1>
+          <p>
+            This is the mocked purchase flow for sponsors and classifieds. In production,
+            the payment step becomes ATXP login, balance check, top-up, and purchase.
+          </p>
+        </div>
+        <div class="checkout-balance">
+          <span>Mock ATXP balance</span>
+          <strong id="checkoutBalance">$1,850</strong>
+          <small>Enough for one founding sponsor package and a classified with change for nonsense.</small>
+        </div>
+      </section>
+
+      <section class="checkout-layout">
+        <section class="desk-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Choose Inventory</p>
+            <h2>Products</h2>
+          </div>
+          <div class="product-picker" id="productPicker"></div>
+        </section>
+
+        <section class="desk-panel checkout-form-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Mock Checkout</p>
+            <h2 id="selectedProductName">Select a product</h2>
+          </div>
+          <form id="checkoutForm" class="checkout-form">
+            <label>
+              <span>Business or listing name</span>
+              <input name="name" required placeholder="Example: The Patio Department" />
+            </label>
+            <label>
+              <span>Headline</span>
+              <input name="headline" required placeholder="Your East Nashville pitch in one line" />
+            </label>
+            <label>
+              <span>URL</span>
+              <input name="url" type="url" placeholder="https://example.com" />
+            </label>
+            <label>
+              <span>Copy</span>
+              <textarea name="copy" rows="5" placeholder="What should neighbors know?"></textarea>
+            </label>
+            <button type="submit">Generate Mock Order</button>
+          </form>
+        </section>
+
+        <aside class="desk-panel receipt-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Receipt</p>
+            <h2>Order Preview</h2>
+          </div>
+          <div id="receiptPreview" class="receipt-preview"></div>
+        </aside>
+      </section>
+    </main>
+
+    <script src="/scripts/commerce.js" type="module"></script>
+  </body>
+</html>

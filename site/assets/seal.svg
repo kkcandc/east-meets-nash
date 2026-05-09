@@ -1,0 +1,38 @@
+<svg width="520" height="520" viewBox="0 0 520 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">East Meets Nash civic seal</title>
+  <desc id="desc">A parody civic seal for East Nashville with skyline, river, stars, cones, and hot chicken.</desc>
+  <defs>
+    <path id="topArc" d="M 92 260 A 168 168 0 0 1 428 260" />
+    <path id="bottomArc" d="M 428 260 A 168 168 0 0 1 92 260" />
+  </defs>
+  <rect width="520" height="520" fill="#f8f2df"/>
+  <circle cx="260" cy="260" r="235" fill="#1f1b18"/>
+  <circle cx="260" cy="260" r="214" fill="#f5d35f" stroke="#ef4d37" stroke-width="12"/>
+  <circle cx="260" cy="260" r="170" fill="#f8f2df" stroke="#1f1b18" stroke-width="8"/>
+  <text font-family="Georgia, serif" font-size="30" font-weight="700" fill="#f8f2df" letter-spacing="0">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">EAST MEETS NASH</textPath>
+  </text>
+  <text font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1f1b18" letter-spacing="0">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">TRAFFIC - GOSSIP - PATIOS - RECEIPTS</textPath>
+  </text>
+  <path d="M128 294 C190 254 228 338 280 292 C318 258 364 278 392 300 L392 356 L128 356 Z" fill="#2f7dd1" opacity="0.9"/>
+  <path d="M128 322 C182 292 222 360 282 318 C328 286 366 306 392 328 L392 356 L128 356 Z" fill="#1b8a5a" opacity="0.85"/>
+  <rect x="154" y="216" width="36" height="86" fill="#1f1b18"/>
+  <rect x="198" y="188" width="44" height="114" fill="#1f1b18"/>
+  <rect x="252" y="230" width="50" height="72" fill="#1f1b18"/>
+  <rect x="314" y="202" width="36" height="100" fill="#1f1b18"/>
+  <polygon points="220,138 236,172 204,172" fill="#ef4d37"/>
+  <polygon points="250,132 268,174 232,174" fill="#ef4d37"/>
+  <polygon points="280,138 296,172 264,172" fill="#ef4d37"/>
+  <path d="M176 374 L200 314 L224 374 Z" fill="#ef4d37" stroke="#1f1b18" stroke-width="5"/>
+  <rect x="184" y="338" width="32" height="10" fill="#f8f2df"/>
+  <path d="M310 376 C298 352 306 328 330 316 C350 308 372 320 376 342 C380 366 356 384 334 382 C324 381 316 379 310 376 Z" fill="#ef4d37" stroke="#1f1b18" stroke-width="5"/>
+  <circle cx="346" cy="338" r="8" fill="#f5d35f"/>
+  <text x="260" y="412" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#1f1b18">EST. WHENEVER THE GROUP TEXT GOT LOUD</text>
+  <g fill="#1f1b18">
+    <circle cx="112" cy="190" r="7"/>
+    <circle cx="408" cy="190" r="7"/>
+    <circle cx="112" cy="330" r="7"/>
+    <circle cx="408" cy="330" r="7"/>
+  </g>
+</svg>
