@@ -42,6 +42,7 @@ BEEHIIV_PUBLICATION_URL=https://east-meets-nash.beehiiv.com/
 - `POST /api/beehiiv/create-draft`
   - Creates a beehiiv post using `body_content`.
   - Defaults to `status: "draft"`.
+  - beehiiv currently marks the Create Post endpoint as beta and Enterprise-only; expect `403` unless the publication/API key has `posts:write` access.
 
 ## Safety Defaults
 

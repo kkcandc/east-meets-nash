@@ -93,6 +93,8 @@ async function beehiivRequest<T>(path: string, init?: RequestInit): Promise<T> {
         ? data.message
         : isRecord(data) && typeof data.error === "string"
           ? data.error
+          : path.includes("/posts") && response.status === 403
+            ? "beehiiv returned 403 for post creation. The Create Post endpoint requires posts:write access and is currently beta/Enterprise-only in beehiiv's docs."
           : "beehiiv request failed.";
     throw new BeehiivError(message, response.status);
   }
