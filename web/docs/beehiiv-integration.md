@@ -16,6 +16,8 @@ BEEHIIV_SEND_WELCOME_EMAIL=false
 
 Do not commit `.env.local`.
 
+`BEEHIIV_PUBLICATION_ID` may be pasted either as `pub_...` or as the bare UUID shown under API V1. The app normalizes the bare UUID to the v2 `pub_...` format internally.
+
 ## Routes
 
 - `GET /api/beehiiv/status`

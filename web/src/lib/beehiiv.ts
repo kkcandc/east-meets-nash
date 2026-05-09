@@ -32,14 +32,21 @@ export interface BeehiivConfigStatus {
   sendWelcomeEmail: boolean;
 }
 
+export function normalizeBeehiivPublicationId(publicationId?: string): string | undefined {
+  const trimmed = publicationId?.trim();
+  if (!trimmed) return undefined;
+  return trimmed.startsWith("pub_") ? trimmed : `pub_${trimmed}`;
+}
+
 export function getBeehiivConfig(): BeehiivConfigStatus {
   const postStatus = process.env.BEEHIIV_POST_STATUS === "confirmed" ? "confirmed" : "draft";
+  const publicationId = normalizeBeehiivPublicationId(process.env.BEEHIIV_PUBLICATION_ID);
 
   return {
-    configured: Boolean(process.env.BEEHIIV_API_KEY && process.env.BEEHIIV_PUBLICATION_ID),
+    configured: Boolean(process.env.BEEHIIV_API_KEY && publicationId),
     hasApiKey: Boolean(process.env.BEEHIIV_API_KEY),
-    hasPublicationId: Boolean(process.env.BEEHIIV_PUBLICATION_ID),
-    publicationId: process.env.BEEHIIV_PUBLICATION_ID,
+    hasPublicationId: Boolean(publicationId),
+    publicationId,
     publicationUrl: process.env.BEEHIIV_PUBLICATION_URL,
     postStatus,
     sendWelcomeEmail: process.env.BEEHIIV_SEND_WELCOME_EMAIL === "true",
@@ -99,10 +106,11 @@ export async function listBeehiivPublications(): Promise<BeehiivPublication[]> {
 }
 
 export async function getBeehiivPublication(publicationId = process.env.BEEHIIV_PUBLICATION_ID) {
-  if (!publicationId) {
+  const normalizedPublicationId = normalizeBeehiivPublicationId(publicationId);
+  if (!normalizedPublicationId) {
     throw new BeehiivError("BEEHIIV_PUBLICATION_ID is not configured.", 503, "missing_publication_id");
   }
-  const result = await beehiivRequest<{ data: BeehiivPublication }>(`/publications/${publicationId}`);
+  const result = await beehiivRequest<{ data: BeehiivPublication }>(`/publications/${normalizedPublicationId}`);
   return result.data;
 }
 
@@ -119,7 +127,7 @@ export async function createBeehiivSubscription({
   utmMedium?: string;
   utmCampaign?: string;
 }) {
-  const publicationId = process.env.BEEHIIV_PUBLICATION_ID;
+  const publicationId = normalizeBeehiivPublicationId(process.env.BEEHIIV_PUBLICATION_ID);
   if (!publicationId) {
     throw new BeehiivError("BEEHIIV_PUBLICATION_ID is not configured.", 503, "missing_publication_id");
   }
@@ -150,7 +158,7 @@ export async function createBeehiivDraftPost({
   storyCount?: number;
   status?: "draft" | "confirmed";
 } = {}) {
-  const publicationId = process.env.BEEHIIV_PUBLICATION_ID;
+  const publicationId = normalizeBeehiivPublicationId(process.env.BEEHIIV_PUBLICATION_ID);
   if (!publicationId) {
     throw new BeehiivError("BEEHIIV_PUBLICATION_ID is not configured.", 503, "missing_publication_id");
   }
