@@ -30,7 +30,14 @@ Credentials are intentionally not required for local scaffold work.
 - `ACCOUNTS_API_URL`, default `https://accounts.atxp.ai`
 - `BEEHIIV_API_KEY`
 - `BEEHIIV_PUBLICATION_ID`
+- `BEEHIIV_PUBLICATION_URL`
+- `BEEHIIV_POST_STATUS`, default `draft`
+- `BEEHIIV_SEND_WELCOME_EMAIL`, default `false`
 
 ## Local Data
 
 Until a database is connected, admin API routes write to `web/.local-data/`.
+
+## beehiiv
+
+See `docs/beehiiv-integration.md`.

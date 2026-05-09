@@ -28,6 +28,10 @@ export default async function AdminPage() {
           <span>beehiiv Export</span>
           <strong>Open plain-text issue package</strong>
         </a>
+        <a className="dashboard-card" href="/api/beehiiv/status">
+          <span>beehiiv Status</span>
+          <strong>Check publication/API configuration</strong>
+        </a>
         <a className="dashboard-card" href="/api/atxp/balance">
           <span>ATXP Placeholder</span>
           <strong>Check mock/live balance route</strong>

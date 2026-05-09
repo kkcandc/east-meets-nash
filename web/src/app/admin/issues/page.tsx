@@ -1,3 +1,4 @@
+import { BeehiivAdminPanel } from "@/components/BeehiivAdminPanel";
 import { buildBeehiivExport, getReporter, getStories } from "@/lib/content";
 
 export const metadata = {
@@ -41,6 +42,7 @@ export default function IssueBuilderPage() {
           <h2>beehiiv Export</h2>
           <pre className="copy-box">{exportText}</pre>
         </aside>
+        <BeehiivAdminPanel />
       </section>
     </main>
   );

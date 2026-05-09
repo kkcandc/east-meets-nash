@@ -382,6 +382,80 @@ h3 {
   color: var(--gold);
 }
 
+.signup-form {
+  display: grid;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.signup-form label {
+  font-weight: 900;
+}
+
+.signup-form div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+}
+
+.signup-form input {
+  min-height: 42px;
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  background: #fffaf0;
+  color: var(--ink);
+  padding: 9px 10px;
+}
+
+.signup-form button,
+.button-row button {
+  min-height: 42px;
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  background: var(--gold);
+  color: var(--ink);
+  padding: 8px 11px;
+  font-weight: 950;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+.form-note {
+  margin: 0;
+  font-size: 0.88rem;
+  font-weight: 850;
+}
+
+.form-note.success {
+  color: var(--gold);
+}
+
+.form-note.error {
+  color: #fffaf0;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.mini-list {
+  display: grid;
+  gap: 6px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 2px solid var(--line);
+}
+
+.mini-list span {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
 .reporter-badge {
   display: grid;
   grid-template-columns: 52px 1fr;
@@ -661,7 +735,8 @@ dd {
 
   .source-card,
   .issue-item,
-  dl div {
+  dl div,
+  .signup-form div {
     grid-template-columns: 1fr;
   }
 }

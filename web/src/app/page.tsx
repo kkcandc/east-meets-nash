@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ReporterBadge } from "@/components/ReporterBadge";
+import { SubscribeForm } from "@/components/SubscribeForm";
 import { StoryCard } from "@/components/StoryCard";
 import { getReporters, getStories } from "@/lib/content";
 
@@ -47,6 +48,7 @@ export default function HomePage() {
             <Link className="big-link-button" href="/admin/issues">
               Build Issue
             </Link>
+            <SubscribeForm surface="homepage_brief" />
           </section>
           <section className="desk-panel">
             <p className="eyebrow">Bureau</p>
