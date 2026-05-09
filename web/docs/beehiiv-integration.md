@@ -18,6 +18,13 @@ Do not commit `.env.local`.
 
 `BEEHIIV_PUBLICATION_ID` may be pasted either as `pub_...` or as the bare UUID shown under API V1. The app normalizes the bare UUID to the v2 `pub_...` format internally.
 
+Current East Meets Nash values:
+
+```env
+BEEHIIV_PUBLICATION_ID=pub_94c99936-e02c-4450-9355-616159a7755a
+BEEHIIV_PUBLICATION_URL=https://east-meets-nash.beehiiv.com/
+```
+
 ## Routes
 
 - `GET /api/beehiiv/status`
