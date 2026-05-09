@@ -11,25 +11,12 @@ export default function HomePage() {
 
   return (
     <main>
-      <section className="masthead">
+      <section className="front-layout home-front">
         <div>
-          <p className="eyebrow">Prototype To Production</p>
-          <h1>East Nashville, everything you wanted to know, nothing held back.</h1>
-          <p>
-            Restaurants, rumors, permits, traffic pain, weekend chaos, and the group-text-level detail that makes a
-            neighborhood feel like a neighborhood.
-          </p>
-        </div>
-        <div className="seal-stage" aria-hidden="true">
-          <img src="/assets/seal.svg" alt="" />
-        </div>
-      </section>
-
-      <section className="front-layout">
-        <div>
-          <div className="section-heading">
-            <p className="eyebrow">The River Feed</p>
-            <h2>What East Nashville Is Talking About</h2>
+          <div className="section-heading front-page-heading">
+            <p className="eyebrow">Latest East Nashville</p>
+            <h1>What East Nashville Is Talking About</h1>
+            <p>Openings, traffic pain, permits, neighborhood drama, and anything else with local fingerprints on it.</p>
           </div>
           {lead ? <StoryCard story={lead} lead /> : null}
           <div className="story-grid">
