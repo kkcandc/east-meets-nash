@@ -4,10 +4,6 @@ const state = {
   filtered: [],
 };
 
-const searchInput = document.querySelector("#searchInput");
-const zoneFilter = document.querySelector("#zoneFilter");
-const beatFilter = document.querySelector("#beatFilter");
-const resultCount = document.querySelector("#resultCount");
 const leadStory = document.querySelector("#leadStory");
 const storyGrid = document.querySelector("#storyGrid");
 const storyTemplate = document.querySelector("#storyTemplate");
@@ -31,21 +27,6 @@ function initials(name) {
     .join("")
     .slice(0, 2)
     .toUpperCase();
-}
-
-function uniqueValues(key) {
-  return [...new Set(state.stories.map((story) => story[key]))].sort((a, b) =>
-    a.localeCompare(b),
-  );
-}
-
-function fillSelect(select, values) {
-  values.forEach((value) => {
-    const option = document.createElement("option");
-    option.value = value;
-    option.textContent = value;
-    select.append(option);
-  });
 }
 
 function reporterFor(story) {
@@ -160,42 +141,17 @@ function showStoryDetail(story) {
   detail.showModal();
 }
 
-function applyFilters() {
-  const query = searchInput.value.trim().toLowerCase();
-  const zone = zoneFilter.value;
-  const beat = beatFilter.value;
-
-  state.filtered = state.stories
-    .filter((story) => zone === "all" || story.zone === zone)
-    .filter((story) => beat === "all" || story.beat === beat)
-    .filter((story) => {
-      if (!query) return true;
-      const haystack = [
-        story.title,
-        story.deck,
-        story.body,
-        story.zone,
-        story.beat,
-        story.label,
-        reporterFor(story).name,
-      ]
-        .join(" ")
-        .toLowerCase();
-      return haystack.includes(query);
-    })
-    .sort((a, b) => b.priority - a.priority);
-
+function sortHomepageStories() {
+  state.filtered = state.stories.slice().sort((a, b) => b.priority - a.priority);
   renderFeed();
 }
 
 function renderFeed() {
   leadStory.innerHTML = "";
   storyGrid.innerHTML = "";
-  resultCount.textContent = `${state.filtered.length} items`;
 
   if (!state.filtered.length) {
-    leadStory.innerHTML =
-      '<div class="empty-state">Nothing matches that filter yet. The neighborhood remains suspicious.</div>';
+    leadStory.innerHTML = '<div class="empty-state">No stories are loaded yet.</div>';
     return;
   }
 
@@ -250,16 +206,10 @@ async function loadData() {
   state.stories = stories;
   state.reporters = new Map(reporters.map((reporter) => [reporter.id, reporter]));
 
-  fillSelect(zoneFilter, uniqueValues("zone"));
-  fillSelect(beatFilter, uniqueValues("beat"));
   renderBrief();
   renderReporters();
-  applyFilters();
+  sortHomepageStories();
 }
-
-searchInput.addEventListener("input", applyFilters);
-zoneFilter.addEventListener("change", applyFilters);
-beatFilter.addEventListener("change", applyFilters);
 
 document.querySelector(".signup-form").addEventListener("submit", (event) => {
   event.preventDefault();

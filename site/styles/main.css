@@ -200,17 +200,6 @@ a {
   box-shadow: 10px 10px 0 var(--tomato);
 }
 
-.control-band {
-  display: grid;
-  grid-template-columns: minmax(220px, 1fr) minmax(150px, 210px) minmax(150px, 210px) auto;
-  gap: 14px;
-  align-items: end;
-  padding: 22px 28px;
-  background: var(--ink);
-  color: var(--paper);
-}
-
-.control-band label,
 .signup-form label {
   display: grid;
   gap: 7px;
@@ -218,8 +207,6 @@ a {
   font-size: 0.85rem;
 }
 
-.control-band input,
-.control-band select,
 .signup-form input {
   width: 100%;
   min-height: 44px;
@@ -228,25 +215,6 @@ a {
   padding: 9px 11px;
   background: #fffaf0;
   color: var(--ink);
-}
-
-.control-band input,
-.control-band select {
-  border-color: var(--paper);
-}
-
-.result-count {
-  min-height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 12px;
-  border: 2px solid var(--paper);
-  border-radius: 8px;
-  background: var(--tomato);
-  color: var(--paper);
-  font-weight: 950;
-  white-space: nowrap;
 }
 
 .front-layout {
@@ -1789,11 +1757,6 @@ a {
 
   .seal-stage img {
     max-width: 230px;
-  }
-
-  .control-band {
-    grid-template-columns: 1fr;
-    padding: 18px 16px;
   }
 
   .front-layout,
