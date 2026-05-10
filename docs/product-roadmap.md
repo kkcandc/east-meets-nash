@@ -56,8 +56,8 @@ Community:
 
 Launch with two obvious reactions so nobody has to decode the interface:
 
-- Love - the normal positive reaction.
-- Side-Eye - the one local weird option for suspicious, messy, or "of course this happened" items.
+- ❤️ Love - the normal positive reaction.
+- 👀 Side-Eye - the one local weird option for suspicious, messy, or "of course this happened" items.
 
 Use other local reaction language as editorial flavor, stamps, or one-off campaign moments instead of default buttons.
 

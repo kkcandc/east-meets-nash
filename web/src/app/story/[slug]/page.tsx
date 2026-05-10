@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getReporter, getStories, getStoryBySlug } from "@/lib/content";
+import { formatReactionLabel, getReporter, getStories, getStoryBySlug } from "@/lib/content";
 
 interface StoryPageProps {
   params: Promise<{ slug: string }>;
@@ -69,7 +69,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
           <div className="reaction-row">
             {Object.entries(story.reactions).map(([name, count]) => (
               <span key={name} className="reaction-chip">
-                {name} {count}
+                {formatReactionLabel(name)} <strong>{count}</strong>
               </span>
             ))}
           </div>

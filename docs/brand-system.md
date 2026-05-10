@@ -65,8 +65,8 @@ Secondary marks:
 
 ## Reaction Language
 
-- Love - the normal positive reaction.
-- Side-Eye - suspicious.
+- ❤️ Love - the normal positive reaction.
+- 👀 Side-Eye - suspicious.
 - Keep Hot Chicken, Cone Watch, Porch Clap, Bless It, and Five Points FOMO as editorial flavor or limited-run stamps, not the default reaction set.
 
 ## Do Not Sound Like

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getReporter } from "@/lib/content";
+import { formatReactionLabel, getReporter } from "@/lib/content";
 import type { Story } from "@/lib/types";
 
 export function StoryCard({ story, lead = false }: { story: Story; lead?: boolean }) {
@@ -22,7 +22,7 @@ export function StoryCard({ story, lead = false }: { story: Story; lead?: boolea
         <div className="reaction-row">
           {Object.entries(story.reactions).slice(0, 3).map(([name, count]) => (
             <span key={name} className="reaction-chip">
-              {name} {count}
+              {formatReactionLabel(name)} <strong>{count}</strong>
             </span>
           ))}
         </div>

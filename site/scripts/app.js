@@ -55,6 +55,12 @@ function reporterFor(story) {
   };
 }
 
+function reactionLabel(name) {
+  if (name === "Love") return "❤️ Love";
+  if (name === "Side-Eye") return "👀 Side-Eye";
+  return name;
+}
+
 function renderStory(story, variant = "standard") {
   const node = storyTemplate.content.firstElementChild.cloneNode(true);
   const reporter = reporterFor(story);
@@ -81,11 +87,11 @@ function renderStory(story, variant = "standard") {
     const button = document.createElement("button");
     button.className = "reaction-button";
     button.type = "button";
-    button.textContent = `${name} ${count}`;
+    button.textContent = `${reactionLabel(name)} ${count}`;
     button.addEventListener("click", () => {
       const next = Number(button.dataset.count || count) + 1;
       button.dataset.count = String(next);
-      button.textContent = `${name} ${next}`;
+      button.textContent = `${reactionLabel(name)} ${next}`;
     });
     reactions.append(button);
   });

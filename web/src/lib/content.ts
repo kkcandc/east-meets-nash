@@ -75,6 +75,12 @@ export function buildBeehiivPostTitle(): string {
   return "Five Things Before The Coffee Gets Weird";
 }
 
+export function formatReactionLabel(name: string): string {
+  if (name === "Love") return "❤️ Love";
+  if (name === "Side-Eye") return "👀 Side-Eye";
+  return name;
+}
+
 export function buildSocialPack(story: Story): Array<{ channel: string; copy: string }> {
   const reporter = getReporter(story.reporterId);
   return [

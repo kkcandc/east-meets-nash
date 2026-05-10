@@ -342,6 +342,7 @@ h3 {
 .reaction-chip {
   display: inline-flex;
   align-items: center;
+  gap: 5px;
   min-height: 26px;
   padding: 4px 8px;
   border: 2px solid var(--ink);
@@ -349,6 +350,10 @@ h3 {
   background: var(--paper);
   color: var(--ink);
   font-weight: 950;
+}
+
+.reaction-chip strong {
+  font-size: 0.86em;
 }
 
 .pill.hot {

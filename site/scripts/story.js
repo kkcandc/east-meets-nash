@@ -15,11 +15,17 @@ function byId(items, id) {
   return new Map(items.map((item) => [item.id, item])).get(id);
 }
 
+function reactionLabel(name) {
+  if (name === "Love") return "❤️ Love";
+  if (name === "Side-Eye") return "👀 Side-Eye";
+  return name;
+}
+
 function reactionButtons(reactions) {
   return Object.entries(reactions || {})
     .map(
       ([name, count]) =>
-        `<button class="reaction-button" type="button" data-reaction="${escapeHtml(name)}" data-count="${count}">${escapeHtml(name)} ${count}</button>`,
+        `<button class="reaction-button" type="button" data-reaction="${escapeHtml(name)}" data-count="${count}">${escapeHtml(reactionLabel(name))} ${count}</button>`,
     )
     .join("");
 }
@@ -105,7 +111,7 @@ function renderStory(story, reporter) {
       const reaction = button.dataset.reaction;
       const count = Number(button.dataset.count || 0) + 1;
       button.dataset.count = String(count);
-      button.textContent = `${reaction} ${count}`;
+      button.textContent = `${reactionLabel(reaction)} ${count}`;
     });
   });
 }
