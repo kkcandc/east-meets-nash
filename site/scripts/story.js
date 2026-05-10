@@ -21,8 +21,8 @@ function byId(items, id) {
 }
 
 function reactionLabel(name) {
-  if (name === "Love") return "❤️ Love";
-  if (name === "Side-Eye") return "👀 Side-Eye";
+  if (name === "Love") return "❤️";
+  if (name === "Side-Eye") return "👀";
   return name;
 }
 
@@ -59,9 +59,9 @@ function saveReaction(storyId, reaction) {
 }
 
 function reactionStatus(story) {
-  if (!isLoggedIn()) return "Log in to react. One reaction per article.";
-  if (selectedReaction(story.id)) return "Your reaction is saved. You can switch it, but it only counts once.";
-  return "Pick one reaction. One per article.";
+  if (!isLoggedIn()) return "";
+  if (selectedReaction(story.id)) return "";
+  return "";
 }
 
 function reactionButtons(story) {
@@ -244,7 +244,7 @@ function renderStory(story, reporter) {
       <p class="eyebrow">React</p>
       <div class="reaction-row">${reactionButtons(story)}</div>
       <p class="reaction-note" id="reactionNote">${escapeHtml(reactionStatus(story))}</p>
-      ${isLoggedIn() ? "" : `<button class="reaction-login-button" type="button" id="reactionLoginButton">Login to react</button>`}
+      ${isLoggedIn() ? "" : `<button class="reaction-login-button" type="button" id="reactionLoginButton">Login</button>`}
     </section>
     <section class="rail-card">
       <p class="eyebrow">Sponsor Slot</p>
@@ -261,12 +261,12 @@ function renderStory(story, reporter) {
       const note = document.querySelector("#reactionNote");
 
       if (!isLoggedIn()) {
-        note.textContent = "Log in first, then your reaction will count once.";
+        note.textContent = "";
         return;
       }
 
       if (selectedReaction(storyId) === reaction) {
-        note.textContent = "Already counted for this article.";
+        note.textContent = "";
         return;
       }
 
