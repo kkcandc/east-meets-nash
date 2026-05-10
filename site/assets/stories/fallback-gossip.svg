@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Neighborhood chatter illustration</title>
+  <desc id="desc">A stylized group text and neighborhood sign made from speech bubbles and local shapes.</desc>
+  <rect width="1200" height="720" fill="#f8f2df"/>
+  <rect x="0" y="0" width="1200" height="720" fill="#ef4d37" opacity=".18"/>
+  <g stroke="#1f1b18" stroke-width="10">
+    <rect x="106" y="118" width="390" height="174" rx="40" fill="#fffaf0"/>
+    <path d="M198 292l-46 68 118-68z" fill="#fffaf0"/>
+    <rect x="664" y="106" width="430" height="190" rx="40" fill="#f5d35f"/>
+    <path d="M926 296l84 72-24-72z" fill="#f5d35f"/>
+    <rect x="236" y="400" width="506" height="184" rx="40" fill="#2f7dd1"/>
+    <path d="M370 584l-86 70 28-70z" fill="#2f7dd1"/>
+  </g>
+  <g stroke="#1f1b18" stroke-width="14" stroke-linecap="round">
+    <path d="M170 178h230M170 226h156"/>
+    <path d="M736 176h282M736 228h210"/>
+    <path d="M314 470h350M314 522h250"/>
+  </g>
+  <circle cx="896" cy="482" r="84" fill="#1b8a5a" stroke="#1f1b18" stroke-width="10"/>
+  <path d="M850 482c22 34 70 34 92 0" fill="none" stroke="#fffaf0" stroke-width="12" stroke-linecap="round"/>
+  <g fill="#1f1b18">
+    <circle cx="866" cy="454" r="10"/>
+    <circle cx="926" cy="454" r="10"/>
+  </g>
+  <path d="M92 636h1008" stroke="#1f1b18" stroke-width="10" stroke-dasharray="26 24"/>
+</svg>

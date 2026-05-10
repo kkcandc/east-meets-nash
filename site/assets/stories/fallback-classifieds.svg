@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Neighborhood classifieds board</title>
+  <desc id="desc">A stylized bulletin board with posted cards, tabs, pins, and neighborhood notes.</desc>
+  <rect width="1200" height="720" fill="#f8f2df"/>
+  <rect x="104" y="78" width="992" height="570" rx="20" fill="#b77844" stroke="#1f1b18" stroke-width="12"/>
+  <g stroke="#1f1b18" stroke-width="8">
+    <rect x="168" y="140" width="244" height="180" rx="8" fill="#fffaf0" transform="rotate(-3 290 230)"/>
+    <rect x="476" y="122" width="250" height="214" rx="8" fill="#f5d35f" transform="rotate(2 601 229)"/>
+    <rect x="790" y="150" width="226" height="174" rx="8" fill="#2f7dd1" transform="rotate(-2 903 237)"/>
+    <rect x="210" y="406" width="314" height="164" rx="8" fill="#1b8a5a" transform="rotate(2 367 488)"/>
+    <rect x="612" y="398" width="338" height="184" rx="8" fill="#fffaf0" transform="rotate(-3 781 490)"/>
+  </g>
+  <g fill="#ef4d37" stroke="#1f1b18" stroke-width="6">
+    <circle cx="204" cy="152" r="18"/>
+    <circle cx="506" cy="136" r="18"/>
+    <circle cx="824" cy="158" r="18"/>
+    <circle cx="246" cy="414" r="18"/>
+    <circle cx="650" cy="408" r="18"/>
+  </g>
+  <g stroke="#1f1b18" stroke-width="12" stroke-linecap="round">
+    <path d="M210 200h148M210 248h116M524 194h152M524 244h112M834 210h132M834 254h84"/>
+    <path d="M270 466h196M270 512h128M674 462h220M674 514h156"/>
+  </g>
+  <path d="M120 664h960" stroke="#1f1b18" stroke-width="10"/>
+</svg>

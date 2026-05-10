@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">East Nashville music venue scene</title>
+  <desc id="desc">A stylized small venue stage with lights, microphone, guitar shapes, and a crowd.</desc>
+  <rect width="1200" height="720" fill="#1f1b18"/>
+  <path d="M0 0h1200v412H0z" fill="#2f7dd1" opacity=".38"/>
+  <path d="M124 98h952v332H124z" fill="#403830" stroke="#fffaf0" stroke-width="8"/>
+  <path d="M124 430h952v118H124z" fill="#ef4d37" stroke="#fffaf0" stroke-width="8"/>
+  <g fill="#f5d35f" stroke="#1f1b18" stroke-width="6">
+    <circle cx="278" cy="178" r="38"/>
+    <circle cx="430" cy="160" r="38"/>
+    <circle cx="606" cy="150" r="38"/>
+    <circle cx="780" cy="160" r="38"/>
+    <circle cx="934" cy="178" r="38"/>
+  </g>
+  <path d="M268 216l-96 214M430 198l-80 232M606 188v242M780 198l80 232M934 216l96 214" stroke="#f5d35f" stroke-width="18" opacity=".48"/>
+  <g stroke="#fffaf0" stroke-width="12" stroke-linecap="round">
+    <path d="M598 252v178"/>
+    <path d="M542 430h112"/>
+    <path d="M554 266c30-28 76-28 106 0"/>
+  </g>
+  <path d="M736 284c78 54 94 120 48 198l-48 78" stroke="#f5d35f" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="712" cy="270" r="44" fill="#ef4d37" stroke="#fffaf0" stroke-width="8"/>
+  <g fill="#fffaf0">
+    <circle cx="188" cy="630" r="48"/>
+    <circle cx="316" cy="610" r="54"/>
+    <circle cx="462" cy="636" r="46"/>
+    <circle cx="610" cy="612" r="58"/>
+    <circle cx="758" cy="636" r="46"/>
+    <circle cx="908" cy="610" r="54"/>
+    <circle cx="1036" cy="630" r="48"/>
+  </g>
+</svg>

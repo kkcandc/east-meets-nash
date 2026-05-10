@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">East Nashville street scene</title>
+  <desc id="desc">A stylized East Nashville street with traffic cones, storefronts, and skyline shapes.</desc>
+  <rect width="1200" height="720" fill="#f8f2df"/>
+  <rect x="0" y="0" width="1200" height="720" fill="#6fa4dd" opacity=".28"/>
+  <path d="M0 424h1200v296H0z" fill="#222"/>
+  <path d="M520 424h160l120 296H400z" fill="#3f3830"/>
+  <path d="M0 508h1200" stroke="#fffaf0" stroke-width="16" stroke-dasharray="68 54"/>
+  <path d="M0 424h1200" stroke="#1f1b18" stroke-width="8"/>
+  <rect x="84" y="250" width="190" height="174" fill="#ef4d37" stroke="#1f1b18" stroke-width="8"/>
+  <rect x="304" y="220" width="172" height="204" fill="#f5d35f" stroke="#1f1b18" stroke-width="8"/>
+  <rect x="780" y="232" width="220" height="192" fill="#1b8a5a" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M94 250h170l-24-54H122zM314 220h154l-20-58H338zM790 232h200l-38-62H826z" fill="#1f1b18"/>
+  <path d="M675 170l40 254h-84zM726 212l34 212h-68zM612 240l30 184h-58z" fill="#403830"/>
+  <circle cx="976" cy="176" r="50" fill="#f5d35f" stroke="#1f1b18" stroke-width="8"/>
+  <g stroke="#1f1b18" stroke-width="8" stroke-linecap="round">
+    <path d="M152 424v-96M200 424v-96M366 424v-116M426 424v-116M852 424v-104M928 424v-104"/>
+    <path d="M106 570h110M848 578h128M276 630h148"/>
+  </g>
+  <g>
+    <path d="M214 604h96l-28-108h-40z" fill="#ef4d37" stroke="#1f1b18" stroke-width="8"/>
+    <path d="M228 552h68M242 500h40" stroke="#fffaf0" stroke-width="10"/>
+    <path d="M928 616h96l-28-108h-40z" fill="#ef4d37" stroke="#1f1b18" stroke-width="8"/>
+    <path d="M942 564h68M956 512h40" stroke="#fffaf0" stroke-width="10"/>
+  </g>
+</svg>

@@ -16,10 +16,22 @@
     "heroImage": "/assets/stories/party-fowl-five-points.png",
     "heroAlt": "Editorial illustration of a hot chicken opening on an East Nashville street corner.",
     "factBox": [
-      { "label": "Opens", "value": "Monday, May 11, 2026" },
-      { "label": "Where", "value": "1016 Woodland St." },
-      { "label": "Ribbon cutting", "value": "10:30 a.m.; doors at 11 a.m." },
-      { "label": "Launch hook", "value": "First 50 guests get limited-edition hats" }
+      {
+        "label": "Opens",
+        "value": "Monday, May 11, 2026"
+      },
+      {
+        "label": "Where",
+        "value": "1016 Woodland St."
+      },
+      {
+        "label": "Ribbon cutting",
+        "value": "10:30 a.m.; doors at 11 a.m."
+      },
+      {
+        "label": "Launch hook",
+        "value": "First 50 guests get limited-edition hats"
+      }
     ],
     "media": [
       {
@@ -96,10 +108,22 @@
     "heroImage": "/assets/stories/gallatin-safety-project.png",
     "heroAlt": "Editorial illustration of Gallatin Pike with cones, crosswalks, storefronts, and a transit bus silhouette.",
     "factBox": [
-      { "label": "Project area", "value": "Main from S. 5th to S. 10th; Gallatin from S. 10th to Briley" },
-      { "label": "Near-term work", "value": "Repaving, crosswalks, school zone signs, intersection build-outs" },
-      { "label": "Longer-term", "value": "Gallatin All-Access Corridor and transit-priority planning" },
-      { "label": "Why it matters", "value": "NDOT identifies the corridor in the High Injury Network" }
+      {
+        "label": "Project area",
+        "value": "Main from S. 5th to S. 10th; Gallatin from S. 10th to Briley"
+      },
+      {
+        "label": "Near-term work",
+        "value": "Repaving, crosswalks, school zone signs, intersection build-outs"
+      },
+      {
+        "label": "Longer-term",
+        "value": "Gallatin All-Access Corridor and transit-priority planning"
+      },
+      {
+        "label": "Why it matters",
+        "value": "NDOT identifies the corridor in the High Injury Network"
+      }
     ],
     "media": [
       {
@@ -184,10 +208,22 @@
     "priority": 132,
     "imageStyle": "permit",
     "factBox": [
-      { "label": "Date", "value": "Monday, May 4, 2026" },
-      { "label": "Location", "value": "East Trinity Lane at Gallatin Pike" },
-      { "label": "Source", "value": "Metro Nashville Police Department" },
-      { "label": "Tone", "value": "Straight news brief; no jokes" }
+      {
+        "label": "Date",
+        "value": "Monday, May 4, 2026"
+      },
+      {
+        "label": "Location",
+        "value": "East Trinity Lane at Gallatin Pike"
+      },
+      {
+        "label": "Source",
+        "value": "Metro Nashville Police Department"
+      },
+      {
+        "label": "Tone",
+        "value": "Straight news brief; no jokes"
+      }
     ],
     "media": [
       {
@@ -236,7 +272,9 @@
       "x": "MNPD says a 58-year-old pedestrian died Monday after being struck by a semi at East Trinity and Gallatin. Straight brief, no jokes.",
       "instagram": "A pedestrian was killed at East Trinity and Gallatin. We are keeping this one plain, sourced, and tied to the larger corridor safety issue.",
       "video": "June delivers a short, restrained safety brief with the MNPD release and the Gallatin corridor context on screen."
-    }
+    },
+    "heroImage": "/assets/stories/fallback-street.svg",
+    "heroAlt": "Stylized East Nashville street scene with traffic cones, storefronts, and skyline shapes."
   },
   {
     "id": "dry-cleaning-basement-east-tonight",
@@ -253,10 +291,22 @@
     "priority": 126,
     "imageStyle": "music",
     "factBox": [
-      { "label": "When", "value": "Sunday, May 10, 2026, 8 p.m." },
-      { "label": "Where", "value": "The Basement East, 917 Woodland St." },
-      { "label": "Listed lineup", "value": "Dry Cleaning with Hotline TNT; JamBase also lists YHWH Nailgun" },
-      { "label": "Reader move", "value": "Check the ticket page before leaving" }
+      {
+        "label": "When",
+        "value": "Sunday, May 10, 2026, 8 p.m."
+      },
+      {
+        "label": "Where",
+        "value": "The Basement East, 917 Woodland St."
+      },
+      {
+        "label": "Listed lineup",
+        "value": "Dry Cleaning with Hotline TNT; JamBase also lists YHWH Nailgun"
+      },
+      {
+        "label": "Reader move",
+        "value": "Check the ticket page before leaving"
+      }
     ],
     "media": [
       {
@@ -305,7 +355,9 @@
       "x": "Tonight at The Basement East: Dry Cleaning at 8 p.m., with Hotline TNT listed. Check the ticket page; third-party lineups are doing little jazz hands.",
       "instagram": "Sunday night post-punk at The Beast. Dry Cleaning, Hotline TNT, and one neighborhood pretending Monday does not exist.",
       "video": "Riff stands under a fake venue marquee and gives the show listing, then sighs at the concept of Sunday ambition."
-    }
+    },
+    "heroImage": "/assets/stories/fallback-music.svg",
+    "heroAlt": "Stylized East Nashville music venue scene with stage lights, microphone, and crowd shapes."
   },
   {
     "id": "eastwood-cleanup-tabla-rasa",
@@ -322,10 +374,22 @@
     "priority": 118,
     "imageStyle": "park",
     "factBox": [
-      { "label": "When", "value": "Monday, May 11, 2026, 6:30-7:30 p.m." },
-      { "label": "Where", "value": "Tabla Rasa Toys" },
-      { "label": "Organizer listing", "value": "NDOT events page" },
-      { "label": "Best use", "value": "Daily brief and social reminder" }
+      {
+        "label": "When",
+        "value": "Monday, May 11, 2026, 6:30-7:30 p.m."
+      },
+      {
+        "label": "Where",
+        "value": "Tabla Rasa Toys"
+      },
+      {
+        "label": "Organizer listing",
+        "value": "NDOT events page"
+      },
+      {
+        "label": "Best use",
+        "value": "Daily brief and social reminder"
+      }
     ],
     "media": [
       {
@@ -368,7 +432,9 @@
       "x": "Eastwood Neighbors cleanup tomorrow at Tabla Rasa Toys, 6:30-7:30 p.m. Civic duty, but mercifully one hour.",
       "instagram": "Eastwood cleanup tomorrow. One hour, local, useful, and probably full of sidewalk intelligence.",
       "video": "Parker delivers a cleanup reminder while ranking trash-grabber posture and sensible shoe choices."
-    }
+    },
+    "heroImage": "/assets/stories/fallback-park.svg",
+    "heroAlt": "Stylized East Nashville park trail scene with trees, sun, and skyline shapes."
   },
   {
     "id": "lost-found-gallatin-food-hub",
@@ -387,10 +453,22 @@
     "heroImage": "/assets/stories/lost-found-gallatin.png",
     "heroAlt": "Editorial illustration of an open-air Gallatin food hub with food trucks, string lights, and neighbors at picnic tables.",
     "factBox": [
-      { "label": "Where", "value": "3104 Gallatin Pike" },
-      { "label": "What", "value": "Open-air food, drink, retail, and gathering hub" },
-      { "label": "Coming soon", "value": "Sarabha's Creamery is targeting late May" },
-      { "label": "Parking note", "value": "Official FAQ lists 18 onsite spots and encourages rideshare/transit if drinking" }
+      {
+        "label": "Where",
+        "value": "3104 Gallatin Pike"
+      },
+      {
+        "label": "What",
+        "value": "Open-air food, drink, retail, and gathering hub"
+      },
+      {
+        "label": "Coming soon",
+        "value": "Sarabha's Creamery is targeting late May"
+      },
+      {
+        "label": "Parking note",
+        "value": "Official FAQ lists 18 onsite spots and encourages rideshare/transit if drinking"
+      }
     ],
     "media": [
       {
@@ -471,10 +549,22 @@
     "priority": 116,
     "imageStyle": "park",
     "factBox": [
-      { "label": "May 16", "value": "Naturalist Station, 8:30-10 a.m.; Back Porch Jam, 1-3 p.m." },
-      { "label": "May 20", "value": "Symphony Storytime, 10-10:30 a.m." },
-      { "label": "Where", "value": "Shelby Bottoms Nature Center / Cornelia Fort Airpark" },
-      { "label": "Check first", "value": "Some programs may require registration or update due to weather" }
+      {
+        "label": "May 16",
+        "value": "Naturalist Station, 8:30-10 a.m.; Back Porch Jam, 1-3 p.m."
+      },
+      {
+        "label": "May 20",
+        "value": "Symphony Storytime, 10-10:30 a.m."
+      },
+      {
+        "label": "Where",
+        "value": "Shelby Bottoms Nature Center / Cornelia Fort Airpark"
+      },
+      {
+        "label": "Check first",
+        "value": "Some programs may require registration or update due to weather"
+      }
     ],
     "media": [
       {
@@ -526,7 +616,9 @@
       "x": "Shelby Bottoms has May events worth putting on the fridge: Naturalist Station, Back Porch Jam, and Symphony Storytime.",
       "instagram": "Nature is scheduling things at us again. Shelby Bottoms has a very reasonable little calendar and we support it.",
       "video": "Parker gives the Shelby Bottoms calendar like a survival briefing for families and people who need trees."
-    }
+    },
+    "heroImage": "/assets/stories/fallback-park.svg",
+    "heroAlt": "Stylized East Nashville park trail scene with trees, sun, and skyline shapes."
   },
   {
     "id": "traffic-gallatin-ballet",
@@ -563,7 +655,9 @@
       "x": "Gallatin is once again less of a road and more of a group project with brake lights.",
       "instagram": "The daily Gallatin crawl: cones, vibes, and everyone pretending this route was a choice.",
       "video": "Parker stands at a crosswalk with coffee and declares the traffic cone East Nashville's most stable resident."
-    }
+    },
+    "heroImage": "/assets/stories/fallback-street.svg",
+    "heroAlt": "Stylized East Nashville street scene with traffic cones, storefronts, and skyline shapes."
   },
   {
     "id": "restaurant-soft-launch",
@@ -600,7 +694,9 @@
       "x": "A new Five Points spot appears to be in the soft-launch fog machine phase.",
       "instagram": "New place, soft launch, everyone suddenly an investor in the comment section.",
       "video": "Mabel reviews the sacred stages of an East Nashville restaurant opening: rumor, blurry photo, patio judgment."
-    }
+    },
+    "heroImage": "/assets/stories/fallback-food.svg",
+    "heroAlt": "Stylized East Nashville restaurant scene with a counter, plate, and storefront awning."
   },
   {
     "id": "sidewalk-parent-index",
@@ -637,7 +733,9 @@
       "x": "Launching soon: the Sidewalk Parent Index, because some crosswalks feel theoretical.",
       "instagram": "Shelby-area parent logistics, ranked by coffee loss and stroller vibration.",
       "video": "Parker attempts to narrate a peaceful walk and immediately finds three civic side quests."
-    }
+    },
+    "heroImage": "/assets/stories/fallback-park.svg",
+    "heroAlt": "Stylized East Nashville park trail scene with trees, sun, and skyline shapes."
   },
   {
     "id": "permit-file-whisper",
@@ -674,7 +772,9 @@
       "x": "A permit file is not boring if it explains the fight everyone is about to have.",
       "instagram": "June found the boring document. Unfortunately it matters.",
       "video": "June opens a permit file like a detective opening a cold case."
-    }
+    },
+    "heroImage": "/assets/stories/fallback-permit.svg",
+    "heroAlt": "Stylized permit desk with forms, maps, sticky notes, and measuring marks."
   },
   {
     "id": "weekend-chaos-calendar",
@@ -711,7 +811,9 @@
       "x": "The weekend calendar is doing a lot, emotionally and logistically.",
       "instagram": "Your weekend options, sorted by vibe, distance, and how much you enjoy standing near a food truck.",
       "video": "Lila runs through the weekend like a weather report for extroverts."
-    }
+    },
+    "heroImage": "/assets/stories/fallback-event.svg",
+    "heroAlt": "Stylized East Nashville event board with flyers, calendar cards, and confetti shapes."
   },
   {
     "id": "what-people-are-mad-about",
@@ -748,7 +850,9 @@
       "x": "This week's neighborhood outrage forecast includes parking, patios, and one sign with too much confidence.",
       "instagram": "What people are mad about this week, presented with love and a small amount of fear.",
       "video": "Mabel reads the outrage forecast like severe weather."
-    }
+    },
+    "heroImage": "/assets/stories/fallback-gossip.svg",
+    "heroAlt": "Stylized neighborhood chatter scene with speech bubbles and group text shapes."
   },
   {
     "id": "music-venue-ghost",
@@ -785,7 +889,9 @@
       "x": "Riff's first venue test: does the room have soul, or just a lighting package?",
       "instagram": "East side venue energy, judged by sound, crowd, and mural desperation.",
       "video": "Riff stands outside a venue and describes Edison bulbs as a cry for help."
-    }
+    },
+    "heroImage": "/assets/stories/fallback-music.svg",
+    "heroAlt": "Stylized East Nashville music venue scene with stage lights, microphone, and crowd shapes."
   },
   {
     "id": "classifieds-launch",
@@ -822,6 +928,8 @@
       "x": "East Nashville classifieds should include jobs, gear, kid stuff, and public pleas about cardboard.",
       "instagram": "Coming soon: classifieds for the exact radius where your weird extra chair might find love.",
       "video": "Lila pitches classifieds like QVC for neighborhood odds and ends."
-    }
+    },
+    "heroImage": "/assets/stories/fallback-classifieds.svg",
+    "heroAlt": "Stylized neighborhood classifieds board with posted cards, pins, and local notes."
   }
 ]

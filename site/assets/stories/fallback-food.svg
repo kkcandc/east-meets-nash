@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">East Nashville restaurant scene</title>
+  <desc id="desc">A stylized restaurant counter with a plate, storefront awning, and neighborhood street shapes.</desc>
+  <rect width="1200" height="720" fill="#f8f2df"/>
+  <rect x="62" y="92" width="1076" height="416" rx="18" fill="#f5d35f" stroke="#1f1b18" stroke-width="10"/>
+  <path d="M62 178h1076" stroke="#1f1b18" stroke-width="10"/>
+  <path d="M92 92l74 86 74-86 74 86 74-86 74 86 74-86 74 86 74-86 74 86 74-86 74 86 74-86 74 86" fill="#ef4d37" stroke="#1f1b18" stroke-width="8"/>
+  <rect x="120" y="238" width="264" height="270" fill="#fffaf0" stroke="#1f1b18" stroke-width="8"/>
+  <rect x="816" y="238" width="244" height="270" fill="#fffaf0" stroke="#1f1b18" stroke-width="8"/>
+  <circle cx="602" cy="466" r="176" fill="#fffaf0" stroke="#1f1b18" stroke-width="10"/>
+  <circle cx="602" cy="466" r="118" fill="#ef4d37" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M504 438c68-72 138-74 200-8 28 30 12 72-28 78-34 6-44 34-88 36-42 2-76-28-98-56-14-20-10-34 14-50z" fill="#8f352b" stroke="#1f1b18" stroke-width="8"/>
+  <g fill="#1b8a5a" stroke="#1f1b18" stroke-width="6">
+    <circle cx="526" cy="506" r="22"/>
+    <circle cx="678" cy="494" r="18"/>
+    <circle cx="602" cy="408" r="16"/>
+  </g>
+  <path d="M110 586h980" stroke="#1f1b18" stroke-width="10"/>
+  <path d="M188 650h824" stroke="#ef4d37" stroke-width="22" stroke-linecap="round"/>
+  <g stroke="#1f1b18" stroke-width="10" stroke-linecap="round">
+    <path d="M462 252c24 28 20 58-10 88M604 232c28 34 24 76-12 118M742 254c24 30 20 62-10 92"/>
+  </g>
+</svg>

@@ -9,6 +9,14 @@ interface StoryPageProps {
   params: Promise<{ slug: string }>;
 }
 
+function featuredImage(story: NonNullable<ReturnType<typeof getStoryBySlug>>) {
+  return story.heroImage || `/assets/stories/fallback-${story.imageStyle || "street"}.svg`;
+}
+
+function featuredAlt(story: NonNullable<ReturnType<typeof getStoryBySlug>>) {
+  return story.heroAlt || `${story.beat} featured image for ${story.title}`;
+}
+
 export async function generateStaticParams() {
   return getStories().map((story) => ({ slug: story.slug }));
 }
@@ -50,11 +58,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
         <h1>{story.title}</h1>
         <p className="article-deck">{story.deck}</p>
         <ReactionPanel reactions={story.reactions} storyId={story.id} />
-        {story.heroImage ? (
-          <img className="story-art story-image article-hero-image" src={story.heroImage} alt={story.heroAlt || ""} />
-        ) : (
-          <div className={`story-art art-${story.imageStyle}`} />
-        )}
+        <img className="story-art story-image article-hero-image" src={featuredImage(story)} alt={featuredAlt(story)} />
         <div className="article-body">
           {paragraphs.map((paragraph, index) => (
             <div className="article-flow-block" key={paragraph}>

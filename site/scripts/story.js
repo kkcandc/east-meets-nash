@@ -191,10 +191,9 @@ function factBox(story) {
 }
 
 function storyHero(story) {
-  if (story.heroImage) {
-    return `<img class="story-art story-image article-hero-image" src="${escapeHtml(story.heroImage)}" alt="${escapeHtml(story.heroAlt || "")}" />`;
-  }
-  return `<div class="story-art art-${escapeHtml(story.imageStyle || "street")}"></div>`;
+  const image = story.heroImage || `/assets/stories/fallback-${story.imageStyle || "street"}.svg`;
+  const alt = story.heroAlt || `${story.beat} featured image for ${story.title}`;
+  return `<img class="story-art story-image article-hero-image" src="${escapeHtml(image)}" alt="${escapeHtml(alt)}" />`;
 }
 
 function renderStory(story, reporter) {

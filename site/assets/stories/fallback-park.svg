@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">East Nashville park scene</title>
+  <desc id="desc">A stylized park trail with trees, sun, and neighborhood skyline shapes.</desc>
+  <rect width="1200" height="720" fill="#f8f2df"/>
+  <rect width="1200" height="420" fill="#6fa4dd" opacity=".36"/>
+  <circle cx="1010" cy="130" r="66" fill="#f5d35f" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M0 424c160-70 318-78 474-22 154 56 302 48 444-12 102-42 196-48 282-18v348H0z" fill="#1b8a5a" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M526 720c44-130 104-222 178-276 58-42 118-58 180-52-112 84-180 190-204 328z" fill="#f5d35f" stroke="#1f1b18" stroke-width="8"/>
+  <g stroke="#1f1b18" stroke-width="10" stroke-linecap="round">
+    <path d="M212 430V246M384 414V206M930 392V208"/>
+  </g>
+  <g fill="#2f7dd1" stroke="#1f1b18" stroke-width="8">
+    <circle cx="212" cy="220" r="84"/>
+    <circle cx="154" cy="268" r="58"/>
+    <circle cx="272" cy="278" r="64"/>
+    <circle cx="384" cy="174" r="78"/>
+    <circle cx="328" cy="230" r="58"/>
+    <circle cx="442" cy="236" r="60"/>
+    <circle cx="930" cy="178" r="86"/>
+    <circle cx="866" cy="238" r="60"/>
+    <circle cx="996" cy="240" r="62"/>
+  </g>
+  <rect x="116" y="514" width="184" height="100" rx="10" fill="#fffaf0" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M140 548h136M140 580h96" stroke="#ef4d37" stroke-width="12" stroke-linecap="round"/>
+  <path d="M726 612h216" stroke="#1f1b18" stroke-width="10" stroke-linecap="round"/>
+</svg>

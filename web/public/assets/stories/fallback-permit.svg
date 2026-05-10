@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Permit file illustration</title>
+  <desc id="desc">A stylized permit desk with maps, forms, sticky notes, and measuring marks.</desc>
+  <rect width="1200" height="720" fill="#f8f2df"/>
+  <path d="M0 0h1200v720H0z" fill="#2f7dd1" opacity=".22"/>
+  <g stroke="#6f6258" stroke-width="2" opacity=".58">
+    <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200M0 630h1200"/>
+    <path d="M120 0v720M240 0v720M360 0v720M480 0v720M600 0v720M720 0v720M840 0v720M960 0v720M1080 0v720"/>
+  </g>
+  <rect x="118" y="96" width="420" height="528" rx="14" fill="#fffaf0" stroke="#1f1b18" stroke-width="10" transform="rotate(-3 328 360)"/>
+  <rect x="612" y="132" width="430" height="468" rx="14" fill="#f5d35f" stroke="#1f1b18" stroke-width="10" transform="rotate(4 827 366)"/>
+  <g stroke="#1f1b18" stroke-width="12" stroke-linecap="round">
+    <path d="M188 206h284M188 276h250M188 346h298M188 416h214M188 486h260"/>
+    <path d="M672 250h306M672 326h250M672 402h284M672 478h218"/>
+  </g>
+  <g fill="#ef4d37" stroke="#1f1b18" stroke-width="8">
+    <rect x="414" y="144" width="170" height="116" rx="10"/>
+    <rect x="722" y="504" width="170" height="116" rx="10"/>
+  </g>
+  <path d="M456 182h86M456 218h60M764 542h86M764 578h60" stroke="#fffaf0" stroke-width="10" stroke-linecap="round"/>
+  <path d="M526 632l394-468" stroke="#1f1b18" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="530" cy="632" r="28" fill="#1b8a5a" stroke="#1f1b18" stroke-width="8"/>
+</svg>

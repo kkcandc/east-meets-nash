@@ -45,6 +45,14 @@ function storyUrl(story) {
   return `/story.html?id=${encodeURIComponent(story.id)}`;
 }
 
+function featuredImage(story) {
+  return story.heroImage || `/assets/stories/fallback-${story.imageStyle || "street"}.svg`;
+}
+
+function featuredAlt(story) {
+  return story.heroAlt || `${story.beat} featured image for ${story.title}`;
+}
+
 function renderStory(story, variant = "standard") {
   const node = storyTemplate.content.firstElementChild.cloneNode(true);
   const art = node.querySelector(".story-art");
@@ -57,15 +65,11 @@ function renderStory(story, variant = "standard") {
   if (variant === "lead") node.classList.add("lead-card");
   if (variant === "package") node.classList.add("package-card");
   if (isSeriousStory(story)) node.classList.add("serious-card");
-  if (story.heroImage) {
-    const image = document.createElement("img");
-    image.className = "story-art story-image";
-    image.src = story.heroImage;
-    image.alt = story.heroAlt || "";
-    art.replaceWith(image);
-  } else {
-    art.classList.add(`art-${story.imageStyle || "street"}`);
-  }
+  const image = document.createElement("img");
+  image.className = "story-art story-image";
+  image.src = featuredImage(story);
+  image.alt = featuredAlt(story);
+  art.replaceWith(image);
 
   meta.innerHTML = `
     <span class="pill ${isSeriousStory(story) ? "serious" : "hot"}">${escapeHtml(story.label)}</span>
