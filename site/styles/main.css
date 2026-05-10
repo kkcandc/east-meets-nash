@@ -819,6 +819,10 @@ a {
   padding-top: 0;
 }
 
+.source-engine-panel {
+  margin: 28px 28px 0;
+}
+
 .desk-panel {
   border: 2px solid var(--ink);
   border-radius: 8px;
@@ -853,6 +857,135 @@ a {
 .source-list {
   display: grid;
   gap: 10px;
+}
+
+.source-workflow,
+.source-coverage {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.source-workflow {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.source-workflow article,
+.source-coverage article,
+.source-tier-card,
+.source-catalog-list article {
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  background: var(--paper);
+  padding: 14px;
+}
+
+.source-workflow article:nth-child(2),
+.source-catalog-list article:nth-child(2n) {
+  background: var(--paper-deep);
+}
+
+.source-workflow strong,
+.source-coverage strong,
+.source-tier-card strong {
+  display: block;
+  font-weight: 950;
+}
+
+.source-workflow p,
+.source-catalog-list p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  line-height: 1.42;
+}
+
+.source-coverage span,
+.source-tier-heading > span {
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+
+.source-coverage strong,
+.source-catalog-list small {
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.source-catalog-grid {
+  display: grid;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.source-tier-card {
+  background: #fffaf0;
+}
+
+.source-tier-heading {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 12px;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--line);
+}
+
+.source-tier-heading h3 {
+  margin: 2px 0 0;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.source-catalog-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.source-catalog-list article {
+  display: grid;
+  gap: 10px;
+}
+
+.source-catalog-list small {
+  display: block;
+  margin-top: 4px;
+  font-weight: 850;
+}
+
+.source-catalog-list dl {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+
+.source-catalog-list dl div {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 8px;
+}
+
+.source-catalog-list dt {
+  color: var(--muted);
+  font-weight: 950;
+}
+
+.source-catalog-list dd {
+  margin: 0;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.source-catalog-list a {
+  width: fit-content;
+  color: var(--tomato);
+  font-weight: 950;
+  text-transform: uppercase;
 }
 
 .source-item {
@@ -1895,6 +2028,7 @@ a {
   }
 
   .desk-hero,
+  .source-engine-panel,
   .desk-layout,
   .commerce-hero,
   .checkout-layout,
@@ -1943,10 +2077,14 @@ a {
   }
 
   .desk-metrics,
+  .source-workflow,
+  .source-coverage,
+  .source-catalog-list,
   .commerce-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .source-engine-panel,
   .commerce-panel {
     margin: 0 16px 24px;
   }

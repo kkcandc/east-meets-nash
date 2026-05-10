@@ -51,6 +51,24 @@ export default function SourceDeskPage() {
                       <dt>Status</dt>
                       <dd>{item.status}</dd>
                     </div>
+                    {item.cadence ? (
+                      <div>
+                        <dt>Cadence</dt>
+                        <dd>{item.cadence}</dd>
+                      </div>
+                    ) : null}
+                    {item.automation ? (
+                      <div>
+                        <dt>Collection</dt>
+                        <dd>{item.automation}</dd>
+                      </div>
+                    ) : null}
+                    {item.verificationRule ? (
+                      <div>
+                        <dt>Verify</dt>
+                        <dd>{item.verificationRule}</dd>
+                      </div>
+                    ) : null}
                     <div>
                       <dt>Format</dt>
                       <dd>{item.publishFormat}</dd>

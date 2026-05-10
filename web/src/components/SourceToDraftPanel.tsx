@@ -28,9 +28,13 @@ function draftBodyFor(item: SourceItem): string {
     `Source to verify: ${item.source}`,
     `Source URL: ${item.url}`,
     `Risk: ${item.risk}. Confidence: ${item.confidence}.`,
+    item.cadence ? `Cadence: ${item.cadence}.` : "",
+    item.verificationRule ? `Verification rule: ${item.verificationRule}` : "",
     "",
     "Drafting notes: lead with the useful fact, label the sourcing clearly, then let the joke land after the reader knows what actually happened.",
-  ].join("\n");
+  ]
+    .filter(Boolean)
+    .join("\n");
 }
 
 export function SourceToDraftPanel({ items }: { items: SourceItem[] }) {
@@ -85,7 +89,7 @@ export function SourceToDraftPanel({ items }: { items: SourceItem[] }) {
                 <h3>{draftTitleFor(item)}</h3>
                 <p>{item.suggestedAngle}</p>
                 <small>
-                  {item.source} / {item.zone} / {item.risk} risk
+                  {item.source} / {item.zone} / {item.risk} risk{item.cadence ? ` / ${item.cadence}` : ""}
                 </small>
               </div>
               <div className="button-row">

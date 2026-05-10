@@ -1,5 +1,10 @@
 # Source Map
 
+The deeper operating workflow now lives in `docs/source-operating-system.md`. The implementation data lives in:
+
+- `data/sources.json` for monitored source streams.
+- `data/source-items.json` for story leads generated from those streams.
+
 ## Priority Sources
 
 1. East Nashville private Facebook group

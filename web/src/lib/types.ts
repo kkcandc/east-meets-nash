@@ -59,6 +59,9 @@ export interface SourceItem {
   risk: "Low" | "Medium" | "High";
   score: number;
   status: string;
+  automation?: string;
+  cadence?: string;
+  verificationRule?: string;
   suggestedReporter: string;
   suggestedLabel: ConfidenceLabel;
   suggestedAngle: string;

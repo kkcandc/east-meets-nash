@@ -1,5 +1,6 @@
 const state = {
   sources: [],
+  sourceCatalog: [],
   reporters: new Map(),
   sponsors: [],
   classifieds: [],
@@ -9,6 +10,8 @@ const state = {
 
 const sourceBeatFilter = document.querySelector("#sourceBeatFilter");
 const sourceRiskFilter = document.querySelector("#sourceRiskFilter");
+const sourceCatalog = document.querySelector("#sourceCatalog");
+const sourceCoverage = document.querySelector("#sourceCoverage");
 const sourceList = document.querySelector("#sourceList");
 const assignmentTitle = document.querySelector("#assignmentTitle");
 const assignmentDetail = document.querySelector("#assignmentDetail");
@@ -56,6 +59,10 @@ function reporterFor(id) {
   };
 }
 
+function publicStatus(source) {
+  return !source.status.toLowerCase().includes("needs") && !source.status.toLowerCase().includes("parked");
+}
+
 function filteredSources() {
   const beat = sourceBeatFilter.value;
   const risk = sourceRiskFilter.value;
@@ -68,6 +75,7 @@ function filteredSources() {
 function renderMetrics() {
   const ready = state.sources.filter((item) => !item.status.toLowerCase().includes("blocked")).length;
   const blocked = state.sources.length - ready;
+  const publicSources = state.sourceCatalog.filter(publicStatus).length;
   const inventory = state.sponsors.reduce((total, product) => total + product.inventory, 0);
   const revenue = state.sponsors.reduce((total, product) => total + product.price * product.inventory, 0);
 
@@ -75,9 +83,72 @@ function renderMetrics() {
     <article><span>${state.sources.length}</span><strong>Leads</strong></article>
     <article><span>${ready}</span><strong>Ready</strong></article>
     <article><span>${blocked}</span><strong>Blocked</strong></article>
-    <article><span>${inventory}</span><strong>Sellable slots</strong></article>
+    <article><span>${publicSources}</span><strong>Public source streams</strong></article>
     <article><span>${money(revenue)}</span><strong>Mock inventory</strong></article>
   `;
+}
+
+function renderSourceCatalog() {
+  const tiers = ["Anchor", "Daily", "Weekly", "Later"];
+  const tierCounts = tiers.map((tier) => ({
+    count: state.sourceCatalog.filter((source) => source.tier === tier).length,
+    tier,
+  }));
+  const readyCount = state.sourceCatalog.filter(publicStatus).length;
+  const beatCount = unique(state.sourceCatalog.flatMap((source) => source.beats || [])).length;
+  const zoneCount = unique(state.sourceCatalog.flatMap((source) => source.zones || [])).length;
+
+  sourceCoverage.innerHTML = `
+    <article><span>${state.sourceCatalog.length}</span><strong>Monitored sources</strong></article>
+    <article><span>${readyCount}</span><strong>Usable without access</strong></article>
+    <article><span>${beatCount}</span><strong>Beats covered</strong></article>
+    <article><span>${zoneCount}</span><strong>Zones/areas covered</strong></article>
+  `;
+
+  sourceCatalog.innerHTML = tierCounts
+    .map(({ tier, count }) => {
+      const sources = state.sourceCatalog.filter((source) => source.tier === tier);
+      if (!sources.length) return "";
+      return `
+        <section class="source-tier-card">
+          <div class="source-tier-heading">
+            <span>${count}</span>
+            <div>
+              <p class="eyebrow">${escapeHtml(tier)} Sources</p>
+              <h3>${escapeHtml(sourceTierTitle(tier))}</h3>
+            </div>
+          </div>
+          <div class="source-catalog-list">
+            ${sources
+              .map(
+                (source) => `
+                  <article>
+                    <div>
+                      <strong>${escapeHtml(source.name)}</strong>
+                      <small>${escapeHtml(source.type)} / ${escapeHtml(source.status)} / ${escapeHtml(source.cadence)}</small>
+                    </div>
+                    <p>${escapeHtml(source.publishUse)}</p>
+                    <dl>
+                      <div><dt>Beats</dt><dd>${(source.beats || []).map(escapeHtml).join(" / ")}</dd></div>
+                      <div><dt>Next</dt><dd>${escapeHtml(source.nextStep)}</dd></div>
+                    </dl>
+                    <a href="${escapeHtml(source.url)}">Open source</a>
+                  </article>
+                `,
+              )
+              .join("")}
+          </div>
+        </section>
+      `;
+    })
+    .join("");
+}
+
+function sourceTierTitle(tier) {
+  if (tier === "Anchor") return "Daily story engines";
+  if (tier === "Daily") return "Fast recurring scans";
+  if (tier === "Weekly") return "Depth and community texture";
+  return "Worth having, not worth blocking launch";
 }
 
 function renderSources() {
@@ -122,12 +193,15 @@ function renderAssignment() {
     <dl>
       <div><dt>Source</dt><dd><a href="${escapeHtml(item.url)}">${escapeHtml(item.source)}</a></dd></div>
       <div><dt>Status</dt><dd>${escapeHtml(item.status)}</dd></div>
+      <div><dt>Cadence</dt><dd>${escapeHtml(item.cadence || "As needed")}</dd></div>
       <div><dt>Reporter</dt><dd>${escapeHtml(reporter.name)}</dd></div>
       <div><dt>Label</dt><dd>${escapeHtml(item.suggestedLabel)}</dd></div>
       <div><dt>Format</dt><dd>${escapeHtml(item.publishFormat)}</dd></div>
     </dl>
     <h3>Suggested Angle</h3>
     <p>${escapeHtml(item.suggestedAngle)}</p>
+    <h3>Verification Rule</h3>
+    <p>${escapeHtml(item.verificationRule || "Attach the source trail before publishing.")}</p>
     <h3>Draft Headline</h3>
     <p class="draft-headline">${escapeHtml(makeHeadline(item, reporter))}</p>
     <h3>Next Step</h3>
@@ -147,6 +221,9 @@ function makeHeadline(item, reporter) {
 function nextStep(item) {
   if (item.status.toLowerCase().includes("blocked")) {
     return "Wait for access workflow, then capture screenshots/source notes before drafting.";
+  }
+  if (item.status.toLowerCase().includes("needs")) {
+    return `${item.status}. Build the missing input, then rerun this lead.`;
   }
   if (item.confidence === "Official") {
     return "Pull the public record, summarize the document, attach source link, then auto-publish as a confirmed item.";
@@ -177,6 +254,10 @@ function renderSocialKit() {
     <article>
       <strong>Video Script</strong>
       <p>${escapeHtml(reporter.name)} opens with: "East Nashville, gather around. ${escapeHtml(item.title)}." Then one fact, one source note, one joke, and the seal end card.</p>
+    </article>
+    <article>
+      <strong>Newsletter Block</strong>
+      <p><b>${escapeHtml(headline)}</b> ${escapeHtml(item.suggestedAngle)} Source label: ${escapeHtml(item.suggestedLabel)}.</p>
     </article>
     <article>
       <strong>Higgsfield Prompt</strong>
@@ -233,8 +314,9 @@ function renderCommerce() {
 }
 
 async function loadData() {
-  const [sources, reporters, sponsors, classifieds, calendar] = await Promise.all([
+  const [sources, sourceCatalogData, reporters, sponsors, classifieds, calendar] = await Promise.all([
     fetch("/data/source-items.json").then((res) => res.json()),
+    fetch("/data/sources.json").then((res) => res.json()),
     fetch("/data/reporters.json").then((res) => res.json()),
     fetch("/data/sponsor-products.json").then((res) => res.json()),
     fetch("/data/classifieds.json").then((res) => res.json()),
@@ -242,6 +324,7 @@ async function loadData() {
   ]);
 
   state.sources = sources;
+  state.sourceCatalog = sourceCatalogData;
   state.reporters = new Map(reporters.map((reporter) => [reporter.id, reporter]));
   state.sponsors = sponsors;
   state.classifieds = classifieds;
@@ -252,6 +335,7 @@ async function loadData() {
   fillSelect(sourceRiskFilter, unique(state.sources.map((item) => item.risk)));
 
   renderMetrics();
+  renderSourceCatalog();
   renderSources();
   renderAssignment();
   renderSocialKit();
