@@ -9,7 +9,21 @@ type SubscribeState =
   | { status: "success"; message: string }
   | { status: "error"; message: string };
 
-export function SubscribeForm({ surface = "homepage" }: { surface?: string }) {
+interface SubscribeFormProps {
+  surface?: string;
+  label?: string;
+  buttonLabel?: string;
+  placeholder?: string;
+  className?: string;
+}
+
+export function SubscribeForm({
+  surface = "homepage",
+  label = "Daily email",
+  buttonLabel = "Join",
+  placeholder = "neighbor@example.com",
+  className = "",
+}: SubscribeFormProps) {
   const [email, setEmail] = useState("");
   const [state, setState] = useState<SubscribeState>({ status: "idle", message: "" });
 
@@ -47,19 +61,19 @@ export function SubscribeForm({ surface = "homepage" }: { surface?: string }) {
   }
 
   return (
-    <form className="signup-form" onSubmit={onSubmit}>
-      <label htmlFor={`newsletter-email-${surface}`}>Daily email</label>
+    <form className={`signup-form ${className}`.trim()} onSubmit={onSubmit}>
+      <label htmlFor={`newsletter-email-${surface}`}>{label}</label>
       <div>
         <input
           id={`newsletter-email-${surface}`}
           type="email"
           value={email}
           onChange={(event) => setEmail(event.target.value)}
-          placeholder="neighbor@example.com"
+          placeholder={placeholder}
           required
         />
         <button type="submit" disabled={state.status === "loading"}>
-          Join
+          {state.status === "loading" ? "Joining..." : buttonLabel}
         </button>
       </div>
       {state.message ? <p className={`form-note ${state.status}`}>{state.message}</p> : null}

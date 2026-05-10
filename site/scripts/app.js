@@ -183,15 +183,21 @@ async function loadData() {
   sortHomepageStories();
 }
 
-document.querySelector(".signup-form").addEventListener("submit", (event) => {
-  event.preventDefault();
-  const input = document.querySelector("#emailInput");
-  if (!input.value.trim()) return;
-  input.value = "";
-  loginButton.textContent = "Subscribed";
-  setTimeout(() => {
-    loginButton.textContent = "Login";
-  }, 1800);
+document.querySelectorAll(".signup-form").forEach((form) => {
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const input = form.querySelector('input[type="email"]');
+    const button = form.querySelector('button[type="submit"]');
+    if (!input?.value.trim()) return;
+    input.value = "";
+    if (button) {
+      const label = button.textContent;
+      button.textContent = "Joined";
+      setTimeout(() => {
+        button.textContent = label;
+      }, 1800);
+    }
+  });
 });
 
 loginButton.addEventListener("click", () => {

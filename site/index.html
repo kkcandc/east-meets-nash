@@ -34,6 +34,22 @@
       <button class="atxp-button" type="button" id="loginButton">Login</button>
     </header>
 
+    <section class="conversion-bar" id="join" aria-label="Join East Meets Nash">
+      <div>
+        <p class="eyebrow">Free Morning Brief</p>
+        <strong>Get the East Nashville briefing before the group chat starts yelling.</strong>
+        <span>Daily email now. Account perks, classifieds, credits, and comments next.</span>
+      </div>
+      <form class="signup-form compact-signup-form">
+        <label for="topEmailInput">Email</label>
+        <div>
+          <input id="topEmailInput" type="email" placeholder="you@example.com" required />
+          <button type="submit">Join free</button>
+        </div>
+      </form>
+      <a class="conversion-login-link" href="/feed.html">Create account</a>
+    </section>
+
     <main id="front">
       <section class="front-layout" aria-label="East Meets Nash front page">
         <div class="lead-column">
@@ -45,6 +61,20 @@
               fingerprints on it.
             </p>
           </div>
+          <section class="capture-panel">
+            <div>
+              <p class="eyebrow">Do Not Miss The Brief</p>
+              <h2>Get the useful stuff, the weird stuff, and what people are mad about.</h2>
+              <p>One email. Very East Nashville. Free while we are still behaving like a startup with a press pass.</p>
+            </div>
+            <form class="signup-form">
+              <label for="inlineEmailInput">Your email</label>
+              <div>
+                <input id="inlineEmailInput" type="email" placeholder="neighbor@example.com" required />
+                <button type="submit">Send me the brief</button>
+              </div>
+            </form>
+          </section>
           <div id="leadStory"></div>
           <div class="story-grid" id="storyGrid"></div>
         </div>
@@ -57,10 +87,11 @@
             <form class="signup-form">
               <label for="emailInput">Daily email</label>
               <div>
-                <input id="emailInput" type="email" placeholder="neighbor@example.com" />
+                <input id="emailInput" type="email" placeholder="neighbor@example.com" required />
                 <button type="submit">Join</button>
               </div>
             </form>
+            <a class="big-link-button" href="/feed.html">Create Account</a>
           </section>
 
           <section class="wallet-panel">

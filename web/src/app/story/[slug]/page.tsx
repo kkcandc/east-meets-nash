@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { SubscribeForm } from "@/components/SubscribeForm";
 import { formatReactionLabel, getReporter, getStories, getStoryBySlug } from "@/lib/content";
 
 interface StoryPageProps {
@@ -58,6 +59,17 @@ export default async function StoryPage({ params }: StoryPageProps) {
       </article>
 
       <aside className="article-rail">
+        <section className="rail-card capture-rail-card">
+          <p className="eyebrow">Get The Brief</p>
+          <h2>Like this kind of local trouble?</h2>
+          <p>Get the morning brief and create an account when personalization opens.</p>
+          <SubscribeForm
+            surface={`story_${story.id}`}
+            label="Email"
+            buttonLabel="Join free"
+            placeholder="neighbor@example.com"
+          />
+        </section>
         <section className="rail-card">
           <p className="eyebrow">Filed By</p>
           <h2>{reporter.name}</h2>

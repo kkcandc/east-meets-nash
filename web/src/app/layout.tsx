@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { ConversionBar } from "@/components/ConversionBar";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             Login
           </Link>
         </header>
+        <ConversionBar />
         {children}
       </body>
     </html>

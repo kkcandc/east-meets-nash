@@ -113,6 +113,53 @@ a {
   background: var(--gold);
 }
 
+.conversion-bar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 480px) auto;
+  gap: 16px;
+  align-items: center;
+  padding: 12px 28px;
+  border-bottom: 2px solid var(--ink);
+  background: var(--ink);
+  color: #fffaf0;
+}
+
+.conversion-bar .eyebrow {
+  margin-bottom: 4px;
+  color: var(--gold);
+}
+
+.conversion-bar strong,
+.conversion-bar span {
+  display: block;
+}
+
+.conversion-bar strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.2rem;
+  line-height: 1.05;
+}
+
+.conversion-bar span {
+  margin-top: 4px;
+  color: rgba(255, 250, 240, 0.82);
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.conversion-login-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  border: 2px solid #fffaf0;
+  border-radius: 8px;
+  color: #fffaf0;
+  padding: 8px 11px;
+  font-weight: 950;
+  text-decoration: none;
+}
+
 .masthead,
 .desk-hero,
 .issue-hero,
@@ -209,6 +256,35 @@ h3 {
 
 .home-front {
   padding-top: 26px;
+}
+
+.capture-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
+  gap: 18px;
+  align-items: center;
+  margin-bottom: 18px;
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  background: var(--gold);
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+
+.capture-panel h2,
+.capture-panel p {
+  margin: 0;
+}
+
+.capture-panel h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.05;
+}
+
+.capture-panel p:not(.eyebrow) {
+  margin-top: 8px;
+  color: #403830;
+  line-height: 1.45;
 }
 
 .section-heading {
@@ -432,6 +508,10 @@ h3 {
   margin-top: 16px;
 }
 
+.compact-signup-form {
+  margin-top: 0;
+}
+
 .signup-form label {
   font-weight: 900;
 }
@@ -462,6 +542,11 @@ h3 {
   font-weight: 950;
   cursor: pointer;
   box-shadow: 3px 3px 0 var(--ink);
+}
+
+.conversion-bar .signup-form label,
+.conversion-bar .form-note {
+  color: #fffaf0;
 }
 
 .form-note {
@@ -924,6 +1009,7 @@ dd {
 
 @media (max-width: 1040px) {
   .site-header,
+  .conversion-bar,
   .masthead,
   .front-layout,
   .feed-layout,
@@ -945,6 +1031,7 @@ dd {
 
   .story-grid,
   .topic-grid,
+  .capture-panel,
   .sponsor-shelf {
     grid-template-columns: 1fr;
   }
@@ -970,6 +1057,7 @@ dd {
 
 @media (max-width: 720px) {
   .site-header,
+  .conversion-bar,
   .masthead,
   .desk-hero,
   .issue-hero,

@@ -18,6 +18,19 @@ export default function HomePage() {
             <h1>What East Nashville Is Talking About</h1>
             <p>Openings, traffic pain, permits, neighborhood drama, and anything else with local fingerprints on it.</p>
           </div>
+          <section className="capture-panel">
+            <div>
+              <p className="eyebrow">Do Not Miss The Brief</p>
+              <h2>Get the useful stuff, the weird stuff, and what people are mad about.</h2>
+              <p>One email. Very East Nashville. Free while we are still behaving like a startup with a press pass.</p>
+            </div>
+            <SubscribeForm
+              surface="homepage_inline_capture"
+              label="Your email"
+              buttonLabel="Send me the brief"
+              placeholder="neighbor@example.com"
+            />
+          </section>
           {lead ? <StoryCard story={lead} lead /> : null}
           <div className="story-grid">
             {rest.map((story) => (
@@ -34,10 +47,10 @@ export default function HomePage() {
                 <li key={story.id}>{story.title}</li>
               ))}
             </ol>
-            <Link className="big-link-button" href="/admin/issues">
-              Build Issue
-            </Link>
             <SubscribeForm surface="homepage_brief" />
+            <Link className="big-link-button" href="/feed">
+              Create Account
+            </Link>
           </section>
           <section className="desk-panel">
             <p className="eyebrow">Bureau</p>
