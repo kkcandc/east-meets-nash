@@ -64,7 +64,7 @@ export const stories: Story[] = [
     priority: 94,
     imageStyle: "street",
     sources: [{ name: "Prototype source note", url: "#", type: "Internal" }],
-    reactions: { "Traffic Sigh": 41, "Cone Watch": 28, "Bless It": 17 },
+    reactions: { Love: 58, "Side-Eye": 28 },
     comments: [
       {
         author: "sample_neighbor_17",
@@ -92,7 +92,7 @@ export const stories: Story[] = [
     priority: 91,
     imageStyle: "food",
     sources: [{ name: "Prototype Instagram placeholder", url: "#", type: "Social" }],
-    reactions: { "Hot Chicken": 36, "Five Points FOMO": 44, "Side-Eye": 12 },
+    reactions: { Love: 80, "Side-Eye": 12 },
     comments: [
       {
         author: "sample_neighbor_04",
@@ -120,7 +120,7 @@ export const stories: Story[] = [
     priority: 96,
     imageStyle: "gossip",
     sources: [{ name: "Prototype group chatter placeholder", url: "#", type: "Community Chatter" }],
-    reactions: { "Side-Eye": 52, "Bless It": 25, "Traffic Sigh": 18 },
+    reactions: { Love: 43, "Side-Eye": 52 },
     comments: [{ author: "sample_neighbor_02", text: "The sign knows what it did." }],
     social: {
       x: "This week's neighborhood outrage forecast includes parking, patios, and one sign with too much confidence.",
@@ -143,7 +143,7 @@ export const stories: Story[] = [
     priority: 86,
     imageStyle: "permit",
     sources: [{ name: "Prototype public-record placeholder", url: "#", type: "Public Record" }],
-    reactions: { "Side-Eye": 38, "Cone Watch": 21, "Porch Clap": 15 },
+    reactions: { Love: 36, "Side-Eye": 38 },
     comments: [
       {
         author: "sample_neighbor_09",

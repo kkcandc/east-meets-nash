@@ -48,7 +48,7 @@ Secondary marks:
 - Reporter headshot lockups.
 - "Group Chat Says" stamp.
 - "Cone Watch" stamp.
-- "Bless It" reaction badge.
+- "Side-Eye" reaction badge.
 
 ## Editorial Franchises
 
@@ -65,13 +65,9 @@ Secondary marks:
 
 ## Reaction Language
 
-- Hot Chicken - loved it.
-- Traffic Sigh - painful but true.
-- Cone Watch - construction or chaos.
-- Porch Clap - neighbor approval.
+- Love - the normal positive reaction.
 - Side-Eye - suspicious.
-- Bless It - affectionate concern.
-- Five Points FOMO - should have gone.
+- Keep Hot Chicken, Cone Watch, Porch Clap, Bless It, and Five Points FOMO as editorial flavor or limited-run stamps, not the default reaction set.
 
 ## Do Not Sound Like
 

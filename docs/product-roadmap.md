@@ -54,15 +54,12 @@ Community:
 
 ## Reaction Set
 
-Launch with local reactions instead of generic-only social reactions:
+Launch with two obvious reactions so nobody has to decode the interface:
 
-- Hot Chicken - loved it.
-- Traffic Sigh - painful but true.
-- Cone Watch - construction or chaos.
-- Porch Clap - neighbor approval.
-- Side-Eye - suspicious.
-- Bless It - affectionate concern.
-- Five Points FOMO - should have gone.
+- Love - the normal positive reaction.
+- Side-Eye - the one local weird option for suspicious, messy, or "of course this happened" items.
+
+Use other local reaction language as editorial flavor, stamps, or one-off campaign moments instead of default buttons.
 
 ## Future Product
 
