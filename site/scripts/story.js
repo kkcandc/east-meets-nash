@@ -213,6 +213,11 @@ function renderStory(story, reporter) {
       </div>
       <h1>${escapeHtml(story.title)}</h1>
       <p class="article-deck">${escapeHtml(story.deck)}</p>
+      <section class="article-reactions" aria-label="Story reactions">
+        <div class="reaction-row">${reactionButtons(story)}</div>
+        <p class="reaction-note" id="reactionNote">${escapeHtml(reactionStatus(story))}</p>
+        ${isLoggedIn() ? "" : `<button class="reaction-login-button" type="button" id="reactionLoginButton">Login</button>`}
+      </section>
       ${storyHero(story)}
       <div class="article-body">
         ${articleParagraphs(story)}
@@ -237,12 +242,6 @@ function renderStory(story, reporter) {
       <h2>${escapeHtml(reporter.name)}</h2>
       <p>${escapeHtml(reporter.tagline)}</p>
       <small>${escapeHtml(reporter.beat)}</small>
-    </section>
-    <section class="rail-card reaction-card">
-      <p class="eyebrow">React</p>
-      <div class="reaction-row">${reactionButtons(story)}</div>
-      <p class="reaction-note" id="reactionNote">${escapeHtml(reactionStatus(story))}</p>
-      ${isLoggedIn() ? "" : `<button class="reaction-login-button" type="button" id="reactionLoginButton">Login</button>`}
     </section>
     <section class="rail-card">
       <p class="eyebrow">Sponsor Slot</p>

@@ -67,8 +67,7 @@ export function ReactionPanel({ reactions, storyId }: ReactionPanelProps) {
   }
 
   return (
-    <section className="rail-card reaction-card">
-      <p className="eyebrow">React</p>
+    <section className="article-reactions" aria-label="Story reactions">
       <div className="reaction-row" aria-label="Story reactions">
         {reactionEntries.map(({ name, count }) => (
           <button

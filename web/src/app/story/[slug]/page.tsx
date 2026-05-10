@@ -43,6 +43,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
         </div>
         <h1>{story.title}</h1>
         <p className="article-deck">{story.deck}</p>
+        <ReactionPanel reactions={story.reactions} storyId={story.id} />
         {story.heroImage ? (
           <img className="story-art story-image article-hero-image" src={story.heroImage} alt={story.heroAlt || ""} />
         ) : (
@@ -142,7 +143,6 @@ export default async function StoryPage({ params }: StoryPageProps) {
           <p>{reporter.tagline}</p>
           <small>{reporter.beat}</small>
         </section>
-        <ReactionPanel reactions={story.reactions} storyId={story.id} />
       </aside>
     </main>
   );

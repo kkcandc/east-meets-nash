@@ -862,10 +862,28 @@ h3 {
 }
 
 .article-deck {
-  margin: 0 20px 20px;
+  margin: 0 20px 14px;
   color: #403830;
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+.article-reactions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  padding: 0 20px 20px;
+}
+
+.article-reactions .reaction-row {
+  gap: 7px;
+}
+
+.article-reactions .reaction-login-button {
+  min-height: 34px;
+  padding: 6px 10px;
+  box-shadow: 2px 2px 0 var(--ink);
 }
 
 .article-main .story-art {
