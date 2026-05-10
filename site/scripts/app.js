@@ -36,15 +36,8 @@ function reporterFor(story) {
   };
 }
 
-function reactionLabel(name) {
-  if (name === "Love") return "❤️ Love";
-  if (name === "Side-Eye") return "👀 Side-Eye";
-  return name;
-}
-
 function renderStory(story, variant = "standard") {
   const node = storyTemplate.content.firstElementChild.cloneNode(true);
-  const reporter = reporterFor(story);
   const art = node.querySelector(".story-art");
   const meta = node.querySelector(".story-meta");
   const title = node.querySelector("h3");
@@ -58,33 +51,12 @@ function renderStory(story, variant = "standard") {
   meta.innerHTML = `
     <span class="pill hot">${escapeHtml(story.label)}</span>
     <span>${escapeHtml(story.zone)}</span>
-    <span>${escapeHtml(story.beat)}</span>
-    <span>${escapeHtml(reporter.name)}</span>
   `;
   title.textContent = story.title;
   deck.textContent = story.deck;
 
-  Object.entries(story.reactions || {}).forEach(([name, count]) => {
-    const button = document.createElement("button");
-    button.className = "reaction-button";
-    button.type = "button";
-    button.textContent = `${reactionLabel(name)} ${count}`;
-    button.addEventListener("click", () => {
-      const next = Number(button.dataset.count || count) + 1;
-      button.dataset.count = String(next);
-      button.textContent = `${reactionLabel(name)} ${next}`;
-    });
-    reactions.append(button);
-  });
-
-  const source = story.sources?.[0];
-  footer.innerHTML = `
-    <span>${escapeHtml(story.time)}</span>
-    <span>${escapeHtml(story.confidence)}</span>
-    <span>${escapeHtml(source?.type || "Source")}:
-      <a href="${escapeHtml(source?.url || "#")}">${escapeHtml(source?.name || "Source note")}</a>
-    </span>
-  `;
+  reactions.remove();
+  footer.innerHTML = '<span class="story-read-link">Read story</span>';
 
   node.addEventListener("click", (event) => {
     if (event.target.closest("button") || event.target.closest("a")) return;

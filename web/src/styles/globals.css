@@ -378,6 +378,15 @@ h3 {
   line-height: 1.45;
 }
 
+.story-read-link {
+  width: fit-content;
+  color: var(--tomato);
+  font-size: 0.86rem;
+  font-weight: 950;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .reaction-row {
   display: flex;
   flex-wrap: wrap;

@@ -404,6 +404,13 @@ a {
   line-height: 1.45;
 }
 
+.story-read-link {
+  color: var(--tomato);
+  font-size: 0.86rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
 .reaction-row {
   display: flex;
   flex-wrap: wrap;
