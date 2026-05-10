@@ -64,6 +64,21 @@ function reactionStatus(story) {
   return "";
 }
 
+function reactionAuthPrompt() {
+  return `
+    <span>Log in or sign up to count your reaction.</span>
+    <button class="reaction-auth-button" type="button" id="reactionInlineLoginButton">Log in</button>
+    <a class="reaction-auth-link" href="/feed.html">Sign up</a>
+  `;
+}
+
+function bindReactionAuthPrompt(story, reporter) {
+  document.querySelector("#reactionInlineLoginButton")?.addEventListener("click", () => {
+    setLoggedIn(true);
+    renderStory(story, reporter);
+  });
+}
+
 function reactionButtons(story) {
   const selected = selectedReaction(story.id);
   return Object.entries(story.reactions || {})
@@ -214,8 +229,7 @@ function renderStory(story, reporter) {
       <p class="article-deck">${escapeHtml(story.deck)}</p>
       <section class="article-reactions" aria-label="Story reactions">
         <div class="reaction-row">${reactionButtons(story)}</div>
-        <p class="reaction-note" id="reactionNote">${escapeHtml(reactionStatus(story))}</p>
-        ${isLoggedIn() ? "" : `<button class="reaction-login-button" type="button" id="reactionLoginButton">Login</button>`}
+        <div class="reaction-note" id="reactionNote" aria-live="polite">${escapeHtml(reactionStatus(story))}</div>
       </section>
       ${storyHero(story)}
       <div class="article-body">
@@ -260,12 +274,13 @@ function renderStory(story, reporter) {
       const note = document.querySelector("#reactionNote");
 
       if (!isLoggedIn()) {
-        note.textContent = "";
+        note.innerHTML = reactionAuthPrompt();
+        bindReactionAuthPrompt(story, reporter);
         return;
       }
 
       if (selectedReaction(storyId) === reaction) {
-        note.textContent = "";
+        note.innerHTML = "";
         return;
       }
 
@@ -274,10 +289,6 @@ function renderStory(story, reporter) {
     });
   });
 
-  document.querySelector("#reactionLoginButton")?.addEventListener("click", () => {
-    setLoggedIn(true);
-    renderStory(story, reporter);
-  });
 }
 
 function renderMissing() {

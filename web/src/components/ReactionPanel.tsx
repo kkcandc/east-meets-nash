@@ -27,6 +27,7 @@ function readReactionStore(): Record<string, string> {
 export function ReactionPanel({ reactions, storyId }: ReactionPanelProps) {
   const [hydrated, setHydrated] = useState(false);
   const [loggedIn, setLoggedIn] = useState(false);
+  const [showAccountPrompt, setShowAccountPrompt] = useState(false);
   const [selected, setSelected] = useState<string | null>(null);
 
   useEffect(() => {
@@ -49,10 +50,12 @@ export function ReactionPanel({ reactions, storyId }: ReactionPanelProps) {
   function handleLogin() {
     localStorage.setItem(accountSessionKey, "true");
     setLoggedIn(true);
+    setShowAccountPrompt(false);
   }
 
   function handleReaction(name: string) {
     if (!loggedIn) {
+      setShowAccountPrompt(true);
       return;
     }
 
@@ -64,6 +67,7 @@ export function ReactionPanel({ reactions, storyId }: ReactionPanelProps) {
     store[storyId] = name;
     localStorage.setItem(storyReactionKey, JSON.stringify(store));
     setSelected(name);
+    setShowAccountPrompt(false);
   }
 
   return (
@@ -82,10 +86,16 @@ export function ReactionPanel({ reactions, storyId }: ReactionPanelProps) {
           </button>
         ))}
       </div>
-      {hydrated && !loggedIn ? (
-        <button className="reaction-login-button" onClick={handleLogin} type="button">
-          Login
-        </button>
+      {hydrated && showAccountPrompt && !loggedIn ? (
+        <div className="reaction-note" role="status">
+          <span>Log in or sign up to count your reaction.</span>
+          <button className="reaction-auth-button" onClick={handleLogin} type="button">
+            Log in
+          </button>
+          <a className="reaction-auth-link" href="/feed">
+            Sign up
+          </a>
+        </div>
       ) : null}
     </section>
   );

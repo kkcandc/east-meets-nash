@@ -660,7 +660,9 @@ h3 {
 }
 
 .reaction-button,
-.reaction-login-button {
+.reaction-login-button,
+.reaction-auth-button,
+.reaction-auth-link {
   min-height: 34px;
   border: 2px solid var(--ink);
   border-radius: 999px;
@@ -687,7 +689,9 @@ h3 {
 }
 
 .reaction-button:hover,
-.reaction-login-button:hover {
+.reaction-login-button:hover,
+.reaction-auth-button:hover,
+.reaction-auth-link:hover {
   transform: translate(-1px, -1px);
   box-shadow: 4px 4px 0 var(--ink);
 }
@@ -709,7 +713,33 @@ h3 {
 }
 
 .reaction-note {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 850;
+}
+
+.reaction-note:empty {
   display: none;
+}
+
+.reaction-auth-button,
+.reaction-auth-link {
+  width: fit-content;
+  padding: 5px 10px;
+  background: var(--tomato);
+  color: #fffaf0;
+  font-size: 0.86rem;
+  text-decoration: none;
+}
+
+.reaction-auth-link {
+  background: var(--gold);
+  color: var(--ink);
 }
 
 .side-rail,
@@ -942,7 +972,8 @@ h3 {
   gap: 7px;
 }
 
-.article-reactions .reaction-login-button {
+.article-reactions .reaction-auth-button,
+.article-reactions .reaction-auth-link {
   min-height: 34px;
   padding: 6px 10px;
   box-shadow: 2px 2px 0 var(--ink);
