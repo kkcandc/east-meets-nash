@@ -63,8 +63,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
                         <img src={item.imageUrl} alt={item.imageAlt || item.title} loading="lazy" />
                       )}
                       <figcaption>
-                        <strong>{item.title}</strong> {item.description}
-                        {item.credit ? <small>{item.credit}</small> : null}
+                        {item.credit || item.title}
                       </figcaption>
                     </figure>
                   ))
@@ -79,7 +78,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
                       referrerPolicy="no-referrer-when-downgrade"
                     />
                     <figcaption>
-                      <strong>{item.title}</strong> {item.description}
+                      <strong>{item.title}</strong>
                       {item.url ? <a href={item.url}>Open in Google Maps</a> : null}
                     </figcaption>
                   </figure>

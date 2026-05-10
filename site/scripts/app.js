@@ -99,14 +99,17 @@ function showStoryDetail(story) {
   const linkMedia = (story.media || []).filter((item) => item.url && !item.imageUrl && !item.embedUrl && item.label !== "Hero Art");
   const figures = imageMedia
     .map(
-      (item) => `
-        <figure class="article-inline-media">
-          ${item.url ? `<a href="${escapeHtml(item.url)}">` : ""}
-            <img src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy" />
-          ${item.url ? "</a>" : ""}
-          <figcaption><strong>${escapeHtml(item.title)}</strong> ${escapeHtml(item.description)} ${item.credit ? `<small>${escapeHtml(item.credit)}</small>` : ""}</figcaption>
-        </figure>
-      `,
+      (item) => {
+        const caption = item.credit || item.title;
+        return `
+          <figure class="article-inline-media">
+            ${item.url ? `<a href="${escapeHtml(item.url)}">` : ""}
+              <img src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy" />
+            ${item.url ? "</a>" : ""}
+            ${caption ? `<figcaption>${escapeHtml(caption)}</figcaption>` : ""}
+          </figure>
+        `;
+      },
     )
     .join("");
   const maps = mapMedia
@@ -116,7 +119,6 @@ function showStoryDetail(story) {
           <iframe title="${escapeHtml(item.title)}" src="${escapeHtml(item.embedUrl)}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           <figcaption>
             <strong>${escapeHtml(item.title)}</strong>
-            ${escapeHtml(item.description)}
             ${item.url ? `<a href="${escapeHtml(item.url)}">Open in Google Maps</a>` : ""}
           </figcaption>
         </figure>
