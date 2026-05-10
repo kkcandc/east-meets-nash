@@ -934,7 +934,8 @@ a {
   padding-top: 0;
 }
 
-.source-engine-panel {
+.source-engine-panel,
+.source-access-panel {
   margin: 28px 28px 0;
 }
 
@@ -975,7 +976,8 @@ a {
 }
 
 .source-workflow,
-.source-coverage {
+.source-coverage,
+.source-access-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
@@ -988,6 +990,7 @@ a {
 
 .source-workflow article,
 .source-coverage article,
+.source-access-card,
 .source-tier-card,
 .source-catalog-list article {
   border: 2px solid var(--ink);
@@ -997,22 +1000,74 @@ a {
 }
 
 .source-workflow article:nth-child(2),
-.source-catalog-list article:nth-child(2n) {
+.source-catalog-list article:nth-child(2n),
+.source-access-card:nth-child(2n) {
   background: var(--paper-deep);
 }
 
 .source-workflow strong,
 .source-coverage strong,
+.source-access-card h3,
 .source-tier-card strong {
   display: block;
   font-weight: 950;
 }
 
 .source-workflow p,
-.source-catalog-list p {
+.source-catalog-list p,
+.source-access-card p {
   margin: 8px 0 0;
   color: var(--muted);
   line-height: 1.42;
+}
+
+.source-access-card {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+}
+
+.source-access-card h3 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  line-height: 1.08;
+}
+
+.source-access-card dl,
+.source-access-card .mini-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+
+.source-access-card dl div {
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  gap: 8px;
+}
+
+.source-access-card dt {
+  color: var(--muted);
+  font-weight: 950;
+}
+
+.source-access-card dd {
+  margin: 0;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.source-access-card .mini-list {
+  padding-top: 10px;
+  border-top: 2px solid var(--line);
+}
+
+.source-access-card .mini-list span {
+  color: #403830;
+  font-size: 0.9rem;
+  font-weight: 780;
+  line-height: 1.35;
 }
 
 .source-coverage span,
@@ -2301,12 +2356,14 @@ a {
   .desk-metrics,
   .source-workflow,
   .source-coverage,
+  .source-access-grid,
   .source-catalog-list,
   .commerce-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .source-engine-panel,
+  .source-access-panel,
   .commerce-panel {
     margin: 0 16px 24px;
   }
@@ -2353,6 +2410,7 @@ a {
 @media (max-width: 520px) {
   .desk-metrics,
   .desk-controls,
+  .source-access-grid,
   .commerce-grid,
   .calendar-list article,
   .assignment-detail dl div,

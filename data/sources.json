@@ -109,15 +109,15 @@
     "name": "East Nashville private Facebook group",
     "type": "Private community",
     "tier": "Anchor",
-    "status": "Needs Kenny-supervised capture",
+    "status": "No clean API; supervised capture only",
     "url": "https://www.facebook.com/share/g/1CnRbtni2c/",
     "cadence": "Twice daily once access workflow exists",
     "zones": ["East Nashville"],
     "beats": ["Gossip", "Restaurants", "Events", "Family", "Civic", "Lost and Found"],
-    "automation": "Use supervised browser capture or approved exports. Store internal screenshots/notes; publish transformed summaries with clear chatter labels.",
+    "automation": "Use Kenny-selected browser capture or approved exports. Store internal screenshots/notes; publish transformed summaries with clear chatter labels. Do not rely on unattended Groups API ingestion.",
     "publishUse": "What People Are Mad About, rumor radar, tip prompts, lost-and-found patterns, comment-section weather.",
     "caveat": "Do not treat private group chatter as confirmed fact. Attribute as community chatter and verify accusations before naming names.",
-    "nextStep": "Create a capture template: post link, screenshot, author visibility, claim, contradiction, suggested label, publish/no-publish."
+    "nextStep": "Create a capture template: post link, screenshot, author type, exact claim, contradiction, suggested label, publish/no-publish."
   },
   {
     "id": "reader-tips",
@@ -199,15 +199,15 @@
     "name": "Nextdoor East Nashville chatter",
     "type": "Private community",
     "tier": "Later",
-    "status": "Needs access workflow",
+    "status": "Apply/manual only",
     "url": "https://nextdoor.com/",
     "cadence": "Manual weekly until compliant workflow exists",
     "zones": ["East Nashville", "Inglewood", "Lockeland", "Shelby"],
     "beats": ["Family", "Services", "Crime", "Lost and Found", "Gossip"],
-    "automation": "Manual source notes only for now. Treat as chatter unless independently verified.",
+    "automation": "Apply for developer access if we want to test approved public/local content. Manual source notes only for now. Treat as chatter unless independently verified.",
     "publishUse": "Complaint patterns, service issues, rumor radar, resident question prompts.",
     "caveat": "High privacy sensitivity. Avoid naming private citizens from closed-platform posts.",
-    "nextStep": "Wait until the Facebook workflow works, then decide whether Nextdoor is worth the risk and hassle."
+    "nextStep": "Apply for developer access or wait until the Facebook workflow works, then decide whether Nextdoor is worth the risk and hassle."
   },
   {
     "id": "neighborhood-orgs",

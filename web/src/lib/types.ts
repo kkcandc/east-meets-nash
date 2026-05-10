@@ -82,6 +82,39 @@ export interface SourceItem {
   publishFormat: string;
 }
 
+export interface SourceStream {
+  id: string;
+  name: string;
+  type: string;
+  tier: "Anchor" | "Daily" | "Weekly" | "Later";
+  status: string;
+  url: string;
+  cadence: string;
+  zones: string[];
+  beats: string[];
+  automation: string;
+  publishUse: string;
+  caveat: string;
+  nextStep: string;
+}
+
+export interface SourceAccessPlan {
+  id: string;
+  name: string;
+  priority: string;
+  status: string;
+  accessMode: string;
+  automationReadiness: string;
+  sourceLabel: ConfidenceLabel;
+  risk: "Low" | "Medium" | "High";
+  currentReality: string;
+  whatWeCanDoNow: string[];
+  whatNeeds: string[];
+  privateRules: string[];
+  firstWorkflow: string;
+  publishUse: string;
+}
+
 export interface SponsorProduct {
   id: string;
   name: string;

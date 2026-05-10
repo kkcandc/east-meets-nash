@@ -2,6 +2,8 @@
 
 This is the practical sourcing model for East Meets Nash. The goal is not just "find news." The goal is to create a daily machine that turns neighborhood signals into source-backed posts, newsletter blocks, social cuts, and video prompts.
 
+The fuller build plan lives in `docs/source-engine-blueprint.md`. The source access matrix lives in `data/source-access-matrix.json`.
+
 ## Daily Collection Loop
 
 1. Morning official scan
@@ -20,7 +22,8 @@ This is the practical sourcing model for East Meets Nash. The goal is not just "
 3. Afternoon social/community scan
    - Instagram watchlist.
    - X searches and official/local reporter lists.
-   - Kenny-supervised Facebook group capture when available.
+   - Kenny-supervised Facebook group capture.
+   - Nextdoor only if we have approved/manual workflow.
    - Reader tips.
    - Output: chatter leads, rumor labels, opinion columns, follow-up prompts.
 
@@ -80,6 +83,13 @@ Every source item gets:
 - `Tip Line`: reader-submitted lead.
 - `Allegedly`: only when something is clearly unverified and worth mentioning as such.
 
+## Private Platform Reality
+
+Facebook group content and Nextdoor content are high-signal but access-sensitive.
+
+- Facebook Groups should be treated as supervised capture, not unattended ingestion. Meta removed third-party Groups API access in 2024, so the launch workflow is selected post capture from Kenny's logged-in account with internal screenshots/source notes.
+- Nextdoor should be manual or application-based only. Apply for developer access if we want to test approved content display/keyword workflows; do not assume it exposes a private neighborhood feed.
+
 ## Private Platform Rules
 
 Facebook and Nextdoor should start as supervised capture, not black-box automation.
@@ -97,6 +107,8 @@ For every private-platform source note, capture:
 - Publish/no-publish recommendation.
 
 Do not publish private accusations as news without a public record, named source, or multiple credible confirmations. Chatter can still become funny, useful coverage when framed as neighborhood mood rather than fact.
+
+Never ask for passwords. Never silently scrape private communities. The valuable product is the transformed, labeled, locally useful coverage, not the raw private post.
 
 ## Launch Workflow
 

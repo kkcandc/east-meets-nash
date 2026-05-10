@@ -182,6 +182,10 @@ a {
   grid-template-columns: 1fr;
 }
 
+.desk-hero {
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 560px);
+}
+
 .eyebrow {
   margin: 0 0 10px;
   color: var(--tomato);
@@ -218,6 +222,37 @@ h3 {
   max-width: 760px;
   color: var(--muted);
   line-height: 1.55;
+}
+
+.desk-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.desk-metrics article {
+  min-height: 110px;
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  background: #fffaf0;
+  padding: 12px;
+  box-shadow: 4px 4px 0 var(--ink);
+}
+
+.desk-metrics span {
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+
+.desk-metrics strong {
+  display: block;
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .seal-stage {
@@ -617,6 +652,8 @@ h3 {
 .article-rail,
 .reporter-list,
 .source-list,
+.source-access-grid,
+.source-catalog-grid,
 .issue-preview,
 .dashboard-grid,
 .admin-list {
@@ -630,7 +667,9 @@ h3 {
 .feed-account,
 .topic-card,
 .dashboard-card,
-.source-card {
+.source-card,
+.source-access-card,
+.source-tier-card {
   border: 2px solid var(--ink);
   background: #fffaf0;
   padding: 18px;
@@ -995,6 +1034,41 @@ h3 {
   padding: 34px 28px 0;
 }
 
+.source-access-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.source-catalog-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.source-access-card,
+.source-tier-card {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+}
+
+.source-access-card:nth-child(2n),
+.source-tier-card:nth-child(2n) {
+  background: var(--paper-deep);
+}
+
+.source-access-card h3,
+.source-tier-card h3 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  line-height: 1.08;
+}
+
+.source-access-card p,
+.source-tier-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
 .dashboard-card {
   display: grid;
   min-height: 150px;
@@ -1323,7 +1397,10 @@ dd {
   .topic-layout,
   .issue-layout,
   .article-shell,
+  .desk-metrics,
   .dashboard-grid,
+  .source-access-grid,
+  .source-catalog-grid,
   .launch-hero,
   .launch-layout,
   .launch-layout.compact {
@@ -1401,6 +1478,8 @@ dd {
   .source-card,
   .issue-item,
   .launch-source-card,
+  .source-access-grid,
+  .source-catalog-grid,
   .task-item,
   .package-card,
   dl div,

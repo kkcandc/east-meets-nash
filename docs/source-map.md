@@ -3,13 +3,14 @@
 The deeper operating workflow now lives in `docs/source-operating-system.md`. The implementation data lives in:
 
 - `data/sources.json` for monitored source streams.
+- `data/source-access-matrix.json` for source access strategy.
 - `data/source-items.json` for story leads generated from those streams.
 
 ## Priority Sources
 
 1. East Nashville private Facebook group
    - URL: `https://www.facebook.com/share/g/1CnRbtni2c/`
-   - Status: Kenny has access, automation still needs an approved way to read it.
+   - Status: Kenny has access; no clean third-party Groups API path; use supervised capture.
    - Use: chatter, tips, neighborhood complaints, events, openings, rumors, lost-and-found, civic mood.
 
 2. General web and RSS
@@ -27,6 +28,7 @@ The deeper operating workflow now lives in `docs/source-operating-system.md`. Th
 5. Nextdoor
    - Use: resident complaints, crime chatter, lost pets, traffic, services, and hyperlocal temperature checks.
    - Treat as: community chatter unless independently confirmed.
+   - Status: apply/manual only until access is approved and proven useful.
 
 6. Official and civic sources
    - Metro Nashville Council agendas and minutes.
@@ -94,3 +96,5 @@ Each source item should get:
 ## Private Platform Note
 
 For Facebook and Nextdoor, the cleanest launch path is supervised collection from Kenny's logged-in browser or approved exports. Do not ask users for passwords. Do not bypass platform controls. The operating workflow should keep source notes internal and publish only the transformed article, summary, or clearly attributed community-chatter reference.
+
+Facebook and Nextdoor should not block launch. The confirmed-news backbone is official records, local web/RSS, direct business/event sources, reader tips, and public social.

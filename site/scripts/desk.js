@@ -1,6 +1,7 @@
 const state = {
   sources: [],
   sourceCatalog: [],
+  sourceAccess: [],
   reporters: new Map(),
   sponsors: [],
   classifieds: [],
@@ -12,6 +13,7 @@ const sourceBeatFilter = document.querySelector("#sourceBeatFilter");
 const sourceRiskFilter = document.querySelector("#sourceRiskFilter");
 const sourceCatalog = document.querySelector("#sourceCatalog");
 const sourceCoverage = document.querySelector("#sourceCoverage");
+const sourceAccessGrid = document.querySelector("#sourceAccessGrid");
 const sourceList = document.querySelector("#sourceList");
 const assignmentTitle = document.querySelector("#assignmentTitle");
 const assignmentDetail = document.querySelector("#assignmentDetail");
@@ -60,7 +62,13 @@ function reporterFor(id) {
 }
 
 function publicStatus(source) {
-  return !source.status.toLowerCase().includes("needs") && !source.status.toLowerCase().includes("parked");
+  const status = source.status.toLowerCase();
+  return (
+    status.includes("public") ||
+    status.includes("ready") ||
+    status.includes("prototype form") ||
+    status.includes("no access needed")
+  );
 }
 
 function filteredSources() {
@@ -141,6 +149,36 @@ function renderSourceCatalog() {
         </section>
       `;
     })
+    .join("");
+}
+
+function renderSourceAccess() {
+  sourceAccessGrid.innerHTML = state.sourceAccess
+    .map(
+      (plan) => `
+        <article class="source-access-card">
+          <div class="story-meta">
+            <span class="pill hot">${escapeHtml(plan.priority)}</span>
+            <span>${escapeHtml(plan.status)}</span>
+            <span>${escapeHtml(plan.risk)} risk</span>
+          </div>
+          <h3>${escapeHtml(plan.name)}</h3>
+          <p>${escapeHtml(plan.currentReality)}</p>
+          <dl>
+            <div><dt>Access</dt><dd>${escapeHtml(plan.accessMode)}</dd></div>
+            <div><dt>Ready</dt><dd>${escapeHtml(plan.automationReadiness)}</dd></div>
+            <div><dt>Label</dt><dd>${escapeHtml(plan.sourceLabel)}</dd></div>
+            <div><dt>Workflow</dt><dd>${escapeHtml(plan.firstWorkflow)}</dd></div>
+          </dl>
+          <div class="mini-list">
+            ${(plan.whatWeCanDoNow || [])
+              .slice(0, 3)
+              .map((item) => `<span>${escapeHtml(item)}</span>`)
+              .join("")}
+          </div>
+        </article>
+      `,
+    )
     .join("");
 }
 
@@ -314,9 +352,10 @@ function renderCommerce() {
 }
 
 async function loadData() {
-  const [sources, sourceCatalogData, reporters, sponsors, classifieds, calendar] = await Promise.all([
+  const [sources, sourceCatalogData, sourceAccessData, reporters, sponsors, classifieds, calendar] = await Promise.all([
     fetch("/data/source-items.json").then((res) => res.json()),
     fetch("/data/sources.json").then((res) => res.json()),
+    fetch("/data/source-access-matrix.json").then((res) => res.json()),
     fetch("/data/reporters.json").then((res) => res.json()),
     fetch("/data/sponsor-products.json").then((res) => res.json()),
     fetch("/data/classifieds.json").then((res) => res.json()),
@@ -325,6 +364,7 @@ async function loadData() {
 
   state.sources = sources;
   state.sourceCatalog = sourceCatalogData;
+  state.sourceAccess = sourceAccessData;
   state.reporters = new Map(reporters.map((reporter) => [reporter.id, reporter]));
   state.sponsors = sponsors;
   state.classifieds = classifieds;
@@ -335,6 +375,7 @@ async function loadData() {
   fillSelect(sourceRiskFilter, unique(state.sources.map((item) => item.risk)));
 
   renderMetrics();
+  renderSourceAccess();
   renderSourceCatalog();
   renderSources();
   renderAssignment();

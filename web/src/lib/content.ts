@@ -1,8 +1,23 @@
+import sourceAccessData from "../../../data/source-access-matrix.json";
+import sourceItemData from "../../../data/source-items.json";
+import sourceStreamData from "../../../data/sources.json";
 import storyData from "../../../data/stories.json";
-import { launchIssueSlots, launchTasks, reporters, sourceItems, sponsorProducts } from "@/data/seed";
-import type { LaunchIssueSlot, LaunchTask, Reporter, SourceItem, SponsorProduct, Story } from "@/lib/types";
+import { launchIssueSlots, launchTasks, reporters, sponsorProducts } from "@/data/seed";
+import type {
+  LaunchIssueSlot,
+  LaunchTask,
+  Reporter,
+  SourceAccessPlan,
+  SourceItem,
+  SourceStream,
+  SponsorProduct,
+  Story,
+} from "@/lib/types";
 
 const stories = storyData as Story[];
+const sourceItems = sourceItemData as SourceItem[];
+const sourceStreams = sourceStreamData as SourceStream[];
+const sourceAccessPlans = sourceAccessData as SourceAccessPlan[];
 
 export function getStories(): Story[] {
   return stories.slice().sort((a, b) => b.priority - a.priority);
@@ -22,6 +37,14 @@ export function getReporters(): Reporter[] {
 
 export function getSourceItems(): SourceItem[] {
   return sourceItems.slice().sort((a, b) => b.score - a.score);
+}
+
+export function getSourceCatalog(): SourceStream[] {
+  return sourceStreams.slice();
+}
+
+export function getSourceAccessPlans(): SourceAccessPlan[] {
+  return sourceAccessPlans.slice();
 }
 
 export function getSponsorProducts(): SponsorProduct[] {

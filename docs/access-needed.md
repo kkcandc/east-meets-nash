@@ -39,12 +39,17 @@ These are the concrete items that unlock automation and launch. They are phrased
 
 ## Sources
 
-- Approved way to access the private East Nashville Facebook group from Kenny's logged-in account.
-- Nextdoor access.
+- Approval to store internal source screenshots/notes from selected Facebook group posts.
+- Facebook group supervised-capture workflow decision: manual form first, browser extension/bookmarklet later.
+- Optional Facebook group admin relationship for tips/weekly prompts.
+- Nextdoor developer access application decision.
+- Nextdoor manual-capture policy if developer access is not approved.
 - X access/API or scraping-safe workflow.
 - Instagram source account list.
 - Any favorite local accounts Kenny already follows.
 - Permission to store source screenshots internally for audit trails.
+- Address/corridor watchlist for official source scans.
+- Initial local outlet/RSS/newsletter list.
 
 ## Higgsfield
 

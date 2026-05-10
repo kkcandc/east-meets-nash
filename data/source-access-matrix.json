@@ -1,0 +1,183 @@
+[
+  {
+    "id": "official-civic-data",
+    "name": "Official civic and public data",
+    "priority": "Launch now",
+    "status": "Ready now",
+    "accessMode": "Public APIs, public maps, public pages",
+    "automationReadiness": "High",
+    "sourceLabel": "Confirmed",
+    "risk": "Low",
+    "currentReality": "Metro records, public data portals, maps, dashboards, agendas, and department pages are the most dependable daily story engine.",
+    "whatWeCanDoNow": [
+      "Scan Metro Planning, Codes, NDOT, MNPD, hubNashville, Council, Parks, Library, and public health sources",
+      "Filter by East Nashville zones, ZIPs, council districts, corridors, and watched addresses",
+      "Generate confirmed quick hits, explainers, traffic notes, event impacts, and watchdog briefs"
+    ],
+    "whatNeeds": [
+      "Saved query list for zones and corridors",
+      "Address/business watchlist",
+      "Dataset-specific connector scripts"
+    ],
+    "privateRules": [],
+    "firstWorkflow": "Morning official scan",
+    "publishUse": "Hard-fact briefs, permit watch, road closures, civic explainers, safety trends, and source checks for rumors."
+  },
+  {
+    "id": "local-web-rss",
+    "name": "Local web, RSS, and newsletters",
+    "priority": "Launch now",
+    "status": "Ready now",
+    "accessMode": "RSS, search queries, public pages, newsletters",
+    "automationReadiness": "High",
+    "sourceLabel": "Reported",
+    "risk": "Low",
+    "currentReality": "Citywide Nashville coverage regularly contains East Nashville items that need local translation, follow-up, and source credit.",
+    "whatWeCanDoNow": [
+      "Run saved searches for East Nashville, Five Points, Gallatin Pike, East Bank, Shelby, Inglewood, Lockeland, Riverside, and McFerrin",
+      "Monitor local outlets, food/event publications, neighborhood orgs, and official newsletters",
+      "Turn found items into link briefs or follow-up questions instead of rewriting another outlet"
+    ],
+    "whatNeeds": [
+      "RSS/feed list",
+      "Newsletter inbox or forwarding rule",
+      "Outlet-specific source policy"
+    ],
+    "privateRules": [],
+    "firstWorkflow": "Midday local web scan",
+    "publishUse": "Link briefs, local angle explainers, source triangulation, and SEO follow-ups."
+  },
+  {
+    "id": "instagram-public-watchlist",
+    "name": "Instagram public account watchlist",
+    "priority": "Launch now",
+    "status": "Needs handle list",
+    "accessMode": "Public posts, public reels, manual capture, optional approved API/scheduler",
+    "automationReadiness": "Medium",
+    "sourceLabel": "Seen in the Wild",
+    "risk": "Low",
+    "currentReality": "Public business, venue, restaurant, creator, and civic accounts are useful for openings, closures, menus, events, hiring, and visual leads. Stories are fragile and need quick capture.",
+    "whatWeCanDoNow": [
+      "Build a watchlist of restaurants, bars, coffee shops, venues, pop-ups, parks, neighborhood orgs, council members, and Nashville food/event accounts",
+      "Capture public posts with source links and screenshots where needed",
+      "Use direct business posts for facts and comments/reposts only as chatter"
+    ],
+    "whatNeeds": [
+      "First 75 account handles",
+      "Approved screenshot/storage policy",
+      "Optional social scheduler/API access"
+    ],
+    "privateRules": [],
+    "firstWorkflow": "Afternoon business/social scan",
+    "publishUse": "Soft Launch Watch, weekend agenda, restaurant notes, closing/opening leads, and visual story embeds."
+  },
+  {
+    "id": "x-public-search",
+    "name": "X public search and official accounts",
+    "priority": "Launch soon",
+    "status": "Needs API or saved-search workflow",
+    "accessMode": "Public search, lists, optional paid API",
+    "automationReadiness": "Medium",
+    "sourceLabel": "Seen in the Wild",
+    "risk": "Medium",
+    "currentReality": "X is useful for breaking links, officials, reporters, transit, traffic, and civic commentary, but random posts are leads, not facts.",
+    "whatWeCanDoNow": [
+      "Create public lists for Metro departments, council members, reporters, venues, food writers, and high-signal Nashville accounts",
+      "Run saved keyword searches for East Nashville locations and corridors",
+      "Use official/direct posts as sources and everything else as a pointer"
+    ],
+    "whatNeeds": [
+      "X account/API decision",
+      "Saved search list",
+      "Official account list"
+    ],
+    "privateRules": [],
+    "firstWorkflow": "Daily saved-search sweep",
+    "publishUse": "Breaking pointers, official quote trails, link discovery, and source triangulation."
+  },
+  {
+    "id": "facebook-private-group",
+    "name": "East Nashville private Facebook group",
+    "priority": "Launch with supervised capture",
+    "status": "No clean API; supervised capture only",
+    "accessMode": "Kenny-selected post capture, screenshots, links, and source notes",
+    "automationReadiness": "Medium for intake, low for unattended ingestion",
+    "sourceLabel": "Group Chat Says",
+    "risk": "Medium",
+    "currentReality": "Meta removed third-party Facebook Groups API access in 2024, including the permissions third-party tools used to fetch or publish group content. We should not build the plan around an unattended private-group feed.",
+    "whatWeCanDoNow": [
+      "Build a source-capture workflow for selected posts Kenny chooses from his logged-in browser",
+      "Store internal screenshots, post links, timestamps, exact claims, author type, contradiction notes, and publish recommendations",
+      "Use the group for recurring patterns, mood, questions, and follow-up prompts, not as confirmed fact"
+    ],
+    "whatNeeds": [
+      "Kenny approval to store screenshots/source notes internally",
+      "A supervised capture tool or form",
+      "Optional relationship with group admins for tips/weekly prompts"
+    ],
+    "privateRules": [
+      "No passwords",
+      "No silent scraping",
+      "No private accusations as news without public records, named sources, or multiple credible confirmations",
+      "Default private citizens to unnamed unless the story has strong public interest"
+    ],
+    "firstWorkflow": "Twice-daily supervised Facebook capture",
+    "publishUse": "What People Are Mad About, rumor radar, lost-and-found patterns, reader questions, source prompts, and community mood."
+  },
+  {
+    "id": "nextdoor",
+    "name": "Nextdoor neighborhood signals",
+    "priority": "Apply, then decide",
+    "status": "Access request or manual notes",
+    "accessMode": "Nextdoor developer access if approved; manual source notes until then",
+    "automationReadiness": "Low now, medium if approved",
+    "sourceLabel": "Group Chat Says",
+    "risk": "High",
+    "currentReality": "Nextdoor has developer offerings for sharing and displaying local content, including public posts/events/listings and keyword mentions, but access requires approval and should not be assumed to expose a private neighborhood feed.",
+    "whatWeCanDoNow": [
+      "Treat Nextdoor as a later/manual source until the Facebook capture workflow is working",
+      "Use it for patterns: family logistics, lost pets, service requests, safety chatter, and recurring questions",
+      "Avoid publishing private names, accusations, or screenshots from residents without independent confirmation"
+    ],
+    "whatNeeds": [
+      "Apply for Nextdoor developer access",
+      "Clarify whether Display Content access can cover East Nashville public posts/keywords",
+      "Manual capture policy if access is not approved"
+    ],
+    "privateRules": [
+      "No private citizen pile-ons",
+      "No private accusations without independent confirmation",
+      "Use patterns and questions more than individual posts"
+    ],
+    "firstWorkflow": "Weekly Nextdoor pattern review, only after approval/manual policy",
+    "publishUse": "Complaint patterns, service questions, family pain points, lost-and-found trends, and rumor prompts."
+  },
+  {
+    "id": "reader-tips",
+    "name": "Reader tips and receipts",
+    "priority": "Launch now",
+    "status": "Prototype live; inbox needed",
+    "accessMode": "Tips form, email, attachments, forwarded screenshots",
+    "automationReadiness": "High",
+    "sourceLabel": "Tip Line",
+    "risk": "Medium",
+    "currentReality": "Tips become the safest bridge around closed platforms because readers can voluntarily send leads, screenshots, context, and corrections.",
+    "whatWeCanDoNow": [
+      "Route tips into source items with attachments, risk, confidence, zone, beat, and follow-up action",
+      "Use tips to request public records checks or business/org confirmation",
+      "Ask readers to forward the weird thing instead of relying only on closed-platform access"
+    ],
+    "whatNeeds": [
+      "tips@ email/domain",
+      "Attachment upload path",
+      "Source audit storage"
+    ],
+    "privateRules": [
+      "Anonymous tips are leads, not proof",
+      "Accusations need verification",
+      "Corrections/takedowns get routed immediately"
+    ],
+    "firstWorkflow": "Continuous tip intake",
+    "publishUse": "Scoops, questions, rumor checks, corrections, and source-backed reader prompts."
+  }
+]
