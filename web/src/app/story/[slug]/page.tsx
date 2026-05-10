@@ -27,6 +27,9 @@ export default async function StoryPage({ params }: StoryPageProps) {
   const story = getStoryBySlug(slug);
   if (!story) notFound();
   const reporter = getReporter(story.reporterId);
+  const paragraphs = story.body.split("\n\n");
+  const imageMedia = story.media?.filter((item) => item.imageUrl) || [];
+  const linkMedia = story.media?.filter((item) => item.url && !item.imageUrl && item.label !== "Hero Art") || [];
 
   return (
     <main className="article-shell">
@@ -45,8 +48,38 @@ export default async function StoryPage({ params }: StoryPageProps) {
           <div className={`story-art art-${story.imageStyle}`} />
         )}
         <div className="article-body">
-          {story.body.split("\n\n").map((paragraph) => (
-            <p key={paragraph}>{paragraph}</p>
+          {paragraphs.map((paragraph, index) => (
+            <div className="article-flow-block" key={paragraph}>
+              <p>{paragraph}</p>
+              {index === 0
+                ? imageMedia.map((item) => (
+                    <figure className="article-inline-media" key={`${item.label}-${item.title}`}>
+                      {item.url ? (
+                        <a href={item.url}>
+                          <img src={item.imageUrl} alt={item.imageAlt || item.title} loading="lazy" />
+                        </a>
+                      ) : (
+                        <img src={item.imageUrl} alt={item.imageAlt || item.title} loading="lazy" />
+                      )}
+                      <figcaption>
+                        <strong>{item.title}</strong> {item.description}
+                        {item.credit ? <small>{item.credit}</small> : null}
+                      </figcaption>
+                    </figure>
+                  ))
+                : null}
+              {index === 1 && linkMedia.length ? (
+                <aside className="article-inline-links" aria-label="Related source and location links">
+                  {linkMedia.map((item) => (
+                    <a className="article-inline-link" href={item.url} key={`${item.label}-${item.title}`}>
+                      <span>{item.label}</span>
+                      <strong>{item.title}</strong>
+                      <small>{item.description}</small>
+                    </a>
+                  ))}
+                </aside>
+              ) : null}
+            </div>
           ))}
         </div>
         {story.factBox?.length ? (
@@ -60,25 +93,6 @@ export default async function StoryPage({ params }: StoryPageProps) {
                 </div>
               ))}
             </dl>
-          </section>
-        ) : null}
-        {story.media?.length ? (
-          <section className="article-section media-section">
-            <h2>Media Package</h2>
-            <div className="media-grid">
-              {story.media.map((item) => (
-                <article key={`${item.label}-${item.title}`} className="media-card">
-                  {item.imageUrl ? (
-                    <img className="media-image" src={item.imageUrl} alt={item.imageAlt || item.title} loading="lazy" />
-                  ) : null}
-                  <span>{item.label}</span>
-                  <h3>{item.title}</h3>
-                  <p>{item.description}</p>
-                  {item.credit ? <small>{item.credit}</small> : null}
-                  {item.url ? <a href={item.url}>Open source</a> : null}
-                </article>
-              ))}
-            </div>
           </section>
         ) : null}
         <section className="article-section">

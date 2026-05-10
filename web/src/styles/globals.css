@@ -728,68 +728,75 @@ h3 {
   font-family: Georgia, "Times New Roman", serif;
 }
 
-.media-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
+.article-flow-block {
+  display: contents;
 }
 
-.media-card {
-  display: grid;
-  gap: 8px;
-  align-content: start;
-  overflow: hidden;
+.article-inline-media {
+  max-width: 820px;
+  margin: 24px 0;
+}
+
+.article-inline-media img {
+  display: block;
+  width: 100%;
+  max-height: 430px;
   border: 2px solid var(--ink);
   border-radius: 8px;
-  background: var(--paper);
-  padding: 14px;
-}
-
-.media-image {
-  width: calc(100% + 28px);
-  height: 150px;
-  margin: -14px -14px 4px;
-  border-bottom: 2px solid var(--ink);
   object-fit: cover;
+  box-shadow: 4px 4px 0 var(--ink);
 }
 
-.media-card:nth-child(2n) {
-  background: var(--paper-deep);
+.article-inline-media figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 780;
+  line-height: 1.45;
 }
 
-.media-card span {
-  width: fit-content;
-  border: 2px solid var(--ink);
-  border-radius: 999px;
-  background: var(--gold);
-  padding: 3px 7px;
-  font-size: 0.74rem;
+.article-inline-media figcaption strong,
+.article-inline-media figcaption small {
+  display: block;
+}
+
+.article-inline-links {
+  display: grid;
+  max-width: 820px;
+  gap: 10px;
+  margin: 22px 0;
+  padding: 14px 0;
+  border-top: 2px solid var(--line);
+  border-bottom: 2px solid var(--line);
+}
+
+.article-inline-link {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 8px 12px;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.article-inline-link span {
+  grid-row: span 2;
+  color: var(--tomato);
+  font-size: 0.76rem;
   font-weight: 950;
   text-transform: uppercase;
 }
 
-.media-card h3 {
-  margin: 0;
+.article-inline-link strong {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
+  line-height: 1.12;
 }
 
-.media-card p,
-.media-card small,
+.article-inline-link small,
 .source-note {
   margin: 0;
   color: var(--muted);
   line-height: 1.45;
-}
-
-.media-card small {
-  font-size: 0.78rem;
-  font-weight: 850;
-}
-
-.media-card a {
-  color: var(--tomato);
-  font-weight: 950;
 }
 
 .feed-account strong {
@@ -1170,7 +1177,6 @@ dd {
   .story-grid,
   .topic-grid,
   .capture-panel,
-  .media-grid,
   .sponsor-shelf {
     grid-template-columns: 1fr;
   }

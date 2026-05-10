@@ -82,26 +82,43 @@ function showStoryDetail(story) {
         `<li><a href="${escapeHtml(source.url)}">${escapeHtml(source.name)}</a> <span>${escapeHtml(source.type)}</span></li>`,
     )
     .join("");
+  const imageMedia = (story.media || []).filter((item) => item.imageUrl);
+  const linkMedia = (story.media || []).filter((item) => item.url && !item.imageUrl && item.label !== "Hero Art");
+  const figures = imageMedia
+    .map(
+      (item) => `
+        <figure class="article-inline-media">
+          ${item.url ? `<a href="${escapeHtml(item.url)}">` : ""}
+            <img src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy" />
+          ${item.url ? "</a>" : ""}
+          <figcaption><strong>${escapeHtml(item.title)}</strong> ${escapeHtml(item.description)} ${item.credit ? `<small>${escapeHtml(item.credit)}</small>` : ""}</figcaption>
+        </figure>
+      `,
+    )
+    .join("");
+  const mediaLinks = linkMedia.length
+    ? `
+      <aside class="article-inline-links">
+        ${linkMedia
+          .map(
+            (item) => `
+              <a class="article-inline-link" href="${escapeHtml(item.url)}">
+                <span>${escapeHtml(item.label)}</span>
+                <strong>${escapeHtml(item.title)}</strong>
+                <small>${escapeHtml(item.description)}</small>
+              </a>
+            `,
+          )
+          .join("")}
+      </aside>
+    `
+    : "";
   const paragraphs = String(story.body || "")
     .split("\n\n")
-    .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
+    .map((paragraph, index) => `<p>${escapeHtml(paragraph)}</p>${index === 0 ? figures : ""}${index === 1 ? mediaLinks : ""}`)
     .join("");
   const factBox = (story.factBox || [])
     .map((fact) => `<div><dt>${escapeHtml(fact.label)}</dt><dd>${escapeHtml(fact.value)}</dd></div>`)
-    .join("");
-  const media = (story.media || [])
-    .map(
-      (item) => `
-        <article class="media-card">
-          ${item.imageUrl ? `<img class="media-image" src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy" />` : ""}
-          <span>${escapeHtml(item.label)}</span>
-          <h3>${escapeHtml(item.title)}</h3>
-          <p>${escapeHtml(item.description)}</p>
-          ${item.credit ? `<small>${escapeHtml(item.credit)}</small>` : ""}
-          ${item.url ? `<a href="${escapeHtml(item.url)}">Open source</a>` : ""}
-        </article>
-      `,
-    )
     .join("");
   const comments = (story.comments || [])
     .map(
@@ -120,7 +137,6 @@ function showStoryDetail(story) {
     <h2>${escapeHtml(story.title)}</h2>
     ${paragraphs}
     ${factBox ? `<section><h3>Fast Facts</h3><dl class="fact-box">${factBox}</dl></section>` : ""}
-    ${media ? `<section><h3>Media Package</h3><div class="media-grid">${media}</div></section>` : ""}
     <div class="dialog-columns">
       <section>
         <h3>Sources</h3>

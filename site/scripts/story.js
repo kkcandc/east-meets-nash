@@ -94,10 +94,61 @@ function commentList(story) {
     .join("");
 }
 
+function imageMedia(story) {
+  return (story.media || []).filter((item) => item.imageUrl);
+}
+
+function linkMedia(story) {
+  return (story.media || []).filter((item) => item.url && !item.imageUrl && item.label !== "Hero Art");
+}
+
+function inlineMediaFigures(story) {
+  return imageMedia(story)
+    .map(
+      (item) => `
+        <figure class="article-inline-media">
+          ${item.url ? `<a href="${escapeHtml(item.url)}">` : ""}
+            <img src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy" />
+          ${item.url ? "</a>" : ""}
+          <figcaption>
+            <strong>${escapeHtml(item.title)}</strong>
+            ${escapeHtml(item.description)}
+            ${item.credit ? `<small>${escapeHtml(item.credit)}</small>` : ""}
+          </figcaption>
+        </figure>
+      `,
+    )
+    .join("");
+}
+
+function inlineMediaLinks(story) {
+  const links = linkMedia(story);
+  if (!links.length) return "";
+  return `
+    <aside class="article-inline-links" aria-label="Related source and location links">
+      ${links
+        .map(
+          (item) => `
+            <a class="article-inline-link" href="${escapeHtml(item.url)}">
+              <span>${escapeHtml(item.label)}</span>
+              <strong>${escapeHtml(item.title)}</strong>
+              <small>${escapeHtml(item.description)}</small>
+            </a>
+          `,
+        )
+        .join("")}
+    </aside>
+  `;
+}
+
 function articleParagraphs(story) {
-  return String(story.body || "")
-    .split("\n\n")
-    .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
+  const paragraphs = String(story.body || "").split("\n\n");
+  return paragraphs
+    .map((paragraph, index) => {
+      const media = index === 0 ? inlineMediaFigures(story) : "";
+      const links = index === 1 ? inlineMediaLinks(story) : "";
+      return `<p>${escapeHtml(paragraph)}</p>${media}${links}`;
+    })
     .join("");
 }
 
@@ -110,30 +161,6 @@ function factBox(story) {
     <section class="article-section fact-box">
       <h2>Fast Facts</h2>
       <dl>${facts}</dl>
-    </section>
-  `;
-}
-
-function mediaPackage(story) {
-  const items = (story.media || [])
-    .map(
-      (item) => `
-        <article class="media-card">
-          ${item.imageUrl ? `<img class="media-image" src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy" />` : ""}
-          <span>${escapeHtml(item.label)}</span>
-          <h3>${escapeHtml(item.title)}</h3>
-          <p>${escapeHtml(item.description)}</p>
-          ${item.credit ? `<small>${escapeHtml(item.credit)}</small>` : ""}
-          ${item.url ? `<a href="${escapeHtml(item.url)}">Open source</a>` : ""}
-        </article>
-      `,
-    )
-    .join("");
-  if (!items) return "";
-  return `
-    <section class="article-section media-section">
-      <h2>Media Package</h2>
-      <div class="media-grid">${items}</div>
     </section>
   `;
 }
@@ -166,7 +193,6 @@ function renderStory(story, reporter) {
         ${articleParagraphs(story)}
       </div>
       ${factBox(story)}
-      ${mediaPackage(story)}
       <section class="article-section">
         <h2>Sources</h2>
         <ul class="source-links">${sourceList(story)}</ul>
