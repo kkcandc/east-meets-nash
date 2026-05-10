@@ -247,15 +247,6 @@ function renderStory(story, reporter) {
       ${isLoggedIn() ? "" : `<button class="reaction-login-button" type="button" id="reactionLoginButton">Login to react</button>`}
     </section>
     <section class="rail-card">
-      <p class="eyebrow">Social Kit</p>
-      <h2>X</h2>
-      <p>${escapeHtml(story.social?.x || "")}</p>
-      <h2>Instagram</h2>
-      <p>${escapeHtml(story.social?.instagram || "")}</p>
-      <h2>Video</h2>
-      <p>${escapeHtml(story.social?.video || "")}</p>
-    </section>
-    <section class="rail-card">
       <p class="eyebrow">Sponsor Slot</p>
       <h2>Want the neighborhood to notice?</h2>
       <p>Self-serve placements start at $100.</p>

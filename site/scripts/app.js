@@ -174,12 +174,6 @@ function showStoryDetail(story) {
         <ul>${comments}</ul>
       </section>
     </div>
-    <section>
-      <h3>Social Kit</h3>
-      <p><strong>X:</strong> ${escapeHtml(story.social?.x || "")}</p>
-      <p><strong>Instagram:</strong> ${escapeHtml(story.social?.instagram || "")}</p>
-      <p><strong>Video:</strong> ${escapeHtml(story.social?.video || "")}</p>
-    </section>
     <footer>Filed by ${escapeHtml(reporter.name)}. This is prototype seed content until live sources are connected.</footer>
   `;
   document.body.append(detail);

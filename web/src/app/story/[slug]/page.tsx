@@ -144,15 +144,6 @@ export default async function StoryPage({ params }: StoryPageProps) {
           <small>{reporter.beat}</small>
         </section>
         <ReactionPanel reactions={story.reactions} storyId={story.id} />
-        <section className="rail-card">
-          <p className="eyebrow">Social Kit</p>
-          <h2>X</h2>
-          <p>{story.social.x}</p>
-          <h2>Instagram</h2>
-          <p>{story.social.instagram}</p>
-          <h2>Video</h2>
-          <p>{story.social.video}</p>
-        </section>
       </aside>
     </main>
   );
