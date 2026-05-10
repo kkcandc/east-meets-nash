@@ -29,10 +29,10 @@ export default function HomePage() {
             <p>Restaurants, roads, civic mess, weekend plans, and the neighborhood details worth forwarding.</p>
           </div>
           <section className="front-package" aria-label="Top stories">
-            {lead ? <StoryCard story={lead} lead /> : null}
+            {lead ? <StoryCard story={lead} lead showZone={false} /> : null}
             <div className="package-stack">
               {topStories.slice(1).map((story) => (
-                <StoryCard key={story.id} story={story} variant="package" />
+                <StoryCard key={story.id} story={story} variant="package" showZone={false} />
               ))}
             </div>
           </section>
@@ -56,7 +56,7 @@ export default function HomePage() {
             </div>
             <div className="story-grid">
               {moreStories.map((story) => (
-                <StoryCard key={story.id} story={story} />
+                <StoryCard key={story.id} story={story} showZone={false} />
               ))}
             </div>
           </section>

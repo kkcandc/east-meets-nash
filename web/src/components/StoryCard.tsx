@@ -9,10 +9,12 @@ export function StoryCard({
   story,
   lead = false,
   variant = "standard",
+  showZone = true,
 }: {
   story: Story;
   lead?: boolean;
   variant?: "standard" | "package";
+  showZone?: boolean;
 }) {
   const serious = isSeriousStory(story);
   const className = [
@@ -34,7 +36,7 @@ export function StoryCard({
       <div className="story-content">
         <div className="story-meta">
           <span className={`pill ${serious ? "serious" : "hot"}`}>{story.label}</span>
-          <span>{story.zone}</span>
+          {showZone ? <span>{story.zone}</span> : null}
           <span>{story.beat}</span>
         </div>
         <h2>{story.title}</h2>
