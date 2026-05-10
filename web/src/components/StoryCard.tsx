@@ -25,7 +25,7 @@ export function StoryCard({
     .join(" ");
 
   return (
-    <article className={className}>
+    <Link className={className} href={`/story/${story.slug}`} aria-label={`Read ${story.title}`}>
       {story.heroImage ? (
         <img className="story-art story-image" src={story.heroImage} alt={story.heroAlt || ""} />
       ) : (
@@ -37,14 +37,10 @@ export function StoryCard({
           <span>{story.zone}</span>
           <span>{story.beat}</span>
         </div>
-        <h2>
-          <Link href={`/story/${story.slug}`}>{story.title}</Link>
-        </h2>
+        <h2>{story.title}</h2>
         <p>{story.deck}</p>
-        <Link className="story-read-link" href={`/story/${story.slug}`}>
-          Read story
-        </Link>
+        <span className="story-read-link">Read story</span>
       </div>
-    </article>
+    </Link>
   );
 }

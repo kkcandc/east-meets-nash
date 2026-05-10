@@ -399,7 +399,39 @@ a {
   border: 2px solid var(--ink);
   border-radius: 8px;
   background: #fffaf0;
+  color: var(--ink);
+  cursor: pointer;
+  text-decoration: none;
   box-shadow: var(--shadow);
+  transition:
+    transform 140ms ease,
+    box-shadow 140ms ease,
+    border-color 140ms ease;
+}
+
+.story-card:hover,
+.story-card:focus-within {
+  border-color: var(--tomato);
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0 var(--ink);
+}
+
+.front-package .story-card:hover,
+.front-package .story-card:focus-within {
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+.story-card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.story-card:hover h3 a,
+.story-card:focus-within h3 a {
+  color: var(--tomato);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 
 #leadStory .story-card {
@@ -582,10 +614,20 @@ a {
 }
 
 .story-read-link {
+  display: inline-flex;
+  width: fit-content;
   color: var(--tomato);
   font-size: 0.86rem;
   font-weight: 950;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
   text-transform: uppercase;
+}
+
+.story-card:hover .story-read-link,
+.story-card:focus-within .story-read-link {
+  color: var(--ink);
 }
 
 .reaction-row {

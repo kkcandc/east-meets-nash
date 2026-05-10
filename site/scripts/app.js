@@ -72,11 +72,11 @@ function renderStory(story, variant = "standard") {
     <span>${escapeHtml(story.zone)}</span>
     <span>${escapeHtml(story.beat)}</span>
   `;
-  title.textContent = story.title;
+  title.innerHTML = `<a href="${storyUrl(story)}">${escapeHtml(story.title)}</a>`;
   deck.textContent = story.deck;
 
   reactions.remove();
-  footer.innerHTML = '<span class="story-read-link">Read story</span>';
+  footer.innerHTML = `<a class="story-read-link" href="${storyUrl(story)}">Read story</a>`;
 
   node.addEventListener("click", (event) => {
     if (event.target.closest("button") || event.target.closest("a")) return;
