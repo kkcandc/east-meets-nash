@@ -98,8 +98,12 @@ function imageMedia(story) {
   return (story.media || []).filter((item) => item.imageUrl);
 }
 
+function mapMedia(story) {
+  return (story.media || []).filter((item) => item.embedUrl);
+}
+
 function linkMedia(story) {
-  return (story.media || []).filter((item) => item.url && !item.imageUrl && item.label !== "Hero Art");
+  return (story.media || []).filter((item) => item.url && !item.imageUrl && !item.embedUrl && item.label !== "Hero Art");
 }
 
 function inlineMediaFigures(story) {
@@ -114,6 +118,28 @@ function inlineMediaFigures(story) {
             <strong>${escapeHtml(item.title)}</strong>
             ${escapeHtml(item.description)}
             ${item.credit ? `<small>${escapeHtml(item.credit)}</small>` : ""}
+          </figcaption>
+        </figure>
+      `,
+    )
+    .join("");
+}
+
+function inlineMapEmbeds(story) {
+  return mapMedia(story)
+    .map(
+      (item) => `
+        <figure class="article-inline-map">
+          <iframe
+            title="${escapeHtml(item.title)}"
+            src="${escapeHtml(item.embedUrl)}"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <figcaption>
+            <strong>${escapeHtml(item.title)}</strong>
+            ${escapeHtml(item.description)}
+            ${item.url ? `<a href="${escapeHtml(item.url)}">Open in Google Maps</a>` : ""}
           </figcaption>
         </figure>
       `,
@@ -146,8 +172,9 @@ function articleParagraphs(story) {
   return paragraphs
     .map((paragraph, index) => {
       const media = index === 0 ? inlineMediaFigures(story) : "";
+      const map = index === 1 ? inlineMapEmbeds(story) : "";
       const links = index === 1 ? inlineMediaLinks(story) : "";
-      return `<p>${escapeHtml(paragraph)}</p>${media}${links}`;
+      return `<p>${escapeHtml(paragraph)}</p>${media}${map}${links}`;
     })
     .join("");
 }

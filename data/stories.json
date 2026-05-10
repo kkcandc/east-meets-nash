@@ -124,9 +124,10 @@
       },
       {
         "label": "Location",
-        "title": "Gallatin Pike and Main Street corridor",
-        "description": "Open Google Maps for the corridor context and current nearby place imagery.",
-        "url": "https://www.google.com/maps/search/?api=1&query=Gallatin%20Pike%20and%20Main%20Street%20Nashville%20TN"
+        "title": "Project anchor: Main Street at South 10th Street",
+        "description": "An exact anchor point where the Main Street project segment meets the Gallatin Pike segment. This is not a substitute for the full corridor map.",
+        "url": "https://www.google.com/maps/search/?api=1&query=Main%20Street%20and%20South%2010th%20Street%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=Main%20Street%20and%20South%2010th%20Street%20Nashville%20TN&output=embed"
       },
       {
         "label": "Next Graphic",

@@ -48,6 +48,7 @@ export interface Story {
     url?: string;
     imageUrl?: string;
     imageAlt?: string;
+    embedUrl?: string;
     credit?: string;
   }>;
   sourceNote?: string;

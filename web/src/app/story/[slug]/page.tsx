@@ -29,7 +29,8 @@ export default async function StoryPage({ params }: StoryPageProps) {
   const reporter = getReporter(story.reporterId);
   const paragraphs = story.body.split("\n\n");
   const imageMedia = story.media?.filter((item) => item.imageUrl) || [];
-  const linkMedia = story.media?.filter((item) => item.url && !item.imageUrl && item.label !== "Hero Art") || [];
+  const mapMedia = story.media?.filter((item) => item.embedUrl) || [];
+  const linkMedia = story.media?.filter((item) => item.url && !item.imageUrl && !item.embedUrl && item.label !== "Hero Art") || [];
 
   return (
     <main className="article-shell">
@@ -68,6 +69,22 @@ export default async function StoryPage({ params }: StoryPageProps) {
                     </figure>
                   ))
                 : null}
+              {index === 1 && mapMedia.length ? (
+                mapMedia.map((item) => (
+                  <figure className="article-inline-map" key={`${item.label}-${item.title}`}>
+                    <iframe
+                      title={item.title}
+                      src={item.embedUrl}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    />
+                    <figcaption>
+                      <strong>{item.title}</strong> {item.description}
+                      {item.url ? <a href={item.url}>Open in Google Maps</a> : null}
+                    </figcaption>
+                  </figure>
+                ))
+              ) : null}
               {index === 1 && linkMedia.length ? (
                 <aside className="article-inline-links" aria-label="Related source and location links">
                   {linkMedia.map((item) => (

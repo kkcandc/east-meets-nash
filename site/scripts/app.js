@@ -83,7 +83,8 @@ function showStoryDetail(story) {
     )
     .join("");
   const imageMedia = (story.media || []).filter((item) => item.imageUrl);
-  const linkMedia = (story.media || []).filter((item) => item.url && !item.imageUrl && item.label !== "Hero Art");
+  const mapMedia = (story.media || []).filter((item) => item.embedUrl);
+  const linkMedia = (story.media || []).filter((item) => item.url && !item.imageUrl && !item.embedUrl && item.label !== "Hero Art");
   const figures = imageMedia
     .map(
       (item) => `
@@ -92,6 +93,20 @@ function showStoryDetail(story) {
             <img src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy" />
           ${item.url ? "</a>" : ""}
           <figcaption><strong>${escapeHtml(item.title)}</strong> ${escapeHtml(item.description)} ${item.credit ? `<small>${escapeHtml(item.credit)}</small>` : ""}</figcaption>
+        </figure>
+      `,
+    )
+    .join("");
+  const maps = mapMedia
+    .map(
+      (item) => `
+        <figure class="article-inline-map">
+          <iframe title="${escapeHtml(item.title)}" src="${escapeHtml(item.embedUrl)}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <figcaption>
+            <strong>${escapeHtml(item.title)}</strong>
+            ${escapeHtml(item.description)}
+            ${item.url ? `<a href="${escapeHtml(item.url)}">Open in Google Maps</a>` : ""}
+          </figcaption>
         </figure>
       `,
     )
@@ -115,7 +130,7 @@ function showStoryDetail(story) {
     : "";
   const paragraphs = String(story.body || "")
     .split("\n\n")
-    .map((paragraph, index) => `<p>${escapeHtml(paragraph)}</p>${index === 0 ? figures : ""}${index === 1 ? mediaLinks : ""}`)
+    .map((paragraph, index) => `<p>${escapeHtml(paragraph)}</p>${index === 0 ? figures : ""}${index === 1 ? maps : ""}${index === 1 ? mediaLinks : ""}`)
     .join("");
   const factBox = (story.factBox || [])
     .map((fact) => `<div><dt>${escapeHtml(fact.label)}</dt><dd>${escapeHtml(fact.value)}</dd></div>`)
