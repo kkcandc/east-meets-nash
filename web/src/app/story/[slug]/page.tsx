@@ -138,7 +138,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
           />
         </section>
         <section className="rail-card">
-          <p className="eyebrow">Filed By</p>
+          <p className="eyebrow">Reported By</p>
           <h2>{reporter.name}</h2>
           <p>{reporter.tagline}</p>
           <small>{reporter.beat}</small>

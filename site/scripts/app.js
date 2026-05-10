@@ -176,7 +176,7 @@ function showStoryDetail(story) {
         <ul>${comments}</ul>
       </section>
     </div>
-    <footer>Filed by ${escapeHtml(reporter.name)}. This is prototype seed content until live sources are connected.</footer>
+    <footer>Reported by ${escapeHtml(reporter.name)}. This is prototype seed content until live sources are connected.</footer>
   `;
   document.body.append(detail);
   detail.addEventListener("close", () => detail.remove());

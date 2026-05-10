@@ -48,7 +48,7 @@ function buildCopy(type, items) {
   const blocks = items
     .map(
       (story, index) =>
-        `${index + 1}. ${story.title}\n${story.deck}\nLabel: ${story.label}. Filed by ${reporterName(story)}.\nLink: /story.html?id=${story.id}`,
+        `${index + 1}. ${story.title}\n${story.deck}\nLabel: ${story.label}. Reported by ${reporterName(story)}.\nLink: /story.html?id=${story.id}`,
     )
     .join("\n\n");
 

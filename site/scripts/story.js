@@ -237,7 +237,7 @@ function renderStory(story, reporter) {
 
   articleRail.innerHTML = `
     <section class="rail-card reporter-bio">
-      <p class="eyebrow">Filed By</p>
+      <p class="eyebrow">Reported By</p>
       <div class="avatar" style="background:${escapeHtml(reporter.color)}">${escapeHtml(reporter.name.split(" ").map((part) => part[0]).join("").slice(0, 2))}</div>
       <h2>${escapeHtml(reporter.name)}</h2>
       <p>${escapeHtml(reporter.tagline)}</p>

@@ -87,7 +87,7 @@ export function buildBeehiivExport(storyCount = 5): string {
       [
         `${index + 1}. ${story.title}`,
         story.deck,
-        `Label: ${story.label}. Zone: ${story.zone}. Filed by ${getReporter(story.reporterId).name}.`,
+        `Label: ${story.label}. Zone: ${story.zone}. Reported by ${getReporter(story.reporterId).name}.`,
         `Link: /story/${story.slug}`,
       ].join("\n"),
     ),
@@ -112,7 +112,7 @@ export function buildSocialPack(story: Story): Array<{ channel: string; copy: st
   return [
     {
       channel: "X / Threads",
-      copy: `${story.social.x}\n\nLabel: ${story.label}. Zone: ${story.zone}. Filed by ${reporter.name}.`,
+      copy: `${story.social.x}\n\nLabel: ${story.label}. Zone: ${story.zone}. Reported by ${reporter.name}.`,
     },
     {
       channel: "Instagram",
@@ -151,7 +151,7 @@ export function buildBeehiivHtml(storyCount = 5): string {
             ${escapeHtml(story.deck)}
           </p>
           <p style="margin: 0; color: #6f6258; font-size: 13px;">
-            Filed by ${escapeHtml(reporter.name)}. Read: /story/${escapeHtml(story.slug)}
+            Reported by ${escapeHtml(reporter.name)}. Read: /story/${escapeHtml(story.slug)}
           </p>
         </div>
       `;

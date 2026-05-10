@@ -287,7 +287,7 @@ function renderSocialKit() {
     </article>
     <article>
       <strong>Instagram</strong>
-      <p>${escapeHtml(headline)} Filed by ${escapeHtml(reporter.name)}. Save this before the comments become a second location.</p>
+      <p>${escapeHtml(headline)} Reported by ${escapeHtml(reporter.name)}. Save this before the comments become a second location.</p>
     </article>
     <article>
       <strong>Video Script</strong>
