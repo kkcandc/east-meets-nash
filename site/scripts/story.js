@@ -1,6 +1,11 @@
 const articleMain = document.querySelector("#articleMain");
 const articleRail = document.querySelector("#articleRail");
 const saveButton = document.querySelector("#storySaveButton");
+const accountSessionKey = "east-meets-nash:account-session";
+const storyReactionKey = "east-meets-nash:story-reactions";
+
+let currentStory = null;
+let currentReporter = null;
 
 function escapeHtml(value) {
   return String(value)
@@ -21,12 +26,53 @@ function reactionLabel(name) {
   return name;
 }
 
-function reactionButtons(reactions) {
-  return Object.entries(reactions || {})
-    .map(
-      ([name, count]) =>
-        `<button class="reaction-button" type="button" data-reaction="${escapeHtml(name)}" data-count="${count}">${escapeHtml(reactionLabel(name))} ${count}</button>`,
-    )
+function readReactionStore() {
+  try {
+    return JSON.parse(localStorage.getItem(storyReactionKey) || "{}");
+  } catch {
+    return {};
+  }
+}
+
+function isLoggedIn() {
+  return localStorage.getItem(accountSessionKey) === "true";
+}
+
+function setLoggedIn(active) {
+  localStorage.setItem(accountSessionKey, active ? "true" : "false");
+  updateSessionButton();
+}
+
+function updateSessionButton() {
+  saveButton.textContent = isLoggedIn() ? "Logged In" : "Login";
+  saveButton.setAttribute("aria-pressed", String(isLoggedIn()));
+}
+
+function selectedReaction(storyId) {
+  return readReactionStore()[storyId] || null;
+}
+
+function saveReaction(storyId, reaction) {
+  const reactions = readReactionStore();
+  reactions[storyId] = reaction;
+  localStorage.setItem(storyReactionKey, JSON.stringify(reactions));
+}
+
+function reactionStatus(story) {
+  if (!isLoggedIn()) return "Log in to react. One reaction per article.";
+  if (selectedReaction(story.id)) return "Your reaction is saved. You can switch it, but it only counts once.";
+  return "Pick one reaction. One per article.";
+}
+
+function reactionButtons(story) {
+  const selected = selectedReaction(story.id);
+  return Object.entries(story.reactions || {})
+    .map(([name, count]) => {
+      const isSelected = selected === name;
+      const selectedClass = isSelected ? " selected" : "";
+      const displayCount = Number(count) + (isSelected ? 1 : 0);
+      return `<button class="reaction-button${selectedClass}" type="button" aria-pressed="${isSelected}" data-story="${escapeHtml(story.id)}" data-reaction="${escapeHtml(name)}">${escapeHtml(reactionLabel(name))} <strong>${displayCount}</strong></button>`;
+    })
     .join("");
 }
 
@@ -49,6 +95,9 @@ function commentList(story) {
 }
 
 function renderStory(story, reporter) {
+  currentStory = story;
+  currentReporter = reporter;
+  updateSessionButton();
   document.title = `${story.title} | East Meets Nash`;
 
   articleMain.innerHTML = `
@@ -85,9 +134,11 @@ function renderStory(story, reporter) {
       <p>${escapeHtml(reporter.tagline)}</p>
       <small>${escapeHtml(reporter.beat)}</small>
     </section>
-    <section class="rail-card">
+    <section class="rail-card reaction-card">
       <p class="eyebrow">React</p>
-      <div class="reaction-row">${reactionButtons(story.reactions)}</div>
+      <div class="reaction-row">${reactionButtons(story)}</div>
+      <p class="reaction-note" id="reactionNote">${escapeHtml(reactionStatus(story))}</p>
+      ${isLoggedIn() ? "" : `<button class="reaction-login-button" type="button" id="reactionLoginButton">Login to react</button>`}
     </section>
     <section class="rail-card">
       <p class="eyebrow">Social Kit</p>
@@ -108,11 +159,28 @@ function renderStory(story, reporter) {
 
   document.querySelectorAll(".reaction-button").forEach((button) => {
     button.addEventListener("click", () => {
+      const storyId = button.dataset.story;
       const reaction = button.dataset.reaction;
-      const count = Number(button.dataset.count || 0) + 1;
-      button.dataset.count = String(count);
-      button.textContent = `${reactionLabel(reaction)} ${count}`;
+      const note = document.querySelector("#reactionNote");
+
+      if (!isLoggedIn()) {
+        note.textContent = "Log in first, then your reaction will count once.";
+        return;
+      }
+
+      if (selectedReaction(storyId) === reaction) {
+        note.textContent = "Already counted for this article.";
+        return;
+      }
+
+      saveReaction(storyId, reaction);
+      renderStory(story, reporter);
     });
+  });
+
+  document.querySelector("#reactionLoginButton")?.addEventListener("click", () => {
+    setLoggedIn(true);
+    renderStory(story, reporter);
   });
 }
 
@@ -125,8 +193,11 @@ function renderMissing() {
 }
 
 saveButton.addEventListener("click", () => {
-  saveButton.textContent = saveButton.textContent === "Save" ? "Saved" : "Save";
+  setLoggedIn(!isLoggedIn());
+  if (currentStory && currentReporter) renderStory(currentStory, currentReporter);
 });
+
+updateSessionButton();
 
 async function loadData() {
   const params = new URLSearchParams(window.location.search);

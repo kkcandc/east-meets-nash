@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { ReactionPanel } from "@/components/ReactionPanel";
 import { SubscribeForm } from "@/components/SubscribeForm";
-import { formatReactionLabel, getReporter, getStories, getStoryBySlug } from "@/lib/content";
+import { getReporter, getStories, getStoryBySlug } from "@/lib/content";
 
 interface StoryPageProps {
   params: Promise<{ slug: string }>;
@@ -76,16 +77,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
           <p>{reporter.tagline}</p>
           <small>{reporter.beat}</small>
         </section>
-        <section className="rail-card">
-          <p className="eyebrow">React</p>
-          <div className="reaction-row">
-            {Object.entries(story.reactions).map(([name, count]) => (
-              <span key={name} className="reaction-chip">
-                {formatReactionLabel(name)} <strong>{count}</strong>
-              </span>
-            ))}
-          </div>
-        </section>
+        <ReactionPanel reactions={story.reactions} storyId={story.id} />
         <section className="rail-card">
           <p className="eyebrow">Social Kit</p>
           <h2>X</h2>

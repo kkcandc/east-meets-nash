@@ -469,6 +469,62 @@ h3 {
   gap: 8px;
 }
 
+.reaction-card {
+  display: grid;
+  gap: 12px;
+}
+
+.reaction-button,
+.reaction-login-button {
+  min-height: 34px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--ink);
+  font-weight: 950;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+.reaction-button {
+  padding: 6px 10px;
+}
+
+.reaction-button strong {
+  margin-left: 2px;
+  font-size: 0.86em;
+}
+
+.reaction-button:hover,
+.reaction-login-button:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 var(--ink);
+}
+
+.reaction-button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+.reaction-button.selected {
+  background: var(--gold);
+}
+
+.reaction-login-button {
+  width: fit-content;
+  padding: 8px 12px;
+  background: var(--tomato);
+  color: #fffaf0;
+}
+
+.reaction-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
 .side-rail,
 .article-rail,
 .reporter-list,

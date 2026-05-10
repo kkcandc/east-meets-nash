@@ -95,7 +95,8 @@ a {
 .atxp-button,
 .big-link-button,
 .wallet-actions button,
-.signup-form button {
+.signup-form button,
+.reaction-login-button {
   min-height: 40px;
   border: 2px solid var(--ink);
   border-radius: 8px;
@@ -119,7 +120,8 @@ a {
 .atxp-button,
 .big-link-button,
 .wallet-actions button,
-.signup-form button {
+.signup-form button,
+.reaction-login-button {
   padding: 9px 12px;
   font-weight: 900;
 }
@@ -129,6 +131,7 @@ a {
 .big-link-button:hover,
 .wallet-actions button:hover,
 .signup-form button:hover,
+.reaction-login-button:hover,
 .reaction-button:hover {
   transform: translate(-1px, -1px);
   box-shadow: 4px 4px 0 var(--ink);
@@ -493,6 +496,11 @@ a {
   gap: 8px;
 }
 
+.reaction-card {
+  display: grid;
+  gap: 12px;
+}
+
 .reaction-button {
   min-height: 34px;
   border: 2px solid var(--ink);
@@ -503,6 +511,30 @@ a {
   font-weight: 900;
   cursor: pointer;
   box-shadow: 2px 2px 0 var(--ink);
+}
+
+.reaction-button strong {
+  margin-left: 2px;
+  font-size: 0.86em;
+}
+
+.reaction-button.selected {
+  background: var(--gold);
+}
+
+.reaction-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.reaction-login-button {
+  width: fit-content;
+  border-radius: 999px;
+  background: var(--tomato);
+  color: #fffaf0;
 }
 
 .side-rail {
