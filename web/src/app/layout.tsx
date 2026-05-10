@@ -13,12 +13,7 @@ export const metadata: Metadata = {
 };
 
 const navItems = [
-  ["Front", "/"],
-  ["Feed", "/feed"],
-  ["Topics", "/topics"],
-  ["Desk", "/admin/sources"],
-  ["Issue", "/admin/issues"],
-  ["Launch", "/admin"],
+  ["Latest", "/"],
 ];
 
 export default function RootLayout({ children }: { children: ReactNode }) {
