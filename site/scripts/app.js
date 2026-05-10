@@ -5,6 +5,7 @@ const state = {
 };
 
 const leadStory = document.querySelector("#leadStory");
+const secondaryPackage = document.querySelector("#secondaryPackage");
 const storyGrid = document.querySelector("#storyGrid");
 const storyTemplate = document.querySelector("#storyTemplate");
 const briefList = document.querySelector("#briefList");
@@ -36,6 +37,14 @@ function reporterFor(story) {
   };
 }
 
+function isSeriousStory(story) {
+  return ["Safety", "Crime", "Public Safety"].includes(story.beat) || story.title.includes("No Jokes");
+}
+
+function storyUrl(story) {
+  return `/story.html?id=${encodeURIComponent(story.id)}`;
+}
+
 function renderStory(story, variant = "standard") {
   const node = storyTemplate.content.firstElementChild.cloneNode(true);
   const art = node.querySelector(".story-art");
@@ -46,6 +55,8 @@ function renderStory(story, variant = "standard") {
   const footer = node.querySelector(".story-footer");
 
   if (variant === "lead") node.classList.add("lead-card");
+  if (variant === "package") node.classList.add("package-card");
+  if (isSeriousStory(story)) node.classList.add("serious-card");
   if (story.heroImage) {
     const image = document.createElement("img");
     image.className = "story-art story-image";
@@ -57,8 +68,9 @@ function renderStory(story, variant = "standard") {
   }
 
   meta.innerHTML = `
-    <span class="pill hot">${escapeHtml(story.label)}</span>
+    <span class="pill ${isSeriousStory(story) ? "serious" : "hot"}">${escapeHtml(story.label)}</span>
     <span>${escapeHtml(story.zone)}</span>
+    <span>${escapeHtml(story.beat)}</span>
   `;
   title.textContent = story.title;
   deck.textContent = story.deck;
@@ -68,7 +80,7 @@ function renderStory(story, variant = "standard") {
 
   node.addEventListener("click", (event) => {
     if (event.target.closest("button") || event.target.closest("a")) return;
-    window.location.href = `/story.html?id=${encodeURIComponent(story.id)}`;
+    window.location.href = storyUrl(story);
   });
 
   return node;
@@ -182,6 +194,7 @@ function sortHomepageStories() {
 
 function renderFeed() {
   leadStory.innerHTML = "";
+  secondaryPackage.innerHTML = "";
   storyGrid.innerHTML = "";
 
   if (!state.filtered.length) {
@@ -189,8 +202,23 @@ function renderFeed() {
     return;
   }
 
-  leadStory.append(renderStory(state.filtered[0], "lead"));
-  state.filtered.slice(1).forEach((story) => storyGrid.append(renderStory(story)));
+  const packageIds = [
+    "party-fowl-five-points-opening",
+    "gallatin-main-safety-project",
+    "east-trinity-gallatin-pedestrian-death",
+  ];
+  const packageStories = packageIds
+    .map((id) => state.filtered.find((story) => story.id === id))
+    .filter(Boolean);
+  const fallbackStories = state.filtered.filter((story) => !packageStories.includes(story));
+  const topStories = [...packageStories, ...fallbackStories].slice(0, 3);
+  const topStoryIds = new Set(topStories.map((story) => story.id));
+
+  leadStory.append(renderStory(topStories[0], "lead"));
+  topStories.slice(1).forEach((story) => secondaryPackage.append(renderStory(story, "package")));
+  state.filtered
+    .filter((story) => !topStoryIds.has(story.id))
+    .forEach((story) => storyGrid.append(renderStory(story)));
 }
 
 function renderBrief() {
@@ -198,15 +226,19 @@ function renderBrief() {
   state.stories
     .slice()
     .sort((a, b) => b.priority - a.priority)
-    .slice(0, 5)
+    .slice(0, 7)
     .forEach((story) => {
       const li = document.createElement("li");
-      li.textContent = story.title;
+      li.innerHTML = `
+        <a href="${storyUrl(story)}">${escapeHtml(story.title)}</a>
+        <span>${escapeHtml(story.zone)} / ${escapeHtml(story.beat)}</span>
+      `;
       briefList.append(li);
     });
 }
 
 function renderReporters() {
+  if (!reporterList) return;
   reporterList.innerHTML = "";
   state.reporters.forEach((reporter) => {
     const node = document.createElement("article");

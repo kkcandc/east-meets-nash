@@ -275,6 +275,18 @@ a {
   padding: 34px 28px;
 }
 
+.front-package {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 18px;
+  align-items: stretch;
+}
+
+.package-stack {
+  display: grid;
+  gap: 14px;
+}
+
 .capture-panel {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
@@ -286,6 +298,10 @@ a {
   background: var(--gold);
   padding: 18px;
   box-shadow: var(--shadow);
+}
+
+.front-capture {
+  margin-top: 18px;
 }
 
 .capture-panel h2,
@@ -306,6 +322,18 @@ a {
 
 .section-heading {
   margin-bottom: 18px;
+}
+
+.compact-heading {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+.compact-heading h2 {
+  font-size: 1.6rem;
 }
 
 .front-page-heading {
@@ -347,7 +375,6 @@ a {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
-  margin-top: 18px;
 }
 
 .story-card {
@@ -364,6 +391,22 @@ a {
   grid-template-columns: 0.7fr 1fr;
   min-height: 360px;
   background: var(--gold);
+}
+
+.package-card {
+  grid-template-columns: 118px minmax(0, 1fr);
+  min-height: 172px;
+}
+
+.package-card .story-art {
+  min-height: 100%;
+  border-right: 2px solid var(--ink);
+  border-bottom: 0;
+}
+
+.package-card .story-image {
+  height: 100%;
+  min-height: 172px;
 }
 
 .story-art {
@@ -479,6 +522,20 @@ a {
   color: #fffaf0;
 }
 
+.pill.serious {
+  background: var(--ink);
+  color: #fffaf0;
+}
+
+.serious-card {
+  border-left-width: 8px;
+  background: #fffdf5;
+}
+
+.serious-card .story-read-link {
+  color: var(--ink);
+}
+
 .story-card h3 {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
@@ -488,6 +545,19 @@ a {
 
 #leadStory .story-card h3 {
   font-size: 2.5rem;
+}
+
+.package-card h3 {
+  font-size: 1.18rem;
+}
+
+.package-card .story-content {
+  gap: 9px;
+  padding: 13px;
+}
+
+.package-card .deck {
+  font-size: 0.92rem;
 }
 
 .deck {
@@ -557,7 +627,8 @@ a {
 
 .brief-panel,
 .wallet-panel,
-.reporter-panel {
+.reporter-panel,
+.tip-panel {
   border: 2px solid var(--ink);
   border-radius: 8px;
   background: #fffaf0;
@@ -574,6 +645,12 @@ a {
   color: var(--gold);
 }
 
+.tip-panel h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.05;
+}
+
 .brief-panel ol {
   margin: 14px 0 18px 22px;
   padding: 0;
@@ -585,6 +662,31 @@ a {
   padding-left: 4px;
   line-height: 1.35;
   font-weight: 760;
+}
+
+.brief-panel li a {
+  display: block;
+  color: #fffaf0;
+  text-decoration: none;
+}
+
+.brief-panel li a:hover {
+  text-decoration: underline;
+}
+
+.brief-panel li span {
+  display: block;
+  margin-top: 4px;
+  color: rgba(255, 250, 240, 0.72);
+  font-size: 0.76rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.tip-panel p:not(.eyebrow) {
+  margin: 12px 0 0;
+  color: var(--muted);
+  line-height: 1.45;
 }
 
 .signup-form {
@@ -2096,13 +2198,14 @@ a {
   .conversion-bar,
   .masthead,
   .front-layout,
+  .front-package,
   .market-band,
   .capture-panel {
     grid-template-columns: 1fr;
   }
 
   .side-rail {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .classified-grid {
@@ -2209,6 +2312,7 @@ a {
   }
 
   #leadStory .story-card,
+  .package-card,
   .story-grid,
   .side-rail,
   .sponsor-menu,
@@ -2216,13 +2320,15 @@ a {
     grid-template-columns: 1fr;
   }
 
-  #leadStory .story-art {
+  #leadStory .story-art,
+  .package-card .story-art {
     min-height: 210px;
     border-right: 0;
     border-bottom: 2px solid var(--ink);
   }
 
-  #leadStory .story-image {
+  #leadStory .story-image,
+  .package-card .story-image {
     height: 210px;
     min-height: 210px;
   }

@@ -258,6 +258,22 @@ h3 {
   padding-top: 26px;
 }
 
+.front-package {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 18px;
+  align-items: stretch;
+}
+
+.front-package .lead-card {
+  margin-bottom: 0;
+}
+
+.package-stack {
+  display: grid;
+  gap: 14px;
+}
+
 .capture-panel {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
@@ -269,6 +285,10 @@ h3 {
   background: var(--gold);
   padding: 18px;
   box-shadow: var(--shadow);
+}
+
+.front-capture {
+  margin-top: 18px;
 }
 
 .capture-panel h2,
@@ -289,6 +309,18 @@ h3 {
 
 .section-heading {
   margin-bottom: 18px;
+}
+
+.compact-heading {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+.compact-heading h2 {
+  font-size: 1.6rem;
 }
 
 .front-page-heading {
@@ -347,6 +379,22 @@ h3 {
   min-height: 360px;
   margin-bottom: 18px;
   background: var(--gold);
+}
+
+.package-card {
+  grid-template-columns: 118px minmax(0, 1fr);
+  min-height: 172px;
+}
+
+.package-card .story-art {
+  min-height: 100%;
+  border-right: 2px solid var(--ink);
+  border-bottom: 0;
+}
+
+.package-card .story-image {
+  height: 100%;
+  min-height: 172px;
 }
 
 .story-art {
@@ -450,6 +498,20 @@ h3 {
   color: #fffaf0;
 }
 
+.pill.serious {
+  background: var(--ink);
+  color: #fffaf0;
+}
+
+.serious-card {
+  border-left-width: 8px;
+  background: #fffdf5;
+}
+
+.serious-card .story-read-link {
+  color: var(--ink);
+}
+
 .story-card h2 {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
@@ -459,6 +521,19 @@ h3 {
 
 .lead-card h2 {
   font-size: 2.4rem;
+}
+
+.package-card h2 {
+  font-size: 1.18rem;
+}
+
+.package-card .story-content {
+  gap: 9px;
+  padding: 13px;
+}
+
+.package-card p {
+  font-size: 0.92rem;
 }
 
 .story-card p {
@@ -569,6 +644,58 @@ h3 {
 
 .brief-panel .eyebrow {
   color: var(--gold);
+}
+
+.brief-panel ol {
+  display: grid;
+  gap: 12px;
+  margin: 14px 0 18px 22px;
+  padding: 0;
+}
+
+.brief-panel li {
+  padding-left: 4px;
+  line-height: 1.35;
+  font-weight: 760;
+}
+
+.brief-panel li a {
+  display: block;
+  color: #fffaf0;
+  text-decoration: none;
+}
+
+.brief-panel li a:hover {
+  text-decoration: underline;
+}
+
+.brief-panel li span {
+  display: block;
+  margin-top: 4px;
+  color: rgba(255, 250, 240, 0.72);
+  font-size: 0.76rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.tip-panel {
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  background: #fffaf0;
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+
+.tip-panel h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.05;
+}
+
+.tip-panel p:not(.eyebrow) {
+  margin: 12px 0 0;
+  color: var(--muted);
+  line-height: 1.45;
 }
 
 .signup-form {
@@ -1191,6 +1318,7 @@ dd {
   .conversion-bar,
   .masthead,
   .front-layout,
+  .front-package,
   .feed-layout,
   .topic-layout,
   .issue-layout,
@@ -1274,9 +1402,21 @@ dd {
   .issue-item,
   .launch-source-card,
   .task-item,
+  .package-card,
   dl div,
   .signup-form div {
     grid-template-columns: 1fr;
+  }
+
+  .package-card .story-art {
+    min-height: 210px;
+    border-right: 0;
+    border-bottom: 2px solid var(--ink);
+  }
+
+  .package-card .story-image {
+    height: 210px;
+    min-height: 210px;
   }
 
   .launch-kpis {

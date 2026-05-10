@@ -47,18 +47,22 @@
       <section class="front-layout" aria-label="East Meets Nash front page">
         <div class="lead-column">
           <div class="section-heading front-page-heading">
-            <p class="eyebrow">Latest East Nashville</p>
-            <h1>What East Nashville Is Talking About</h1>
+            <p class="eyebrow">East Nashville Today</p>
+            <h1>The News Before The Group Chat Gets To It</h1>
             <p>
-              Openings, traffic pain, permits, neighborhood drama, and anything else with local
-              fingerprints on it.
+              Restaurants, roads, civic mess, weekend plans, and the neighborhood details worth
+              forwarding.
             </p>
           </div>
-          <section class="capture-panel">
+          <section class="front-package" aria-label="Top stories">
+            <div id="leadStory"></div>
+            <div class="package-stack" id="secondaryPackage"></div>
+          </section>
+          <section class="capture-panel front-capture">
             <div>
-              <p class="eyebrow">Do Not Miss The Brief</p>
-              <h2>Get the useful stuff, the weird stuff, and what people are mad about.</h2>
-              <p>One email. Very East Nashville. Free while we are still behaving like a startup with a press pass.</p>
+              <p class="eyebrow">Get Tomorrow's Brief</p>
+              <h2>The useful stuff, the weird stuff, and what people are mad about.</h2>
+              <p>One very East Nashville email. Free, fast, and only a little too interested in permits.</p>
             </div>
             <form class="signup-form">
               <label for="inlineEmailInput">Your email</label>
@@ -68,14 +72,19 @@
               </div>
             </form>
           </section>
-          <div id="leadStory"></div>
-          <div class="story-grid" id="storyGrid"></div>
+          <section class="news-river" aria-label="More East Nashville stories">
+            <div class="section-heading compact-heading">
+              <p class="eyebrow">More From Today</p>
+              <h2>Keep Going</h2>
+            </div>
+            <div class="story-grid" id="storyGrid"></div>
+          </section>
         </div>
 
         <aside class="side-rail" aria-label="Side rail">
           <section class="brief-panel" id="brief">
-            <p class="eyebrow">Morning Brief</p>
-            <h2>Five Things Before The Coffee Gets Weird</h2>
+            <p class="eyebrow">Today's Brief</p>
+            <h2>Seven Things Worth Knowing</h2>
             <ol id="briefList"></ol>
             <form class="signup-form">
               <label for="emailInput">Daily email</label>
@@ -87,24 +96,11 @@
             <a class="big-link-button" href="/feed.html">Create Account</a>
           </section>
 
-          <section class="wallet-panel">
-            <p class="eyebrow">Account</p>
-            <h2>East Nash Credits</h2>
-            <div class="balance-line">
-              <span>Balance</span>
-              <strong id="mockBalance">$18.40</strong>
-            </div>
-            <div class="wallet-actions">
-              <button type="button">Top Up</button>
-              <button type="button">Run Classified</button>
-              <button type="button">Buy Sponsor Spot</button>
-            </div>
-          </section>
-
-          <section class="reporter-panel">
-            <p class="eyebrow">Bureau</p>
-            <h2>The Reporters</h2>
-            <div id="reporterList" class="reporter-list"></div>
+          <section class="tip-panel">
+            <p class="eyebrow">Tip Line</p>
+            <h2>Know Something East Nashville Should Be Nosy About?</h2>
+            <p>Send openings, closures, weird signs, permit drama, meeting notes, and gossip with receipts.</p>
+            <a class="big-link-button" href="/tips.html">Send A Tip</a>
           </section>
         </aside>
       </section>
