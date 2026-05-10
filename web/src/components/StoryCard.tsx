@@ -4,7 +4,11 @@ import type { Story } from "@/lib/types";
 export function StoryCard({ story, lead = false }: { story: Story; lead?: boolean }) {
   return (
     <article className={`story-card ${lead ? "lead-card" : ""}`}>
-      <div className={`story-art art-${story.imageStyle}`} />
+      {story.heroImage ? (
+        <img className="story-art story-image" src={story.heroImage} alt={story.heroAlt || ""} />
+      ) : (
+        <div className={`story-art art-${story.imageStyle}`} />
+      )}
       <div className="story-content">
         <div className="story-meta">
           <span className="pill hot">{story.label}</span>

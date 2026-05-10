@@ -94,6 +94,55 @@ function commentList(story) {
     .join("");
 }
 
+function articleParagraphs(story) {
+  return String(story.body || "")
+    .split("\n\n")
+    .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
+    .join("");
+}
+
+function factBox(story) {
+  const facts = (story.factBox || [])
+    .map((fact) => `<div><dt>${escapeHtml(fact.label)}</dt><dd>${escapeHtml(fact.value)}</dd></div>`)
+    .join("");
+  if (!facts) return "";
+  return `
+    <section class="article-section fact-box">
+      <h2>Fast Facts</h2>
+      <dl>${facts}</dl>
+    </section>
+  `;
+}
+
+function mediaPackage(story) {
+  const items = (story.media || [])
+    .map(
+      (item) => `
+        <article class="media-card">
+          <span>${escapeHtml(item.label)}</span>
+          <h3>${escapeHtml(item.title)}</h3>
+          <p>${escapeHtml(item.description)}</p>
+          ${item.url ? `<a href="${escapeHtml(item.url)}">Open source</a>` : ""}
+        </article>
+      `,
+    )
+    .join("");
+  if (!items) return "";
+  return `
+    <section class="article-section media-section">
+      <h2>Media Package</h2>
+      <div class="media-grid">${items}</div>
+    </section>
+  `;
+}
+
+function storyHero(story) {
+  if (story.heroImage) {
+    return `<img class="story-art story-image article-hero-image" src="${escapeHtml(story.heroImage)}" alt="${escapeHtml(story.heroAlt || "")}" />`;
+  }
+  return `<div class="story-art art-${escapeHtml(story.imageStyle || "street")}"></div>`;
+}
+
 function renderStory(story, reporter) {
   currentStory = story;
   currentReporter = reporter;
@@ -110,14 +159,16 @@ function renderStory(story, reporter) {
       </div>
       <h1>${escapeHtml(story.title)}</h1>
       <p class="article-deck">${escapeHtml(story.deck)}</p>
-      <div class="story-art art-${escapeHtml(story.imageStyle || "street")}"></div>
+      ${storyHero(story)}
       <div class="article-body">
-        <p>${escapeHtml(story.body)}</p>
-        <p>This seed article demonstrates the production format: confidence label, source trail, reporter byline, local reactions, comments, and social/video outputs. Live articles will replace prototype notes with real source-backed reporting.</p>
+        ${articleParagraphs(story)}
       </div>
+      ${factBox(story)}
+      ${mediaPackage(story)}
       <section class="article-section">
         <h2>Sources</h2>
         <ul class="source-links">${sourceList(story)}</ul>
+        ${story.sourceNote ? `<p class="source-note">${escapeHtml(story.sourceNote)}</p>` : ""}
       </section>
       <section class="article-section">
         <h2>Comments</h2>

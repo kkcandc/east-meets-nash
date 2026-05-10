@@ -39,14 +39,44 @@ export default async function StoryPage({ params }: StoryPageProps) {
         </div>
         <h1>{story.title}</h1>
         <p className="article-deck">{story.deck}</p>
-        <div className={`story-art art-${story.imageStyle}`} />
+        {story.heroImage ? (
+          <img className="story-art story-image article-hero-image" src={story.heroImage} alt={story.heroAlt || ""} />
+        ) : (
+          <div className={`story-art art-${story.imageStyle}`} />
+        )}
         <div className="article-body">
-          <p>{story.body}</p>
-          <p>
-            This is the production article shape: confidence label, source trail, reporter byline, reactions, comments,
-            and social/video outputs. Live stories will replace prototype notes with real source-backed reporting.
-          </p>
+          {story.body.split("\n\n").map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
         </div>
+        {story.factBox?.length ? (
+          <section className="article-section fact-box">
+            <h2>Fast Facts</h2>
+            <dl>
+              {story.factBox.map((fact) => (
+                <div key={`${fact.label}-${fact.value}`}>
+                  <dt>{fact.label}</dt>
+                  <dd>{fact.value}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        ) : null}
+        {story.media?.length ? (
+          <section className="article-section media-section">
+            <h2>Media Package</h2>
+            <div className="media-grid">
+              {story.media.map((item) => (
+                <article key={`${item.label}-${item.title}`} className="media-card">
+                  <span>{item.label}</span>
+                  <h3>{item.title}</h3>
+                  <p>{item.description}</p>
+                  {item.url ? <a href={item.url}>Open source</a> : null}
+                </article>
+              ))}
+            </div>
+          </section>
+        ) : null}
         <section className="article-section">
           <h2>Sources</h2>
           <ul>
@@ -56,6 +86,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
               </li>
             ))}
           </ul>
+          {story.sourceNote ? <p className="source-note">{story.sourceNote}</p> : null}
         </section>
       </article>
 

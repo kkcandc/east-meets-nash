@@ -46,7 +46,15 @@ function renderStory(story, variant = "standard") {
   const footer = node.querySelector(".story-footer");
 
   if (variant === "lead") node.classList.add("lead-card");
-  art.classList.add(`art-${story.imageStyle || "street"}`);
+  if (story.heroImage) {
+    const image = document.createElement("img");
+    image.className = "story-art story-image";
+    image.src = story.heroImage;
+    image.alt = story.heroAlt || "";
+    art.replaceWith(image);
+  } else {
+    art.classList.add(`art-${story.imageStyle || "street"}`);
+  }
 
   meta.innerHTML = `
     <span class="pill hot">${escapeHtml(story.label)}</span>
@@ -74,6 +82,25 @@ function showStoryDetail(story) {
         `<li><a href="${escapeHtml(source.url)}">${escapeHtml(source.name)}</a> <span>${escapeHtml(source.type)}</span></li>`,
     )
     .join("");
+  const paragraphs = String(story.body || "")
+    .split("\n\n")
+    .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
+    .join("");
+  const factBox = (story.factBox || [])
+    .map((fact) => `<div><dt>${escapeHtml(fact.label)}</dt><dd>${escapeHtml(fact.value)}</dd></div>`)
+    .join("");
+  const media = (story.media || [])
+    .map(
+      (item) => `
+        <article class="media-card">
+          <span>${escapeHtml(item.label)}</span>
+          <h3>${escapeHtml(item.title)}</h3>
+          <p>${escapeHtml(item.description)}</p>
+          ${item.url ? `<a href="${escapeHtml(item.url)}">Open source</a>` : ""}
+        </article>
+      `,
+    )
+    .join("");
   const comments = (story.comments || [])
     .map(
       (comment) =>
@@ -89,7 +116,9 @@ function showStoryDetail(story) {
     </form>
     <p class="eyebrow">${escapeHtml(story.zone)} / ${escapeHtml(story.beat)}</p>
     <h2>${escapeHtml(story.title)}</h2>
-    <p>${escapeHtml(story.body)}</p>
+    ${paragraphs}
+    ${factBox ? `<section><h3>Fast Facts</h3><dl class="fact-box">${factBox}</dl></section>` : ""}
+    ${media ? `<section><h3>Media Package</h3><div class="media-grid">${media}</div></section>` : ""}
     <div class="dialog-columns">
       <section>
         <h3>Sources</h3>

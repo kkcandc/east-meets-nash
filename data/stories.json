@@ -1,6 +1,481 @@
 [
   {
+    "id": "party-fowl-five-points-opening",
+    "slug": "party-fowl-five-points-opening",
+    "title": "Party Fowl Lands In Five Points Tomorrow With Hot Chicken And Industrial Confidence",
+    "deck": "The Woodland Street opening comes with a ribbon cutting, giveaways, late hours, and the exact amount of zero chill East Nashville pretends not to enjoy.",
+    "body": "Party Fowl's East Nashville location is scheduled to open Monday, May 11, at 1016 Woodland St., with a 10:30 a.m. ribbon cutting and doors opening at 11 a.m. This is not a whisper-soft opening. This is a full-volume hot chicken arrival with hats for the first 50 guests, opening-day promos, live music, and enough launch-day sparkle to make Five Points check its outfit.\n\nThe useful part: this gives the neighborhood another late-night, full-service hot chicken and bar option near Shelby Park, The Basement East, and the Five Points orbit. Party Fowl says the East Nashville hours will run seven days a week, including 1 a.m. closes on Friday and Saturday, which means the post-show crowd just got one more place to make a confident sauce decision.\n\nThe funny part: East Nashville will act above the spectacle for about nine minutes, then someone will text the group chat asking whether the slushies are worth it. This is our civic process now.\n\nWorth watching after the opening: whether the late hours actually stick, whether the room becomes a locals-before-tourists hang, and whether 1016 Woodland can finally stop confusing the internet with old restaurant ghosts.",
+    "zone": "Five Points",
+    "beat": "Restaurants",
+    "label": "Confirmed",
+    "confidence": "Official opening announcement plus Chamber listing",
+    "reporterId": "mabel",
+    "time": "Today",
+    "priority": 140,
+    "imageStyle": "food",
+    "heroImage": "/assets/stories/party-fowl-five-points.png",
+    "heroAlt": "Editorial illustration of a hot chicken opening on an East Nashville street corner.",
+    "factBox": [
+      { "label": "Opens", "value": "Monday, May 11, 2026" },
+      { "label": "Where", "value": "1016 Woodland St." },
+      { "label": "Ribbon cutting", "value": "10:30 a.m.; doors at 11 a.m." },
+      { "label": "Launch hook", "value": "First 50 guests get limited-edition hats" }
+    ],
+    "media": [
+      {
+        "label": "Hero Art",
+        "title": "Generated editorial illustration",
+        "description": "A custom East Meets Nash hero image for the opening package, built as an illustration rather than a photo."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Opening announcement",
+        "description": "QSR published the opening date, address, giveaways, hours, and launch-day details.",
+        "url": "https://www.qsrmagazine.com/news/party-fowl-to-open-in-east-nashville/"
+      },
+      {
+        "label": "Follow-Up",
+        "title": "Opening-week reality check",
+        "description": "After Monday, the desk should verify crowds, hours, menu execution, and whether locals or visitors claim the room first."
+      }
+    ],
+    "sourceNote": "Treat this as confirmed for opening logistics. Any review, crowd read, or vibe judgment needs a post-opening visit or reader tips.",
+    "sources": [
+      {
+        "name": "QSR Magazine opening announcement",
+        "url": "https://www.qsrmagazine.com/news/party-fowl-to-open-in-east-nashville/",
+        "type": "Reported/brand announcement"
+      },
+      {
+        "name": "Nashville Area Chamber member spotlight",
+        "url": "https://nashvillechamber.com/blog/member-spotlight-party-fowl/",
+        "type": "Direct/Chamber"
+      },
+      {
+        "name": "Party Fowl locations page",
+        "url": "https://partyfowl.com/visit",
+        "type": "Business"
+      }
+    ],
+    "reactions": {
+      "Love": 17,
+      "Side-Eye": 11
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_48",
+        "text": "I will pretend I am above opening-week giveaways while arriving suspiciously early."
+      }
+    ],
+    "social": {
+      "x": "Party Fowl opens East Nashville tomorrow at 1016 Woodland, which means Five Points gets hot chicken, slushies, and a ribbon cutting with volume.",
+      "instagram": "Party Fowl lands in Five Points tomorrow. Hats, hot chicken, late hours, and East Nashville pretending it is not curious.",
+      "video": "Mabel stands outside a stylized Woodland Street storefront and explains the opening like a weather event with sauce levels."
+    }
+  },
+  {
+    "id": "gallatin-main-safety-project",
+    "slug": "gallatin-main-safety-project",
+    "title": "Gallatin And Main Are Finally Getting The Please Stop Treating This Like Daytona Treatment",
+    "deck": "NDOT's corridor work is moving from neighborhood complaint into actual street design, which is where the cones put on a tie and become policy.",
+    "body": "The Main Street and Gallatin Pike safety project is the kind of civic story East Nashville should keep in front of people until the paint is dry and the crosswalks are no longer theoretical. NDOT's project area includes Main Street from South 5th to South 10th and Gallatin Pike from South 10th to Briley Parkway, a stretch the city describes as part of Nashville's High Injury Network.\n\nWSMV reported that NDOT plans a first phase starting this summer with repaving from I-24 to Briley Parkway, new crosswalks, school zone signs, intersection build-outs, and other traffic-calming elements aimed at slowing vehicles down. Longer-term designs are tied to the Choose How You Move Gallatin All-Access Corridor, including dedicated bus lanes and better sidewalks.\n\nTranslation for normal residents: the road everyone yells about is not being fixed by a single orange cone with a dream. It is a multi-year project, and some pieces are safety-now while others are transit-later. Expect enthusiasm, suspicion, lane-count arguments, and at least one person to say the phrase 'war on cars' while standing next to a road that has been at war with pedestrians for years.\n\nOur next pass should track the actual construction schedule, the summer repaving window, which crossings get upgraded first, and whether the final design helps people on foot, bikes, buses, and cars instead of simply moving the stress three blocks north.",
+    "zone": "Gallatin",
+    "beat": "Traffic",
+    "label": "Confirmed",
+    "confidence": "Official NDOT project page plus recent local reporting",
+    "reporterId": "parker",
+    "time": "Today",
+    "priority": 136,
+    "imageStyle": "street",
+    "heroImage": "/assets/stories/gallatin-safety-project.png",
+    "heroAlt": "Editorial illustration of Gallatin Pike with cones, crosswalks, storefronts, and a transit bus silhouette.",
+    "factBox": [
+      { "label": "Project area", "value": "Main from S. 5th to S. 10th; Gallatin from S. 10th to Briley" },
+      { "label": "Near-term work", "value": "Repaving, crosswalks, school zone signs, intersection build-outs" },
+      { "label": "Longer-term", "value": "Gallatin All-Access Corridor and transit-priority planning" },
+      { "label": "Why it matters", "value": "NDOT identifies the corridor in the High Injury Network" }
+    ],
+    "media": [
+      {
+        "label": "Hero Art",
+        "title": "Generated corridor illustration",
+        "description": "A custom visual for recurring Gallatin coverage, designed for story, newsletter, and social use."
+      },
+      {
+        "label": "Public Record",
+        "title": "NDOT project page",
+        "description": "The official page defines the project extent and complete-streets vision.",
+        "url": "https://www.nashville.gov/departments/transportation/projects/complete-streets/gallatin-pike-and-main-street"
+      },
+      {
+        "label": "Next Graphic",
+        "title": "Crosswalk tracker",
+        "description": "Build a simple map/list of which crossings are planned, upgraded, delayed, or still decorative."
+      }
+    ],
+    "sourceNote": "This is confirmed at the project level. Construction timing and block-by-block impacts need ongoing NDOT checks.",
+    "sources": [
+      {
+        "name": "NDOT Gallatin Pike and Main Street Project",
+        "url": "https://www.nashville.gov/departments/transportation/projects/complete-streets/gallatin-pike-and-main-street",
+        "type": "Official"
+      },
+      {
+        "name": "WSMV project report",
+        "url": "https://www.wsmv.com/2026/04/27/gallatin-pike-safety-project-bring-major-changes-east-nashville-inglewood-roads/",
+        "type": "Reported"
+      },
+      {
+        "name": "NDOT April 28 project update meeting",
+        "url": "https://www.nashville.gov/departments/transportation/events/main-street-and-gallatin-pike-transportation-project-updates-community-meeting",
+        "type": "Official event"
+      }
+    ],
+    "reactions": {
+      "Love": 22,
+      "Side-Eye": 34
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_12",
+        "text": "Please make the crosswalks less like a personal dare."
+      }
+    ],
+    "social": {
+      "x": "Gallatin/Main safety work is moving from complaint cloud to actual project: repaving, crossings, calming, and eventually transit-priority designs.",
+      "instagram": "Gallatin is getting the Please Stop Treating This Like Daytona package. Cones, crosswalks, bus-lane arguments, the whole civic casserole.",
+      "video": "Parker narrates a Gallatin corridor map while holding coffee like a traffic engineer with a childcare deadline."
+    }
+  },
+  {
+    "id": "east-trinity-gallatin-pedestrian-death",
+    "slug": "east-trinity-gallatin-pedestrian-death",
+    "title": "A Man Was Killed At East Trinity And Gallatin. No Jokes Here.",
+    "deck": "MNPD says a 58-year-old pedestrian died Monday after being struck by a semi at one of East Nashville's most stressful intersections.",
+    "body": "Metro Police reported that a 58-year-old pedestrian died Monday afternoon, May 4, after being struck by a semi-truck on East Trinity Lane at Gallatin Pike. According to MNPD's preliminary release, the eastbound semi was attempting to turn right onto Gallatin when the man came from behind a building onto the sidewalk, stumbled, fell into the roadway, and was struck. The driver remained at the scene.\n\nWe are keeping this one plain. No riffs, no character bit, no cute closing line. A person died at an intersection many East Nashville residents already understand as dangerous in their bones.\n\nThe broader context matters: the Main/Gallatin corridor is already the focus of safety planning, and WPLN reported this week that Nashville pedestrian deaths have sharply increased in 2026. That does not make this death a statistic to toss around. It makes it a reason to track infrastructure, lighting, crossings, speeds, truck turns, and project timelines with more discipline.\n\nWhat we will watch next: whether MNPD releases additional information, whether NDOT flags near-term safety treatments around East Trinity and Gallatin, and whether the larger Gallatin/Main work addresses the kind of everyday exposure pedestrians face on this corridor.",
+    "zone": "Gallatin",
+    "beat": "Safety",
+    "label": "Confirmed",
+    "confidence": "Official police release",
+    "reporterId": "june",
+    "time": "Today",
+    "priority": 132,
+    "imageStyle": "permit",
+    "factBox": [
+      { "label": "Date", "value": "Monday, May 4, 2026" },
+      { "label": "Location", "value": "East Trinity Lane at Gallatin Pike" },
+      { "label": "Source", "value": "Metro Nashville Police Department" },
+      { "label": "Tone", "value": "Straight news brief; no jokes" }
+    ],
+    "media": [
+      {
+        "label": "Official",
+        "title": "MNPD release",
+        "description": "The police release is the source for the basic facts currently publishable.",
+        "url": "https://www.nashville.gov/departments/police/news/pedestrian-fatally-struck-semi-east-nashville-after-stumbling-roadway"
+      },
+      {
+        "label": "Context",
+        "title": "Pedestrian fatality trend",
+        "description": "WPLN reported a sharp increase in Nashville pedestrian fatalities in 2026.",
+        "url": "https://wpln.org/post/nashville-pedestrian-and-roadway-deaths-have-spiked-in-2026/"
+      }
+    ],
+    "sourceNote": "Avoid naming the victim until family notification and reliable identification are complete. No mug shots, no speculation.",
+    "sources": [
+      {
+        "name": "MNPD media release",
+        "url": "https://www.nashville.gov/departments/police/news/pedestrian-fatally-struck-semi-east-nashville-after-stumbling-roadway",
+        "type": "Official"
+      },
+      {
+        "name": "WPLN pedestrian fatalities context",
+        "url": "https://wpln.org/post/nashville-pedestrian-and-roadway-deaths-have-spiked-in-2026/",
+        "type": "Reported"
+      }
+    ],
+    "reactions": {
+      "Love": 3,
+      "Side-Eye": 19
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_60",
+        "text": "Thank you for not making this one cute."
+      }
+    ],
+    "social": {
+      "x": "MNPD says a 58-year-old pedestrian died Monday after being struck by a semi at East Trinity and Gallatin. Straight brief, no jokes.",
+      "instagram": "A pedestrian was killed at East Trinity and Gallatin. We are keeping this one plain, sourced, and tied to the larger corridor safety issue.",
+      "video": "June delivers a short, restrained safety brief with the MNPD release and the Gallatin corridor context on screen."
+    }
+  },
+  {
+    "id": "dry-cleaning-basement-east-tonight",
+    "slug": "dry-cleaning-basement-east-tonight",
+    "title": "Tonight At The Basement East: Dry Cleaning, Hotline TNT, And A Sunday Night With Intentional Side-Eye",
+    "deck": "The 8 p.m. show gives Woodland a post-punk Sunday option, because apparently rest is for neighborhoods without venues.",
+    "body": "Dry Cleaning is listed for The Basement East tonight, Sunday, May 10, at 8 p.m., with Hotline TNT appearing on Ticketmaster's venue listing. JamBase also lists YHWH Nailgun, so check the ticket page before you build your entire personality around the opener.\n\nThis is a clean quick-hit event post: date, time, venue, lineup, link, and a small warning that third-party listings sometimes disagree because the internet enjoys making simple plans feel like a municipal process.\n\nNeighborhood usefulness: if you live near Five Points/Woodland, expect the ordinary show-night motion around The Beast. If you are going, eat before, check the official ticket link, and do not discover parking emotionally.\n\nRiff's read: a Sunday night post-punk show is exactly the kind of plan that sounds mature at 2 p.m. and extremely ambitious at 7:12 p.m. Respect to everyone who makes it.",
+    "zone": "Five Points",
+    "beat": "Music",
+    "label": "Seen in the Wild",
+    "confidence": "Public event listings",
+    "reporterId": "riff",
+    "time": "Tonight",
+    "priority": 126,
+    "imageStyle": "music",
+    "factBox": [
+      { "label": "When", "value": "Sunday, May 10, 2026, 8 p.m." },
+      { "label": "Where", "value": "The Basement East, 917 Woodland St." },
+      { "label": "Listed lineup", "value": "Dry Cleaning with Hotline TNT; JamBase also lists YHWH Nailgun" },
+      { "label": "Reader move", "value": "Check the ticket page before leaving" }
+    ],
+    "media": [
+      {
+        "label": "Listing",
+        "title": "Ticketmaster venue page",
+        "description": "Lists Dry Cleaning with Hotline TNT at The Basement East on May 10.",
+        "url": "https://www.ticketmaster.com/the-basement-east-tickets-nashville/venue/222610"
+      },
+      {
+        "label": "Listing",
+        "title": "JamBase event page",
+        "description": "Lists the May 10 Dry Cleaning show with time, venue, and ticket range.",
+        "url": "https://www.jambase.com/show/dry-cleaning-the-basement-east-20260510"
+      }
+    ],
+    "sourceNote": "Event lineups can change. The final pre-departure source should be the venue or ticketing page.",
+    "sources": [
+      {
+        "name": "Ticketmaster Basement East listing",
+        "url": "https://www.ticketmaster.com/the-basement-east-tickets-nashville/venue/222610",
+        "type": "Event listing"
+      },
+      {
+        "name": "JamBase event listing",
+        "url": "https://www.jambase.com/show/dry-cleaning-the-basement-east-20260510",
+        "type": "Event listing"
+      }
+    ],
+    "reactions": {
+      "Love": 15,
+      "Side-Eye": 7
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_15",
+        "text": "A Sunday show is how I learn whether my youth is a renewable resource."
+      }
+    ],
+    "social": {
+      "x": "Tonight at The Basement East: Dry Cleaning at 8 p.m., with Hotline TNT listed. Check the ticket page; third-party lineups are doing little jazz hands.",
+      "instagram": "Sunday night post-punk at The Beast. Dry Cleaning, Hotline TNT, and one neighborhood pretending Monday does not exist.",
+      "video": "Riff stands under a fake venue marquee and gives the show listing, then sighs at the concept of Sunday ambition."
+    }
+  },
+  {
+    "id": "eastwood-cleanup-tabla-rasa",
+    "slug": "eastwood-cleanup-tabla-rasa",
+    "title": "Eastwood Has A One-Hour Cleanup Tomorrow, Which Is Civic Duty With Trash Bags",
+    "deck": "NDOT lists an Eastwood Neighbors cleanup Monday evening at Tabla Rasa Toys, a rare civic event that respects bedtime.",
+    "body": "NDOT's events page lists an Eastwood Neighbors Community Cleanup for Monday, May 11, from 6:30 to 7:30 p.m. at Tabla Rasa Toys. One hour. Beautiful. Finally, a civic commitment that understands dinner, children, and the human need to stare at a wall after work.\n\nThis is exactly the kind of small, useful item the daily brief should carry: short, local, actionable, and not pretending to be a five-part investigation. If you live nearby, it is a chance to meet neighbors while removing the little artifacts of modern life from the street. If you do not live nearby, it is a reminder that every neighborhood has a small group of people quietly doing the unglamorous maintenance that makes everyone else's opinions possible.\n\nWe should keep tracking these because cleanups are also source-gathering in disguise. People talk while they pick up trash. People know which sidewalks are broken, which corners flood, which bins never get emptied, and which mystery object has achieved neighborhood landmark status.\n\nNo grand thesis. Just bring yourself, check the event page, and maybe do not show up in shoes that have emotional value.",
+    "zone": "Eastwood",
+    "beat": "Civic",
+    "label": "Confirmed",
+    "confidence": "Official NDOT events listing",
+    "reporterId": "parker",
+    "time": "Tomorrow",
+    "priority": 118,
+    "imageStyle": "park",
+    "factBox": [
+      { "label": "When", "value": "Monday, May 11, 2026, 6:30-7:30 p.m." },
+      { "label": "Where", "value": "Tabla Rasa Toys" },
+      { "label": "Organizer listing", "value": "NDOT events page" },
+      { "label": "Best use", "value": "Daily brief and social reminder" }
+    ],
+    "media": [
+      {
+        "label": "Event",
+        "title": "NDOT events listing",
+        "description": "The citywide NDOT events page lists the cleanup, time, date, and location.",
+        "url": "https://www.nashville.gov/departments/transportation/events"
+      }
+    ],
+    "sourceNote": "The listing is brief. Verify supplies/registration with organizer if turning this into a larger post.",
+    "sources": [
+      {
+        "name": "NDOT events page",
+        "url": "https://www.nashville.gov/departments/transportation/events",
+        "type": "Official event"
+      },
+      {
+        "name": "NDOT community engagement page",
+        "url": "https://www.nashville.gov/departments/transportation/about-us/community-engagement",
+        "type": "Official context"
+      }
+    ],
+    "reactions": {
+      "Love": 24,
+      "Side-Eye": 4
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_73",
+        "text": "One hour is the correct civic unit."
+      }
+    ],
+    "social": {
+      "x": "Eastwood Neighbors cleanup tomorrow at Tabla Rasa Toys, 6:30-7:30 p.m. Civic duty, but mercifully one hour.",
+      "instagram": "Eastwood cleanup tomorrow. One hour, local, useful, and probably full of sidewalk intelligence.",
+      "video": "Parker delivers a cleanup reminder while ranking trash-grabber posture and sensible shoe choices."
+    }
+  },
+  {
+    "id": "lost-found-gallatin-food-hub",
+    "slug": "lost-found-gallatin-food-hub",
+    "title": "Lost And Found Is Turning Gallatin Into A Food Court With Better Lighting And More Opinions",
+    "deck": "The open-air Inglewood hangout already has pizza, wine, cocktails, coffee, food trucks, vintage, and an Indian ice cream shop circling the runway.",
+    "body": "Lost & Found at 3104 Gallatin Pike is shaping up as one of the more useful new East Nashville gathering places: part open-air market, part neighborhood hang, part small-business incubator, and part 'wait, they have that too?' The official site lists Fortunate Sun, Birdie's, Pizza Lolo, Retrograde, Chivanada, QBOP, Katrin, Best Friends, The Pepper Pott, and Sarabha's among the concepts.\n\nThe Nashville Scene described the project as a food truck park with a permanent twist, with covered patio seating, a rooftop deck, room for pop-ups, wine, cocktails, retail, and rotating food trucks. What Now Nashville reported that Sarabha's Creamery is targeting the last week of May for its second location there.\n\nThis is not just a restaurant item. It is a neighborhood infrastructure item wearing string lights. Places like this become where people meet before shows, after games, between errands, and during the very East Nashville activity of vaguely running into six people you know while claiming you were just grabbing coffee.\n\nWhat to watch next: whether the parking math works, how kid-friendly it feels at different times of day, which concepts become anchors, and whether the rooftop becomes a quiet asset or the source of the next group-text legal seminar.",
+    "zone": "Inglewood",
+    "beat": "Restaurants",
+    "label": "Reported",
+    "confidence": "Business site plus local reporting",
+    "reporterId": "mabel",
+    "time": "Today",
+    "priority": 124,
+    "imageStyle": "food",
+    "heroImage": "/assets/stories/lost-found-gallatin.png",
+    "heroAlt": "Editorial illustration of an open-air Gallatin food hub with food trucks, string lights, and neighbors at picnic tables.",
+    "factBox": [
+      { "label": "Where", "value": "3104 Gallatin Pike" },
+      { "label": "What", "value": "Open-air food, drink, retail, and gathering hub" },
+      { "label": "Coming soon", "value": "Sarabha's Creamery is targeting late May" },
+      { "label": "Parking note", "value": "Official FAQ lists 18 onsite spots and encourages rideshare/transit if drinking" }
+    ],
+    "media": [
+      {
+        "label": "Hero Art",
+        "title": "Generated food-hub illustration",
+        "description": "A custom visual for the Lost & Found package and future Gallatin food coverage."
+      },
+      {
+        "label": "Official",
+        "title": "Lost & Found concept list",
+        "description": "The business site lists current and coming concepts, location, hours, and programming.",
+        "url": "https://www.lostandfoundnashville.com/concepts"
+      },
+      {
+        "label": "Reported",
+        "title": "Sarabha's expansion",
+        "description": "What Now Nashville reports Sarabha's is targeting a late-May opening at Lost & Found.",
+        "url": "https://whatnow.com/nashville/restaurants/sarabhas-creamery-opening-in-east-nashville-for-second-location/"
+      }
+    ],
+    "sourceNote": "Use direct business sources for hours/concepts and reported sources for opening timing. Re-check before publishing a hard Sarabha's opening date.",
+    "sources": [
+      {
+        "name": "Lost & Found official site",
+        "url": "https://www.lostandfoundnashville.com/",
+        "type": "Business"
+      },
+      {
+        "name": "Lost & Found concepts page",
+        "url": "https://www.lostandfoundnashville.com/concepts",
+        "type": "Business"
+      },
+      {
+        "name": "Nashville Scene feature",
+        "url": "https://www.nashvillescene.com/food_drink/features/loast-and-found-east-nashville/article_06ae7f6f-5f22-481c-b286-86a8c7da3833.html",
+        "type": "Reported"
+      },
+      {
+        "name": "What Now Nashville on Sarabha's Creamery",
+        "url": "https://whatnow.com/nashville/restaurants/sarabhas-creamery-opening-in-east-nashville-for-second-location/",
+        "type": "Reported"
+      }
+    ],
+    "reactions": {
+      "Love": 31,
+      "Side-Eye": 8
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_04",
+        "text": "If I can get coffee, pizza, and ice cream without moving my car twice, that is urban planning."
+      }
+    ],
+    "social": {
+      "x": "Lost & Found on Gallatin is turning into a full neighborhood food/drink/retail hub, with Sarabha's Creamery targeting late May.",
+      "instagram": "Gallatin's new hangout has pizza, wine, cocktails, coffee, food trucks, vintage, and soon Indian ice cream. This is not a drill.",
+      "video": "Mabel tours a stylized open-air food hub and explains why string lights are now infrastructure."
+    }
+  },
+  {
+    "id": "shelby-bottoms-may-calendar",
+    "slug": "shelby-bottoms-may-calendar",
+    "title": "Shelby Bottoms Is Scheduling Nature At Us Again",
+    "deck": "Back Porch Jam, Naturalist Station, and Symphony Storytime are on the May calendar, which is nice because not every event needs a wristband.",
+    "body": "Shelby Bottoms Nature Center has several East Nashville-friendly events coming up, and the list is refreshingly normal in the best way. On Saturday, May 16, the calendar shows Naturalist Station: Cornelia Fort Airpark from 8:30 to 10 a.m. and Back Porch Jam from 1 to 3 p.m. On Wednesday, May 20, Symphony Storytime is listed from 10 to 10:30 a.m.\n\nThis is the family/useful-news lane we should run constantly: not everything has to be a restaurant opening, a zoning fight, or a parking discourse meteor. Sometimes the story is that the nature center has something free or low-lift to do, and someone with a child, a visitor, or a brain that needs trees will be grateful.\n\nShelby Bottoms is also one of the neighborhood's rare shared assets that longtime locals, newcomers, families, runners, bird people, and people avoiding their inbox can all agree on. Covering its calendar is not filler. It is local service journalism with fewer PDFs and more frogs.\n\nPractical note: Metro Parks pages can change, and some programs may require registration even when the short event list does not say much. Check the nature center page or call before making promises to a small child, which remains one of society's highest-risk communications.",
+    "zone": "Shelby",
+    "beat": "Events",
+    "label": "Confirmed",
+    "confidence": "Official Metro Parks event listing",
+    "reporterId": "parker",
+    "time": "Today",
+    "priority": 116,
+    "imageStyle": "park",
+    "factBox": [
+      { "label": "May 16", "value": "Naturalist Station, 8:30-10 a.m.; Back Porch Jam, 1-3 p.m." },
+      { "label": "May 20", "value": "Symphony Storytime, 10-10:30 a.m." },
+      { "label": "Where", "value": "Shelby Bottoms Nature Center / Cornelia Fort Airpark" },
+      { "label": "Check first", "value": "Some programs may require registration or update due to weather" }
+    ],
+    "media": [
+      {
+        "label": "Calendar",
+        "title": "Shelby Bottoms event list",
+        "description": "Metro Parks lists upcoming nature center programs and times.",
+        "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center/events"
+      },
+      {
+        "label": "Context",
+        "title": "About Shelby Bottoms",
+        "description": "Metro Parks describes the nature center, trails, and educational programming.",
+        "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center"
+      }
+    ],
+    "sourceNote": "Good daily-brief item. Verify registration requirements before promoting as a family plan.",
+    "sources": [
+      {
+        "name": "Shelby Bottoms Nature Center events",
+        "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center/events",
+        "type": "Official event"
+      },
+      {
+        "name": "Shelby Bottoms Nature Center page",
+        "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center",
+        "type": "Official context"
+      }
+    ],
+    "reactions": {
+      "Love": 28,
+      "Side-Eye": 3
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_22",
+        "text": "Please keep doing events that do not require me to know a promoter."
+      }
+    ],
+    "social": {
+      "x": "Shelby Bottoms has May events worth putting on the fridge: Naturalist Station, Back Porch Jam, and Symphony Storytime.",
+      "instagram": "Nature is scheduling things at us again. Shelby Bottoms has a very reasonable little calendar and we support it.",
+      "video": "Parker gives the Shelby Bottoms calendar like a survival briefing for families and people who need trees."
+    }
+  },
+  {
     "id": "traffic-gallatin-ballet",
+    "slug": "gallatin-daily-ballet-of-brakes-cones",
     "title": "Gallatin Performed Its Daily Ballet Of Brakes, Cones, And Quiet Screaming",
     "deck": "A prototype traffic quick hit for the people who said they were leaving in five and are still looking at the same vape shop sign.",
     "body": "The morning crawl on Gallatin is exactly the kind of resident pain East Meets Nash should track: useful, local, and emotionally expensive. Launch coverage should pair traffic notes with construction records, NDOT alerts, and resident sightings.",
@@ -37,6 +512,7 @@
   },
   {
     "id": "restaurant-soft-launch",
+    "slug": "new-restaurant-soft-launched-too-softly",
     "title": "A New Restaurant Soft-Launched So Softly Half The Neighborhood Is Pretending They Already Knew",
     "deck": "The launch playbook: one blurry Instagram story, three excited texts, and a reservation list that somehow has hierarchy.",
     "body": "This is the kind of restaurant/opening format the site should run constantly: what opened, where, who posted first, what the menu hints at, and whether it belongs in the daily brief or weekly issue.",
@@ -73,6 +549,7 @@
   },
   {
     "id": "sidewalk-parent-index",
+    "slug": "sidewalk-parent-index-flashing-red-around-shelby",
     "title": "The Sidewalk Parent Index Is Flashing Red Around Shelby",
     "deck": "Stroller math, scooter dodgeball, and one crosswalk that appears to be decorative.",
     "body": "A recurring family/civic column can track walkability, kids' activities, playground conditions, and the specific places where normal family logistics become endurance sport.",
@@ -109,6 +586,7 @@
   },
   {
     "id": "permit-file-whisper",
+    "slug": "permit-file-is-whispering-again",
     "title": "The Permit File Is Whispering Again",
     "deck": "When the boring PDF starts explaining why everyone is suddenly yelling about parking.",
     "body": "June Parcel's watchdog lane should convert permits, agendas, zoning applications, and council records into readable, funny, useful context for residents.",
@@ -145,6 +623,7 @@
   },
   {
     "id": "weekend-chaos-calendar",
+    "slug": "weekend-calendar-acting-like-it-has-a-publicist",
     "title": "The Weekend Calendar Is Already Acting Like It Has A Publicist",
     "deck": "Markets, shows, pop-ups, patio decisions, and the eternal question of whether you should leave the house.",
     "body": "Events coverage should be lightweight but high-volume: calendars, picks, social captions, ticket links, and a social-first version for each event cluster.",
@@ -181,6 +660,7 @@
   },
   {
     "id": "what-people-are-mad-about",
+    "slug": "what-people-are-mad-about-parking-patios-sign",
     "title": "What People Are Mad About This Week: Parking, Patios, And A Suspiciously Confident Sign",
     "deck": "A recurring outrage forecast for East Nashville's most renewable natural resource: informed irritation.",
     "body": "This should become a signature module. It can synthesize Facebook, Nextdoor, comments, tips, and public records into a funny but sourced neighborhood mood board.",
@@ -217,6 +697,7 @@
   },
   {
     "id": "music-venue-ghost",
+    "slug": "new-venue-soul-or-edison-bulbs",
     "title": "Riff Investigates Whether A New Venue Has Soul Or Just Edison Bulbs",
     "deck": "A nightlife review format for the city where every room claims it is intimate and every tab says otherwise.",
     "body": "Nightlife coverage should mix listings, reviews, owner posts, community chatter, ticket links, and Riff's recurring suspicion of anything with a mural too eager to be photographed.",
@@ -253,6 +734,7 @@
   },
   {
     "id": "classifieds-launch",
+    "slug": "east-nashville-classifieds-are-coming",
     "title": "Classifieds Are Coming For Jobs, Gear, Kid Stuff, And Neighborhood Pleas",
     "deck": "A self-serve marketplace where East Nashville can sell a guitar pedal, find a babysitter, or beg someone to take the extra moving boxes.",
     "body": "Classifieds are an early ATXP-commerce fit: charge a small amount, let logged-in users post, and make the listings feel local enough to beat generic marketplaces.",

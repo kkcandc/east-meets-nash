@@ -38,6 +38,11 @@ export interface Story {
   time: string;
   priority: number;
   imageStyle: string;
+  heroImage?: string;
+  heroAlt?: string;
+  factBox?: Array<{ label: string; value: string }>;
+  media?: Array<{ label: string; title: string; description: string; url?: string }>;
+  sourceNote?: string;
   sources: SourceLink[];
   reactions: Record<string, number>;
   comments: Array<{ author: string; text: string }>;

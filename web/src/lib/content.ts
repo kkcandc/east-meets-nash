@@ -1,5 +1,8 @@
-import { launchIssueSlots, launchTasks, reporters, sourceItems, sponsorProducts, stories } from "@/data/seed";
+import storyData from "../../../data/stories.json";
+import { launchIssueSlots, launchTasks, reporters, sourceItems, sponsorProducts } from "@/data/seed";
 import type { LaunchIssueSlot, LaunchTask, Reporter, SourceItem, SponsorProduct, Story } from "@/lib/types";
+
+const stories = storyData as Story[];
 
 export function getStories(): Story[] {
   return stories.slice().sort((a, b) => b.priority - a.priority);
