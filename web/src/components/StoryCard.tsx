@@ -38,6 +38,7 @@ export function StoryCard({
           <span className={`pill ${serious ? "serious" : "hot"}`}>{story.label}</span>
           {showZone ? <span>{story.zone}</span> : null}
           <span>{story.beat}</span>
+          <span>{story.time}</span>
         </div>
         <h2>{story.title}</h2>
         <p>{story.deck}</p>

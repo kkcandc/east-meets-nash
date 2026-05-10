@@ -70,6 +70,7 @@ function renderStory(story, variant = "standard") {
   meta.innerHTML = `
     <span class="pill ${isSeriousStory(story) ? "serious" : "hot"}">${escapeHtml(story.label)}</span>
     <span>${escapeHtml(story.beat)}</span>
+    <span>${escapeHtml(story.time)}</span>
   `;
   title.innerHTML = `<a href="${storyUrl(story)}">${escapeHtml(story.title)}</a>`;
   deck.textContent = story.deck;

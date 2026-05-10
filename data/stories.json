@@ -10,7 +10,7 @@
     "label": "Confirmed",
     "confidence": "Official opening announcement plus Chamber listing",
     "reporterId": "mabel",
-    "time": "Today",
+    "time": "May 10, 2026",
     "priority": 140,
     "imageStyle": "food",
     "heroImage": "/assets/stories/party-fowl-five-points.png",
@@ -90,7 +90,7 @@
     "label": "Confirmed",
     "confidence": "Official NDOT project page plus recent local reporting",
     "reporterId": "parker",
-    "time": "Today",
+    "time": "May 10, 2026",
     "priority": 136,
     "imageStyle": "street",
     "heroImage": "/assets/stories/gallatin-safety-project.png",
@@ -180,7 +180,7 @@
     "label": "Confirmed",
     "confidence": "Official police release",
     "reporterId": "june",
-    "time": "Today",
+    "time": "May 10, 2026",
     "priority": 132,
     "imageStyle": "permit",
     "factBox": [
@@ -249,7 +249,7 @@
     "label": "Seen in the Wild",
     "confidence": "Public event listings",
     "reporterId": "riff",
-    "time": "Tonight",
+    "time": "May 10, 2026",
     "priority": 126,
     "imageStyle": "music",
     "factBox": [
@@ -318,7 +318,7 @@
     "label": "Confirmed",
     "confidence": "Official NDOT events listing",
     "reporterId": "parker",
-    "time": "Tomorrow",
+    "time": "May 10, 2026",
     "priority": 118,
     "imageStyle": "park",
     "factBox": [
@@ -381,7 +381,7 @@
     "label": "Reported",
     "confidence": "Business site plus local reporting",
     "reporterId": "mabel",
-    "time": "Today",
+    "time": "May 10, 2026",
     "priority": 124,
     "imageStyle": "food",
     "heroImage": "/assets/stories/lost-found-gallatin.png",
@@ -467,7 +467,7 @@
     "label": "Confirmed",
     "confidence": "Official Metro Parks event listing",
     "reporterId": "parker",
-    "time": "Today",
+    "time": "May 10, 2026",
     "priority": 116,
     "imageStyle": "park",
     "factBox": [
@@ -539,7 +539,7 @@
     "label": "Seed Item",
     "confidence": "Prototype",
     "reporterId": "parker",
-    "time": "Today",
+    "time": "May 10, 2026",
     "priority": 94,
     "imageStyle": "street",
     "sources": [
@@ -576,7 +576,7 @@
     "label": "Seed Item",
     "confidence": "Prototype",
     "reporterId": "mabel",
-    "time": "Today",
+    "time": "May 10, 2026",
     "priority": 91,
     "imageStyle": "food",
     "sources": [
@@ -613,7 +613,7 @@
     "label": "Seed Item",
     "confidence": "Prototype",
     "reporterId": "parker",
-    "time": "This Morning",
+    "time": "May 10, 2026",
     "priority": 88,
     "imageStyle": "park",
     "sources": [
@@ -650,7 +650,7 @@
     "label": "Seed Item",
     "confidence": "Prototype",
     "reporterId": "june",
-    "time": "Yesterday",
+    "time": "May 9, 2026",
     "priority": 86,
     "imageStyle": "permit",
     "sources": [
@@ -687,7 +687,7 @@
     "label": "Seed Item",
     "confidence": "Prototype",
     "reporterId": "lila",
-    "time": "Tomorrow",
+    "time": "May 10, 2026",
     "priority": 84,
     "imageStyle": "event",
     "sources": [
@@ -724,7 +724,7 @@
     "label": "Group Chat Says",
     "confidence": "Prototype",
     "reporterId": "mabel",
-    "time": "Weekly",
+    "time": "May 10, 2026",
     "priority": 96,
     "imageStyle": "gossip",
     "sources": [
@@ -761,7 +761,7 @@
     "label": "Seed Item",
     "confidence": "Prototype",
     "reporterId": "riff",
-    "time": "This Week",
+    "time": "May 10, 2026",
     "priority": 79,
     "imageStyle": "music",
     "sources": [
@@ -798,7 +798,7 @@
     "label": "Confirmed",
     "confidence": "Prototype",
     "reporterId": "lila",
-    "time": "Soon",
+    "time": "May 10, 2026",
     "priority": 76,
     "imageStyle": "classifieds",
     "sources": [
