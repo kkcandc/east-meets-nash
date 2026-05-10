@@ -1,6 +1,6 @@
-import type { LaunchIssueSlot, LaunchTask, Reporter, SourceItem, SponsorProduct, Story } from "@/lib/types";
+import type { LaunchIssueSlot, LaunchTask, SourceItem, SponsorProduct, Story } from "@/lib/types";
 
-export const reporters: Reporter[] = [
+export const reporters = [
   {
     id: "mabel",
     name: "Mabel Pearl Calhoun",

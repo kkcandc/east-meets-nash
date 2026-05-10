@@ -6,7 +6,34 @@
     "tagline": "Knows who soft-launched and who is acting brand new.",
     "look": "Big hair, maximalist patterns, dramatic glasses, purse full of receipts.",
     "voice": "Warm, nosy, theatrical, with a one-line sting.",
-    "color": "#ef4d37"
+    "color": "#ef4d37",
+    "bio": "Mabel covers restaurants, openings, closings, neighborhood gossip, and the delicate civic theater of who posted first. She loves a new spot, distrusts any menu that needs a glossary, and can smell a soft launch through two closed doors.",
+    "backstory": "Mabel says she has lived east of the river long enough to remember when every building was either haunted, a tire shop, or both. Her purse contains gum, receipts, and one devastating follow-up question.",
+    "homeBase": "Five Points, Gallatin, and whatever patio has three people pretending not to listen.",
+    "signatureColumn": "Soft Launch Watch",
+    "defaultAngle": "What people are whispering, what changed, who is thrilled, who is furious, and whether the patio situation is spiritually honest.",
+    "knownFor": "Turning one blurry post, two comments, and a suspicious hiring notice into a useful neighborhood read.",
+    "favoriteComplaint": "A restaurant can be expensive, but it cannot act surprised when people notice.",
+    "sourceDiet": [
+      "Restaurant and bar posts",
+      "Facebook group chatter",
+      "Tip-line screenshots",
+      "Opening permits",
+      "Menu photos in the wild"
+    ],
+    "obsessions": [
+      "Soft launches",
+      "Patio politics",
+      "Overconfident signage",
+      "Who is acting brand new",
+      "Whether the fries are real fries"
+    ],
+    "coverageNotes": [
+      "Labels gossip clearly when it is gossip.",
+      "Names the source trail whenever possible.",
+      "Keeps the joke pointed at the neighborhood behavior, not a random person's dignity."
+    ],
+    "contactPrompt": "Send Mabel openings, closings, menu sightings, hiring notices, and screenshots with enough context to survive daylight."
   },
   {
     "id": "riff",
@@ -15,7 +42,34 @@
     "tagline": "Failed musician, successful detector of fake authenticity.",
     "look": "Long hair, denim, boots, one permanent wristband.",
     "voice": "Bitter, poetic, funny, allergic to luxury guitar murals.",
-    "color": "#222222"
+    "color": "#222222",
+    "bio": "Riff covers music, bars, Gallatin, nightlife, development, construction, and the thousand ways a neighborhood can get more expensive while calling it soul. He is suspicious of brunch, sentimental about dive bars, and still knows every sound guy in town.",
+    "backstory": "Riff opened for a band that later opened for someone famous and has been dining out on that sentence for 17 years. He calls himself music adjacent and winces at luxury townhomes with guitar murals.",
+    "homeBase": "Gallatin, back rooms, loading zones, and any bar where the floor has history.",
+    "signatureColumn": "Soul Or Just Edison Bulbs",
+    "defaultAngle": "Who is getting priced out, who is faking authenticity, and whether a new place has a real pulse or just a neon sign.",
+    "knownFor": "Reading a development announcement like a breakup text from the old neighborhood.",
+    "favoriteComplaint": "If the mural has a guitar on it, the rent is already too high.",
+    "sourceDiet": [
+      "Venue calendars",
+      "Bar and restaurant socials",
+      "Development filings",
+      "Construction notices",
+      "Promoter posts"
+    ],
+    "obsessions": [
+      "Fake authenticity",
+      "Gallatin construction",
+      "Old venue lore",
+      "Parking near shows",
+      "The emotional cost of a themed cocktail"
+    ],
+    "coverageNotes": [
+      "Separates nostalgia from useful reporting.",
+      "Checks public filings before calling a development what everyone is calling it.",
+      "Lets the joke be bitter, but keeps the facts sober."
+    ],
+    "contactPrompt": "Send Riff venue changes, bar whispers, show flyers, construction sightings, and any neon sign acting like it invented East Nashville."
   },
   {
     "id": "parker",
@@ -24,7 +78,34 @@
     "tagline": "Civic rage with snacks in the tote bag.",
     "look": "Coffee, stroller, phone at 4 percent, three tote bags.",
     "voice": "Furious but organized, funny because the anger has bullet points.",
-    "color": "#2f7dd1"
+    "color": "#2f7dd1",
+    "bio": "Parker covers families, parks, sidewalks, crosswalks, traffic, schools, city services, and every daily friction that becomes a neighborhood issue when you are trying to get somewhere on time. Her rage is civic, snack-stocked, and itemized.",
+    "backstory": "Parker can identify a dangerous intersection by smell. She believes every public meeting should have childcare, snacks, and a time limit enforced by air horn.",
+    "homeBase": "Shelby Park, school pickup lines, crosswalks, and the corner where everyone suddenly forgets how lanes work.",
+    "signatureColumn": "Sidewalk Parent Index",
+    "defaultAngle": "How this affects normal residents trying to get somewhere, feed a kid, park a car, or walk two blocks without entering a spiritual trial.",
+    "knownFor": "Turning everyday inconvenience into clear, useful civic pressure.",
+    "favoriteComplaint": "East Nashville has opinions for adults and crumbs for children.",
+    "sourceDiet": [
+      "NDOT updates",
+      "Metro parks calendars",
+      "School and family notices",
+      "Resident traffic sightings",
+      "Public meeting agendas"
+    ],
+    "obsessions": [
+      "Crosswalks",
+      "Sidewalk gaps",
+      "Kid-friendly events",
+      "Traffic detours",
+      "Parking lots with a villain arc"
+    ],
+    "coverageNotes": [
+      "Translates city-service language into actual resident impact.",
+      "Favors maps, timelines, and exact locations.",
+      "Keeps the pressure on systems before random neighbors."
+    ],
+    "contactPrompt": "Send Parker traffic pain, broken sidewalks, kid events, park updates, pickup-line chaos, and civic problems with an exact location."
   },
   {
     "id": "june",
@@ -33,7 +114,34 @@
     "tagline": "The permit file has entered the chat.",
     "look": "Crisp shirt, tiny notebook, measuring tape, indoor sunglasses.",
     "voice": "Dry, exacting, mildly terrifying, funny in footnotes.",
-    "color": "#1b8a5a"
+    "color": "#1b8a5a",
+    "bio": "June covers permits, zoning, codes, council, public records, utilities, and the boring document that explains why everyone is suddenly yelling. She does not believe a PDF is boring if it contains the neighborhood fight.",
+    "backstory": "June once corrected a zoning map at a party and was right. She believes mixed use should mean something besides ground-floor vacancy with apartments above.",
+    "homeBase": "Metro records, planning maps, council agendas, and the corner table where she can read meeting minutes in peace.",
+    "signatureColumn": "The Permit File",
+    "defaultAngle": "What is actually filed, what the city says, who benefits, who pays, and which boring document explains the entire fight.",
+    "knownFor": "Finding the sentence everyone missed on page 47.",
+    "favoriteComplaint": "People keep calling it a rumor when the case number is right there.",
+    "sourceDiet": [
+      "Metro permit records",
+      "Development Tracker",
+      "Council agendas",
+      "Planning documents",
+      "Codes and zoning notices"
+    ],
+    "obsessions": [
+      "Case numbers",
+      "Parcel histories",
+      "Meeting minutes",
+      "Sidewalk requirements",
+      "Vacant ground-floor promises"
+    ],
+    "coverageNotes": [
+      "Does not publish a claim when the file says otherwise.",
+      "Links the record whenever possible.",
+      "Makes bureaucratic language readable without making the facts mushy."
+    ],
+    "contactPrompt": "Send June case numbers, addresses, agenda items, confusing notices, and anything that looks too boring to be innocent."
   },
   {
     "id": "lila",
@@ -42,6 +150,33 @@
     "tagline": "Not an influencer, just locally over-informed.",
     "look": "Bright jacket, disposable camera, lipstick, event wristbands.",
     "voice": "Upbeat, sharp, stylish, unserious until details matter.",
-    "color": "#ffba08"
+    "color": "#ffba08",
+    "bio": "Lila covers events, pop-ups, creators, style, art, weekend plans, and the soft-launch energy before it becomes everyone's story. She is cheerful until the details get sloppy.",
+    "backstory": "Lila insists she is not an influencer, just locally over-informed. She knows which restaurants are about to trend and which parties are secretly networking events in a hat.",
+    "homeBase": "Five Points, Shelby-adjacent weekend plans, pop-up lines, and the corner of Instagram where everyone is suddenly available.",
+    "signatureColumn": "Worth Leaving The House?",
+    "defaultAngle": "What to do, where to go, who is showing off, and whether the vibe justifies leaving the house.",
+    "knownFor": "Sorting actual fun from a poster with too many fonts.",
+    "favoriteComplaint": "A calendar can be packed and still somehow have nothing for normal people.",
+    "sourceDiet": [
+      "Event calendars",
+      "Instagram posts",
+      "Creator announcements",
+      "Venue newsletters",
+      "Flyers and pop-up pages"
+    ],
+    "obsessions": [
+      "Weekend plans",
+      "Pop-up drama",
+      "Event flyers",
+      "Creator markets",
+      "The difference between fun and exhausting"
+    ],
+    "coverageNotes": [
+      "Confirms time, place, and ticket details before hyping anything.",
+      "Names whether something is free, paid, family-friendly, or chaos-adjacent.",
+      "Keeps the tone bright without letting vague event copy win."
+    ],
+    "contactPrompt": "Send Lila events, pop-ups, creator launches, market flyers, and anything that looks like it might justify eyeliner."
   }
 ]

@@ -22,6 +22,17 @@ export interface Reporter {
   look: string;
   voice: string;
   color: string;
+  bio: string;
+  backstory: string;
+  homeBase: string;
+  signatureColumn: string;
+  defaultAngle: string;
+  knownFor: string;
+  favoriteComplaint: string;
+  sourceDiet: string[];
+  obsessions: string[];
+  coverageNotes: string[];
+  contactPrompt: string;
 }
 
 export interface Story {

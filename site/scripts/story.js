@@ -238,10 +238,13 @@ function renderStory(story, reporter) {
   articleRail.innerHTML = `
     <section class="rail-card reporter-bio">
       <p class="eyebrow">Reported By</p>
-      <div class="avatar" style="background:${escapeHtml(reporter.color)}">${escapeHtml(reporter.name.split(" ").map((part) => part[0]).join("").slice(0, 2))}</div>
-      <h2>${escapeHtml(reporter.name)}</h2>
-      <p>${escapeHtml(reporter.tagline)}</p>
-      <small>${escapeHtml(reporter.beat)}</small>
+      <a class="reporter-profile-link" href="/reporter.html?id=${escapeHtml(reporter.id)}">
+        <div class="avatar" style="background:${escapeHtml(reporter.color)}">${escapeHtml(reporter.name.split(" ").map((part) => part[0]).join("").slice(0, 2))}</div>
+        <h2>${escapeHtml(reporter.name)}</h2>
+        <p>${escapeHtml(reporter.tagline)}</p>
+        <small>${escapeHtml(reporter.beat)}</small>
+        <span class="story-read-link">Read Profile</span>
+      </a>
     </section>
     <section class="rail-card">
       <p class="eyebrow">Sponsor Slot</p>

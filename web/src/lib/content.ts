@@ -1,8 +1,9 @@
 import sourceAccessData from "../../../data/source-access-matrix.json";
 import sourceItemData from "../../../data/source-items.json";
 import sourceStreamData from "../../../data/sources.json";
+import reporterData from "../../../data/reporters.json";
 import storyData from "../../../data/stories.json";
-import { launchIssueSlots, launchTasks, reporters, sponsorProducts } from "@/data/seed";
+import { launchIssueSlots, launchTasks, sponsorProducts } from "@/data/seed";
 import type {
   LaunchIssueSlot,
   LaunchTask,
@@ -15,6 +16,7 @@ import type {
 } from "@/lib/types";
 
 const stories = storyData as Story[];
+const reporters = reporterData as Reporter[];
 const sourceItems = sourceItemData as SourceItem[];
 const sourceStreams = sourceStreamData as SourceStream[];
 const sourceAccessPlans = sourceAccessData as SourceAccessPlan[];
@@ -27,12 +29,20 @@ export function getStoryBySlug(slug: string): Story | undefined {
   return stories.find((story) => story.slug === slug || story.id === slug);
 }
 
+export function getReporterById(id: string): Reporter | undefined {
+  return reporters.find((reporter) => reporter.id === id);
+}
+
 export function getReporter(id: string): Reporter {
-  return reporters.find((reporter) => reporter.id === id) || reporters[0];
+  return getReporterById(id) || reporters[0];
 }
 
 export function getReporters(): Reporter[] {
-  return reporters;
+  return reporters.slice();
+}
+
+export function getStoriesByReporter(id: string): Story[] {
+  return getStories().filter((story) => story.reporterId === id);
 }
 
 export function getSourceItems(): SourceItem[] {

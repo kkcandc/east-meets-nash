@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ReactionPanel } from "@/components/ReactionPanel";
 import { SubscribeForm } from "@/components/SubscribeForm";
@@ -27,6 +28,11 @@ export default async function StoryPage({ params }: StoryPageProps) {
   const story = getStoryBySlug(slug);
   if (!story) notFound();
   const reporter = getReporter(story.reporterId);
+  const reporterInitials = reporter.name
+    .split(" ")
+    .map((part) => part[0])
+    .join("")
+    .slice(0, 2);
   const paragraphs = story.body.split("\n\n");
   const imageMedia = story.media?.filter((item) => item.imageUrl) || [];
   const mapMedia = story.media?.filter((item) => item.embedUrl) || [];
@@ -137,11 +143,17 @@ export default async function StoryPage({ params }: StoryPageProps) {
             placeholder="neighbor@example.com"
           />
         </section>
-        <section className="rail-card">
+        <section className="rail-card reporter-bio">
           <p className="eyebrow">Reported By</p>
-          <h2>{reporter.name}</h2>
-          <p>{reporter.tagline}</p>
-          <small>{reporter.beat}</small>
+          <Link className="reporter-profile-link" href={`/reporters/${reporter.id}`}>
+            <span className="avatar" style={{ backgroundColor: reporter.color }}>
+              {reporterInitials}
+            </span>
+            <h2>{reporter.name}</h2>
+            <p>{reporter.tagline}</p>
+            <small>{reporter.beat}</small>
+            <span className="story-read-link">Read Profile</span>
+          </Link>
         </section>
       </aside>
     </main>
