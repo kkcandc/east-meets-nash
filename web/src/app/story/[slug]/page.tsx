@@ -68,9 +68,13 @@ export default async function StoryPage({ params }: StoryPageProps) {
             <div className="media-grid">
               {story.media.map((item) => (
                 <article key={`${item.label}-${item.title}`} className="media-card">
+                  {item.imageUrl ? (
+                    <img className="media-image" src={item.imageUrl} alt={item.imageAlt || item.title} loading="lazy" />
+                  ) : null}
                   <span>{item.label}</span>
                   <h3>{item.title}</h3>
                   <p>{item.description}</p>
+                  {item.credit ? <small>{item.credit}</small> : null}
                   {item.url ? <a href={item.url}>Open source</a> : null}
                 </article>
               ))}

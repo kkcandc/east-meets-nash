@@ -737,10 +737,20 @@ h3 {
 .media-card {
   display: grid;
   gap: 8px;
+  align-content: start;
+  overflow: hidden;
   border: 2px solid var(--ink);
   border-radius: 8px;
   background: var(--paper);
   padding: 14px;
+}
+
+.media-image {
+  width: calc(100% + 28px);
+  height: 150px;
+  margin: -14px -14px 4px;
+  border-bottom: 2px solid var(--ink);
+  object-fit: cover;
 }
 
 .media-card:nth-child(2n) {
@@ -765,10 +775,16 @@ h3 {
 }
 
 .media-card p,
+.media-card small,
 .source-note {
   margin: 0;
   color: var(--muted);
   line-height: 1.45;
+}
+
+.media-card small {
+  font-size: 0.78rem;
+  font-weight: 850;
 }
 
 .media-card a {

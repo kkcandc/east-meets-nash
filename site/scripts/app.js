@@ -93,9 +93,11 @@ function showStoryDetail(story) {
     .map(
       (item) => `
         <article class="media-card">
+          ${item.imageUrl ? `<img class="media-image" src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy" />` : ""}
           <span>${escapeHtml(item.label)}</span>
           <h3>${escapeHtml(item.title)}</h3>
           <p>${escapeHtml(item.description)}</p>
+          ${item.credit ? `<small>${escapeHtml(item.credit)}</small>` : ""}
           ${item.url ? `<a href="${escapeHtml(item.url)}">Open source</a>` : ""}
         </article>
       `,

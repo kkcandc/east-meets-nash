@@ -34,6 +34,12 @@
         "url": "https://www.qsrmagazine.com/news/party-fowl-to-open-in-east-nashville/"
       },
       {
+        "label": "Location",
+        "title": "1016 Woodland St. on Google Maps",
+        "description": "Open the place page for current map context, routing, nearby photos, and hours once the listing updates.",
+        "url": "https://www.google.com/maps/search/?api=1&query=1016%20Woodland%20St%20Nashville%20TN"
+      },
+      {
         "label": "Follow-Up",
         "title": "Opening-week reality check",
         "description": "After Monday, the desk should verify crowds, hours, menu execution, and whether locals or visitors claim the room first."
@@ -108,6 +114,21 @@
         "url": "https://www.nashville.gov/departments/transportation/projects/complete-streets/gallatin-pike-and-main-street"
       },
       {
+        "label": "Real Photo",
+        "title": "Gallatin Road at Briley Parkway",
+        "description": "A reusable Wikimedia Commons road photo from the north end of the Gallatin corridor.",
+        "url": "https://commons.wikimedia.org/wiki/File:TN_SR_155_Briley_Parkway_at_US_31E_Gallatin_Road.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
+        "imageAlt": "Gallatin Road near Briley Parkway in Nashville.",
+        "credit": "Photo: Doug Kerr, CC BY-SA 2.0, via Wikimedia Commons."
+      },
+      {
+        "label": "Location",
+        "title": "Gallatin Pike and Main Street corridor",
+        "description": "Open Google Maps for the corridor context and current nearby place imagery.",
+        "url": "https://www.google.com/maps/search/?api=1&query=Gallatin%20Pike%20and%20Main%20Street%20Nashville%20TN"
+      },
+      {
         "label": "Next Graphic",
         "title": "Crosswalk tracker",
         "description": "Build a simple map/list of which crossings are planned, upgraded, delayed, or still decorative."
@@ -179,6 +200,12 @@
         "title": "Pedestrian fatality trend",
         "description": "WPLN reported a sharp increase in Nashville pedestrian fatalities in 2026.",
         "url": "https://wpln.org/post/nashville-pedestrian-and-roadway-deaths-have-spiked-in-2026/"
+      },
+      {
+        "label": "Location",
+        "title": "East Trinity Lane at Gallatin Pike",
+        "description": "Open Google Maps for intersection context. We are not using crash-scene photos here.",
+        "url": "https://www.google.com/maps/search/?api=1&query=East%20Trinity%20Lane%20and%20Gallatin%20Pike%20Nashville%20TN"
       }
     ],
     "sourceNote": "Avoid naming the victim until family notification and reliable identification are complete. No mug shots, no speculation.",
@@ -242,6 +269,12 @@
         "title": "JamBase event page",
         "description": "Lists the May 10 Dry Cleaning show with time, venue, and ticket range.",
         "url": "https://www.jambase.com/show/dry-cleaning-the-basement-east-20260510"
+      },
+      {
+        "label": "Location",
+        "title": "The Basement East on Google Maps",
+        "description": "Open the venue page for location photos, current hours, and directions.",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Basement%20East%20917%20Woodland%20St%20Nashville%20TN"
       }
     ],
     "sourceNote": "Event lineups can change. The final pre-departure source should be the venue or ticketing page.",
@@ -299,6 +332,12 @@
         "title": "NDOT events listing",
         "description": "The citywide NDOT events page lists the cleanup, time, date, and location.",
         "url": "https://www.nashville.gov/departments/transportation/events"
+      },
+      {
+        "label": "Location",
+        "title": "Tabla Rasa Toys on Google Maps",
+        "description": "Open the place page for directions, nearby photos, and current business context.",
+        "url": "https://www.google.com/maps/search/?api=1&query=Tabla%20Rasa%20Toys%20Nashville%20TN"
       }
     ],
     "sourceNote": "The listing is brief. Verify supplies/registration with organizer if turning this into a larger post.",
@@ -363,6 +402,12 @@
         "title": "Lost & Found concept list",
         "description": "The business site lists current and coming concepts, location, hours, and programming.",
         "url": "https://www.lostandfoundnashville.com/concepts"
+      },
+      {
+        "label": "Location",
+        "title": "3104 Gallatin Pike on Google Maps",
+        "description": "Open the place/location search for map context, routing, and current user photos.",
+        "url": "https://www.google.com/maps/search/?api=1&query=3104%20Gallatin%20Pike%20Nashville%20TN"
       },
       {
         "label": "Reported",
@@ -436,6 +481,15 @@
         "title": "Shelby Bottoms event list",
         "description": "Metro Parks lists upcoming nature center programs and times.",
         "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center/events"
+      },
+      {
+        "label": "Real Photo",
+        "title": "Shelby Park",
+        "description": "A public-domain Wikimedia Commons photo to give the event brief real neighborhood texture.",
+        "url": "https://commons.wikimedia.org/wiki/File:Shelby_Park_Nashville_05.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shelby%20Park%20Nashville%2005.jpg?width=1200",
+        "imageAlt": "Shelby Park in Nashville.",
+        "credit": "Photo: Kaldari, public domain, via Wikimedia Commons."
       },
       {
         "label": "Context",

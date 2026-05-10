@@ -41,7 +41,15 @@ export interface Story {
   heroImage?: string;
   heroAlt?: string;
   factBox?: Array<{ label: string; value: string }>;
-  media?: Array<{ label: string; title: string; description: string; url?: string }>;
+  media?: Array<{
+    label: string;
+    title: string;
+    description: string;
+    url?: string;
+    imageUrl?: string;
+    imageAlt?: string;
+    credit?: string;
+  }>;
   sourceNote?: string;
   sources: SourceLink[];
   reactions: Record<string, number>;
