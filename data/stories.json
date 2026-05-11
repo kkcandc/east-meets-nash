@@ -134,6 +134,13 @@
         "imageAlt": "Anonymized graphic showing clover, micro-flower lawn, bees, reaction count, and comment count from the grass thread."
       },
       {
+        "label": "Source Screenshot",
+        "title": "Redacted Facebook group post",
+        "description": "A redacted screenshot from the private East Nashville Facebook group source thread.",
+        "imageUrl": "/assets/stories/facebook-grass-post-redacted.png",
+        "imageAlt": "Redacted screenshot of an East Nashville Facebook group post about replacing a tiny grass patch with clover and flowers."
+      },
+      {
         "label": "Source Trail",
         "title": "Private Facebook group capture",
         "description": "A supervised capture from the East Nashville group thread. The public story summarizes the post and comment themes rather than republishing the private thread.",
