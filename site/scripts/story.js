@@ -341,8 +341,8 @@ async function loadData() {
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id");
   const [stories, reporters] = await Promise.all([
-    fetch("/data/stories.json?v=20260511-comment-screenshot-png").then((res) => res.json()),
-    fetch("/data/reporters.json?v=20260511-comment-screenshot-png").then((res) => res.json()),
+    fetch("/data/stories.json?v=20260511-remove-comment-signals").then((res) => res.json()),
+    fetch("/data/reporters.json?v=20260511-remove-comment-signals").then((res) => res.json()),
   ]);
 
   const story = byId(stories, id) || stories[0];

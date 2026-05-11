@@ -127,13 +127,6 @@
     ],
     "media": [
       {
-        "label": "Comment Signals",
-        "title": "Comment signals graphic",
-        "description": "A visual summary of the useful comment signals from the private thread.",
-        "imageUrl": "/assets/stories/grass-comment-signals.png",
-        "imageAlt": "Anonymized graphic showing clover, micro-flower lawn, bees, reaction count, and comment count from the grass thread."
-      },
-      {
         "label": "Source Screenshot",
         "title": "Redacted Facebook group post",
         "description": "A redacted screenshot from the private East Nashville Facebook group source thread.",
