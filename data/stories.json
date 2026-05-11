@@ -127,6 +127,13 @@
     ],
     "media": [
       {
+        "label": "Comment Signals",
+        "title": "Comment Signals",
+        "description": "An anonymized source-desk graphic summarizing the private thread's useful comment signals without republishing the private group screenshot.",
+        "imageUrl": "/assets/stories/grass-comment-signals.svg",
+        "imageAlt": "Anonymized comment-signal graphic showing clover, micro-flower lawn, bees, reaction count, and comment count from the grass thread."
+      },
+      {
         "label": "Source Trail",
         "title": "Private Facebook group capture",
         "description": "A supervised capture from the East Nashville group thread. The public story summarizes the post and comment themes rather than republishing the private thread.",

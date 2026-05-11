@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Anonymized comment signals from the grass breakup thread</title>
+  <desc id="desc">An editorial graphic summarizing private group comment themes: clover, micro-flower lawns, bees, and tiny-yard logistics.</desc>
+  <rect width="1200" height="560" fill="#f8f2df"/>
+  <rect x="48" y="42" width="1104" height="476" rx="24" fill="#fffaf0" stroke="#1f1b18" stroke-width="8"/>
+  <rect x="48" y="42" width="1104" height="84" rx="24" fill="#1b8a5a"/>
+  <path d="M48 102h1104" stroke="#1f1b18" stroke-width="8"/>
+  <text x="88" y="94" fill="#fffaf0" font-family="Arial, sans-serif" font-size="34" font-weight="900">COMMENT SIGNALS</text>
+  <text x="884" y="94" fill="#f5d35f" font-family="Arial, sans-serif" font-size="20" font-weight="900">ANONYMIZED SOURCE DESK</text>
+  <g>
+    <circle cx="112" cy="174" r="24" fill="#ef4d37" stroke="#1f1b18" stroke-width="5"/>
+    <rect x="154" y="146" width="740" height="64" rx="22" fill="#f1e6cf" stroke="#1f1b18" stroke-width="5"/>
+    <text x="188" y="187" fill="#1f1b18" font-family="Arial, sans-serif" font-size="27" font-weight="800">The tiny yard has declared independence from grass.</text>
+  </g>
+  <g>
+    <circle cx="112" cy="260" r="24" fill="#2f7dd1" stroke="#1f1b18" stroke-width="5"/>
+    <rect x="154" y="232" width="488" height="64" rx="22" fill="#f1e6cf" stroke="#1f1b18" stroke-width="5"/>
+    <text x="188" y="273" fill="#1f1b18" font-family="Arial, sans-serif" font-size="27" font-weight="800">Clover platform enters cleanly.</text>
+    <g fill="#f5d35f" stroke="#1f1b18" stroke-width="4">
+      <circle cx="686" cy="264" r="18"/>
+      <circle cx="710" cy="264" r="18"/>
+      <circle cx="698" cy="242" r="18"/>
+      <circle cx="698" cy="286" r="18"/>
+    </g>
+  </g>
+  <g>
+    <circle cx="112" cy="346" r="24" fill="#ffba08" stroke="#1f1b18" stroke-width="5"/>
+    <rect x="154" y="318" width="666" height="64" rx="22" fill="#f1e6cf" stroke="#1f1b18" stroke-width="5"/>
+    <text x="188" y="359" fill="#1f1b18" font-family="Arial, sans-serif" font-size="27" font-weight="800">Micro-flower yard testimony from Cleveland Park.</text>
+  </g>
+  <g>
+    <circle cx="112" cy="432" r="24" fill="#1f1b18" stroke="#1f1b18" stroke-width="5"/>
+    <rect x="154" y="404" width="558" height="64" rx="22" fill="#f1e6cf" stroke="#1f1b18" stroke-width="5"/>
+    <text x="188" y="445" fill="#1f1b18" font-family="Arial, sans-serif" font-size="27" font-weight="800">Bees quietly become stakeholders.</text>
+    <g transform="translate(754 414)">
+      <ellipse cx="34" cy="24" rx="30" ry="18" fill="#1f1b18"/>
+      <ellipse cx="70" cy="18" rx="22" ry="13" fill="#1f1b18"/>
+      <path d="M18 20c-22-12-40-7-50 14 24 9 42 4 50-14zM58 4c8-24 26-34 48-28-7 24-25 34-48 28z" fill="#fffaf0" stroke="#1f1b18" stroke-width="4"/>
+      <path d="M12 24h80" stroke="#f5d35f" stroke-width="8"/>
+    </g>
+  </g>
+  <g>
+    <rect x="930" y="148" width="160" height="318" rx="18" fill="#f5d35f" stroke="#1f1b18" stroke-width="6"/>
+    <text x="968" y="206" fill="#1f1b18" font-family="Arial, sans-serif" font-size="52" font-weight="900">55</text>
+    <text x="962" y="238" fill="#1f1b18" font-family="Arial, sans-serif" font-size="20" font-weight="900">REACTIONS</text>
+    <path d="M954 282h112" stroke="#1f1b18" stroke-width="6"/>
+    <text x="968" y="346" fill="#1f1b18" font-family="Arial, sans-serif" font-size="52" font-weight="900">58</text>
+    <text x="960" y="378" fill="#1f1b18" font-family="Arial, sans-serif" font-size="20" font-weight="900">COMMENTS</text>
+    <path d="M954 422h112" stroke="#1f1b18" stroke-width="6"/>
+    <text x="963" y="454" fill="#1f1b18" font-family="Arial, sans-serif" font-size="18" font-weight="900">STORY ANGLE</text>
+  </g>
+</svg>
