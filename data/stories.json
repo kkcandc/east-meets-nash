@@ -128,10 +128,10 @@
     "media": [
       {
         "label": "Comment Signals",
-        "title": "Anonymized thread screenshot",
+        "title": "Comment signals graphic",
         "description": "A visual summary of the useful comment signals from the private thread.",
         "imageUrl": "/assets/stories/grass-comment-signals.png",
-        "imageAlt": "Anonymized screenshot-style graphic showing clover, micro-flower lawn, bees, reaction count, and comment count from the grass thread."
+        "imageAlt": "Anonymized graphic showing clover, micro-flower lawn, bees, reaction count, and comment count from the grass thread."
       },
       {
         "label": "Source Trail",
