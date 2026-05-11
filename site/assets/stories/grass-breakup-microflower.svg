@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">East Nashville grass breakup</title>
+  <desc id="desc">A playful small-yard scene with patchy grass, clover, wildflowers, bees, and East Nashville houses.</desc>
+  <rect width="1200" height="720" fill="#f8f2df"/>
+  <rect width="1200" height="286" fill="#6fa4dd" opacity=".34"/>
+  <circle cx="1012" cy="116" r="64" fill="#f5d35f" stroke="#1f1b18" stroke-width="8"/>
+  <g fill="#fffaf0" stroke="#1f1b18" stroke-width="8">
+    <rect x="104" y="216" width="232" height="150"/>
+    <rect x="842" y="200" width="252" height="166"/>
+  </g>
+  <path d="M82 216h276l-48-68H130zM820 200h296l-54-72H878z" fill="#ef4d37" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M0 366h1200v354H0z" fill="#1b8a5a" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M72 482c118-34 212-24 282 30 76 58 172 64 288 18 126-50 252-36 378 42" fill="none" stroke="#f5d35f" stroke-width="34" stroke-linecap="round"/>
+  <g stroke="#fffaf0" stroke-width="12" stroke-linecap="round">
+    <path d="M166 530l24-42 24 42M306 594l24-42 24 42M792 526l24-42 24 42M956 602l24-42 24 42"/>
+  </g>
+  <g fill="#f5d35f" stroke="#1f1b18" stroke-width="6">
+    <circle cx="230" cy="456" r="18"/><circle cx="252" cy="478" r="18"/><circle cx="208" cy="478" r="18"/>
+    <circle cx="528" cy="604" r="18"/><circle cx="550" cy="626" r="18"/><circle cx="506" cy="626" r="18"/>
+    <circle cx="910" cy="484" r="18"/><circle cx="932" cy="506" r="18"/><circle cx="888" cy="506" r="18"/>
+  </g>
+  <g fill="#1f1b18">
+    <ellipse cx="672" cy="458" rx="28" ry="16"/><ellipse cx="706" cy="450" rx="22" ry="12"/>
+    <path d="M650 454c-24-12-42-8-54 14 24 8 42 4 54-14zM690 436c10-26 26-36 50-30-8 24-26 34-50 30z" fill="#fffaf0"/>
+    <path d="M652 458h78" stroke="#f5d35f" stroke-width="8"/>
+  </g>
+</svg>
