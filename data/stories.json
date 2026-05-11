@@ -141,6 +141,13 @@
         "imageAlt": "Redacted screenshot of an East Nashville Facebook group post about replacing a tiny grass patch with clover and flowers."
       },
       {
+        "label": "Comment Screenshot",
+        "title": "Redacted Facebook comments",
+        "description": "A redacted screenshot of the comment thread that turned the lawn confession into a neighborhood conversation.",
+        "imageUrl": "/assets/stories/facebook-grass-comments-redacted.png",
+        "imageAlt": "Redacted screenshot of Facebook comments about a micro-flower yard and neighbors following the grass replacement conversation."
+      },
+      {
         "label": "Source Trail",
         "title": "Private Facebook group capture",
         "description": "A supervised capture from the East Nashville group thread. The public story summarizes the post and comment themes rather than republishing the private thread.",
