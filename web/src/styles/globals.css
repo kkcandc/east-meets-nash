@@ -1070,10 +1070,10 @@ h3 {
 .article-inline-media img {
   display: block;
   width: 100%;
-  max-height: 430px;
+  height: auto;
   border: 2px solid var(--ink);
   border-radius: 8px;
-  object-fit: cover;
+  object-fit: contain;
   box-shadow: 4px 4px 0 var(--ink);
 }
 
