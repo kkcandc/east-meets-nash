@@ -42,7 +42,8 @@ export default async function StoryPage({ params }: StoryPageProps) {
     .join("")
     .slice(0, 2);
   const paragraphs = story.body.split("\n\n");
-  const imageMedia = story.media?.filter((item) => item.imageUrl) || [];
+  const featureMedia = story.media?.find((item) => item.imageUrl && item.label === "Comment Signals");
+  const imageMedia = story.media?.filter((item) => item.imageUrl && item.label !== "Comment Signals") || [];
   const mapMedia = story.media?.filter((item) => item.embedUrl) || [];
   const linkMedia = story.media?.filter((item) => item.url && !item.imageUrl && !item.embedUrl && item.label !== "Hero Art") || [];
 
@@ -58,6 +59,18 @@ export default async function StoryPage({ params }: StoryPageProps) {
         <h1>{story.title}</h1>
         <p className="article-deck">{story.deck}</p>
         <ReactionPanel reactions={story.reactions} storyId={story.id} />
+        {featureMedia ? (
+          <figure className="article-inline-media article-feature-media">
+            {featureMedia.url ? (
+              <a href={featureMedia.url}>
+                <img src={featureMedia.imageUrl} alt={featureMedia.imageAlt || featureMedia.title} />
+              </a>
+            ) : (
+              <img src={featureMedia.imageUrl} alt={featureMedia.imageAlt || featureMedia.title} />
+            )}
+            <figcaption>{featureMedia.credit || featureMedia.title}</figcaption>
+          </figure>
+        ) : null}
         <img className="story-art story-image article-hero-image" src={featuredImage(story)} alt={featuredAlt(story)} />
         <div className="article-body">
           {paragraphs.map((paragraph, index) => (

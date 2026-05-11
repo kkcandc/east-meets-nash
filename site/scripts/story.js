@@ -93,7 +93,11 @@ function commentList(story) {
 }
 
 function imageMedia(story) {
-  return (story.media || []).filter((item) => item.imageUrl);
+  return (story.media || []).filter((item) => item.imageUrl && item.label !== "Comment Signals");
+}
+
+function featureMedia(story) {
+  return (story.media || []).find((item) => item.imageUrl && item.label === "Comment Signals");
 }
 
 function mapMedia(story) {
@@ -121,6 +125,21 @@ function inlineMediaFigures(story) {
     )
     .join("");
 }
+
+function featureMediaFigure(story) {
+  const item = featureMedia(story);
+  if (!item) return "";
+  const caption = item.credit || item.title;
+  return `
+    <figure class="article-inline-media article-feature-media">
+      ${item.url ? `<a href="${escapeHtml(item.url)}">` : ""}
+        <img src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.imageAlt || item.title)}" />
+      ${item.url ? "</a>" : ""}
+      ${caption ? `<figcaption>${escapeHtml(caption)}</figcaption>` : ""}
+    </figure>
+  `;
+}
+
 
 function inlineMapEmbeds(story) {
   return mapMedia(story)
@@ -226,6 +245,7 @@ function renderStory(story, reporter) {
         <div class="reaction-row">${reactionButtons(story)}</div>
         <div class="reaction-note" id="reactionNote" aria-live="polite">${escapeHtml(reactionStatus(story))}</div>
       </section>
+      ${featureMediaFigure(story)}
       ${storyHero(story)}
       <div class="article-body">
         ${articleParagraphs(story)}
