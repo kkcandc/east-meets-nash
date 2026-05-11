@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: east-meets-nash-web
+    runtime: node
+    plan: starter
+    region: oregon
+    rootDir: web
+    buildCommand: npm ci && npm run build
+    startCommand: npx next start -p $PORT
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NODE_ENV
+        value: production
