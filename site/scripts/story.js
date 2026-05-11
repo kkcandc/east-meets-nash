@@ -241,11 +241,11 @@ function renderStory(story, reporter) {
       </div>
       <h1>${escapeHtml(story.title)}</h1>
       <p class="article-deck">${escapeHtml(story.deck)}</p>
+      ${featureMediaFigure(story)}
       <section class="article-reactions" aria-label="Story reactions">
         <div class="reaction-row">${reactionButtons(story)}</div>
         <div class="reaction-note" id="reactionNote" aria-live="polite">${escapeHtml(reactionStatus(story))}</div>
       </section>
-      ${featureMediaFigure(story)}
       ${storyHero(story)}
       <div class="article-body">
         ${articleParagraphs(story)}

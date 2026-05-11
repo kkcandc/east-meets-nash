@@ -58,7 +58,6 @@ export default async function StoryPage({ params }: StoryPageProps) {
         </div>
         <h1>{story.title}</h1>
         <p className="article-deck">{story.deck}</p>
-        <ReactionPanel reactions={story.reactions} storyId={story.id} />
         {featureMedia ? (
           <figure className="article-inline-media article-feature-media">
             {featureMedia.url ? (
@@ -71,6 +70,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
             <figcaption>{featureMedia.credit || featureMedia.title}</figcaption>
           </figure>
         ) : null}
+        <ReactionPanel reactions={story.reactions} storyId={story.id} />
         <img className="story-art story-image article-hero-image" src={featuredImage(story)} alt={featuredAlt(story)} />
         <div className="article-body">
           {paragraphs.map((paragraph, index) => (
