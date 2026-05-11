@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">The Basement East show night</title>
+  <desc id="desc">A stylized East Nashville venue exterior with marquee lights, a small crowd, and a Sunday night sky.</desc>
+  <rect width="1200" height="720" fill="#1f1b18"/>
+  <rect width="1200" height="320" fill="#2f7dd1" opacity=".42"/>
+  <circle cx="980" cy="116" r="56" fill="#f5d35f" stroke="#fffaf0" stroke-width="8"/>
+  <rect x="130" y="222" width="940" height="282" fill="#403830" stroke="#fffaf0" stroke-width="8"/>
+  <rect x="194" y="122" width="812" height="128" fill="#ef4d37" stroke="#fffaf0" stroke-width="8"/>
+  <path d="M244 168h712M284 208h632" stroke="#f5d35f" stroke-width="14" stroke-linecap="round"/>
+  <g fill="#f5d35f" stroke="#1f1b18" stroke-width="5">
+    <circle cx="238" cy="284" r="18"/><circle cx="316" cy="284" r="18"/><circle cx="394" cy="284" r="18"/>
+    <circle cx="472" cy="284" r="18"/><circle cx="550" cy="284" r="18"/><circle cx="628" cy="284" r="18"/>
+    <circle cx="706" cy="284" r="18"/><circle cx="784" cy="284" r="18"/><circle cx="862" cy="284" r="18"/>
+  </g>
+  <rect x="470" y="334" width="260" height="170" fill="#1f1b18" stroke="#fffaf0" stroke-width="8"/>
+  <path d="M558 386v118M642 386v118M516 442h168" stroke="#f5d35f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M0 504h1200v216H0z" fill="#f8f2df"/>
+  <path d="M0 504h1200" stroke="#1f1b18" stroke-width="8"/>
+  <g fill="#1f1b18">
+    <circle cx="214" cy="598" r="34"/><circle cx="314" cy="578" r="38"/><circle cx="414" cy="606" r="32"/>
+    <circle cx="786" cy="606" r="32"/><circle cx="886" cy="578" r="38"/><circle cx="986" cy="598" r="34"/>
+  </g>
+</svg>

@@ -139,7 +139,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
         <section className="rail-card capture-rail-card">
           <p className="eyebrow">Get The Brief</p>
           <h2>Like this kind of local trouble?</h2>
-          <p>Get the morning brief and create an account when personalization opens.</p>
+          <p>Get the morning brief and unlock comments, saves, and personal feed signals as the account layer opens.</p>
           <SubscribeForm
             surface={`story_${story.id}`}
             label="Email"
@@ -147,6 +147,19 @@ export default async function StoryPage({ params }: StoryPageProps) {
             placeholder="neighbor@example.com"
           />
         </section>
+        {story.factBox?.length ? (
+          <section className="rail-card rail-facts-card">
+            <p className="eyebrow">Need To Know</p>
+            <ul className="rail-fact-list">
+              {story.factBox.slice(0, 3).map((fact) => (
+                <li key={`${fact.label}-${fact.value}`}>
+                  <strong>{fact.label}</strong>
+                  <span>{fact.value}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
         <section className="rail-card reporter-bio">
           <p className="eyebrow">Reported By</p>
           <Link className="reporter-profile-link" href={`/reporters/${reporter.id}`}>
@@ -157,6 +170,22 @@ export default async function StoryPage({ params }: StoryPageProps) {
             <p>{reporter.tagline}</p>
             <small>{reporter.beat}</small>
             <span className="story-read-link">Read Profile</span>
+          </Link>
+        </section>
+        <section className="rail-card">
+          <p className="eyebrow">Local Sponsors</p>
+          <h2>Want the neighborhood to notice?</h2>
+          <p>Self-serve placements start at $100.</p>
+          <Link className="big-link-button" href="/commerce">
+            Buy Placement
+          </Link>
+        </section>
+        <section className="rail-card story-actions-card">
+          <p className="eyebrow">Add Receipts</p>
+          <h2>Know the part everyone is missing?</h2>
+          <p>Send the tip, photo, link, or overheard-detail-with-context.</p>
+          <Link className="big-link-button" href="/tips">
+            Send A Tip
           </Link>
         </section>
       </aside>

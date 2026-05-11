@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">East Trinity and Gallatin safety brief</title>
+  <desc id="desc">A restrained stylized intersection with crosswalk stripes, traffic signals, and Gallatin Pike storefront shapes.</desc>
+  <rect width="1200" height="720" fill="#f8f2df"/>
+  <rect width="1200" height="310" fill="#6fa4dd" opacity=".28"/>
+  <g fill="#fffaf0" stroke="#1f1b18" stroke-width="8">
+    <rect x="88" y="196" width="214" height="160"/>
+    <rect x="332" y="168" width="174" height="188"/>
+    <rect x="814" y="184" width="260" height="172"/>
+  </g>
+  <path d="M0 356h1200v364H0z" fill="#2e2a26"/>
+  <path d="M510 356h180l72 364H438z" fill="#403830"/>
+  <g stroke="#fffaf0" stroke-width="16">
+    <path d="M210 448h272M210 498h292M210 548h314"/>
+    <path d="M704 448h286M684 498h306M664 548h326"/>
+  </g>
+  <path d="M0 620h1200" stroke="#f5d35f" stroke-width="12" stroke-dasharray="64 52"/>
+  <g stroke="#1f1b18" stroke-width="8" stroke-linecap="round">
+    <path d="M240 356v-96M414 356v-118M914 356v-108"/>
+  </g>
+  <rect x="596" y="160" width="54" height="148" rx="18" fill="#1f1b18"/>
+  <circle cx="623" cy="196" r="15" fill="#ef4d37"/>
+  <circle cx="623" cy="234" r="15" fill="#f5d35f"/>
+  <circle cx="623" cy="272" r="15" fill="#1b8a5a"/>
+  <rect x="778" y="560" width="240" height="84" rx="18" fill="#fffaf0" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M812 644h54M930 644h54" stroke="#1f1b18" stroke-width="16" stroke-linecap="round"/>
+</svg>

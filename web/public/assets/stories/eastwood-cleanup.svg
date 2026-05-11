@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Eastwood community cleanup</title>
+  <desc id="desc">A playful civic cleanup scene with a neighborhood storefront, trash bags, gloves, and a one-hour clock.</desc>
+  <rect width="1200" height="720" fill="#f8f2df"/>
+  <rect width="1200" height="310" fill="#6fa4dd" opacity=".32"/>
+  <circle cx="986" cy="118" r="60" fill="#f5d35f" stroke="#1f1b18" stroke-width="8"/>
+  <rect x="152" y="188" width="520" height="278" fill="#fffaf0" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M132 188h560l-60-78H190z" fill="#ef4d37" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M218 256h388M218 306h260" stroke="#1b8a5a" stroke-width="16" stroke-linecap="round"/>
+  <rect x="760" y="182" width="210" height="210" rx="26" fill="#f5d35f" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M866 238v76l58 34" stroke="#1f1b18" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M0 466h1200v254H0z" fill="#1b8a5a" stroke="#1f1b18" stroke-width="8"/>
+  <g fill="#2e2a26" stroke="#1f1b18" stroke-width="8">
+    <path d="M256 632c-34-68 8-128 68-102 64-34 118 34 72 102z"/>
+    <path d="M486 644c-34-68 8-128 68-102 64-34 118 34 72 102z"/>
+    <path d="M784 638c-34-68 8-128 68-102 64-34 118 34 72 102z"/>
+  </g>
+  <path d="M190 570l150-78M678 606l154-80" stroke="#f5d35f" stroke-width="18" stroke-linecap="round"/>
+</svg>

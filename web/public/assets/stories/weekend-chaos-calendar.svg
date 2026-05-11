@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Weekend chaos calendar</title>
+  <desc id="desc">A stylized weekend board with flyers, food truck shapes, music notes, and event cards.</desc>
+  <rect width="1200" height="720" fill="#f8f2df"/>
+  <rect x="98" y="86" width="1004" height="548" rx="18" fill="#fffaf0" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M98 172h1004" stroke="#1f1b18" stroke-width="8"/>
+  <g fill="#ef4d37" stroke="#1f1b18" stroke-width="8">
+    <rect x="164" y="230" width="224" height="150" rx="10"/>
+    <rect x="462" y="218" width="224" height="198" rx="10"/>
+    <rect x="760" y="244" width="224" height="146" rx="10"/>
+  </g>
+  <g fill="#f5d35f" stroke="#1f1b18" stroke-width="8">
+    <rect x="206" y="458" width="218" height="104" rx="12"/>
+    <rect x="506" y="492" width="188" height="70" rx="12"/>
+    <rect x="774" y="454" width="198" height="112" rx="12"/>
+  </g>
+  <path d="M202 276h150M202 322h104M506 268h140M506 318h116M506 368h84M802 292h140M802 336h92" stroke="#fffaf0" stroke-width="14" stroke-linecap="round"/>
+  <path d="M268 512h94M540 526h120M822 500h108" stroke="#1f1b18" stroke-width="12" stroke-linecap="round"/>
+  <g fill="#2f7dd1" stroke="#1f1b18" stroke-width="6">
+    <circle cx="210" cy="136" r="18"/><circle cx="300" cy="136" r="18"/><circle cx="390" cy="136" r="18"/>
+    <circle cx="480" cy="136" r="18"/><circle cx="570" cy="136" r="18"/><circle cx="660" cy="136" r="18"/>
+    <circle cx="750" cy="136" r="18"/><circle cx="840" cy="136" r="18"/><circle cx="930" cy="136" r="18"/>
+  </g>
+</svg>

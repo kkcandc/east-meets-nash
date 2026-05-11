@@ -49,6 +49,7 @@ export function ReactionPanel({ reactions, storyId }: ReactionPanelProps) {
 
   function handleLogin() {
     localStorage.setItem(accountSessionKey, "true");
+    window.dispatchEvent(new CustomEvent("east-meets-nash:session-change"));
     setLoggedIn(true);
     setShowAccountPrompt(false);
   }

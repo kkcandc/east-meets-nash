@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Shelby Bottoms May calendar</title>
+  <desc id="desc">A stylized Shelby Bottoms trail with trees, calendar cards, and music/nature event icons.</desc>
+  <rect width="1200" height="720" fill="#f8f2df"/>
+  <rect width="1200" height="356" fill="#6fa4dd" opacity=".34"/>
+  <circle cx="1018" cy="126" r="64" fill="#f5d35f" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M0 388c154-62 306-68 456-18s306 40 468-30c104-44 196-48 276-10v390H0z" fill="#1b8a5a" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M492 720c46-126 116-216 210-270 58-34 122-48 192-42-120 90-198 194-234 312z" fill="#f5d35f" stroke="#1f1b18" stroke-width="8"/>
+  <g stroke="#1f1b18" stroke-width="10" stroke-linecap="round">
+    <path d="M208 394V232M366 372V186M908 344V182"/>
+  </g>
+  <g fill="#2f7dd1" stroke="#1f1b18" stroke-width="8">
+    <circle cx="208" cy="214" r="80"/><circle cx="140" cy="268" r="54"/><circle cx="278" cy="270" r="58"/>
+    <circle cx="366" cy="160" r="74"/><circle cx="306" cy="214" r="54"/><circle cx="430" cy="224" r="58"/>
+    <circle cx="908" cy="154" r="82"/><circle cx="844" cy="218" r="58"/><circle cx="974" cy="216" r="60"/>
+  </g>
+  <g fill="#fffaf0" stroke="#1f1b18" stroke-width="8">
+    <rect x="126" y="488" width="136" height="120" rx="10"/>
+    <rect x="300" y="508" width="136" height="120" rx="10"/>
+    <rect x="474" y="482" width="136" height="120" rx="10"/>
+  </g>
+  <path d="M150 530h88M324 550h88M498 524h88" stroke="#ef4d37" stroke-width="12" stroke-linecap="round"/>
+</svg>

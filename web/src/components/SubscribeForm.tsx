@@ -17,6 +17,9 @@ interface SubscribeFormProps {
   className?: string;
 }
 
+const accountSessionKey = "east-meets-nash:account-session";
+const accountEmailKey = "east-meets-nash:account-email";
+
 export function SubscribeForm({
   surface = "homepage",
   label = "Daily email",
@@ -43,20 +46,20 @@ export function SubscribeForm({
       }),
     });
 
-    const data = (await response.json().catch(() => ({}))) as { error?: string; mode?: string };
+    const data = (await response.json().catch(() => ({}))) as { error?: string };
 
     if (!response.ok) {
       setState({ status: "error", message: data.error || "Could not subscribe right now." });
       return;
     }
 
+    localStorage.setItem(accountSessionKey, "true");
+    localStorage.setItem(accountEmailKey, email);
+    window.dispatchEvent(new CustomEvent("east-meets-nash:session-change"));
     setEmail("");
     setState({
       status: "success",
-      message:
-        data.mode === "mock"
-          ? "Mock subscribed. Add beehiiv credentials to create the real subscriber."
-          : "You are on the morning brief list.",
+      message: "You are on the morning brief list.",
     });
   }
 

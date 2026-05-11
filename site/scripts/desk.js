@@ -6,6 +6,7 @@ const state = {
   sponsors: [],
   classifieds: [],
   calendar: [],
+  dailyPass: null,
   selected: null,
 };
 
@@ -22,6 +23,7 @@ const deskMetrics = document.querySelector("#deskMetrics");
 const calendarList = document.querySelector("#calendarList");
 const commerceGrid = document.querySelector("#commerceGrid");
 const deskRunButton = document.querySelector("#deskRunButton");
+const dailySourcePass = document.querySelector("#dailySourcePass");
 
 function escapeHtml(value) {
   return String(value)
@@ -59,6 +61,10 @@ function reporterFor(id) {
     tagline: "The group text got a press pass.",
     voice: "Local, sharp, useful.",
   };
+}
+
+function sourceById(id) {
+  return state.sources.find((item) => item.id === id);
 }
 
 function publicStatus(source) {
@@ -180,6 +186,71 @@ function renderSourceAccess() {
       `,
     )
     .join("");
+}
+
+function renderDailySourcePass() {
+  const pass = state.dailyPass;
+  if (!pass) return;
+
+  const stages = pass.stages
+    .map(
+      (stage) => `
+        <article class="daily-pass-card">
+          <span>${escapeHtml(stage.time)}</span>
+          <h3>${escapeHtml(stage.name)}</h3>
+          <p>${escapeHtml(stage.goal)}</p>
+          <small>${escapeHtml(stage.output)}</small>
+          <div class="mini-list">
+            ${stage.sourceIds
+              .map((sourceId) => sourceById(sourceId))
+              .filter(Boolean)
+              .map((source) => `<span>${escapeHtml(source.title)}</span>`)
+              .join("")}
+          </div>
+        </article>
+      `,
+    )
+    .join("");
+
+  const queue = pass.publishQueue
+    .map((queueItem) => {
+      const source = sourceById(queueItem.sourceId);
+      return `
+        <article>
+          <div class="story-meta">
+            <span class="pill hot">${escapeHtml(queueItem.slot)}</span>
+            ${source ? `<span>${escapeHtml(source.risk)} risk</span>` : ""}
+          </div>
+          <h3>${escapeHtml(source?.title || queueItem.sourceId)}</h3>
+          <p>${escapeHtml(queueItem.decision)}</p>
+          <small>${escapeHtml(queueItem.why)}</small>
+        </article>
+      `;
+    })
+    .join("");
+
+  const access = pass.accessNeeds
+    .map(
+      (need) => `
+        <article>
+          <strong>${escapeHtml(need.name)}</strong>
+          <span>${escapeHtml(need.status)}</span>
+          <p>${escapeHtml(need.today)}</p>
+          <small>${escapeHtml(need.guardrail)}</small>
+        </article>
+      `,
+    )
+    .join("");
+
+  dailySourcePass.innerHTML = `
+    <div class="daily-pass-intro">
+      <p class="eyebrow">${escapeHtml(pass.date)}</p>
+      <p>${escapeHtml(pass.summary)}</p>
+    </div>
+    <div class="daily-pass-grid">${stages}</div>
+    <div class="publish-queue">${queue}</div>
+    <div class="access-lane-list">${access}</div>
+  `;
 }
 
 function sourceTierTitle(tier) {
@@ -352,7 +423,7 @@ function renderCommerce() {
 }
 
 async function loadData() {
-  const [sources, sourceCatalogData, sourceAccessData, reporters, sponsors, classifieds, calendar] = await Promise.all([
+  const [sources, sourceCatalogData, sourceAccessData, reporters, sponsors, classifieds, calendar, dailyPass] = await Promise.all([
     fetch("/data/source-items.json").then((res) => res.json()),
     fetch("/data/sources.json").then((res) => res.json()),
     fetch("/data/source-access-matrix.json").then((res) => res.json()),
@@ -360,6 +431,7 @@ async function loadData() {
     fetch("/data/sponsor-products.json").then((res) => res.json()),
     fetch("/data/classifieds.json").then((res) => res.json()),
     fetch("/data/content-calendar.json").then((res) => res.json()),
+    fetch("/data/daily-source-pass.json").then((res) => res.json()),
   ]);
 
   state.sources = sources;
@@ -369,6 +441,7 @@ async function loadData() {
   state.sponsors = sponsors;
   state.classifieds = classifieds;
   state.calendar = calendar;
+  state.dailyPass = dailyPass;
   state.selected = state.sources.slice().sort((a, b) => b.score - a.score)[0];
 
   fillSelect(sourceBeatFilter, unique(state.sources.map((item) => item.beat)));
@@ -377,6 +450,7 @@ async function loadData() {
   renderMetrics();
   renderSourceAccess();
   renderSourceCatalog();
+  renderDailySourcePass();
   renderSources();
   renderAssignment();
   renderSocialKit();

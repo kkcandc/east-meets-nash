@@ -1,5 +1,5 @@
 import { SourceToDraftPanel } from "@/components/SourceToDraftPanel";
-import { getReporter, getSourceAccessPlans, getSourceCatalog, getSourceItems } from "@/lib/content";
+import { getDailySourcePass, getReporter, getSourceAccessPlans, getSourceCatalog, getSourceItems } from "@/lib/content";
 
 export const metadata = {
   title: "Source Desk",
@@ -9,6 +9,7 @@ export default function SourceDeskPage() {
   const items = getSourceItems();
   const accessPlans = getSourceAccessPlans();
   const sourceCatalog = getSourceCatalog();
+  const dailyPass = getDailySourcePass();
   const readyAccess = accessPlans.filter((plan) => plan.status.toLowerCase().includes("ready")).length;
   const supervisedAccess = accessPlans.filter((plan) => plan.status.toLowerCase().includes("supervised")).length;
 
@@ -40,6 +41,55 @@ export default function SourceDeskPage() {
             <span>{sourceCatalog.length}</span>
             <strong>Source streams</strong>
           </article>
+        </div>
+      </section>
+      <section className="page-band">
+        <div className="section-heading">
+          <p className="eyebrow">{dailyPass.date}</p>
+          <h2>{dailyPass.title}</h2>
+          <p>{dailyPass.summary}</p>
+        </div>
+        <div className="daily-pass-grid">
+          {dailyPass.stages.map((stage) => (
+            <article key={stage.name} className="daily-pass-card">
+              <span>{stage.time}</span>
+              <h3>{stage.name}</h3>
+              <p>{stage.goal}</p>
+              <small>{stage.output}</small>
+              <div className="mini-list">
+                {stage.sourceIds.map((sourceId) => {
+                  const source = items.find((item) => item.id === sourceId);
+                  return source ? <span key={sourceId}>{source.title}</span> : null;
+                })}
+              </div>
+            </article>
+          ))}
+        </div>
+        <div className="publish-queue">
+          {dailyPass.publishQueue.map((queueItem) => {
+            const source = items.find((item) => item.id === queueItem.sourceId);
+            return (
+              <article key={`${queueItem.sourceId}-${queueItem.slot}`}>
+                <div className="story-meta">
+                  <span className="pill hot">{queueItem.slot}</span>
+                  {source ? <span>{source.risk} risk</span> : null}
+                </div>
+                <h3>{source?.title || queueItem.sourceId}</h3>
+                <p>{queueItem.decision}</p>
+                <small>{queueItem.why}</small>
+              </article>
+            );
+          })}
+        </div>
+        <div className="access-lane-list">
+          {dailyPass.accessNeeds.map((need) => (
+            <article key={need.name}>
+              <strong>{need.name}</strong>
+              <span>{need.status}</span>
+              <p>{need.today}</p>
+              <small>{need.guardrail}</small>
+            </article>
+          ))}
         </div>
       </section>
       <section className="page-band">

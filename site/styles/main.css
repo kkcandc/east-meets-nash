@@ -1026,6 +1026,7 @@ a {
 }
 
 .source-engine-panel,
+.daily-pass-panel,
 .source-access-panel {
   margin: 28px 28px 0;
 }
@@ -1106,10 +1107,98 @@ a {
 
 .source-workflow p,
 .source-catalog-list p,
-.source-access-card p {
+.source-access-card p,
+.daily-pass-card p,
+.publish-queue p,
+.access-lane-list p {
   margin: 8px 0 0;
   color: var(--muted);
   line-height: 1.42;
+}
+
+.daily-pass-intro {
+  max-width: 760px;
+  margin-top: 10px;
+}
+
+.daily-pass-intro p:not(.eyebrow) {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.daily-pass-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.daily-pass-card,
+.publish-queue article,
+.access-lane-list article {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  background: var(--paper);
+  padding: 14px;
+}
+
+.daily-pass-card:nth-child(2n),
+.publish-queue article:nth-child(2n),
+.access-lane-list article:nth-child(2n) {
+  background: var(--paper-deep);
+}
+
+.daily-pass-card > span {
+  width: fit-content;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--gold);
+  padding: 5px 8px;
+  font-weight: 950;
+}
+
+.daily-pass-card h3,
+.publish-queue h3,
+.access-lane-list strong {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.22rem;
+  line-height: 1.08;
+}
+
+.daily-pass-card small,
+.publish-queue small,
+.access-lane-list small,
+.access-lane-list span {
+  color: var(--muted);
+  font-weight: 820;
+  line-height: 1.35;
+}
+
+.daily-pass-card .mini-list {
+  display: grid;
+  gap: 6px;
+  padding-top: 10px;
+  border-top: 2px solid var(--line);
+}
+
+.daily-pass-card .mini-list span {
+  color: #403830;
+  font-size: 0.86rem;
+  font-weight: 780;
+  line-height: 1.3;
+}
+
+.publish-queue,
+.access-lane-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 14px;
 }
 
 .source-access-card {
@@ -1829,6 +1918,53 @@ a {
 .reporter-bio small {
   display: block;
   color: var(--muted);
+  font-weight: 850;
+  line-height: 1.35;
+}
+
+.capture-rail-card h2,
+.story-actions-card h2,
+.rail-facts-card h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.08;
+}
+
+.capture-rail-card p:not(.eyebrow),
+.story-actions-card p:not(.eyebrow) {
+  margin: 10px 0 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.rail-fact-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rail-fact-list li {
+  display: grid;
+  gap: 3px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--line);
+}
+
+.rail-fact-list li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.rail-fact-list strong {
+  color: var(--tomato);
+  font-size: 0.72rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.rail-fact-list span {
   font-weight: 850;
   line-height: 1.35;
 }
@@ -2665,11 +2801,15 @@ a {
   .source-coverage,
   .source-access-grid,
   .source-catalog-list,
+  .daily-pass-grid,
+  .publish-queue,
+  .access-lane-list,
   .commerce-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .source-engine-panel,
+  .daily-pass-panel,
   .source-access-panel,
   .commerce-panel {
     margin: 0 16px 24px;
@@ -2718,6 +2858,9 @@ a {
   .desk-metrics,
   .desk-controls,
   .source-access-grid,
+  .daily-pass-grid,
+  .publish-queue,
+  .access-lane-list,
   .commerce-grid,
   .calendar-list article,
   .assignment-detail dl div,

@@ -1,0 +1,101 @@
+{
+  "date": "May 10, 2026",
+  "title": "Daily Source Pass",
+  "summary": "A launch-ready newsroom rhythm for finding publishable East Nashville stories without waiting on private-platform access.",
+  "stages": [
+    {
+      "time": "7:00 AM",
+      "name": "Official Records Sweep",
+      "goal": "Find the safest, highest-confidence morning items before the brief goes out.",
+      "sourceIds": [
+        "src-dev-tracker-gallatin",
+        "src-ndot-permits",
+        "src-codes-permits",
+        "src-mnpd-east-precinct"
+      ],
+      "output": "Confirmed briefs, Cone Watch items, permit quick hits, and cautious safety context."
+    },
+    {
+      "time": "11:30 AM",
+      "name": "Business And Event Sweep",
+      "goal": "Catch openings, calendar items, venue posts, and food/drink updates while they still have same-day utility.",
+      "sourceIds": [
+        "src-restaurant-instagram",
+        "src-weekend-venue-calendars",
+        "src-tomato-art-fest",
+        "src-local-outlet-roundup"
+      ],
+      "output": "Restaurant briefs, event listings, link briefs, and social-first posts."
+    },
+    {
+      "time": "3:30 PM",
+      "name": "Community Temperature Check",
+      "goal": "Turn Facebook, Nextdoor, tips, and 311 patterns into labeled chatter or verified follow-ups.",
+      "sourceIds": [
+        "src-facebook-group",
+        "src-nextdoor-patterns",
+        "src-reader-tips",
+        "src-hubnashville-irritation-index"
+      ],
+      "output": "What People Are Mad About, lost-and-found patterns, family logistics, and tip follow-ups."
+    },
+    {
+      "time": "5:30 PM",
+      "name": "Publish Pack",
+      "goal": "Choose what publishes now, what goes into the morning brief, and what needs one more receipt.",
+      "sourceIds": [
+        "src-facebook-group",
+        "src-dev-tracker-gallatin",
+        "src-weekend-venue-calendars",
+        "src-reader-tips"
+      ],
+      "output": "Story queue, newsletter blocks, source notes, social captions, and video prompts."
+    }
+  ],
+  "publishQueue": [
+    {
+      "sourceId": "src-dev-tracker-gallatin",
+      "slot": "Morning brief lead",
+      "decision": "Publish when a parcel/case number and current status are captured.",
+      "why": "Low-risk official data with strong East Nashville utility."
+    },
+    {
+      "sourceId": "src-restaurant-instagram",
+      "slot": "Afternoon web hit",
+      "decision": "Publish direct business posts immediately; label comments and reposts as chatter.",
+      "why": "Restaurant openings and menu changes are likely to be shared."
+    },
+    {
+      "sourceId": "src-facebook-group",
+      "slot": "What People Are Mad About",
+      "decision": "Publish themes, not unsupported accusations; link/source-note the originating chatter internally.",
+      "why": "The private group is the best mood source, but it must stay supervised."
+    },
+    {
+      "sourceId": "src-ndot-permits",
+      "slot": "Cone Watch",
+      "decision": "Publish only with location, date window, and impact type.",
+      "why": "Traffic/sidewalk pain is evergreen and practically useful."
+    }
+  ],
+  "accessNeeds": [
+    {
+      "name": "Facebook private group",
+      "status": "Kenny-supervised capture",
+      "today": "Open the group, capture the 5-10 most active or specific posts, and paste links/screenshots/source notes into the desk.",
+      "guardrail": "No unattended scraping. Publish private chatter as themes unless independently confirmed."
+    },
+    {
+      "name": "Nextdoor",
+      "status": "Manual-only until approved access exists",
+      "today": "Use for patterns only: lost pets, service complaints, family logistics, safety chatter.",
+      "guardrail": "Do not name private citizens or publish accusations without public confirmation."
+    },
+    {
+      "name": "Instagram/X watchlists",
+      "status": "Needs handle/search list",
+      "today": "Seed direct business, venue, Metro, reporter, and local personality accounts.",
+      "guardrail": "Direct posts can confirm their own facts; third-party chatter still needs backup."
+    }
+  ]
+}

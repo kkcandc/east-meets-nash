@@ -273,8 +273,8 @@
       "instagram": "A pedestrian was killed at East Trinity and Gallatin. We are keeping this one plain, sourced, and tied to the larger corridor safety issue.",
       "video": "June delivers a short, restrained safety brief with the MNPD release and the Gallatin corridor context on screen."
     },
-    "heroImage": "/assets/stories/fallback-street.svg",
-    "heroAlt": "Stylized East Nashville street scene with traffic cones, storefronts, and skyline shapes."
+    "heroImage": "/assets/stories/east-trinity-gallatin-safety.svg",
+    "heroAlt": "Restrained stylized intersection scene for East Trinity Lane and Gallatin Pike safety coverage."
   },
   {
     "id": "dry-cleaning-basement-east-tonight",
@@ -356,8 +356,8 @@
       "instagram": "Sunday night post-punk at The Beast. Dry Cleaning, Hotline TNT, and one neighborhood pretending Monday does not exist.",
       "video": "Riff stands under a fake venue marquee and gives the show listing, then sighs at the concept of Sunday ambition."
     },
-    "heroImage": "/assets/stories/fallback-music.svg",
-    "heroAlt": "Stylized East Nashville music venue scene with stage lights, microphone, and crowd shapes."
+    "heroImage": "/assets/stories/basement-east-show.svg",
+    "heroAlt": "Stylized Basement East show-night exterior with marquee lights, a small crowd, and a Sunday night sky."
   },
   {
     "id": "eastwood-cleanup-tabla-rasa",
@@ -433,8 +433,8 @@
       "instagram": "Eastwood cleanup tomorrow. One hour, local, useful, and probably full of sidewalk intelligence.",
       "video": "Parker delivers a cleanup reminder while ranking trash-grabber posture and sensible shoe choices."
     },
-    "heroImage": "/assets/stories/fallback-park.svg",
-    "heroAlt": "Stylized East Nashville park trail scene with trees, sun, and skyline shapes."
+    "heroImage": "/assets/stories/eastwood-cleanup.svg",
+    "heroAlt": "Playful Eastwood community cleanup scene with a neighborhood storefront, trash bags, gloves, and a one-hour clock."
   },
   {
     "id": "lost-found-gallatin-food-hub",
@@ -617,8 +617,8 @@
       "instagram": "Nature is scheduling things at us again. Shelby Bottoms has a very reasonable little calendar and we support it.",
       "video": "Parker gives the Shelby Bottoms calendar like a survival briefing for families and people who need trees."
     },
-    "heroImage": "/assets/stories/fallback-park.svg",
-    "heroAlt": "Stylized East Nashville park trail scene with trees, sun, and skyline shapes."
+    "heroImage": "/assets/stories/shelby-bottoms-calendar.svg",
+    "heroAlt": "Stylized Shelby Bottoms trail scene with trees, calendar cards, and event icons."
   },
   {
     "id": "traffic-gallatin-ballet",
@@ -734,8 +734,8 @@
       "instagram": "Shelby-area parent logistics, ranked by coffee loss and stroller vibration.",
       "video": "Parker attempts to narrate a peaceful walk and immediately finds three civic side quests."
     },
-    "heroImage": "/assets/stories/fallback-park.svg",
-    "heroAlt": "Stylized East Nashville park trail scene with trees, sun, and skyline shapes."
+    "heroImage": "/assets/stories/sidewalk-parent-index.svg",
+    "heroAlt": "Stylized family walkability scene with sidewalks, stroller wheels, scooters, and a caution-colored index meter."
   },
   {
     "id": "permit-file-whisper",
@@ -812,8 +812,8 @@
       "instagram": "Your weekend options, sorted by vibe, distance, and how much you enjoy standing near a food truck.",
       "video": "Lila runs through the weekend like a weather report for extroverts."
     },
-    "heroImage": "/assets/stories/fallback-event.svg",
-    "heroAlt": "Stylized East Nashville event board with flyers, calendar cards, and confetti shapes."
+    "heroImage": "/assets/stories/weekend-chaos-calendar.svg",
+    "heroAlt": "Stylized weekend event board with flyers, food truck shapes, music notes, and calendar cards."
   },
   {
     "id": "what-people-are-mad-about",

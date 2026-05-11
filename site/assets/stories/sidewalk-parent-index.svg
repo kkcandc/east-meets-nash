@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Sidewalk Parent Index</title>
+  <desc id="desc">A stylized family walkability scene with sidewalks, stroller wheels, scooters, and a caution-colored index meter.</desc>
+  <rect width="1200" height="720" fill="#f8f2df"/>
+  <rect width="1200" height="314" fill="#6fa4dd" opacity=".3"/>
+  <rect x="86" y="210" width="248" height="176" fill="#fffaf0" stroke="#1f1b18" stroke-width="8"/>
+  <rect x="810" y="198" width="248" height="188" fill="#ef4d37" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M0 386h1200v334H0z" fill="#403830"/>
+  <path d="M0 520h1200v200H0z" fill="#fffaf0" stroke="#1f1b18" stroke-width="8"/>
+  <path d="M98 604h1004" stroke="#1f1b18" stroke-width="14" stroke-dasharray="58 48"/>
+  <g fill="#f5d35f" stroke="#1f1b18" stroke-width="8">
+    <rect x="424" y="104" width="352" height="156" rx="28"/>
+  </g>
+  <path d="M490 194h220" stroke="#ef4d37" stroke-width="24" stroke-linecap="round"/>
+  <path d="M490 194l96-54" stroke="#1f1b18" stroke-width="12" stroke-linecap="round"/>
+  <g stroke="#1f1b18" stroke-width="12" stroke-linecap="round" fill="none">
+    <path d="M382 540h178l48 64"/>
+    <path d="M432 540l-58-86h116"/>
+    <circle cx="402" cy="628" r="38"/>
+    <circle cx="602" cy="628" r="38"/>
+    <path d="M782 492l70 136"/>
+    <path d="M816 626h132"/>
+  </g>
+</svg>

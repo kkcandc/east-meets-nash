@@ -1,3 +1,5 @@
+import { bindAccountButtons, isLoggedIn, updateAccountButtons } from "./session.js";
+
 const preferenceKey = "east-meets-nash:preferences";
 const reactionKey = "east-meets-nash:feed-reactions";
 
@@ -6,7 +8,6 @@ const personalFeed = document.querySelector("#personalFeed");
 const feedSignals = document.querySelector("#feedSignals");
 const feedTitle = document.querySelector("#feedTitle");
 const resetPreferences = document.querySelector("#resetPreferences");
-const feedLoginButton = document.querySelector("#feedLoginButton");
 
 let stories = [];
 let reporters = new Map();
@@ -160,6 +161,13 @@ function renderFeed() {
 
   personalFeed.querySelectorAll("button").forEach((button) => {
     button.addEventListener("click", () => {
+      if (!isLoggedIn()) {
+        feedSignals.innerHTML = `
+          <article><strong>Login</strong><span>Create an account to save or hide stories.</span></article>
+          <article><strong>Free</strong><span>The morning brief signup unlocks this prototype account state.</span></article>
+        `;
+        return;
+      }
       const reactions = reactionStore();
       const storyReactions = reactions[button.dataset.story] || {};
       storyReactions[button.dataset.action] = !storyReactions[button.dataset.action];
@@ -199,9 +207,8 @@ resetPreferences.addEventListener("click", () => {
   renderAll();
 });
 
-feedLoginButton.addEventListener("click", () => {
-  feedLoginButton.textContent = feedLoginButton.textContent === "Login" ? "Logged In" : "Login";
-});
+bindAccountButtons();
+updateAccountButtons();
 
 async function loadData() {
   const [storyData, reporterData] = await Promise.all([

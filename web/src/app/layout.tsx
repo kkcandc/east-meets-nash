@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { AccountButton } from "@/components/AccountButton";
 import { ConversionBar } from "@/components/ConversionBar";
 import "@/styles/globals.css";
 
@@ -35,9 +36,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               </Link>
             ))}
           </nav>
-          <Link className="atxp-button" href="/feed">
-            Login
-          </Link>
+          <AccountButton />
         </header>
         <ConversionBar />
         {children}

@@ -1,11 +1,8 @@
+import { bindAccountButtons, bindSignupForms, isLoggedIn, setLoggedIn, updateAccountButtons } from "./session.js";
+
 const articleMain = document.querySelector("#articleMain");
 const articleRail = document.querySelector("#articleRail");
-const saveButton = document.querySelector("#storySaveButton");
-const accountSessionKey = "east-meets-nash:account-session";
 const storyReactionKey = "east-meets-nash:story-reactions";
-
-let currentStory = null;
-let currentReporter = null;
 
 function escapeHtml(value) {
   return String(value)
@@ -32,20 +29,6 @@ function readReactionStore() {
   } catch {
     return {};
   }
-}
-
-function isLoggedIn() {
-  return localStorage.getItem(accountSessionKey) === "true";
-}
-
-function setLoggedIn(active) {
-  localStorage.setItem(accountSessionKey, active ? "true" : "false");
-  updateSessionButton();
-}
-
-function updateSessionButton() {
-  saveButton.textContent = isLoggedIn() ? "Logged In" : "Login";
-  saveButton.setAttribute("aria-pressed", String(isLoggedIn()));
 }
 
 function selectedReaction(storyId) {
@@ -205,6 +188,20 @@ function factBox(story) {
   `;
 }
 
+function railFactBox(story) {
+  const facts = (story.factBox || [])
+    .slice(0, 3)
+    .map((fact) => `<li><strong>${escapeHtml(fact.label)}</strong><span>${escapeHtml(fact.value)}</span></li>`)
+    .join("");
+  if (!facts) return "";
+  return `
+    <section class="rail-card rail-facts-card">
+      <p class="eyebrow">Need To Know</p>
+      <ul class="rail-fact-list">${facts}</ul>
+    </section>
+  `;
+}
+
 function storyHero(story) {
   const image = story.heroImage || `/assets/stories/fallback-${story.imageStyle || "street"}.svg`;
   const alt = story.heroAlt || `${story.beat} featured image for ${story.title}`;
@@ -212,9 +209,7 @@ function storyHero(story) {
 }
 
 function renderStory(story, reporter) {
-  currentStory = story;
-  currentReporter = reporter;
-  updateSessionButton();
+  updateAccountButtons();
   document.title = `${story.title} | East Meets Nash`;
 
   articleMain.innerHTML = `
@@ -249,6 +244,19 @@ function renderStory(story, reporter) {
   `;
 
   articleRail.innerHTML = `
+    <section class="rail-card capture-rail-card">
+      <p class="eyebrow">Get The Brief</p>
+      <h2>Like this kind of local trouble?</h2>
+      <p>Get the morning brief and unlock comments, saves, and personal feed signals as the account layer opens.</p>
+      <form class="signup-form">
+        <label for="storyEmailInput">Email</label>
+        <div>
+          <input id="storyEmailInput" type="email" placeholder="neighbor@example.com" required />
+          <button type="submit">Join free</button>
+        </div>
+      </form>
+    </section>
+    ${railFactBox(story)}
     <section class="rail-card reporter-bio">
       <p class="eyebrow">Reported By</p>
       <a class="reporter-profile-link" href="/reporter.html?id=${escapeHtml(reporter.id)}">
@@ -260,10 +268,16 @@ function renderStory(story, reporter) {
       </a>
     </section>
     <section class="rail-card">
-      <p class="eyebrow">Sponsor Slot</p>
+      <p class="eyebrow">Local Sponsors</p>
       <h2>Want the neighborhood to notice?</h2>
       <p>Self-serve placements start at $100.</p>
       <a class="big-link-button" href="/commerce.html">Buy Placement</a>
+    </section>
+    <section class="rail-card story-actions-card">
+      <p class="eyebrow">Add Receipts</p>
+      <h2>Know the part everyone is missing?</h2>
+      <p>Send the tip, photo, link, or overheard-detail-with-context.</p>
+      <a class="big-link-button" href="/tips.html">Send A Tip</a>
     </section>
   `;
 
@@ -289,6 +303,7 @@ function renderStory(story, reporter) {
     });
   });
 
+  bindSignupForms(articleRail);
 }
 
 function renderMissing() {
@@ -299,12 +314,8 @@ function renderMissing() {
   `;
 }
 
-saveButton.addEventListener("click", () => {
-  setLoggedIn(!isLoggedIn());
-  if (currentStory && currentReporter) renderStory(currentStory, currentReporter);
-});
-
-updateSessionButton();
+bindAccountButtons();
+updateAccountButtons();
 
 async function loadData() {
   const params = new URLSearchParams(window.location.search);

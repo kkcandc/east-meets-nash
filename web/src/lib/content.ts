@@ -1,3 +1,4 @@
+import dailySourcePassData from "../../../data/daily-source-pass.json";
 import sourceAccessData from "../../../data/source-access-matrix.json";
 import sourceItemData from "../../../data/source-items.json";
 import sourceStreamData from "../../../data/sources.json";
@@ -5,6 +6,7 @@ import reporterData from "../../../data/reporters.json";
 import storyData from "../../../data/stories.json";
 import { launchIssueSlots, launchTasks, sponsorProducts } from "@/data/seed";
 import type {
+  DailySourcePass,
   LaunchIssueSlot,
   LaunchTask,
   Reporter,
@@ -20,6 +22,7 @@ const reporters = reporterData as Reporter[];
 const sourceItems = sourceItemData as SourceItem[];
 const sourceStreams = sourceStreamData as SourceStream[];
 const sourceAccessPlans = sourceAccessData as SourceAccessPlan[];
+const dailySourcePass = dailySourcePassData as DailySourcePass;
 
 export function getStories(): Story[] {
   return stories.slice().sort((a, b) => b.priority - a.priority);
@@ -55,6 +58,10 @@ export function getSourceCatalog(): SourceStream[] {
 
 export function getSourceAccessPlans(): SourceAccessPlan[] {
   return sourceAccessPlans.slice();
+}
+
+export function getDailySourcePass(): DailySourcePass {
+  return dailySourcePass;
 }
 
 export function getSponsorProducts(): SponsorProduct[] {

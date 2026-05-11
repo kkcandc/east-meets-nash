@@ -126,6 +126,37 @@ export interface SourceAccessPlan {
   publishUse: string;
 }
 
+export interface DailySourceStage {
+  time: string;
+  name: string;
+  goal: string;
+  sourceIds: string[];
+  output: string;
+}
+
+export interface DailyPublishQueueItem {
+  sourceId: string;
+  slot: string;
+  decision: string;
+  why: string;
+}
+
+export interface DailyAccessNeed {
+  name: string;
+  status: string;
+  today: string;
+  guardrail: string;
+}
+
+export interface DailySourcePass {
+  date: string;
+  title: string;
+  summary: string;
+  stages: DailySourceStage[];
+  publishQueue: DailyPublishQueueItem[];
+  accessNeeds: DailyAccessNeed[];
+}
+
 export interface SponsorProduct {
   id: string;
   name: string;

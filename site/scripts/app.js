@@ -1,3 +1,5 @@
+import { bindAccountButtons, bindSignupForms, updateAccountButtons } from "./session.js";
+
 const state = {
   stories: [],
   reporters: new Map(),
@@ -10,7 +12,6 @@ const storyGrid = document.querySelector("#storyGrid");
 const storyTemplate = document.querySelector("#storyTemplate");
 const briefList = document.querySelector("#briefList");
 const reporterList = document.querySelector("#reporterList");
-const loginButton = document.querySelector("#loginButton");
 
 function escapeHtml(value) {
   return String(value)
@@ -277,26 +278,9 @@ async function loadData() {
   sortHomepageStories();
 }
 
-document.querySelectorAll(".signup-form").forEach((form) => {
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const input = form.querySelector('input[type="email"]');
-    const button = form.querySelector('button[type="submit"]');
-    if (!input?.value.trim()) return;
-    input.value = "";
-    if (button) {
-      const label = button.textContent;
-      button.textContent = "Joined";
-      setTimeout(() => {
-        button.textContent = label;
-      }, 1800);
-    }
-  });
-});
-
-loginButton.addEventListener("click", () => {
-  loginButton.textContent = loginButton.textContent === "Login" ? "Logged In" : "Login";
-});
+bindSignupForms();
+bindAccountButtons();
+updateAccountButtons();
 
 loadData().catch((error) => {
   console.error(error);
