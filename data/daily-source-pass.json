@@ -1,101 +1,149 @@
 {
-  "date": "May 10, 2026",
+  "date": "May 12, 2026",
   "title": "Daily Source Pass",
-  "summary": "A launch-ready newsroom rhythm for finding publishable East Nashville stories without waiting on private-platform access.",
+  "summary": "Today's issue is built from public and approved sources plus first-class supervised community lanes: official Metro pages, local reporting, direct venue/business pages, library hours, Facebook group capture, and Nextdoor capture.",
   "stages": [
     {
       "time": "7:00 AM",
       "name": "Official Records Sweep",
-      "goal": "Find the safest, highest-confidence morning items before the brief goes out.",
+      "goal": "Find the safest, highest-confidence civic items before the brief goes out.",
       "sourceIds": [
-        "src-dev-tracker-gallatin",
+        "src-may12-vision-zero-hubnashville",
+        "src-may12-east-bank-boulevard",
         "src-ndot-permits",
-        "src-codes-permits",
-        "src-mnpd-east-precinct"
+        "src-hubnashville-irritation-index"
       ],
-      "output": "Confirmed briefs, Cone Watch items, permit quick hits, and cautious safety context."
+      "output": "Published the road-safety / 311 item and East Bank Boulevard watch; keep NDOT permits and 311 clustering in the daily scan."
     },
     {
       "time": "11:30 AM",
-      "name": "Business And Event Sweep",
-      "goal": "Catch openings, calendar items, venue posts, and food/drink updates while they still have same-day utility.",
+      "name": "Local Web And Meeting Sweep",
+      "goal": "Catch Nashville-wide items that need an East Nashville translation.",
       "sourceIds": [
-        "src-restaurant-instagram",
-        "src-weekend-venue-calendars",
-        "src-tomato-art-fest",
+        "src-may12-starbucks-incentives",
+        "src-may12-tourism-event-money",
         "src-local-outlet-roundup"
       ],
-      "output": "Restaurant briefs, event listings, link briefs, and social-first posts."
+      "output": "Published the Starbucks incentive watch and Metro event-money meeting brief with source credit."
     },
     {
       "time": "3:30 PM",
-      "name": "Community Temperature Check",
-      "goal": "Turn Facebook, Nextdoor, tips, and 311 patterns into labeled chatter or verified follow-ups.",
+      "name": "Direct Pages And Community Temperature",
+      "goal": "Add same-day utility from venues, businesses, libraries, and supervised community chatter.",
       "sourceIds": [
+        "src-may12-basement-east-calendar",
+        "src-may12-east-branch-library",
+        "src-may12-five-points-diner-source-check",
         "src-facebook-group",
-        "src-nextdoor-patterns",
-        "src-reader-tips",
-        "src-hubnashville-irritation-index"
+        "src-nextdoor-patterns"
       ],
-      "output": "What People Are Mad About, lost-and-found patterns, family logistics, and tip follow-ups."
+      "output": "Published direct-source event, library, and restaurant-check items; queued Facebook and Nextdoor as daily supervised capture lanes until selected posts have internal notes or screenshots."
     },
     {
       "time": "5:30 PM",
       "name": "Publish Pack",
-      "goal": "Choose what publishes now, what goes into the morning brief, and what needs one more receipt.",
+      "goal": "Turn the source sweep into live stories, newsletter blocks, social copy, and follow-up prompts.",
       "sourceIds": [
+        "src-may12-public-source-pass",
+        "src-may12-starbucks-incentives",
+        "src-may12-vision-zero-hubnashville",
+        "src-may12-tourism-event-money",
+        "src-may12-east-bank-boulevard",
+        "src-may12-basement-east-calendar",
+        "src-may12-east-branch-library",
+        "src-may12-five-points-diner-source-check",
         "src-facebook-group",
-        "src-dev-tracker-gallatin",
-        "src-weekend-venue-calendars",
-        "src-reader-tips"
+        "src-nextdoor-patterns"
       ],
-      "output": "Story queue, newsletter blocks, source notes, social captions, and video prompts."
+      "output": "Eight source-backed public items are live for May 12; Facebook and Nextdoor remain active supervised capture slots until real posts are selected."
     }
   ],
   "publishQueue": [
     {
-      "sourceId": "src-dev-tracker-gallatin",
-      "slot": "Morning brief lead",
-      "decision": "Publish when a parcel/case number and current status are captured.",
-      "why": "Low-risk official data with strong East Nashville utility."
+      "sourceId": "src-may12-public-source-pass",
+      "slot": "Issue lead",
+      "decision": "Published as today's source issue lead.",
+      "why": "It explains what the public scrape found, what got published, and how Facebook/Nextdoor join the run through selected capture instead of raw private scraping."
     },
     {
-      "sourceId": "src-restaurant-instagram",
-      "slot": "Afternoon web hit",
-      "decision": "Publish direct business posts immediately; label comments and reposts as chatter.",
-      "why": "Restaurant openings and menu changes are likely to be shared."
+      "sourceId": "src-may12-starbucks-incentives",
+      "slot": "Business lead",
+      "decision": "Published as a reported incentive-watch story.",
+      "why": "The dollar figure and vote date are useful Nashville public-money context with follow-up value."
+    },
+    {
+      "sourceId": "src-may12-vision-zero-hubnashville",
+      "slot": "Civic utility",
+      "decision": "Published as the road-safety / hubNashville irritation item.",
+      "why": "It turns neighborhood complaints into a source-backed public-service workflow."
+    },
+    {
+      "sourceId": "src-may12-tourism-event-money",
+      "slot": "Civic watch",
+      "decision": "Published as the tourism-money meeting brief.",
+      "why": "Visitor-economy decisions can become East Nashville traffic, East Bank, and event impacts."
+    },
+    {
+      "sourceId": "src-may12-east-bank-boulevard",
+      "slot": "Development watch",
+      "decision": "Published as an East Bank Boulevard watch item.",
+      "why": "This is the riverfront infrastructure piece East Nashville should keep tracking."
+    },
+    {
+      "sourceId": "src-may12-basement-east-calendar",
+      "slot": "Tonight",
+      "decision": "Published as a same-day event quick hit.",
+      "why": "Direct venue pages are low-risk, useful, and immediate."
+    },
+    {
+      "sourceId": "src-may12-east-branch-library",
+      "slot": "Utility",
+      "decision": "Published as a practical late-hours library item.",
+      "why": "Useful public infrastructure deserves a place in the brief."
+    },
+    {
+      "sourceId": "src-may12-five-points-diner-source-check",
+      "slot": "Restaurant watch",
+      "decision": "Published as a stale-source correction and active-business check.",
+      "why": "It demonstrates the restaurant scrape rule: search result first, direct source before publication."
     },
     {
       "sourceId": "src-facebook-group",
-      "slot": "What People Are Mad About",
-      "decision": "Publish themes, not unsupported accusations; link/source-note the originating chatter internally.",
-      "why": "The private group is the best mood source, but it must stay supervised."
+      "slot": "Community capture",
+      "decision": "Daily supervised Facebook capture lane is active; publish themes or verified follow-ups after selected posts have source notes.",
+      "why": "The group is a core neighborhood signal source, but private chatter needs transformation and verification before publication."
     },
     {
-      "sourceId": "src-ndot-permits",
-      "slot": "Cone Watch",
-      "decision": "Publish only with location, date window, and impact type.",
-      "why": "Traffic/sidewalk pain is evergreen and practically useful."
+      "sourceId": "src-nextdoor-patterns",
+      "slot": "Nextdoor capture",
+      "decision": "Daily supervised Nextdoor capture lane is active through the Source Desk panel; paste or open selected posts before drafting.",
+      "why": "Nextdoor belongs in the same source pass as public records, but its private-citizen content needs stricter handling."
     }
   ],
   "accessNeeds": [
     {
       "name": "Facebook private group",
-      "status": "Kenny-supervised capture",
-      "today": "Open the group, capture the 5-10 most active or specific posts, and paste links/screenshots/source notes into the desk.",
-      "guardrail": "No unattended scraping. Publish private chatter as themes unless independently confirmed."
+      "status": "Supervised capture only",
+      "today": "Open or paste the 5-10 posts worth reviewing, plus screenshots or source notes, then convert patterns into labeled drafts.",
+      "guardrail": "No unattended private-group scraping. Publish themes or verified follow-ups, not raw private accusations."
     },
     {
       "name": "Nextdoor",
-      "status": "Manual-only until approved access exists",
-      "today": "Use for patterns only: lost pets, service complaints, family logistics, safety chatter.",
+      "status": "Manual capture panel live",
+      "today": "Paste selected neighborhood notes into the Source Desk panel and use them for patterns: lost-and-found, services, family logistics, safety chatter, and rumor prompts.",
       "guardrail": "Do not name private citizens or publish accusations without public confirmation."
+    },
+    {
+      "name": "Public official and local web sources",
+      "status": "Published today",
+      "today": "Keep the May 12 source issue live and rerun the scan for follow-up records, agendas, minutes, and direct updates.",
+      "guardrail": "Credit outlets, link official pages, and clearly distinguish reported, direct, and confirmed source labels."
     },
     {
       "name": "Instagram/X watchlists",
       "status": "Needs handle/search list",
-      "today": "Seed direct business, venue, Metro, reporter, and local personality accounts.",
-      "guardrail": "Direct posts can confirm their own facts; third-party chatter still needs backup."
+      "today": "Seed direct business, venue, Metro, reporter, food writer, and local organization accounts before treating these as a full daily scrape.",
+      "guardrail": "Direct posts can confirm their own facts; third-party comments remain leads until verified."
     }
   ]
 }

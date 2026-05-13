@@ -6,6 +6,14 @@ import { getStories } from "@/lib/content";
 export default function HomePage() {
   const stories = getStories();
   const packageIds = [
+    "may-12-source-pass-east-nashville",
+    "may-12-starbucks-incentive-math",
+    "may-12-vision-zero-hubnashville",
+    "may-12-tourism-money-meetings",
+    "may-12-east-bank-boulevard-watch",
+    "may-12-basement-east-beast",
+    "may-12-east-branch-open-late",
+    "may-12-five-points-diner-source-check",
     "party-fowl-five-points-opening",
     "gallatin-main-safety-project",
     "east-trinity-gallatin-pedestrian-death",

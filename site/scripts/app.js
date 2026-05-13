@@ -31,6 +31,18 @@ function initials(name) {
     .toUpperCase();
 }
 
+function reporterAvatar(reporter, className = "avatar") {
+  const style = `background:${escapeHtml(reporter.color)}`;
+  if (reporter.photoUrl) {
+    return `
+      <div class="${className} has-photo" style="${style}">
+        <img src="${escapeHtml(reporter.photoUrl)}" alt="${escapeHtml(reporter.photoAlt || `${reporter.name} portrait`)}" loading="lazy" />
+      </div>
+    `;
+  }
+  return `<div class="${className}" style="${style}">${escapeHtml(initials(reporter.name))}</div>`;
+}
+
 function reporterFor(story) {
   return state.reporters.get(story.reporterId) || {
     name: "East Meets Nash Desk",
@@ -245,7 +257,7 @@ function renderReporters() {
     const node = document.createElement("article");
     node.className = "reporter";
     node.innerHTML = `
-      <div class="avatar" style="background:${escapeHtml(reporter.color)}">${escapeHtml(initials(reporter.name))}</div>
+      ${reporterAvatar(reporter)}
       <div>
         <strong>${escapeHtml(reporter.name)}</strong>
         <span>${escapeHtml(reporter.tagline)}</span>

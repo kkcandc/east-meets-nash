@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ReactionPanel } from "@/components/ReactionPanel";
+import { ReporterAvatar } from "@/components/ReporterAvatar";
 import { SubscribeForm } from "@/components/SubscribeForm";
 import { getReporter, getStories, getStoryBySlug } from "@/lib/content";
 
@@ -36,11 +37,6 @@ export default async function StoryPage({ params }: StoryPageProps) {
   const story = getStoryBySlug(slug);
   if (!story) notFound();
   const reporter = getReporter(story.reporterId);
-  const reporterInitials = reporter.name
-    .split(" ")
-    .map((part) => part[0])
-    .join("")
-    .slice(0, 2);
   const paragraphs = story.body.split("\n\n");
   const featureMedia = story.media?.find((item) => item.imageUrl && item.label === "Comment Signals");
   const imageMedia = story.media?.filter((item) => item.imageUrl && item.label !== "Comment Signals") || [];
@@ -176,9 +172,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
         <section className="rail-card reporter-bio">
           <p className="eyebrow">Reported By</p>
           <Link className="reporter-profile-link" href={`/reporters/${reporter.id}`}>
-            <span className="avatar" style={{ backgroundColor: reporter.color }}>
-              {reporterInitials}
-            </span>
+            <ReporterAvatar reporter={reporter} />
             <h2>{reporter.name}</h2>
             <p>{reporter.tagline}</p>
             <small>{reporter.beat}</small>

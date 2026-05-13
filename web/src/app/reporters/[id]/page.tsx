@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ReporterAvatar } from "@/components/ReporterAvatar";
 import { getReporterById, getReporters, getStoriesByReporter } from "@/lib/content";
 
 interface ReporterPageProps {
@@ -22,14 +23,6 @@ export async function generateMetadata({ params }: ReporterPageProps): Promise<M
   };
 }
 
-function initials(name: string) {
-  return name
-    .split(" ")
-    .map((part) => part[0])
-    .join("")
-    .slice(0, 2);
-}
-
 export default async function ReporterPage({ params }: ReporterPageProps) {
   const { id } = await params;
   const reporter = getReporterById(id);
@@ -40,9 +33,7 @@ export default async function ReporterPage({ params }: ReporterPageProps) {
   return (
     <main className="reporter-profile-shell">
       <section className="reporter-hero">
-        <div className="reporter-avatar-large" style={{ backgroundColor: reporter.color }}>
-          {initials(reporter.name)}
-        </div>
+        <ReporterAvatar reporter={reporter} large />
         <div className="reporter-identity">
           <p className="eyebrow">Reported By</p>
           <h1>{reporter.name}</h1>

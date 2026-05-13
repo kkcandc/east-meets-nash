@@ -18,6 +18,13 @@ export async function POST(request: Request) {
     beat: body.beat,
     confidence: body.confidence,
     sourceUrl: body.sourceUrl,
+    sourceNote: body.sourceNote,
+    verificationNote: body.verificationNote,
+    internalNote: body.internalNote,
+    risk: body.risk,
+    visualTitle: body.visualTitle,
+    visualSummary: body.visualSummary,
+    visualItems: body.visualItems,
     body: body.body,
   });
   return NextResponse.json({ draft }, { status: 201 });

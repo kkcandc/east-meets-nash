@@ -1,5 +1,487 @@
 [
   {
+    "id": "may-12-source-pass-east-nashville",
+    "slug": "today-east-nashville-source-pass-may-12-2026",
+    "title": "Today's East Nashville Source Pass: Coffee Money, Road Safety, East Bank, And The Beast",
+    "deck": "A May 12 scrape turned up a Starbucks incentive vote to watch, two tourism-money meetings, a Vision Zero check, East Bank movement, and one very loud night at The Basement East.",
+    "body": "Today's scrape produced one useful rule: publish the public receipts and run Facebook and Nextdoor as supervised community-signal lanes, not as mystery scrapes. The Nextdoor test captures are staying internal because they were test notes, not verified neighborhood source material. The source pass, though, has enough public receipts to build a real Tuesday brief, and it leaves clear capture slots for the private-platform material that should come next.\n\nFirst up: coffee money. Axios reports Tennessee is preparing a $30 million state economic development grant tied to Starbucks' Nashville corporate hub, with a State Funding Board vote expected May 20. The company has previously framed the Nashville move as a $100 million expansion expected to bring 2,000 jobs, with temporary offices in The Gulch before a permanent Peabody Union home. This is not East Nashville, but it is absolutely Nashville math: incentives, jobs, commute patterns, and the question of whether existing residents get more than a press release and a more crowded coffee line.\n\nThe civic calendar has visitor-economy fingerprints all over it. Metro lists a Tourism and Convention Commission meeting this morning and a Major Event Fund Committee meeting this afternoon, both at the Nashville Convention and Visitors Corp. Translation: the machinery that funds and manages big Nashville attention was moving today. If East Nashville wants to complain about event traffic, hotel-money politics, or who gets the nice barricades, this is one of the rooms to watch.\n\nOn the street-safety side, NDOT's public events page lists a Vision Zero Advisory Committee meeting from 5 to 7 p.m. today. That pairs neatly with the neighborhood reality captured in hubNashville's public stats: in March, Metro logged thousands of service requests, including missed trash, potholes, improper parking, street lighting, and traffic-signal complaints. The East Nashville angle is simple: if the sidewalk, light, lane, or pothole is the story, the cleanest source is the request number, not just the loudest group chat.\n\nEast Bank is still the long game. Metro's East Bank page says the Development Authority is processing public feedback on East Bank Boulevard while Fallon works toward the first two buildings on Metro-owned land. That boulevard is the piece East Nashville should keep staring at, because north-south connectivity on the riverfront is going to decide whether this becomes a neighborhood, a stadium driveway, or a very expensive way to rediscover traffic.\n\nFor tonight: The Basement East has Cattle Decapitation, Brujeria, No Cure, and Knoll at 7 p.m., with doors at 6. The East Branch Library is open noon to 8 p.m. at 206 Gallatin Ave. That is the whole East Nashville range in one sentence: blast beats on Woodland, quiet computers on Gallatin, and everyone pretending they do not need a nap.\n\nOur ruling: publish this as today's source brief and keep scraping the approved public and supervised community lanes. Nextdoor and Facebook are part of the run; they just need selected posts, screenshots, links, or internal source notes before anything from those communities gets transformed into a live story. When real selected posts come in, we paraphrase, anonymize, verify, and then publish the useful pattern. Until then, the private screenshots stay off the front page where they belong.",
+    "zone": "East Nashville",
+    "beat": "News",
+    "label": "Reported",
+    "confidence": "Public receipts from official Metro pages, local reporting, venue calendars, and direct public pages, with Facebook and Nextdoor queued as supervised community-source capture lanes.",
+    "reporterId": "june",
+    "time": "May 12, 2026",
+    "priority": 190,
+    "imageStyle": "street",
+    "heroImage": "/assets/stories/fallback-street.svg",
+    "heroAlt": "Stylized East Nashville street scene for a daily source brief.",
+    "factBox": [
+      {
+        "label": "Date",
+        "value": "Tuesday, May 12, 2026"
+      },
+      {
+        "label": "Private Platforms",
+        "value": "Nextdoor and Facebook run as supervised capture lanes"
+      },
+      {
+        "label": "Tonight",
+        "value": "The Basement East show at 7 p.m.; East Branch Library open until 8 p.m."
+      }
+    ],
+    "sourceNote": "Scraped public and approved sources on May 12, 2026. Facebook and Nextdoor are included as supervised capture lanes; the synthetic Nextdoor test captures were not published as real news.",
+    "sources": [
+      {
+        "name": "Axios Nashville: Starbucks state incentives",
+        "url": "https://www.axios.com/local/nashville/2026/05/12/starbucks-state-incentives-nashville-move",
+        "type": "Reported"
+      },
+      {
+        "name": "Metro Nashville: Tourism and Convention Commission meeting, May 12",
+        "url": "https://www.nashville.gov/departments/government/boards/tourism-and-convention-commission/meetings/tourism-and-convention-commission-meeting-may-12-2026",
+        "type": "Official"
+      },
+      {
+        "name": "Metro Nashville: Major Event Fund Committee meeting, May 12",
+        "url": "https://www.nashville.gov/departments/government/boards/major-event-fund-committee/meetings/major-event-fund-committee-meeting-may-12-2026",
+        "type": "Official"
+      },
+      {
+        "name": "NDOT events: Vision Zero Advisory Committee meeting",
+        "url": "https://www.nashville.gov/departments/transportation/events",
+        "type": "Official"
+      },
+      {
+        "name": "hubNashville service request dashboard summary",
+        "url": "https://www.nashville.gov/departments/government/hubnashville",
+        "type": "Official"
+      },
+      {
+        "name": "Metro Nashville East Bank Development",
+        "url": "https://www.nashville.gov/featured-initiatives/east-bank-development",
+        "type": "Official"
+      },
+      {
+        "name": "The Basement East event calendar",
+        "url": "https://www.thebasementnashville.com/tm-venue/the-basement-east/",
+        "type": "Direct venue calendar"
+      },
+      {
+        "name": "Nashville Public Library: East Branch",
+        "url": "https://library.nashville.gov/locations/east-branch",
+        "type": "Direct public page"
+      }
+    ],
+    "reactions": {
+      "Love": 8,
+      "Side-Eye": 19
+    },
+    "comments": [
+      {
+        "author": "source_desk",
+        "text": "Private-platform tests stayed internal. Public-source brief is live."
+      }
+    ],
+    "social": {
+      "x": "Today's East Nashville source pass: Starbucks incentive math, Metro visitor-economy meetings, Vision Zero, East Bank movement, and The Basement East getting loud.",
+      "instagram": "Tuesday's source brief: coffee money, road safety, East Bank, the library, one very loud show on Woodland, and the community-capture lane that still needs receipts.",
+      "video": "June walks through the source scrape and explains how Facebook and Nextdoor become publishable only after selected capture and verification."
+    }
+  },
+  {
+    "id": "may-12-starbucks-incentive-math",
+    "slug": "starbucks-incentive-watch-nashville-may-12-2026",
+    "title": "Starbucks' $30 Million Incentive Ask Has Entered Nashville Math",
+    "deck": "The coffee giant's Nashville hub is citywide news, but the incentive vote is exactly the kind of money-and-jobs story East Nashville should keep one skeptical eye on.",
+    "body": "The Starbucks Nashville story now has a price tag to watch: Axios reports Tennessee is preparing a $30 million state economic development grant tied to the company's new corporate hub. The State Funding Board is expected to vote on the grant May 20.\n\nThe company has described the Nashville move as a $100 million expansion expected to bring 2,000 jobs over five years. The office plan starts temporarily in The Gulch before shifting to Peabody Union in 2027. That is not technically East Nashville, but the ripple effects do not stop at the river. Jobs, incentives, downtown commutes, housing pressure, and who gets access to the promised opportunity are all very much local questions.\n\nThe useful follow-up is not whether Nashville likes coffee. It is whether state and possible city incentives buy something residents can see: hiring pathways, wages, transit logic, and proof that existing Nashvillians are not just being asked to subsidize a shinier corporate map pin.\n\nOur ruling: watch the May 20 vote, then watch Metro. If a city incentive package appears, that becomes the real local test. A jobs announcement is only the first pour; the accountability is in the refill.",
+    "zone": "Nashville",
+    "beat": "Business",
+    "label": "Reported",
+    "confidence": "Reported by Axios from State Funding Board agenda details; state vote still pending.",
+    "reporterId": "june",
+    "time": "May 12, 2026",
+    "priority": 179,
+    "imageStyle": "permit",
+    "heroImage": "/assets/stories/fallback-permit.svg",
+    "heroAlt": "Stylized paperwork and city-building illustration for a Nashville incentives story.",
+    "factBox": [
+      {
+        "label": "State grant",
+        "value": "$30 million proposed"
+      },
+      {
+        "label": "Vote to watch",
+        "value": "State Funding Board, May 20"
+      },
+      {
+        "label": "Jobs claim",
+        "value": "2,000 over five years"
+      }
+    ],
+    "sourceNote": "Credit Axios for the reported incentive amount. Re-check the State Funding Board action after the May 20 vote before treating the grant as approved.",
+    "sources": [
+      {
+        "name": "Axios Nashville: Starbucks state incentives",
+        "url": "https://www.axios.com/local/nashville/2026/05/12/starbucks-state-incentives-nashville-move",
+        "type": "Reported"
+      }
+    ],
+    "reactions": {
+      "Love": 4,
+      "Side-Eye": 31
+    },
+    "comments": [
+      {
+        "author": "ledger_neighbor",
+        "text": "Wake me when the hiring plan has bus routes attached."
+      }
+    ],
+    "social": {
+      "x": "Starbucks' Nashville hub now has a $30M state incentive vote to watch. Jobs are the headline; accountability is the refill.",
+      "instagram": "Coffee money, state incentives, and the question every neighborhood should ask: who actually gets hired?",
+      "video": "June explains the Starbucks incentive math in 45 seconds, then points to the May 20 vote."
+    }
+  },
+  {
+    "id": "may-12-tourism-money-meetings",
+    "slug": "nashville-tourism-money-meetings-may-12-2026",
+    "title": "Nashville's Event-Money Rooms Had A Very Tourism Tuesday",
+    "deck": "Two Metro visitor-economy meetings landed on the same day, which is your reminder that the fun part of Nashville also has agendas, boards, and funding rooms.",
+    "body": "Metro's public calendar put two visitor-economy rooms on today's board: the Tourism and Convention Commission met this morning, and the Major Event Fund Committee was scheduled for the afternoon. Both were listed at the Nashville Convention and Visitors Corp. offices.\n\nThat sounds downtown and bureaucratic because it is. It is also one of the ways Nashville decides how to court, fund, and manage the events that turn into street closures, hotel nights, security plans, transit headaches, and the occasional neighborhood wondering why a barricade suddenly has a better schedule than a bus.\n\nThe East Nashville angle is not that every meeting needs a protest sign and a podcast. It is that big-event money becomes local impact fast. East Bank, stadium traffic, riverfront events, downtown spillover, ride-share patterns, and late-night corridors all eventually touch the east side of the river.\n\nOur ruling: add these boards to the source watch. If the event economy is going to keep using Nashville as a stage, East Nashville should know which rooms approve the lighting budget.",
+    "zone": "Nashville",
+    "beat": "Civic",
+    "label": "Confirmed",
+    "confidence": "Official Metro meeting pages.",
+    "reporterId": "june",
+    "time": "May 12, 2026",
+    "priority": 178,
+    "imageStyle": "permit",
+    "heroImage": "/assets/stories/fallback-permit.svg",
+    "heroAlt": "Stylized civic meeting paperwork for a Nashville tourism and event funding story.",
+    "factBox": [
+      {
+        "label": "Morning",
+        "value": "Tourism and Convention Commission, 8:30-10 a.m."
+      },
+      {
+        "label": "Afternoon",
+        "value": "Major Event Fund Committee, 2:30-4 p.m."
+      },
+      {
+        "label": "Why Watch",
+        "value": "Big events become traffic, security, hotel, and public-space decisions"
+      }
+    ],
+    "sourceNote": "Both meetings are sourced to official Metro pages. Pull agendas/minutes when available for follow-up.",
+    "sources": [
+      {
+        "name": "Metro Nashville: Tourism and Convention Commission meeting, May 12",
+        "url": "https://www.nashville.gov/departments/government/boards/tourism-and-convention-commission/meetings/tourism-and-convention-commission-meeting-may-12-2026",
+        "type": "Official"
+      },
+      {
+        "name": "Metro Nashville: Major Event Fund Committee meeting, May 12",
+        "url": "https://www.nashville.gov/departments/government/boards/major-event-fund-committee/meetings/major-event-fund-committee-meeting-may-12-2026",
+        "type": "Official"
+      }
+    ],
+    "reactions": {
+      "Love": 6,
+      "Side-Eye": 22
+    },
+    "comments": [
+      {
+        "author": "calendar_hawk",
+        "text": "The meeting room is where the traffic cone is born."
+      }
+    ],
+    "social": {
+      "x": "Two visitor-economy meetings hit Metro's calendar today. Big-event money eventually becomes local traffic, public space, and barricade math.",
+      "instagram": "Today's civic watch: the rooms where Nashville event money puts on a blazer.",
+      "video": "June points to the two Metro meetings and explains why event funding belongs in the East Nashville source watch."
+    }
+  },
+  {
+    "id": "may-12-vision-zero-hubnashville",
+    "slug": "vision-zero-hubnashville-road-safety-may-12-2026",
+    "title": "Road Safety Has A 5 P.M. Meeting, And The Potholes Have Receipts",
+    "deck": "NDOT's Vision Zero meeting and hubNashville's service-request stats make one thing clear: the best neighborhood complaint comes with a request number.",
+    "body": "Today's transportation scrape produced a useful pair: NDOT lists a Vision Zero Advisory Committee meeting from 5 to 7 p.m., and hubNashville's public summary shows how much daily irritation is already moving through Metro's request system.\n\nThe March hubNashville stats are a small civic weather report. Metro says it handled 30,185 requests that month, including missed trash, missed recycling, potholes, improper parking, street lighting, and traffic-signal complaints. In other words: the group chat is not wrong to be annoyed. It is just less useful than a trackable ticket.\n\nFor East Nashville, this is the bridge between Nextdoor irritation and publishable service journalism. A blocked sidewalk is a story when it has a location, a photo, a request number, and a department response. A pothole becomes a pattern when multiple requests cluster around the same block. A dangerous crossing becomes harder to ignore when it appears in both resident notes and official intake.\n\nOur ruling: launch the Irritation Index with receipts. The complaint can start in the comments, but the article should end with a public record, a status check, and a way for readers to act without just inventing new adjectives.",
+    "zone": "East Nashville",
+    "beat": "Traffic",
+    "label": "Confirmed",
+    "confidence": "Official NDOT calendar and hubNashville public statistics.",
+    "reporterId": "parker",
+    "time": "May 12, 2026",
+    "priority": 177,
+    "imageStyle": "street",
+    "heroImage": "/assets/stories/sidewalk-parent-index.svg",
+    "heroAlt": "Stylized East Nashville sidewalk and street-safety illustration.",
+    "factBox": [
+      {
+        "label": "Meeting",
+        "value": "Vision Zero Advisory Committee, 5-7 p.m."
+      },
+      {
+        "label": "March Requests",
+        "value": "30,185 handled by hubNashville"
+      },
+      {
+        "label": "Watch Items",
+        "value": "Potholes, parking, streetlights, traffic signals, missed trash"
+      }
+    ],
+    "sourceNote": "Use hubNashville categories as intake signals, not proof that Metro verified every resident claim.",
+    "sources": [
+      {
+        "name": "NDOT events: Vision Zero Advisory Committee meeting",
+        "url": "https://www.nashville.gov/departments/transportation/events",
+        "type": "Official"
+      },
+      {
+        "name": "hubNashville service request dashboard summary",
+        "url": "https://www.nashville.gov/departments/government/hubnashville",
+        "type": "Official"
+      }
+    ],
+    "reactions": {
+      "Love": 14,
+      "Side-Eye": 26
+    },
+    "comments": [
+      {
+        "author": "pothole_accountant",
+        "text": "The request number is the receipt. Frame it."
+      }
+    ],
+    "social": {
+      "x": "Road safety has a 5 p.m. meeting today, and hubNashville has the complaint receipts. East Nashville's Irritation Index wants request numbers.",
+      "instagram": "Sidewalk rage, but make it trackable.",
+      "video": "Parker explains how a group-chat complaint turns into a publishable service story."
+    }
+  },
+  {
+    "id": "may-12-east-bank-boulevard-watch",
+    "slug": "east-bank-boulevard-watch-may-12-2026",
+    "title": "East Bank Boulevard Is The Part East Nashville Should Keep Staring At",
+    "deck": "Metro says feedback is being digested on the East Bank's north-south spine while the first buildings move toward shovel-ready. Translation: this is where the future traffic argument lives.",
+    "body": "The East Bank page is not new in the breaking-news sense. It is new in the keep-looking-at-this-until-it-moves sense. Metro says the East Bank Development Authority is processing public feedback on East Bank Boulevard while The Fallon Company works toward the first two buildings on Metro-owned land.\n\nThat boulevard matters because it is supposed to be the north-south connector through the redeveloping East Bank. If it works, it helps the area behave like a neighborhood. If it fails, it becomes a stadium-adjacent driveway with better renderings.\n\nThe scale is not small. Metro describes the East Bank as 550 acres, including 130 acres of Metro-owned land, with redevelopment stretching from River North and the planned Oracle campus down toward I-24. East Nashville should care because riverfront connectivity, transit, bikeways, stadium-event circulation, and future housing all meet at the same awkward civic dinner table.\n\nOur ruling: keep a dedicated East Bank Boulevard watch. The question is not whether the renderings are pretty. The question is whether the street network gives people real ways to move, linger, cross, and leave without turning every event night into a group project.",
+    "zone": "East Bank",
+    "beat": "Development",
+    "label": "Confirmed",
+    "confidence": "Official Metro East Bank development page.",
+    "reporterId": "june",
+    "time": "May 12, 2026",
+    "priority": 176,
+    "imageStyle": "permit",
+    "heroImage": "/assets/stories/fallback-permit.svg",
+    "heroAlt": "Stylized development map and street grid for the East Bank.",
+    "factBox": [
+      {
+        "label": "Area",
+        "value": "550-acre East Bank"
+      },
+      {
+        "label": "Metro-owned",
+        "value": "130 acres"
+      },
+      {
+        "label": "Watch",
+        "value": "East Bank Boulevard feedback and first Fallon buildings"
+      }
+    ],
+    "sourceNote": "This is a watch item from Metro's public East Bank page; follow-up should pull EBDA agendas and boulevard feedback materials.",
+    "sources": [
+      {
+        "name": "Metro Nashville East Bank Development",
+        "url": "https://www.nashville.gov/featured-initiatives/east-bank-development",
+        "type": "Official"
+      }
+    ],
+    "reactions": {
+      "Love": 10,
+      "Side-Eye": 18
+    },
+    "comments": [
+      {
+        "author": "rendering_skeptic",
+        "text": "Show me the crosswalk before the watercolor."
+      }
+    ],
+    "social": {
+      "x": "East Bank Boulevard is the part to watch: north-south connectivity, stadium nights, transit, bikes, and whether the East Bank becomes a neighborhood.",
+      "instagram": "The rendering is not the story. The street network is.",
+      "video": "June walks through why East Bank Boulevard is the infrastructure plotline."
+    }
+  },
+  {
+    "id": "may-12-basement-east-beast",
+    "slug": "basement-east-cattle-decapitation-may-12-2026",
+    "title": "The Beast Gets Loud On Woodland Tonight",
+    "deck": "The Basement East has Cattle Decapitation, Brujeria, No Cure, and Knoll at 7 p.m., which is a very direct way for Woodland Street to announce Tuesday.",
+    "body": "Tonight's East Nashville event note is not subtle: The Basement East lists Cattle Decapitation: 30 Years Of Inhumanity with Brujeria, No Cure, and Knoll for Tuesday, May 12. Show is 7 p.m., doors are 6, and the venue marks it 18 and up.\n\nThis is the kind of calendar item that belongs in the daily brief because it changes the immediate neighborhood texture. More cars around Woodland. More black shirts. More people pretending their hearing is still a renewable resource. Also: one more reason the late-night food and ride-share orbit around Five Points matters.\n\nIf you are going, check the venue/ticket link before leaving. If you are not going, this is your gentle warning that The Beast may be doing Beast things.\n\nOur ruling: publish it as a quick-hit event item, not a review. The review comes after someone with ear protection and a notebook survives it.",
+    "zone": "Five Points",
+    "beat": "Music",
+    "label": "Confirmed",
+    "confidence": "Direct venue calendar.",
+    "reporterId": "riff",
+    "time": "May 12, 2026",
+    "priority": 175,
+    "imageStyle": "music",
+    "heroImage": "/assets/stories/basement-east-show.svg",
+    "heroAlt": "Stylized Basement East concert illustration.",
+    "factBox": [
+      {
+        "label": "Where",
+        "value": "The Basement East, 917 Woodland St."
+      },
+      {
+        "label": "When",
+        "value": "Doors 6 p.m.; show 7 p.m."
+      },
+      {
+        "label": "Age",
+        "value": "18 and up"
+      }
+    ],
+    "sourceNote": "Confirm ticket availability with the venue before sending readers out the door.",
+    "sources": [
+      {
+        "name": "The Basement East event calendar",
+        "url": "https://www.thebasementnashville.com/tm-venue/the-basement-east/",
+        "type": "Direct venue calendar"
+      }
+    ],
+    "reactions": {
+      "Love": 21,
+      "Side-Eye": 7
+    },
+    "comments": [
+      {
+        "author": "woodland_earplug",
+        "text": "Doors at six, tinnitus by ten."
+      }
+    ],
+    "social": {
+      "x": "The Basement East goes loud tonight: Cattle Decapitation, Brujeria, No Cure, and Knoll. Doors 6, show 7.",
+      "instagram": "Tuesday on Woodland: loud, direct, probably requiring earplugs.",
+      "video": "Riff gives the 20-second show note and recommends ear protection with unusual sincerity."
+    }
+  },
+  {
+    "id": "may-12-east-branch-open-late",
+    "slug": "east-branch-library-open-late-may-12-2026",
+    "title": "East Branch Is Open Late Today, Which Counts As Infrastructure",
+    "deck": "The East Branch Library is open noon to 8 p.m. on Tuesdays, and yes, that is a useful neighborhood fact dressed as a tiny civic miracle.",
+    "body": "Today's most practical low-drama source item is the East Branch Library page: Tuesday hours are noon to 8 p.m. at 206 Gallatin Ave. This is not glamorous. That is exactly the point.\n\nLibraries are infrastructure with better lighting. East Branch offers public computers, printing, meeting rooms, tech help, Wi-Fi, a seed exchange, and the kind of quiet that does not require buying a latte and pretending to answer email.\n\nFor families, freelancers, students, job hunters, people between errands, and anyone whose house has become too loud to think inside, late Tuesday hours matter. They are the civic version of finding one more outlet near the table.\n\nOur ruling: keep branch hours and event calendars in the daily source pass. Not every useful story has to be a scandal. Sometimes it is just a public building doing the work while everyone else is arguing about parking.",
+    "zone": "East Nashville",
+    "beat": "Family",
+    "label": "Confirmed",
+    "confidence": "Direct Nashville Public Library branch page.",
+    "reporterId": "parker",
+    "time": "May 12, 2026",
+    "priority": 174,
+    "imageStyle": "park",
+    "heroImage": "/assets/stories/fallback-park.svg",
+    "heroAlt": "Stylized civic neighborhood illustration for the East Branch Library.",
+    "factBox": [
+      {
+        "label": "Tuesday Hours",
+        "value": "12 p.m.-8 p.m."
+      },
+      {
+        "label": "Address",
+        "value": "206 Gallatin Ave."
+      },
+      {
+        "label": "Useful Bits",
+        "value": "Wi-Fi, printing, public computers, meeting rooms, seed exchange"
+      }
+    ],
+    "sourceNote": "Use the branch page for hours and amenities; check the library calendar for specific event listings before promoting an event.",
+    "sources": [
+      {
+        "name": "Nashville Public Library: East Branch",
+        "url": "https://library.nashville.gov/locations/east-branch",
+        "type": "Direct public page"
+      }
+    ],
+    "reactions": {
+      "Love": 24,
+      "Side-Eye": 3
+    },
+    "comments": [
+      {
+        "author": "quiet_table",
+        "text": "A public outlet and Wi-Fi can be a whole plot."
+      }
+    ],
+    "social": {
+      "x": "East Branch is open noon-8 today. Public computers, Wi-Fi, printing, meeting rooms, seed exchange. Boring? No. Useful.",
+      "instagram": "Today's tiny civic miracle: East Branch is open late.",
+      "video": "Parker makes the case that branch hours belong in the daily brief."
+    }
+  },
+  {
+    "id": "may-12-five-points-diner-source-check",
+    "slug": "five-points-diner-source-check-may-12-2026",
+    "title": "The Restaurant Watch Caught A Stale Opening Ghost At 1016 Woodland",
+    "deck": "The scrape surfaced old 5 Points Diner opening copy, but the direct source says the restaurant is already in normal-hours mode. This is why the watchlist checks the source, not just the headline.",
+    "body": "The restaurant scrape did a very internet thing today: it resurfaced an old 'coming to East Nashville' writeup for 5 Points Diner & Bar at 1016 Woodland. That article was useful once. Today, it is a source-history artifact wearing a little ghost costume.\n\nThe direct restaurant site tells the current story. 5 Points Diner is operating at 1016 Woodland with brunch, dinner, late-night, happy hour, and the kind of menu language that makes 'Frunch' a real word whether we are emotionally ready or not.\n\nThis is why the restaurant watch cannot just scrape headlines and sprint. East Nashville has too many address ghosts, rebrands, pop-ups, old announcements, and listings that disagree with each other. The job is to catch the stale copy, check the business page, and publish the actual useful thing.\n\nOur ruling: mark 5 Points Diner as active, not newly opening. The follow-up is the live-hours check, event calendar, and whether the late-night/Frunch programming is worth a proper Mabel visit.",
+    "zone": "Five Points",
+    "beat": "Restaurants",
+    "label": "Seen in the Wild",
+    "confidence": "Old local article cross-checked against direct restaurant page.",
+    "reporterId": "mabel",
+    "time": "May 12, 2026",
+    "priority": 173,
+    "imageStyle": "food",
+    "heroImage": "/assets/stories/fallback-food.svg",
+    "heroAlt": "Stylized restaurant watch illustration for Five Points.",
+    "factBox": [
+      {
+        "label": "Address",
+        "value": "1016 Woodland Street"
+      },
+      {
+        "label": "Direct Source",
+        "value": "5 Points Diner website"
+      },
+      {
+        "label": "Watch Rule",
+        "value": "Old opening copy is a lead, not a current fact"
+      }
+    ],
+    "sourceNote": "The NewsChannel 5 item is useful historical context; current hours/menu details should come from the restaurant directly before publication.",
+    "sources": [
+      {
+        "name": "NewsChannel 5: 5 Points Diner opening announcement",
+        "url": "https://www.newschannel5.com/news/5-points-diner-bar-coming-to-east-nashville-this-may",
+        "type": "Reported archive/context"
+      },
+      {
+        "name": "5 Points Diner & Bar brunch page",
+        "url": "https://www.5pointsdiner.com/brunch",
+        "type": "Direct business page"
+      }
+    ],
+    "reactions": {
+      "Love": 15,
+      "Side-Eye": 12
+    },
+    "comments": [
+      {
+        "author": "menu_detective",
+        "text": "Frunch is now in the civic record."
+      }
+    ],
+    "social": {
+      "x": "Restaurant Watch caught stale opening copy for 5 Points Diner. Direct source says: active restaurant, live hours, Frunch is apparently real.",
+      "instagram": "Today's restaurant-source lesson: old opening articles haunt search results.",
+      "video": "Mabel explains why restaurant watchlists need direct-source checks before anything gets called new."
+    }
+  },
+  {
     "id": "party-fowl-five-points-opening",
     "slug": "party-fowl-five-points-opening",
     "title": "Party Fowl Lands In Five Points Tomorrow With Hot Chicken And Industrial Confidence",

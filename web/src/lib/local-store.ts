@@ -23,6 +23,11 @@ export async function listDrafts(): Promise<LocalDraft[]> {
   return readJson<LocalDraft[]>("drafts.json", []);
 }
 
+export async function getDraftById(id: string): Promise<LocalDraft | undefined> {
+  const drafts = await listDrafts();
+  return drafts.find((draft) => draft.id === id);
+}
+
 export async function createDraft(input: Omit<LocalDraft, "id" | "createdAt" | "status">): Promise<LocalDraft> {
   const drafts = await listDrafts();
   const draft: LocalDraft = {

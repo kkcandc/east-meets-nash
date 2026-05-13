@@ -17,6 +17,26 @@ function byId(items, id) {
   return new Map(items.map((item) => [item.id, item])).get(id);
 }
 
+function initials(name) {
+  return String(name || "")
+    .split(" ")
+    .map((part) => part[0])
+    .join("")
+    .slice(0, 2);
+}
+
+function reporterAvatar(reporter, className = "avatar") {
+  const style = `background:${escapeHtml(reporter.color)}`;
+  if (reporter.photoUrl) {
+    return `
+      <div class="${className} has-photo" style="${style}">
+        <img src="${escapeHtml(reporter.photoUrl)}" alt="${escapeHtml(reporter.photoAlt || `${reporter.name} portrait`)}" loading="lazy" />
+      </div>
+    `;
+  }
+  return `<div class="${className}" style="${style}">${escapeHtml(initials(reporter.name))}</div>`;
+}
+
 function reactionLabel(name) {
   if (name === "Love") return "❤️";
   if (name === "Side-Eye") return "👀";
@@ -280,7 +300,7 @@ function renderStory(story, reporter) {
     <section class="rail-card reporter-bio">
       <p class="eyebrow">Reported By</p>
       <a class="reporter-profile-link" href="/reporter.html?id=${escapeHtml(reporter.id)}">
-        <div class="avatar" style="background:${escapeHtml(reporter.color)}">${escapeHtml(reporter.name.split(" ").map((part) => part[0]).join("").slice(0, 2))}</div>
+        ${reporterAvatar(reporter)}
         <h2>${escapeHtml(reporter.name)}</h2>
         <p>${escapeHtml(reporter.tagline)}</p>
         <small>${escapeHtml(reporter.beat)}</small>

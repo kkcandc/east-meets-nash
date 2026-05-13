@@ -23,7 +23,7 @@ The fuller build plan lives in `docs/source-engine-blueprint.md`. The source acc
    - Instagram watchlist.
    - X searches and official/local reporter lists.
    - Kenny-supervised Facebook group capture.
-   - Nextdoor only if we have approved/manual workflow.
+   - Nextdoor manual capture panel for selected notes only.
    - Reader tips.
    - Output: chatter leads, rumor labels, opinion columns, follow-up prompts.
 
@@ -44,6 +44,7 @@ Anchor sources are the daily story engines:
 - MNPD dashboards and East Precinct data.
 - hubNashville 311 requests.
 - East Nashville private Facebook group, once captured safely.
+- Nextdoor pattern review through the manual capture panel, once selected notes exist.
 - Reader tips.
 
 Daily sources keep the product lively:
@@ -58,10 +59,6 @@ Weekly sources add texture:
 - Neighborhood associations.
 - Sponsor/classified submissions.
 - Deeper local business watchlists.
-
-Parked sources:
-
-- Nextdoor, until there is a clean workflow and it proves worth the privacy/risk tradeoff.
 
 ## Scoring
 
@@ -88,7 +85,7 @@ Every source item gets:
 Facebook group content and Nextdoor content are high-signal but access-sensitive.
 
 - Facebook Groups should be treated as supervised capture, not unattended ingestion. Meta removed third-party Groups API access in 2024, so the launch workflow is selected post capture from Kenny's logged-in account with internal screenshots/source notes.
-- Nextdoor should be manual or application-based only. Apply for developer access if we want to test approved content display/keyword workflows; do not assume it exposes a private neighborhood feed.
+- Nextdoor should use the Source Desk manual capture panel or an approved application-based workflow only. Apply for developer access if we want to test approved content display/keyword workflows; do not assume it exposes a private neighborhood feed.
 
 ## Private Platform Rules
 

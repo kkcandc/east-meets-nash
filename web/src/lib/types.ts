@@ -22,6 +22,8 @@ export interface Reporter {
   look: string;
   voice: string;
   color: string;
+  photoUrl?: string;
+  photoAlt?: string;
   bio: string;
   backstory: string;
   homeBase: string;
@@ -192,6 +194,13 @@ export interface DraftInput {
   beat: string;
   confidence: ConfidenceLabel;
   sourceUrl?: string;
+  sourceNote?: string;
+  verificationNote?: string;
+  internalNote?: string;
+  risk?: "Low" | "Medium" | "High";
+  visualTitle?: string;
+  visualSummary?: string;
+  visualItems?: string[];
   body: string;
 }
 

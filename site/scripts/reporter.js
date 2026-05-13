@@ -21,6 +21,18 @@ function initials(name) {
     .slice(0, 2);
 }
 
+function reporterAvatar(reporter, className = "avatar") {
+  const style = `background:${escapeHtml(reporter.color)}`;
+  if (reporter.photoUrl) {
+    return `
+      <div class="${className} has-photo" style="${style}">
+        <img src="${escapeHtml(reporter.photoUrl)}" alt="${escapeHtml(reporter.photoAlt || `${reporter.name} portrait`)}" loading="lazy" />
+      </div>
+    `;
+  }
+  return `<div class="${className}" style="${style}">${escapeHtml(initials(reporter.name))}</div>`;
+}
+
 function listItems(items) {
   return (items || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("");
 }
@@ -60,7 +72,7 @@ function renderReporter(reporter, stories) {
   reporterApp.innerHTML = `
     <section class="reporter-profile-shell">
       <section class="reporter-hero">
-        <div class="reporter-avatar-large" style="background:${escapeHtml(reporter.color)}">${escapeHtml(initials(reporter.name))}</div>
+        ${reporterAvatar(reporter, "reporter-avatar-large")}
         <div class="reporter-identity">
           <p class="eyebrow">Reported By</p>
           <h1>${escapeHtml(reporter.name)}</h1>

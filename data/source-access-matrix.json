@@ -127,15 +127,15 @@
   {
     "id": "nextdoor",
     "name": "Nextdoor neighborhood signals",
-    "priority": "Apply, then decide",
-    "status": "Access request or manual notes",
-    "accessMode": "Nextdoor developer access if approved; manual source notes until then",
-    "automationReadiness": "Low now, medium if approved",
+    "priority": "Launch with supervised capture",
+    "status": "Supervised capture; manual panel live",
+    "accessMode": "Source Desk paste-and-review capture for selected notes; developer access only if approved",
+    "automationReadiness": "Medium for intake, low for unattended ingestion",
     "sourceLabel": "Group Chat Says",
     "risk": "High",
-    "currentReality": "Nextdoor has developer offerings for sharing and displaying local content, including public posts/events/listings and keyword mentions, but access requires approval and should not be assumed to expose a private neighborhood feed.",
+    "currentReality": "Nextdoor is a core neighborhood-signal source, but its private-citizen content should enter through selected capture, not an unattended feed. Developer offerings may support approved public/local content, but access requires approval and should not be assumed to expose a private neighborhood feed.",
     "whatWeCanDoNow": [
-      "Treat Nextdoor as a later/manual source until the Facebook capture workflow is working",
+      "Use the Source Desk capture panel for Kenny-selected Nextdoor notes",
       "Use it for patterns: family logistics, lost pets, service requests, safety chatter, and recurring questions",
       "Avoid publishing private names, accusations, or screenshots from residents without independent confirmation"
     ],
@@ -149,7 +149,7 @@
       "No private accusations without independent confirmation",
       "Use patterns and questions more than individual posts"
     ],
-    "firstWorkflow": "Weekly Nextdoor pattern review, only after approval/manual policy",
+    "firstWorkflow": "Daily supervised Nextdoor pattern review through the manual capture panel",
     "publishUse": "Complaint patterns, service questions, family pain points, lost-and-found trends, and rumor prompts."
   },
   {

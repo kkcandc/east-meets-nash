@@ -196,7 +196,9 @@ export default async function AdminPage() {
             <ul className="admin-list">
               {drafts.map((draft) => (
                 <li key={draft.id}>
-                  <strong>{draft.title}</strong>
+                  <Link href={`/admin/drafts/${draft.id}`}>
+                    <strong>{draft.title}</strong>
+                  </Link>
                   <span>
                     {draft.zone} / {draft.beat} / {draft.confidence}
                   </span>

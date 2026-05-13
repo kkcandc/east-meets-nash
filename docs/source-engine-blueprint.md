@@ -32,13 +32,13 @@ Rules:
 
 Nextdoor is probably useful, but it is not launch-critical.
 
-Nextdoor developer access exists for sharing/displaying local content and keyword/local data workflows, but approval is required and we should not assume it gives a clean private neighborhood feed. Until approved, Nextdoor belongs in manual notes only.
+Nextdoor developer access exists for sharing/displaying local content and keyword/local data workflows, but approval is required and we should not assume it gives a clean private neighborhood feed. Until approved, Nextdoor belongs in the Source Desk manual capture panel only.
 
 Best launch workflow:
 
 1. Apply for developer access.
 2. If approved, test what Display Content can actually return for East Nashville.
-3. Until then, capture only patterns manually: lost pets, family logistics, service complaints, public safety chatter, and recurring resident questions.
+3. Until then, capture only patterns through the manual panel: lost pets, family logistics, service complaints, public safety chatter, and recurring resident questions.
 4. Avoid naming private residents or publishing screenshots from Nextdoor unless independently verified and clearly newsworthy.
 
 ## Source Lanes
@@ -162,7 +162,7 @@ The important decisions:
 - Instagram watchlist: semi-automate with handle list and source capture.
 - X: saved search/API decision.
 - Facebook group: supervised capture only.
-- Nextdoor: apply/manual only.
+- Nextdoor: manual capture panel live; developer access optional.
 - Reader tips: automate immediately.
 
 ## Build Order
