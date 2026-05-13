@@ -3,6 +3,7 @@
 This is the practical sourcing model for East Meets Nash. The goal is not just "find news." The goal is to create a daily machine that turns neighborhood signals into source-backed posts, newsletter blocks, social cuts, and video prompts.
 
 The fuller build plan lives in `docs/source-engine-blueprint.md`. The source access matrix lives in `data/source-access-matrix.json`.
+The image sourcing rules live in `docs/image-sourcing-policy.md`.
 
 ## Daily Collection Loop
 
@@ -77,6 +78,7 @@ Every source item gets:
 Every publishable story needs:
 
 - Hero image or custom editorial art.
+- Real location/source photo when available, using original photos, approved press images, official API/embed sources, or licensed image repositories.
 - Source screenshot/capture. If the capture tool is unavailable, use a clearly labeled source receipt card and replace it with a real screenshot when captured.
 - Source-trail card for the original link, public record, direct business page, or internal source note.
 - Map or embed when location, route, venue, or public meeting context matters.

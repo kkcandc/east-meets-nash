@@ -32,6 +32,7 @@ function draftBodyFor(item: SourceItem): string {
     item.verificationRule ? `Verification rule: ${item.verificationRule}` : "",
     "",
     "Required media pack before publish:",
+    "- Real location/source photo when available, with source link and credit.",
     "- Hero image or custom editorial art.",
     "- Source screenshot/capture or clearly labeled source receipt card.",
     "- Map, embed, or source-trail card when location/source context matters.",
@@ -69,6 +70,7 @@ export function SourceToDraftPanel({ items }: { items: SourceItem[] }) {
         visualTitle: `${item.publishFormat} Media Pack`,
         visualSummary: "Publish only after the story has a visual source trail and social cuts.",
         visualItems: [
+          "Real location/source photo when available",
           "Hero image or custom editorial art",
           "Source screenshot/capture or receipt card",
           "Map/embed/source-trail card",
