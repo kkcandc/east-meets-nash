@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Metro Meeting Calendar source receipt</title>
+  <desc id="desc">Tourism Commission and Major Event Fund meetings on May 12.</desc>
+  <style>
+    .bg{fill:#f8f2df}.ink{fill:#1f1b18}.red{fill:#ef4d37}.yellow{fill:#f5d35f}.muted{fill:#6f6258}.line{stroke:#1f1b18;stroke-width:6}.thin{stroke:#1f1b18;stroke-width:3}.kicker{font-family:Arial,sans-serif;font-size:34px;font-weight:800;letter-spacing:2px}.title{font-family:Georgia,serif;font-size:74px;font-weight:800}.body{font-family:Arial,sans-serif;font-size:34px;font-weight:700}.small{font-family:Arial,sans-serif;font-size:24px;font-weight:700}
+  </style>
+  <rect class="bg" width="1200" height="675"/>
+  <rect x="34" y="34" width="1132" height="607" rx="0" class="yellow"/>
+  <rect x="54" y="54" width="1092" height="567" rx="0" class="bg"/>
+  <path d="M54 188h1092" class="line"/>
+  <circle cx="1035" cy="122" r="54" class="red"/>
+  <text x="72" y="132" class="kicker red">OFFICIAL SOURCE</text>
+  <text x="72" y="282" class="title ink">Metro Meeting Calendar</text>
+  <text x="72" y="372" class="body">Tourism Commission and Major Event Fund</text>
+  <text x="72" y="416" class="body">meetings on May 12.</text>
+  <path d="M72 548h520" class="thin"/>
+  <text x="72" y="596" class="small muted">East Meets Nash receipt slot - replace with live screenshot when captured</text>
+</svg>

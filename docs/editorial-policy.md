@@ -19,6 +19,7 @@ Every item gets one primary confidence label:
 ## Source Rules
 
 - Every factual post must carry source links, source names, screenshots, embeds, or internal source notes.
+- Every published story should ship with a media pack: hero image/custom art, source screenshot or capture/receipt card, source-trail card, map/embed when useful, and social cuts.
 - Facebook and Nextdoor items can be published when framed as community chatter, not automatically treated as fact.
 - Do not publish accusations of crimes, scams, harassment, abuse, or misconduct unless sourced to a public record, official statement, named source willing to stand behind it, or multiple credible sources.
 - If a source contradicts another source, say so plainly.

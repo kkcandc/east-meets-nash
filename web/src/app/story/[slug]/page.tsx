@@ -42,6 +42,11 @@ export default async function StoryPage({ params }: StoryPageProps) {
   const imageMedia = story.media?.filter((item) => item.imageUrl && item.label !== "Comment Signals") || [];
   const mapMedia = story.media?.filter((item) => item.embedUrl) || [];
   const linkMedia = story.media?.filter((item) => item.url && !item.imageUrl && !item.embedUrl && item.label !== "Hero Art") || [];
+  const socialCuts = [
+    { label: "X / Threads", copy: story.social.x },
+    { label: "Instagram", copy: story.social.instagram },
+    { label: "Video Prompt", copy: story.social.video },
+  ];
 
   return (
     <main className="article-shell">
@@ -141,6 +146,17 @@ export default async function StoryPage({ params }: StoryPageProps) {
             ))}
           </ul>
           {story.sourceNote ? <p className="source-note">{story.sourceNote}</p> : null}
+        </section>
+        <section className="article-section story-social-section">
+          <h2>Social Cuts</h2>
+          <div className="story-social-grid">
+            {socialCuts.map((cut) => (
+              <article key={cut.label}>
+                <span>{cut.label}</span>
+                <p>{cut.copy}</p>
+              </article>
+            ))}
+          </div>
         </section>
       </article>
 

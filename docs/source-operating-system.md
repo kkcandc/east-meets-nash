@@ -31,6 +31,7 @@ The fuller build plan lives in `docs/source-engine-blueprint.md`. The source acc
    - Rank by locality, usefulness, shareability, confidence, and risk.
    - Assign reporter voice and label.
    - Create web post, beehiiv block, X/Threads copy, Instagram caption, and video prompt.
+   - Attach the media pack: hero image/custom art, source screenshot or capture/receipt card, map/embed/source-trail card when useful, and redacted private-platform receipts when applicable.
 
 ## Source Tiers
 
@@ -70,6 +71,22 @@ Every source item gets:
 - `usefulness`: does it help someone decide, avoid, attend, buy, complain, or laugh?
 - `risk`: legal/privacy/accusation/sensitivity risk.
 - `format`: quick hit, brief item, watchdog, guide, outrage forecast, social-only, video.
+
+## Media Pack
+
+Every publishable story needs:
+
+- Hero image or custom editorial art.
+- Source screenshot/capture. If the capture tool is unavailable, use a clearly labeled source receipt card and replace it with a real screenshot when captured.
+- Source-trail card for the original link, public record, direct business page, or internal source note.
+- Map or embed when location, route, venue, or public meeting context matters.
+- Social cuts: X/Threads copy, Instagram caption, and a short video prompt.
+
+Private-platform media rules:
+
+- Redact names, faces, addresses, license plates, phone numbers, and identifying comments unless we have permission and a strong public-interest reason.
+- Treat Facebook/Nextdoor screenshots as internal receipts unless an editor explicitly chooses a redacted public version.
+- Never use a screenshot as proof of an accusation without public records, a named source, or multiple credible confirmations.
 
 ## Labels
 

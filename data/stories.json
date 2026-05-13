@@ -86,7 +86,31 @@
       "x": "Today's East Nashville source pass: Starbucks incentive math, Metro visitor-economy meetings, Vision Zero, East Bank movement, and The Basement East getting loud.",
       "instagram": "Tuesday's source brief: coffee money, road safety, East Bank, the library, one very loud show on Woodland, and the community-capture lane that still needs receipts.",
       "video": "June walks through the source scrape and explains how Facebook and Nextdoor become publishable only after selected capture and verification."
-    }
+    },
+    "media": [
+      {
+        "label": "Source Capture",
+        "title": "May 12 Source Desk Receipt",
+        "description": "Source pass receipt for the public sweep and supervised Facebook/Nextdoor capture lanes.",
+        "url": "/admin/sources",
+        "imageUrl": "/assets/stories/may12-source-pass-receipt.svg",
+        "imageAlt": "East Meets Nash source receipt card for the May 12 source sweep.",
+        "credit": "Source receipt card; replace with live source screenshot when captured."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Open the May 12 Source Desk",
+        "description": "Editorial source queue, capture lanes, and publish decisions for the issue.",
+        "url": "/admin/sources"
+      },
+      {
+        "label": "Location Map",
+        "title": "East Nashville source area",
+        "description": "Neighborhood frame for the May 12 source pass.",
+        "url": "https://www.google.com/maps/search/East+Nashville+Nashville+TN",
+        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed"
+      }
+    ]
   },
   {
     "id": "may-12-starbucks-incentive-math",
@@ -140,7 +164,31 @@
       "x": "Starbucks' Nashville hub now has a $30M state incentive vote to watch. Jobs are the headline; accountability is the refill.",
       "instagram": "Coffee money, state incentives, and the question every neighborhood should ask: who actually gets hired?",
       "video": "June explains the Starbucks incentive math in 45 seconds, then points to the May 20 vote."
-    }
+    },
+    "media": [
+      {
+        "label": "Source Capture",
+        "title": "Axios Nashville Receipt",
+        "description": "Reported source for the Starbucks incentive amount and vote timing.",
+        "url": "https://www.axios.com/local/nashville/2026/05/12/starbucks-state-incentives-nashville-move",
+        "imageUrl": "/assets/stories/may12-starbucks-receipt.svg",
+        "imageAlt": "Source receipt card for the Axios Nashville Starbucks incentive story.",
+        "credit": "Source receipt card; replace with live source screenshot when captured."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Read the Axios report",
+        "description": "Original reported item used for the incentive-watch brief.",
+        "url": "https://www.axios.com/local/nashville/2026/05/12/starbucks-state-incentives-nashville-move"
+      },
+      {
+        "label": "Location Map",
+        "title": "Peabody Union watch area",
+        "description": "Permanent office location referenced in the Starbucks hub coverage.",
+        "url": "https://www.google.com/maps/search/Peabody+Union+Nashville+TN",
+        "embedUrl": "https://www.google.com/maps?q=Peabody%20Union%20Nashville%20TN&output=embed"
+      }
+    ]
   },
   {
     "id": "may-12-tourism-money-meetings",
@@ -199,7 +247,37 @@
       "x": "Two visitor-economy meetings hit Metro's calendar today. Big-event money eventually becomes local traffic, public space, and barricade math.",
       "instagram": "Today's civic watch: the rooms where Nashville event money puts on a blazer.",
       "video": "June points to the two Metro meetings and explains why event funding belongs in the East Nashville source watch."
-    }
+    },
+    "media": [
+      {
+        "label": "Source Capture",
+        "title": "Metro Meeting Calendar Receipt",
+        "description": "Official source for the May 12 visitor-economy meetings.",
+        "url": "https://www.nashville.gov/departments/government/boards/tourism-and-convention-commission/meetings/tourism-and-convention-commission-meeting-may-12-2026",
+        "imageUrl": "/assets/stories/may12-tourism-meetings-receipt.svg",
+        "imageAlt": "Source receipt card for Metro tourism and event funding meetings.",
+        "credit": "Source receipt card; replace with live source screenshot when captured."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Tourism and Convention Commission meeting",
+        "description": "Official Metro page for the May 12 morning meeting.",
+        "url": "https://www.nashville.gov/departments/government/boards/tourism-and-convention-commission/meetings/tourism-and-convention-commission-meeting-may-12-2026"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Major Event Fund Committee meeting",
+        "description": "Official Metro page for the May 12 afternoon meeting.",
+        "url": "https://www.nashville.gov/departments/government/boards/major-event-fund-committee/meetings/major-event-fund-committee-meeting-may-12-2026"
+      },
+      {
+        "label": "Location Map",
+        "title": "NCVC meeting area",
+        "description": "Meeting location listed on the Metro pages.",
+        "url": "https://www.google.com/maps/search/Nashville+Convention+Visitors+Corp",
+        "embedUrl": "https://www.google.com/maps?q=Nashville%20Convention%20Visitors%20Corp%20Nashville%20TN&output=embed"
+      }
+    ]
   },
   {
     "id": "may-12-vision-zero-hubnashville",
@@ -258,7 +336,37 @@
       "x": "Road safety has a 5 p.m. meeting today, and hubNashville has the complaint receipts. East Nashville's Irritation Index wants request numbers.",
       "instagram": "Sidewalk rage, but make it trackable.",
       "video": "Parker explains how a group-chat complaint turns into a publishable service story."
-    }
+    },
+    "media": [
+      {
+        "label": "Source Capture",
+        "title": "NDOT + hubNashville Receipt",
+        "description": "Official source path for the road-safety meeting and service-request context.",
+        "url": "https://www.nashville.gov/departments/transportation/events",
+        "imageUrl": "/assets/stories/may12-vision-zero-receipt.svg",
+        "imageAlt": "Source receipt card for NDOT Vision Zero and hubNashville service requests.",
+        "credit": "Source receipt card; replace with live source screenshot when captured."
+      },
+      {
+        "label": "Source Trail",
+        "title": "NDOT events page",
+        "description": "Official Vision Zero Advisory Committee meeting listing.",
+        "url": "https://www.nashville.gov/departments/transportation/events"
+      },
+      {
+        "label": "Source Trail",
+        "title": "hubNashville public summary",
+        "description": "Public service-request categories and monthly request context.",
+        "url": "https://www.nashville.gov/departments/government/hubnashville"
+      },
+      {
+        "label": "Location Map",
+        "title": "East Nashville road-safety frame",
+        "description": "Neighborhood map for the road-safety and irritation-index story.",
+        "url": "https://www.google.com/maps/search/East+Nashville+Nashville+TN",
+        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed"
+      }
+    ]
   },
   {
     "id": "may-12-east-bank-boulevard-watch",
@@ -312,7 +420,31 @@
       "x": "East Bank Boulevard is the part to watch: north-south connectivity, stadium nights, transit, bikes, and whether the East Bank becomes a neighborhood.",
       "instagram": "The rendering is not the story. The street network is.",
       "video": "June walks through why East Bank Boulevard is the infrastructure plotline."
-    }
+    },
+    "media": [
+      {
+        "label": "Source Capture",
+        "title": "Metro East Bank Receipt",
+        "description": "Official East Bank development page used for the boulevard watch.",
+        "url": "https://www.nashville.gov/featured-initiatives/east-bank-development",
+        "imageUrl": "/assets/stories/may12-east-bank-receipt.svg",
+        "imageAlt": "Source receipt card for Metro East Bank development coverage.",
+        "credit": "Source receipt card; replace with live source screenshot when captured."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Metro East Bank Development",
+        "description": "Official initiative page for East Bank Boulevard and development updates.",
+        "url": "https://www.nashville.gov/featured-initiatives/east-bank-development"
+      },
+      {
+        "label": "Location Map",
+        "title": "East Bank watch area",
+        "description": "Riverfront area connected to the boulevard and development watch.",
+        "url": "https://www.google.com/maps/search/East+Bank+Nashville+TN",
+        "embedUrl": "https://www.google.com/maps?q=East%20Bank%20Nashville%20TN&output=embed"
+      }
+    ]
   },
   {
     "id": "may-12-basement-east-beast",
@@ -366,7 +498,31 @@
       "x": "The Basement East goes loud tonight: Cattle Decapitation, Brujeria, No Cure, and Knoll. Doors 6, show 7.",
       "instagram": "Tuesday on Woodland: loud, direct, probably requiring earplugs.",
       "video": "Riff gives the 20-second show note and recommends ear protection with unusual sincerity."
-    }
+    },
+    "media": [
+      {
+        "label": "Source Capture",
+        "title": "The Basement East Calendar Receipt",
+        "description": "Direct venue calendar source for the May 12 show.",
+        "url": "https://www.thebasementnashville.com/tm-venue/the-basement-east/",
+        "imageUrl": "/assets/stories/may12-basement-east-receipt.svg",
+        "imageAlt": "Source receipt card for The Basement East May 12 concert listing.",
+        "credit": "Source receipt card; replace with live source screenshot when captured."
+      },
+      {
+        "label": "Source Trail",
+        "title": "The Basement East event calendar",
+        "description": "Direct venue calendar for show timing and lineup checks.",
+        "url": "https://www.thebasementnashville.com/tm-venue/the-basement-east/"
+      },
+      {
+        "label": "Location Map",
+        "title": "The Basement East",
+        "description": "Venue location for the same-day event quick hit.",
+        "url": "https://www.google.com/maps/search/The+Basement+East+917+Woodland+St+Nashville+TN",
+        "embedUrl": "https://www.google.com/maps?q=The%20Basement%20East%20917%20Woodland%20St%20Nashville%20TN&output=embed"
+      }
+    ]
   },
   {
     "id": "may-12-east-branch-open-late",
@@ -420,7 +576,31 @@
       "x": "East Branch is open noon-8 today. Public computers, Wi-Fi, printing, meeting rooms, seed exchange. Boring? No. Useful.",
       "instagram": "Today's tiny civic miracle: East Branch is open late.",
       "video": "Parker makes the case that branch hours belong in the daily brief."
-    }
+    },
+    "media": [
+      {
+        "label": "Source Capture",
+        "title": "East Branch Library Receipt",
+        "description": "Direct Nashville Public Library source for branch hours and amenities.",
+        "url": "https://library.nashville.gov/locations/east-branch",
+        "imageUrl": "/assets/stories/may12-east-branch-receipt.svg",
+        "imageAlt": "Source receipt card for East Branch Library hours and amenities.",
+        "credit": "Source receipt card; replace with live source screenshot when captured."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Nashville Public Library: East Branch",
+        "description": "Direct branch page for hours, address, and amenities.",
+        "url": "https://library.nashville.gov/locations/east-branch"
+      },
+      {
+        "label": "Location Map",
+        "title": "East Branch Library",
+        "description": "Library location for the civic utility item.",
+        "url": "https://www.google.com/maps/search/East+Branch+Library+206+Gallatin+Ave+Nashville+TN",
+        "embedUrl": "https://www.google.com/maps?q=East%20Branch%20Library%20206%20Gallatin%20Ave%20Nashville%20TN&output=embed"
+      }
+    ]
   },
   {
     "id": "may-12-five-points-diner-source-check",
@@ -479,7 +659,37 @@
       "x": "Restaurant Watch caught stale opening copy for 5 Points Diner. Direct source says: active restaurant, live hours, Frunch is apparently real.",
       "instagram": "Today's restaurant-source lesson: old opening articles haunt search results.",
       "video": "Mabel explains why restaurant watchlists need direct-source checks before anything gets called new."
-    }
+    },
+    "media": [
+      {
+        "label": "Source Capture",
+        "title": "5 Points Diner Receipt",
+        "description": "Direct restaurant page used to correct stale opening copy.",
+        "url": "https://www.5pointsdiner.com/brunch",
+        "imageUrl": "/assets/stories/may12-five-points-diner-receipt.svg",
+        "imageAlt": "Source receipt card for 5 Points Diner direct-source check.",
+        "credit": "Source receipt card; replace with live source screenshot when captured."
+      },
+      {
+        "label": "Source Trail",
+        "title": "5 Points Diner direct page",
+        "description": "Current business source for the restaurant watch item.",
+        "url": "https://www.5pointsdiner.com/brunch"
+      },
+      {
+        "label": "Source Trail",
+        "title": "NewsChannel 5 archive",
+        "description": "Historical opening coverage used as stale-source context.",
+        "url": "https://www.newschannel5.com/news/5-points-diner-bar-coming-to-east-nashville-this-may"
+      },
+      {
+        "label": "Location Map",
+        "title": "1016 Woodland Street",
+        "description": "Five Points address checked in the restaurant watch item.",
+        "url": "https://www.google.com/maps/search/1016+Woodland+Street+Nashville+TN",
+        "embedUrl": "https://www.google.com/maps?q=1016%20Woodland%20Street%20Nashville%20TN&output=embed"
+      }
+    ]
   },
   {
     "id": "party-fowl-five-points-opening",

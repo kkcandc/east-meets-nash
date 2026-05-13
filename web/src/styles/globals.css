@@ -1265,6 +1265,39 @@ h3 {
   line-height: 1.45;
 }
 
+.story-social-section {
+  background: #fffaf0;
+}
+
+.story-social-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.story-social-grid article {
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  padding: 14px;
+}
+
+.story-social-grid span {
+  display: block;
+  color: var(--tomato);
+  font-size: 0.72rem;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.story-social-grid p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 750;
+  line-height: 1.45;
+}
+
 .reporter-bio .avatar {
   margin-bottom: 2px;
   color: #fffaf0;

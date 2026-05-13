@@ -31,6 +31,12 @@ function draftBodyFor(item: SourceItem): string {
     item.cadence ? `Cadence: ${item.cadence}.` : "",
     item.verificationRule ? `Verification rule: ${item.verificationRule}` : "",
     "",
+    "Required media pack before publish:",
+    "- Hero image or custom editorial art.",
+    "- Source screenshot/capture or clearly labeled source receipt card.",
+    "- Map, embed, or source-trail card when location/source context matters.",
+    "- X/Threads cut, Instagram caption, and short video prompt.",
+    "",
     "Drafting notes: lead with the useful fact, label the sourcing clearly, then let the joke land after the reader knows what actually happened.",
   ]
     .filter(Boolean)
@@ -56,6 +62,18 @@ export function SourceToDraftPanel({ items }: { items: SourceItem[] }) {
         beat: item.beat,
         confidence: item.suggestedLabel,
         sourceUrl: item.url,
+        sourceNote: item.verificationRule
+          ? `${item.verificationRule} Attach source screenshot/capture, embed, and social cuts before publishing.`
+          : "Attach source screenshot/capture, embed, and social cuts before publishing.",
+        verificationNote: "Media pack required: hero image, source screenshot/capture or receipt card, source trail/embed, and social cuts.",
+        visualTitle: `${item.publishFormat} Media Pack`,
+        visualSummary: "Publish only after the story has a visual source trail and social cuts.",
+        visualItems: [
+          "Hero image or custom editorial art",
+          "Source screenshot/capture or receipt card",
+          "Map/embed/source-trail card",
+          "X/Threads, Instagram, and video prompt",
+        ],
         body: draftBodyFor(item),
       }),
     });
