@@ -89,6 +89,15 @@
     },
     "media": [
       {
+        "label": "Real Photo",
+        "title": "East Nashville neighborhood view",
+        "description": "Licensed real photo used as broad East Nashville neighborhood context.",
+        "url": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
+        "imageAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
+        "credit": "Photo: Evan Nichols, CC BY 3.0, via Wikimedia Commons."
+      },
+      {
         "label": "Source Capture",
         "title": "May 12 Source Desk Receipt",
         "description": "Source pass receipt for the public sweep and supervised Facebook/Nextdoor capture lanes.",
@@ -166,6 +175,15 @@
       "video": "June explains the Starbucks incentive math in 45 seconds, then points to the May 20 vote."
     },
     "media": [
+      {
+        "label": "Real Photo",
+        "title": "Nashville from Shelby Park",
+        "description": "Licensed real photo used for citywide Nashville context.",
+        "url": "https://commons.wikimedia.org/wiki/File:Nashville_from_Shelby_Park_2024.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nashville%20from%20Shelby%20Park%202024.jpg?width=1200",
+        "imageAlt": "Downtown Nashville and the Silliman Evans Bridge viewed from Shelby Park.",
+        "credit": "Photo: Antony-22, CC BY-SA 4.0, via Wikimedia Commons."
+      },
       {
         "label": "Source Capture",
         "title": "Axios Nashville Receipt",
@@ -249,6 +267,15 @@
       "video": "June points to the two Metro meetings and explains why event funding belongs in the East Nashville source watch."
     },
     "media": [
+      {
+        "label": "Real Photo",
+        "title": "Davidson County Courthouse",
+        "description": "Licensed real photo used for Metro meeting and public-record coverage.",
+        "url": "https://commons.wikimedia.org/wiki/File:Public_Square_Park_fountain_and_dedication.JPG",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Public%20Square%20Park%20fountain%20and%20dedication.JPG?width=1200",
+        "imageAlt": "Davidson County Courthouse and Public Square Park fountain in Nashville.",
+        "credit": "Photo: Michael Rivera, CC BY-SA 4.0, via Wikimedia Commons."
+      },
       {
         "label": "Source Capture",
         "title": "Metro Meeting Calendar Receipt",
@@ -339,6 +366,15 @@
     },
     "media": [
       {
+        "label": "Real Photo",
+        "title": "Gallatin Road at Briley Parkway",
+        "description": "Licensed real photo used as Gallatin corridor context.",
+        "url": "https://commons.wikimedia.org/wiki/File:TN_SR_155_Briley_Parkway_at_US_31E_Gallatin_Road.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
+        "imageAlt": "Gallatin Road near Briley Parkway in Nashville.",
+        "credit": "Photo: Doug Kerr, CC BY-SA 2.0, via Wikimedia Commons."
+      },
+      {
         "label": "Source Capture",
         "title": "NDOT + hubNashville Receipt",
         "description": "Official source path for the road-safety meeting and service-request context.",
@@ -423,6 +459,15 @@
     },
     "media": [
       {
+        "label": "Real Photo",
+        "title": "Nissan Stadium and the East Bank",
+        "description": "Licensed real photo used for East Bank development context.",
+        "url": "https://commons.wikimedia.org/wiki/File:Nissan_Stadium_wide_angle.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20Stadium%20wide%20angle.jpg?width=1200",
+        "imageAlt": "Wide angle real photograph of Nissan Stadium on Nashville's East Bank.",
+        "credit": "Photo: Quintin Soloviev, CC BY 4.0, via Wikimedia Commons."
+      },
+      {
         "label": "Source Capture",
         "title": "Metro East Bank Receipt",
         "description": "Official East Bank development page used for the boulevard watch.",
@@ -501,6 +546,15 @@
     },
     "media": [
       {
+        "label": "Real Photo",
+        "title": "East Nashville brick storefronts",
+        "description": "Licensed real photo used as East Nashville street/location context.",
+        "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
+        "imageAlt": "A row of old brick buildings in Nashville.",
+        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons."
+      },
+      {
         "label": "Source Capture",
         "title": "The Basement East Calendar Receipt",
         "description": "Direct venue calendar source for the May 12 show.",
@@ -578,6 +632,15 @@
       "video": "Parker makes the case that branch hours belong in the daily brief."
     },
     "media": [
+      {
+        "label": "Real Photo",
+        "title": "East Park",
+        "description": "Licensed real photo used for East Nashville parks and neighborhood service coverage.",
+        "url": "https://commons.wikimedia.org/wiki/File:Eastpark.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastpark.jpg?width=1200",
+        "imageAlt": "A real photograph of East Park in East Nashville.",
+        "credit": "Photo: Stephen Yeargin, CC BY-SA 2.0, via Wikimedia Commons."
+      },
       {
         "label": "Source Capture",
         "title": "East Branch Library Receipt",
@@ -662,6 +725,15 @@
     },
     "media": [
       {
+        "label": "Real Photo",
+        "title": "East Nashville brick storefronts",
+        "description": "Licensed real photo used as East Nashville street/location context.",
+        "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
+        "imageAlt": "A row of old brick buildings in Nashville.",
+        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons."
+      },
+      {
         "label": "Source Capture",
         "title": "5 Points Diner Receipt",
         "description": "Direct restaurant page used to correct stale opening copy.",
@@ -726,6 +798,15 @@
       }
     ],
     "media": [
+      {
+        "label": "Real Photo",
+        "title": "East Nashville brick storefronts",
+        "description": "Licensed real photo used as East Nashville street/location context.",
+        "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
+        "imageAlt": "A row of old brick buildings in Nashville.",
+        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons."
+      },
       {
         "label": "Hero Art",
         "title": "Generated editorial illustration",
@@ -828,6 +909,15 @@
       }
     ],
     "media": [
+      {
+        "label": "Real Photo",
+        "title": "East Park",
+        "description": "Licensed real photo used for East Nashville parks and neighborhood service coverage.",
+        "url": "https://commons.wikimedia.org/wiki/File:Eastpark.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastpark.jpg?width=1200",
+        "imageAlt": "A real photograph of East Park in East Nashville.",
+        "credit": "Photo: Stephen Yeargin, CC BY-SA 2.0, via Wikimedia Commons."
+      },
       {
         "label": "Source Screenshot",
         "title": "East Nashville Facebook Group Post (redacted for privacy)",
@@ -936,6 +1026,15 @@
     ],
     "media": [
       {
+        "label": "Real Photo",
+        "title": "Blue jay",
+        "description": "Licensed real bird photo used as visual context for the tiny bluejay procurement story.",
+        "url": "https://commons.wikimedia.org/wiki/File:Blue_Jay-27527.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Blue%20Jay-27527.jpg?width=1200",
+        "imageAlt": "A real blue jay perched on a tree branch.",
+        "credit": "Photo: Ken Thomas, public domain, via Wikimedia Commons."
+      },
+      {
         "label": "Source Receipt",
         "title": "Tiny bluejay source receipt",
         "description": "Privacy-safe receipt card for the supervised private group capture and public bird context.",
@@ -1031,6 +1130,15 @@
     ],
     "media": [
       {
+        "label": "Real Photo",
+        "title": "Gallatin Road at Briley Parkway",
+        "description": "Licensed real photo used as Gallatin corridor context.",
+        "url": "https://commons.wikimedia.org/wiki/File:TN_SR_155_Briley_Parkway_at_US_31E_Gallatin_Road.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
+        "imageAlt": "Gallatin Road near Briley Parkway in Nashville.",
+        "credit": "Photo: Doug Kerr, CC BY-SA 2.0, via Wikimedia Commons."
+      },
+      {
         "label": "Hero Art",
         "title": "Generated corridor illustration",
         "description": "A custom visual for recurring Gallatin coverage, designed for story, newsletter, and social use."
@@ -1040,15 +1148,6 @@
         "title": "NDOT project page",
         "description": "The official page defines the project extent and complete-streets vision.",
         "url": "https://www.nashville.gov/departments/transportation/projects/complete-streets/gallatin-pike-and-main-street"
-      },
-      {
-        "label": "Real Photo",
-        "title": "Gallatin Road at Briley Parkway",
-        "description": "Wikimedia Commons source photo.",
-        "url": "https://commons.wikimedia.org/wiki/File:TN_SR_155_Briley_Parkway_at_US_31E_Gallatin_Road.jpg",
-        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
-        "imageAlt": "Gallatin Road near Briley Parkway in Nashville.",
-        "credit": "Photo: Doug Kerr, CC BY-SA 2.0, via Wikimedia Commons."
       },
       {
         "label": "Location",
@@ -1130,6 +1229,15 @@
       }
     ],
     "media": [
+      {
+        "label": "Real Photo",
+        "title": "Gallatin Road at Briley Parkway",
+        "description": "Licensed real photo used as Gallatin corridor context.",
+        "url": "https://commons.wikimedia.org/wiki/File:TN_SR_155_Briley_Parkway_at_US_31E_Gallatin_Road.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
+        "imageAlt": "Gallatin Road near Briley Parkway in Nashville.",
+        "credit": "Photo: Doug Kerr, CC BY-SA 2.0, via Wikimedia Commons."
+      },
       {
         "label": "Source Receipt",
         "title": "East Trinity and Gallatin source receipt",
@@ -1222,6 +1330,15 @@
     ],
     "media": [
       {
+        "label": "Real Photo",
+        "title": "East Nashville brick storefronts",
+        "description": "Licensed real photo used as East Nashville street/location context.",
+        "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
+        "imageAlt": "A row of old brick buildings in Nashville.",
+        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons."
+      },
+      {
         "label": "Source Receipt",
         "title": "Dry Cleaning event receipt",
         "description": "Listing receipt card for the Basement East show trail.",
@@ -1313,6 +1430,15 @@
     ],
     "media": [
       {
+        "label": "Real Photo",
+        "title": "East Park",
+        "description": "Licensed real photo used for East Nashville parks and neighborhood service coverage.",
+        "url": "https://commons.wikimedia.org/wiki/File:Eastpark.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastpark.jpg?width=1200",
+        "imageAlt": "A real photograph of East Park in East Nashville.",
+        "credit": "Photo: Stephen Yeargin, CC BY-SA 2.0, via Wikimedia Commons."
+      },
+      {
         "label": "Source Receipt",
         "title": "Eastwood cleanup event receipt",
         "description": "Official-listing receipt card for the Eastwood cleanup at Tabla Rasa Toys.",
@@ -1399,6 +1525,15 @@
       }
     ],
     "media": [
+      {
+        "label": "Real Photo",
+        "title": "East Nashville neighborhood view",
+        "description": "Licensed real photo used as broad East Nashville neighborhood context.",
+        "url": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
+        "imageAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
+        "credit": "Photo: Evan Nichols, CC BY 3.0, via Wikimedia Commons."
+      },
       {
         "label": "Hero Art",
         "title": "Generated food-hub illustration",
@@ -1504,19 +1639,19 @@
     ],
     "media": [
       {
-        "label": "Calendar",
-        "title": "Shelby Bottoms event list",
-        "description": "Metro Parks lists upcoming nature center programs and times.",
-        "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center/events"
-      },
-      {
         "label": "Real Photo",
         "title": "Shelby Park",
-        "description": "Wikimedia Commons source photo.",
+        "description": "Licensed real photo used for Shelby Bottoms and Shelby-area family coverage.",
         "url": "https://commons.wikimedia.org/wiki/File:Shelby_Park_Nashville_05.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shelby%20Park%20Nashville%2005.jpg?width=1200",
         "imageAlt": "Shelby Park in Nashville.",
         "credit": "Photo: Kaldari, public domain, via Wikimedia Commons."
+      },
+      {
+        "label": "Calendar",
+        "title": "Shelby Bottoms event list",
+        "description": "Metro Parks lists upcoming nature center programs and times.",
+        "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center/events"
       },
       {
         "label": "Context",
@@ -1603,6 +1738,15 @@
     "heroAlt": "Stylized East Nashville street scene with traffic cones, storefronts, and skyline shapes.",
     "media": [
       {
+        "label": "Real Photo",
+        "title": "Gallatin Road at Briley Parkway",
+        "description": "Licensed real photo used as Gallatin corridor context.",
+        "url": "https://commons.wikimedia.org/wiki/File:TN_SR_155_Briley_Parkway_at_US_31E_Gallatin_Road.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
+        "imageAlt": "Gallatin Road near Briley Parkway in Nashville.",
+        "credit": "Photo: Doug Kerr, CC BY-SA 2.0, via Wikimedia Commons."
+      },
+      {
         "label": "Source Receipt",
         "title": "Gallatin traffic watch receipt",
         "description": "Prototype receipt card for the traffic watch lane.",
@@ -1664,6 +1808,15 @@
     "heroImage": "/assets/stories/fallback-food.svg",
     "heroAlt": "Stylized East Nashville restaurant scene with a counter, plate, and storefront awning.",
     "media": [
+      {
+        "label": "Real Photo",
+        "title": "East Nashville brick storefronts",
+        "description": "Licensed real photo used as East Nashville street/location context.",
+        "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
+        "imageAlt": "A row of old brick buildings in Nashville.",
+        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons."
+      },
       {
         "label": "Source Receipt",
         "title": "Restaurant soft-launch receipt",
@@ -1727,6 +1880,15 @@
     "heroAlt": "Stylized family walkability scene with sidewalks, stroller wheels, scooters, and a caution-colored index meter.",
     "media": [
       {
+        "label": "Real Photo",
+        "title": "Shelby Park",
+        "description": "Licensed real photo used for Shelby Bottoms and Shelby-area family coverage.",
+        "url": "https://commons.wikimedia.org/wiki/File:Shelby_Park_Nashville_05.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shelby%20Park%20Nashville%2005.jpg?width=1200",
+        "imageAlt": "Shelby Park in Nashville.",
+        "credit": "Photo: Kaldari, public domain, via Wikimedia Commons."
+      },
+      {
         "label": "Source Receipt",
         "title": "Sidewalk Parent Index receipt",
         "description": "Prototype receipt card for reader photos, service requests, and stroller-route notes.",
@@ -1788,6 +1950,15 @@
     "heroImage": "/assets/stories/fallback-permit.svg",
     "heroAlt": "Stylized permit desk with forms, maps, sticky notes, and measuring marks.",
     "media": [
+      {
+        "label": "Real Photo",
+        "title": "East Nashville Historic District",
+        "description": "Licensed real photo used for Lockeland and East Nashville civic context.",
+        "url": "https://commons.wikimedia.org/wiki/File:EastNashvilleHD.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/EastNashvilleHD.jpg?width=1200",
+        "imageAlt": "A real photograph of the East Nashville Historic District.",
+        "credit": "Photo: Andrew Jameson, CC BY-SA 3.0, via Wikimedia Commons."
+      },
       {
         "label": "Source Receipt",
         "title": "Permit file source receipt",
@@ -1851,6 +2022,15 @@
     "heroAlt": "Stylized weekend event board with flyers, food truck shapes, music notes, and calendar cards.",
     "media": [
       {
+        "label": "Real Photo",
+        "title": "East Nashville neighborhood view",
+        "description": "Licensed real photo used as broad East Nashville neighborhood context.",
+        "url": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
+        "imageAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
+        "credit": "Photo: Evan Nichols, CC BY 3.0, via Wikimedia Commons."
+      },
+      {
         "label": "Source Receipt",
         "title": "Weekend calendar source receipt",
         "description": "Prototype receipt card for event links, venue posts, ticket pages, and social captions.",
@@ -1912,6 +2092,15 @@
     "heroImage": "/assets/stories/fallback-gossip.svg",
     "heroAlt": "Stylized neighborhood chatter scene with speech bubbles and group text shapes.",
     "media": [
+      {
+        "label": "Real Photo",
+        "title": "East Nashville neighborhood view",
+        "description": "Licensed real photo used as broad East Nashville neighborhood context.",
+        "url": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
+        "imageAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
+        "credit": "Photo: Evan Nichols, CC BY 3.0, via Wikimedia Commons."
+      },
       {
         "label": "Source Receipt",
         "title": "Neighborhood outrage receipt",
@@ -1975,6 +2164,15 @@
     "heroAlt": "Stylized East Nashville music venue scene with stage lights, microphone, and crowd shapes.",
     "media": [
       {
+        "label": "Real Photo",
+        "title": "East Nashville brick storefronts",
+        "description": "Licensed real photo used as East Nashville street/location context.",
+        "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
+        "imageAlt": "A row of old brick buildings in Nashville.",
+        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons."
+      },
+      {
         "label": "Source Receipt",
         "title": "Venue soul-check receipt",
         "description": "Prototype receipt card for venue listings, public posts, ticket pages, and exterior images.",
@@ -2036,6 +2234,15 @@
     "heroImage": "/assets/stories/fallback-classifieds.svg",
     "heroAlt": "Stylized neighborhood classifieds board with posted cards, pins, and local notes.",
     "media": [
+      {
+        "label": "Real Photo",
+        "title": "East Nashville brick storefronts",
+        "description": "Licensed real photo used as East Nashville street/location context.",
+        "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
+        "imageAlt": "A row of old brick buildings in Nashville.",
+        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons."
+      },
       {
         "label": "Source Receipt",
         "title": "Classifieds launch receipt",
