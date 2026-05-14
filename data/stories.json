@@ -732,6 +732,15 @@
         "description": "A custom East Meets Nash hero image for the opening package, built as an illustration rather than a photo."
       },
       {
+        "label": "Source Receipt",
+        "title": "Opening receipt",
+        "description": "A visible source card for the opening announcement and address check.",
+        "url": "https://www.qsrmagazine.com/news/party-fowl-to-open-in-east-nashville/",
+        "imageUrl": "/assets/stories/party-fowl-opening-receipt.svg",
+        "imageAlt": "Party Fowl Five Points opening source receipt card.",
+        "credit": "Source receipt card; replace with live storefront or source screenshot when captured."
+      },
+      {
         "label": "Source Trail",
         "title": "Opening announcement",
         "description": "QSR published the opening date, address, giveaways, hours, and launch-day details.",
@@ -741,7 +750,8 @@
         "label": "Location",
         "title": "1016 Woodland St. on Google Maps",
         "description": "Open the place page for current map context, routing, nearby photos, and hours once the listing updates.",
-        "url": "https://www.google.com/maps/search/?api=1&query=1016%20Woodland%20St%20Nashville%20TN"
+        "url": "https://www.google.com/maps/search/?api=1&query=1016%20Woodland%20St%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=1016%20Woodland%20St%20Nashville%20TN&output=embed"
       },
       {
         "label": "Follow-Up",
