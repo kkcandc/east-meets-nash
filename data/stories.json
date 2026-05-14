@@ -1063,8 +1063,8 @@
     "time": "May 10, 2026",
     "priority": 140,
     "imageStyle": "food",
-    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
-    "heroAlt": "A row of old brick buildings in Nashville.",
+    "heroImage": "/api/media/location-photo?placeId=ChIJY7RhRgxnZIgR6hTx2U3RSZc&photoIndex=0&q=1016%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+    "heroAlt": "Party Fowl East Nashville location photo.",
     "factBox": [
       {
         "label": "Opens",
@@ -1085,24 +1085,23 @@
     ],
     "media": [
       {
-        "label": "Real Photo",
-        "title": "East Nashville brick storefronts",
-        "description": "Licensed real photo used as East Nashville street/location context.",
-        "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
-        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
-        "imageAlt": "A row of old brick buildings in Nashville.",
-        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons.",
-        "provider": "wikimedia_commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "relevance": "contextual",
-        "relevanceScore": 48,
-        "approvalStatus": "fallback",
-        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
-        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
-        "sourceType": "licensed_photo",
-        "approvedBy": "Photo Desk backfill",
+        "label": "Location Photo",
+        "title": "Party Fowl East Nashville",
+        "description": "1016 Woodland St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=1016%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJY7RhRgxnZIgR6hTx2U3RSZc",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJY7RhRgxnZIgR6hTx2U3RSZc&photoIndex=0&q=1016%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "Party Fowl East Nashville location photo.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: A.D. Jamison.",
+        "provider": "google_places",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=1016%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJY7RhRgxnZIgR6hTx2U3RSZc",
+        "sourceType": "api_photo",
+        "placeId": "ChIJY7RhRgxnZIgR6hTx2U3RSZc",
+        "placeQuery": "1016 Woodland St, Nashville, TN 37206, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo. Store the place ID, refetch media dynamically, and display Google Maps plus contributor attribution.",
+        "approvedBy": "Photo Desk",
         "approvedAt": "2026-05-14"
       },
       {
@@ -1137,13 +1136,15 @@
       },
       {
         "label": "Location",
-        "title": "1016 Woodland St. on Google Maps",
+        "title": "Party Fowl East Nashville on Google Maps",
         "description": "Open the place page for current map context, routing, nearby photos, and hours once the listing updates.",
-        "url": "https://www.google.com/maps/search/?api=1&query=1016%20Woodland%20St%20Nashville%20TN",
+        "url": "https://www.google.com/maps/search/?api=1&query=1016%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJY7RhRgxnZIgR6hTx2U3RSZc",
         "embedUrl": "https://www.google.com/maps?q=1016%20Woodland%20St%20Nashville%20TN&output=embed",
         "provider": "google_maps_embed",
-        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=1016%20Woodland%20St%20Nashville%20TN",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=1016%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJY7RhRgxnZIgR6hTx2U3RSZc",
         "sourceType": "map_embed",
+        "placeId": "ChIJY7RhRgxnZIgR6hTx2U3RSZc",
+        "placeQuery": "1016 Woodland St, Nashville, TN 37206, USA",
         "relevance": "strong",
         "relevanceScore": 62,
         "approvalStatus": "approved",
@@ -1189,12 +1190,9 @@
       "instagram": "Party Fowl lands in Five Points tomorrow. Hats, hot chicken, late hours, and East Nashville pretending it is not curious.",
       "video": "Mabel stands outside a stylized Woodland Street storefront and explains the opening like a weather event with sauce levels."
     },
-    "photoStatus": "contextual_photo_needs_upgrade",
-    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoStatus": "exact_photo_approved",
     "photoNeeds": [
-      "Run the Photo Desk with the exact venue/address/intersection.",
-      "Prefer original, official, Google Places, or Street View over broad Commons context.",
-      "Replace the contextual hero after editor approval."
+      "Optional: capture an East Meets Nash original exterior or interior photo after opening week."
     ]
   },
   {
