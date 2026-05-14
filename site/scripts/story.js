@@ -204,11 +204,12 @@ function inlineMediaLinks(story) {
 
 function articleParagraphs(story) {
   const paragraphs = String(story.body || "").split("\n\n");
+  const supportingMediaIndex = Math.min(1, paragraphs.length - 1);
   return paragraphs
     .map((paragraph, index) => {
       const media = index === 0 ? inlineMediaFigures(story) : "";
-      const map = index === 1 ? inlineMapEmbeds(story) : "";
-      const links = index === 1 ? inlineMediaLinks(story) : "";
+      const map = index === supportingMediaIndex ? inlineMapEmbeds(story) : "";
+      const links = index === supportingMediaIndex ? inlineMediaLinks(story) : "";
       return `<p>${escapeHtml(paragraph)}</p>${media}${map}${links}`;
     })
     .join("");

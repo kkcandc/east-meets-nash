@@ -858,6 +858,13 @@
         "label": "Follow-Up",
         "title": "Lawn Divorce Court submissions",
         "description": "Collect resident before/after photos, plant lists, what failed, what worked, and whether the yard became prettier or merely more honest."
+      },
+      {
+        "label": "Location",
+        "title": "East Nashville neighborhood context",
+        "description": "Broad map context only; the private post location stays undisclosed.",
+        "url": "https://www.google.com/maps/search/?api=1&query=East%20Nashville%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed"
       }
     ],
     "sourceNote": "Private-group details are paraphrased. Do not publish screenshots or identify individual commenters without permission; use the thread as a lead and texture source.",
@@ -928,6 +935,13 @@
       }
     ],
     "media": [
+      {
+        "label": "Source Receipt",
+        "title": "Tiny bluejay source receipt",
+        "description": "Privacy-safe receipt card for the supervised private group capture and public bird context.",
+        "imageUrl": "/assets/stories/tiny-bluejay-source-receipt.svg",
+        "imageAlt": "Receipt card summarizing a tiny bluejay procurement request and Gallatin retail lead."
+      },
       {
         "label": "Source Trail",
         "title": "Private Facebook group capture",
@@ -1117,6 +1131,13 @@
     ],
     "media": [
       {
+        "label": "Source Receipt",
+        "title": "East Trinity and Gallatin source receipt",
+        "description": "Official-release receipt card with map-only location context; no crash-scene image.",
+        "imageUrl": "/assets/stories/east-trinity-gallatin-receipt.svg",
+        "imageAlt": "Receipt card for the MNPD release and pedestrian safety context at East Trinity and Gallatin."
+      },
+      {
         "label": "Official",
         "title": "MNPD release",
         "description": "The police release is the source for the basic facts currently publishable.",
@@ -1131,8 +1152,9 @@
       {
         "label": "Location",
         "title": "East Trinity Lane at Gallatin Pike",
-        "description": "Open Google Maps for intersection context. We are not using crash-scene photos here.",
-        "url": "https://www.google.com/maps/search/?api=1&query=East%20Trinity%20Lane%20and%20Gallatin%20Pike%20Nashville%20TN"
+        "description": "Map-only intersection context. We are not using crash-scene photos here.",
+        "url": "https://www.google.com/maps/search/?api=1&query=East%20Trinity%20Lane%20and%20Gallatin%20Pike%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=East%20Trinity%20Lane%20and%20Gallatin%20Pike%20Nashville%20TN&output=embed"
       }
     ],
     "sourceNote": "Avoid naming the victim until family notification and reliable identification are complete. No mug shots, no speculation.",
@@ -1200,6 +1222,13 @@
     ],
     "media": [
       {
+        "label": "Source Receipt",
+        "title": "Dry Cleaning event receipt",
+        "description": "Listing receipt card for the Basement East show trail.",
+        "imageUrl": "/assets/stories/dry-cleaning-basement-east-receipt.svg",
+        "imageAlt": "Receipt card for Dry Cleaning at The Basement East with public event listing sources."
+      },
+      {
         "label": "Listing",
         "title": "Ticketmaster venue page",
         "description": "Lists Dry Cleaning with Hotline TNT at The Basement East on May 10.",
@@ -1213,9 +1242,10 @@
       },
       {
         "label": "Location",
-        "title": "The Basement East on Google Maps",
-        "description": "Open the venue page for location photos, current hours, and directions.",
-        "url": "https://www.google.com/maps/search/?api=1&query=The%20Basement%20East%20917%20Woodland%20St%20Nashville%20TN"
+        "title": "The Basement East",
+        "description": "Venue map context for show-night planning around Woodland Street.",
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Basement%20East%20917%20Woodland%20St%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=The%20Basement%20East%20917%20Woodland%20St%20Nashville%20TN&output=embed"
       }
     ],
     "sourceNote": "Event lineups can change. The final pre-departure source should be the venue or ticketing page.",
@@ -1283,6 +1313,13 @@
     ],
     "media": [
       {
+        "label": "Source Receipt",
+        "title": "Eastwood cleanup event receipt",
+        "description": "Official-listing receipt card for the Eastwood cleanup at Tabla Rasa Toys.",
+        "imageUrl": "/assets/stories/eastwood-cleanup-receipt.svg",
+        "imageAlt": "Receipt card for the Eastwood Neighbors cleanup and Tabla Rasa Toys location."
+      },
+      {
         "label": "Event",
         "title": "NDOT events listing",
         "description": "The citywide NDOT events page lists the cleanup, time, date, and location.",
@@ -1290,9 +1327,10 @@
       },
       {
         "label": "Location",
-        "title": "Tabla Rasa Toys on Google Maps",
-        "description": "Open the place page for directions, nearby photos, and current business context.",
-        "url": "https://www.google.com/maps/search/?api=1&query=Tabla%20Rasa%20Toys%20Nashville%20TN"
+        "title": "Tabla Rasa Toys",
+        "description": "Location context for the Eastwood cleanup meeting spot.",
+        "url": "https://www.google.com/maps/search/?api=1&query=Tabla%20Rasa%20Toys%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=Tabla%20Rasa%20Toys%20Nashville%20TN&output=embed"
       }
     ],
     "sourceNote": "The listing is brief. Verify supplies/registration with organizer if turning this into a larger post.",
@@ -1367,6 +1405,13 @@
         "description": "A custom visual for the Lost & Found package and future Gallatin food coverage."
       },
       {
+        "label": "Source Receipt",
+        "title": "Lost and Found source receipt",
+        "description": "Business and reporting receipt card for the Gallatin Pike food hub.",
+        "imageUrl": "/assets/stories/lost-found-gallatin-receipt.svg",
+        "imageAlt": "Receipt card for Lost and Found on Gallatin Pike with business and reported sources."
+      },
+      {
         "label": "Official",
         "title": "Lost & Found concept list",
         "description": "The business site lists current and coming concepts, location, hours, and programming.",
@@ -1374,9 +1419,10 @@
       },
       {
         "label": "Location",
-        "title": "3104 Gallatin Pike on Google Maps",
-        "description": "Open the place/location search for map context, routing, and current user photos.",
-        "url": "https://www.google.com/maps/search/?api=1&query=3104%20Gallatin%20Pike%20Nashville%20TN"
+        "title": "Lost and Found, 3104 Gallatin Pike",
+        "description": "Place map for location, routing, and current user-photo context.",
+        "url": "https://www.google.com/maps/search/?api=1&query=3104%20Gallatin%20Pike%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=3104%20Gallatin%20Pike%20Nashville%20TN&output=embed"
       },
       {
         "label": "Reported",
@@ -1477,6 +1523,13 @@
         "title": "About Shelby Bottoms",
         "description": "Metro Parks describes the nature center, trails, and educational programming.",
         "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center"
+      },
+      {
+        "label": "Location",
+        "title": "Shelby Bottoms Nature Center",
+        "description": "Map context for nature center events and nearby park access.",
+        "url": "https://www.google.com/maps/search/?api=1&query=Shelby%20Bottoms%20Nature%20Center%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=Shelby%20Bottoms%20Nature%20Center%20Nashville%20TN&output=embed"
       }
     ],
     "sourceNote": "Good daily-brief item. Verify registration requirements before promoting as a family plan.",
@@ -1526,9 +1579,9 @@
     "imageStyle": "street",
     "sources": [
       {
-        "name": "Prototype source note",
-        "url": "#",
-        "type": "Internal"
+        "name": "East Meets Nash traffic watch prototype",
+        "url": "/admin/sources",
+        "type": "Internal prototype"
       }
     ],
     "reactions": {
@@ -1547,7 +1600,30 @@
       "video": "Parker stands at a crosswalk with coffee and declares the traffic cone East Nashville's most stable resident."
     },
     "heroImage": "/assets/stories/fallback-street.svg",
-    "heroAlt": "Stylized East Nashville street scene with traffic cones, storefronts, and skyline shapes."
+    "heroAlt": "Stylized East Nashville street scene with traffic cones, storefronts, and skyline shapes.",
+    "media": [
+      {
+        "label": "Source Receipt",
+        "title": "Gallatin traffic watch receipt",
+        "description": "Prototype receipt card for the traffic watch lane.",
+        "imageUrl": "/assets/stories/gallatin-traffic-watch-receipt.svg",
+        "imageAlt": "Receipt card for a Gallatin Pike traffic watch prototype."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Traffic watch source lane",
+        "description": "Attach a live NDOT alert, hubNashville record, or supervised resident capture before a reported version runs.",
+        "url": "/admin/sources"
+      },
+      {
+        "label": "Location",
+        "title": "Gallatin Pike corridor",
+        "description": "Broad corridor map context for the traffic watch prototype.",
+        "url": "https://www.google.com/maps/search/?api=1&query=Gallatin%20Pike%20East%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=Gallatin%20Pike%20East%20Nashville%20TN&output=embed"
+      }
+    ],
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
   },
   {
     "id": "restaurant-soft-launch",
@@ -1565,9 +1641,9 @@
     "imageStyle": "food",
     "sources": [
       {
-        "name": "Prototype Instagram placeholder",
-        "url": "#",
-        "type": "Social"
+        "name": "East Meets Nash restaurant watch prototype",
+        "url": "/admin/sources",
+        "type": "Internal prototype"
       }
     ],
     "reactions": {
@@ -1586,7 +1662,30 @@
       "video": "Mabel reviews the sacred stages of an East Nashville restaurant opening: rumor, blurry photo, patio judgment."
     },
     "heroImage": "/assets/stories/fallback-food.svg",
-    "heroAlt": "Stylized East Nashville restaurant scene with a counter, plate, and storefront awning."
+    "heroAlt": "Stylized East Nashville restaurant scene with a counter, plate, and storefront awning.",
+    "media": [
+      {
+        "label": "Source Receipt",
+        "title": "Restaurant soft-launch receipt",
+        "description": "Prototype receipt card for public posts, storefront photo, menu, or owner confirmation.",
+        "imageUrl": "/assets/stories/restaurant-soft-launch-receipt.svg",
+        "imageAlt": "Receipt card for a Five Points restaurant soft-launch prototype."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Restaurant watch source lane",
+        "description": "Attach the public social post, menu page, direct business page, or storefront photo before publishing as reported.",
+        "url": "/admin/sources"
+      },
+      {
+        "label": "Location",
+        "title": "Five Points restaurant watch zone",
+        "description": "Neighborhood map context for the soft-launch watch lane.",
+        "url": "https://www.google.com/maps/search/?api=1&query=Five%20Points%20East%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=Five%20Points%20East%20Nashville%20TN&output=embed"
+      }
+    ],
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
   },
   {
     "id": "sidewalk-parent-index",
@@ -1604,9 +1703,9 @@
     "imageStyle": "park",
     "sources": [
       {
-        "name": "Prototype resident observation",
-        "url": "#",
-        "type": "Tip"
+        "name": "East Meets Nash family and walkability prototype",
+        "url": "/admin/sources",
+        "type": "Internal prototype"
       }
     ],
     "reactions": {
@@ -1625,7 +1724,30 @@
       "video": "Parker attempts to narrate a peaceful walk and immediately finds three civic side quests."
     },
     "heroImage": "/assets/stories/sidewalk-parent-index.svg",
-    "heroAlt": "Stylized family walkability scene with sidewalks, stroller wheels, scooters, and a caution-colored index meter."
+    "heroAlt": "Stylized family walkability scene with sidewalks, stroller wheels, scooters, and a caution-colored index meter.",
+    "media": [
+      {
+        "label": "Source Receipt",
+        "title": "Sidewalk Parent Index receipt",
+        "description": "Prototype receipt card for reader photos, service requests, and stroller-route notes.",
+        "imageUrl": "/assets/stories/sidewalk-parent-index-receipt.svg",
+        "imageAlt": "Receipt card for the Sidewalk Parent Index prototype around Shelby."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Family walkability source lane",
+        "description": "Attach reader photos, hubNashville request numbers, or supervised tips before publishing as reported.",
+        "url": "/admin/sources"
+      },
+      {
+        "label": "Location",
+        "title": "Shelby walkability context",
+        "description": "Broad map context for the family walkability prototype.",
+        "url": "https://www.google.com/maps/search/?api=1&query=Shelby%20Park%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=Shelby%20Park%20Nashville%20TN&output=embed"
+      }
+    ],
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
   },
   {
     "id": "permit-file-whisper",
@@ -1643,9 +1765,9 @@
     "imageStyle": "permit",
     "sources": [
       {
-        "name": "Prototype public-record placeholder",
-        "url": "#",
-        "type": "Public Record"
+        "name": "East Meets Nash public-record watch prototype",
+        "url": "/admin/sources",
+        "type": "Internal prototype"
       }
     ],
     "reactions": {
@@ -1664,7 +1786,30 @@
       "video": "June opens a permit file like a detective opening a cold case."
     },
     "heroImage": "/assets/stories/fallback-permit.svg",
-    "heroAlt": "Stylized permit desk with forms, maps, sticky notes, and measuring marks."
+    "heroAlt": "Stylized permit desk with forms, maps, sticky notes, and measuring marks.",
+    "media": [
+      {
+        "label": "Source Receipt",
+        "title": "Permit file source receipt",
+        "description": "Prototype receipt card for permit numbers, parcel records, agenda items, and public PDFs.",
+        "imageUrl": "/assets/stories/permit-file-whisper-receipt.svg",
+        "imageAlt": "Receipt card for a Lockeland permit-file watch prototype."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Public-record source lane",
+        "description": "Attach the permit number, parcel address, agenda item, or PDF before publishing as reported.",
+        "url": "/admin/sources"
+      },
+      {
+        "label": "Location",
+        "title": "Lockeland development watch zone",
+        "description": "Neighborhood map context for the permit-watch prototype.",
+        "url": "https://www.google.com/maps/search/?api=1&query=Lockeland%20Springs%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=Lockeland%20Springs%20Nashville%20TN&output=embed"
+      }
+    ],
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
   },
   {
     "id": "weekend-chaos-calendar",
@@ -1682,9 +1827,9 @@
     "imageStyle": "event",
     "sources": [
       {
-        "name": "Prototype event calendar placeholder",
-        "url": "#",
-        "type": "Event"
+        "name": "East Meets Nash events calendar prototype",
+        "url": "/admin/sources",
+        "type": "Internal prototype"
       }
     ],
     "reactions": {
@@ -1703,7 +1848,30 @@
       "video": "Lila runs through the weekend like a weather report for extroverts."
     },
     "heroImage": "/assets/stories/weekend-chaos-calendar.svg",
-    "heroAlt": "Stylized weekend event board with flyers, food truck shapes, music notes, and calendar cards."
+    "heroAlt": "Stylized weekend event board with flyers, food truck shapes, music notes, and calendar cards.",
+    "media": [
+      {
+        "label": "Source Receipt",
+        "title": "Weekend calendar source receipt",
+        "description": "Prototype receipt card for event links, venue posts, ticket pages, and social captions.",
+        "imageUrl": "/assets/stories/weekend-calendar-receipt.svg",
+        "imageAlt": "Receipt card for the weekend calendar prototype in Inglewood."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Events source lane",
+        "description": "Attach event links, venue posts, ticket pages, and public social captions before publishing as reported.",
+        "url": "/admin/sources"
+      },
+      {
+        "label": "Location",
+        "title": "Inglewood events watch zone",
+        "description": "Neighborhood map context for the weekend calendar prototype.",
+        "url": "https://www.google.com/maps/search/?api=1&query=Inglewood%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=Inglewood%20Nashville%20TN&output=embed"
+      }
+    ],
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
   },
   {
     "id": "what-people-are-mad-about",
@@ -1721,9 +1889,9 @@
     "imageStyle": "gossip",
     "sources": [
       {
-        "name": "Prototype group chatter placeholder",
-        "url": "#",
-        "type": "Community Chatter"
+        "name": "East Meets Nash community chatter prototype",
+        "url": "/admin/sources",
+        "type": "Internal prototype"
       }
     ],
     "reactions": {
@@ -1742,7 +1910,30 @@
       "video": "Mabel reads the outrage forecast like severe weather."
     },
     "heroImage": "/assets/stories/fallback-gossip.svg",
-    "heroAlt": "Stylized neighborhood chatter scene with speech bubbles and group text shapes."
+    "heroAlt": "Stylized neighborhood chatter scene with speech bubbles and group text shapes.",
+    "media": [
+      {
+        "label": "Source Receipt",
+        "title": "Neighborhood outrage receipt",
+        "description": "Prototype receipt card for redacted community captures, public records, and tip verification.",
+        "imageUrl": "/assets/stories/neighborhood-outrage-receipt.svg",
+        "imageAlt": "Receipt card for a community chatter and neighborhood mood-board prototype."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Community chatter source lane",
+        "description": "Use supervised Facebook, Nextdoor, comments, tips, and public records; redact private captures before publishing.",
+        "url": "/admin/sources"
+      },
+      {
+        "label": "Location",
+        "title": "East Nashville mood-board context",
+        "description": "Broad neighborhood map context only; private-platform locations stay undisclosed unless verified and public.",
+        "url": "https://www.google.com/maps/search/?api=1&query=East%20Nashville%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed"
+      }
+    ],
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
   },
   {
     "id": "music-venue-ghost",
@@ -1760,9 +1951,9 @@
     "imageStyle": "music",
     "sources": [
       {
-        "name": "Prototype venue placeholder",
-        "url": "#",
-        "type": "Business"
+        "name": "East Meets Nash venue review prototype",
+        "url": "/admin/sources",
+        "type": "Internal prototype"
       }
     ],
     "reactions": {
@@ -1781,7 +1972,30 @@
       "video": "Riff stands outside a venue and describes Edison bulbs as a cry for help."
     },
     "heroImage": "/assets/stories/fallback-music.svg",
-    "heroAlt": "Stylized East Nashville music venue scene with stage lights, microphone, and crowd shapes."
+    "heroAlt": "Stylized East Nashville music venue scene with stage lights, microphone, and crowd shapes.",
+    "media": [
+      {
+        "label": "Source Receipt",
+        "title": "Venue soul-check receipt",
+        "description": "Prototype receipt card for venue listings, public posts, ticket pages, and exterior images.",
+        "imageUrl": "/assets/stories/venue-soul-check-receipt.svg",
+        "imageAlt": "Receipt card for a Riverside venue review prototype."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Venue review source lane",
+        "description": "Attach venue listing, public post, ticket page, owner note, or exterior image before publishing as reported.",
+        "url": "/admin/sources"
+      },
+      {
+        "label": "Location",
+        "title": "Riverside venue watch zone",
+        "description": "Neighborhood map context for the venue-review prototype.",
+        "url": "https://www.google.com/maps/search/?api=1&query=Riverside%20Village%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=Riverside%20Village%20Nashville%20TN&output=embed"
+      }
+    ],
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
   },
   {
     "id": "classifieds-launch",
@@ -1799,9 +2013,9 @@
     "imageStyle": "classifieds",
     "sources": [
       {
-        "name": "Internal product plan",
-        "url": "../docs/product-roadmap.md",
-        "type": "Internal"
+        "name": "East Meets Nash classifieds product plan",
+        "url": "/admin/sources",
+        "type": "Internal product plan"
       }
     ],
     "reactions": {
@@ -1820,6 +2034,29 @@
       "video": "Lila pitches classifieds like QVC for neighborhood odds and ends."
     },
     "heroImage": "/assets/stories/fallback-classifieds.svg",
-    "heroAlt": "Stylized neighborhood classifieds board with posted cards, pins, and local notes."
+    "heroAlt": "Stylized neighborhood classifieds board with posted cards, pins, and local notes.",
+    "media": [
+      {
+        "label": "Source Receipt",
+        "title": "Classifieds launch receipt",
+        "description": "Product-plan receipt card for the jobs, gear, kid stuff, and neighborhood pleas marketplace.",
+        "imageUrl": "/assets/stories/classifieds-launch-receipt.svg",
+        "imageAlt": "Receipt card for the East Nashville classifieds product-plan story."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Classifieds product source lane",
+        "description": "Use the Source Desk and product plan to attach launch notes, sample listings, and moderation receipts.",
+        "url": "/admin/sources"
+      },
+      {
+        "label": "Location",
+        "title": "East Nashville classifieds coverage area",
+        "description": "Broad map context for the local marketplace coverage area.",
+        "url": "https://www.google.com/maps/search/?api=1&query=East%20Nashville%20Nashville%20TN",
+        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed"
+      }
+    ],
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
   }
 ]

@@ -42,6 +42,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
   const imageMedia = story.media?.filter((item) => item.imageUrl && item.label !== "Comment Signals") || [];
   const mapMedia = story.media?.filter((item) => item.embedUrl) || [];
   const linkMedia = story.media?.filter((item) => item.url && !item.imageUrl && !item.embedUrl && item.label !== "Hero Art") || [];
+  const supportingMediaIndex = Math.min(1, paragraphs.length - 1);
   const socialCuts = [
     { label: "X / Threads", copy: story.social.x },
     { label: "Instagram", copy: story.social.instagram },
@@ -93,7 +94,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
                     </figure>
                   ))
                 : null}
-              {index === 1 && mapMedia.length ? (
+              {index === supportingMediaIndex && mapMedia.length ? (
                 mapMedia.map((item) => (
                   <figure className="article-inline-map" key={`${item.label}-${item.title}`}>
                     <iframe
@@ -109,7 +110,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
                   </figure>
                 ))
               ) : null}
-              {index === 1 && linkMedia.length ? (
+              {index === supportingMediaIndex && linkMedia.length ? (
                 <aside className="article-inline-links" aria-label="Related source and location links">
                   {linkMedia.map((item) => (
                     <a className="article-inline-link" href={item.url} key={`${item.label}-${item.title}`}>

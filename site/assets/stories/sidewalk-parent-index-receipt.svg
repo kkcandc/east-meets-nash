@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Sidewalk Parent Index source receipt</title>
+  <desc id="desc">Seed story needs reader photos, service requests, crosswalk notes, and stroller-route receipts.</desc>
+  <style>
+    .bg{fill:#f8f2df}.ink{fill:#1f1b18}.red{fill:#ef4d37}.yellow{fill:#f5d35f}.green{fill:#1b8a5a}.blue{fill:#4677b8}.muted{fill:#6f6258}.line{stroke:#1f1b18;stroke-width:6}.thin{stroke:#1f1b18;stroke-width:3}.kicker{font-family:Arial,sans-serif;font-size:34px;font-weight:800;letter-spacing:2px}.title{font-family:Georgia,serif;font-size:64px;font-weight:800}.body{font-family:Arial,sans-serif;font-size:34px;font-weight:700}.small{font-family:Arial,sans-serif;font-size:24px;font-weight:700}
+  </style>
+  <rect class="bg" width="1200" height="675"/>
+  <rect x="34" y="34" width="1132" height="607" class="yellow"/>
+  <rect x="54" y="54" width="1092" height="567" class="bg"/>
+  <path d="M54 188h1092" class="line"/>
+  <circle cx="1035" cy="122" r="54" class="red"/>
+  <circle cx="1016" cy="122" r="18" class="yellow"/>
+  <text x="72" y="132" class="kicker red">PROTOTYPE RECEIPT</text>
+  <text x="72" y="270" class="title ink">Sidewalk Parent Index</text>
+  <text x="72" y="372" class="body">Seed story needs reader photos, service requests,</text><text x="72" y="416" class="body">crosswalk notes, and stroller-route receipts.</text>
+  <rect x="72" y="502" width="250" height="48" class="green"/>
+  <text x="92" y="537" class="small bg">TIP + PHOTO LANE</text>
+  <path d="M72 576h520" class="thin"/>
+  <text x="72" y="624" class="small muted">East Meets Nash receipt slot - replace with live photo or screenshot when captured</text>
+</svg>
