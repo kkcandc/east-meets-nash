@@ -35,8 +35,8 @@ function draftBodyFor(item: SourceItem): string {
     "- Exact original, official, Google Places, Street View, or approved licensed photo when available.",
     "- If using a contextual/generic fallback, write the unavailable reason before publish.",
     "- Hero image should be the approved photo; custom art is a fallback, not the default.",
-    "- Source screenshot/capture or clearly labeled source receipt card.",
-    "- Map, embed, or source-trail card when location/source context matters.",
+    "- Source screenshot/capture, public embed, or direct source link when it adds real evidence.",
+    "- Map or location embed when location/source context matters.",
     "- X/Threads cut, Instagram caption, and short video prompt.",
     "",
     "Drafting notes: lead with the useful fact, label the sourcing clearly, then let the joke land after the reader knows what actually happened.",
@@ -68,14 +68,14 @@ export function SourceToDraftPanel({ items }: { items: SourceItem[] }) {
           ? `${item.verificationRule} Attach source screenshot/capture, embed, and social cuts before publishing.`
           : "Attach source screenshot/capture, embed, and social cuts before publishing.",
         verificationNote:
-          "Photo Desk required: exact approved photo or written unavailable reason, source screenshot/capture or receipt card, source trail/embed, and social cuts.",
+          "Photo Desk required: exact approved photo or written unavailable reason, source screenshot/capture or public embed when useful, source trail, and social cuts.",
         visualTitle: `${item.publishFormat} Media Pack`,
         visualSummary: "Publish only after the story has a visual source trail and social cuts.",
         visualItems: [
           "Exact approved location/source photo or written unavailable reason",
           "Hero image must use approved photo before custom art",
-          "Source screenshot/capture or receipt card",
-          "Map/embed/source-trail card",
+          "Source screenshot/capture, public embed, or direct source link",
+          "Map/location embed",
           "X/Threads, Instagram, and video prompt",
         ],
         body: draftBodyFor(item),

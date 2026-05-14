@@ -1,6 +1,6 @@
 # Image Sourcing Policy
 
-Real images add local value only when they are specific, lawful, credited, and honest about what they show. Every story should try to use an exact visual before falling back to contextual art or receipt graphics.
+Real images add local value only when they are specific, lawful, credited, and honest about what they show. Every story should try to use an exact visual before falling back to contextual art.
 
 ## Preferred Order
 
@@ -11,7 +11,9 @@ Real images add local value only when they are specific, lawful, credited, and h
 5. Wikimedia Commons, Openverse, Flickr Creative Commons, public-domain, or other licensed repository image with verified source page, author, license, and license URL.
 6. Public social embed from the original public account when embedding is allowed and the post itself is part of the story.
 7. Redacted screenshot/capture when needed as a receipt and allowed by editorial policy.
-8. East Meets Nash custom art or source receipt card when no real image is available yet.
+8. East Meets Nash custom art when no real image is available yet.
+
+Do not publish source receipt cards as story images. Use source links, embeds, maps, screenshots, or real photos instead.
 
 ## Photo Desk Rule
 
@@ -30,7 +32,7 @@ Use this scale in story media metadata:
 - `90-100`: exact place, exact event, exact business, original/source photo, or exact Google Places/Street View candidate.
 - `75-89`: strong location context, same corridor/block/site, official public agency context, or exact map/streetview where photo use is not appropriate.
 - `50-74`: neighborhood or category context that helps but is not the actual place.
-- `0-49`: receipt card, generic fallback, or visual placeholder.
+- `0-49`: generic fallback, custom art, or visual placeholder.
 
 ## Google And Maps Rules
 
@@ -62,6 +64,6 @@ Before publishing, attach:
 - Approved hero image with provider, source URL, credit, license/rights note, relevance score, and approval status.
 - Real location/source image, API image, embed, or redacted screenshot when available.
 - Written unavailable reason if the hero is contextual or generic.
-- Source-trail card with the original link and credit.
+- Source trail with the original link, embed, map, or screenshot when useful.
 - Map or location embed when the story has a place, route, meeting, venue, or address.
 - X/Threads cut, Instagram caption, and short video prompt.

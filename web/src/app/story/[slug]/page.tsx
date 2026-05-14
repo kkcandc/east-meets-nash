@@ -5,6 +5,7 @@ import { ReactionPanel } from "@/components/ReactionPanel";
 import { ReporterAvatar } from "@/components/ReporterAvatar";
 import { SubscribeForm } from "@/components/SubscribeForm";
 import { getReporter, getStories, getStoryBySlug } from "@/lib/content";
+import type { Story } from "@/lib/types";
 
 interface StoryPageProps {
   params: Promise<{ slug: string }>;
@@ -12,12 +13,25 @@ interface StoryPageProps {
 
 export const dynamic = "force-dynamic";
 
+type StoryMediaItem = NonNullable<Story["media"]>[number];
+
 function featuredImage(story: NonNullable<ReturnType<typeof getStoryBySlug>>) {
   return story.heroImage || `/assets/stories/fallback-${story.imageStyle || "street"}.svg`;
 }
 
 function featuredAlt(story: NonNullable<ReturnType<typeof getStoryBySlug>>) {
   return story.heroAlt || `${story.beat} featured image for ${story.title}`;
+}
+
+function isReceiptCardMedia(item: StoryMediaItem) {
+  const label = `${item.label} ${item.title}`;
+  const mediaPath = `${item.imageUrl || ""} ${item.url || ""} ${item.sourceUrl || ""}`;
+
+  return (
+    item.sourceType === "receipt_card" ||
+    /source receipt/i.test(label) ||
+    /(?:receipt-card|receipt_card|[-_]receipt\.svg)/i.test(mediaPath)
+  );
 }
 
 export async function generateMetadata({ params }: StoryPageProps): Promise<Metadata> {
@@ -38,13 +52,14 @@ export default async function StoryPage({ params }: StoryPageProps) {
   const paragraphs = story.body.split("\n\n");
   const heroImage = featuredImage(story);
   const heroAlt = featuredAlt(story);
-  const heroMedia = story.media?.find((item) => item.imageUrl === heroImage);
-  const featureMedia = story.media?.find((item) => item.imageUrl && item.label === "Comment Signals");
+  const publishableMedia = story.media?.filter((item) => !isReceiptCardMedia(item)) || [];
+  const heroMedia = publishableMedia.find((item) => item.imageUrl === heroImage);
+  const featureMedia = publishableMedia.find((item) => item.imageUrl && item.label === "Comment Signals");
   const imageMedia =
-    story.media?.filter((item) => item.imageUrl && item.label !== "Comment Signals" && item.imageUrl !== heroImage) ||
+    publishableMedia.filter((item) => item.imageUrl && item.label !== "Comment Signals" && item.imageUrl !== heroImage) ||
     [];
-  const mapMedia = story.media?.filter((item) => item.embedUrl) || [];
-  const linkMedia = story.media?.filter((item) => item.url && !item.imageUrl && !item.embedUrl && item.label !== "Hero Art") || [];
+  const mapMedia = publishableMedia.filter((item) => item.embedUrl) || [];
+  const linkMedia = publishableMedia.filter((item) => item.url && !item.imageUrl && !item.embedUrl && item.label !== "Hero Art") || [];
   const supportingMediaIndex = Math.min(1, paragraphs.length - 1);
   const socialCuts = [
     { label: "X / Threads", copy: story.social.x },
@@ -94,8 +109,8 @@ export default async function StoryPage({ params }: StoryPageProps) {
           {paragraphs.map((paragraph, index) => (
             <div className="article-flow-block" key={paragraph}>
               <p>{paragraph}</p>
-              {index === 0
-                ? imageMedia.map((item) => (
+              {imageMedia[index]
+                ? [imageMedia[index]].map((item) => (
                     <figure className="article-inline-media" key={`${item.label}-${item.title}`}>
                       {item.url ? (
                         <a href={item.url}>

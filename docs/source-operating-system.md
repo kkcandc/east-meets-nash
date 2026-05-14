@@ -32,7 +32,7 @@ The image sourcing rules live in `docs/image-sourcing-policy.md`.
    - Rank by locality, usefulness, shareability, confidence, and risk.
    - Assign reporter voice and label.
    - Create web post, beehiiv block, X/Threads copy, Instagram caption, and video prompt.
-   - Attach the media pack: hero image/custom art, source screenshot or capture/receipt card, map/embed/source-trail card when useful, and redacted private-platform receipts when applicable.
+   - Attach the media pack: hero image/custom art only as fallback, source screenshot/capture or public embed when useful, map/location embed when useful, and redacted private-platform receipts when applicable. Do not publish source receipt cards as article images.
 
 ## Source Tiers
 
@@ -79,7 +79,7 @@ Every publishable story needs:
 
 - Hero image or custom editorial art.
 - Real location/source photo when available, using original photos, approved press images, official API/embed sources, or licensed image repositories.
-- Source screenshot/capture. If the capture tool is unavailable, use a clearly labeled source receipt card and replace it with a real screenshot when captured.
+- Source screenshot/capture when it is useful and allowed. If capture is unavailable, use the source link as text until a real screenshot, public embed, map, or photo is available.
 - Source-trail card for the original link, public record, direct business page, or internal source note.
 - Map or embed when location, route, venue, or public meeting context matters.
 - Social cuts: X/Threads copy, Instagram caption, and a short video prompt.

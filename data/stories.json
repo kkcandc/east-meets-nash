@@ -110,22 +110,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Capture",
-        "title": "May 12 Source Desk Receipt",
-        "description": "Source pass receipt for the public sweep and supervised Facebook/Nextdoor capture lanes.",
-        "url": "/admin/sources",
-        "imageUrl": "/assets/stories/may12-source-pass-receipt.svg",
-        "imageAlt": "East Meets Nash source receipt card for the May 12 source sweep.",
-        "credit": "Source receipt card; replace with live source screenshot when captured.",
-        "provider": "east_meets_nash",
-        "sourceUrl": "/admin/sources",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Source Trail",
         "title": "Open the May 12 Source Desk",
         "description": "Editorial source queue, capture lanes, and publish decisions for the issue.",
@@ -230,22 +214,6 @@
         "sourceType": "licensed_photo",
         "approvedBy": "Photo Desk backfill",
         "approvedAt": "2026-05-14"
-      },
-      {
-        "label": "Source Capture",
-        "title": "Axios Nashville Receipt",
-        "description": "Reported source for the Starbucks incentive amount and vote timing.",
-        "url": "https://www.axios.com/local/nashville/2026/05/12/starbucks-state-incentives-nashville-move",
-        "imageUrl": "/assets/stories/may12-starbucks-receipt.svg",
-        "imageAlt": "Source receipt card for the Axios Nashville Starbucks incentive story.",
-        "credit": "Source receipt card; replace with live source screenshot when captured.",
-        "provider": "east_meets_nash",
-        "sourceUrl": "https://www.axios.com/local/nashville/2026/05/12/starbucks-state-incentives-nashville-move",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
@@ -357,22 +325,6 @@
         "sourceType": "licensed_photo",
         "approvedBy": "Photo Desk backfill",
         "approvedAt": "2026-05-14"
-      },
-      {
-        "label": "Source Capture",
-        "title": "Metro Meeting Calendar Receipt",
-        "description": "Official source for the May 12 visitor-economy meetings.",
-        "url": "https://www.nashville.gov/departments/government/boards/tourism-and-convention-commission/meetings/tourism-and-convention-commission-meeting-may-12-2026",
-        "imageUrl": "/assets/stories/may12-tourism-meetings-receipt.svg",
-        "imageAlt": "Source receipt card for Metro tourism and event funding meetings.",
-        "credit": "Source receipt card; replace with live source screenshot when captured.",
-        "provider": "east_meets_nash",
-        "sourceUrl": "https://www.nashville.gov/departments/government/boards/tourism-and-convention-commission/meetings/tourism-and-convention-commission-meeting-may-12-2026",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
@@ -494,22 +446,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Capture",
-        "title": "NDOT + hubNashville Receipt",
-        "description": "Official source path for the road-safety meeting and service-request context.",
-        "url": "https://www.nashville.gov/departments/transportation/events",
-        "imageUrl": "/assets/stories/may12-vision-zero-receipt.svg",
-        "imageAlt": "Source receipt card for NDOT Vision Zero and hubNashville service requests.",
-        "credit": "Source receipt card; replace with live source screenshot when captured.",
-        "provider": "east_meets_nash",
-        "sourceUrl": "https://www.nashville.gov/departments/transportation/events",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Source Trail",
         "title": "NDOT events page",
         "description": "Official Vision Zero Advisory Committee meeting listing.",
@@ -624,22 +560,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Capture",
-        "title": "Metro East Bank Receipt",
-        "description": "Official East Bank development page used for the boulevard watch.",
-        "url": "https://www.nashville.gov/featured-initiatives/east-bank-development",
-        "imageUrl": "/assets/stories/may12-east-bank-receipt.svg",
-        "imageAlt": "Source receipt card for Metro East Bank development coverage.",
-        "credit": "Source receipt card; replace with live source screenshot when captured.",
-        "provider": "east_meets_nash",
-        "sourceUrl": "https://www.nashville.gov/featured-initiatives/east-bank-development",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Source Trail",
         "title": "Metro East Bank Development",
         "description": "Official initiative page for East Bank Boulevard and development updates.",
@@ -746,22 +666,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Capture",
-        "title": "The Basement East Calendar Receipt",
-        "description": "Direct venue calendar source for the May 12 show.",
-        "url": "https://www.thebasementnashville.com/tm-venue/the-basement-east/",
-        "imageUrl": "/assets/stories/may12-basement-east-receipt.svg",
-        "imageAlt": "Source receipt card for The Basement East May 12 concert listing.",
-        "credit": "Source receipt card; replace with live source screenshot when captured.",
-        "provider": "east_meets_nash",
-        "sourceUrl": "https://www.thebasementnashville.com/tm-venue/the-basement-east/",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Source Trail",
         "title": "The Basement East event calendar",
         "description": "Direct venue calendar for show timing and lineup checks.",
@@ -866,22 +770,6 @@
         "sourceType": "licensed_photo",
         "approvedBy": "Photo Desk backfill",
         "approvedAt": "2026-05-14"
-      },
-      {
-        "label": "Source Capture",
-        "title": "East Branch Library Receipt",
-        "description": "Direct Nashville Public Library source for branch hours and amenities.",
-        "url": "https://library.nashville.gov/locations/east-branch",
-        "imageUrl": "/assets/stories/may12-east-branch-receipt.svg",
-        "imageAlt": "Source receipt card for East Branch Library hours and amenities.",
-        "credit": "Source receipt card; replace with live source screenshot when captured.",
-        "provider": "east_meets_nash",
-        "sourceUrl": "https://library.nashville.gov/locations/east-branch",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
@@ -995,22 +883,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Capture",
-        "title": "5 Points Diner Receipt",
-        "description": "Direct restaurant page used to correct stale opening copy.",
-        "url": "https://www.5pointsdiner.com/brunch",
-        "imageUrl": "/assets/stories/may12-five-points-diner-receipt.svg",
-        "imageAlt": "Source receipt card for 5 Points Diner direct-source check.",
-        "credit": "Source receipt card; replace with live source screenshot when captured.",
-        "provider": "east_meets_nash",
-        "sourceUrl": "https://www.5pointsdiner.com/brunch",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Source Trail",
         "title": "5 Points Diner direct page",
         "description": "Current business source for the restaurant watch item.",
@@ -1103,26 +975,66 @@
         "approvedAt": "2026-05-14"
       },
       {
+        "label": "Google Places Photo",
+        "title": "Party Fowl East Nashville storefront",
+        "description": "Google Places photo candidate for Party Fowl East Nashville at 1016 Woodland St.",
+        "url": "https://www.google.com/maps/search/?api=1&query=1016%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJY7RhRgxnZIgR6hTx2U3RSZc",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJY7RhRgxnZIgR6hTx2U3RSZc&photoIndex=0&q=1016%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "Party Fowl East Nashville storefront photo from Google Places.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: A.D. Jamison.",
+        "provider": "google_places",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=1016%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJY7RhRgxnZIgR6hTx2U3RSZc",
+        "sourceType": "api_photo",
+        "placeId": "ChIJY7RhRgxnZIgR6hTx2U3RSZc",
+        "placeQuery": "1016 Woodland St, Nashville, TN 37206, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo rendered through the live Places media endpoint with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-14"
+      },
+      {
+        "label": "Official Food Photo",
+        "title": "Party Fowl hot chicken salad",
+        "description": "Official Party Fowl food photo for menu context.",
+        "url": "https://partyfowl.com/",
+        "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e41c508b420c0202166e401/b2f8278f-6e8f-4b85-85ec-b019f3c0a51b/PartyFowlJuly2025_CIP-115.jpg",
+        "imageAlt": "Party Fowl hot chicken salad with avocado, egg, bacon, blue cheese, and tomatoes.",
+        "credit": "Photo: Party Fowl official site.",
+        "provider": "party_fowl",
+        "sourceUrl": "https://partyfowl.com/",
+        "sourceType": "official_photo",
+        "relevance": "exact",
+        "relevanceScore": 88,
+        "approvalStatus": "approved",
+        "rightsNote": "Official business site image used as sourced editorial context with source link.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-14"
+      },
+      {
+        "label": "Official Food Photo",
+        "title": "Party Fowl wings and beer",
+        "description": "Official Party Fowl food photo for menu and bar context.",
+        "url": "https://partyfowl.com/",
+        "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e41c508b420c0202166e401/e1555fb8-5200-4a30-a23d-da52c3ee2f72/12+smoked+wings.jpg",
+        "imageAlt": "Party Fowl wings served with beer, vegetables, and sauce.",
+        "credit": "Photo: Party Fowl official site.",
+        "provider": "party_fowl",
+        "sourceUrl": "https://partyfowl.com/",
+        "sourceType": "official_photo",
+        "relevance": "exact",
+        "relevanceScore": 84,
+        "approvalStatus": "approved",
+        "rightsNote": "Official business site image used as sourced editorial context with source link.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-14"
+      },
+      {
         "label": "Hero Art",
         "title": "Generated editorial illustration",
         "description": "A custom East Meets Nash hero image for the opening package, built as an illustration rather than a photo.",
         "sourceType": "source_link"
-      },
-      {
-        "label": "Source Receipt",
-        "title": "Opening receipt",
-        "description": "A visible source card for the opening announcement and address check.",
-        "url": "https://www.qsrmagazine.com/news/party-fowl-to-open-in-east-nashville/",
-        "imageUrl": "/assets/stories/party-fowl-opening-receipt.svg",
-        "imageAlt": "Party Fowl Five Points opening source receipt card.",
-        "credit": "Source receipt card; replace with live storefront or source screenshot when captured.",
-        "provider": "east_meets_nash",
-        "sourceUrl": "https://www.qsrmagazine.com/news/party-fowl-to-open-in-east-nashville/",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
@@ -1401,19 +1313,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Receipt",
-        "title": "Tiny bluejay source receipt",
-        "description": "Privacy-safe receipt card for the supervised private group capture and public bird context.",
-        "imageUrl": "/assets/stories/tiny-bluejay-source-receipt.svg",
-        "imageAlt": "Receipt card summarizing a tiny bluejay procurement request and Gallatin retail lead.",
-        "provider": "east_meets_nash",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Source Trail",
         "title": "Private Facebook group capture",
         "description": "A supervised capture from the East Nashville group thread. The public story summarizes the request and the comment lead instead of republishing the private post.",
@@ -1671,19 +1570,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Receipt",
-        "title": "East Trinity and Gallatin source receipt",
-        "description": "Official-release receipt card with map-only location context; no crash-scene image.",
-        "imageUrl": "/assets/stories/east-trinity-gallatin-receipt.svg",
-        "imageAlt": "Receipt card for the MNPD release and pedestrian safety context at East Trinity and Gallatin.",
-        "provider": "east_meets_nash",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Official",
         "title": "MNPD release",
         "description": "The police release is the source for the basic facts currently publishable.",
@@ -1805,19 +1691,6 @@
         "sourceType": "licensed_photo",
         "approvedBy": "Photo Desk backfill",
         "approvedAt": "2026-05-14"
-      },
-      {
-        "label": "Source Receipt",
-        "title": "Dry Cleaning event receipt",
-        "description": "Listing receipt card for the Basement East show trail.",
-        "imageUrl": "/assets/stories/dry-cleaning-basement-east-receipt.svg",
-        "imageAlt": "Receipt card for Dry Cleaning at The Basement East with public event listing sources.",
-        "provider": "east_meets_nash",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Listing",
@@ -1943,19 +1816,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Receipt",
-        "title": "Eastwood cleanup event receipt",
-        "description": "Official-listing receipt card for the Eastwood cleanup at Tabla Rasa Toys.",
-        "imageUrl": "/assets/stories/eastwood-cleanup-receipt.svg",
-        "imageAlt": "Receipt card for the Eastwood Neighbors cleanup and Tabla Rasa Toys location.",
-        "provider": "east_meets_nash",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Event",
         "title": "NDOT events listing",
         "description": "The citywide NDOT events page lists the cleanup, time, date, and location.",
@@ -2077,19 +1937,6 @@
         "title": "Generated food-hub illustration",
         "description": "A custom visual for the Lost & Found package and future Gallatin food coverage.",
         "sourceType": "source_link"
-      },
-      {
-        "label": "Source Receipt",
-        "title": "Lost and Found source receipt",
-        "description": "Business and reporting receipt card for the Gallatin Pike food hub.",
-        "imageUrl": "/assets/stories/lost-found-gallatin-receipt.svg",
-        "imageAlt": "Receipt card for Lost and Found on Gallatin Pike with business and reported sources.",
-        "provider": "east_meets_nash",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Official",
@@ -2352,19 +2199,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Receipt",
-        "title": "Gallatin traffic watch receipt",
-        "description": "Prototype receipt card for the traffic watch lane.",
-        "imageUrl": "/assets/stories/gallatin-traffic-watch-receipt.svg",
-        "imageAlt": "Receipt card for a Gallatin Pike traffic watch prototype.",
-        "provider": "east_meets_nash",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Source Trail",
         "title": "Traffic watch source lane",
         "description": "Attach a live NDOT alert, hubNashville record, or supervised resident capture before a reported version runs.",
@@ -2387,7 +2221,7 @@
         "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "sourceNote": "Prototype seed item. Before running as reported news, attach a real photo, public record, reader photo, embed, or direct source link.",
     "photoStatus": "contextual_photo_needs_upgrade",
     "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
     "photoNeeds": [
@@ -2457,19 +2291,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Receipt",
-        "title": "Restaurant soft-launch receipt",
-        "description": "Prototype receipt card for public posts, storefront photo, menu, or owner confirmation.",
-        "imageUrl": "/assets/stories/restaurant-soft-launch-receipt.svg",
-        "imageAlt": "Receipt card for a Five Points restaurant soft-launch prototype.",
-        "provider": "east_meets_nash",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Source Trail",
         "title": "Restaurant watch source lane",
         "description": "Attach the public social post, menu page, direct business page, or storefront photo before publishing as reported.",
@@ -2492,7 +2313,7 @@
         "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "sourceNote": "Prototype seed item. Before running as reported news, attach a real photo, public record, reader photo, embed, or direct source link.",
     "photoStatus": "contextual_photo_needs_upgrade",
     "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
     "photoNeeds": [
@@ -2562,19 +2383,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Receipt",
-        "title": "Sidewalk Parent Index receipt",
-        "description": "Prototype receipt card for reader photos, service requests, and stroller-route notes.",
-        "imageUrl": "/assets/stories/sidewalk-parent-index-receipt.svg",
-        "imageAlt": "Receipt card for the Sidewalk Parent Index prototype around Shelby.",
-        "provider": "east_meets_nash",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Source Trail",
         "title": "Family walkability source lane",
         "description": "Attach reader photos, hubNashville request numbers, or supervised tips before publishing as reported.",
@@ -2597,7 +2405,7 @@
         "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "sourceNote": "Prototype seed item. Before running as reported news, attach a real photo, public record, reader photo, embed, or direct source link.",
     "photoStatus": "contextual_photo_needs_upgrade",
     "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
     "photoNeeds": [
@@ -2667,19 +2475,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Receipt",
-        "title": "Permit file source receipt",
-        "description": "Prototype receipt card for permit numbers, parcel records, agenda items, and public PDFs.",
-        "imageUrl": "/assets/stories/permit-file-whisper-receipt.svg",
-        "imageAlt": "Receipt card for a Lockeland permit-file watch prototype.",
-        "provider": "east_meets_nash",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Source Trail",
         "title": "Public-record source lane",
         "description": "Attach the permit number, parcel address, agenda item, or PDF before publishing as reported.",
@@ -2702,7 +2497,7 @@
         "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "sourceNote": "Prototype seed item. Before running as reported news, attach a real photo, public record, reader photo, embed, or direct source link.",
     "photoStatus": "contextual_photo_needs_upgrade",
     "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
     "photoNeeds": [
@@ -2772,19 +2567,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Receipt",
-        "title": "Weekend calendar source receipt",
-        "description": "Prototype receipt card for event links, venue posts, ticket pages, and social captions.",
-        "imageUrl": "/assets/stories/weekend-calendar-receipt.svg",
-        "imageAlt": "Receipt card for the weekend calendar prototype in Inglewood.",
-        "provider": "east_meets_nash",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Source Trail",
         "title": "Events source lane",
         "description": "Attach event links, venue posts, ticket pages, and public social captions before publishing as reported.",
@@ -2807,7 +2589,7 @@
         "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "sourceNote": "Prototype seed item. Before running as reported news, attach a real photo, public record, reader photo, embed, or direct source link.",
     "photoStatus": "contextual_photo_needs_upgrade",
     "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
     "photoNeeds": [
@@ -2877,19 +2659,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Receipt",
-        "title": "Neighborhood outrage receipt",
-        "description": "Prototype receipt card for redacted community captures, public records, and tip verification.",
-        "imageUrl": "/assets/stories/neighborhood-outrage-receipt.svg",
-        "imageAlt": "Receipt card for a community chatter and neighborhood mood-board prototype.",
-        "provider": "east_meets_nash",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Source Trail",
         "title": "Community chatter source lane",
         "description": "Use supervised Facebook, Nextdoor, comments, tips, and public records; redact private captures before publishing.",
@@ -2912,7 +2681,7 @@
         "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "sourceNote": "Prototype seed item. Before running as reported news, attach a real photo, public record, reader photo, embed, or direct source link.",
     "photoStatus": "contextual_photo_needs_upgrade",
     "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
     "photoNeeds": [
@@ -2982,19 +2751,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Receipt",
-        "title": "Venue soul-check receipt",
-        "description": "Prototype receipt card for venue listings, public posts, ticket pages, and exterior images.",
-        "imageUrl": "/assets/stories/venue-soul-check-receipt.svg",
-        "imageAlt": "Receipt card for a Riverside venue review prototype.",
-        "provider": "east_meets_nash",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Source Trail",
         "title": "Venue review source lane",
         "description": "Attach venue listing, public post, ticket page, owner note, or exterior image before publishing as reported.",
@@ -3017,7 +2773,7 @@
         "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "sourceNote": "Prototype seed item. Before running as reported news, attach a real photo, public record, reader photo, embed, or direct source link.",
     "photoStatus": "contextual_photo_needs_upgrade",
     "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
     "photoNeeds": [
@@ -3087,19 +2843,6 @@
         "approvedAt": "2026-05-14"
       },
       {
-        "label": "Source Receipt",
-        "title": "Classifieds launch receipt",
-        "description": "Product-plan receipt card for the jobs, gear, kid stuff, and neighborhood pleas marketplace.",
-        "imageUrl": "/assets/stories/classifieds-launch-receipt.svg",
-        "imageAlt": "Receipt card for the East Nashville classifieds product-plan story.",
-        "provider": "east_meets_nash",
-        "sourceType": "receipt_card",
-        "relevance": "receipt",
-        "relevanceScore": 35,
-        "approvalStatus": "approved",
-        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
-      },
-      {
         "label": "Source Trail",
         "title": "Classifieds product source lane",
         "description": "Use the Source Desk and product plan to attach launch notes, sample listings, and moderation receipts.",
@@ -3122,7 +2865,7 @@
         "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "sourceNote": "Prototype seed item. Before running as reported news, attach a real photo, public record, reader photo, embed, or direct source link.",
     "photoStatus": "contextual_photo_needs_upgrade",
     "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
     "photoNeeds": [
