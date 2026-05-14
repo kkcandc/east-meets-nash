@@ -32,8 +32,9 @@ function draftBodyFor(item: SourceItem): string {
     item.verificationRule ? `Verification rule: ${item.verificationRule}` : "",
     "",
     "Required media pack before publish:",
-    "- Real location/source photo when available, with source link and credit.",
-    "- Hero image or custom editorial art.",
+    "- Exact original, official, Google Places, Street View, or approved licensed photo when available.",
+    "- If using a contextual/generic fallback, write the unavailable reason before publish.",
+    "- Hero image should be the approved photo; custom art is a fallback, not the default.",
     "- Source screenshot/capture or clearly labeled source receipt card.",
     "- Map, embed, or source-trail card when location/source context matters.",
     "- X/Threads cut, Instagram caption, and short video prompt.",
@@ -66,12 +67,13 @@ export function SourceToDraftPanel({ items }: { items: SourceItem[] }) {
         sourceNote: item.verificationRule
           ? `${item.verificationRule} Attach source screenshot/capture, embed, and social cuts before publishing.`
           : "Attach source screenshot/capture, embed, and social cuts before publishing.",
-        verificationNote: "Media pack required: hero image, source screenshot/capture or receipt card, source trail/embed, and social cuts.",
+        verificationNote:
+          "Photo Desk required: exact approved photo or written unavailable reason, source screenshot/capture or receipt card, source trail/embed, and social cuts.",
         visualTitle: `${item.publishFormat} Media Pack`,
         visualSummary: "Publish only after the story has a visual source trail and social cuts.",
         visualItems: [
-          "Real location/source photo when available",
-          "Hero image or custom editorial art",
+          "Exact approved location/source photo or written unavailable reason",
+          "Hero image must use approved photo before custom art",
           "Source screenshot/capture or receipt card",
           "Map/embed/source-trail card",
           "X/Threads, Instagram, and video prompt",

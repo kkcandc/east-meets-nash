@@ -95,7 +95,19 @@
         "url": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
         "imageAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
-        "credit": "Photo: Evan Nichols, CC BY 3.0, via Wikimedia Commons."
+        "credit": "Photo: Evan Nichols, CC BY 3.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Capture",
@@ -104,21 +116,44 @@
         "url": "/admin/sources",
         "imageUrl": "/assets/stories/may12-source-pass-receipt.svg",
         "imageAlt": "East Meets Nash source receipt card for the May 12 source sweep.",
-        "credit": "Source receipt card; replace with live source screenshot when captured."
+        "credit": "Source receipt card; replace with live source screenshot when captured.",
+        "provider": "east_meets_nash",
+        "sourceUrl": "/admin/sources",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Open the May 12 Source Desk",
         "description": "Editorial source queue, capture lanes, and publish decisions for the issue.",
-        "url": "/admin/sources"
+        "url": "/admin/sources",
+        "sourceUrl": "/admin/sources",
+        "sourceType": "source_link"
       },
       {
         "label": "Location Map",
         "title": "East Nashville source area",
         "description": "Neighborhood frame for the May 12 source pass.",
         "url": "https://www.google.com/maps/search/East+Nashville+Nashville+TN",
-        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/East+Nashville+Nashville+TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
+    ],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
     ]
   },
   {
@@ -182,7 +217,19 @@
         "url": "https://commons.wikimedia.org/wiki/File:Nashville_from_Shelby_Park_2024.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nashville%20from%20Shelby%20Park%202024.jpg?width=1200",
         "imageAlt": "Downtown Nashville and the Silliman Evans Bridge viewed from Shelby Park.",
-        "credit": "Photo: Antony-22, CC BY-SA 4.0, via Wikimedia Commons."
+        "credit": "Photo: Antony-22, CC BY-SA 4.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nashville_from_Shelby_Park_2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Capture",
@@ -191,21 +238,44 @@
         "url": "https://www.axios.com/local/nashville/2026/05/12/starbucks-state-incentives-nashville-move",
         "imageUrl": "/assets/stories/may12-starbucks-receipt.svg",
         "imageAlt": "Source receipt card for the Axios Nashville Starbucks incentive story.",
-        "credit": "Source receipt card; replace with live source screenshot when captured."
+        "credit": "Source receipt card; replace with live source screenshot when captured.",
+        "provider": "east_meets_nash",
+        "sourceUrl": "https://www.axios.com/local/nashville/2026/05/12/starbucks-state-incentives-nashville-move",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Read the Axios report",
         "description": "Original reported item used for the incentive-watch brief.",
-        "url": "https://www.axios.com/local/nashville/2026/05/12/starbucks-state-incentives-nashville-move"
+        "url": "https://www.axios.com/local/nashville/2026/05/12/starbucks-state-incentives-nashville-move",
+        "sourceUrl": "https://www.axios.com/local/nashville/2026/05/12/starbucks-state-incentives-nashville-move",
+        "sourceType": "source_link"
       },
       {
         "label": "Location Map",
         "title": "Peabody Union watch area",
         "description": "Permanent office location referenced in the Starbucks hub coverage.",
         "url": "https://www.google.com/maps/search/Peabody+Union+Nashville+TN",
-        "embedUrl": "https://www.google.com/maps?q=Peabody%20Union%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=Peabody%20Union%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/Peabody+Union+Nashville+TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
+    ],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
     ]
   },
   {
@@ -274,7 +344,19 @@
         "url": "https://commons.wikimedia.org/wiki/File:Public_Square_Park_fountain_and_dedication.JPG",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Public%20Square%20Park%20fountain%20and%20dedication.JPG?width=1200",
         "imageAlt": "Davidson County Courthouse and Public Square Park fountain in Nashville.",
-        "credit": "Photo: Michael Rivera, CC BY-SA 4.0, via Wikimedia Commons."
+        "credit": "Photo: Michael Rivera, CC BY-SA 4.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Public_Square_Park_fountain_and_dedication.JPG",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Capture",
@@ -283,27 +365,52 @@
         "url": "https://www.nashville.gov/departments/government/boards/tourism-and-convention-commission/meetings/tourism-and-convention-commission-meeting-may-12-2026",
         "imageUrl": "/assets/stories/may12-tourism-meetings-receipt.svg",
         "imageAlt": "Source receipt card for Metro tourism and event funding meetings.",
-        "credit": "Source receipt card; replace with live source screenshot when captured."
+        "credit": "Source receipt card; replace with live source screenshot when captured.",
+        "provider": "east_meets_nash",
+        "sourceUrl": "https://www.nashville.gov/departments/government/boards/tourism-and-convention-commission/meetings/tourism-and-convention-commission-meeting-may-12-2026",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Tourism and Convention Commission meeting",
         "description": "Official Metro page for the May 12 morning meeting.",
-        "url": "https://www.nashville.gov/departments/government/boards/tourism-and-convention-commission/meetings/tourism-and-convention-commission-meeting-may-12-2026"
+        "url": "https://www.nashville.gov/departments/government/boards/tourism-and-convention-commission/meetings/tourism-and-convention-commission-meeting-may-12-2026",
+        "sourceUrl": "https://www.nashville.gov/departments/government/boards/tourism-and-convention-commission/meetings/tourism-and-convention-commission-meeting-may-12-2026",
+        "sourceType": "source_link"
       },
       {
         "label": "Source Trail",
         "title": "Major Event Fund Committee meeting",
         "description": "Official Metro page for the May 12 afternoon meeting.",
-        "url": "https://www.nashville.gov/departments/government/boards/major-event-fund-committee/meetings/major-event-fund-committee-meeting-may-12-2026"
+        "url": "https://www.nashville.gov/departments/government/boards/major-event-fund-committee/meetings/major-event-fund-committee-meeting-may-12-2026",
+        "sourceUrl": "https://www.nashville.gov/departments/government/boards/major-event-fund-committee/meetings/major-event-fund-committee-meeting-may-12-2026",
+        "sourceType": "source_link"
       },
       {
         "label": "Location Map",
         "title": "NCVC meeting area",
         "description": "Meeting location listed on the Metro pages.",
         "url": "https://www.google.com/maps/search/Nashville+Convention+Visitors+Corp",
-        "embedUrl": "https://www.google.com/maps?q=Nashville%20Convention%20Visitors%20Corp%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=Nashville%20Convention%20Visitors%20Corp%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/Nashville+Convention+Visitors+Corp",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
+    ],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
     ]
   },
   {
@@ -372,7 +479,19 @@
         "url": "https://commons.wikimedia.org/wiki/File:TN_SR_155_Briley_Parkway_at_US_31E_Gallatin_Road.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
         "imageAlt": "Gallatin Road near Briley Parkway in Nashville.",
-        "credit": "Photo: Doug Kerr, CC BY-SA 2.0, via Wikimedia Commons."
+        "credit": "Photo: Doug Kerr, CC BY-SA 2.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:TN_SR_155_Briley_Parkway_at_US_31E_Gallatin_Road.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Capture",
@@ -381,27 +500,52 @@
         "url": "https://www.nashville.gov/departments/transportation/events",
         "imageUrl": "/assets/stories/may12-vision-zero-receipt.svg",
         "imageAlt": "Source receipt card for NDOT Vision Zero and hubNashville service requests.",
-        "credit": "Source receipt card; replace with live source screenshot when captured."
+        "credit": "Source receipt card; replace with live source screenshot when captured.",
+        "provider": "east_meets_nash",
+        "sourceUrl": "https://www.nashville.gov/departments/transportation/events",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "NDOT events page",
         "description": "Official Vision Zero Advisory Committee meeting listing.",
-        "url": "https://www.nashville.gov/departments/transportation/events"
+        "url": "https://www.nashville.gov/departments/transportation/events",
+        "sourceUrl": "https://www.nashville.gov/departments/transportation/events",
+        "sourceType": "source_link"
       },
       {
         "label": "Source Trail",
         "title": "hubNashville public summary",
         "description": "Public service-request categories and monthly request context.",
-        "url": "https://www.nashville.gov/departments/government/hubnashville"
+        "url": "https://www.nashville.gov/departments/government/hubnashville",
+        "sourceUrl": "https://www.nashville.gov/departments/government/hubnashville",
+        "sourceType": "source_link"
       },
       {
         "label": "Location Map",
         "title": "East Nashville road-safety frame",
         "description": "Neighborhood map for the road-safety and irritation-index story.",
         "url": "https://www.google.com/maps/search/East+Nashville+Nashville+TN",
-        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/East+Nashville+Nashville+TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
+    ],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
     ]
   },
   {
@@ -465,7 +609,19 @@
         "url": "https://commons.wikimedia.org/wiki/File:Nissan_Stadium_wide_angle.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20Stadium%20wide%20angle.jpg?width=1200",
         "imageAlt": "Wide angle real photograph of Nissan Stadium on Nashville's East Bank.",
-        "credit": "Photo: Quintin Soloviev, CC BY 4.0, via Wikimedia Commons."
+        "credit": "Photo: Quintin Soloviev, CC BY 4.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nissan_Stadium_wide_angle.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "relevance": "strong",
+        "relevanceScore": 72,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Capture",
@@ -474,21 +630,44 @@
         "url": "https://www.nashville.gov/featured-initiatives/east-bank-development",
         "imageUrl": "/assets/stories/may12-east-bank-receipt.svg",
         "imageAlt": "Source receipt card for Metro East Bank development coverage.",
-        "credit": "Source receipt card; replace with live source screenshot when captured."
+        "credit": "Source receipt card; replace with live source screenshot when captured.",
+        "provider": "east_meets_nash",
+        "sourceUrl": "https://www.nashville.gov/featured-initiatives/east-bank-development",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Metro East Bank Development",
         "description": "Official initiative page for East Bank Boulevard and development updates.",
-        "url": "https://www.nashville.gov/featured-initiatives/east-bank-development"
+        "url": "https://www.nashville.gov/featured-initiatives/east-bank-development",
+        "sourceUrl": "https://www.nashville.gov/featured-initiatives/east-bank-development",
+        "sourceType": "source_link"
       },
       {
         "label": "Location Map",
         "title": "East Bank watch area",
         "description": "Riverfront area connected to the boulevard and development watch.",
         "url": "https://www.google.com/maps/search/East+Bank+Nashville+TN",
-        "embedUrl": "https://www.google.com/maps?q=East%20Bank%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=East%20Bank%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/East+Bank+Nashville+TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
+    ],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
     ]
   },
   {
@@ -552,7 +731,19 @@
         "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
         "imageAlt": "A row of old brick buildings in Nashville.",
-        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons."
+        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Capture",
@@ -561,21 +752,44 @@
         "url": "https://www.thebasementnashville.com/tm-venue/the-basement-east/",
         "imageUrl": "/assets/stories/may12-basement-east-receipt.svg",
         "imageAlt": "Source receipt card for The Basement East May 12 concert listing.",
-        "credit": "Source receipt card; replace with live source screenshot when captured."
+        "credit": "Source receipt card; replace with live source screenshot when captured.",
+        "provider": "east_meets_nash",
+        "sourceUrl": "https://www.thebasementnashville.com/tm-venue/the-basement-east/",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "The Basement East event calendar",
         "description": "Direct venue calendar for show timing and lineup checks.",
-        "url": "https://www.thebasementnashville.com/tm-venue/the-basement-east/"
+        "url": "https://www.thebasementnashville.com/tm-venue/the-basement-east/",
+        "sourceUrl": "https://www.thebasementnashville.com/tm-venue/the-basement-east/",
+        "sourceType": "source_link"
       },
       {
         "label": "Location Map",
         "title": "The Basement East",
         "description": "Venue location for the same-day event quick hit.",
         "url": "https://www.google.com/maps/search/The+Basement+East+917+Woodland+St+Nashville+TN",
-        "embedUrl": "https://www.google.com/maps?q=The%20Basement%20East%20917%20Woodland%20St%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=The%20Basement%20East%20917%20Woodland%20St%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/The+Basement+East+917+Woodland+St+Nashville+TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
+    ],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
     ]
   },
   {
@@ -639,7 +853,19 @@
         "url": "https://commons.wikimedia.org/wiki/File:Eastpark.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastpark.jpg?width=1200",
         "imageAlt": "A real photograph of East Park in East Nashville.",
-        "credit": "Photo: Stephen Yeargin, CC BY-SA 2.0, via Wikimedia Commons."
+        "credit": "Photo: Stephen Yeargin, CC BY-SA 2.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eastpark.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Capture",
@@ -648,21 +874,44 @@
         "url": "https://library.nashville.gov/locations/east-branch",
         "imageUrl": "/assets/stories/may12-east-branch-receipt.svg",
         "imageAlt": "Source receipt card for East Branch Library hours and amenities.",
-        "credit": "Source receipt card; replace with live source screenshot when captured."
+        "credit": "Source receipt card; replace with live source screenshot when captured.",
+        "provider": "east_meets_nash",
+        "sourceUrl": "https://library.nashville.gov/locations/east-branch",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Nashville Public Library: East Branch",
         "description": "Direct branch page for hours, address, and amenities.",
-        "url": "https://library.nashville.gov/locations/east-branch"
+        "url": "https://library.nashville.gov/locations/east-branch",
+        "sourceUrl": "https://library.nashville.gov/locations/east-branch",
+        "sourceType": "source_link"
       },
       {
         "label": "Location Map",
         "title": "East Branch Library",
         "description": "Library location for the civic utility item.",
         "url": "https://www.google.com/maps/search/East+Branch+Library+206+Gallatin+Ave+Nashville+TN",
-        "embedUrl": "https://www.google.com/maps?q=East%20Branch%20Library%20206%20Gallatin%20Ave%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=East%20Branch%20Library%20206%20Gallatin%20Ave%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/East+Branch+Library+206+Gallatin+Ave+Nashville+TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
+    ],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
     ]
   },
   {
@@ -731,7 +980,19 @@
         "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
         "imageAlt": "A row of old brick buildings in Nashville.",
-        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons."
+        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Capture",
@@ -740,27 +1001,52 @@
         "url": "https://www.5pointsdiner.com/brunch",
         "imageUrl": "/assets/stories/may12-five-points-diner-receipt.svg",
         "imageAlt": "Source receipt card for 5 Points Diner direct-source check.",
-        "credit": "Source receipt card; replace with live source screenshot when captured."
+        "credit": "Source receipt card; replace with live source screenshot when captured.",
+        "provider": "east_meets_nash",
+        "sourceUrl": "https://www.5pointsdiner.com/brunch",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "5 Points Diner direct page",
         "description": "Current business source for the restaurant watch item.",
-        "url": "https://www.5pointsdiner.com/brunch"
+        "url": "https://www.5pointsdiner.com/brunch",
+        "sourceUrl": "https://www.5pointsdiner.com/brunch",
+        "sourceType": "source_link"
       },
       {
         "label": "Source Trail",
         "title": "NewsChannel 5 archive",
         "description": "Historical opening coverage used as stale-source context.",
-        "url": "https://www.newschannel5.com/news/5-points-diner-bar-coming-to-east-nashville-this-may"
+        "url": "https://www.newschannel5.com/news/5-points-diner-bar-coming-to-east-nashville-this-may",
+        "sourceUrl": "https://www.newschannel5.com/news/5-points-diner-bar-coming-to-east-nashville-this-may",
+        "sourceType": "source_link"
       },
       {
         "label": "Location Map",
         "title": "1016 Woodland Street",
         "description": "Five Points address checked in the restaurant watch item.",
         "url": "https://www.google.com/maps/search/1016+Woodland+Street+Nashville+TN",
-        "embedUrl": "https://www.google.com/maps?q=1016%20Woodland%20Street%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=1016%20Woodland%20Street%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/1016+Woodland+Street+Nashville+TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
+    ],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
     ]
   },
   {
@@ -805,12 +1091,25 @@
         "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
         "imageAlt": "A row of old brick buildings in Nashville.",
-        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons."
+        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Hero Art",
         "title": "Generated editorial illustration",
-        "description": "A custom East Meets Nash hero image for the opening package, built as an illustration rather than a photo."
+        "description": "A custom East Meets Nash hero image for the opening package, built as an illustration rather than a photo.",
+        "sourceType": "source_link"
       },
       {
         "label": "Source Receipt",
@@ -819,25 +1118,42 @@
         "url": "https://www.qsrmagazine.com/news/party-fowl-to-open-in-east-nashville/",
         "imageUrl": "/assets/stories/party-fowl-opening-receipt.svg",
         "imageAlt": "Party Fowl Five Points opening source receipt card.",
-        "credit": "Source receipt card; replace with live storefront or source screenshot when captured."
+        "credit": "Source receipt card; replace with live storefront or source screenshot when captured.",
+        "provider": "east_meets_nash",
+        "sourceUrl": "https://www.qsrmagazine.com/news/party-fowl-to-open-in-east-nashville/",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Opening announcement",
         "description": "QSR published the opening date, address, giveaways, hours, and launch-day details.",
-        "url": "https://www.qsrmagazine.com/news/party-fowl-to-open-in-east-nashville/"
+        "url": "https://www.qsrmagazine.com/news/party-fowl-to-open-in-east-nashville/",
+        "sourceUrl": "https://www.qsrmagazine.com/news/party-fowl-to-open-in-east-nashville/",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "1016 Woodland St. on Google Maps",
         "description": "Open the place page for current map context, routing, nearby photos, and hours once the listing updates.",
         "url": "https://www.google.com/maps/search/?api=1&query=1016%20Woodland%20St%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=1016%20Woodland%20St%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=1016%20Woodland%20St%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=1016%20Woodland%20St%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       },
       {
         "label": "Follow-Up",
         "title": "Opening-week reality check",
-        "description": "After Monday, the desk should verify crowds, hours, menu execution, and whether locals or visitors claim the room first."
+        "description": "After Monday, the desk should verify crowds, hours, menu execution, and whether locals or visitors claim the room first.",
+        "sourceType": "source_link"
       }
     ],
     "sourceNote": "Treat this as confirmed for opening logistics. Any review, crowd read, or vibe judgment needs a post-opening visit or reader tips.",
@@ -872,7 +1188,14 @@
       "x": "Party Fowl opens East Nashville tomorrow at 1016 Woodland, which means Five Points gets hot chicken, slushies, and a ribbon cutting with volume.",
       "instagram": "Party Fowl lands in Five Points tomorrow. Hats, hot chicken, late hours, and East Nashville pretending it is not curious.",
       "video": "Mabel stands outside a stylized Woodland Street storefront and explains the opening like a weather event with sauce levels."
-    }
+    },
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "east-nashville-breaks-up-with-grass",
@@ -916,45 +1239,73 @@
         "url": "https://commons.wikimedia.org/wiki/File:Eastpark.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastpark.jpg?width=1200",
         "imageAlt": "A real photograph of East Park in East Nashville.",
-        "credit": "Photo: Stephen Yeargin, CC BY-SA 2.0, via Wikimedia Commons."
+        "credit": "Photo: Stephen Yeargin, CC BY-SA 2.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eastpark.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Screenshot",
         "title": "East Nashville Facebook Group Post (redacted for privacy)",
         "description": "A redacted screenshot from the private East Nashville Facebook group source thread.",
         "imageUrl": "/assets/stories/facebook-grass-post-redacted.png",
-        "imageAlt": "Redacted screenshot of an East Nashville Facebook group post about replacing a tiny grass patch with clover and flowers."
+        "imageAlt": "Redacted screenshot of an East Nashville Facebook group post about replacing a tiny grass patch with clover and flowers.",
+        "provider": "private_capture",
+        "sourceType": "licensed_photo"
       },
       {
         "label": "Comment Screenshot",
         "title": "Juiciest comments",
         "description": "A redacted screenshot of the comment thread that turned the lawn confession into a neighborhood conversation.",
         "imageUrl": "/assets/stories/facebook-grass-comments-redacted.png",
-        "imageAlt": "Redacted screenshot of Facebook comments about a micro-flower yard and neighbors following the grass replacement conversation."
+        "imageAlt": "Redacted screenshot of Facebook comments about a micro-flower yard and neighbors following the grass replacement conversation.",
+        "provider": "private_capture",
+        "sourceType": "licensed_photo"
       },
       {
         "label": "Source Trail",
         "title": "Private Facebook group capture",
         "description": "A supervised capture from the East Nashville group thread. The public story summarizes the post and comment themes rather than republishing the private thread.",
-        "url": "https://www.facebook.com/groups/eastnashvilleofficial/"
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/",
+        "sourceUrl": "https://www.facebook.com/groups/eastnashvilleofficial/",
+        "sourceType": "source_link"
       },
       {
         "label": "Public Context",
         "title": "Tennessee Smart Yards",
         "description": "University of Tennessee program focused on sustainable yard practices, plant choice, water quality, and wildlife-friendly landscaping.",
-        "url": "https://tnyards.utk.edu/"
+        "url": "https://tnyards.utk.edu/",
+        "sourceUrl": "https://tnyards.utk.edu/",
+        "sourceType": "source_link"
       },
       {
         "label": "Follow-Up",
         "title": "Lawn Divorce Court submissions",
-        "description": "Collect resident before/after photos, plant lists, what failed, what worked, and whether the yard became prettier or merely more honest."
+        "description": "Collect resident before/after photos, plant lists, what failed, what worked, and whether the yard became prettier or merely more honest.",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "East Nashville neighborhood context",
         "description": "Broad map context only; the private post location stays undisclosed.",
         "url": "https://www.google.com/maps/search/?api=1&query=East%20Nashville%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=East%20Nashville%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
     ],
     "sourceNote": "Private-group details are paraphrased. Do not publish screenshots or identify individual commenters without permission; use the thread as a lead and texture source.",
@@ -988,7 +1339,14 @@
       "x": "East Nashville may be quietly breaking up with grass. A private group thread turned into clover talk, micro-flower yard dreams, and small-lot lawn fatigue.",
       "instagram": "The lawn is tiny. The feelings are large. East Nashville has entered its clover/micro-flower era, and yes, the bees were discussed.",
       "video": "Parker stands in a tiny patchy yard like a courtroom reporter and announces the first case of Lawn Divorce Court."
-    }
+    },
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "tiny-bluejay-emergency",
@@ -1032,33 +1390,62 @@
         "url": "https://commons.wikimedia.org/wiki/File:Blue_Jay-27527.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Blue%20Jay-27527.jpg?width=1200",
         "imageAlt": "A real blue jay perched on a tree branch.",
-        "credit": "Photo: Ken Thomas, public domain, via Wikimedia Commons."
+        "credit": "Photo: Ken Thomas, public domain, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_Jay-27527.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Receipt",
         "title": "Tiny bluejay source receipt",
         "description": "Privacy-safe receipt card for the supervised private group capture and public bird context.",
         "imageUrl": "/assets/stories/tiny-bluejay-source-receipt.svg",
-        "imageAlt": "Receipt card summarizing a tiny bluejay procurement request and Gallatin retail lead."
+        "imageAlt": "Receipt card summarizing a tiny bluejay procurement request and Gallatin retail lead.",
+        "provider": "east_meets_nash",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Private Facebook group capture",
         "description": "A supervised capture from the East Nashville group thread. The public story summarizes the request and the comment lead instead of republishing the private post.",
-        "url": "https://www.facebook.com/groups/eastnashvilleofficial/"
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/",
+        "sourceUrl": "https://www.facebook.com/groups/eastnashvilleofficial/",
+        "sourceType": "source_link"
       },
       {
         "label": "Public Context",
         "title": "Blue Jay overview",
         "description": "Cornell Lab's All About Birds page gives the basic bird context for the non-procurement portion of this miniature emergency.",
-        "url": "https://www.allaboutbirds.org/guide/Blue_Jay"
+        "url": "https://www.allaboutbirds.org/guide/Blue_Jay",
+        "sourceUrl": "https://www.allaboutbirds.org/guide/Blue_Jay",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "Gallatin retail scouting zone",
         "description": "The comment thread pointed toward Gallatin retail shelves as a possible same-day solution.",
         "url": "https://www.google.com/maps/search/?api=1&query=Walgreens%20700%20Gallatin%20Ave%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=Walgreens%20700%20Gallatin%20Ave%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=Walgreens%20700%20Gallatin%20Ave%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Walgreens%20700%20Gallatin%20Ave%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
     ],
     "sourceNote": "Private-group details are paraphrased. Treat the Walgreens sighting as a comment lead, not confirmed inventory; verify before sending anyone on a bird errand.",
@@ -1092,7 +1479,14 @@
       "x": "East Nashville had a tiny bluejay emergency today: 14 miniature birds needed by Wednesday, plus one comment pointing toward Gallatin retail intelligence.",
       "instagram": "A neighbor needed 14 tiny bluejays by Wednesday. The comments immediately activated a local supply chain. This is journalism now.",
       "video": "Lila stands beside a fake 3D printer and reports on the urgent civic question: where does one find 14 tiny bluejays by Wednesday?"
-    }
+    },
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "gallatin-main-safety-project",
@@ -1136,30 +1530,53 @@
         "url": "https://commons.wikimedia.org/wiki/File:TN_SR_155_Briley_Parkway_at_US_31E_Gallatin_Road.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
         "imageAlt": "Gallatin Road near Briley Parkway in Nashville.",
-        "credit": "Photo: Doug Kerr, CC BY-SA 2.0, via Wikimedia Commons."
+        "credit": "Photo: Doug Kerr, CC BY-SA 2.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:TN_SR_155_Briley_Parkway_at_US_31E_Gallatin_Road.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "relevance": "strong",
+        "relevanceScore": 72,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Hero Art",
         "title": "Generated corridor illustration",
-        "description": "A custom visual for recurring Gallatin coverage, designed for story, newsletter, and social use."
+        "description": "A custom visual for recurring Gallatin coverage, designed for story, newsletter, and social use.",
+        "sourceType": "source_link"
       },
       {
         "label": "Public Record",
         "title": "NDOT project page",
         "description": "The official page defines the project extent and complete-streets vision.",
-        "url": "https://www.nashville.gov/departments/transportation/projects/complete-streets/gallatin-pike-and-main-street"
+        "url": "https://www.nashville.gov/departments/transportation/projects/complete-streets/gallatin-pike-and-main-street",
+        "sourceUrl": "https://www.nashville.gov/departments/transportation/projects/complete-streets/gallatin-pike-and-main-street",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "Project anchor: Main Street at South 10th Street",
         "description": "An exact anchor point where the Main Street project segment meets the Gallatin Pike segment. This is not a substitute for the full corridor map.",
         "url": "https://www.google.com/maps/search/?api=1&query=Main%20Street%20and%20South%2010th%20Street%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=Main%20Street%20and%20South%2010th%20Street%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=Main%20Street%20and%20South%2010th%20Street%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Main%20Street%20and%20South%2010th%20Street%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       },
       {
         "label": "Next Graphic",
         "title": "Crosswalk tracker",
-        "description": "Build a simple map/list of which crossings are planned, upgraded, delayed, or still decorative."
+        "description": "Build a simple map/list of which crossings are planned, upgraded, delayed, or still decorative.",
+        "sourceType": "source_link"
       }
     ],
     "sourceNote": "This is confirmed at the project level. Construction timing and block-by-block impacts need ongoing NDOT checks.",
@@ -1194,7 +1611,14 @@
       "x": "Gallatin/Main safety work is moving from complaint cloud to actual project: repaving, crossings, calming, and eventually transit-priority designs.",
       "instagram": "Gallatin is getting the Please Stop Treating This Like Daytona package. Cones, crosswalks, bus-lane arguments, the whole civic casserole.",
       "video": "Parker narrates a Gallatin corridor map while holding coffee like a traffic engineer with a childcare deadline."
-    }
+    },
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "east-trinity-gallatin-pedestrian-death",
@@ -1236,33 +1660,62 @@
         "url": "https://commons.wikimedia.org/wiki/File:TN_SR_155_Briley_Parkway_at_US_31E_Gallatin_Road.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
         "imageAlt": "Gallatin Road near Briley Parkway in Nashville.",
-        "credit": "Photo: Doug Kerr, CC BY-SA 2.0, via Wikimedia Commons."
+        "credit": "Photo: Doug Kerr, CC BY-SA 2.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:TN_SR_155_Briley_Parkway_at_US_31E_Gallatin_Road.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "relevance": "strong",
+        "relevanceScore": 72,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Receipt",
         "title": "East Trinity and Gallatin source receipt",
         "description": "Official-release receipt card with map-only location context; no crash-scene image.",
         "imageUrl": "/assets/stories/east-trinity-gallatin-receipt.svg",
-        "imageAlt": "Receipt card for the MNPD release and pedestrian safety context at East Trinity and Gallatin."
+        "imageAlt": "Receipt card for the MNPD release and pedestrian safety context at East Trinity and Gallatin.",
+        "provider": "east_meets_nash",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Official",
         "title": "MNPD release",
         "description": "The police release is the source for the basic facts currently publishable.",
-        "url": "https://www.nashville.gov/departments/police/news/pedestrian-fatally-struck-semi-east-nashville-after-stumbling-roadway"
+        "url": "https://www.nashville.gov/departments/police/news/pedestrian-fatally-struck-semi-east-nashville-after-stumbling-roadway",
+        "sourceUrl": "https://www.nashville.gov/departments/police/news/pedestrian-fatally-struck-semi-east-nashville-after-stumbling-roadway",
+        "sourceType": "source_link"
       },
       {
         "label": "Context",
         "title": "Pedestrian fatality trend",
         "description": "WPLN reported a sharp increase in Nashville pedestrian fatalities in 2026.",
-        "url": "https://wpln.org/post/nashville-pedestrian-and-roadway-deaths-have-spiked-in-2026/"
+        "url": "https://wpln.org/post/nashville-pedestrian-and-roadway-deaths-have-spiked-in-2026/",
+        "sourceUrl": "https://wpln.org/post/nashville-pedestrian-and-roadway-deaths-have-spiked-in-2026/",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "East Trinity Lane at Gallatin Pike",
         "description": "Map-only intersection context. We are not using crash-scene photos here.",
         "url": "https://www.google.com/maps/search/?api=1&query=East%20Trinity%20Lane%20and%20Gallatin%20Pike%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=East%20Trinity%20Lane%20and%20Gallatin%20Pike%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=East%20Trinity%20Lane%20and%20Gallatin%20Pike%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=East%20Trinity%20Lane%20and%20Gallatin%20Pike%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
     ],
     "sourceNote": "Avoid naming the victim until family notification and reliable identification are complete. No mug shots, no speculation.",
@@ -1294,7 +1747,14 @@
       "video": "June delivers a short, restrained safety brief with the MNPD release and the Gallatin corridor context on screen."
     },
     "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
-    "heroAlt": "Gallatin Road near Briley Parkway in Nashville."
+    "heroAlt": "Gallatin Road near Briley Parkway in Nashville.",
+    "photoStatus": "sensitive_map_only",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "dry-cleaning-basement-east-tonight",
@@ -1336,33 +1796,62 @@
         "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
         "imageAlt": "A row of old brick buildings in Nashville.",
-        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons."
+        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Receipt",
         "title": "Dry Cleaning event receipt",
         "description": "Listing receipt card for the Basement East show trail.",
         "imageUrl": "/assets/stories/dry-cleaning-basement-east-receipt.svg",
-        "imageAlt": "Receipt card for Dry Cleaning at The Basement East with public event listing sources."
+        "imageAlt": "Receipt card for Dry Cleaning at The Basement East with public event listing sources.",
+        "provider": "east_meets_nash",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Listing",
         "title": "Ticketmaster venue page",
         "description": "Lists Dry Cleaning with Hotline TNT at The Basement East on May 10.",
-        "url": "https://www.ticketmaster.com/the-basement-east-tickets-nashville/venue/222610"
+        "url": "https://www.ticketmaster.com/the-basement-east-tickets-nashville/venue/222610",
+        "sourceUrl": "https://www.ticketmaster.com/the-basement-east-tickets-nashville/venue/222610",
+        "sourceType": "source_link"
       },
       {
         "label": "Listing",
         "title": "JamBase event page",
         "description": "Lists the May 10 Dry Cleaning show with time, venue, and ticket range.",
-        "url": "https://www.jambase.com/show/dry-cleaning-the-basement-east-20260510"
+        "url": "https://www.jambase.com/show/dry-cleaning-the-basement-east-20260510",
+        "sourceUrl": "https://www.jambase.com/show/dry-cleaning-the-basement-east-20260510",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "The Basement East",
         "description": "Venue map context for show-night planning around Woodland Street.",
         "url": "https://www.google.com/maps/search/?api=1&query=The%20Basement%20East%20917%20Woodland%20St%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=The%20Basement%20East%20917%20Woodland%20St%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=The%20Basement%20East%20917%20Woodland%20St%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=The%20Basement%20East%20917%20Woodland%20St%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
     ],
     "sourceNote": "Event lineups can change. The final pre-departure source should be the venue or ticketing page.",
@@ -1394,7 +1883,14 @@
       "video": "Riff stands under a fake venue marquee and gives the show listing, then sighs at the concept of Sunday ambition."
     },
     "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
-    "heroAlt": "A row of old brick buildings in Nashville."
+    "heroAlt": "A row of old brick buildings in Nashville.",
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "eastwood-cleanup-tabla-rasa",
@@ -1436,27 +1932,54 @@
         "url": "https://commons.wikimedia.org/wiki/File:Eastpark.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastpark.jpg?width=1200",
         "imageAlt": "A real photograph of East Park in East Nashville.",
-        "credit": "Photo: Stephen Yeargin, CC BY-SA 2.0, via Wikimedia Commons."
+        "credit": "Photo: Stephen Yeargin, CC BY-SA 2.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eastpark.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Receipt",
         "title": "Eastwood cleanup event receipt",
         "description": "Official-listing receipt card for the Eastwood cleanup at Tabla Rasa Toys.",
         "imageUrl": "/assets/stories/eastwood-cleanup-receipt.svg",
-        "imageAlt": "Receipt card for the Eastwood Neighbors cleanup and Tabla Rasa Toys location."
+        "imageAlt": "Receipt card for the Eastwood Neighbors cleanup and Tabla Rasa Toys location.",
+        "provider": "east_meets_nash",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Event",
         "title": "NDOT events listing",
         "description": "The citywide NDOT events page lists the cleanup, time, date, and location.",
-        "url": "https://www.nashville.gov/departments/transportation/events"
+        "url": "https://www.nashville.gov/departments/transportation/events",
+        "sourceUrl": "https://www.nashville.gov/departments/transportation/events",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "Tabla Rasa Toys",
         "description": "Location context for the Eastwood cleanup meeting spot.",
         "url": "https://www.google.com/maps/search/?api=1&query=Tabla%20Rasa%20Toys%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=Tabla%20Rasa%20Toys%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=Tabla%20Rasa%20Toys%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tabla%20Rasa%20Toys%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
     ],
     "sourceNote": "The listing is brief. Verify supplies/registration with organizer if turning this into a larger post.",
@@ -1488,7 +2011,14 @@
       "video": "Parker delivers a cleanup reminder while ranking trash-grabber posture and sensible shoe choices."
     },
     "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastpark.jpg?width=1200",
-    "heroAlt": "A real photograph of East Park in East Nashville."
+    "heroAlt": "A real photograph of East Park in East Nashville.",
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "lost-found-gallatin-food-hub",
@@ -1532,38 +2062,68 @@
         "url": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
         "imageAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
-        "credit": "Photo: Evan Nichols, CC BY 3.0, via Wikimedia Commons."
+        "credit": "Photo: Evan Nichols, CC BY 3.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Hero Art",
         "title": "Generated food-hub illustration",
-        "description": "A custom visual for the Lost & Found package and future Gallatin food coverage."
+        "description": "A custom visual for the Lost & Found package and future Gallatin food coverage.",
+        "sourceType": "source_link"
       },
       {
         "label": "Source Receipt",
         "title": "Lost and Found source receipt",
         "description": "Business and reporting receipt card for the Gallatin Pike food hub.",
         "imageUrl": "/assets/stories/lost-found-gallatin-receipt.svg",
-        "imageAlt": "Receipt card for Lost and Found on Gallatin Pike with business and reported sources."
+        "imageAlt": "Receipt card for Lost and Found on Gallatin Pike with business and reported sources.",
+        "provider": "east_meets_nash",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Official",
         "title": "Lost & Found concept list",
         "description": "The business site lists current and coming concepts, location, hours, and programming.",
-        "url": "https://www.lostandfoundnashville.com/concepts"
+        "url": "https://www.lostandfoundnashville.com/concepts",
+        "sourceUrl": "https://www.lostandfoundnashville.com/concepts",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "Lost and Found, 3104 Gallatin Pike",
         "description": "Place map for location, routing, and current user-photo context.",
         "url": "https://www.google.com/maps/search/?api=1&query=3104%20Gallatin%20Pike%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=3104%20Gallatin%20Pike%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=3104%20Gallatin%20Pike%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=3104%20Gallatin%20Pike%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       },
       {
         "label": "Reported",
         "title": "Sarabha's expansion",
         "description": "What Now Nashville reports Sarabha's is targeting a late-May opening at Lost & Found.",
-        "url": "https://whatnow.com/nashville/restaurants/sarabhas-creamery-opening-in-east-nashville-for-second-location/"
+        "url": "https://whatnow.com/nashville/restaurants/sarabhas-creamery-opening-in-east-nashville-for-second-location/",
+        "sourceUrl": "https://whatnow.com/nashville/restaurants/sarabhas-creamery-opening-in-east-nashville-for-second-location/",
+        "sourceType": "source_link"
       }
     ],
     "sourceNote": "Use direct business sources for hours/concepts and reported sources for opening timing. Re-check before publishing a hard Sarabha's opening date.",
@@ -1603,7 +2163,14 @@
       "x": "Lost & Found on Gallatin is turning into a full neighborhood food/drink/retail hub, with Sarabha's Creamery targeting late May.",
       "instagram": "Gallatin's new hangout has pizza, wine, cocktails, coffee, food trucks, vintage, and soon Indian ice cream. This is not a drill.",
       "video": "Mabel tours a stylized open-air food hub and explains why string lights are now infrastructure."
-    }
+    },
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "shelby-bottoms-may-calendar",
@@ -1645,26 +2212,49 @@
         "url": "https://commons.wikimedia.org/wiki/File:Shelby_Park_Nashville_05.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shelby%20Park%20Nashville%2005.jpg?width=1200",
         "imageAlt": "Shelby Park in Nashville.",
-        "credit": "Photo: Kaldari, public domain, via Wikimedia Commons."
+        "credit": "Photo: Kaldari, public domain, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shelby_Park_Nashville_05.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "relevance": "strong",
+        "relevanceScore": 72,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Calendar",
         "title": "Shelby Bottoms event list",
         "description": "Metro Parks lists upcoming nature center programs and times.",
-        "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center/events"
+        "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center/events",
+        "sourceUrl": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center/events",
+        "sourceType": "source_link"
       },
       {
         "label": "Context",
         "title": "About Shelby Bottoms",
         "description": "Metro Parks describes the nature center, trails, and educational programming.",
-        "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center"
+        "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center",
+        "sourceUrl": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "Shelby Bottoms Nature Center",
         "description": "Map context for nature center events and nearby park access.",
         "url": "https://www.google.com/maps/search/?api=1&query=Shelby%20Bottoms%20Nature%20Center%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=Shelby%20Bottoms%20Nature%20Center%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=Shelby%20Bottoms%20Nature%20Center%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Shelby%20Bottoms%20Nature%20Center%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
     ],
     "sourceNote": "Good daily-brief item. Verify registration requirements before promoting as a family plan.",
@@ -1696,7 +2286,14 @@
       "video": "Parker gives the Shelby Bottoms calendar like a survival briefing for families and people who need trees."
     },
     "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Shelby%20Park%20Nashville%2005.jpg?width=1200",
-    "heroAlt": "Shelby Park in Nashville."
+    "heroAlt": "Shelby Park in Nashville.",
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "traffic-gallatin-ballet",
@@ -1744,30 +2341,64 @@
         "url": "https://commons.wikimedia.org/wiki/File:TN_SR_155_Briley_Parkway_at_US_31E_Gallatin_Road.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
         "imageAlt": "Gallatin Road near Briley Parkway in Nashville.",
-        "credit": "Photo: Doug Kerr, CC BY-SA 2.0, via Wikimedia Commons."
+        "credit": "Photo: Doug Kerr, CC BY-SA 2.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:TN_SR_155_Briley_Parkway_at_US_31E_Gallatin_Road.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Receipt",
         "title": "Gallatin traffic watch receipt",
         "description": "Prototype receipt card for the traffic watch lane.",
         "imageUrl": "/assets/stories/gallatin-traffic-watch-receipt.svg",
-        "imageAlt": "Receipt card for a Gallatin Pike traffic watch prototype."
+        "imageAlt": "Receipt card for a Gallatin Pike traffic watch prototype.",
+        "provider": "east_meets_nash",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Traffic watch source lane",
         "description": "Attach a live NDOT alert, hubNashville record, or supervised resident capture before a reported version runs.",
-        "url": "/admin/sources"
+        "url": "/admin/sources",
+        "sourceUrl": "/admin/sources",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "Gallatin Pike corridor",
         "description": "Broad corridor map context for the traffic watch prototype.",
         "url": "https://www.google.com/maps/search/?api=1&query=Gallatin%20Pike%20East%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=Gallatin%20Pike%20East%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=Gallatin%20Pike%20East%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Gallatin%20Pike%20East%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "restaurant-soft-launch",
@@ -1815,30 +2446,64 @@
         "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
         "imageAlt": "A row of old brick buildings in Nashville.",
-        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons."
+        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Receipt",
         "title": "Restaurant soft-launch receipt",
         "description": "Prototype receipt card for public posts, storefront photo, menu, or owner confirmation.",
         "imageUrl": "/assets/stories/restaurant-soft-launch-receipt.svg",
-        "imageAlt": "Receipt card for a Five Points restaurant soft-launch prototype."
+        "imageAlt": "Receipt card for a Five Points restaurant soft-launch prototype.",
+        "provider": "east_meets_nash",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Restaurant watch source lane",
         "description": "Attach the public social post, menu page, direct business page, or storefront photo before publishing as reported.",
-        "url": "/admin/sources"
+        "url": "/admin/sources",
+        "sourceUrl": "/admin/sources",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "Five Points restaurant watch zone",
         "description": "Neighborhood map context for the soft-launch watch lane.",
         "url": "https://www.google.com/maps/search/?api=1&query=Five%20Points%20East%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=Five%20Points%20East%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=Five%20Points%20East%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Five%20Points%20East%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "sidewalk-parent-index",
@@ -1886,30 +2551,64 @@
         "url": "https://commons.wikimedia.org/wiki/File:Shelby_Park_Nashville_05.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shelby%20Park%20Nashville%2005.jpg?width=1200",
         "imageAlt": "Shelby Park in Nashville.",
-        "credit": "Photo: Kaldari, public domain, via Wikimedia Commons."
+        "credit": "Photo: Kaldari, public domain, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shelby_Park_Nashville_05.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "relevance": "strong",
+        "relevanceScore": 72,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Receipt",
         "title": "Sidewalk Parent Index receipt",
         "description": "Prototype receipt card for reader photos, service requests, and stroller-route notes.",
         "imageUrl": "/assets/stories/sidewalk-parent-index-receipt.svg",
-        "imageAlt": "Receipt card for the Sidewalk Parent Index prototype around Shelby."
+        "imageAlt": "Receipt card for the Sidewalk Parent Index prototype around Shelby.",
+        "provider": "east_meets_nash",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Family walkability source lane",
         "description": "Attach reader photos, hubNashville request numbers, or supervised tips before publishing as reported.",
-        "url": "/admin/sources"
+        "url": "/admin/sources",
+        "sourceUrl": "/admin/sources",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "Shelby walkability context",
         "description": "Broad map context for the family walkability prototype.",
         "url": "https://www.google.com/maps/search/?api=1&query=Shelby%20Park%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=Shelby%20Park%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=Shelby%20Park%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Shelby%20Park%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "permit-file-whisper",
@@ -1957,30 +2656,64 @@
         "url": "https://commons.wikimedia.org/wiki/File:EastNashvilleHD.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/EastNashvilleHD.jpg?width=1200",
         "imageAlt": "A real photograph of the East Nashville Historic District.",
-        "credit": "Photo: Andrew Jameson, CC BY-SA 3.0, via Wikimedia Commons."
+        "credit": "Photo: Andrew Jameson, CC BY-SA 3.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:EastNashvilleHD.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "relevance": "strong",
+        "relevanceScore": 72,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Receipt",
         "title": "Permit file source receipt",
         "description": "Prototype receipt card for permit numbers, parcel records, agenda items, and public PDFs.",
         "imageUrl": "/assets/stories/permit-file-whisper-receipt.svg",
-        "imageAlt": "Receipt card for a Lockeland permit-file watch prototype."
+        "imageAlt": "Receipt card for a Lockeland permit-file watch prototype.",
+        "provider": "east_meets_nash",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Public-record source lane",
         "description": "Attach the permit number, parcel address, agenda item, or PDF before publishing as reported.",
-        "url": "/admin/sources"
+        "url": "/admin/sources",
+        "sourceUrl": "/admin/sources",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "Lockeland development watch zone",
         "description": "Neighborhood map context for the permit-watch prototype.",
         "url": "https://www.google.com/maps/search/?api=1&query=Lockeland%20Springs%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=Lockeland%20Springs%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=Lockeland%20Springs%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lockeland%20Springs%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "weekend-chaos-calendar",
@@ -2028,30 +2761,64 @@
         "url": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
         "imageAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
-        "credit": "Photo: Evan Nichols, CC BY 3.0, via Wikimedia Commons."
+        "credit": "Photo: Evan Nichols, CC BY 3.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Receipt",
         "title": "Weekend calendar source receipt",
         "description": "Prototype receipt card for event links, venue posts, ticket pages, and social captions.",
         "imageUrl": "/assets/stories/weekend-calendar-receipt.svg",
-        "imageAlt": "Receipt card for the weekend calendar prototype in Inglewood."
+        "imageAlt": "Receipt card for the weekend calendar prototype in Inglewood.",
+        "provider": "east_meets_nash",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Events source lane",
         "description": "Attach event links, venue posts, ticket pages, and public social captions before publishing as reported.",
-        "url": "/admin/sources"
+        "url": "/admin/sources",
+        "sourceUrl": "/admin/sources",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "Inglewood events watch zone",
         "description": "Neighborhood map context for the weekend calendar prototype.",
         "url": "https://www.google.com/maps/search/?api=1&query=Inglewood%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=Inglewood%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=Inglewood%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Inglewood%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "what-people-are-mad-about",
@@ -2099,30 +2866,64 @@
         "url": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
         "imageAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
-        "credit": "Photo: Evan Nichols, CC BY 3.0, via Wikimedia Commons."
+        "credit": "Photo: Evan Nichols, CC BY 3.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Receipt",
         "title": "Neighborhood outrage receipt",
         "description": "Prototype receipt card for redacted community captures, public records, and tip verification.",
         "imageUrl": "/assets/stories/neighborhood-outrage-receipt.svg",
-        "imageAlt": "Receipt card for a community chatter and neighborhood mood-board prototype."
+        "imageAlt": "Receipt card for a community chatter and neighborhood mood-board prototype.",
+        "provider": "east_meets_nash",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Community chatter source lane",
         "description": "Use supervised Facebook, Nextdoor, comments, tips, and public records; redact private captures before publishing.",
-        "url": "/admin/sources"
+        "url": "/admin/sources",
+        "sourceUrl": "/admin/sources",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "East Nashville mood-board context",
         "description": "Broad neighborhood map context only; private-platform locations stay undisclosed unless verified and public.",
         "url": "https://www.google.com/maps/search/?api=1&query=East%20Nashville%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=East%20Nashville%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "music-venue-ghost",
@@ -2170,30 +2971,64 @@
         "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
         "imageAlt": "A row of old brick buildings in Nashville.",
-        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons."
+        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Receipt",
         "title": "Venue soul-check receipt",
         "description": "Prototype receipt card for venue listings, public posts, ticket pages, and exterior images.",
         "imageUrl": "/assets/stories/venue-soul-check-receipt.svg",
-        "imageAlt": "Receipt card for a Riverside venue review prototype."
+        "imageAlt": "Receipt card for a Riverside venue review prototype.",
+        "provider": "east_meets_nash",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Venue review source lane",
         "description": "Attach venue listing, public post, ticket page, owner note, or exterior image before publishing as reported.",
-        "url": "/admin/sources"
+        "url": "/admin/sources",
+        "sourceUrl": "/admin/sources",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "Riverside venue watch zone",
         "description": "Neighborhood map context for the venue-review prototype.",
         "url": "https://www.google.com/maps/search/?api=1&query=Riverside%20Village%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=Riverside%20Village%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=Riverside%20Village%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Riverside%20Village%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   },
   {
     "id": "classifieds-launch",
@@ -2241,29 +3076,63 @@
         "url": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
         "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
         "imageAlt": "A row of old brick buildings in Nashville.",
-        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons."
+        "credit": "Photo: Kari Shea, CC0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brick_Buildings_Nashville_(Unsplash).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "relevance": "contextual",
+        "relevanceScore": 48,
+        "approvalStatus": "fallback",
+        "rightsNote": "Licensed contextual fallback. Replace with exact original, official, Google Places, or Street View media when approved.",
+        "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+        "sourceType": "licensed_photo",
+        "approvedBy": "Photo Desk backfill",
+        "approvedAt": "2026-05-14"
       },
       {
         "label": "Source Receipt",
         "title": "Classifieds launch receipt",
         "description": "Product-plan receipt card for the jobs, gear, kid stuff, and neighborhood pleas marketplace.",
         "imageUrl": "/assets/stories/classifieds-launch-receipt.svg",
-        "imageAlt": "Receipt card for the East Nashville classifieds product-plan story."
+        "imageAlt": "Receipt card for the East Nashville classifieds product-plan story.",
+        "provider": "east_meets_nash",
+        "sourceType": "receipt_card",
+        "relevance": "receipt",
+        "relevanceScore": 35,
+        "approvalStatus": "approved",
+        "rightsNote": "East Meets Nash source receipt graphic; not a real-world photo."
       },
       {
         "label": "Source Trail",
         "title": "Classifieds product source lane",
         "description": "Use the Source Desk and product plan to attach launch notes, sample listings, and moderation receipts.",
-        "url": "/admin/sources"
+        "url": "/admin/sources",
+        "sourceUrl": "/admin/sources",
+        "sourceType": "source_link"
       },
       {
         "label": "Location",
         "title": "East Nashville classifieds coverage area",
         "description": "Broad map context for the local marketplace coverage area.",
         "url": "https://www.google.com/maps/search/?api=1&query=East%20Nashville%20Nashville%20TN",
-        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed"
+        "embedUrl": "https://www.google.com/maps?q=East%20Nashville%20Nashville%20TN&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=East%20Nashville%20Nashville%20TN",
+        "sourceType": "map_embed",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
       }
     ],
-    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link."
+    "sourceNote": "Prototype seed item. Before running as reported news, replace the receipt card with a live source capture, public record, reader photo, or direct source link.",
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoUnavailableReason": "Exact original, official, Google Places, or Street View hero has not been editor-approved yet.",
+    "photoNeeds": [
+      "Run the Photo Desk with the exact venue/address/intersection.",
+      "Prefer original, official, Google Places, or Street View over broad Commons context.",
+      "Replace the contextual hero after editor approval."
+    ]
   }
 ]

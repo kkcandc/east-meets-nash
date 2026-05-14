@@ -1972,9 +1972,70 @@ dd {
 
 .location-image-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.8fr);
+  grid-template-columns: minmax(240px, 0.75fr) minmax(0, 1fr) minmax(280px, 0.8fr);
   gap: 16px;
   margin-top: 16px;
+}
+
+.location-candidate-list {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  background: #fffaf0;
+  padding: 12px;
+}
+
+.location-candidate-card {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 10px;
+  width: 100%;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  padding: 10px;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.location-candidate-card.selected {
+  border-color: var(--ink);
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+.candidate-score {
+  display: inline-grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  background: var(--yellow);
+  font-weight: 950;
+}
+
+.location-candidate-card strong,
+.location-candidate-card small,
+.location-candidate-card p {
+  display: block;
+  margin: 0;
+}
+
+.location-candidate-card small {
+  margin-top: 3px;
+  color: var(--muted);
+  font-weight: 850;
+  text-transform: capitalize;
+}
+
+.location-candidate-card p {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.35;
 }
 
 .location-preview,
