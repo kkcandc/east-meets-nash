@@ -13,8 +13,8 @@
     "time": "May 12, 2026",
     "priority": 190,
     "imageStyle": "street",
-    "heroImage": "/assets/stories/fallback-street.svg",
-    "heroAlt": "Stylized East Nashville street scene for a daily source brief.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
+    "heroAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
     "factBox": [
       {
         "label": "Date",
@@ -135,8 +135,8 @@
     "time": "May 12, 2026",
     "priority": 179,
     "imageStyle": "permit",
-    "heroImage": "/assets/stories/fallback-permit.svg",
-    "heroAlt": "Stylized paperwork and city-building illustration for a Nashville incentives story.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Nashville%20from%20Shelby%20Park%202024.jpg?width=1200",
+    "heroAlt": "Downtown Nashville and the Silliman Evans Bridge viewed from Shelby Park.",
     "factBox": [
       {
         "label": "State grant",
@@ -222,8 +222,8 @@
     "time": "May 12, 2026",
     "priority": 178,
     "imageStyle": "permit",
-    "heroImage": "/assets/stories/fallback-permit.svg",
-    "heroAlt": "Stylized civic meeting paperwork for a Nashville tourism and event funding story.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Public%20Square%20Park%20fountain%20and%20dedication.JPG?width=1200",
+    "heroAlt": "Davidson County Courthouse and Public Square Park fountain in Nashville.",
     "factBox": [
       {
         "label": "Morning",
@@ -320,8 +320,8 @@
     "time": "May 12, 2026",
     "priority": 177,
     "imageStyle": "street",
-    "heroImage": "/assets/stories/sidewalk-parent-index.svg",
-    "heroAlt": "Stylized East Nashville sidewalk and street-safety illustration.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
+    "heroAlt": "Gallatin Road near Briley Parkway in Nashville.",
     "factBox": [
       {
         "label": "Meeting",
@@ -418,8 +418,8 @@
     "time": "May 12, 2026",
     "priority": 176,
     "imageStyle": "permit",
-    "heroImage": "/assets/stories/fallback-permit.svg",
-    "heroAlt": "Stylized development map and street grid for the East Bank.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20Stadium%20wide%20angle.jpg?width=1200",
+    "heroAlt": "Wide angle real photograph of Nissan Stadium on Nashville's East Bank.",
     "factBox": [
       {
         "label": "Area",
@@ -505,8 +505,8 @@
     "time": "May 12, 2026",
     "priority": 175,
     "imageStyle": "music",
-    "heroImage": "/assets/stories/basement-east-show.svg",
-    "heroAlt": "Stylized Basement East concert illustration.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
+    "heroAlt": "A row of old brick buildings in Nashville.",
     "factBox": [
       {
         "label": "Where",
@@ -592,8 +592,8 @@
     "time": "May 12, 2026",
     "priority": 174,
     "imageStyle": "park",
-    "heroImage": "/assets/stories/fallback-park.svg",
-    "heroAlt": "Stylized civic neighborhood illustration for the East Branch Library.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastpark.jpg?width=1200",
+    "heroAlt": "A real photograph of East Park in East Nashville.",
     "factBox": [
       {
         "label": "Tuesday Hours",
@@ -679,8 +679,8 @@
     "time": "May 12, 2026",
     "priority": 173,
     "imageStyle": "food",
-    "heroImage": "/assets/stories/fallback-food.svg",
-    "heroAlt": "Stylized restaurant watch illustration for Five Points.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
+    "heroAlt": "A row of old brick buildings in Nashville.",
     "factBox": [
       {
         "label": "Address",
@@ -777,8 +777,8 @@
     "time": "May 10, 2026",
     "priority": 140,
     "imageStyle": "food",
-    "heroImage": "/assets/stories/party-fowl-five-points.png",
-    "heroAlt": "Editorial illustration of a hot chicken opening on an East Nashville street corner.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
+    "heroAlt": "A row of old brick buildings in Nashville.",
     "factBox": [
       {
         "label": "Opens",
@@ -888,8 +888,8 @@
     "time": "May 11, 2026",
     "priority": 139,
     "imageStyle": "park",
-    "heroImage": "/assets/stories/grass-breakup-microflower.svg",
-    "heroAlt": "Playful East Nashville small-yard scene with patchy grass, clover, wildflowers, bees, and neighborhood houses.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastpark.jpg?width=1200",
+    "heroAlt": "A real photograph of East Park in East Nashville.",
     "factBox": [
       {
         "label": "Origin",
@@ -1004,8 +1004,8 @@
     "time": "May 11, 2026",
     "priority": 137,
     "imageStyle": "gossip",
-    "heroImage": "/assets/stories/tiny-bluejay-emergency.svg",
-    "heroAlt": "Playful 3D printer scene producing tiny blue jays with Gallatin retail shelves in the background.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Blue%20Jay-27527.jpg?width=1200",
+    "heroAlt": "A real blue jay perched on a tree branch.",
     "factBox": [
       {
         "label": "Need",
@@ -1108,8 +1108,8 @@
     "time": "May 10, 2026",
     "priority": 136,
     "imageStyle": "street",
-    "heroImage": "/assets/stories/gallatin-safety-project.png",
-    "heroAlt": "Editorial illustration of Gallatin Pike with cones, crosswalks, storefronts, and a transit bus silhouette.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
+    "heroAlt": "Gallatin Road near Briley Parkway in Nashville.",
     "factBox": [
       {
         "label": "Project area",
@@ -1293,8 +1293,8 @@
       "instagram": "A pedestrian was killed at East Trinity and Gallatin. We are keeping this one plain, sourced, and tied to the larger corridor safety issue.",
       "video": "June delivers a short, restrained safety brief with the MNPD release and the Gallatin corridor context on screen."
     },
-    "heroImage": "/assets/stories/east-trinity-gallatin-safety.svg",
-    "heroAlt": "Restrained stylized intersection scene for East Trinity Lane and Gallatin Pike safety coverage."
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
+    "heroAlt": "Gallatin Road near Briley Parkway in Nashville."
   },
   {
     "id": "dry-cleaning-basement-east-tonight",
@@ -1393,8 +1393,8 @@
       "instagram": "Sunday night post-punk at The Beast. Dry Cleaning, Hotline TNT, and one neighborhood pretending Monday does not exist.",
       "video": "Riff stands under a fake venue marquee and gives the show listing, then sighs at the concept of Sunday ambition."
     },
-    "heroImage": "/assets/stories/basement-east-show.svg",
-    "heroAlt": "Stylized Basement East show-night exterior with marquee lights, a small crowd, and a Sunday night sky."
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
+    "heroAlt": "A row of old brick buildings in Nashville."
   },
   {
     "id": "eastwood-cleanup-tabla-rasa",
@@ -1487,8 +1487,8 @@
       "instagram": "Eastwood cleanup tomorrow. One hour, local, useful, and probably full of sidewalk intelligence.",
       "video": "Parker delivers a cleanup reminder while ranking trash-grabber posture and sensible shoe choices."
     },
-    "heroImage": "/assets/stories/eastwood-cleanup.svg",
-    "heroAlt": "Playful Eastwood community cleanup scene with a neighborhood storefront, trash bags, gloves, and a one-hour clock."
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastpark.jpg?width=1200",
+    "heroAlt": "A real photograph of East Park in East Nashville."
   },
   {
     "id": "lost-found-gallatin-food-hub",
@@ -1504,8 +1504,8 @@
     "time": "May 10, 2026",
     "priority": 124,
     "imageStyle": "food",
-    "heroImage": "/assets/stories/lost-found-gallatin.png",
-    "heroAlt": "Editorial illustration of an open-air Gallatin food hub with food trucks, string lights, and neighbors at picnic tables.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
+    "heroAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
     "factBox": [
       {
         "label": "Where",
@@ -1695,8 +1695,8 @@
       "instagram": "Nature is scheduling things at us again. Shelby Bottoms has a very reasonable little calendar and we support it.",
       "video": "Parker gives the Shelby Bottoms calendar like a survival briefing for families and people who need trees."
     },
-    "heroImage": "/assets/stories/shelby-bottoms-calendar.svg",
-    "heroAlt": "Stylized Shelby Bottoms trail scene with trees, calendar cards, and event icons."
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Shelby%20Park%20Nashville%2005.jpg?width=1200",
+    "heroAlt": "Shelby Park in Nashville."
   },
   {
     "id": "traffic-gallatin-ballet",
@@ -1734,8 +1734,8 @@
       "instagram": "The daily Gallatin crawl: cones, vibes, and everyone pretending this route was a choice.",
       "video": "Parker stands at a crosswalk with coffee and declares the traffic cone East Nashville's most stable resident."
     },
-    "heroImage": "/assets/stories/fallback-street.svg",
-    "heroAlt": "Stylized East Nashville street scene with traffic cones, storefronts, and skyline shapes.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/TN%20SR%20155%20Briley%20Parkway%20at%20US%2031E%20Gallatin%20Road.jpg?width=1200",
+    "heroAlt": "Gallatin Road near Briley Parkway in Nashville.",
     "media": [
       {
         "label": "Real Photo",
@@ -1805,8 +1805,8 @@
       "instagram": "New place, soft launch, everyone suddenly an investor in the comment section.",
       "video": "Mabel reviews the sacred stages of an East Nashville restaurant opening: rumor, blurry photo, patio judgment."
     },
-    "heroImage": "/assets/stories/fallback-food.svg",
-    "heroAlt": "Stylized East Nashville restaurant scene with a counter, plate, and storefront awning.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
+    "heroAlt": "A row of old brick buildings in Nashville.",
     "media": [
       {
         "label": "Real Photo",
@@ -1876,8 +1876,8 @@
       "instagram": "Shelby-area parent logistics, ranked by coffee loss and stroller vibration.",
       "video": "Parker attempts to narrate a peaceful walk and immediately finds three civic side quests."
     },
-    "heroImage": "/assets/stories/sidewalk-parent-index.svg",
-    "heroAlt": "Stylized family walkability scene with sidewalks, stroller wheels, scooters, and a caution-colored index meter.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Shelby%20Park%20Nashville%2005.jpg?width=1200",
+    "heroAlt": "Shelby Park in Nashville.",
     "media": [
       {
         "label": "Real Photo",
@@ -1947,8 +1947,8 @@
       "instagram": "June found the boring document. Unfortunately it matters.",
       "video": "June opens a permit file like a detective opening a cold case."
     },
-    "heroImage": "/assets/stories/fallback-permit.svg",
-    "heroAlt": "Stylized permit desk with forms, maps, sticky notes, and measuring marks.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/EastNashvilleHD.jpg?width=1200",
+    "heroAlt": "A real photograph of the East Nashville Historic District.",
     "media": [
       {
         "label": "Real Photo",
@@ -2018,8 +2018,8 @@
       "instagram": "Your weekend options, sorted by vibe, distance, and how much you enjoy standing near a food truck.",
       "video": "Lila runs through the weekend like a weather report for extroverts."
     },
-    "heroImage": "/assets/stories/weekend-chaos-calendar.svg",
-    "heroAlt": "Stylized weekend event board with flyers, food truck shapes, music notes, and calendar cards.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
+    "heroAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
     "media": [
       {
         "label": "Real Photo",
@@ -2089,8 +2089,8 @@
       "instagram": "What people are mad about this week, presented with love and a small amount of fear.",
       "video": "Mabel reads the outrage forecast like severe weather."
     },
-    "heroImage": "/assets/stories/fallback-gossip.svg",
-    "heroAlt": "Stylized neighborhood chatter scene with speech bubbles and group text shapes.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
+    "heroAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
     "media": [
       {
         "label": "Real Photo",
@@ -2160,8 +2160,8 @@
       "instagram": "East side venue energy, judged by sound, crowd, and mural desperation.",
       "video": "Riff stands outside a venue and describes Edison bulbs as a cry for help."
     },
-    "heroImage": "/assets/stories/fallback-music.svg",
-    "heroAlt": "Stylized East Nashville music venue scene with stage lights, microphone, and crowd shapes.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
+    "heroAlt": "A row of old brick buildings in Nashville.",
     "media": [
       {
         "label": "Real Photo",
@@ -2231,8 +2231,8 @@
       "instagram": "Coming soon: classifieds for the exact radius where your weird extra chair might find love.",
       "video": "Lila pitches classifieds like QVC for neighborhood odds and ends."
     },
-    "heroImage": "/assets/stories/fallback-classifieds.svg",
-    "heroAlt": "Stylized neighborhood classifieds board with posted cards, pins, and local notes.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Buildings%20Nashville%20%28Unsplash%29.jpg?width=1200",
+    "heroAlt": "A row of old brick buildings in Nashville.",
     "media": [
       {
         "label": "Real Photo",

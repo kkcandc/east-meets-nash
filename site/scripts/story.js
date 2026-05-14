@@ -113,7 +113,10 @@ function commentList(story) {
 }
 
 function imageMedia(story) {
-  return (story.media || []).filter((item) => item.imageUrl && item.label !== "Comment Signals");
+  const hero = storyHeroImage(story);
+  return (story.media || []).filter(
+    (item) => item.imageUrl && item.label !== "Comment Signals" && item.imageUrl !== hero,
+  );
 }
 
 function featureMedia(story) {
@@ -242,10 +245,35 @@ function railFactBox(story) {
   `;
 }
 
+function storyHeroImage(story) {
+  return story.heroImage || `/assets/stories/fallback-${story.imageStyle || "street"}.svg`;
+}
+
+function storyHeroAlt(story) {
+  return story.heroAlt || `${story.beat} featured image for ${story.title}`;
+}
+
+function storyHeroMedia(story) {
+  const image = storyHeroImage(story);
+  return (story.media || []).find((item) => item.imageUrl === image);
+}
+
 function storyHero(story) {
-  const image = story.heroImage || `/assets/stories/fallback-${story.imageStyle || "street"}.svg`;
-  const alt = story.heroAlt || `${story.beat} featured image for ${story.title}`;
-  return `<img class="story-art story-image article-hero-image" src="${escapeHtml(image)}" alt="${escapeHtml(alt)}" />`;
+  const image = storyHeroImage(story);
+  const alt = storyHeroAlt(story);
+  const item = storyHeroMedia(story);
+  if (!item) {
+    return `<img class="story-art story-image article-hero-image" src="${escapeHtml(image)}" alt="${escapeHtml(alt)}" />`;
+  }
+  const caption = item.credit || item.title;
+  return `
+    <figure class="article-hero-figure">
+      ${item.url ? `<a href="${escapeHtml(item.url)}">` : ""}
+        <img class="story-art story-image article-hero-image" src="${escapeHtml(image)}" alt="${escapeHtml(alt)}" />
+      ${item.url ? "</a>" : ""}
+      ${caption ? `<figcaption>${escapeHtml(caption)}</figcaption>` : ""}
+    </figure>
+  `;
 }
 
 function renderStory(story, reporter) {

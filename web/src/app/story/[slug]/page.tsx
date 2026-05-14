@@ -38,8 +38,13 @@ export default async function StoryPage({ params }: StoryPageProps) {
   if (!story) notFound();
   const reporter = getReporter(story.reporterId);
   const paragraphs = story.body.split("\n\n");
+  const heroImage = featuredImage(story);
+  const heroAlt = featuredAlt(story);
+  const heroMedia = story.media?.find((item) => item.imageUrl === heroImage);
   const featureMedia = story.media?.find((item) => item.imageUrl && item.label === "Comment Signals");
-  const imageMedia = story.media?.filter((item) => item.imageUrl && item.label !== "Comment Signals") || [];
+  const imageMedia =
+    story.media?.filter((item) => item.imageUrl && item.label !== "Comment Signals" && item.imageUrl !== heroImage) ||
+    [];
   const mapMedia = story.media?.filter((item) => item.embedUrl) || [];
   const linkMedia = story.media?.filter((item) => item.url && !item.imageUrl && !item.embedUrl && item.label !== "Hero Art") || [];
   const supportingMediaIndex = Math.min(1, paragraphs.length - 1);
@@ -73,7 +78,20 @@ export default async function StoryPage({ params }: StoryPageProps) {
           </figure>
         ) : null}
         <ReactionPanel reactions={story.reactions} storyId={story.id} />
-        <img className="story-art story-image article-hero-image" src={featuredImage(story)} alt={featuredAlt(story)} />
+        {heroMedia ? (
+          <figure className="article-hero-figure">
+            {heroMedia.url ? (
+              <a href={heroMedia.url}>
+                <img className="story-art story-image article-hero-image" src={heroImage} alt={heroAlt} />
+              </a>
+            ) : (
+              <img className="story-art story-image article-hero-image" src={heroImage} alt={heroAlt} />
+            )}
+            <figcaption>{heroMedia.credit || heroMedia.title}</figcaption>
+          </figure>
+        ) : (
+          <img className="story-art story-image article-hero-image" src={heroImage} alt={heroAlt} />
+        )}
         <div className="article-body">
           {paragraphs.map((paragraph, index) => (
             <div className="article-flow-block" key={paragraph}>

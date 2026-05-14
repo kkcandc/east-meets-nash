@@ -1052,6 +1052,22 @@ h3 {
   min-height: 0;
 }
 
+.article-hero-figure {
+  margin: 0;
+}
+
+.article-hero-figure a {
+  display: block;
+}
+
+.article-hero-figure figcaption {
+  margin: 10px 20px 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 780;
+  line-height: 1.45;
+}
+
 .article-body,
 .article-section {
   padding: 22px 20px;
