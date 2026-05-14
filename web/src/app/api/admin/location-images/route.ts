@@ -46,6 +46,10 @@ function apiKey() {
   return process.env.GOOGLE_MAPS_API_KEY || process.env.GOOGLE_PLACES_API_KEY;
 }
 
+function mapsEmbedKey() {
+  return process.env.GOOGLE_MAPS_EMBED_KEY;
+}
+
 function mapsSearchUrl(query: string, placeId?: string) {
   const placeParam = placeId ? `&query_place_id=${encodeURIComponent(placeId)}` : "";
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}${placeParam}`;
@@ -288,7 +292,7 @@ export async function GET(request: Request) {
     const firstAddress = firstPlace.formattedAddress || firstTitle;
     const firstMapsUrl = mapsSearchUrl(firstAddress, firstPlace.id);
     const firstEmbedUrl = mapsEmbedUrl(firstAddress);
-    const streetViewUrl = streetViewEmbedUrl(firstPlace, key);
+    const streetViewUrl = streetViewEmbedUrl(firstPlace, mapsEmbedKey());
 
     if (streetViewUrl) {
       candidates.push({

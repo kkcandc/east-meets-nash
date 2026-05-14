@@ -39,7 +39,7 @@ Use this scale in story media metadata:
 - Refetch Google Places photo media dynamically through the server endpoint.
 - Include required Google Maps and contributor attribution wherever a Google Places/Maps/Street View image appears.
 - If a real Google location photo cannot be used safely, embed the map or Street View frame instead of downloading an image.
-- Restrict Google keys by domain/API before using them in production.
+- Keep the Places API key server-side, restrict it to the needed Google Maps Platform APIs, and use a separate browser-restricted `GOOGLE_MAPS_EMBED_KEY` if Street View embeds are enabled.
 
 ## Licensed Repository Rules
 
