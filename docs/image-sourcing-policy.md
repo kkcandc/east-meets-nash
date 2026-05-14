@@ -18,6 +18,7 @@ Real images add local value. Every story should try to include a real visual bef
 - Store stable IDs and source metadata where possible; do not treat temporary photo references or generated image URLs as permanent assets.
 - Include required Google and author attribution wherever a Google Places/Maps/Street View image appears.
 - If a real Google location photo cannot be used safely, embed the map or Street View frame instead of downloading an image.
+- Use the Source Desk real image helper for place-based stories. It returns a story media snippet from a place/address query, using the server-side Google Places photo endpoint when `GOOGLE_MAPS_API_KEY` is configured and a map/source fallback otherwise.
 
 ## Private And Social Rules
 

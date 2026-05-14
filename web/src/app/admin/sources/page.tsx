@@ -1,4 +1,5 @@
 import { NextdoorCapturePanel } from "@/components/NextdoorCapturePanel";
+import { LocationImageLookupPanel } from "@/components/LocationImageLookupPanel";
 import { SourceToDraftPanel } from "@/components/SourceToDraftPanel";
 import { getDailySourcePass, getReporter, getSourceAccessPlans, getSourceCatalog, getSourceItems } from "@/lib/content";
 
@@ -163,6 +164,9 @@ export default function SourceDeskPage() {
             </article>
           ))}
         </div>
+      </section>
+      <section className="page-band">
+        <LocationImageLookupPanel />
       </section>
       <section className="page-band">
         <NextdoorCapturePanel />
