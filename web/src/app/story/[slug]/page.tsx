@@ -10,16 +10,14 @@ interface StoryPageProps {
   params: Promise<{ slug: string }>;
 }
 
+export const dynamic = "force-dynamic";
+
 function featuredImage(story: NonNullable<ReturnType<typeof getStoryBySlug>>) {
   return story.heroImage || `/assets/stories/fallback-${story.imageStyle || "street"}.svg`;
 }
 
 function featuredAlt(story: NonNullable<ReturnType<typeof getStoryBySlug>>) {
   return story.heroAlt || `${story.beat} featured image for ${story.title}`;
-}
-
-export async function generateStaticParams() {
-  return getStories().map((story) => ({ slug: story.slug }));
 }
 
 export async function generateMetadata({ params }: StoryPageProps): Promise<Metadata> {
