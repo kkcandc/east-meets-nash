@@ -631,9 +631,9 @@
   {
     "id": "facebook-mothballs-fence-line-codes-may-15-2026",
     "slug": "east-nashville-mothballs-fence-line-codes-may-15-2026",
-    "title": "East Nashville's Mothball Argument Is Actually A Codes Lesson",
-    "deck": "A private group thread about mothballs along a fence line turned into a public-service reminder: EPA says mothballs are not for outdoor fence lines, and Metro has a trackable complaint path.",
-    "body": "The most East Nashville post of the Facebook capture pass was not about a restaurant, a council bill, or traffic. It was a neighbor dispute over mothballs placed outdoors along a fence line after a snake sighting. The thread quickly did what neighborhood threads do: jokes, frustration, advice, and someone pointing the whole thing toward hubNashville.\n\nWe are not naming the poster, the neighbors, or the block. The publishable part is the pattern. People reach for household fixes when they are nervous about snakes or yard pests, and mothballs have the particular curse of sounding like an old-school hack while being a pesticide product with label rules.\n\nEPA's pesticide-labeling Q&A is surprisingly specific here: applying mothballs along a fence line is outside the labeled use site, because registered mothball products specify airtight containers and storage closets. EPA also warns that mothball products are a common illegal-pesticide category and can be hazardous, especially for young children.\n\nThe Metro piece is straightforward. Metro Codes says property-standards violations can be reported through hubNashville or by calling the Codes Hotline. That does not mean every neighbor problem should begin with a complaint ticket. It does mean the city has a cleaner lane than a comment thread if there is a real public-health or property-standard issue.\n\nOur ruling: if there are mothballs outside, do not turn the group chat into a court transcript. Talk first if it is safe and practical. If it is not, document the condition without posting private-home details, use hubNashville, and let the official process carry the boring part. The boring part is, unfortunately, where the asphalt meets the feelings.",
+    "title": "The Mothball Fence-Line Argument Has An Actual Answer",
+    "deck": "A private East Nashville thread turned one fence-line dispute into useful advice: mothballs are pesticide products, not outdoor snake control, and hubNashville is the cleaner complaint lane.",
+    "body": "This is the kind of East Nashville story that sounds tiny until it becomes every block's business. A Facebook group thread started with a neighbor frustrated by mothballs placed outdoors along a fence line after a snake sighting. The comments did the normal loop: jokes, exasperation, talk to them first, report it if needed.\n\nThe useful answer is not gossip. It is the part people can actually use without dragging a private block into public view: mothballs are pesticide products with label rules, and outdoor fence lines are not what they are for.\n\nEPA's pesticide-labeling Q&A is unusually direct on this exact scenario. The agency says applying mothballs along a fence line is outside the labeled use site because registered mothball products specify airtight containers and storage closets. EPA's consumer guidance also flags mothballs as a common illegal-pesticide issue and warns that they can be hazardous, especially around young children.\n\nSo the practical East Nashville version is simple. If you are the person tempted to scatter them outside, do not. If you are the neighbor smelling them, talk first if that is safe and realistic. If the problem continues or feels like a public-health/property-standard issue, document the condition without posting names, faces, exact addresses, or accusation screenshots, then send it through hubNashville or Metro Codes.\n\nFor the snake anxiety underneath the whole thing, TWRA's snake guidance is a better starting place than folk chemistry. Most neighborhood snake panic is really habitat, food source, and surprise management. A line of mothballs does not turn a fence into a force field; it mostly turns a neighbor dispute into a label problem.\n\nOur ruling: this is exactly why the group chat is useful as a signal, not a source to quote raw. The thread surfaced a real micro-problem. The article's job is to strip out the private details, attach the official answer, and give readers the next step before everyone starts litigating a fence line in the comments.",
     "zone": "East Nashville",
     "beat": "Civic Life",
     "label": "Group Chat Says",
@@ -642,33 +642,54 @@
     "time": "May 15, 2026",
     "priority": 212,
     "imageStyle": "street",
-    "heroImage": "/api/media/location-photo?placeId=ChIJAQDMt2lmZIgRb7BKr9QjPOk&photoIndex=0&q=800%202nd%20Ave%20S%2C%20Nashville%2C%20TN%2037210%2C%20USA",
-    "heroAlt": "Metro Codes Department location photo from Google Places.",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
+    "heroAlt": "A real East Nashville street photograph used as neighborhood context for a fence-line dispute.",
     "factBox": [
       {
-        "label": "Community signal",
-        "value": "Private Facebook thread about outdoor mothballs along a fence line"
+        "label": "Do not do",
+        "value": "Use mothballs outdoors along a fence line"
       },
       {
-        "label": "EPA guidance",
-        "value": "Mothballs are labeled for airtight containers and storage closets, not fence lines"
+        "label": "Why",
+        "value": "EPA says registered mothball labels specify airtight containers and storage closets"
       },
       {
-        "label": "Local route",
-        "value": "Metro Codes points property-standard reports to hubNashville"
+        "label": "Better route",
+        "value": "Talk first if safe; otherwise document privately and report through hubNashville or Metro Codes"
       }
     ],
     "media": [
       {
+        "label": "Real Photo",
+        "title": "East Nashville street context",
+        "description": "Licensed real photo used as neighborhood context because private-home details are not publishable.",
+        "url": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
+        "imageAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
+        "credit": "Photo: Brian Stansberry, CC BY 4.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceType": "licensed_photo",
+        "relevance": "contextual",
+        "relevanceScore": 72,
+        "approvalStatus": "approved",
+        "rightsNote": "Licensed contextual photo. Private-home and raw Facebook imagery were not republished.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-15"
+      },
+      {
         "label": "Location Photo",
         "title": "Metro Codes Department",
-        "description": "Google Places photo for the Metro Codes Department.",
+        "description": "Google Places photo for the Metro Codes Department, used as the inline reporting-lane image.",
         "url": "https://www.google.com/maps/search/?api=1&query=800%202nd%20Ave%20S%2C%20Nashville%2C%20TN%2037210%2C%20USA&query_place_id=ChIJAQDMt2lmZIgRb7BKr9QjPOk",
         "imageUrl": "/api/media/location-photo?placeId=ChIJAQDMt2lmZIgRb7BKr9QjPOk&photoIndex=0&q=800%202nd%20Ave%20S%2C%20Nashville%2C%20TN%2037210%2C%20USA",
         "imageAlt": "Metro Codes Department location photo from Google Places.",
         "credit": "Photo: Google Maps / Google Places; contributor attribution: Brian Copeland.",
         "provider": "google_places",
         "sourceType": "api_photo",
+        "displayRole": "inline",
         "placeId": "ChIJAQDMt2lmZIgRb7BKr9QjPOk",
         "placeQuery": "800 2nd Ave S, Nashville, TN 37210, USA",
         "relevance": "strong",
@@ -719,6 +740,14 @@
       },
       {
         "label": "Source Trail",
+        "title": "Metro property standards code enforcement",
+        "description": "Metro explains the property-standards enforcement lane and directs residents to hubNashville.",
+        "url": "https://www.nashville.gov/departments/codes/property-standards/code-enforcement",
+        "sourceUrl": "https://www.nashville.gov/departments/codes/property-standards/code-enforcement",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
         "title": "Metro Codes and Building Safety",
         "description": "Metro Codes explains the property-standards reporting path through hubNashville.",
         "url": "https://www.nashville.gov/departments/codes",
@@ -735,7 +764,7 @@
       }
     ],
     "sourceNote": "This article uses a private Facebook thread only as a community signal. It does not publish names, exact home locations, raw screenshots, or accusations about specific neighbors.",
-    "photoStatus": "exact_photo_approved",
+    "photoStatus": "context_photo_approved",
     "sources": [
       {
         "name": "East Nashville Facebook group supervised thread capture",
@@ -750,6 +779,11 @@
       {
         "name": "EPA: avoid illegal household pesticide products",
         "url": "https://www.epa.gov/safepestcontrol/avoid-illegal-household-pesticide-products",
+        "type": "Official"
+      },
+      {
+        "name": "Metro property standards code enforcement",
+        "url": "https://www.nashville.gov/departments/codes/property-standards/code-enforcement",
         "type": "Official"
       },
       {
@@ -774,9 +808,9 @@
       }
     ],
     "social": {
-      "x": "East Nashville Facebook found a mothball fence-line argument. EPA says mothballs are not for outdoor fence lines; Metro says use hubNashville for property-standard issues.",
-      "instagram": "The group chat gave us mothball drama. The public-service part is EPA label guidance plus a Metro reporting lane.",
-      "video": "Parker explains why a fence-line mothball argument becomes a tiny civic lesson: labels matter, private details stay private, and hubNashville is the boring receipt."
+      "x": "East Nashville found a mothball fence-line argument with an actual answer: EPA says that is outside the label, and Metro has a cleaner reporting lane than the comments.",
+      "instagram": "The group chat gave us mothball drama. The useful part: don't use them outdoors, don't post private-home details, and use hubNashville if it becomes a real property-standard issue.",
+      "video": "Parker turns a fence-line mothball dispute into a service piece: what EPA says, what not to post, and where the city wants the complaint to go."
     }
   },
   {
