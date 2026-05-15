@@ -1,5 +1,882 @@
 [
   {
+    "id": "may-15-source-pass-east-nashville",
+    "slug": "today-east-nashville-source-pass-may-15-2026",
+    "title": "Today's East Nashville Source Pass: Hawkers, Rockabilly, Potholes, Childcare, And The Group Chat",
+    "deck": "The May 15 run found a Main Street restaurant back from fire damage, a three-day Eastside Bowl weekender, a South 8th childcare event, pothole math, and one very East Nashville mothball dispute.",
+    "body": "Today's useful East Nashville stack starts on Main Street: Hawkers is back open after the February grease fire that closed the restaurant for more than three months. The Tennessean reported the first dinner service returned May 13, and Hawkers' own Nashville page is showing regular East Nashville hours again. That is a real reopening, not a rumor wearing a cute outfit.\n\nOn Gallatin, Eastside Bowl starts Eastside Rockin' Rumble tonight, Friday, May 15, with three days of rockabilly and hot-rod weekend energy running through Sunday. The venue calendar lists the May 15, 16, and 17 dates at Eastside Bowl, with tickets ranging from $40 to $125. Translation: Gallatin gets louder, hair gets taller, and parking does what parking does.\n\nThe supervised Facebook pass added two useful community items. First, a flyer shared in the private East Nashville group advertised a Bridging the Gap Learning Center grand opening and community day for Saturday, May 16, on South 8th Street. We are publishing that as a captured event note, with public childcare context from WSMV and City Cast. Second, a fence-line mothball thread turned into an oddly practical service item: EPA guidance says mothballs are not for outdoor fence lines, and Metro Codes points residents to hubNashville for property-standards complaints.\n\nThe practical irritation of the day is still road damage. Axios Nashville reports NDOT filled 10,995 potholes from January 1 through May 8 after the January ice storm roughed up city streets. That number is big enough to turn every 'did that hole just move?' text into a public-service item: city-street potholes go to 311 or hubNashville, while interstate potholes go to TDOT's hotline.\n\nThe utility note is Nashville Electric Service's new mobile app. WKRN/AOL reports NES launched it this week for bill payment, account details, energy usage, and outage reporting. After the winter storm, 'outage updates on your phone' is not exactly thrilling copy, but it is the kind of boring infrastructure that becomes emotionally important at 11:42 p.m.\n\nNextdoor status: skipped for this run. The login did not work in the capture browser, so we did not publish any Nextdoor claims today. That is the right call. Private-platform items only get promoted when the editor can actually see the post, capture the signal, and strip private details before the article goes live.\n\nOur ruling: publish Hawkers, publish the Eastside Bowl weekender, publish the South 8th childcare event as a captured community note, publish the mothball thread as public-guidance service journalism, publish the pothole practical, and keep Nextdoor out until the capture lane works. This is the mix we want: public receipts, real neighborhood pulse, and no mystery screenshots doing journalism's job.",
+    "zone": "East Nashville",
+    "beat": "News",
+    "label": "Reported",
+    "confidence": "Public-source scan from local reporting, direct venue/business pages, Axios, WKRN/AOL, official utility/app sources, Google Places media, and supervised Facebook capture. Nextdoor was skipped because login/capture failed.",
+    "reporterId": "june",
+    "time": "May 15, 2026",
+    "priority": 217,
+    "imageStyle": "street",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
+    "heroAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
+    "factBox": [
+      {
+        "label": "Date",
+        "value": "Friday, May 15, 2026"
+      },
+      {
+        "label": "Public items",
+        "value": "Hawkers, Eastside Bowl, potholes, NES app"
+      },
+      {
+        "label": "Facebook capture",
+        "value": "South 8th childcare event and mothball/code thread"
+      },
+      {
+        "label": "Nextdoor",
+        "value": "Skipped until login/capture works"
+      }
+    ],
+    "media": [
+      {
+        "label": "Real Photo",
+        "title": "East Nashville street context",
+        "description": "Licensed real photo used as broad East Nashville source-pass context.",
+        "url": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
+        "imageAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
+        "credit": "Photo: Brian Stansberry, CC BY 4.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceType": "licensed_photo",
+        "relevance": "contextual",
+        "relevanceScore": 64,
+        "approvalStatus": "approved",
+        "rightsNote": "Licensed contextual photo for a broad daily source-pass story.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-15"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Hawkers reopening report",
+        "description": "The Tennessean/AOL reported Hawkers reopened for dinner service on May 13 after fire repairs.",
+        "url": "https://www.aol.com/articles/hawkers-restaurant-reopens-east-nashville-100457478.html",
+        "sourceUrl": "https://www.aol.com/articles/hawkers-restaurant-reopens-east-nashville-100457478.html",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Eastside Bowl calendar",
+        "description": "Direct venue calendar listing Eastside Rockin' Rumble on May 15-17.",
+        "url": "https://shows.eastsidebowl.com/",
+        "sourceUrl": "https://shows.eastsidebowl.com/",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "East Nashville Facebook group capture",
+        "description": "Supervised capture lane used for the South 8th childcare flyer and the mothball/code thread.",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial",
+        "sourceUrl": "https://www.facebook.com/groups/eastnashvilleofficial",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Axios pothole count",
+        "description": "Axios reported NDOT's 10,995 pothole repairs from Jan. 1 through May 8.",
+        "url": "https://www.axios.com/local/nashville/2026/05/12/nashville-pothole-season-batters-city-roads",
+        "sourceUrl": "https://www.axios.com/local/nashville/2026/05/12/nashville-pothole-season-batters-city-roads",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "NES app report",
+        "description": "WKRN/AOL reported Nashville Electric Service launched a new mobile app.",
+        "url": "https://www.aol.com/news/nashville-electric-launches-mobile-app-163204351.html",
+        "sourceUrl": "https://www.aol.com/news/nashville-electric-launches-mobile-app-163204351.html",
+        "sourceType": "source_link"
+      }
+    ],
+    "sourceNote": "Facebook was captured under editor supervision and converted into safe, anonymized community items. Nextdoor was skipped because the login/capture path did not work.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "AOL/Tennessean: Hawkers reopens in East Nashville",
+        "url": "https://www.aol.com/articles/hawkers-restaurant-reopens-east-nashville-100457478.html",
+        "type": "Reported"
+      },
+      {
+        "name": "Eastside Bowl live music calendar",
+        "url": "https://shows.eastsidebowl.com/",
+        "type": "Direct venue"
+      },
+      {
+        "name": "East Nashville Facebook group supervised capture",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial",
+        "type": "Private group capture"
+      },
+      {
+        "name": "Axios Nashville: pothole season",
+        "url": "https://www.axios.com/local/nashville/2026/05/12/nashville-pothole-season-batters-city-roads",
+        "type": "Reported"
+      },
+      {
+        "name": "AOL/WKRN: NES mobile app",
+        "url": "https://www.aol.com/news/nashville-electric-launches-mobile-app-163204351.html",
+        "type": "Reported"
+      }
+    ],
+    "reactions": {
+      "Love": 22,
+      "Side-Eye": 15
+    },
+    "comments": [
+      {
+        "author": "source_desk",
+        "text": "Facebook items were paraphrased and anonymized. Nextdoor did not make this run."
+      }
+    ],
+    "social": {
+      "x": "Today's East Nashville source pass: Hawkers is back, Eastside Bowl gets loud, South 8th has a childcare event, potholes have a number, and the group chat has mothball drama.",
+      "instagram": "Friday source pass: Main Street comeback, Gallatin weekender, South 8th community day, pothole math, NES app, and one fence-line codes lesson.",
+      "video": "June sorts public receipts and Facebook-captured community notes into publish-now, capture-only, and absolutely-not-without-Nextdoor-login piles."
+    }
+  },
+  {
+    "id": "south-eighth-childcare-community-day-may-16-2026",
+    "slug": "south-eighth-childcare-community-day-may-16-2026",
+    "title": "A South 8th Childcare Grand Opening Lands Right In East Nashville's Waitlist Problem",
+    "deck": "A flyer shared in the East Nashville Facebook group advertises a May 16 community day for Bridging the Gap Learning Center on South 8th Street, a small event sitting inside a much bigger childcare shortage.",
+    "body": "A flyer captured from the East Nashville Facebook group advertises a Bridging the Gap Learning Center grand opening and community day for Saturday, May 16, from 10 a.m. to 4 p.m. at 315 South 8th Street. The flyer lists center tours, family activities, food and treats, youth perks, community partners, and a street closure note.\n\nWe are not publishing the private group screenshot or the personal posting trail. The useful public part is the event information, the location, and the neighborhood context. Anyone planning around the street closure should verify the details with the organizer or Metro before treating the flyer as the final word.\n\nWhy this matters beyond one Saturday: WSMV reported in March that nearly 3,000 children were on East Nashville daycare waiting lists. In the same report, Shetika Davis, a co-owner of Bridging the Gap Learning Center, described barriers that keep childcare from becoming accessible. City Cast Nashville also put Bridging the Gap into the broader conversation about Nashville's childcare legislation and access crunch.\n\nThat is the real story under the balloons. A neighborhood event on South 8th is also a tiny pressure valve in a city where parents are trying to solve work, cost, transportation, and trust all at once. If the center gets more families connected to actual seats, the community-day flyer is doing more than announcing a ribbon-cutting.\n\nOur ruling: publish as a captured community event with public context, not as a fully independent city-confirmed road-closure notice. Show up if it fits your Saturday, but double-check the logistics before building your whole day around it.",
+    "zone": "South 8th",
+    "beat": "Families",
+    "label": "Captured",
+    "confidence": "Event details from a supervised East Nashville Facebook group flyer capture; broader childcare context from WSMV, City Cast Nashville, and a public fundraiser page.",
+    "reporterId": "june",
+    "time": "May 15, 2026",
+    "priority": 216,
+    "imageStyle": "street",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
+    "heroAlt": "A real East Nashville street photograph used as neighborhood context for a South 8th childcare event.",
+    "factBox": [
+      {
+        "label": "Captured event",
+        "value": "Saturday, May 16, 2026, 10 a.m.-4 p.m."
+      },
+      {
+        "label": "Where",
+        "value": "315 South 8th Street"
+      },
+      {
+        "label": "Context",
+        "value": "WSMV reported nearly 3,000 East Nashville daycare waitlist spots"
+      }
+    ],
+    "media": [
+      {
+        "label": "Real Photo",
+        "title": "East Nashville street context",
+        "description": "Licensed real photo used as neighborhood context because the private flyer image is not being republished.",
+        "url": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Nashville%2C%20Nashville%2C%20TN%2C%20USA%20-%20panoramio.jpg?width=1200",
+        "imageAlt": "A real photograph from East Nashville in Nashville, Tennessee.",
+        "credit": "Photo: Brian Stansberry, CC BY 4.0, via Wikimedia Commons.",
+        "provider": "wikimedia_commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_Nashville,_Nashville,_TN,_USA_-_panoramio.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceType": "licensed_photo",
+        "relevance": "contextual",
+        "relevanceScore": 64,
+        "approvalStatus": "approved",
+        "rightsNote": "Licensed contextual photo. Private Facebook flyer image was not republished.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-15"
+      },
+      {
+        "label": "Location",
+        "title": "315 South 8th Street map",
+        "description": "Map context for the community-day flyer location.",
+        "url": "https://www.google.com/maps/search/?api=1&query=315%20S%208th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=EiYzMTUgUyA4dGggU3QsIE5hc2h2aWxsZSwgVE4gMzcyMDYsIFVTQSIxEi8KFAoSCaWRVA00ZmSIEeASwfkeitpPELsCKhQKEglj3ZdaMWZkiBH8y5xTOfNwJQ",
+        "embedUrl": "https://www.google.com/maps?q=315%20S%208th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "EiYzMTUgUyA4dGggU3QsIE5hc2h2aWxsZSwgVE4gMzcyMDYsIFVTQSIxEi8KFAoSCaWRVA00ZmSIEeASwfkeitpPELsCKhQKEglj3ZdaMWZkiBH8y5xTOfNwJQ",
+        "placeQuery": "315 S 8th St, Nashville, TN 37206, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for event-location context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "East Nashville Facebook group capture",
+        "description": "Supervised private-group capture of the event flyer. Screenshot not republished.",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial",
+        "sourceUrl": "https://www.facebook.com/groups/eastnashvilleofficial",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "WSMV childcare shortage report",
+        "description": "WSMV reported East Nashville childcare waitlists and quoted Bridging the Gap co-owner Shetika Davis.",
+        "url": "https://www.wsmv.com/2026/03/06/metro-council-mayors-office-set-file-bills-tackle-cost-childcare/",
+        "sourceUrl": "https://www.wsmv.com/2026/03/06/metro-council-mayors-office-set-file-bills-tackle-cost-childcare/",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "City Cast Nashville childcare episode",
+        "description": "City Cast discussed Nashville childcare access with Shetika Davis from Bridging the Gap Learning Center.",
+        "url": "https://nashville.citycast.fm/podcasts/can-new-legislation-solve-nashvilles-child-care-crisis",
+        "sourceUrl": "https://nashville.citycast.fm/podcasts/can-new-legislation-solve-nashvilles-child-care-crisis",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Public Bridging the Gap fundraiser",
+        "description": "Public fundraiser page describes the founders' East Nashville childcare-center launch effort.",
+        "url": "https://www.gofundme.com/f/kristina-and-shatika-open-learning-center-in-east-nashville",
+        "sourceUrl": "https://www.gofundme.com/f/kristina-and-shatika-open-learning-center-in-east-nashville",
+        "sourceType": "source_link"
+      }
+    ],
+    "sourceNote": "The event flyer came from a private Facebook group capture. We paraphrased it, did not republish the screenshot, and used public sources only for the broader childcare context.",
+    "photoStatus": "context_photo_approved",
+    "sources": [
+      {
+        "name": "East Nashville Facebook group supervised flyer capture",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial",
+        "type": "Private group capture"
+      },
+      {
+        "name": "WSMV childcare shortage report",
+        "url": "https://www.wsmv.com/2026/03/06/metro-council-mayors-office-set-file-bills-tackle-cost-childcare/",
+        "type": "Reported"
+      },
+      {
+        "name": "City Cast Nashville childcare episode",
+        "url": "https://nashville.citycast.fm/podcasts/can-new-legislation-solve-nashvilles-child-care-crisis",
+        "type": "Reported"
+      },
+      {
+        "name": "Public Bridging the Gap fundraiser",
+        "url": "https://www.gofundme.com/f/kristina-and-shatika-open-learning-center-in-east-nashville",
+        "type": "Public page"
+      }
+    ],
+    "reactions": {
+      "Love": 19,
+      "Side-Eye": 6
+    },
+    "comments": [
+      {
+        "author": "sample_parent_01",
+        "text": "Childcare seat math is a real neighborhood beat."
+      }
+    ],
+    "social": {
+      "x": "A South 8th childcare community day is on the East Nashville group-chat radar, and WSMV's waitlist reporting explains why that matters beyond the flyer.",
+      "instagram": "Captured from the group chat, checked against the bigger childcare story: South 8th has a community-day note worth watching.",
+      "video": "June points at the flyer details, then zooms out to East Nashville's childcare waitlist problem and the difference between captured event info and public confirmation."
+    }
+  },
+  {
+    "id": "hawkers-main-street-reopens-may-15-2026",
+    "slug": "hawkers-main-street-reopens-after-fire-may-15-2026",
+    "title": "Hawkers Is Back On Main Street After The Fire, Which Means East Nashville Gets Its Wok Noise Back",
+    "deck": "The East Nashville restaurant reopened for dinner service May 13 after a February grease fire closed the building for more than three months.",
+    "body": "Hawkers Asian Street Food is back open at 626A Main St. after a February grease fire shut the East Nashville restaurant down for more than three months. The Tennessean, syndicated by AOL, reported that Hawkers returned for its first dinner service on Wednesday, May 13.\n\nThe useful fact is simple: this is a confirmed reopening, not a 'did someone see lights on?' rumor. Hawkers' own Nashville page lists the Main Street address and regular hours, including late weekend service until midnight on Friday and Saturday.\n\nThe fire happened February 3, after Nashville Fire Department crews responded to heavy smoke from the roof vents. WSMV reported at the time that there were no injuries, but the grease fire caused significant building damage. Hawkers told WSMV it had been working through repairs and planned to reopen in May.\n\nThe East Nashville angle is less about a single dinner rush and more about the Main Street rhythm returning. Hawkers sits in the old Family Wash orbit, in the stretch where one temporary closure can make the block feel like it is holding its breath. Now the place is back, the lights are back, and the group chat can resume arguing about sticky ribs like adults with calendars.\n\nOur ruling: confirmed comeback. Next thing to watch is whether the reopened hours hold, whether the promised new food and drink items stick, and whether Main Street treats this like a neighborhood reopening or a full-volume Friday night.",
+    "zone": "Main Street",
+    "beat": "Restaurants",
+    "label": "Confirmed",
+    "confidence": "Confirmed by local reporting on the May 13 reopening, WSMV's earlier fire/reopening report, and Hawkers' direct Nashville location page.",
+    "reporterId": "mabel",
+    "time": "May 15, 2026",
+    "priority": 215,
+    "imageStyle": "food",
+    "heroImage": "/api/media/location-photo?placeId=ChIJzb4BtQVnZIgR93Nv50R6YiY&photoIndex=0&q=626A%20Main%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+    "heroAlt": "Hawkers Asian Street Food location photo from Google Places.",
+    "factBox": [
+      {
+        "label": "Reopened",
+        "value": "First dinner service returned Wednesday, May 13, 2026"
+      },
+      {
+        "label": "Where",
+        "value": "626A Main St."
+      },
+      {
+        "label": "Fire",
+        "value": "February grease fire; no injuries reported by WSMV"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "Hawkers Asian Street Food",
+        "description": "Google Places photo candidate for Hawkers at 626A Main St.",
+        "url": "https://www.google.com/maps/search/?api=1&query=626A%20Main%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJzb4BtQVnZIgR93Nv50R6YiY",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJzb4BtQVnZIgR93Nv50R6YiY&photoIndex=0&q=626A%20Main%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "Hawkers Asian Street Food location photo from Google Places.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Grace Chung.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJzb4BtQVnZIgR93Nv50R6YiY",
+        "placeQuery": "626A Main St, Nashville, TN 37206, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo rendered through the live Places media endpoint with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-15"
+      },
+      {
+        "label": "Location",
+        "title": "Hawkers Asian Street Food on Google Maps",
+        "description": "Map context for the reopened Main Street restaurant.",
+        "url": "https://www.google.com/maps/search/?api=1&query=626A%20Main%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJzb4BtQVnZIgR93Nv50R6YiY",
+        "embedUrl": "https://www.google.com/maps?q=626A%20Main%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=626A%20Main%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJzb4BtQVnZIgR93Nv50R6YiY",
+        "sourceType": "map_embed",
+        "placeId": "ChIJzb4BtQVnZIgR93Nv50R6YiY",
+        "placeQuery": "626A Main St, Nashville, TN 37206, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Reopening report",
+        "description": "The Tennessean/AOL reported Hawkers reopened for dinner service May 13.",
+        "url": "https://www.aol.com/articles/hawkers-restaurant-reopens-east-nashville-100457478.html",
+        "sourceUrl": "https://www.aol.com/articles/hawkers-restaurant-reopens-east-nashville-100457478.html",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Direct Hawkers Nashville page",
+        "description": "Hawkers' direct Nashville page lists the East Nashville address and hours.",
+        "url": "https://eathawkers.com/locations/nashville/",
+        "sourceUrl": "https://eathawkers.com/locations/nashville/",
+        "sourceType": "source_link"
+      }
+    ],
+    "sourceNote": "Confirmed reopening based on reported May 13 service and direct business hours. Treat new-menu claims as reported until confirmed directly on a current menu.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "AOL/Tennessean reopening report",
+        "url": "https://www.aol.com/articles/hawkers-restaurant-reopens-east-nashville-100457478.html",
+        "type": "Reported"
+      },
+      {
+        "name": "WSMV fire/reopening report",
+        "url": "https://www.wsmv.com/2026/05/02/popular-asian-street-food-restaurant-east-nashville-set-reopen-months-after-grease-fire/",
+        "type": "Reported"
+      },
+      {
+        "name": "Hawkers Nashville location page",
+        "url": "https://eathawkers.com/locations/nashville/",
+        "type": "Business"
+      }
+    ],
+    "reactions": {
+      "Love": 31,
+      "Side-Eye": 8
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_51",
+        "text": "Main Street having its lights back on matters more than we admit."
+      }
+    ],
+    "social": {
+      "x": "Hawkers is back open at 626A Main after the February grease fire. Confirmed comeback, not lights-on folklore.",
+      "instagram": "Hawkers is back on Main Street after the fire closure. East Nashville gets its wok noise back.",
+      "video": "Mabel stands outside Main Street and explains the Hawkers reopening as a neighborhood vital sign."
+    }
+  },
+  {
+    "id": "eastside-rockin-rumble-may-15-2026",
+    "slug": "eastside-rockin-rumble-starts-tonight-eastside-bowl-may-15-2026",
+    "title": "Eastside Rockin' Rumble Starts Tonight, So Gallatin Gets Three Days Of Volume",
+    "deck": "Eastside Bowl's May 15-17 rockabilly and hot-rod weekender is the practical answer to 'why does Gallatin feel louder already?'",
+    "body": "Eastside Rockin' Rumble starts tonight at Eastside Bowl, with the venue calendar listing the weekender for Friday, Saturday, and Sunday, May 15-17. Tickets are listed at $40 to $125, and the calendar tags the event as surfer rock. That is enough information for the neighborhood to know the weekend has put on boots.\n\nThe useful part is logistics. Eastside Bowl is at 1508A Gallatin Pike S., which means the action sits just north of the usual East Nashville dinner-and-bar orbit, close enough to pull people up Gallatin and loud enough that the parking conversation may grow sideburns.\n\nThis is not a delicate little calendar listing. It is a three-day rockabilly and hot-rod weekender, which means readers should expect a destination crowd, late arrivals, and the usual Gallatin math: rideshare, carpool, or arrive before the confidence gets too shiny.\n\nOur ruling: confirmed event, good weekend pick, and a smart one to include in the daily brief. If you are going, check the ticket page before leaving because event details are the one thing in Nashville more willing to change than a lane closure.",
+    "zone": "Gallatin",
+    "beat": "Music",
+    "label": "Confirmed",
+    "confidence": "Confirmed by Eastside Bowl's direct venue calendar and the ticket listing for Eastside Rockin' Rumble 2026.",
+    "reporterId": "riff",
+    "time": "May 15, 2026",
+    "priority": 214,
+    "imageStyle": "music",
+    "heroImage": "/api/media/location-photo?placeId=ChIJE06HjPpDZIgRh5kGdQfPUVY&photoIndex=0&q=1508A%20Gallatin%20Pike%20S%2C%20Madison%2C%20TN%2037115%2C%20USA",
+    "heroAlt": "Eastside Bowl location photo from Google Places.",
+    "factBox": [
+      {
+        "label": "When",
+        "value": "Friday-Sunday, May 15-17, 2026"
+      },
+      {
+        "label": "Where",
+        "value": "Eastside Bowl, 1508A Gallatin Pike S."
+      },
+      {
+        "label": "Tickets",
+        "value": "$40-$125 listed by Eastside Bowl"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "Eastside Bowl",
+        "description": "Google Places photo candidate for Eastside Bowl.",
+        "url": "https://www.google.com/maps/search/?api=1&query=1508A%20Gallatin%20Pike%20S%2C%20Madison%2C%20TN%2037115%2C%20USA&query_place_id=ChIJE06HjPpDZIgRh5kGdQfPUVY",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJE06HjPpDZIgRh5kGdQfPUVY&photoIndex=0&q=1508A%20Gallatin%20Pike%20S%2C%20Madison%2C%20TN%2037115%2C%20USA",
+        "imageAlt": "Eastside Bowl location photo from Google Places.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Trey Tollison.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJE06HjPpDZIgRh5kGdQfPUVY",
+        "placeQuery": "1508A Gallatin Pike S, Madison, TN 37115, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo rendered through the live Places media endpoint with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-15"
+      },
+      {
+        "label": "Location",
+        "title": "Eastside Bowl on Google Maps",
+        "description": "Map context for the three-day weekender.",
+        "url": "https://www.google.com/maps/search/?api=1&query=1508A%20Gallatin%20Pike%20S%2C%20Madison%2C%20TN%2037115%2C%20USA&query_place_id=ChIJE06HjPpDZIgRh5kGdQfPUVY",
+        "embedUrl": "https://www.google.com/maps?q=1508A%20Gallatin%20Pike%20S%2C%20Madison%2C%20TN%2037115%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=1508A%20Gallatin%20Pike%20S%2C%20Madison%2C%20TN%2037115%2C%20USA&query_place_id=ChIJE06HjPpDZIgRh5kGdQfPUVY",
+        "sourceType": "map_embed",
+        "placeId": "ChIJE06HjPpDZIgRh5kGdQfPUVY",
+        "placeQuery": "1508A Gallatin Pike S, Madison, TN 37115, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Eastside Bowl event calendar",
+        "description": "Direct venue calendar for May 15-17 Eastside Rockin' Rumble listings.",
+        "url": "https://shows.eastsidebowl.com/",
+        "sourceUrl": "https://shows.eastsidebowl.com/",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Ticket listing",
+        "description": "Eventim ticket page for the Friday, May 15 listing.",
+        "url": "https://www.eventim.com/event/eastside-rockin-rumble-2026-eastside-bowl-21132668/",
+        "sourceUrl": "https://www.eventim.com/event/eastside-rockin-rumble-2026-eastside-bowl-21132668/",
+        "sourceType": "source_link"
+      }
+    ],
+    "sourceNote": "Confirmed on the direct Eastside Bowl calendar. Readers should check the ticket page before leaving because event details can change.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "Eastside Bowl calendar",
+        "url": "https://shows.eastsidebowl.com/",
+        "type": "Direct venue"
+      },
+      {
+        "name": "Eventim ticket listing",
+        "url": "https://www.eventim.com/event/eastside-rockin-rumble-2026-eastside-bowl-21132668/",
+        "type": "Ticketing"
+      }
+    ],
+    "reactions": {
+      "Love": 22,
+      "Side-Eye": 6
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_52",
+        "text": "If the hair is high, leave early."
+      }
+    ],
+    "social": {
+      "x": "Eastside Rockin' Rumble starts tonight at Eastside Bowl and runs May 15-17. Gallatin has been warned.",
+      "instagram": "Three days of Eastside Bowl volume start tonight. Rockabilly, hot rods, and Gallatin parking math.",
+      "video": "Riff points down Gallatin and previews Eastside Rockin' Rumble like a traffic report with a pompadour."
+    }
+  },
+  {
+    "id": "nashville-pothole-season-east-nashville-may-15-2026",
+    "slug": "nashville-pothole-season-east-nashville-reporting-may-15-2026",
+    "title": "Nashville Filled 10,995 Potholes This Year, So Yes, Your Tire Is Being Dramatic For A Reason",
+    "deck": "After the January ice storm, NDOT's repair count gives East Nashville a practical script: report the hole, name the road owner, and stop relying on group-chat screaming alone.",
+    "body": "Axios Nashville reports that from January 1 through May 8, NDOT filled 10,995 potholes on city roads. That is not a vibe. That is a municipal number with tire-shop implications.\n\nThe winter storm is the reason this feels worse than normal. Freeze, thaw, rain, traffic, repeat: that is how a regular drive turns into a percussion section. East Nashville knows this routine especially well because Gallatin, Main, Woodland, Shelby, and the neighborhood cut-throughs all invite the same question: was that a pothole or did the street just clear its throat?\n\nThe useful part is reporting correctly. Axios says city-street potholes can go through 311 or hubNashville, while interstate potholes go to the Tennessee Department of Transportation hotline at 833-TDOTFIX. NDOT's own permit and roadway pages also point residents toward the active closure map and right-of-way reporting channels.\n\nPrivate-platform note: Nextdoor and Facebook complaints are excellent early-warning systems, but they are not work orders. The publishable version needs a location, a photo if safe, a report number if possible, and whether the road is Metro or TDOT. Otherwise the hole gets fifteen comments and zero asphalt.\n\nOur ruling: this becomes a recurring East Nashville road-damage watch. Send the block, the lane, the report link, and a clean photo. We will do the jokes after the tire survives.",
+    "zone": "East Nashville",
+    "beat": "Traffic",
+    "label": "Reported",
+    "confidence": "Reported by Axios using NDOT repair counts, with official NDOT/hubNashville reporting paths attached for reader action.",
+    "reporterId": "parker",
+    "time": "May 15, 2026",
+    "priority": 213,
+    "imageStyle": "street",
+    "heroImage": "/api/media/location-photo?placeId=ChIJ1cqLBThmZIgRbl8OBP4KWgc&photoIndex=0&q=750%20S%205th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+    "heroAlt": "Nashville Department of Transportation and Multimodal Infrastructure location photo from Google Places.",
+    "factBox": [
+      {
+        "label": "Reported count",
+        "value": "10,995 potholes filled Jan. 1-May 8"
+      },
+      {
+        "label": "City streets",
+        "value": "Report through 311 or hubNashville"
+      },
+      {
+        "label": "Interstates",
+        "value": "Call TDOT at 833-TDOTFIX"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "Nashville Department of Transportation & Multimodal Infrastructure",
+        "description": "Google Places photo for NDOT's East Nashville-adjacent office location.",
+        "url": "https://www.google.com/maps/search/?api=1&query=750%20S%205th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJ1cqLBThmZIgRbl8OBP4KWgc",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJ1cqLBThmZIgRbl8OBP4KWgc&photoIndex=0&q=750%20S%205th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "Nashville Department of Transportation and Multimodal Infrastructure location photo from Google Places.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Chris Mataele.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJ1cqLBThmZIgRbl8OBP4KWgc",
+        "placeQuery": "750 S 5th St, Nashville, TN 37206, USA",
+        "relevance": "strong",
+        "relevanceScore": 82,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo rendered through the live Places media endpoint with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-15"
+      },
+      {
+        "label": "Location",
+        "title": "NDOT office on Google Maps",
+        "description": "Map context for the official road-maintenance source.",
+        "url": "https://www.google.com/maps/search/?api=1&query=750%20S%205th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJ1cqLBThmZIgRbl8OBP4KWgc",
+        "embedUrl": "https://www.google.com/maps?q=750%20S%205th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=750%20S%205th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJ1cqLBThmZIgRbl8OBP4KWgc",
+        "sourceType": "map_embed",
+        "placeId": "ChIJ1cqLBThmZIgRbl8OBP4KWgc",
+        "placeQuery": "750 S 5th St, Nashville, TN 37206, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for official-source location context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Axios pothole season report",
+        "description": "Axios reported NDOT's pothole repair count and reporting paths.",
+        "url": "https://www.axios.com/local/nashville/2026/05/12/nashville-pothole-season-batters-city-roads",
+        "sourceUrl": "https://www.axios.com/local/nashville/2026/05/12/nashville-pothole-season-batters-city-roads",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "NDOT roadway closures and reporting context",
+        "description": "Official NDOT page for active street, lane, and sidewalk closure context.",
+        "url": "https://www.nashville.gov/departments/transportation/road-closures",
+        "sourceUrl": "https://www.nashville.gov/departments/transportation/road-closures",
+        "sourceType": "source_link"
+      }
+    ],
+    "sourceNote": "Use resident chatter as a lead only. Publish specific pothole locations only with a public report, safe photo, official data, or direct observation.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "Axios Nashville pothole season report",
+        "url": "https://www.axios.com/local/nashville/2026/05/12/nashville-pothole-season-batters-city-roads",
+        "type": "Reported"
+      },
+      {
+        "name": "NDOT roadway closures page",
+        "url": "https://www.nashville.gov/departments/transportation/road-closures",
+        "type": "Official"
+      },
+      {
+        "name": "NDOT permits and reporting context",
+        "url": "https://www.nashville.gov/departments/transportation/permits",
+        "type": "Official"
+      }
+    ],
+    "reactions": {
+      "Love": 14,
+      "Side-Eye": 29
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_53",
+        "text": "Please add 'emotional damage' as a road condition."
+      }
+    ],
+    "social": {
+      "x": "NDOT filled 10,995 potholes Jan. 1-May 8, Axios reports. East Nashville: report the hole, get the number, then complain with precision.",
+      "instagram": "The potholes have receipts. Report city streets through 311 or hubNashville; interstates go to TDOT.",
+      "video": "Parker explains the pothole count while holding a tote bag full of snacks and one very tired tire gauge."
+    }
+  },
+  {
+    "id": "facebook-mothballs-fence-line-codes-may-15-2026",
+    "slug": "east-nashville-mothballs-fence-line-codes-may-15-2026",
+    "title": "East Nashville's Mothball Argument Is Actually A Codes Lesson",
+    "deck": "A private group thread about mothballs along a fence line turned into a public-service reminder: EPA says mothballs are not for outdoor fence lines, and Metro has a trackable complaint path.",
+    "body": "The most East Nashville post of the Facebook capture pass was not about a restaurant, a council bill, or traffic. It was a neighbor dispute over mothballs placed outdoors along a fence line after a snake sighting. The thread quickly did what neighborhood threads do: jokes, frustration, advice, and someone pointing the whole thing toward hubNashville.\n\nWe are not naming the poster, the neighbors, or the block. The publishable part is the pattern. People reach for household fixes when they are nervous about snakes or yard pests, and mothballs have the particular curse of sounding like an old-school hack while being a pesticide product with label rules.\n\nEPA's pesticide-labeling Q&A is surprisingly specific here: applying mothballs along a fence line is outside the labeled use site, because registered mothball products specify airtight containers and storage closets. EPA also warns that mothball products are a common illegal-pesticide category and can be hazardous, especially for young children.\n\nThe Metro piece is straightforward. Metro Codes says property-standards violations can be reported through hubNashville or by calling the Codes Hotline. That does not mean every neighbor problem should begin with a complaint ticket. It does mean the city has a cleaner lane than a comment thread if there is a real public-health or property-standard issue.\n\nOur ruling: if there are mothballs outside, do not turn the group chat into a court transcript. Talk first if it is safe and practical. If it is not, document the condition without posting private-home details, use hubNashville, and let the official process carry the boring part. The boring part is, unfortunately, where the asphalt meets the feelings.",
+    "zone": "East Nashville",
+    "beat": "Civic Life",
+    "label": "Group Chat Says",
+    "confidence": "Community signal captured from the private East Nashville Facebook group and converted into public guidance using EPA pesticide-labeling guidance, EPA consumer pesticide warnings, TWRA snake context, and Metro Codes reporting instructions.",
+    "reporterId": "parker",
+    "time": "May 15, 2026",
+    "priority": 212,
+    "imageStyle": "street",
+    "heroImage": "/api/media/location-photo?placeId=ChIJAQDMt2lmZIgRb7BKr9QjPOk&photoIndex=0&q=800%202nd%20Ave%20S%2C%20Nashville%2C%20TN%2037210%2C%20USA",
+    "heroAlt": "Metro Codes Department location photo from Google Places.",
+    "factBox": [
+      {
+        "label": "Community signal",
+        "value": "Private Facebook thread about outdoor mothballs along a fence line"
+      },
+      {
+        "label": "EPA guidance",
+        "value": "Mothballs are labeled for airtight containers and storage closets, not fence lines"
+      },
+      {
+        "label": "Local route",
+        "value": "Metro Codes points property-standard reports to hubNashville"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "Metro Codes Department",
+        "description": "Google Places photo for the Metro Codes Department.",
+        "url": "https://www.google.com/maps/search/?api=1&query=800%202nd%20Ave%20S%2C%20Nashville%2C%20TN%2037210%2C%20USA&query_place_id=ChIJAQDMt2lmZIgRb7BKr9QjPOk",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJAQDMt2lmZIgRb7BKr9QjPOk&photoIndex=0&q=800%202nd%20Ave%20S%2C%20Nashville%2C%20TN%2037210%2C%20USA",
+        "imageAlt": "Metro Codes Department location photo from Google Places.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Brian Copeland.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJAQDMt2lmZIgRb7BKr9QjPOk",
+        "placeQuery": "800 2nd Ave S, Nashville, TN 37210, USA",
+        "relevance": "strong",
+        "relevanceScore": 84,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo rendered through the live Places media endpoint with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-15"
+      },
+      {
+        "label": "Location",
+        "title": "Metro Codes Department map",
+        "description": "Map context for the official local reporting lane.",
+        "url": "https://www.google.com/maps/search/?api=1&query=800%202nd%20Ave%20S%2C%20Nashville%2C%20TN%2037210%2C%20USA&query_place_id=ChIJAQDMt2lmZIgRb7BKr9QjPOk",
+        "embedUrl": "https://www.google.com/maps?q=800%202nd%20Ave%20S%2C%20Nashville%2C%20TN%2037210%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "ChIJAQDMt2lmZIgRb7BKr9QjPOk",
+        "placeQuery": "800 2nd Ave S, Nashville, TN 37210, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for official-source location context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "East Nashville Facebook group capture",
+        "description": "Supervised private-group capture of the mothball/fence-line thread. Personal details not published.",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial",
+        "sourceUrl": "https://www.facebook.com/groups/eastnashvilleofficial",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "EPA pesticide-labeling Q&A",
+        "description": "EPA guidance specifically addresses mothballs placed along outdoor fence lines.",
+        "url": "https://www.epa.gov/pesticide-labels/pesticide-labeling-questions-answers",
+        "sourceUrl": "https://www.epa.gov/pesticide-labels/pesticide-labeling-questions-answers",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "EPA illegal household pesticide guidance",
+        "description": "EPA consumer guidance flags mothballs as a common illegal-pesticide concern.",
+        "url": "https://www.epa.gov/safepestcontrol/avoid-illegal-household-pesticide-products",
+        "sourceUrl": "https://www.epa.gov/safepestcontrol/avoid-illegal-household-pesticide-products",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Metro Codes and Building Safety",
+        "description": "Metro Codes explains the property-standards reporting path through hubNashville.",
+        "url": "https://www.nashville.gov/departments/codes",
+        "sourceUrl": "https://www.nashville.gov/departments/codes",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "TWRA copperhead information",
+        "description": "State wildlife context for common snake anxiety in Tennessee.",
+        "url": "https://www.tn.gov/twra/wildlife/reptiles/snakes/copperhead.html",
+        "sourceUrl": "https://www.tn.gov/twra/wildlife/reptiles/snakes/copperhead.html",
+        "sourceType": "source_link"
+      }
+    ],
+    "sourceNote": "This article uses a private Facebook thread only as a community signal. It does not publish names, exact home locations, raw screenshots, or accusations about specific neighbors.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "East Nashville Facebook group supervised thread capture",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial",
+        "type": "Private group capture"
+      },
+      {
+        "name": "EPA pesticide-labeling Q&A",
+        "url": "https://www.epa.gov/pesticide-labels/pesticide-labeling-questions-answers",
+        "type": "Official"
+      },
+      {
+        "name": "EPA: avoid illegal household pesticide products",
+        "url": "https://www.epa.gov/safepestcontrol/avoid-illegal-household-pesticide-products",
+        "type": "Official"
+      },
+      {
+        "name": "Metro Codes and Building Safety",
+        "url": "https://www.nashville.gov/departments/codes",
+        "type": "Official"
+      },
+      {
+        "name": "TWRA copperhead information",
+        "url": "https://www.tn.gov/twra/wildlife/reptiles/snakes/copperhead.html",
+        "type": "Official"
+      }
+    ],
+    "reactions": {
+      "Love": 17,
+      "Side-Eye": 31
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_55",
+        "text": "The official process is less fun than the group chat, which is how you know it might work."
+      }
+    ],
+    "social": {
+      "x": "East Nashville Facebook found a mothball fence-line argument. EPA says mothballs are not for outdoor fence lines; Metro says use hubNashville for property-standard issues.",
+      "instagram": "The group chat gave us mothball drama. The public-service part is EPA label guidance plus a Metro reporting lane.",
+      "video": "Parker explains why a fence-line mothball argument becomes a tiny civic lesson: labels matter, private details stay private, and hubNashville is the boring receipt."
+    }
+  },
+  {
+    "id": "nes-mobile-app-east-nashville-may-15-2026",
+    "slug": "nes-mobile-app-outage-updates-east-nashville-may-15-2026",
+    "title": "NES Has A New App, Which Is Boring Until The Power Blinks",
+    "deck": "The utility says customers can pay bills, check usage, and report outages from their phones. After winter, that is not nothing.",
+    "body": "Nashville Electric Service has launched a mobile app for customer accounts, according to WKRN reporting syndicated by AOL. The reported pitch is practical: pay bills, review account details, track energy usage, and get outage updates without logging in through a browser.\n\nThat is citywide, not East Nashville-specific, but East Nashville earned the right to care after the January storm made outage maps part of everyone's emotional weather system. An app will not keep the lights on by itself. It might, however, make it faster to report a problem, check a restoration update, or confirm whether your house is the only one sitting in the dark like a dramatic candle commercial.\n\nThe App Store listing describes the Nashville Electric Service app as a utility account tool with bill pay, payment history, usage tracking, start/stop service, outage reporting, and restoration updates. That lines up with the reported launch story and makes this a practical reader-service item, not a shiny-tech announcement.\n\nOur ruling: install it if you are an NES customer and want the outage/reporting path on your phone before the next storm makes everyone rediscover their flashlight drawer. We will save the applause for whether it works when people actually need it.",
+    "zone": "Nashville",
+    "beat": "Services",
+    "label": "Reported",
+    "confidence": "Reported by WKRN/AOL and cross-checked against the Apple App Store listing for the NES app.",
+    "reporterId": "parker",
+    "time": "May 15, 2026",
+    "priority": 211,
+    "imageStyle": "street",
+    "heroImage": "/api/media/location-photo?placeId=ChIJZZ2AFfJmZIgR5xsUCBquVFM&photoIndex=0&q=1214%20Church%20St%20%23100%2C%20Nashville%2C%20TN%2037246%2C%20USA",
+    "heroAlt": "Nashville Electric Service location photo from Google Places.",
+    "factBox": [
+      {
+        "label": "New tool",
+        "value": "Nashville Electric Service mobile app"
+      },
+      {
+        "label": "Reported features",
+        "value": "Bill pay, usage, account details, outage reporting"
+      },
+      {
+        "label": "Why East cares",
+        "value": "Storm and outage reporting is local survival admin"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "Nashville Electric Service",
+        "description": "Google Places photo for Nashville Electric Service.",
+        "url": "https://www.google.com/maps/search/?api=1&query=1214%20Church%20St%20%23100%2C%20Nashville%2C%20TN%2037246%2C%20USA&query_place_id=ChIJZZ2AFfJmZIgR5xsUCBquVFM",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJZZ2AFfJmZIgR5xsUCBquVFM&photoIndex=0&q=1214%20Church%20St%20%23100%2C%20Nashville%2C%20TN%2037246%2C%20USA",
+        "imageAlt": "Nashville Electric Service location photo from Google Places.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Nashville Electric Service.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJZZ2AFfJmZIgR5xsUCBquVFM",
+        "placeQuery": "1214 Church St #100, Nashville, TN 37246, USA",
+        "relevance": "strong",
+        "relevanceScore": 82,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo rendered through the live Places media endpoint with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-15"
+      },
+      {
+        "label": "Source Trail",
+        "title": "NES app launch report",
+        "description": "WKRN/AOL reported the NES mobile app launch and account/outage features.",
+        "url": "https://www.aol.com/news/nashville-electric-launches-mobile-app-163204351.html",
+        "sourceUrl": "https://www.aol.com/news/nashville-electric-launches-mobile-app-163204351.html",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Apple App Store listing",
+        "description": "Official app listing describing account, usage, and outage-reporting features.",
+        "url": "https://apps.apple.com/us/app/nashville-electric-service/id6760588178",
+        "sourceUrl": "https://apps.apple.com/us/app/nashville-electric-service/id6760588178",
+        "sourceType": "source_link"
+      }
+    ],
+    "sourceNote": "Reader-service item. Verify Android listing separately before naming Google Play availability in future updates.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "AOL/WKRN NES app report",
+        "url": "https://www.aol.com/news/nashville-electric-launches-mobile-app-163204351.html",
+        "type": "Reported"
+      },
+      {
+        "name": "Apple App Store: Nashville Electric Service",
+        "url": "https://apps.apple.com/us/app/nashville-electric-service/id6760588178",
+        "type": "Official app listing"
+      }
+    ],
+    "reactions": {
+      "Love": 11,
+      "Side-Eye": 17
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_54",
+        "text": "Boring infrastructure is my toxic trait now."
+      }
+    ],
+    "social": {
+      "x": "NES has a new app for bills, usage, and outage reporting. Boring until the power blinks, then suddenly everyone's a product manager.",
+      "instagram": "NES app: not glamorous, potentially useful, emotionally relevant after winter.",
+      "video": "Parker calmly explains the NES app while checking three flashlights and pretending this is normal."
+    }
+  },
+  {
     "id": "may-12-source-pass-east-nashville",
     "slug": "today-east-nashville-source-pass-may-12-2026",
     "title": "Today's East Nashville Source Pass: Coffee Money, Road Safety, East Bank, And The Beast",
