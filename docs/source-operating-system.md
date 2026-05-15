@@ -32,7 +32,7 @@ The image sourcing rules live in `docs/image-sourcing-policy.md`.
    - Rank by locality, usefulness, shareability, confidence, and risk.
    - Assign reporter voice and label.
    - Create web post, beehiiv block, X/Threads copy, Instagram caption, and video prompt.
-   - Attach the media pack: hero image/custom art only as fallback, source screenshot/capture or public embed when useful, map/location embed when useful, and redacted private-platform receipts when applicable. Do not publish source receipt cards as article images.
+   - Attach the media pack: hero image/custom art only as fallback, source screenshot/capture or public embed when useful, map/location embed when useful, and redacted private-platform receipts when applicable. Inline images must be story-specific, not generic filler; food/menu shots belong only when the food/menu is part of the reported angle. Do not publish source receipt cards as article images.
 
 ## Source Tiers
 

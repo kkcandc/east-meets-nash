@@ -25,6 +25,8 @@ Before publish, every story needs one of these:
 
 Generic neighborhood photos are allowed as temporary context, not as the default hero for final reported work.
 
+Inline images must be intentionally selected for the article, not auto-filled from every available asset. Use an inline image only when it clarifies the reported fact, place, person, object, scene, or public record. For restaurant openings, prefer exterior, sign, storefront, construction, line, ribbon-cutting, mural, patio, street, or map context. Menu and food photos belong in menu, review, dining, or dish-specific stories, not in a location/opening story unless the food itself is the news.
+
 ## Relevance Score
 
 Use this scale in story media metadata:
@@ -62,7 +64,7 @@ Use this scale in story media metadata:
 Before publishing, attach:
 
 - Approved hero image with provider, source URL, credit, license/rights note, relevance score, and approval status.
-- Real location/source image, API image, embed, or redacted screenshot when available.
+- Real location/source image, API image, embed, or redacted screenshot when available and directly relevant.
 - Written unavailable reason if the hero is contextual or generic.
 - Source trail with the original link, embed, map, or screenshot when useful.
 - Map or location embed when the story has a place, route, meeting, venue, or address.

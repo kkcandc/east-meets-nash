@@ -56,7 +56,9 @@ export default async function StoryPage({ params }: StoryPageProps) {
   const heroMedia = publishableMedia.find((item) => item.imageUrl === heroImage);
   const featureMedia = publishableMedia.find((item) => item.imageUrl && item.label === "Comment Signals");
   const imageMedia =
-    publishableMedia.filter((item) => item.imageUrl && item.label !== "Comment Signals" && item.imageUrl !== heroImage) ||
+    publishableMedia.filter(
+      (item) => item.displayRole === "inline" && item.imageUrl && item.label !== "Comment Signals" && item.imageUrl !== heroImage,
+    ) ||
     [];
   const mapMedia = publishableMedia.filter((item) => item.embedUrl) || [];
   const linkMedia = publishableMedia.filter((item) => item.url && !item.imageUrl && !item.embedUrl && item.label !== "Hero Art") || [];

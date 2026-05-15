@@ -63,6 +63,7 @@ export interface Story {
     imageAlt?: string;
     embedUrl?: string;
     credit?: string;
+    displayRole?: "hero" | "feature" | "inline" | "source" | "hidden";
     provider?: string;
     sourceType?: string;
     sourceUrl?: string;

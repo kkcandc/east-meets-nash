@@ -35,6 +35,7 @@ function draftBodyFor(item: SourceItem): string {
     "- Exact original, official, Google Places, Street View, or approved licensed photo when available.",
     "- If using a contextual/generic fallback, write the unavailable reason before publish.",
     "- Hero image should be the approved photo; custom art is a fallback, not the default.",
+    "- Inline images should be story-specific, not generic filler. For restaurant openings, use the storefront, sign, line, ribbon cutting, street, or map context before food/menu photos.",
     "- Source screenshot/capture, public embed, or direct source link when it adds real evidence.",
     "- Map or location embed when location/source context matters.",
     "- X/Threads cut, Instagram caption, and short video prompt.",
