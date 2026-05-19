@@ -14,6 +14,6 @@ services:
       - key: NODE_ENV
         value: production
       - key: NEXT_PUBLIC_SITE_URL
-        value: https://east-meets-nash-web.onrender.com
+        value: https://eastmeetsnash.com
       - key: GOOGLE_PLACES_API_KEY
         sync: false
