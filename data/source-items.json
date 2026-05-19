@@ -1,5 +1,24 @@
 [
   {
+    "id": "src-may19-facebook-new-posts",
+    "title": "May 19 Facebook chronological capture",
+    "source": "East Nashville Facebook group",
+    "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "confidence": "Group Chat Says",
+    "risk": "Medium",
+    "score": 92,
+    "status": "Published May 19",
+    "automation": "Editor-supervised in-app browser capture",
+    "cadence": "Daily when access is available",
+    "verificationRule": "Use screenshots and captured text for local signals; skip or anonymize personal housing, child-related asks, medical/financial details, private addresses, plates, and unverified accusations.",
+    "suggestedReporter": "lila",
+    "suggestedLabel": "Group Chat Says",
+    "suggestedAngle": "Turn usable group-feed items into a screenshot-forward neighborhood notebook.",
+    "publishFormat": "Facebook notebook"
+  },
+  {
     "id": "src-may19-source-pass",
     "title": "May 19 public source pass",
     "source": "East Meets Nash source sweep",

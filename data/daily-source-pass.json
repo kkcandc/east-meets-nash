@@ -1,7 +1,7 @@
 {
   "date": "May 19, 2026",
   "title": "Daily Source Pass",
-  "summary": "Today's issue is built from public and approved sources plus open supervised capture lanes: AP/Sportsnet, Visit Music City, Metro Council Legistar, Rules Committee records, East Nashville Farmers Market, Nashville Public Library, NWS Nashville, and pending Facebook/Nextdoor screenshots.",
+  "summary": "Today's issue is built from public sources plus a supervised Facebook New posts capture: AP/Sportsnet, Visit Music City, Metro Council Legistar, Rules Committee records, East Nashville Farmers Market, Nashville Public Library, NWS Nashville, and Facebook group screenshots.",
   "stages": [
     {
       "time": "8:00 AM",
@@ -32,9 +32,10 @@
       "sourceIds": [
         "src-facebook-group",
         "src-nextdoor-patterns",
-        "src-reader-tips"
+        "src-reader-tips",
+        "src-may19-facebook-new-posts"
       ],
-      "output": "Capture lane remains open. No private-platform claims were promoted because this run did not receive selected screenshots or post notes."
+      "output": "Facebook New posts capture completed with a published screenshot-forward notebook. Nextdoor remains waiting on a working selected feed."
     },
     {
       "time": "5:00 PM",
@@ -45,12 +46,19 @@
         "src-may19-super-bowl-east-bank",
         "src-may19-council-gallatin-shelby-nes",
         "src-may19-nes-tree-moratorium",
-        "src-may19-farmers-market-weather"
+        "src-may19-farmers-market-weather",
+        "src-may19-facebook-new-posts"
       ],
-      "output": "Five May 19 stories are live with Google Places images, maps, source trails, and social copy."
+      "output": "Six May 19 stories are live, including the Facebook notebook with captured images, Google Places images, maps, source trails, and social copy."
     }
   ],
   "publishQueue": [
+    {
+      "sourceId": "src-may19-facebook-new-posts",
+      "slot": "Facebook capture",
+      "decision": "Published as a screenshot-forward neighborhood notebook.",
+      "why": "The supervised New posts pass found useful public-facing events and local commerce while skipping sensitive private items."
+    },
     {
       "sourceId": "src-may19-source-pass",
       "slot": "Issue lead",
@@ -97,8 +105,8 @@
   "accessNeeds": [
     {
       "name": "Facebook private group",
-      "status": "Waiting on selected posts",
-      "today": "Open the East Nashville group to today's highest-signal posts or paste screenshots/source notes. I can crop, redact only the hard categories, and publish follow-ups.",
+      "status": "Captured today",
+      "today": "New posts pass completed and published as a Facebook notebook. Keep using this lane when the editor opens the group.",
       "guardrail": "Screenshot-forward is fine; hard-redact kids, medical/financial details, private addresses, phones, plates, and unverified private-person accusations."
     },
     {

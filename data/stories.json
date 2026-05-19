@@ -1,5 +1,148 @@
 [
   {
+    "id": "facebook-new-posts-notebook-may-19-2026",
+    "slug": "facebook-new-posts-notebook-may-19-2026",
+    "title": "The Facebook Feed Had Flowers, A Clothing Swap, And A Tiny Show Calendar",
+    "deck": "A supervised chronological pass through the East Nashville group turned up one useful weekend event, one Wednesday music flyer, and one tiny flower-business signal worth saving.",
+    "body": "We finally got the Facebook capture lane working the way it should: open the East Nashville group, switch the feed to New posts, and treat the scroll like a notebook instead of a rumor blender.\n\nThe first rule of the pass was restraint. I skipped the private housing budget ask, the car-seat request, job-search posts, and a burglary-identification thread because those either involve personal details, kids, or unverified private-person accusations. That still left some genuinely useful local texture.\n\nThe strongest event item was a Saturday clothing swap and listening party at Talk Nice Vintage. The flyer bills it as Everything Must Go, with a 10:30 a.m. start on Saturday, May 23, plus a matcha pop-up, live music, and a bring-clothes/take-clothes setup. That is exactly the kind of small, very local thing that disappears if you are not in the right feed at the right time.\n\nThe music note is smaller but clean: a flyer for The Underdog lists a Wednesday, May 20 show at 9 p.m. with Meltdown South, Carson Deans Band, and Mike Gowen Jr. The flyer says $10, and the venue listing puts The Underdog at 3208 Gallatin Pike, which keeps this in the East Nashville calendar lane.\n\nThe sweetest micro-business signal was a floral-design side venture from an East-side resident testing prototype bouquets. The post offered free delivery to East Nashville and Madison and showed actual arrangements, not a logo pretending to be a photo. That is not a giant business story yet, but it is a good early-local-market signal: someone is using the group to test demand, get feedback, and move real inventory.\n\nOur ruling: publish this as a Facebook notebook, not a hard-news story. The value is not that every post is news. The value is that the group feed can surface small events, makers, neighborhood commerce, and practical calendar items before they hit search. For future runs, this is the bar: screenshots or captured posts, visible local value, hard skips for sensitive personal details, and real images whenever the post itself gives us something useful.",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "label": "Group Chat Says",
+    "confidence": "Supervised May 19 Facebook group capture in chronological New posts mode, with public venue/vendor pages used only for identity and location context.",
+    "reporterId": "lila",
+    "time": "May 19, 2026",
+    "priority": 261,
+    "imageStyle": "event",
+    "heroImage": "/assets/stories/east-meets-nash-talk-nice-swap.png",
+    "heroAlt": "A captured flyer for a Saturday clothing swap and listening party at Talk Nice.",
+    "factBox": [
+      {
+        "label": "Capture mode",
+        "value": "East Nashville Facebook group, New posts sort, May 19"
+      },
+      {
+        "label": "Saturday",
+        "value": "Talk Nice clothing swap/listening party, May 23 at 10:30 a.m."
+      },
+      {
+        "label": "Wednesday",
+        "value": "The Underdog show, May 20 at 9 p.m., listed at $10"
+      },
+      {
+        "label": "Skipped",
+        "value": "Housing budgets, child-related asks, job searches, and unverified accusation posts"
+      }
+    ],
+    "media": [
+      {
+        "label": "Facebook Capture",
+        "title": "Talk Nice clothing swap flyer",
+        "description": "Captured flyer for a May 23 clothing swap and listening party at Talk Nice.",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "imageUrl": "/assets/stories/east-meets-nash-talk-nice-swap.png",
+        "imageAlt": "Flyer reading Everything Must Go, clothing swap and listening party at Talk Nice.",
+        "credit": "Screenshot: East Meets Nash supervised Facebook capture, May 19, 2026.",
+        "displayRole": "hero",
+        "provider": "facebook_capture",
+        "sourceType": "screenshot",
+        "relevance": "exact",
+        "relevanceScore": 96,
+        "approvalStatus": "approved",
+        "rightsNote": "Captured from editor-supervised Facebook group view for event context."
+      },
+      {
+        "label": "Facebook Capture",
+        "title": "Prototype bouquet photos",
+        "description": "Captured bouquet photos from a local floral-design post.",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "imageUrl": "/assets/stories/east-meets-nash-floral-bouquets.png",
+        "imageAlt": "Two bouquet photos captured from an East Nashville floral-design post.",
+        "credit": "Screenshot: East Meets Nash supervised Facebook capture, May 19, 2026.",
+        "displayRole": "inline",
+        "provider": "facebook_capture",
+        "sourceType": "screenshot",
+        "relevance": "exact",
+        "relevanceScore": 93,
+        "approvalStatus": "approved",
+        "rightsNote": "Cropped to the product photos and away from private comments."
+      },
+      {
+        "label": "Facebook Capture",
+        "title": "The Underdog May 20 flyer",
+        "description": "Captured flyer for a Wednesday night show at The Underdog.",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "imageUrl": "/assets/stories/east-meets-nash-underdog-may20.png",
+        "imageAlt": "Flyer for The Underdog show with Meltdown South, Carson Deans Band, and Mike Gowen Jr.",
+        "credit": "Screenshot: East Meets Nash supervised Facebook capture, May 19, 2026.",
+        "displayRole": "inline",
+        "provider": "facebook_capture",
+        "sourceType": "screenshot",
+        "relevance": "exact",
+        "relevanceScore": 91,
+        "approvalStatus": "approved",
+        "rightsNote": "Captured from editor-supervised Facebook group view for event context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "East Nashville Facebook group capture",
+        "description": "Chronological new-posts capture used for the notebook.",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "sourceUrl": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Talk Nice Vintage vendor page",
+        "description": "Public vendor identity page for Talk Nice Vintage.",
+        "url": "https://marketspread.com/vendor/12360/talk-nice-vintage/",
+        "sourceUrl": "https://marketspread.com/vendor/12360/talk-nice-vintage/",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "The Underdog venue listing",
+        "description": "Public venue listing with address and concert-calendar context.",
+        "url": "https://www.bandsintown.com/v/10173517-the-underdog",
+        "sourceUrl": "https://www.bandsintown.com/v/10173517-the-underdog",
+        "sourceType": "source_link"
+      }
+    ],
+    "sourceNote": "This story uses Facebook as a supervised capture source for small local signals, not as public-record confirmation. Sensitive/private posts from the same pass were deliberately skipped.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "East Nashville Facebook group: supervised New posts capture",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "type": "Supervised private-group capture"
+      },
+      {
+        "name": "Talk Nice Vintage: public vendor page",
+        "url": "https://marketspread.com/vendor/12360/talk-nice-vintage/",
+        "type": "Vendor identity"
+      },
+      {
+        "name": "Bandsintown: The Underdog venue listing",
+        "url": "https://www.bandsintown.com/v/10173517-the-underdog",
+        "type": "Venue context"
+      }
+    ],
+    "reactions": {
+      "Love": 48,
+      "Side-Eye": 18
+    },
+    "comments": [
+      {
+        "author": "editor_note",
+        "text": "The best group-feed items are not always big stories; sometimes they are the calendar before the calendar finds search."
+      }
+    ],
+    "social": {
+      "x": "The Facebook capture lane worked: Talk Nice swap, Underdog flyer, and a tiny flower-business signal, all in one East Nashville notebook.",
+      "instagram": "Today’s group-feed pass found the good little stuff: a Talk Nice clothing swap, a Wednesday Underdog show, and prototype bouquets with actual photos.",
+      "video": "Lila walks through the Facebook notebook: what made the cut, what got skipped, and why screenshots make the small local calendar feel real."
+    }
+  },
+  {
     "id": "may-19-source-pass-east-nashville",
     "slug": "today-east-nashville-source-pass-may-19-2026",
     "title": "Today's East Nashville Source Pass: Super Bowl, Council Math, Trees, Market Tents, And Rain",
@@ -880,7 +1023,7 @@
     "body": "A flyer captured from the East Nashville Facebook group advertises a Bridging the Gap Learning Center grand opening and community day for Saturday, May 16, from 10 a.m. to 4 p.m. at 315 South 8th Street. The flyer lists center tours, family activities, food and treats, youth perks, community partners, and a street closure note.\n\nWe are not publishing the private group screenshot or the personal posting trail. The useful public part is the event information, the location, and the neighborhood context. Anyone planning around the street closure should verify the details with the organizer or Metro before treating the flyer as the final word.\n\nWhy this matters beyond one Saturday: WSMV reported in March that nearly 3,000 children were on East Nashville daycare waiting lists. In the same report, Shetika Davis, a co-owner of Bridging the Gap Learning Center, described barriers that keep childcare from becoming accessible. City Cast Nashville also put Bridging the Gap into the broader conversation about Nashville's childcare legislation and access crunch.\n\nThat is the real story under the balloons. A neighborhood event on South 8th is also a tiny pressure valve in a city where parents are trying to solve work, cost, transportation, and trust all at once. If the center gets more families connected to actual seats, the community-day flyer is doing more than announcing a ribbon-cutting.\n\nOur ruling: publish as a captured community event with public context, not as a fully independent city-confirmed road-closure notice. Show up if it fits your Saturday, but double-check the logistics before building your whole day around it.",
     "zone": "South 8th",
     "beat": "Families",
-    "label": "Captured",
+    "label": "Group Chat Says",
     "confidence": "Event details from a supervised East Nashville Facebook group flyer capture; broader childcare context from WSMV, City Cast Nashville, and a public fundraiser page.",
     "reporterId": "june",
     "time": "May 15, 2026",
@@ -972,7 +1115,7 @@
       }
     ],
     "sourceNote": "The event flyer came from a private Facebook group capture. We paraphrased it, did not republish the screenshot, and used public sources only for the broader childcare context.",
-    "photoStatus": "context_photo_approved",
+    "photoStatus": "contextual_photo_needs_upgrade",
     "sources": [
       {
         "name": "East Nashville Facebook group supervised flyer capture",
@@ -1496,7 +1639,7 @@
       }
     ],
     "sourceNote": "This article uses a private Facebook thread only as a community signal. It does not publish names, exact home locations, raw screenshots, or accusations about specific neighbors.",
-    "photoStatus": "context_photo_approved",
+    "photoStatus": "contextual_photo_needs_upgrade",
     "sources": [
       {
         "name": "East Nashville Facebook group supervised thread capture",
