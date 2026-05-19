@@ -1,5 +1,737 @@
 [
   {
+    "id": "may-19-source-pass-east-nashville",
+    "slug": "today-east-nashville-source-pass-may-19-2026",
+    "title": "Today's East Nashville Source Pass: Super Bowl, Council Math, Trees, Market Tents, And Rain",
+    "deck": "The May 19 run found a 2030 Super Bowl vote, an East Bank board seat, a Gallatin sidewalk funding bump, a Shelby Park field-trip grant, NES tree-trimming politics, a Tuesday market, and late-day rain chances.",
+    "body": "Today's loudest Nashville item is not subtle: NFL owners voted Tuesday to bring Super Bowl LXIV to Nashville in 2030, with the game planned for the new enclosed Nissan Stadium on the East Bank. That is sports news, tourism news, development news, traffic news, and future 'why is every hotel $900' news wearing one enormous credential lanyard.\n\nThe East Nashville translation is simple. The East Bank is no longer a someday planning diagram. It is now the place expected to absorb the first Nashville Super Bowl, the new stadium's first giant national test, and a lot of related pressure on bridges, transit, downtown streets, hotels, parking, and the public land around the river.\n\nThe Council file is also doing its little Tuesday tap dance. The May 19 Metropolitan Council agenda analysis includes a Gallatin Pike North sidewalk participation amendment that would add $200,000, bringing Metro's contribution to an amount not to exceed $700,000. The same agenda includes a $3,600 in-kind grant from Friends of Shelby Park and Bottoms to fund bus rentals for summer enrichment programs at Kirkpatrick, McFerrin, Cleveland, East, and South Inglewood community centers to visit Shelby Park and Bottoms.\n\nThe Rules Committee has two NES items worth watching after Winter Storm Fern: one resolution expressing lack of confidence in the Electric Power Board's leadership, and another urging NES and the Electric Power Board to pause recently announced vegetation-management changes. Translation: tree trimming, storm recovery, and power-grid trust are still very much in the room.\n\nFor the useful, non-Council part of the day, East Nashville Farmers Market is scheduled at 5th and Woodland from 3:30 to 6:30 p.m., and East Branch Library's Tuesday hours run noon to 8 p.m. The National Weather Service Nashville office says rain chances begin late today and continue on and off through the week, with a low overall severe risk and the main late-day severe risk focused northwest of Middle Tennessee.\n\nPrivate-platform status: no Facebook or Nextdoor claims are being published in this pass yet. The capture lane is ready, and screenshots are welcome under the new screenshot-forward rule, but this run did not receive editor-selected private posts to verify, crop, or redact. Best next step: open the Facebook group or Nextdoor feed to the top East Nashville posts from today and I can turn the strongest public-interest signals into a follow-up package.\n\nOur ruling: publish the Super Bowl/East Bank item, publish the Council utility file, publish the NES/tree watch as a politics-and-power follow-up, publish the market/weather practical, and keep the private-platform lane open for editor-selected screenshots instead of pretending we scraped what we did not see.",
+    "zone": "East Nashville",
+    "beat": "News",
+    "label": "Reported",
+    "confidence": "Public-source scan from AP/Sportsnet, Visit Music City, Metro Council Legistar materials, East Nashville Farmers Market, Nashville Public Library, National Weather Service Nashville, and the active supervised Facebook/Nextdoor capture policy.",
+    "reporterId": "june",
+    "time": "May 19, 2026",
+    "priority": 260,
+    "imageStyle": "street",
+    "heroImage": "/api/media/location-photo?placeId=ChIJCSKbDgBnZIgR1WPa_kppzk0&photoIndex=0&q=S%202nd%20St%2C%20Nashville%2C%20TN%2037213%2C%20USA",
+    "heroAlt": "The new Nissan Stadium site on Nashville's East Bank.",
+    "factBox": [
+      {
+        "label": "Date",
+        "value": "Tuesday, May 19, 2026"
+      },
+      {
+        "label": "Top item",
+        "value": "NFL owners voted to bring Super Bowl LXIV to Nashville in 2030"
+      },
+      {
+        "label": "Council watch",
+        "value": "Gallatin sidewalk funding, Shelby Park trips, NES/tree resolutions"
+      },
+      {
+        "label": "Private platforms",
+        "value": "Held for editor-selected screenshots or pasted source notes"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "New Nissan Stadium",
+        "description": "S 2nd St, Nashville, TN 37213, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=S%202nd%20St%2C%20Nashville%2C%20TN%2037213%2C%20USA&query_place_id=ChIJCSKbDgBnZIgR1WPa_kppzk0",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJCSKbDgBnZIgR1WPa_kppzk0&photoIndex=0&q=S%202nd%20St%2C%20Nashville%2C%20TN%2037213%2C%20USA",
+        "imageAlt": "New Nissan Stadium location photo.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Ronaldo junior.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJCSKbDgBnZIgR1WPa_kppzk0",
+        "placeQuery": "S 2nd St, Nashville, TN 37213, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-19",
+        "displayRole": "hero"
+      },
+      {
+        "label": "Inline Photo",
+        "title": "East Nashville Farmers Market",
+        "description": "511 Woodland St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=511%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJoc1eDI9oZIgRguUfgAiVaVE",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJoc1eDI9oZIgRguUfgAiVaVE&photoIndex=0&q=511%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "East Nashville Farmers Market location photo.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Maggie Odle.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJoc1eDI9oZIgRguUfgAiVaVE",
+        "placeQuery": "511 Woodland St, Nashville, TN 37206, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-19",
+        "displayRole": "inline"
+      },
+      {
+        "label": "Location Map",
+        "title": "East Nashville Farmers Market map",
+        "description": "511 Woodland St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=511%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJoc1eDI9oZIgRguUfgAiVaVE",
+        "embedUrl": "https://www.google.com/maps?q=511%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "ChIJoc1eDI9oZIgRguUfgAiVaVE",
+        "placeQuery": "511 Woodland St, Nashville, TN 37206, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "AP/Sportsnet Super Bowl report",
+        "description": "Associated Press report on NFL owners voting to put the 2030 Super Bowl in Nashville.",
+        "url": "https://www.sportsnet.ca/nfl/article/nfl-taking-2030-super-bowl-to-nashville-and-titans-new-enclosed-stadium//",
+        "sourceUrl": "https://www.sportsnet.ca/nfl/article/nfl-taking-2030-super-bowl-to-nashville-and-titans-new-enclosed-stadium//",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Visit Music City Super Bowl LXIV page",
+        "description": "Official Nashville tourism page for the 2030 Super Bowl announcement and host-city framing.",
+        "url": "https://www.visitmusiccity.com/nashvillesuperbowl",
+        "sourceUrl": "https://www.visitmusiccity.com/nashvillesuperbowl",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Metro Council May 19 agenda analysis",
+        "description": "Council Office analysis for the May 19 Metropolitan Council meeting.",
+        "url": "https://nashville.legistar.com/View.ashx?GUID=109AFA6A-FF2C-4E0F-9E1D-1F8E1852F468&ID=1415582&M=E2",
+        "sourceUrl": "https://nashville.legistar.com/View.ashx?GUID=109AFA6A-FF2C-4E0F-9E1D-1F8E1852F468&ID=1415582&M=E2",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Rules Committee May 19 agenda",
+        "description": "Rules Committee agenda with NES, East Bank Authority, and other recognition items.",
+        "url": "https://nashville.legistar.com/MeetingDetail.aspx?G=99456586-FDA1-4896-A3EB-8389754A06F8&GID=787&LEGID=2311",
+        "sourceUrl": "https://nashville.legistar.com/MeetingDetail.aspx?G=99456586-FDA1-4896-A3EB-8389754A06F8&GID=787&LEGID=2311",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "East Nashville Farmers Market",
+        "description": "Direct market page with 2026 Tuesday hours and 5th and Woodland location.",
+        "url": "https://www.eastnashvillemarket.com/",
+        "sourceUrl": "https://www.eastnashvillemarket.com/",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "National Weather Service Nashville",
+        "description": "NWS Nashville update on rain chances and late-day storm risk.",
+        "url": "https://www.weather.gov/ohx/?n=19970124",
+        "sourceUrl": "https://www.weather.gov/ohx/?n=19970124",
+        "sourceType": "source_link"
+      }
+    ],
+    "sourceNote": "Facebook and Nextdoor were not promoted into reported claims in this pass because no editor-selected private-platform screenshots or post notes were available during the run.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "AP via Sportsnet: NFL taking 2030 Super Bowl to Nashville",
+        "url": "https://www.sportsnet.ca/nfl/article/nfl-taking-2030-super-bowl-to-nashville-and-titans-new-enclosed-stadium//",
+        "type": "Reported"
+      },
+      {
+        "name": "Visit Music City: Super Bowl LXIV in Nashville",
+        "url": "https://www.visitmusiccity.com/nashvillesuperbowl",
+        "type": "Official tourism page"
+      },
+      {
+        "name": "Metro Council May 19 agenda analysis",
+        "url": "https://nashville.legistar.com/View.ashx?GUID=109AFA6A-FF2C-4E0F-9E1D-1F8E1852F468&ID=1415582&M=E2",
+        "type": "Public record"
+      },
+      {
+        "name": "Rules Committee May 19 agenda",
+        "url": "https://nashville.legistar.com/MeetingDetail.aspx?G=99456586-FDA1-4896-A3EB-8389754A06F8&GID=787&LEGID=2311",
+        "type": "Public record"
+      },
+      {
+        "name": "East Nashville Farmers Market",
+        "url": "https://www.eastnashvillemarket.com/",
+        "type": "Direct source"
+      },
+      {
+        "name": "NWS Nashville",
+        "url": "https://www.weather.gov/ohx/?n=19970124",
+        "type": "Official weather"
+      }
+    ],
+    "reactions": {
+      "Love": 31,
+      "Side-Eye": 19
+    },
+    "comments": [
+      {
+        "author": "source_desk",
+        "text": "Private-platform lanes are ready; this run needs editor-selected screenshots before publishing Facebook or Nextdoor claims."
+      }
+    ],
+    "social": {
+      "x": "Today's East Nashville source pass: Super Bowl 2030, East Bank pressure, Gallatin sidewalk money, Shelby Park buses, NES tree politics, market tents, and late-day rain.",
+      "instagram": "Tuesday source pass: the Super Bowl is coming to the East Bank, Council has sidewalk/tree/park business, and 5th & Woodland has market energy before the rain chances climb.",
+      "video": "June sorts May 19 into publish-now, watch-tonight, and waiting-on-Facebook-or-Nextdoor-screenshots piles."
+    }
+  },
+  {
+    "id": "nashville-super-bowl-east-bank-2030-may-19-2026",
+    "slug": "nashville-super-bowl-east-bank-2030-may-19-2026",
+    "title": "Nashville Got The 2030 Super Bowl, So The East Bank Just Got Very Real",
+    "deck": "NFL owners voted to put Super Bowl LXIV in Nashville's new enclosed stadium, turning the East Bank from a construction zone into a future national pressure test.",
+    "body": "Nashville is getting its first Super Bowl. The Associated Press reports NFL owners voted Tuesday to bring Super Bowl LXIV to the Titans' new enclosed Nissan Stadium in 2030, giving the city a four-year runway and giving East Nashville one very large reason to keep staring at the riverfront.\n\nThe football part is obvious. The neighborhood part is less cute and probably more important. The new stadium sits on the East Bank, directly across from downtown and beside a whole redevelopment zone that is supposed to become more walkable, more useful, and less like a giant civic group project taped to a wall.\n\nVisit Music City's Super Bowl page is already live, selling the host-city version: new stadium, riverfront setting, Music City hospitality, and a week that is about more than one game. That is the polished version. The East Nashville version asks smaller, itchier questions: how will people cross the river, where will rideshares stack, what happens to Gallatin/Main/Woodland traffic, and whether the public spaces promised around the stadium feel like places residents can use after the TV trucks leave.\n\nThe new stadium itself is the reason this became possible. AP notes the enclosed venue gives Nashville the stage it lacked, and the 2030 timing gives the Titans several seasons to operate the building before Super Bowl week arrives. That is the charitable read. The side-eye read is that a publicly entangled stadium deal is now collecting the exact major-event receipt boosters said it would.\n\nOur ruling: publish this as a development story, not just a sports item. The Super Bowl is four years away, but the traffic, public-space, policing, transit, lodging, and East Bank planning questions start now. East Nashville does not need to be shocked by the visitor economy in 2030. It needs to be annoying about the details in 2026.",
+    "zone": "East Bank",
+    "beat": "Development",
+    "label": "Reported",
+    "confidence": "AP/Sportsnet report confirms the NFL owners' vote; Visit Music City confirms Nashville's official host-city page and new-stadium framing.",
+    "reporterId": "riff",
+    "time": "May 19, 2026",
+    "priority": 259,
+    "imageStyle": "street",
+    "heroImage": "/api/media/location-photo?placeId=ChIJCSKbDgBnZIgR1WPa_kppzk0&photoIndex=0&q=S%202nd%20St%2C%20Nashville%2C%20TN%2037213%2C%20USA",
+    "heroAlt": "The new Nissan Stadium site on Nashville's East Bank.",
+    "factBox": [
+      {
+        "label": "What happened",
+        "value": "NFL owners voted May 19, 2026 to bring Super Bowl LXIV to Nashville"
+      },
+      {
+        "label": "When",
+        "value": "2030"
+      },
+      {
+        "label": "Where",
+        "value": "New enclosed Nissan Stadium on the East Bank"
+      },
+      {
+        "label": "Why East Nashville cares",
+        "value": "Traffic, bridges, transit, public land, and East Bank redevelopment"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "New Nissan Stadium",
+        "description": "S 2nd St, Nashville, TN 37213, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=S%202nd%20St%2C%20Nashville%2C%20TN%2037213%2C%20USA&query_place_id=ChIJCSKbDgBnZIgR1WPa_kppzk0",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJCSKbDgBnZIgR1WPa_kppzk0&photoIndex=0&q=S%202nd%20St%2C%20Nashville%2C%20TN%2037213%2C%20USA",
+        "imageAlt": "New Nissan Stadium location photo.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Ronaldo junior.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJCSKbDgBnZIgR1WPa_kppzk0",
+        "placeQuery": "S 2nd St, Nashville, TN 37213, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-19",
+        "displayRole": "hero"
+      },
+      {
+        "label": "Location Map",
+        "title": "New Nissan Stadium map",
+        "description": "S 2nd St, Nashville, TN 37213, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=S%202nd%20St%2C%20Nashville%2C%20TN%2037213%2C%20USA&query_place_id=ChIJCSKbDgBnZIgR1WPa_kppzk0",
+        "embedUrl": "https://www.google.com/maps?q=S%202nd%20St%2C%20Nashville%2C%20TN%2037213%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "ChIJCSKbDgBnZIgR1WPa_kppzk0",
+        "placeQuery": "S 2nd St, Nashville, TN 37213, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "AP/Sportsnet Super Bowl report",
+        "description": "Associated Press report on the NFL owners' May 19 vote.",
+        "url": "https://www.sportsnet.ca/nfl/article/nfl-taking-2030-super-bowl-to-nashville-and-titans-new-enclosed-stadium//",
+        "sourceUrl": "https://www.sportsnet.ca/nfl/article/nfl-taking-2030-super-bowl-to-nashville-and-titans-new-enclosed-stadium//",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Visit Music City Super Bowl LXIV page",
+        "description": "Official Nashville tourism page for Super Bowl LXIV.",
+        "url": "https://www.visitmusiccity.com/nashvillesuperbowl",
+        "sourceUrl": "https://www.visitmusiccity.com/nashvillesuperbowl",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Axios Super Bowl vote preview",
+        "description": "Axios Nashville previewed the expected owner vote and stadium-funding context.",
+        "url": "https://www.axios.com/local/nashville/2026/05/18/reports-nashville-will-be-named-super-bowl-host-tuesday",
+        "sourceUrl": "https://www.axios.com/local/nashville/2026/05/18/reports-nashville-will-be-named-super-bowl-host-tuesday",
+        "sourceType": "source_link"
+      }
+    ],
+    "sourceNote": "This story treats the Super Bowl vote as confirmed by AP and uses local official/tourism materials for East Bank context.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "AP via Sportsnet: NFL taking 2030 Super Bowl to Nashville",
+        "url": "https://www.sportsnet.ca/nfl/article/nfl-taking-2030-super-bowl-to-nashville-and-titans-new-enclosed-stadium//",
+        "type": "Reported"
+      },
+      {
+        "name": "Visit Music City: Super Bowl LXIV in Nashville",
+        "url": "https://www.visitmusiccity.com/nashvillesuperbowl",
+        "type": "Official tourism page"
+      },
+      {
+        "name": "Axios Nashville: expected Super Bowl vote",
+        "url": "https://www.axios.com/local/nashville/2026/05/18/reports-nashville-will-be-named-super-bowl-host-tuesday",
+        "type": "Reported context"
+      }
+    ],
+    "reactions": {
+      "Love": 44,
+      "Side-Eye": 33
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_22",
+        "text": "Please start the traffic plan yesterday."
+      }
+    ],
+    "social": {
+      "x": "Nashville got the 2030 Super Bowl. For East Nashville, that means the East Bank is no longer theoretical.",
+      "instagram": "Super Bowl LXIV is coming to Nashville in 2030. The East Bank just became a national-stage planning problem.",
+      "video": "Riff explains why the Super Bowl announcement is less about one football game and more about bridges, traffic, public land, and the East Bank."
+    }
+  },
+  {
+    "id": "metro-council-gallatin-shelby-nes-may-19-2026",
+    "slug": "metro-council-gallatin-shelby-nes-may-19-2026",
+    "title": "Tonight's Council File Has Gallatin Sidewalk Money, Shelby Park Buses, And NES Tree Drama",
+    "deck": "The May 19 Council materials include an East-side-ish sidewalk funding bump, a Shelby Park field-trip grant, an East Bank Authority election, and two NES resolutions still carrying Winter Storm Fern smoke.",
+    "body": "Metro Council meets tonight at 6:30 p.m., and the East Nashville utility is not hiding in the back of the packet. The Council Office agenda analysis includes a participation-agreement amendment for sidewalk work in front of 1401 Gallatin Pike North. The amendment would add $200,000 to NDOT's contribution, bringing Metro's total to an amount not to exceed $700,000.\n\nThat address is up in Madison, but the lesson travels down the same corridor: Gallatin Pike sidewalk work is never just concrete. It is water lines, widening, utility coordination, private development, and the eternal Nashville question of why a basic pedestrian improvement has to pass through twelve rooms before anybody gets a safer walk.\n\nThe more directly East Nashville item is friendlier: an in-kind grant from Friends of Shelby Park and Bottoms would fund bus rentals for summer enrichment programs at Kirkpatrick, McFerrin, Cleveland, East, and South Inglewood community centers to visit Shelby Park and Bottoms. The grant is valued at $3,600 and does not require a local cash match.\n\nThe Rules Committee has the spicy public-utility corner. Its May 19 agenda lists a resolution expressing lack of confidence in the Electric Power Board's performance and leadership after Winter Storm Fern, plus a separate resolution urging NES and the board to put a temporary moratorium on recently announced vegetation-management changes. In neighborhood English: the January outage fight has become a tree-trimming fight, and nobody involved sounds ready to be chill.\n\nThere is also an East Bank Development Authority election on the Rules agenda, with Nathaniel Carter nominated by Councilmember Toombs for a term expiring June 30, 2030. Same night as the Super Bowl news, same riverfront chessboard. Cute timing, if you like your civic symbolism unsubtle.\n\nOur ruling: publish as a Council utility brief and check back after actions post. The sidewalk number, Shelby bus grant, NES moratorium ask, and East Bank Authority seat are all source-backed enough to matter before the votes are finalized. The follow-up is the action log, not speculation.",
+    "zone": "East Nashville",
+    "beat": "Civic",
+    "label": "Reported",
+    "confidence": "Metro Council agenda analysis and Rules Committee agenda, both public Legistar records for May 19, 2026.",
+    "reporterId": "parker",
+    "time": "May 19, 2026",
+    "priority": 258,
+    "imageStyle": "permit",
+    "heroImage": "/api/media/location-photo?placeId=ChIJAQCQmldmZIgRN2ioFsC_eOg&photoIndex=0&q=1%20Public%20Square%2C%20Nashville%2C%20TN%2037201%2C%20USA",
+    "heroAlt": "Nashville Metropolitan Courthouse.",
+    "factBox": [
+      {
+        "label": "Council meeting",
+        "value": "Tuesday, May 19, 2026 at 6:30 p.m."
+      },
+      {
+        "label": "Gallatin Pike North",
+        "value": "Sidewalk amendment would add $200,000, up to $700,000 total Metro contribution"
+      },
+      {
+        "label": "Shelby Park",
+        "value": "$3,600 in-kind bus-rental grant for summer enrichment visits"
+      },
+      {
+        "label": "Rules Committee",
+        "value": "NES lack-of-confidence and vegetation-management moratorium resolutions"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "Nashville Metropolitan Courthouse",
+        "description": "1 Public Square, Nashville, TN 37201, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=1%20Public%20Square%2C%20Nashville%2C%20TN%2037201%2C%20USA&query_place_id=ChIJAQCQmldmZIgRN2ioFsC_eOg",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJAQCQmldmZIgRN2ioFsC_eOg&photoIndex=0&q=1%20Public%20Square%2C%20Nashville%2C%20TN%2037201%2C%20USA",
+        "imageAlt": "Nashville Metropolitan Courthouse location photo.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: John Stevenson.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJAQCQmldmZIgRN2ioFsC_eOg",
+        "placeQuery": "1 Public Square, Nashville, TN 37201, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-19",
+        "displayRole": "hero"
+      },
+      {
+        "label": "Inline Photo",
+        "title": "Nashville Electric Service",
+        "description": "1214 Church St #100, Nashville, TN 37246, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=1214%20Church%20St%20%23100%2C%20Nashville%2C%20TN%2037246%2C%20USA&query_place_id=ChIJZZ2AFfJmZIgR5xsUCBquVFM",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJZZ2AFfJmZIgR5xsUCBquVFM&photoIndex=0&q=1214%20Church%20St%20%23100%2C%20Nashville%2C%20TN%2037246%2C%20USA",
+        "imageAlt": "Nashville Electric Service location photo.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Nashville Electric Service.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJZZ2AFfJmZIgR5xsUCBquVFM",
+        "placeQuery": "1214 Church St #100, Nashville, TN 37246, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-19",
+        "displayRole": "inline"
+      },
+      {
+        "label": "Location Map",
+        "title": "Nashville Metropolitan Courthouse map",
+        "description": "1 Public Square, Nashville, TN 37201, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=1%20Public%20Square%2C%20Nashville%2C%20TN%2037201%2C%20USA&query_place_id=ChIJAQCQmldmZIgRN2ioFsC_eOg",
+        "embedUrl": "https://www.google.com/maps?q=1%20Public%20Square%2C%20Nashville%2C%20TN%2037201%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "ChIJAQCQmldmZIgRN2ioFsC_eOg",
+        "placeQuery": "1 Public Square, Nashville, TN 37201, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Metro Council May 19 agenda analysis",
+        "description": "Council Office agenda analysis with Gallatin sidewalk and Shelby Park grant details.",
+        "url": "https://nashville.legistar.com/View.ashx?GUID=109AFA6A-FF2C-4E0F-9E1D-1F8E1852F468&ID=1415582&M=E2",
+        "sourceUrl": "https://nashville.legistar.com/View.ashx?GUID=109AFA6A-FF2C-4E0F-9E1D-1F8E1852F468&ID=1415582&M=E2",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Rules Committee May 19 agenda",
+        "description": "Rules Committee agenda with NES, East Bank Authority, and appointment items.",
+        "url": "https://nashville.legistar.com/MeetingDetail.aspx?G=99456586-FDA1-4896-A3EB-8389754A06F8&GID=787&LEGID=2311",
+        "sourceUrl": "https://nashville.legistar.com/MeetingDetail.aspx?G=99456586-FDA1-4896-A3EB-8389754A06F8&GID=787&LEGID=2311",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Axios NES ice-storm report context",
+        "description": "Axios reported on the post-storm review of NES technology and response issues.",
+        "url": "https://www.axios.com/local/nashville/2026/04/17/nashville-electric-service-ice-storm-response-report",
+        "sourceUrl": "https://www.axios.com/local/nashville/2026/04/17/nashville-electric-service-ice-storm-response-report",
+        "sourceType": "source_link"
+      }
+    ],
+    "sourceNote": "Actions had not been finalized at publication time; this story should be checked after Legistar posts action details and minutes.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "Metro Council May 19 agenda analysis",
+        "url": "https://nashville.legistar.com/View.ashx?GUID=109AFA6A-FF2C-4E0F-9E1D-1F8E1852F468&ID=1415582&M=E2",
+        "type": "Public record"
+      },
+      {
+        "name": "Rules Committee May 19 agenda",
+        "url": "https://nashville.legistar.com/MeetingDetail.aspx?G=99456586-FDA1-4896-A3EB-8389754A06F8&GID=787&LEGID=2311",
+        "type": "Public record"
+      },
+      {
+        "name": "Axios Nashville: NES ice storm response report",
+        "url": "https://www.axios.com/local/nashville/2026/04/17/nashville-electric-service-ice-storm-response-report",
+        "type": "Reported context"
+      }
+    ],
+    "reactions": {
+      "Love": 21,
+      "Side-Eye": 28
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_05",
+        "text": "Sidewalk funding is the most Nashville spreadsheet possible."
+      }
+    ],
+    "social": {
+      "x": "Tonight's Council file has Gallatin sidewalk money, Shelby Park bus rentals, NES tree-trimming politics, and an East Bank Authority seat.",
+      "instagram": "The Council packet has receipts: Gallatin sidewalk money, Shelby Park field-trip buses, NES storm/tree drama, and an East Bank board vote.",
+      "video": "Parker reads the Council packet so East Nashville does not have to, then points to the four items worth checking after action details post."
+    }
+  },
+  {
+    "id": "nes-tree-trimming-moratorium-watch-may-19-2026",
+    "slug": "nes-tree-trimming-moratorium-watch-may-19-2026",
+    "title": "The NES Fight Has Moved From Ice Storm Outage To Tree-Trimming Moratorium",
+    "deck": "A May 19 Rules Committee resolution asks NES and the Electric Power Board to pause recently announced vegetation-management changes, keeping the Winter Storm Fern trust fight alive.",
+    "body": "If your neighborhood group chat still twitches when somebody says 'NES,' tonight's Rules Committee agenda explains why. The committee has a resolution urging Nashville Electric Service and the Electric Power Board to implement a temporary moratorium on recently announced vegetation-management changes.\n\nThat is civic-speak for the thing residents actually notice: trees, limbs, wires, property edges, and the question of who gets to decide what gets cut before the next storm starts auditioning for a name. After Winter Storm Fern, East Nashville learned the hard way that tree canopy and grid reliability are not separate beats.\n\nThe same Rules agenda includes another NES-related resolution expressing lack of confidence in the Electric Power Board's performance and leadership during Winter Storm Fern. Axios reported in April that an NES-funded review found insufficient technology slowed the utility's storm response, including its ability to forecast damage and secure outside assistance ahead of the January ice storm.\n\nThis is not a story about one limb or one angry curb. It is a trust story. Residents want fewer outages, fewer surprises, and enough communication to know whether the tree work near their block is maintenance, overreach, or the price of keeping the lights from taking another vacation.\n\nOur ruling: publish as a watch item. The moratorium resolution is not the final word on tree policy, and the agenda does not yet show action details. But for East Nashville, where old trees and overhead lines share a very complicated roommate arrangement, this belongs in the brief.",
+    "zone": "East Nashville",
+    "beat": "Services",
+    "label": "Reported",
+    "confidence": "Rules Committee May 19 agenda lists the NES vegetation-management moratorium and lack-of-confidence resolutions; Axios provides reported context on the post-storm review.",
+    "reporterId": "june",
+    "time": "May 19, 2026",
+    "priority": 257,
+    "imageStyle": "street",
+    "heroImage": "/api/media/location-photo?placeId=ChIJZZ2AFfJmZIgR5xsUCBquVFM&photoIndex=0&q=1214%20Church%20St%20%23100%2C%20Nashville%2C%20TN%2037246%2C%20USA",
+    "heroAlt": "Nashville Electric Service building.",
+    "factBox": [
+      {
+        "label": "Meeting",
+        "value": "Rules Committee, May 19, 2026 at 5 p.m."
+      },
+      {
+        "label": "Watch item",
+        "value": "Temporary moratorium on recently announced vegetation-management changes"
+      },
+      {
+        "label": "Context",
+        "value": "Winter Storm Fern outage response and utility trust"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "Nashville Electric Service",
+        "description": "1214 Church St #100, Nashville, TN 37246, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=1214%20Church%20St%20%23100%2C%20Nashville%2C%20TN%2037246%2C%20USA&query_place_id=ChIJZZ2AFfJmZIgR5xsUCBquVFM",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJZZ2AFfJmZIgR5xsUCBquVFM&photoIndex=0&q=1214%20Church%20St%20%23100%2C%20Nashville%2C%20TN%2037246%2C%20USA",
+        "imageAlt": "Nashville Electric Service location photo.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Nashville Electric Service.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJZZ2AFfJmZIgR5xsUCBquVFM",
+        "placeQuery": "1214 Church St #100, Nashville, TN 37246, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-19",
+        "displayRole": "hero"
+      },
+      {
+        "label": "Location Map",
+        "title": "Nashville Electric Service map",
+        "description": "1214 Church St #100, Nashville, TN 37246, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=1214%20Church%20St%20%23100%2C%20Nashville%2C%20TN%2037246%2C%20USA&query_place_id=ChIJZZ2AFfJmZIgR5xsUCBquVFM",
+        "embedUrl": "https://www.google.com/maps?q=1214%20Church%20St%20%23100%2C%20Nashville%2C%20TN%2037246%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "ChIJZZ2AFfJmZIgR5xsUCBquVFM",
+        "placeQuery": "1214 Church St #100, Nashville, TN 37246, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Rules Committee May 19 agenda",
+        "description": "Public agenda listing the NES vegetation-management moratorium and lack-of-confidence resolutions.",
+        "url": "https://nashville.legistar.com/MeetingDetail.aspx?G=99456586-FDA1-4896-A3EB-8389754A06F8&GID=787&LEGID=2311",
+        "sourceUrl": "https://nashville.legistar.com/MeetingDetail.aspx?G=99456586-FDA1-4896-A3EB-8389754A06F8&GID=787&LEGID=2311",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Axios NES response report",
+        "description": "Axios reported on the NES-funded storm-response review after Winter Storm Fern.",
+        "url": "https://www.axios.com/local/nashville/2026/04/17/nashville-electric-service-ice-storm-response-report",
+        "sourceUrl": "https://www.axios.com/local/nashville/2026/04/17/nashville-electric-service-ice-storm-response-report",
+        "sourceType": "source_link"
+      }
+    ],
+    "sourceNote": "This story does not name private residents or publish private outage complaints; it uses public committee records and reported utility context.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "Rules Committee May 19 agenda",
+        "url": "https://nashville.legistar.com/MeetingDetail.aspx?G=99456586-FDA1-4896-A3EB-8389754A06F8&GID=787&LEGID=2311",
+        "type": "Public record"
+      },
+      {
+        "name": "Axios Nashville: NES ice storm response report",
+        "url": "https://www.axios.com/local/nashville/2026/04/17/nashville-electric-service-ice-storm-response-report",
+        "type": "Reported context"
+      }
+    ],
+    "reactions": {
+      "Love": 18,
+      "Side-Eye": 35
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_18",
+        "text": "Please explain tree trimming before the saws arrive."
+      }
+    ],
+    "social": {
+      "x": "The NES fight has moved from ice-storm response to tree-trimming policy. A May 19 Rules item asks for a temporary moratorium on vegetation-management changes.",
+      "instagram": "Trees, wires, outages, trust: the NES conversation is back in a Council committee tonight.",
+      "video": "June turns the phrase 'vegetation management' into what residents actually care about: trees, wires, outages, and communication."
+    }
+  },
+  {
+    "id": "east-nashville-farmers-market-rain-check-may-19-2026",
+    "slug": "east-nashville-farmers-market-rain-check-may-19-2026",
+    "title": "Farmers Market Is At 5th And Woodland Today, With A Little Weather Side-Eye",
+    "deck": "East Nashville Farmers Market is scheduled for 3:30 to 6:30 p.m. today at 511 Woodland Street, while NWS Nashville says late-day rain chances start the wetter stretch of the week.",
+    "body": "Tuesday's most useful East Nashville plan is still extremely straightforward: East Nashville Farmers Market is scheduled today from 3:30 to 6:30 p.m. at 511 Woodland Street, the 5th and Woodland setup that runs April through October before the shorter November-December hours kick in.\n\nThe direct market page lists the 2026 schedule, the 511 Woodland address, parking notes, and the pet warning that is actually useful in Tennessee heat: if the asphalt is too hot for your own bare feet, it is too hot for paws without protection. That is not a vibe. That is thermodynamics with a leash.\n\nWeather is the wrinkle. The National Weather Service Nashville office says rain chances begin late today and continue on and off through the end of the week. The overall severe risk is low, with the late-day level 1 severe risk focused on northwest Middle Tennessee, but East Nashville outdoor plans should still check the radar before committing to delicate greens and an overconfident tote bag.\n\nBonus utility: East Branch Library is open until 8 p.m. on Tuesdays, so if the market plan turns into 'I need a dry building and a place to recover from my produce ambitions,' Gallatin Avenue has you.\n\nOur ruling: publish as a practical today item. This is not grand civic drama. It is the stuff people actually use: where to go, when to go, where to park, what the sky is doing, and where to retreat if the clouds get ideas.",
+    "zone": "Five Points",
+    "beat": "Events",
+    "label": "Confirmed",
+    "confidence": "Direct East Nashville Farmers Market page, National Weather Service Nashville update, and Nashville Public Library East Branch page.",
+    "reporterId": "lila",
+    "time": "May 19, 2026",
+    "priority": 256,
+    "imageStyle": "event",
+    "heroImage": "/api/media/location-photo?placeId=ChIJoc1eDI9oZIgRguUfgAiVaVE&photoIndex=0&q=511%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+    "heroAlt": "East Nashville Farmers Market at 511 Woodland Street.",
+    "factBox": [
+      {
+        "label": "When",
+        "value": "Tuesday, May 19, 2026, 3:30-6:30 p.m."
+      },
+      {
+        "label": "Where",
+        "value": "511 Woodland Street"
+      },
+      {
+        "label": "Weather",
+        "value": "NWS says rain chances begin late today and continue this week"
+      },
+      {
+        "label": "Backup",
+        "value": "East Branch Library is open until 8 p.m. Tuesdays"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "East Nashville Farmers Market",
+        "description": "511 Woodland St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=511%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJoc1eDI9oZIgRguUfgAiVaVE",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJoc1eDI9oZIgRguUfgAiVaVE&photoIndex=0&q=511%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "East Nashville Farmers Market location photo.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Maggie Odle.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJoc1eDI9oZIgRguUfgAiVaVE",
+        "placeQuery": "511 Woodland St, Nashville, TN 37206, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-19",
+        "displayRole": "hero"
+      },
+      {
+        "label": "Inline Photo",
+        "title": "Nashville Public Library East Branch",
+        "description": "206 Gallatin Ave, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=206%20Gallatin%20Ave%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJv_0AaNJnZIgRBGZbAdvJwGs",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJv_0AaNJnZIgRBGZbAdvJwGs&photoIndex=0&q=206%20Gallatin%20Ave%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "Nashville Public Library East Branch location photo.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Nashville Public Library East Branch.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJv_0AaNJnZIgRBGZbAdvJwGs",
+        "placeQuery": "206 Gallatin Ave, Nashville, TN 37206, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-19",
+        "displayRole": "inline"
+      },
+      {
+        "label": "Location Map",
+        "title": "East Nashville Farmers Market map",
+        "description": "511 Woodland St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=511%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJoc1eDI9oZIgRguUfgAiVaVE",
+        "embedUrl": "https://www.google.com/maps?q=511%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "ChIJoc1eDI9oZIgRguUfgAiVaVE",
+        "placeQuery": "511 Woodland St, Nashville, TN 37206, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "East Nashville Farmers Market",
+        "description": "Direct source for 2026 market hours, location, parking, and pet guidance.",
+        "url": "https://www.eastnashvillemarket.com/",
+        "sourceUrl": "https://www.eastnashvillemarket.com/",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "National Weather Service Nashville",
+        "description": "NWS Nashville update on late-day rain chances and low overall severe risk.",
+        "url": "https://www.weather.gov/ohx/?n=19970124",
+        "sourceUrl": "https://www.weather.gov/ohx/?n=19970124",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Nashville Public Library East Branch",
+        "description": "Direct branch page for Tuesday hours and location.",
+        "url": "https://library.nashville.gov/locations/east",
+        "sourceUrl": "https://library.nashville.gov/locations/east",
+        "sourceType": "source_link"
+      }
+    ],
+    "sourceNote": "Weather can change quickly. This item uses the NWS update available during the May 19 source pass and should be refreshed before evening sends.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "East Nashville Farmers Market",
+        "url": "https://www.eastnashvillemarket.com/",
+        "type": "Direct source"
+      },
+      {
+        "name": "NWS Nashville",
+        "url": "https://www.weather.gov/ohx/?n=19970124",
+        "type": "Official weather"
+      },
+      {
+        "name": "Nashville Public Library East Branch",
+        "url": "https://library.nashville.gov/locations/east",
+        "type": "Direct civic source"
+      }
+    ],
+    "reactions": {
+      "Love": 39,
+      "Side-Eye": 8
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_31",
+        "text": "Tote bag plus radar is the Tuesday uniform."
+      }
+    ],
+    "social": {
+      "x": "Farmers Market is at 5th & Woodland from 3:30-6:30 today. NWS says rain chances start late, so bring the tote and watch the radar.",
+      "instagram": "Market day at 5th & Woodland, with a little late-day weather side-eye.",
+      "video": "Lila gives the five-second plan: market hours, parking, paw heat warning, radar check, East Branch backup."
+    }
+  },
+  {
     "id": "may-15-source-pass-east-nashville",
     "slug": "today-east-nashville-source-pass-may-15-2026",
     "title": "Today's East Nashville Source Pass: Hawkers, Rockabilly, Potholes, Childcare, And The Group Chat",

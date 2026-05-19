@@ -1,149 +1,123 @@
 {
-  "date": "May 12, 2026",
+  "date": "May 19, 2026",
   "title": "Daily Source Pass",
-  "summary": "Today's issue is built from public and approved sources plus first-class supervised community lanes: official Metro pages, local reporting, direct venue/business pages, library hours, Facebook group capture, and Nextdoor capture.",
+  "summary": "Today's issue is built from public and approved sources plus open supervised capture lanes: AP/Sportsnet, Visit Music City, Metro Council Legistar, Rules Committee records, East Nashville Farmers Market, Nashville Public Library, NWS Nashville, and pending Facebook/Nextdoor screenshots.",
   "stages": [
     {
-      "time": "7:00 AM",
-      "name": "Official Records Sweep",
-      "goal": "Find the safest, highest-confidence civic items before the brief goes out.",
+      "time": "8:00 AM",
+      "name": "Official Records And Local Web Sweep",
+      "goal": "Find the high-confidence public items before the neighborhood starts arguing from memory.",
       "sourceIds": [
-        "src-may12-vision-zero-hubnashville",
-        "src-may12-east-bank-boulevard",
-        "src-ndot-permits",
-        "src-hubnashville-irritation-index"
+        "src-may19-super-bowl-east-bank",
+        "src-may19-council-gallatin-shelby-nes",
+        "src-may19-nes-tree-moratorium"
       ],
-      "output": "Published the road-safety / 311 item and East Bank Boulevard watch; keep NDOT permits and 311 clustering in the daily scan."
+      "output": "Published Super Bowl/East Bank, Council utility, and NES/tree-moratorium watch items from public records and reported sources."
     },
     {
-      "time": "11:30 AM",
-      "name": "Local Web And Meeting Sweep",
-      "goal": "Catch Nashville-wide items that need an East Nashville translation.",
+      "time": "12:30 PM",
+      "name": "Direct Pages And Utility Sweep",
+      "goal": "Add the same-day things people can actually use.",
       "sourceIds": [
-        "src-may12-starbucks-incentives",
-        "src-may12-tourism-event-money",
-        "src-local-outlet-roundup"
-      ],
-      "output": "Published the Starbucks incentive watch and Metro event-money meeting brief with source credit."
-    },
-    {
-      "time": "3:30 PM",
-      "name": "Direct Pages And Community Temperature",
-      "goal": "Add same-day utility from venues, businesses, libraries, and supervised community chatter.",
-      "sourceIds": [
-        "src-may12-basement-east-calendar",
+        "src-may19-farmers-market-weather",
         "src-may12-east-branch-library",
-        "src-may12-five-points-diner-source-check",
-        "src-facebook-group",
-        "src-nextdoor-patterns"
+        "src-weekend-venue-calendars"
       ],
-      "output": "Published direct-source event, library, and restaurant-check items; queued Facebook and Nextdoor as daily supervised capture lanes until selected posts have internal notes or screenshots."
+      "output": "Published the farmers market/weather practical and used East Branch hours as backup utility context."
     },
     {
-      "time": "5:30 PM",
+      "time": "3:00 PM",
+      "name": "Community Capture Lane",
+      "goal": "Bring Facebook and Nextdoor in only when editor-selected screenshots or post notes are available.",
+      "sourceIds": [
+        "src-facebook-group",
+        "src-nextdoor-patterns",
+        "src-reader-tips"
+      ],
+      "output": "Capture lane remains open. No private-platform claims were promoted because this run did not receive selected screenshots or post notes."
+    },
+    {
+      "time": "5:00 PM",
       "name": "Publish Pack",
-      "goal": "Turn the source sweep into live stories, newsletter blocks, social copy, and follow-up prompts.",
+      "goal": "Ship the source-backed stories, media packs, maps, source trails, and social cuts.",
       "sourceIds": [
-        "src-may12-public-source-pass",
-        "src-may12-starbucks-incentives",
-        "src-may12-vision-zero-hubnashville",
-        "src-may12-tourism-event-money",
-        "src-may12-east-bank-boulevard",
-        "src-may12-basement-east-calendar",
-        "src-may12-east-branch-library",
-        "src-may12-five-points-diner-source-check",
-        "src-facebook-group",
-        "src-nextdoor-patterns"
+        "src-may19-source-pass",
+        "src-may19-super-bowl-east-bank",
+        "src-may19-council-gallatin-shelby-nes",
+        "src-may19-nes-tree-moratorium",
+        "src-may19-farmers-market-weather"
       ],
-      "output": "Eight source-backed public items are live for May 12; Facebook and Nextdoor remain active supervised capture slots until real posts are selected."
+      "output": "Five May 19 stories are live with Google Places images, maps, source trails, and social copy."
     }
   ],
   "publishQueue": [
     {
-      "sourceId": "src-may12-public-source-pass",
+      "sourceId": "src-may19-source-pass",
       "slot": "Issue lead",
       "decision": "Published as today's source issue lead.",
-      "why": "It explains what the public scrape found, what got published, and how Facebook/Nextdoor join the run through selected capture instead of raw private scraping."
+      "why": "It explains what was found, what was published, and why private-platform claims need selected screenshots before promotion."
     },
     {
-      "sourceId": "src-may12-starbucks-incentives",
-      "slot": "Business lead",
-      "decision": "Published as a reported incentive-watch story.",
-      "why": "The dollar figure and vote date are useful Nashville public-money context with follow-up value."
+      "sourceId": "src-may19-super-bowl-east-bank",
+      "slot": "Development lead",
+      "decision": "Published as the East Bank/Super Bowl lead.",
+      "why": "The Super Bowl vote turns East Bank planning into immediate local-news infrastructure, not just future sports trivia."
     },
     {
-      "sourceId": "src-may12-vision-zero-hubnashville",
-      "slot": "Civic utility",
-      "decision": "Published as the road-safety / hubNashville irritation item.",
-      "why": "It turns neighborhood complaints into a source-backed public-service workflow."
+      "sourceId": "src-may19-council-gallatin-shelby-nes",
+      "slot": "Council utility",
+      "decision": "Published as the Council packet brief.",
+      "why": "Gallatin sidewalk money, Shelby Park buses, NES politics, and East Bank Authority appointments are concrete civic signals."
     },
     {
-      "sourceId": "src-may12-tourism-event-money",
-      "slot": "Civic watch",
-      "decision": "Published as the tourism-money meeting brief.",
-      "why": "Visitor-economy decisions can become East Nashville traffic, East Bank, and event impacts."
+      "sourceId": "src-may19-nes-tree-moratorium",
+      "slot": "Services watch",
+      "decision": "Published as the NES/tree-trimming watch item.",
+      "why": "The post-storm utility fight has moved into vegetation management, which East Nashville residents will feel block by block."
     },
     {
-      "sourceId": "src-may12-east-bank-boulevard",
-      "slot": "Development watch",
-      "decision": "Published as an East Bank Boulevard watch item.",
-      "why": "This is the riverfront infrastructure piece East Nashville should keep tracking."
-    },
-    {
-      "sourceId": "src-may12-basement-east-calendar",
+      "sourceId": "src-may19-farmers-market-weather",
       "slot": "Tonight",
-      "decision": "Published as a same-day event quick hit.",
-      "why": "Direct venue pages are low-risk, useful, and immediate."
-    },
-    {
-      "sourceId": "src-may12-east-branch-library",
-      "slot": "Utility",
-      "decision": "Published as a practical late-hours library item.",
-      "why": "Useful public infrastructure deserves a place in the brief."
-    },
-    {
-      "sourceId": "src-may12-five-points-diner-source-check",
-      "slot": "Restaurant watch",
-      "decision": "Published as a stale-source correction and active-business check.",
-      "why": "It demonstrates the restaurant scrape rule: search result first, direct source before publication."
+      "decision": "Published as a practical market/weather item.",
+      "why": "Direct-source hours, location, parking, weather, and a dry backup make this useful right now."
     },
     {
       "sourceId": "src-facebook-group",
-      "slot": "Community capture",
-      "decision": "Daily supervised Facebook capture lane is active; publish themes or verified follow-ups after selected posts have source notes.",
-      "why": "The group is a core neighborhood signal source, but private chatter needs transformation and verification before publication."
+      "slot": "Facebook capture",
+      "decision": "Ready for editor-selected screenshots.",
+      "why": "The policy now supports visible screenshots, but only after the editor supplies or opens the specific posts to capture."
     },
     {
       "sourceId": "src-nextdoor-patterns",
       "slot": "Nextdoor capture",
-      "decision": "Daily supervised Nextdoor capture lane is active through the Source Desk panel; paste or open selected posts before drafting.",
-      "why": "Nextdoor belongs in the same source pass as public records, but its private-citizen content needs stricter handling."
+      "decision": "Ready for editor-selected screenshots or pasted notes.",
+      "why": "Nextdoor can add texture, but this run did not have a working selected-post capture."
     }
   ],
   "accessNeeds": [
     {
       "name": "Facebook private group",
-      "status": "Supervised capture only",
-      "today": "Open or paste the 5-10 posts worth reviewing, plus screenshots or source notes, then convert patterns into labeled drafts.",
-      "guardrail": "No unattended private-group scraping. Publish themes or verified follow-ups, not raw private accusations."
+      "status": "Waiting on selected posts",
+      "today": "Open the East Nashville group to today's highest-signal posts or paste screenshots/source notes. I can crop, redact only the hard categories, and publish follow-ups.",
+      "guardrail": "Screenshot-forward is fine; hard-redact kids, medical/financial details, private addresses, phones, plates, and unverified private-person accusations."
     },
     {
       "name": "Nextdoor",
-      "status": "Manual capture panel live",
-      "today": "Paste selected neighborhood notes into the Source Desk panel and use them for patterns: lost-and-found, services, family logistics, safety chatter, and rumor prompts.",
-      "guardrail": "Do not name private citizens or publish accusations without public confirmation."
+      "status": "Waiting on selected posts",
+      "today": "Open the feed or paste selected notes. Use it for patterns, service complaints, lost-and-found, and neighborhood questions.",
+      "guardrail": "Do not publish private accusations as fact without public records, named sources, or multiple credible confirmations."
     },
     {
       "name": "Public official and local web sources",
       "status": "Published today",
-      "today": "Keep the May 12 source issue live and rerun the scan for follow-up records, agendas, minutes, and direct updates.",
-      "guardrail": "Credit outlets, link official pages, and clearly distinguish reported, direct, and confirmed source labels."
+      "today": "Recheck Legistar action details after Council/committee actions post and update the May 19 Council/NES stories if votes change the status.",
+      "guardrail": "Agenda language means under consideration; action details or minutes mean acted on."
     },
     {
-      "name": "Instagram/X watchlists",
-      "status": "Needs handle/search list",
-      "today": "Seed direct business, venue, Metro, reporter, food writer, and local organization accounts before treating these as a full daily scrape.",
-      "guardrail": "Direct posts can confirm their own facts; third-party comments remain leads until verified."
+      "name": "Weather and event utility",
+      "status": "Refresh before send",
+      "today": "Refresh NWS and event pages before an evening newsletter or push if the radar changes.",
+      "guardrail": "Weather is time-sensitive; source-note the update window."
     }
   ]
 }
