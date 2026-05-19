@@ -39,7 +39,7 @@ Best launch workflow:
 1. Apply for developer access.
 2. If approved, test what Display Content can actually return for East Nashville.
 3. Until then, capture only patterns through the manual panel: lost pets, family logistics, service complaints, public safety chatter, and recurring resident questions.
-4. Avoid naming private residents or publishing screenshots from Nextdoor unless independently verified and clearly newsworthy.
+4. Use screenshots when they make the source texture clearer, but hard-redact children, medical/financial details, private addresses, phones, plates, and unverified private-person accusations.
 
 ## Source Lanes
 

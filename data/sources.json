@@ -114,7 +114,7 @@
     "cadence": "Twice daily once access workflow exists",
     "zones": ["East Nashville"],
     "beats": ["Gossip", "Restaurants", "Events", "Family", "Civic", "Lost and Found"],
-    "automation": "Use Kenny-selected browser capture or approved exports. Store internal screenshots/notes; publish transformed summaries with clear chatter labels. Do not rely on unattended Groups API ingestion.",
+    "automation": "Use Kenny-selected browser capture or approved exports. Capture screenshots/notes; publish screenshots when they add source texture, with hard redactions for kids, medical/financial details, private addresses, phones, plates, and unverified private-person accusations. Do not rely on unattended Groups API ingestion.",
     "publishUse": "What People Are Mad About, rumor radar, tip prompts, lost-and-found patterns, comment-section weather.",
     "caveat": "Do not treat private group chatter as confirmed fact. Attribute as community chatter and verify accusations before naming names.",
     "nextStep": "Create a capture template: post link, screenshot, author type, exact claim, contradiction, suggested label, publish/no-publish."
@@ -206,7 +206,7 @@
     "beats": ["Family", "Services", "Crime", "Lost and Found", "Gossip"],
     "automation": "Use the Source Desk paste-and-review panel for Kenny-selected notes, screenshots, and links. Apply for developer access only if we want approved public/local content.",
     "publishUse": "Complaint patterns, service issues, rumor radar, resident question prompts.",
-    "caveat": "High privacy sensitivity. Avoid naming private citizens from closed-platform posts.",
+    "caveat": "High privacy sensitivity. Use screenshots for texture when useful, but hard-redact kids, medical/financial details, private addresses, phones, plates, and unverified private-person accusations.",
     "nextStep": "Run a daily supervised pattern review when selected posts are available, then decide whether developer access is worth the risk and hassle."
   },
   {

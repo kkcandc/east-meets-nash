@@ -10,7 +10,7 @@ Real images add local value only when they are specific, lawful, credited, and h
 4. Google Maps or Street View embed through official Google embed/API routes when the exact visual context is a location, road, intersection, corridor, or site.
 5. Wikimedia Commons, Openverse, Flickr Creative Commons, public-domain, or other licensed repository image with verified source page, author, license, and license URL.
 6. Public social embed from the original public account when embedding is allowed and the post itself is part of the story.
-7. Redacted screenshot/capture when needed as a receipt and allowed by editorial policy.
+7. Source screenshot/capture when it adds authenticity, texture, or evidence, edited only as needed under the screenshot rules below.
 8. East Meets Nash custom art when no real image is available yet.
 
 Do not publish source receipt cards as story images. Use source links, embeds, maps, screenshots, or real photos instead.
@@ -54,9 +54,11 @@ Use this scale in story media metadata:
 
 ## Private And Social Rules
 
-- Facebook, Nextdoor, reader tips, DMs, and private screenshots are internal receipts by default.
-- Redact names, faces, addresses, license plates, phone numbers, and identifying comments unless there is permission and a clear public-interest reason.
-- Prefer paraphrase plus source note for private-community chatter.
+- Screenshots are first-class story artifacts when they make the story more real, local, or legible. Prefer a real screenshot over generic art when the screenshot is the texture of the story.
+- For public sources, business posts, venue posts, official pages, public flyers, menus, calendars, public social posts, and public agency pages, keep identifying context visible unless it creates a specific harm.
+- For Facebook, Nextdoor, reader tips, DMs, and private-citizen screenshots, default to crop-with-taste rather than full redaction. Keep enough visible to feel authentic: platform, timestamp when useful, public group/page context, post text, event/business/org names, and non-sensitive comments.
+- Hard-redact children, medical details, financial details, private home addresses, personal phone numbers, license plates, and anything that identifies a private person as the target of an unverified accusation.
+- Do not use screenshots as proof of crimes, scams, harassment, abuse, or misconduct without public records, a named source willing to stand behind it, or multiple credible confirmations.
 - Use public social embeds or direct business/venue posts for public-facing visuals when the platform and source allow it.
 
 ## Story Requirement

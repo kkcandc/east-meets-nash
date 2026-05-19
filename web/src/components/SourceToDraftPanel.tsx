@@ -36,7 +36,9 @@ function draftBodyFor(item: SourceItem): string {
     "- If using a contextual/generic fallback, write the unavailable reason before publish.",
     "- Hero image should be the approved photo; custom art is a fallback, not the default.",
     "- Inline images should be story-specific, not generic filler. For restaurant openings, use the storefront, sign, line, ribbon cutting, street, or map context before food/menu photos.",
-    "- Source screenshot/capture, public embed, or direct source link when it adds real evidence.",
+    "- Use source screenshots/captures aggressively when they add authenticity, evidence, or local texture.",
+    "- For public, business, official, menu, event, and flyer screenshots, keep identifying context visible unless there is a specific harm.",
+    "- For private-citizen screenshots, crop for focus and hard-redact children, medical details, financial details, private home addresses, personal phone numbers, license plates, and private people targeted by unverified accusations.",
     "- Map or location embed when location/source context matters.",
     "- X/Threads cut, Instagram caption, and short video prompt.",
     "",
@@ -69,13 +71,14 @@ export function SourceToDraftPanel({ items }: { items: SourceItem[] }) {
           ? `${item.verificationRule} Attach source screenshot/capture, embed, and social cuts before publishing.`
           : "Attach source screenshot/capture, embed, and social cuts before publishing.",
         verificationNote:
-          "Photo Desk required: exact approved photo or written unavailable reason, source screenshot/capture or public embed when useful, source trail, and social cuts.",
+          "Photo Desk required: exact approved photo or written unavailable reason, screenshot/capture when it adds authenticity, source trail, and social cuts. Hard-redact children, medical/financial details, private addresses/phones/plates, and unverified private-person accusations.",
         visualTitle: `${item.publishFormat} Media Pack`,
         visualSummary: "Publish only after the story has a visual source trail and social cuts.",
         visualItems: [
           "Exact approved location/source photo or written unavailable reason",
           "Hero image must use approved photo before custom art",
-          "Source screenshot/capture, public embed, or direct source link",
+          "Source screenshot/capture as authentic visual evidence when useful",
+          "Hard redactions only for children, medical/financial details, private addresses/phones/plates, and unverified private-person accusations",
           "Map/location embed",
           "X/Threads, Instagram, and video prompt",
         ],

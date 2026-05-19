@@ -64,7 +64,10 @@ function DraftSignalCard({ draft }: { draft: LocalDraft }) {
           ))}
         </ul>
       ) : null}
-      <figcaption>Private Nextdoor details are paraphrased; raw screenshots stay internal unless redacted and cleared.</figcaption>
+      <figcaption>
+        Screenshots can publish when they add source texture; hard-redact kids, medical/financial details, private
+        private home addresses, phones, plates, and unverified private-person accusations.
+      </figcaption>
     </figure>
   );
 }

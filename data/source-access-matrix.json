@@ -107,7 +107,8 @@
     "currentReality": "Meta removed third-party Facebook Groups API access in 2024, including the permissions third-party tools used to fetch or publish group content. We should not build the plan around an unattended private-group feed.",
     "whatWeCanDoNow": [
       "Build a source-capture workflow for selected posts Kenny chooses from his logged-in browser",
-      "Store internal screenshots, post links, timestamps, exact claims, author type, contradiction notes, and publish recommendations",
+      "Capture screenshots, post links, timestamps, exact claims, author type, contradiction notes, and publish recommendations",
+      "Publish screenshots when they add authenticity or source texture, with hard redactions for kids, medical/financial details, private addresses, phones, plates, and unverified private-person accusations",
       "Use the group for recurring patterns, mood, questions, and follow-up prompts, not as confirmed fact"
     ],
     "whatNeeds": [
@@ -119,7 +120,7 @@
       "No passwords",
       "No silent scraping",
       "No private accusations as news without public records, named sources, or multiple credible confirmations",
-      "Default private citizens to unnamed unless the story has strong public interest"
+      "Crop for focus; do not over-sanitize screenshots when ordinary visible context makes the story stronger"
     ],
     "firstWorkflow": "Twice-daily supervised Facebook capture",
     "publishUse": "What People Are Mad About, rumor radar, lost-and-found patterns, reader questions, source prompts, and community mood."
@@ -137,7 +138,7 @@
     "whatWeCanDoNow": [
       "Use the Source Desk capture panel for Kenny-selected Nextdoor notes",
       "Use it for patterns: family logistics, lost pets, service requests, safety chatter, and recurring questions",
-      "Avoid publishing private names, accusations, or screenshots from residents without independent confirmation"
+      "Publish screenshots when they add authenticity or source texture, with hard redactions for kids, medical/financial details, private addresses, phones, plates, and unverified private-person accusations"
     ],
     "whatNeeds": [
       "Apply for Nextdoor developer access",

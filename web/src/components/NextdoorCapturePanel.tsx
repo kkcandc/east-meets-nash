@@ -215,7 +215,7 @@ function draftBodyFor(preview: Omit<CapturePreview, "body">): string {
     return [
       "The neighborhood complaint machine has found a very specific afternoon villain: the school pickup line near Lockeland, which neighbors say is drifting into bike-lane territory when the weather and timing get rude.",
       "That is exactly the kind of Nextdoor thread that can become useful if it gets one more layer of reporting. The complaint itself is not the story. The story is whether the pickup pattern is blocking a route, whether the school or NDOT knows about it, and what families or riders are supposed to do when the curb math stops working.",
-      "The better version is narrow and practical: no screenshots, no parent-shaming, no vague war on cars. Just the practical question hiding under the irritation.",
+      "The better version is narrow and practical: use a screenshot if it shows the real pickup pattern or source texture, but avoid parent-shaming, kid details, private plates, and vague war-on-cars fog. Just the practical question hiding under the irritation.",
       "Our ruling: turn this into a small Cone Watch or School Pickup Watch if the school, NDOT, or fresh observation confirms it. East Nashville does not need another argument about traffic in the abstract. It needs to know which block gets weird, when, and who can actually fix it.",
     ].join("\n\n");
   }
@@ -287,7 +287,8 @@ function buildPreview(note: string, index: number, zone: string, sourceUrl: stri
     risk: classification.risk,
     sourceUrl,
     verification: classification.verification,
-    sourceNote: "Private Nextdoor details are paraphrased. Do not publish screenshots, names, addresses, license plates, or accusations without independent confirmation.",
+    sourceNote:
+      "Private Nextdoor details are paraphrased unless a screenshot adds clear value. Hard-redact children, medical/financial details, private home addresses, phone numbers, license plates, and unverified private-person accusations.",
     internalNote: note,
     ...visual,
   };
@@ -406,7 +407,8 @@ export function NextdoorCapturePanel() {
           <div className="privacy-rule-card">
             <strong>Private-platform rules</strong>
             <span>No unattended scraping.</span>
-            <span>No private names by default.</span>
+            <span>Screenshots are allowed when they add real texture.</span>
+            <span>Hard-redact kids, medical/financial details, private home addresses, phones, plates, and unverified private-person accusations.</span>
             <span>Accusations need independent confirmation.</span>
           </div>
         </div>

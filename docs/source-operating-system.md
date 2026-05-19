@@ -32,7 +32,7 @@ The image sourcing rules live in `docs/image-sourcing-policy.md`.
    - Rank by locality, usefulness, shareability, confidence, and risk.
    - Assign reporter voice and label.
    - Create web post, beehiiv block, X/Threads copy, Instagram caption, and video prompt.
-   - Attach the media pack: hero image/custom art only as fallback, source screenshot/capture or public embed when useful, map/location embed when useful, and redacted private-platform receipts when applicable. Inline images must be story-specific, not generic filler; food/menu shots belong only when the food/menu is part of the reported angle. Do not publish source receipt cards as article images.
+   - Attach the media pack: hero image/custom art only as fallback, source screenshot/capture or public embed when useful, map/location embed when useful, and private-platform screenshots cropped for focus with hard redactions only where needed. Inline images must be story-specific, not generic filler; food/menu shots belong only when the food/menu is part of the reported angle. Do not publish source receipt cards as article images.
 
 ## Source Tiers
 
@@ -86,8 +86,9 @@ Every publishable story needs:
 
 Private-platform media rules:
 
-- Redact names, faces, addresses, license plates, phone numbers, and identifying comments unless we have permission and a strong public-interest reason.
-- Treat Facebook/Nextdoor screenshots as internal receipts unless an editor explicitly chooses a redacted public version.
+- Treat screenshots as publishable source texture when they make the story more interesting, specific, or trustworthy.
+- For public/business/official/event screenshots, keep names, handles, logos, timestamps, and visible context unless there is a specific harm.
+- For Facebook/Nextdoor/private-citizen screenshots, crop for focus and hard-redact children, medical details, financial details, private home addresses, personal phone numbers, license plates, and private people targeted by unverified accusations.
 - Never use a screenshot as proof of an accusation without public records, a named source, or multiple credible confirmations.
 
 ## Labels
