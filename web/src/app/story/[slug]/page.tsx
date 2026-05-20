@@ -14,6 +14,7 @@ interface StoryPageProps {
 export const dynamic = "force-dynamic";
 
 type StoryMediaItem = NonNullable<Story["media"]>[number];
+type StorySection = NonNullable<Story["articleSections"]>[number];
 
 function featuredImage(story: NonNullable<ReturnType<typeof getStoryBySlug>>) {
   return story.heroImage || `/assets/stories/fallback-${story.imageStyle || "street"}.svg`;
@@ -48,6 +49,32 @@ function isDocumentLikeMedia(item: StoryMediaItem | undefined) {
   );
 }
 
+function normalizeSectionHeading(value: string) {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function sectionIndexForMedia(item: StoryMediaItem, sections: StorySection[], fallbackIndex: number) {
+  if (typeof item.afterSectionIndex === "number") {
+    return Math.max(0, Math.min(sections.length - 1, item.afterSectionIndex));
+  }
+
+  if (item.afterSectionHeading) {
+    const target = normalizeSectionHeading(item.afterSectionHeading);
+    const sectionIndex = sections.findIndex((section) => {
+      const heading = normalizeSectionHeading(section.heading);
+      return heading === target || heading.includes(target) || target.includes(heading);
+    });
+
+    if (sectionIndex >= 0) return sectionIndex;
+  }
+
+  return Math.max(0, Math.min(sections.length - 1, fallbackIndex));
+}
+
 export async function generateMetadata({ params }: StoryPageProps): Promise<Metadata> {
   const { slug } = await params;
   const story = getStoryBySlug(slug);
@@ -64,6 +91,7 @@ export default async function StoryPage({ params }: StoryPageProps) {
   if (!story) notFound();
   const reporter = getReporter(story.reporterId);
   const paragraphs = story.body.split("\n\n");
+  const articleSections = story.articleSections?.length ? story.articleSections : null;
   const heroImage = featuredImage(story);
   const heroAlt = featuredAlt(story);
   const publishableMedia = story.media?.filter((item) => !isReceiptCardMedia(item)) || [];
@@ -79,7 +107,24 @@ export default async function StoryPage({ params }: StoryPageProps) {
     [];
   const mapMedia = publishableMedia.filter((item) => item.embedUrl) || [];
   const linkMedia = publishableMedia.filter((item) => item.url && !item.imageUrl && !item.embedUrl && item.label !== "Hero Art") || [];
-  const supportingMediaIndex = Math.min(1, paragraphs.length - 1);
+  const contentBlockCount = articleSections?.length || paragraphs.length;
+  const supportingMediaIndex = Math.min(1, contentBlockCount - 1);
+  const pullQuoteIndex = Math.min(1, contentBlockCount - 1);
+  const sectionImageMedia = articleSections
+    ? articleSections.map((_, sectionIndex) =>
+        imageMedia.filter((item, mediaIndex) => sectionIndexForMedia(item, articleSections, mediaIndex) === sectionIndex),
+      )
+    : null;
+  const sectionMapMedia = articleSections
+    ? articleSections.map((_, sectionIndex) =>
+        mapMedia.filter((item) => sectionIndexForMedia(item, articleSections, supportingMediaIndex) === sectionIndex),
+      )
+    : null;
+  const sectionLinkMedia = articleSections
+    ? articleSections.map((_, sectionIndex) =>
+        linkMedia.filter((item) => sectionIndexForMedia(item, articleSections, supportingMediaIndex) === sectionIndex),
+      )
+    : null;
   const socialCuts = [
     { label: "X / Threads", copy: story.social.x },
     { label: "Instagram", copy: story.social.instagram },
@@ -124,56 +169,129 @@ export default async function StoryPage({ params }: StoryPageProps) {
         ) : (
           <img className={heroImageClass} src={heroImage} alt={heroAlt} />
         )}
+        {story.readerUtility ? (
+          <aside className="article-utility-box" aria-label={story.readerUtility.title}>
+            <p className="eyebrow">{story.readerUtility.title}</p>
+            <dl>
+              {story.readerUtility.items.map((item) => (
+                <div key={`${item.label}-${item.value}`}>
+                  <dt>{item.label}</dt>
+                  <dd>{item.value}</dd>
+                </div>
+              ))}
+            </dl>
+          </aside>
+        ) : null}
         <div className="article-body">
-          {paragraphs.map((paragraph, index) => (
-            <div className="article-flow-block" key={paragraph}>
-              <p>{paragraph}</p>
-              {imageMedia[index]
-                ? [imageMedia[index]].map((item) => (
-                    <figure className="article-inline-media" key={`${item.label}-${item.title}`}>
-                      {item.url ? (
-                        <a href={item.url}>
-                          <img src={item.imageUrl} alt={item.imageAlt || item.title} loading="lazy" />
-                        </a>
-                      ) : (
-                        <img src={item.imageUrl} alt={item.imageAlt || item.title} loading="lazy" />
-                      )}
-                      <figcaption>
-                        {item.credit || item.title}
-                      </figcaption>
-                    </figure>
-                  ))
-                : null}
-              {index === supportingMediaIndex && mapMedia.length ? (
-                mapMedia.map((item) => (
-                  <figure className="article-inline-map" key={`${item.label}-${item.title}`}>
-                    <iframe
-                      title={item.title}
-                      src={item.embedUrl}
-                      loading="lazy"
-                      referrerPolicy="no-referrer-when-downgrade"
-                    />
-                    <figcaption>
-                      <strong>{item.title}</strong>
-                      {item.url ? <a href={item.url}>Open in Google Maps</a> : null}
-                    </figcaption>
-                  </figure>
-                ))
-              ) : null}
-              {index === supportingMediaIndex && linkMedia.length ? (
-                <aside className="article-inline-links" aria-label="Related source and location links">
-                  {linkMedia.map((item) => (
-                    <a className="article-inline-link" href={item.url} key={`${item.label}-${item.title}`}>
-                      <span>{item.label}</span>
-                      <strong>{item.title}</strong>
-                      <small>{item.description}</small>
-                    </a>
+          {articleSections
+            ? articleSections.map((section, index) => (
+                <section className="article-flow-block article-story-section" key={`${section.heading}-${index}`}>
+                  <h2>{section.heading}</h2>
+                  {section.paragraphs.map((paragraph) => (
+                    <p key={paragraph}>{paragraph}</p>
                   ))}
-                </aside>
-              ) : null}
-            </div>
-          ))}
+                  {story.pullQuote && index === pullQuoteIndex ? (
+                    <blockquote className="article-pull-quote">{story.pullQuote}</blockquote>
+                  ) : null}
+                  {sectionImageMedia?.[index]?.length
+                    ? sectionImageMedia[index].map((item) => (
+                        <figure className="article-inline-media" key={`${item.label}-${item.title}`}>
+                          {item.url ? (
+                            <a href={item.url}>
+                              <img src={item.imageUrl} alt={item.imageAlt || item.title} loading="lazy" />
+                            </a>
+                          ) : (
+                            <img src={item.imageUrl} alt={item.imageAlt || item.title} loading="lazy" />
+                          )}
+                          <figcaption>{item.credit || item.title}</figcaption>
+                        </figure>
+                      ))
+                    : null}
+                  {sectionMapMedia?.[index]?.length ? (
+                    sectionMapMedia[index].map((item) => (
+                      <figure className="article-inline-map" key={`${item.label}-${item.title}`}>
+                        <iframe
+                          title={item.title}
+                          src={item.embedUrl}
+                          loading="lazy"
+                          referrerPolicy="no-referrer-when-downgrade"
+                        />
+                        <figcaption>
+                          <strong>{item.title}</strong>
+                          {item.url ? <a href={item.url}>Open in Google Maps</a> : null}
+                        </figcaption>
+                      </figure>
+                    ))
+                  ) : null}
+                  {sectionLinkMedia?.[index]?.length ? (
+                    <aside className="article-inline-links" aria-label="Related source and location links">
+                      {sectionLinkMedia[index].map((item) => (
+                        <a className="article-inline-link" href={item.url} key={`${item.label}-${item.title}`}>
+                          <span>{item.label}</span>
+                          <strong>{item.title}</strong>
+                          <small>{item.description}</small>
+                        </a>
+                      ))}
+                    </aside>
+                  ) : null}
+                </section>
+              ))
+            : paragraphs.map((paragraph, index) => (
+                <div className="article-flow-block" key={paragraph}>
+                  <p>{paragraph}</p>
+                  {story.pullQuote && index === pullQuoteIndex ? (
+                    <blockquote className="article-pull-quote">{story.pullQuote}</blockquote>
+                  ) : null}
+                  {imageMedia[index]
+                    ? [imageMedia[index]].map((item) => (
+                        <figure className="article-inline-media" key={`${item.label}-${item.title}`}>
+                          {item.url ? (
+                            <a href={item.url}>
+                              <img src={item.imageUrl} alt={item.imageAlt || item.title} loading="lazy" />
+                            </a>
+                          ) : (
+                            <img src={item.imageUrl} alt={item.imageAlt || item.title} loading="lazy" />
+                          )}
+                          <figcaption>{item.credit || item.title}</figcaption>
+                        </figure>
+                      ))
+                    : null}
+                  {index === supportingMediaIndex && mapMedia.length ? (
+                    mapMedia.map((item) => (
+                      <figure className="article-inline-map" key={`${item.label}-${item.title}`}>
+                        <iframe
+                          title={item.title}
+                          src={item.embedUrl}
+                          loading="lazy"
+                          referrerPolicy="no-referrer-when-downgrade"
+                        />
+                        <figcaption>
+                          <strong>{item.title}</strong>
+                          {item.url ? <a href={item.url}>Open in Google Maps</a> : null}
+                        </figcaption>
+                      </figure>
+                    ))
+                  ) : null}
+                  {index === supportingMediaIndex && linkMedia.length ? (
+                    <aside className="article-inline-links" aria-label="Related source and location links">
+                      {linkMedia.map((item) => (
+                        <a className="article-inline-link" href={item.url} key={`${item.label}-${item.title}`}>
+                          <span>{item.label}</span>
+                          <strong>{item.title}</strong>
+                          <small>{item.description}</small>
+                        </a>
+                      ))}
+                    </aside>
+                  ) : null}
+                </div>
+              ))}
         </div>
+        {story.closingNote ? (
+          <section className="article-closing-note">
+            <p className="eyebrow">{story.closingNote.label || "Our Read"}</p>
+            <p>{story.closingNote.text}</p>
+          </section>
+        ) : null}
         {story.factBox?.length ? (
           <section className="article-section fact-box">
             <h2>Fast Facts</h2>

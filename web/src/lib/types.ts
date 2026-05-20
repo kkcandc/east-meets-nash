@@ -53,6 +53,19 @@ export interface Story {
   imageStyle: string;
   heroImage?: string;
   heroAlt?: string;
+  articleSections?: Array<{
+    heading: string;
+    paragraphs: string[];
+  }>;
+  readerUtility?: {
+    title: string;
+    items: Array<{ label: string; value: string }>;
+  };
+  pullQuote?: string;
+  closingNote?: {
+    label?: string;
+    text: string;
+  };
   factBox?: Array<{ label: string; value: string }>;
   media?: Array<{
     label: string;
@@ -62,6 +75,8 @@ export interface Story {
     imageUrl?: string;
     imageAlt?: string;
     embedUrl?: string;
+    afterSectionHeading?: string;
+    afterSectionIndex?: number;
     credit?: string;
     displayRole?: "hero" | "feature" | "inline" | "source" | "hidden";
     provider?: string;
