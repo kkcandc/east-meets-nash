@@ -1,5 +1,881 @@
 [
   {
+    "id": "may-20-source-pass-east-nashville",
+    "slug": "today-east-nashville-source-pass-may-20-2026",
+    "title": "Today's East Nashville Source Pass: Broadway Fireworks, Grocery Math, East Bank Deadlines, And Wednesday Plans",
+    "deck": "The May 20 run has a free Super Bowl celebration on Lower Broadway, an East Bank timeline check, a deferred grocery-tax vote, and a practical East-side night calendar while Facebook and Nextdoor wait for supervised capture.",
+    "body": "Today's board has one obvious citywide item and a handful of very East Nashville practical ones. Nashville's Super Bowl victory lap moves to Lower Broadway tonight, but the East Bank is the part of the story that keeps following us home.\n\nWSMV reports the free Super Bowl Community Celebration starts at 7:30 p.m. on Lower Broadway, with gates at 6:30 p.m., live music, special guests, fireworks, and a drone show. Visit Music City's press release also points to the celebration after the morning Nissan Stadium press conference.\n\nThe useful local read is not just where the party is. It is what the party previews: crowd movement, bridges, downtown/East Bank spillover, rideshare habits, and how quickly Nashville is trying to make the riverfront feel ready before 2030.\n\nThe other pocketbook story is grocery tax. Metro Council deferred RS2026-1961 to June 16, keeping the proposed half-cent reduction in local grocery sales tax tied to budget season. The Council agenda analysis says the resolution would move Davidson County's local tax on food and food ingredients from 2.25 percent to 1.75 percent.\n\nFor East Nashville families, the tax cut is small enough to sound boring and real enough to be worth watching. The mayor's office has pitched it as affordability policy; the budget file makes clear it also has revenue consequences.\n\nTonight's useful East-side lane is gentler. Game Point has a board-game night at Bongo East from 6:30 to 8:30 p.m., East Nasty's Wednesday run lists Route 8 from 6 to 7 p.m., The Basement East has Mixtape: 80's Tribute x Noise Pollution at 8 p.m., and East Branch Library has its regular Wednesday daytime hours plus family programming earlier in the day.\n\nFacebook and Nextdoor are not in this issue yet. We are holding those until an editor-supervised page view produces screenshots or clear post notes. That keeps the private-platform lane interesting without turning every half-seen feed item into a published claim.\n\nOur Read: Publish the citywide Super Bowl/East Bank follow-up, give the grocery-tax deferral its own plain-English piece, make the Wednesday calendar genuinely useful, and keep social-platform items separate until screenshots are in hand.",
+    "articleSections": [
+      {
+        "heading": "The Big Public Item",
+        "paragraphs": [
+          "Today's board has one obvious citywide item and a handful of very East Nashville practical ones. Nashville's Super Bowl victory lap moves to Lower Broadway tonight, but the East Bank is the part of the story that keeps following us home.",
+          "WSMV reports the free Super Bowl Community Celebration starts at 7:30 p.m. on Lower Broadway, with gates at 6:30 p.m., live music, special guests, fireworks, and a drone show. Visit Music City's press release also points to the celebration after the morning Nissan Stadium press conference."
+        ]
+      },
+      {
+        "heading": "Why East Nashville Cares",
+        "paragraphs": [
+          "The useful local read is not just where the party is. It is what the party previews: crowd movement, bridges, downtown/East Bank spillover, rideshare habits, and how quickly Nashville is trying to make the riverfront feel ready before 2030."
+        ]
+      },
+      {
+        "heading": "The Checkout-Line Story",
+        "paragraphs": [
+          "The other pocketbook story is grocery tax. Metro Council deferred RS2026-1961 to June 16, keeping the proposed half-cent reduction in local grocery sales tax tied to budget season.",
+          "The Council agenda analysis says the resolution would move Davidson County's local tax on food and food ingredients from 2.25 percent to 1.75 percent."
+        ]
+      },
+      {
+        "heading": "What To Do Tonight",
+        "paragraphs": [
+          "Tonight's useful East-side lane is gentler. Game Point has a board-game night at Bongo East from 6:30 to 8:30 p.m., East Nasty's Wednesday run lists Route 8 from 6 to 7 p.m., The Basement East has Mixtape: 80's Tribute x Noise Pollution at 8 p.m., and East Branch Library has its regular Wednesday daytime hours plus family programming earlier in the day."
+        ]
+      },
+      {
+        "heading": "Social Capture Status",
+        "paragraphs": [
+          "Facebook and Nextdoor are not in this issue yet. We are holding those until an editor-supervised page view produces screenshots or clear post notes.",
+          "That keeps the private-platform lane interesting without turning every half-seen feed item into a published claim."
+        ]
+      }
+    ],
+    "readerUtility": {
+      "title": "Today's Useful Read",
+      "items": [
+        {
+          "label": "Top item",
+          "value": "Free Super Bowl Community Celebration on Lower Broadway tonight"
+        },
+        {
+          "label": "Pocketbook",
+          "value": "Grocery-tax cut resolution deferred to June 16"
+        },
+        {
+          "label": "East Bank",
+          "value": "2030 deadline is now shaping today's planning questions"
+        },
+        {
+          "label": "Tonight",
+          "value": "Game Point, East Nasty, Basement East, and East Branch Library"
+        }
+      ]
+    },
+    "pullQuote": "The Super Bowl party is downtown tonight, but the East Bank pressure test is already in East Nashville's lap.",
+    "closingNote": {
+      "label": "Our Read",
+      "text": "Publish the citywide Super Bowl/East Bank follow-up, give the grocery-tax deferral its own plain-English piece, make the Wednesday calendar genuinely useful, and keep social-platform items separate until screenshots are in hand."
+    },
+    "zone": "East Nashville",
+    "beat": "News",
+    "label": "Reported",
+    "confidence": "Built from WSMV, Visit Music City, Metro Council Legistar, East Nasty, Nashville Social, The Basement East, and Nashville Public Library public pages. Facebook and Nextdoor are held for supervised capture.",
+    "reporterId": "june",
+    "time": "May 20, 2026",
+    "priority": 276,
+    "imageStyle": "street",
+    "heroImage": "/api/media/issue-cover?id=may-20-source-pass-east-nashville",
+    "heroAlt": "Cover art for the May 20 East Nashville source pass.",
+    "factBox": [
+      {
+        "label": "Date",
+        "value": "Wednesday, May 20, 2026"
+      },
+      {
+        "label": "Top item",
+        "value": "Free Super Bowl Community Celebration on Lower Broadway"
+      },
+      {
+        "label": "Council watch",
+        "value": "RS2026-1961 grocery-tax cut deferred to June 16"
+      },
+      {
+        "label": "Private platforms",
+        "value": "Facebook and Nextdoor waiting on supervised screenshots"
+      }
+    ],
+    "media": [
+      {
+        "label": "Issue Cover",
+        "title": "May 20 source pass cover",
+        "description": "Generated cover art for the May 20 daily source pass.",
+        "url": "/story/today-east-nashville-source-pass-may-20-2026",
+        "imageUrl": "/api/media/issue-cover?id=may-20-source-pass-east-nashville",
+        "imageAlt": "Cover art for the May 20 East Nashville source pass.",
+        "credit": "Image: East Meets Nash generated issue cover.",
+        "displayRole": "hero",
+        "provider": "generated_cover",
+        "sourceType": "generated_cover",
+        "relevance": "exact",
+        "relevanceScore": 90,
+        "approvalStatus": "approved",
+        "rightsNote": "Generated cover image for a multi-source roundup so the issue lead does not reuse a single-story location photo.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-20"
+      },
+      {
+        "label": "Location Photo",
+        "title": "Lower Broadway",
+        "description": "Broadway, Nashville, TN, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=Broadway%2C%20Nashville%2C%20TN%2C%20USA&query_place_id=ChIJ2zB-Kl9mZIgRShZIF1Cxp0M",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJ2zB-Kl9mZIgRShZIF1Cxp0M&photoIndex=0&q=Broadway%2C%20Nashville%2C%20TN%2C%20USA",
+        "imageAlt": "Lower Broadway in downtown Nashville.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Mark LoGiurato.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJ2zB-Kl9mZIgRShZIF1Cxp0M",
+        "placeQuery": "Broadway, Nashville, TN, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "displayRole": "inline",
+        "afterSectionHeading": "The Big Public Item",
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-20"
+      },
+      {
+        "label": "Location Photo",
+        "title": "Game Point - A Board Game Cafe",
+        "description": "107 S 11th St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=107%20S%2011th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJiwWa3dJnZIgRkfl9YxnaRP0",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJiwWa3dJnZIgRkfl9YxnaRP0&photoIndex=0&q=107%20S%2011th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "Game Point board game cafe in East Nashville.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Game Point - A Board Game Cafe.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJiwWa3dJnZIgRkfl9YxnaRP0",
+        "placeQuery": "107 S 11th St, Nashville, TN 37206, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "displayRole": "inline",
+        "afterSectionHeading": "What To Do Tonight",
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-20"
+      },
+      {
+        "label": "Location Map",
+        "title": "Game Point map",
+        "description": "107 S 11th St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=107%20S%2011th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJiwWa3dJnZIgRkfl9YxnaRP0",
+        "embedUrl": "https://www.google.com/maps?q=107%20S%2011th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "ChIJiwWa3dJnZIgRkfl9YxnaRP0",
+        "placeQuery": "107 S 11th St, Nashville, TN 37206, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "afterSectionHeading": "What To Do Tonight",
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "WSMV: Super Bowl Community Celebration",
+        "description": "Details for the May 20 free Lower Broadway celebration.",
+        "url": "https://www.wsmv.com/2026/05/20/nashvillians-invited-free-super-bowl-community-celebration-lower-broadway/",
+        "sourceUrl": "https://www.wsmv.com/2026/05/20/nashvillians-invited-free-super-bowl-community-celebration-lower-broadway/",
+        "sourceType": "source_link",
+        "afterSectionHeading": "The Big Public Item"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Metro Council May 18 Budget and Finance agenda",
+        "description": "Agenda listing RS2026-1961, the grocery-tax reduction resolution.",
+        "url": "https://nashville.legistar.com/View.ashx?GUID=30823F1F-8D04-415E-84C1-2A65BF82E2C0&ID=1415723&M=A",
+        "sourceUrl": "https://nashville.legistar.com/View.ashx?GUID=30823F1F-8D04-415E-84C1-2A65BF82E2C0&ID=1415723&M=A",
+        "sourceType": "source_link",
+        "afterSectionHeading": "The Checkout-Line Story"
+      }
+    ],
+    "photoStatus": "exact_photo_approved",
+    "sourceNote": "Social-platform items are intentionally held until Facebook or Nextdoor is visible in an editor-supervised browser session.",
+    "sources": [
+      {
+        "name": "WSMV: Nashvillians invited to free Super Bowl Community Celebration",
+        "url": "https://www.wsmv.com/2026/05/20/nashvillians-invited-free-super-bowl-community-celebration-lower-broadway/",
+        "type": "Reported"
+      },
+      {
+        "name": "Visit Music City: Nashville to Host Super Bowl LXIV in 2030",
+        "url": "https://www.visitmusiccity.com/media/press-release/2026/nashville-to-host-super-bowl-lxiv-2030-0",
+        "type": "Official release"
+      },
+      {
+        "name": "WSMV: Metro Council delays grocery tax vote",
+        "url": "https://www.wsmv.com/2026/05/20/metro-council-delays-vote-proposal-cut-davidson-county-grocery-sales-tax/",
+        "type": "Reported"
+      },
+      {
+        "name": "Metro Council Budget and Finance agenda",
+        "url": "https://nashville.legistar.com/View.ashx?GUID=30823F1F-8D04-415E-84C1-2A65BF82E2C0&ID=1415723&M=A",
+        "type": "Public record"
+      },
+      {
+        "name": "Nashville Social: Game Night at Game Point Cafe",
+        "url": "https://www.nashvillesocial.org/events",
+        "type": "Event listing"
+      },
+      {
+        "name": "The Basement East calendar",
+        "url": "https://www.thebasementnashville.com/basement-east/",
+        "type": "Venue calendar"
+      },
+      {
+        "name": "East Nasty Wednesday run calendar",
+        "url": "https://www.eastnastyforlife.com/wednesday-night-runs-1",
+        "type": "Community calendar"
+      },
+      {
+        "name": "Nashville Public Library East Branch",
+        "url": "https://library.nashville.gov/locations/east",
+        "type": "Public facility page"
+      }
+    ],
+    "reactions": {
+      "Love": 37,
+      "Side-Eye": 24
+    },
+    "comments": [
+      {
+        "author": "editor_note",
+        "text": "The daily pass is now doing its job: public receipts first, private-platform screenshots only when captured."
+      }
+    ],
+    "social": {
+      "x": "Today's East Nashville source pass: Super Bowl celebration, grocery-tax deferral, East Bank deadlines, and the Wednesday night useful stuff.",
+      "instagram": "Today: Lower Broadway celebrates the Super Bowl news, the grocery-tax vote waits until June, and East Nashville has board games, running, and a Basement East show.",
+      "video": "June walks through the May 20 board: what is confirmed, what is useful tonight, and why Facebook/Nextdoor waits for screenshots."
+    }
+  },
+  {
+    "id": "lower-broadway-super-bowl-celebration-east-bank-may-20-2026",
+    "slug": "lower-broadway-super-bowl-celebration-east-bank-may-20-2026",
+    "title": "Nashville Is Throwing A Free Super Bowl Party Tonight, And East Nashville Gets The Planning Homework",
+    "deck": "The celebration is on Lower Broadway, but the real neighborhood question is how the East Bank, bridges, streets, and public spaces handle the run-up to 2030.",
+    "body": "Nashville is doing the official confetti part tonight. WSMV reports a free Super Bowl Community Celebration will kick off at 7:30 p.m. on Lower Broadway, with gates at 6:30 p.m., live music from Sixwire, ESPN host Marty Smith emceeing, special guests, fireworks, and a drone show.\n\nThat sounds like a downtown party, and it is. But for East Nashville, the party is also a preview. The stadium that won Nashville the 2030 Super Bowl sits on the East Bank, which means the next four years of bridge crossings, pedestrian routes, rideshare zones, police presence, event traffic, and riverfront construction are not abstract.\n\nWSMV's East Bank follow-up says city leaders are trying to complete portions of the 550-acre project before kickoff. The new stadium is expected to open next spring, Fallon Corporation's first East Point phase is aiming for 2029, and some pieces, including major boulevard work, stretch well beyond the Super Bowl.\n\nSo yes, tonight is fireworks. It is also a small stress test of how Nashville talks about major events when the event footprint is not only Broadway. East Nashville should be watching what streets get closed, where people are pushed, what transit feels like, and whether the city explains the plan in regular-person language before the crowds arrive.\n\nThe optimistic read is that the Super Bowl gives Nashville a deadline and a reason to clean up loose ends. The skeptical read is that a deadline can also make every project sound urgent, every inconvenience sound temporary, and every public-space promise sound like something to check later.\n\nOur Read: Go enjoy the celebration if that is your night. Then keep asking the boring questions, because the boring questions are how a neighborhood survives a giant civic victory lap.",
+    "articleSections": [
+      {
+        "heading": "The Party Part",
+        "paragraphs": [
+          "Nashville is doing the official confetti part tonight. WSMV reports a free Super Bowl Community Celebration will kick off at 7:30 p.m. on Lower Broadway, with gates at 6:30 p.m., live music from Sixwire, ESPN host Marty Smith emceeing, special guests, fireworks, and a drone show.",
+          "That sounds like a downtown party, and it is. But for East Nashville, the party is also a preview."
+        ]
+      },
+      {
+        "heading": "The East Bank Part",
+        "paragraphs": [
+          "The stadium that won Nashville the 2030 Super Bowl sits on the East Bank, which means the next four years of bridge crossings, pedestrian routes, rideshare zones, police presence, event traffic, and riverfront construction are not abstract.",
+          "WSMV's East Bank follow-up says city leaders are trying to complete portions of the 550-acre project before kickoff. The new stadium is expected to open next spring, Fallon Corporation's first East Point phase is aiming for 2029, and some pieces, including major boulevard work, stretch well beyond the Super Bowl."
+        ]
+      },
+      {
+        "heading": "What To Watch Tonight",
+        "paragraphs": [
+          "Tonight is fireworks. It is also a small stress test of how Nashville talks about major events when the event footprint is not only Broadway.",
+          "East Nashville should be watching what streets get closed, where people are pushed, what transit feels like, and whether the city explains the plan in regular-person language before the crowds arrive."
+        ]
+      },
+      {
+        "heading": "The Neighborhood Read",
+        "paragraphs": [
+          "The optimistic read is that the Super Bowl gives Nashville a deadline and a reason to clean up loose ends.",
+          "The skeptical read is that a deadline can also make every project sound urgent, every inconvenience sound temporary, and every public-space promise sound like something to check later."
+        ]
+      }
+    ],
+    "readerUtility": {
+      "title": "Tonight's Basics",
+      "items": [
+        {
+          "label": "What",
+          "value": "Free Super Bowl Community Celebration"
+        },
+        {
+          "label": "Where",
+          "value": "Lower Broadway"
+        },
+        {
+          "label": "Gates",
+          "value": "6:30 p.m."
+        },
+        {
+          "label": "Start",
+          "value": "7:30 p.m."
+        }
+      ]
+    },
+    "pullQuote": "The celebration is downtown, but the traffic, bridge, and public-space questions are very much East Nashville business.",
+    "closingNote": {
+      "label": "Our Read",
+      "text": "Go enjoy the celebration if that is your night. Then keep asking the boring questions, because the boring questions are how a neighborhood survives a giant civic victory lap."
+    },
+    "zone": "East Bank",
+    "beat": "Development",
+    "label": "Reported",
+    "confidence": "WSMV and Visit Music City confirm the May 20 celebration details; WSMV's East Bank reporting frames the 2030 project timeline.",
+    "reporterId": "riff",
+    "time": "May 20, 2026",
+    "priority": 275,
+    "imageStyle": "street",
+    "heroImage": "/api/media/location-photo?placeId=ChIJ2zB-Kl9mZIgRShZIF1Cxp0M&photoIndex=0&q=Broadway%2C%20Nashville%2C%20TN%2C%20USA",
+    "heroAlt": "Lower Broadway in downtown Nashville.",
+    "factBox": [
+      {
+        "label": "Celebration",
+        "value": "Free Super Bowl Community Celebration"
+      },
+      {
+        "label": "Start",
+        "value": "7:30 p.m. Wednesday, May 20"
+      },
+      {
+        "label": "Gates",
+        "value": "6:30 p.m."
+      },
+      {
+        "label": "East Bank question",
+        "value": "What is actually ready by 2030?"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "Lower Broadway",
+        "description": "Broadway, Nashville, TN, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=Broadway%2C%20Nashville%2C%20TN%2C%20USA&query_place_id=ChIJ2zB-Kl9mZIgRShZIF1Cxp0M",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJ2zB-Kl9mZIgRShZIF1Cxp0M&photoIndex=0&q=Broadway%2C%20Nashville%2C%20TN%2C%20USA",
+        "imageAlt": "Lower Broadway in downtown Nashville.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Mark LoGiurato.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJ2zB-Kl9mZIgRShZIF1Cxp0M",
+        "placeQuery": "Broadway, Nashville, TN, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "displayRole": "hero",
+        "afterSectionHeading": "The Party Part",
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-20"
+      },
+      {
+        "label": "Inline Photo",
+        "title": "New Nissan Stadium",
+        "description": "S 2nd St, Nashville, TN 37213, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=S%202nd%20St%2C%20Nashville%2C%20TN%2037213%2C%20USA&query_place_id=ChIJCSKbDgBnZIgR1WPa_kppzk0",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJCSKbDgBnZIgR1WPa_kppzk0&photoIndex=0&q=S%202nd%20St%2C%20Nashville%2C%20TN%2037213%2C%20USA",
+        "imageAlt": "The new Nissan Stadium site on Nashville's East Bank.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Ronaldo junior.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJCSKbDgBnZIgR1WPa_kppzk0",
+        "placeQuery": "S 2nd St, Nashville, TN 37213, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "displayRole": "inline",
+        "afterSectionHeading": "The East Bank Part",
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-20"
+      },
+      {
+        "label": "Location Map",
+        "title": "Lower Broadway map",
+        "description": "Broadway, Nashville, TN, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=Broadway%2C%20Nashville%2C%20TN%2C%20USA&query_place_id=ChIJ2zB-Kl9mZIgRShZIF1Cxp0M",
+        "embedUrl": "https://www.google.com/maps?q=Broadway%2C%20Nashville%2C%20TN%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "ChIJ2zB-Kl9mZIgRShZIF1Cxp0M",
+        "placeQuery": "Broadway, Nashville, TN, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "afterSectionHeading": "What To Watch Tonight",
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "WSMV celebration details",
+        "description": "Reported details for the free May 20 celebration on Lower Broadway.",
+        "url": "https://www.wsmv.com/2026/05/20/nashvillians-invited-free-super-bowl-community-celebration-lower-broadway/",
+        "sourceUrl": "https://www.wsmv.com/2026/05/20/nashvillians-invited-free-super-bowl-community-celebration-lower-broadway/",
+        "sourceType": "source_link",
+        "afterSectionHeading": "The Party Part"
+      },
+      {
+        "label": "Source Trail",
+        "title": "WSMV East Bank timeline",
+        "description": "Reported timeline for East Bank projects racing toward 2030.",
+        "url": "https://www.wsmv.com/2026/05/19/nashvilles-east-bank-development-races-prepare-2030-super-bowl/",
+        "sourceUrl": "https://www.wsmv.com/2026/05/19/nashvilles-east-bank-development-races-prepare-2030-super-bowl/",
+        "sourceType": "source_link",
+        "afterSectionHeading": "The East Bank Part"
+      }
+    ],
+    "photoStatus": "exact_photo_approved",
+    "sourceNote": "This story follows the May 19 Super Bowl announcement with May 20 celebration details and East Bank timeline context.",
+    "sources": [
+      {
+        "name": "WSMV: Nashvillians invited to free Super Bowl Community Celebration",
+        "url": "https://www.wsmv.com/2026/05/20/nashvillians-invited-free-super-bowl-community-celebration-lower-broadway/",
+        "type": "Reported"
+      },
+      {
+        "name": "Visit Music City: Nashville to Host Super Bowl LXIV in 2030",
+        "url": "https://www.visitmusiccity.com/media/press-release/2026/nashville-to-host-super-bowl-lxiv-2030-0",
+        "type": "Official release"
+      },
+      {
+        "name": "WSMV: Nashville's East Bank development races to prepare for 2030 Super Bowl",
+        "url": "https://www.wsmv.com/2026/05/19/nashvilles-east-bank-development-races-prepare-2030-super-bowl/",
+        "type": "Reported context"
+      }
+    ],
+    "reactions": {
+      "Love": 42,
+      "Side-Eye": 31
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_31",
+        "text": "The fireworks are cute. I want the bridge plan."
+      }
+    ],
+    "social": {
+      "x": "Lower Broadway gets the free Super Bowl celebration tonight. East Nashville gets the planning homework.",
+      "instagram": "Tonight's Super Bowl party is on Broadway. The long-term story is the East Bank, the bridges, and what actually gets finished before 2030.",
+      "video": "Riff frames tonight's celebration as the fun part, then pivots to the real East Nashville questions: bridges, traffic, public spaces, and the 2030 clock."
+    }
+  },
+  {
+    "id": "nashville-grocery-tax-vote-deferred-may-20-2026",
+    "slug": "nashville-grocery-tax-vote-deferred-may-20-2026",
+    "title": "The Grocery Tax Cut Vote Got Pushed To June, So The Checkout-Line Math Gets Another Month",
+    "deck": "Metro Council deferred the proposed local grocery-tax reduction to June 16, keeping a small but real affordability item inside the budget fight.",
+    "body": "The grocery-tax cut did not die. It got put back on the budget-season shelf.\n\nWSMV reports Metro Council voted Tuesday night to defer RS2026-1961 to the June 16 meeting. The resolution would reduce Davidson County's local sales tax on food and food ingredients by one-half percent, moving it from 2.25 percent to 1.75 percent.\n\nThe Council agenda analysis puts the tradeoff plainly: the lower tax would reduce Fiscal Year 2027 revenue by $9.2 million. If approved, the reduction would take effect on October 1, 2026, or the first day of the month at least 60 days after the state receives the certified resolution, whichever comes later.\n\nMayor Freddie O'Connell has been selling the cut as affordability policy. In his State of Metro address, he said his budget would propose the half-cent reduction and estimated it would save an average Nashville family of four $72 per year.\n\nThat number is both underwhelming and useful, which is exactly why this is a good East Nashville story. Nobody is paying rent with $72. But anyone who has watched a grocery receipt turn rude understands why the politics of food prices are not pretend.\n\nThe June question is whether Council treats the cut as a clean affordability win, a budget hole, or one small piece of a larger argument about what Metro should pay for while revenues are flat.\n\nOur Read: Watch this without pretending it is either a miracle or a gimmick. It is a small household savings item attached to a real public-budget tradeoff, which is the sort of thing local government is made of.",
+    "articleSections": [
+      {
+        "heading": "What Happened",
+        "paragraphs": [
+          "The grocery-tax cut did not die. It got put back on the budget-season shelf.",
+          "WSMV reports Metro Council voted Tuesday night to defer RS2026-1961 to the June 16 meeting."
+        ]
+      },
+      {
+        "heading": "The Actual Math",
+        "paragraphs": [
+          "The resolution would reduce Davidson County's local sales tax on food and food ingredients by one-half percent, moving it from 2.25 percent to 1.75 percent.",
+          "The Council agenda analysis puts the tradeoff plainly: the lower tax would reduce Fiscal Year 2027 revenue by $9.2 million."
+        ]
+      },
+      {
+        "heading": "What The Mayor Is Selling",
+        "paragraphs": [
+          "Mayor Freddie O'Connell has been selling the cut as affordability policy.",
+          "In his State of Metro address, he said his budget would propose the half-cent reduction and estimated it would save an average Nashville family of four $72 per year."
+        ]
+      },
+      {
+        "heading": "Why It Matters Here",
+        "paragraphs": [
+          "That number is both underwhelming and useful, which is exactly why this is a good East Nashville story.",
+          "Nobody is paying rent with $72. But anyone who has watched a grocery receipt turn rude understands why the politics of food prices are not pretend."
+        ]
+      },
+      {
+        "heading": "The June Question",
+        "paragraphs": [
+          "The June question is whether Council treats the cut as a clean affordability win, a budget hole, or one small piece of a larger argument about what Metro should pay for while revenues are flat."
+        ]
+      }
+    ],
+    "readerUtility": {
+      "title": "What To Know",
+      "items": [
+        {
+          "label": "Resolution",
+          "value": "RS2026-1961"
+        },
+        {
+          "label": "Status",
+          "value": "Deferred to June 16"
+        },
+        {
+          "label": "Proposal",
+          "value": "Local grocery tax from 2.25% to 1.75%"
+        },
+        {
+          "label": "Budget impact",
+          "value": "$9.2 million less FY2027 revenue, per Council analysis"
+        }
+      ]
+    },
+    "pullQuote": "Nobody is paying rent with $72. But anyone who has watched a grocery receipt turn rude knows why food prices are not pretend politics.",
+    "closingNote": {
+      "label": "Our Read",
+      "text": "Watch this without pretending it is either a miracle or a gimmick. It is a small household savings item attached to a real public-budget tradeoff, which is the sort of thing local government is made of."
+    },
+    "zone": "Davidson County",
+    "beat": "Civic",
+    "label": "Reported",
+    "confidence": "WSMV confirms the deferral and Metro Council agenda analysis confirms the tax-rate and revenue details.",
+    "reporterId": "parker",
+    "time": "May 20, 2026",
+    "priority": 274,
+    "imageStyle": "permit",
+    "heroImage": "/api/media/location-photo?placeId=ChIJAQCQmldmZIgRN2ioFsC_eOg&photoIndex=0&q=1%20Public%20Square%2C%20Nashville%2C%20TN%2037201%2C%20USA",
+    "heroAlt": "Nashville Metropolitan Courthouse.",
+    "factBox": [
+      {
+        "label": "Vote status",
+        "value": "Deferred to June 16, 2026"
+      },
+      {
+        "label": "Filed",
+        "value": "May 1 by Mayor Freddie O'Connell"
+      },
+      {
+        "label": "Rate change",
+        "value": "2.25% to 1.75% local tax on food and food ingredients"
+      },
+      {
+        "label": "Revenue note",
+        "value": "$9.2 million FY2027 reduction, per Council analysis"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "Nashville Metropolitan Courthouse",
+        "description": "1 Public Square, Nashville, TN 37201, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=1%20Public%20Square%2C%20Nashville%2C%20TN%2037201%2C%20USA&query_place_id=ChIJAQCQmldmZIgRN2ioFsC_eOg",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJAQCQmldmZIgRN2ioFsC_eOg&photoIndex=0&q=1%20Public%20Square%2C%20Nashville%2C%20TN%2037201%2C%20USA",
+        "imageAlt": "Nashville Metropolitan Courthouse.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: John Stevenson.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJAQCQmldmZIgRN2ioFsC_eOg",
+        "placeQuery": "1 Public Square, Nashville, TN 37201, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "displayRole": "hero",
+        "afterSectionHeading": "What Happened",
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-20"
+      },
+      {
+        "label": "Location Map",
+        "title": "Nashville Metropolitan Courthouse map",
+        "description": "1 Public Square, Nashville, TN 37201, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=1%20Public%20Square%2C%20Nashville%2C%20TN%2037201%2C%20USA&query_place_id=ChIJAQCQmldmZIgRN2ioFsC_eOg",
+        "embedUrl": "https://www.google.com/maps?q=1%20Public%20Square%2C%20Nashville%2C%20TN%2037201%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "ChIJAQCQmldmZIgRN2ioFsC_eOg",
+        "placeQuery": "1 Public Square, Nashville, TN 37201, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "afterSectionHeading": "The June Question",
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "WSMV grocery-tax deferral",
+        "description": "Reported account of the May 19 deferral to June 16.",
+        "url": "https://www.wsmv.com/2026/05/20/metro-council-delays-vote-proposal-cut-davidson-county-grocery-sales-tax/",
+        "sourceUrl": "https://www.wsmv.com/2026/05/20/metro-council-delays-vote-proposal-cut-davidson-county-grocery-sales-tax/",
+        "sourceType": "source_link",
+        "afterSectionHeading": "What Happened"
+      },
+      {
+        "label": "Source Trail",
+        "title": "Metro Council agenda analysis",
+        "description": "Council Office analysis of the proposed tax-rate change and revenue impact.",
+        "url": "https://nashville.legistar.com/View.ashx?GUID=109AFA6A-FF2C-4E0F-9E1D-1F8E1852F468&ID=1415582&M=E2",
+        "sourceUrl": "https://nashville.legistar.com/View.ashx?GUID=109AFA6A-FF2C-4E0F-9E1D-1F8E1852F468&ID=1415582&M=E2",
+        "sourceType": "source_link",
+        "afterSectionHeading": "The Actual Math"
+      }
+    ],
+    "photoStatus": "exact_photo_approved",
+    "sourceNote": "The story uses public Council records for the numbers and WSMV for the action taken after the meeting.",
+    "sources": [
+      {
+        "name": "WSMV: Metro Council delays grocery tax vote",
+        "url": "https://www.wsmv.com/2026/05/20/metro-council-delays-vote-proposal-cut-davidson-county-grocery-sales-tax/",
+        "type": "Reported"
+      },
+      {
+        "name": "Metro Council May 19 agenda analysis",
+        "url": "https://nashville.legistar.com/View.ashx?GUID=109AFA6A-FF2C-4E0F-9E1D-1F8E1852F468&ID=1415582&M=E2",
+        "type": "Public record"
+      },
+      {
+        "name": "Mayor's Office: 63rd State of Metro address",
+        "url": "https://www.nashville.gov/departments/mayor/news/mayor-freddie-oconnell-delivers-63rd-state-metro-address-lays-out-vision-years-ahead",
+        "type": "Official context"
+      },
+      {
+        "name": "WSMV: Mayor files proposed FY2027 budget",
+        "url": "https://www.wsmv.com/2026/05/01/nashville-mayor-files-proposed-2027-budget-focusing-grocery-tax-cut-schools-safety-housing/",
+        "type": "Reported context"
+      }
+    ],
+    "reactions": {
+      "Love": 29,
+      "Side-Eye": 27
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_16",
+        "text": "Small savings still counts when eggs are acting like jewelry."
+      }
+    ],
+    "social": {
+      "x": "Metro's grocery-tax cut vote got deferred to June 16. The half-cent question is small, real, and now fully inside budget season.",
+      "instagram": "The grocery-tax cut is not dead. It is deferred to June, which means East Nashville gets another month of checkout-line math and budget tradeoffs.",
+      "video": "Parker explains the grocery-tax deferral in normal language: what changes, when it could happen, and why the budget impact matters."
+    }
+  },
+  {
+    "id": "east-nashville-wednesday-night-plans-may-20-2026",
+    "slug": "east-nashville-wednesday-night-plans-may-20-2026",
+    "title": "Wednesday Night On The East Side Has Board Games, A Run, And A Basement East Throwback",
+    "deck": "A practical May 20 mini-calendar: Game Point at Bongo East, East Nasty's Route 8, The Basement East's 80s/AC-DC tribute night, and a quieter East Branch Library lane.",
+    "body": "Not every useful story needs to arrive wearing a hard hat or a Council agenda. Sometimes the win is knowing where to go after work without asking three group chats.\n\nThe most social low-stakes option tonight is Game Night at Game Point Cafe at Bongo East, listed by Nashville Social from 6:30 to 8:30 p.m. The listing says games are free, with a requested minimum $10 food and beverage spend, and points to Game Point's 400-plus-game library.\n\nIf sitting still is the enemy, East Nasty's Wednesday run page lists Route 8: 5 Parks from 6 to 7 p.m., starting at 201 South 12th Street. This is the neighborhood option for anyone who wants their community event with a little sweat and a high probability of seeing someone they know at exactly the wrong moment.\n\nFor music, The Basement East has Mixtape: 80's Tribute x Noise Pollution: The Music of AC/DC, with doors at 7 p.m. and show at 8 p.m. The venue lists it as all ages.\n\nAnd if the night needs to be gentler, East Branch Library remains the useful anchor on Gallatin Avenue. Its page lists Wednesday hours as 10 a.m. to 6 p.m., plus Lapsit Story Time at 11 a.m. earlier in the day.\n\nOur Read: This is the kind of small calendar bundle East Nashville actually needs: one place to sit, one way to move, one loud room, and one civic quiet room.",
+    "articleSections": [
+      {
+        "heading": "The Low-Stakes Social Option",
+        "paragraphs": [
+          "Not every useful story needs to arrive wearing a hard hat or a Council agenda. Sometimes the win is knowing where to go after work without asking three group chats.",
+          "The most social low-stakes option tonight is Game Night at Game Point Cafe at Bongo East, listed by Nashville Social from 6:30 to 8:30 p.m."
+        ]
+      },
+      {
+        "heading": "The Move-Your-Body Option",
+        "paragraphs": [
+          "If sitting still is the enemy, East Nasty's Wednesday run page lists Route 8: 5 Parks from 6 to 7 p.m., starting at 201 South 12th Street.",
+          "This is the neighborhood option for anyone who wants their community event with a little sweat and a high probability of seeing someone they know at exactly the wrong moment."
+        ]
+      },
+      {
+        "heading": "The Loud Option",
+        "paragraphs": [
+          "For music, The Basement East has Mixtape: 80's Tribute x Noise Pollution: The Music of AC/DC, with doors at 7 p.m. and show at 8 p.m.",
+          "The venue lists it as all ages."
+        ]
+      },
+      {
+        "heading": "The Quiet Anchor",
+        "paragraphs": [
+          "And if the night needs to be gentler, East Branch Library remains the useful anchor on Gallatin Avenue.",
+          "Its page lists Wednesday hours as 10 a.m. to 6 p.m., plus Lapsit Story Time at 11 a.m. earlier in the day."
+        ]
+      }
+    ],
+    "readerUtility": {
+      "title": "Pick Your Wednesday",
+      "items": [
+        {
+          "label": "Board games",
+          "value": "Game Point at Bongo East, 6:30 to 8:30 p.m."
+        },
+        {
+          "label": "Run",
+          "value": "East Nasty Route 8, 6 to 7 p.m."
+        },
+        {
+          "label": "Show",
+          "value": "The Basement East, doors 7 p.m., show 8 p.m."
+        },
+        {
+          "label": "Quiet",
+          "value": "East Branch Library, Wednesday hours 10 a.m. to 6 p.m."
+        }
+      ]
+    },
+    "pullQuote": "One place to sit, one way to move, one loud room, and one civic quiet room.",
+    "closingNote": {
+      "label": "Our Read",
+      "text": "This is the kind of small calendar bundle East Nashville actually needs: one place to sit, one way to move, one loud room, and one civic quiet room."
+    },
+    "zone": "East Nashville",
+    "beat": "Events",
+    "label": "Confirmed",
+    "confidence": "Public event and venue pages confirm the May 20 times and locations.",
+    "reporterId": "lila",
+    "time": "May 20, 2026",
+    "priority": 273,
+    "imageStyle": "event",
+    "heroImage": "/api/media/location-photo?placeId=ChIJiwWa3dJnZIgRkfl9YxnaRP0&photoIndex=0&q=107%20S%2011th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+    "heroAlt": "Game Point board game cafe in East Nashville.",
+    "factBox": [
+      {
+        "label": "Game Point",
+        "value": "6:30 to 8:30 p.m. at Bongo East"
+      },
+      {
+        "label": "East Nasty",
+        "value": "Route 8, 6 to 7 p.m."
+      },
+      {
+        "label": "The Basement East",
+        "value": "Doors 7 p.m., show 8 p.m."
+      },
+      {
+        "label": "East Branch Library",
+        "value": "Wednesday hours 10 a.m. to 6 p.m."
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "Game Point - A Board Game Cafe",
+        "description": "107 S 11th St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=107%20S%2011th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJiwWa3dJnZIgRkfl9YxnaRP0",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJiwWa3dJnZIgRkfl9YxnaRP0&photoIndex=0&q=107%20S%2011th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "Game Point board game cafe in East Nashville.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Game Point - A Board Game Cafe.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJiwWa3dJnZIgRkfl9YxnaRP0",
+        "placeQuery": "107 S 11th St, Nashville, TN 37206, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "displayRole": "hero",
+        "afterSectionHeading": "The Low-Stakes Social Option",
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-20"
+      },
+      {
+        "label": "Inline Photo",
+        "title": "The Basement East",
+        "description": "917 Woodland St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=917%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJ7cq3SzNmZIgRh6xcz_nXMn0",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJ7cq3SzNmZIgRh6xcz_nXMn0&photoIndex=0&q=917%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "The Basement East on Woodland Street.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Jim Harrell (LarderRoom).",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJ7cq3SzNmZIgRh6xcz_nXMn0",
+        "placeQuery": "917 Woodland St, Nashville, TN 37206, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "displayRole": "inline",
+        "afterSectionHeading": "The Loud Option",
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-20"
+      },
+      {
+        "label": "Inline Photo",
+        "title": "Nashville Public Library East Branch",
+        "description": "206 Gallatin Ave, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=206%20Gallatin%20Ave%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJv_0AaNJnZIgRBGZbAdvJwGs",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJv_0AaNJnZIgRBGZbAdvJwGs&photoIndex=0&q=206%20Gallatin%20Ave%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "Nashville Public Library East Branch on Gallatin Avenue.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Nashville Public Library East Branch.",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJv_0AaNJnZIgRBGZbAdvJwGs",
+        "placeQuery": "206 Gallatin Ave, Nashville, TN 37206, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "displayRole": "inline",
+        "afterSectionHeading": "The Quiet Anchor",
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-20"
+      },
+      {
+        "label": "Location Map",
+        "title": "Game Point map",
+        "description": "107 S 11th St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=107%20S%2011th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJiwWa3dJnZIgRkfl9YxnaRP0",
+        "embedUrl": "https://www.google.com/maps?q=107%20S%2011th%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "ChIJiwWa3dJnZIgRkfl9YxnaRP0",
+        "placeQuery": "107 S 11th St, Nashville, TN 37206, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "afterSectionHeading": "The Low-Stakes Social Option",
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Nashville Social: Game Point event",
+        "description": "Event listing for the May 20 board-game night.",
+        "url": "https://www.nashvillesocial.org/events",
+        "sourceUrl": "https://www.nashvillesocial.org/events",
+        "sourceType": "source_link",
+        "afterSectionHeading": "The Low-Stakes Social Option"
+      },
+      {
+        "label": "Source Trail",
+        "title": "The Basement East calendar",
+        "description": "Venue listing for Mixtape: 80's Tribute x Noise Pollution.",
+        "url": "https://www.thebasementnashville.com/basement-east/",
+        "sourceUrl": "https://www.thebasementnashville.com/basement-east/",
+        "sourceType": "source_link",
+        "afterSectionHeading": "The Loud Option"
+      }
+    ],
+    "photoStatus": "exact_photo_approved",
+    "sourceNote": "This is a service calendar story assembled only from public event/venue pages.",
+    "sources": [
+      {
+        "name": "Nashville Social: Game Night at Game Point Cafe",
+        "url": "https://www.nashvillesocial.org/events",
+        "type": "Event listing"
+      },
+      {
+        "name": "East Nasty Wednesday run calendar",
+        "url": "https://www.eastnastyforlife.com/wednesday-night-runs-1",
+        "type": "Community calendar"
+      },
+      {
+        "name": "The Basement East calendar",
+        "url": "https://www.thebasementnashville.com/basement-east/",
+        "type": "Venue calendar"
+      },
+      {
+        "name": "Nashville Public Library East Branch",
+        "url": "https://library.nashville.gov/locations/east",
+        "type": "Public facility page"
+      }
+    ],
+    "reactions": {
+      "Love": 46,
+      "Side-Eye": 11
+    },
+    "comments": [
+      {
+        "author": "sample_neighbor_07",
+        "text": "This is exactly the midweek energy: board games or loud guitars, no third option except running."
+      }
+    ],
+    "social": {
+      "x": "Tonight on the East side: Game Point board games, East Nasty Route 8, a Basement East throwback, and the East Branch quiet lane.",
+      "instagram": "Your Wednesday East Nashville mini-calendar: board games, a neighborhood run, 80s/AC-DC tribute energy, and the library if your battery is at 12%.",
+      "video": "Lila gives the Wednesday pick-your-own-plan: sit, run, rock, or go quiet."
+    }
+  },
+  {
     "id": "east-side-floral-prototype-bouquets-may-19-2026",
     "slug": "east-side-floral-prototype-bouquets-may-19-2026",
     "title": "A Local Floral Maker Is Testing Prototype Bouquets In The East Nashville Feed",

@@ -1,155 +1,108 @@
 {
-  "date": "May 19, 2026",
+  "date": "May 20, 2026",
   "title": "Daily Source Pass",
-  "summary": "Today's issue is built from public sources plus a supervised Facebook New posts capture: AP/Sportsnet, Visit Music City, Metro Council Legistar, Rules Committee records, East Nashville Farmers Market, Nashville Public Library, NWS Nashville, and Facebook group screenshots.",
+  "summary": "Today's issue is built from WSMV, Visit Music City, Metro Council Legistar, Nashville.gov, Nashville Social, East Nasty, The Basement East, Nashville Public Library, and Google Places media. Facebook and Nextdoor remain queued for supervised screenshot capture.",
   "stages": [
     {
       "time": "8:00 AM",
-      "name": "Official Records And Local Web Sweep",
-      "goal": "Find the high-confidence public items before the neighborhood starts arguing from memory.",
+      "name": "Public News Sweep",
+      "goal": "Find the same-day public items with clear local stakes.",
       "sourceIds": [
-        "src-may19-super-bowl-east-bank",
-        "src-may19-council-gallatin-shelby-nes",
-        "src-may19-nes-tree-moratorium"
+        "src-may20-super-bowl-celebration",
+        "src-may20-grocery-tax-deferral"
       ],
-      "output": "Published Super Bowl/East Bank, Council utility, and NES/tree-moratorium watch items from public records and reported sources."
+      "output": "Published the Super Bowl celebration/East Bank follow-up and grocery-tax deferral explainer."
     },
     {
-      "time": "12:30 PM",
-      "name": "Direct Pages And Utility Sweep",
-      "goal": "Add the same-day things people can actually use.",
+      "time": "11:30 AM",
+      "name": "Public Records And Budget Check",
+      "goal": "Use Metro records to backstop the numbers and timing.",
       "sourceIds": [
-        "src-may19-farmers-market-weather",
-        "src-may12-east-branch-library",
-        "src-weekend-venue-calendars"
+        "src-may20-grocery-tax-deferral"
       ],
-      "output": "Published the farmers market/weather practical and used East Branch hours as backup utility context."
+      "output": "Confirmed the RS2026-1961 rate change, June 16 deferral, and FY2027 revenue note from public records and WSMV."
+    },
+    {
+      "time": "1:00 PM",
+      "name": "Utility And Event Scan",
+      "goal": "Add the useful things people can act on today.",
+      "sourceIds": [
+        "src-may20-wednesday-east-side-calendar"
+      ],
+      "output": "Published a Wednesday night East Nashville mini-calendar with Game Point, East Nasty, The Basement East, and East Branch Library."
     },
     {
       "time": "3:00 PM",
       "name": "Community Capture Lane",
-      "goal": "Bring Facebook and Nextdoor in only when editor-selected screenshots or post notes are available.",
+      "goal": "Pull Facebook and Nextdoor only when the editor can show screenshots or post notes.",
       "sourceIds": [
-        "src-facebook-group",
-        "src-nextdoor-patterns",
-        "src-reader-tips",
-        "src-may19-facebook-new-posts",
-        "src-may19-talk-nice-clothing-swap",
-        "src-may19-underdog-may20-show",
-        "src-may19-floral-prototype-bouquets"
+        "src-may20-facebook-nextdoor-hold"
       ],
-      "output": "Facebook New posts capture completed and split into individual screenshot-forward stories, with the original notebook retained as a hub. Nextdoor remains waiting on a working selected feed."
+      "output": "Held for supervised capture; no private-platform claims were promoted without visible receipts."
     },
     {
       "time": "5:00 PM",
       "name": "Publish Pack",
-      "goal": "Ship the source-backed stories, media packs, maps, source trails, and social cuts.",
+      "goal": "Ship stories with article sections, utility boxes, pull quotes, source trails, Google Places media, and maps.",
       "sourceIds": [
-        "src-may19-source-pass",
-        "src-may19-super-bowl-east-bank",
-        "src-may19-council-gallatin-shelby-nes",
-        "src-may19-nes-tree-moratorium",
-        "src-may19-farmers-market-weather",
-        "src-may19-facebook-new-posts",
-        "src-may19-talk-nice-clothing-swap",
-        "src-may19-underdog-may20-show",
-        "src-may19-floral-prototype-bouquets"
+        "src-may20-source-pass",
+        "src-may20-super-bowl-celebration",
+        "src-may20-grocery-tax-deferral",
+        "src-may20-wednesday-east-side-calendar"
       ],
-      "output": "Nine May 19 stories are live, including three individual Facebook-captured stories, the Facebook hub, Google Places images, maps, source trails, and social copy."
+      "output": "Four May 20 stories are published with real location images, inline media, source trails, and no source receipt card images."
     }
   ],
   "publishQueue": [
     {
-      "sourceId": "src-may19-floral-prototype-bouquets",
-      "slot": "Facebook capture",
-      "decision": "Published as an individual local-commerce note with Facebook screenshot context.",
-      "why": "The bouquet post is a distinct maker/small-business signal with real images."
-    },
-    {
-      "sourceId": "src-may19-underdog-may20-show",
-      "slot": "Facebook capture",
-      "decision": "Published as an individual music-calendar story with Facebook screenshot context.",
-      "why": "The flyer has a lineup, cover, venue, and date that should not be buried in a roundup."
-    },
-    {
-      "sourceId": "src-may19-talk-nice-clothing-swap",
-      "slot": "Facebook capture",
-      "decision": "Published as an individual event story with Facebook screenshot context.",
-      "why": "The clothing swap/listening party has a clear time, place, flyer, and reader use."
-    },
-    {
-      "sourceId": "src-may19-facebook-new-posts",
-      "slot": "Facebook capture",
-      "decision": "Published as a screenshot-forward neighborhood notebook.",
-      "why": "The supervised New posts pass found useful public-facing events and local commerce while skipping sensitive private items."
-    },
-    {
-      "sourceId": "src-may19-source-pass",
+      "sourceId": "src-may20-source-pass",
       "slot": "Issue lead",
-      "decision": "Published as today's source issue lead.",
-      "why": "It explains what was found, what was published, and why private-platform claims need selected screenshots before promotion."
+      "decision": "Published as today's source pass.",
+      "why": "It explains what was found, what was shipped, and what still needs supervised social capture."
     },
     {
-      "sourceId": "src-may19-super-bowl-east-bank",
-      "slot": "Development lead",
-      "decision": "Published as the East Bank/Super Bowl lead.",
-      "why": "The Super Bowl vote turns East Bank planning into immediate local-news infrastructure, not just future sports trivia."
+      "sourceId": "src-may20-super-bowl-celebration",
+      "slot": "Development follow-up",
+      "decision": "Published as an East Bank planning homework story.",
+      "why": "The celebration is citywide, but the stadium/East Bank questions are directly relevant to East Nashville."
     },
     {
-      "sourceId": "src-may19-council-gallatin-shelby-nes",
-      "slot": "Council utility",
-      "decision": "Published as the Council packet brief.",
-      "why": "Gallatin sidewalk money, Shelby Park buses, NES politics, and East Bank Authority appointments are concrete civic signals."
+      "sourceId": "src-may20-grocery-tax-deferral",
+      "slot": "Civic utility",
+      "decision": "Published as a plain-English grocery-tax explainer.",
+      "why": "The deferral affects household costs and Metro budget tradeoffs."
     },
     {
-      "sourceId": "src-may19-nes-tree-moratorium",
-      "slot": "Services watch",
-      "decision": "Published as the NES/tree-trimming watch item.",
-      "why": "The post-storm utility fight has moved into vegetation management, which East Nashville residents will feel block by block."
+      "sourceId": "src-may20-wednesday-east-side-calendar",
+      "slot": "Daily utility",
+      "decision": "Published as a compact Wednesday night guide.",
+      "why": "The items have clear time/place details and give readers something useful today."
     },
     {
-      "sourceId": "src-may19-farmers-market-weather",
-      "slot": "Tonight",
-      "decision": "Published as a practical market/weather item.",
-      "why": "Direct-source hours, location, parking, weather, and a dry backup make this useful right now."
-    },
-    {
-      "sourceId": "src-facebook-group",
-      "slot": "Facebook capture",
-      "decision": "Ready for editor-selected screenshots.",
-      "why": "The policy now supports visible screenshots, but only after the editor supplies or opens the specific posts to capture."
-    },
-    {
-      "sourceId": "src-nextdoor-patterns",
-      "slot": "Nextdoor capture",
-      "decision": "Ready for editor-selected screenshots or pasted notes.",
-      "why": "Nextdoor can add texture, but this run did not have a working selected-post capture."
+      "sourceId": "src-may20-facebook-nextdoor-hold",
+      "slot": "Community capture",
+      "decision": "Held until screenshots or post notes are available.",
+      "why": "The rule is interesting with receipts, not private-platform guesswork."
     }
   ],
   "accessNeeds": [
     {
-      "name": "Facebook private group",
-      "status": "Captured today",
-      "today": "New posts pass completed and published as a Facebook notebook. Keep using this lane when the editor opens the group.",
-      "guardrail": "Screenshot-forward is fine; hard-redact kids, medical/financial details, private addresses, phones, plates, and unverified private-person accusations."
+      "name": "Facebook group",
+      "status": "Waiting on in-app browser capture",
+      "today": "Open the East Nashville group in chronological/New posts mode when ready.",
+      "guardrail": "Publish individual stories only for posts with screenshots, clear public-interest value, and no kids, medical/financial details, private addresses, plates, or unverified accusations."
     },
     {
       "name": "Nextdoor",
-      "status": "Waiting on selected posts",
-      "today": "Open the feed or paste selected notes. Use it for patterns, service complaints, lost-and-found, and neighborhood questions.",
-      "guardrail": "Do not publish private accusations as fact without public records, named sources, or multiple credible confirmations."
+      "status": "Waiting on working login/feed",
+      "today": "Skip if login/feed remains unavailable.",
+      "guardrail": "Treat as neighborhood signal until independently verified; redact sensitive personal details."
     },
     {
-      "name": "Public official and local web sources",
-      "status": "Published today",
-      "today": "Recheck Legistar action details after Council/committee actions post and update the May 19 Council/NES stories if votes change the status.",
-      "guardrail": "Agenda language means under consideration; action details or minutes mean acted on."
-    },
-    {
-      "name": "Weather and event utility",
-      "status": "Refresh before send",
-      "today": "Refresh NWS and event pages before an evening newsletter or push if the radar changes.",
-      "guardrail": "Weather is time-sensitive; source-note the update window."
+      "name": "Google Places photo desk",
+      "status": "Working",
+      "today": "Used for Lower Broadway, Nissan Stadium, Courthouse, Game Point, Basement East, and East Branch Library context.",
+      "guardrail": "Use exact or strong location photos with Google Maps/contributor attribution; no source receipt cards."
     }
   ]
 }

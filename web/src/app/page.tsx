@@ -6,7 +6,10 @@ import { getStories } from "@/lib/content";
 export default function HomePage() {
   const stories = getStories();
   const packageIds = [
-    "may-19-source-pass-east-nashville",
+    "may-20-source-pass-east-nashville",
+    "lower-broadway-super-bowl-celebration-east-bank-may-20-2026",
+    "nashville-grocery-tax-vote-deferred-may-20-2026",
+    "east-nashville-wednesday-night-plans-may-20-2026",
     "talk-nice-clothing-swap-listening-party-may-23-2026",
     "underdog-meltdown-south-carson-deans-may-20-2026",
     "east-side-floral-prototype-bouquets-may-19-2026",
