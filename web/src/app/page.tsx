@@ -7,6 +7,9 @@ export default function HomePage() {
   const stories = getStories();
   const packageIds = [
     "may-19-source-pass-east-nashville",
+    "talk-nice-clothing-swap-listening-party-may-23-2026",
+    "underdog-meltdown-south-carson-deans-may-20-2026",
+    "east-side-floral-prototype-bouquets-may-19-2026",
     "facebook-new-posts-notebook-may-19-2026",
     "nashville-super-bowl-east-bank-2030-may-19-2026",
     "metro-council-gallatin-shelby-nes-may-19-2026",

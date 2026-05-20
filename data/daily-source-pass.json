@@ -33,9 +33,12 @@
         "src-facebook-group",
         "src-nextdoor-patterns",
         "src-reader-tips",
-        "src-may19-facebook-new-posts"
+        "src-may19-facebook-new-posts",
+        "src-may19-talk-nice-clothing-swap",
+        "src-may19-underdog-may20-show",
+        "src-may19-floral-prototype-bouquets"
       ],
-      "output": "Facebook New posts capture completed with a published screenshot-forward notebook. Nextdoor remains waiting on a working selected feed."
+      "output": "Facebook New posts capture completed and split into individual screenshot-forward stories, with the original notebook retained as a hub. Nextdoor remains waiting on a working selected feed."
     },
     {
       "time": "5:00 PM",
@@ -47,12 +50,33 @@
         "src-may19-council-gallatin-shelby-nes",
         "src-may19-nes-tree-moratorium",
         "src-may19-farmers-market-weather",
-        "src-may19-facebook-new-posts"
+        "src-may19-facebook-new-posts",
+        "src-may19-talk-nice-clothing-swap",
+        "src-may19-underdog-may20-show",
+        "src-may19-floral-prototype-bouquets"
       ],
-      "output": "Six May 19 stories are live, including the Facebook notebook with captured images, Google Places images, maps, source trails, and social copy."
+      "output": "Nine May 19 stories are live, including three individual Facebook-captured stories, the Facebook hub, Google Places images, maps, source trails, and social copy."
     }
   ],
   "publishQueue": [
+    {
+      "sourceId": "src-may19-floral-prototype-bouquets",
+      "slot": "Facebook capture",
+      "decision": "Published as an individual local-commerce note with Facebook screenshot context.",
+      "why": "The bouquet post is a distinct maker/small-business signal with real images."
+    },
+    {
+      "sourceId": "src-may19-underdog-may20-show",
+      "slot": "Facebook capture",
+      "decision": "Published as an individual music-calendar story with Facebook screenshot context.",
+      "why": "The flyer has a lineup, cover, venue, and date that should not be buried in a roundup."
+    },
+    {
+      "sourceId": "src-may19-talk-nice-clothing-swap",
+      "slot": "Facebook capture",
+      "decision": "Published as an individual event story with Facebook screenshot context.",
+      "why": "The clothing swap/listening party has a clear time, place, flyer, and reader use."
+    },
     {
       "sourceId": "src-may19-facebook-new-posts",
       "slot": "Facebook capture",

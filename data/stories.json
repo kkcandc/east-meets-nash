@@ -1,10 +1,339 @@
 [
   {
+    "id": "east-side-floral-prototype-bouquets-may-19-2026",
+    "slug": "east-side-floral-prototype-bouquets-may-19-2026",
+    "title": "A Local Floral Maker Is Testing Prototype Bouquets In The East Nashville Feed",
+    "deck": "A Facebook post from an East-side resident offered prototype bouquets, free East Nashville and Madison delivery, and real photos of the arrangements.",
+    "body": "The Facebook feed also surfaced a softer local-commerce signal: an East-side floral-design hobby is being tested in public, bouquet by bouquet.\n\nThe captured post offered prototype arrangements at cost, with free delivery to East Nashville and Madison. The visible list showed several arrangements already sold or pending, which is exactly the little demand signal a neighborhood publication should notice before it becomes a logo, a booking form, and a waitlist.\n\nThe important part is the photo evidence. These are actual arrangements in jars and vases, photographed outside, with prices and availability attached. It reads less like a polished launch and more like a neighbor figuring out whether the thing she makes has a market.\n\nOur ruling: publish as a maker/local-commerce note, not a full business profile yet. If the flower venture keeps moving, this becomes the first receipt in a longer small-business trail.",
+    "zone": "East Nashville",
+    "beat": "Local Commerce",
+    "label": "Group Chat Says",
+    "confidence": "Details from a supervised East Nashville Facebook group screenshot. This is treated as a neighborhood commerce signal, not a fully reported business profile.",
+    "reporterId": "mabel",
+    "time": "May 19, 2026",
+    "priority": 262,
+    "imageStyle": "gossip",
+    "heroImage": "/assets/stories/facebook-floral-post-context.png",
+    "heroAlt": "Facebook screenshot showing prototype bouquet photos and pricing.",
+    "factBox": [
+      {
+        "label": "What",
+        "value": "Prototype bouquet sales from a local floral maker"
+      },
+      {
+        "label": "Delivery",
+        "value": "Free to East Nashville and Madison per the captured post"
+      },
+      {
+        "label": "Prices visible",
+        "value": "$28 to $45 in the captured list"
+      },
+      {
+        "label": "Status",
+        "value": "Some arrangements were marked sold or pending"
+      }
+    ],
+    "media": [
+      {
+        "label": "Facebook Screenshot",
+        "title": "Floral post context",
+        "description": "The Facebook feed screenshot showing prices, availability, and bouquet photos.",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "imageUrl": "/assets/stories/facebook-floral-post-context.png",
+        "imageAlt": "Facebook screenshot showing prototype bouquet photos and pricing.",
+        "credit": "Screenshot: East Meets Nash supervised Facebook capture, May 19, 2026.",
+        "displayRole": "hero",
+        "provider": "facebook_capture",
+        "sourceType": "screenshot",
+        "relevance": "exact",
+        "relevanceScore": 97,
+        "approvalStatus": "approved",
+        "rightsNote": "Cropped away from comments and used for product/source context."
+      },
+      {
+        "label": "Photo Crop",
+        "title": "Prototype bouquet photos",
+        "description": "A tighter crop of two bouquet photos for readability.",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "imageUrl": "/assets/stories/east-meets-nash-floral-bouquets.png",
+        "imageAlt": "Two bouquet photos captured from an East Nashville floral-design post.",
+        "credit": "Screenshot crop: East Meets Nash supervised Facebook capture, May 19, 2026.",
+        "displayRole": "inline",
+        "provider": "facebook_capture",
+        "sourceType": "screenshot_crop",
+        "relevance": "exact",
+        "relevanceScore": 94,
+        "approvalStatus": "approved",
+        "rightsNote": "Cropped to the product photos and away from private comments."
+      },
+      {
+        "label": "Roundup",
+        "title": "Read the Facebook notebook",
+        "description": "The larger supervised Facebook capture roundup for May 19.",
+        "url": "/story/facebook-new-posts-notebook-may-19-2026",
+        "sourceUrl": "/story/facebook-new-posts-notebook-may-19-2026",
+        "sourceType": "internal_link"
+      }
+    ],
+    "sourceNote": "This is a Facebook-captured local-commerce signal. We are not treating it as a full business profile until there is a public page, ordering channel, or follow-up reporting.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "East Nashville Facebook group: supervised floral post capture",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "type": "Supervised private-group capture"
+      }
+    ],
+    "reactions": {
+      "Love": 34,
+      "Side-Eye": 7
+    },
+    "comments": [
+      {
+        "author": "mabel_note",
+        "text": "A prototype bouquet with a price tag is a better local-commerce signal than another mystery coming-soon logo."
+      }
+    ],
+    "social": {
+      "x": "A local floral maker is testing prototype bouquets in the East Nashville Facebook feed, with real photos, prices, and free East/Madison delivery.",
+      "instagram": "The softest receipt in the feed today: prototype bouquets, real photos, and a local maker testing demand one arrangement at a time.",
+      "video": "Mabel points to the bouquet screenshot and explains why small local-commerce signals should get their own little stories."
+    }
+  },
+  {
+    "id": "underdog-meltdown-south-carson-deans-may-20-2026",
+    "slug": "underdog-meltdown-south-carson-deans-may-20-2026",
+    "title": "The Underdog Has A Wednesday Flyer With Meltdown South, Carson Deans, And Mike Gowen Jr.",
+    "deck": "A Facebook flyer lists a Wednesday, May 20 show at The Underdog with Meltdown South, Carson Deans Band, and Mike Gowen Jr., starting at 9 p.m.",
+    "body": "The Facebook capture is not subtle: The Underdog has a Wednesday, May 20 flyer for a 9 p.m. show featuring Meltdown South, Carson Deans Band, and Mike Gowen Jr.\n\nThe flyer lists a $10 cover and puts the show squarely in the Gallatin-nightlife lane. The public venue listing for The Underdog places it at 3208 Gallatin Pike, which makes this less of a generic Nashville flyer and more of a real East Nashville option for a weeknight that wants to become louder than planned.\n\nThis is the exact use case for screenshots. A venue calendar link can tell you a show exists. The flyer tells you what kind of night it thinks it is: black-and-white, loud, slightly scruffy, and not trying to look like a wellness brand.\n\nOur ruling: publish this as a standalone music-calendar hit. It is short, but it has a clear place, time, lineup, price, and visual receipt.",
+    "zone": "Gallatin Pike",
+    "beat": "Music",
+    "label": "Group Chat Says",
+    "confidence": "Show details from a supervised East Nashville Facebook flyer capture; venue location checked against a public Bandsintown venue listing.",
+    "reporterId": "riff",
+    "time": "May 19, 2026",
+    "priority": 263,
+    "imageStyle": "music",
+    "heroImage": "/assets/stories/facebook-underdog-post-context.png",
+    "heroAlt": "Facebook screenshot showing The Underdog May 20 show flyer.",
+    "factBox": [
+      {
+        "label": "When",
+        "value": "Wednesday, May 20, 2026, 9 p.m."
+      },
+      {
+        "label": "Where",
+        "value": "The Underdog, 3208 Gallatin Pike"
+      },
+      {
+        "label": "Lineup",
+        "value": "Meltdown South, Carson Deans Band, Mike Gowen Jr."
+      },
+      {
+        "label": "Cover",
+        "value": "$10 listed on the flyer"
+      }
+    ],
+    "media": [
+      {
+        "label": "Facebook Screenshot",
+        "title": "The Underdog post context",
+        "description": "The Facebook feed screenshot that surfaced the May 20 show flyer.",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "imageUrl": "/assets/stories/facebook-underdog-post-context.png",
+        "imageAlt": "Facebook screenshot of The Underdog show flyer.",
+        "credit": "Screenshot: East Meets Nash supervised Facebook capture, May 19, 2026.",
+        "displayRole": "hero",
+        "provider": "facebook_capture",
+        "sourceType": "screenshot",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "rightsNote": "Captured from editor-supervised Facebook group view for event context."
+      },
+      {
+        "label": "Flyer Crop",
+        "title": "The Underdog May 20 flyer",
+        "description": "A tighter crop of the show flyer for readability.",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "imageUrl": "/assets/stories/east-meets-nash-underdog-may20.png",
+        "imageAlt": "Flyer for The Underdog show with Meltdown South, Carson Deans Band, and Mike Gowen Jr.",
+        "credit": "Screenshot crop: East Meets Nash supervised Facebook capture, May 19, 2026.",
+        "displayRole": "inline",
+        "provider": "facebook_capture",
+        "sourceType": "screenshot_crop",
+        "relevance": "exact",
+        "relevanceScore": 96,
+        "approvalStatus": "approved",
+        "rightsNote": "Cropped from the supervised Facebook screenshot for readability."
+      },
+      {
+        "label": "Source Trail",
+        "title": "The Underdog venue listing",
+        "description": "Public venue listing with address and concert-calendar context.",
+        "url": "https://www.bandsintown.com/v/10173517-the-underdog",
+        "sourceUrl": "https://www.bandsintown.com/v/10173517-the-underdog",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Roundup",
+        "title": "Read the Facebook notebook",
+        "description": "The larger supervised Facebook capture roundup for May 19.",
+        "url": "/story/facebook-new-posts-notebook-may-19-2026",
+        "sourceUrl": "/story/facebook-new-posts-notebook-may-19-2026",
+        "sourceType": "internal_link"
+      }
+    ],
+    "sourceNote": "This is a Facebook-captured music-calendar item. The screenshot is the receipt; the public venue listing is used for address context.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "East Nashville Facebook group: supervised Underdog flyer capture",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "type": "Supervised private-group capture"
+      },
+      {
+        "name": "Bandsintown: The Underdog venue listing",
+        "url": "https://www.bandsintown.com/v/10173517-the-underdog",
+        "type": "Venue context"
+      }
+    ],
+    "reactions": {
+      "Love": 38,
+      "Side-Eye": 13
+    },
+    "comments": [
+      {
+        "author": "riff_note",
+        "text": "A good show flyer should look like it has already been photocopied twice."
+      }
+    ],
+    "social": {
+      "x": "Wednesday at The Underdog: Meltdown South, Carson Deans Band, Mike Gowen Jr., 9 p.m., $10 listed on the flyer.",
+      "instagram": "Pulled from the Facebook feed: The Underdog has a May 20 flyer with Meltdown South, Carson Deans Band, and Mike Gowen Jr.",
+      "video": "Riff holds up the Facebook screenshot and explains why one scruffy flyer is enough to make a standalone East Nashville music hit."
+    }
+  },
+  {
+    "id": "talk-nice-clothing-swap-listening-party-may-23-2026",
+    "slug": "talk-nice-clothing-swap-listening-party-may-23-2026",
+    "title": "A Talk Nice Clothing Swap Is Bringing Clothes, Matcha, And Live Music To Saturday Morning",
+    "deck": "A Facebook post in the East Nashville group says Talk Nice Vintage is hosting an Everything Must Go clothing swap and listening party on Saturday, May 23 at 10:30 a.m.",
+    "body": "The Facebook post is exactly the kind of tiny weekend signal that gets lost if it stays trapped in the feed: Talk Nice Vintage has a clothing swap and listening party planned for Saturday, May 23 at 10:30 a.m.\n\nThe captured post says neighbors can bring clothes they are ready to move along, dig through gently used pieces, and hang around for a matcha pop-up, live music, and a lot of closet math. The flyer calls the event Everything Must Go, which is either a practical instruction or a spiritual state after one too many East Nashville vintage racks.\n\nThis is small, but it is useful. It gives people a Saturday morning option that is cheaper than buying new, more social than dropping a bag at the donation bin, and more local than trying to decode a national resale app from your couch.\n\nOur ruling: make it its own event story, not just a bullet in a Facebook roundup. The screenshot matters here because the tone, flyer, and feed context explain why this is worth clicking.",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "label": "Group Chat Says",
+    "confidence": "Event details from a supervised East Nashville Facebook group screenshot; Talk Nice identity checked against a public vendor page.",
+    "reporterId": "lila",
+    "time": "May 19, 2026",
+    "priority": 264,
+    "imageStyle": "event",
+    "heroImage": "/assets/stories/facebook-talk-nice-post-context.png",
+    "heroAlt": "Facebook screenshot showing the Talk Nice clothing swap and listening party flyer.",
+    "factBox": [
+      {
+        "label": "What",
+        "value": "Clothing swap and listening party"
+      },
+      {
+        "label": "When",
+        "value": "Saturday, May 23, 2026, 10:30 a.m."
+      },
+      {
+        "label": "Where",
+        "value": "Talk Nice Vintage, East Nashville"
+      },
+      {
+        "label": "What to expect",
+        "value": "Clothing swap, matcha pop-up, live music"
+      }
+    ],
+    "media": [
+      {
+        "label": "Facebook Screenshot",
+        "title": "Talk Nice post context",
+        "description": "The Facebook feed screenshot that surfaced the Talk Nice event.",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "imageUrl": "/assets/stories/facebook-talk-nice-post-context.png",
+        "imageAlt": "Facebook screenshot of a Talk Nice clothing swap and listening party post.",
+        "credit": "Screenshot: East Meets Nash supervised Facebook capture, May 19, 2026.",
+        "displayRole": "hero",
+        "provider": "facebook_capture",
+        "sourceType": "screenshot",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "rightsNote": "Captured from editor-supervised Facebook group view for event context."
+      },
+      {
+        "label": "Flyer Crop",
+        "title": "Everything Must Go flyer",
+        "description": "A tighter crop of the event flyer for readability.",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "imageUrl": "/assets/stories/east-meets-nash-talk-nice-swap.png",
+        "imageAlt": "Flyer reading Everything Must Go, clothing swap and listening party at Talk Nice.",
+        "credit": "Screenshot crop: East Meets Nash supervised Facebook capture, May 19, 2026.",
+        "displayRole": "inline",
+        "provider": "facebook_capture",
+        "sourceType": "screenshot_crop",
+        "relevance": "exact",
+        "relevanceScore": 95,
+        "approvalStatus": "approved",
+        "rightsNote": "Cropped from the supervised Facebook screenshot for readability."
+      },
+      {
+        "label": "Source Trail",
+        "title": "Talk Nice Vintage vendor page",
+        "description": "Public vendor identity page for Talk Nice Vintage.",
+        "url": "https://marketspread.com/vendor/12360/talk-nice-vintage/",
+        "sourceUrl": "https://marketspread.com/vendor/12360/talk-nice-vintage/",
+        "sourceType": "source_link"
+      },
+      {
+        "label": "Roundup",
+        "title": "Read the Facebook notebook",
+        "description": "The larger supervised Facebook capture roundup for May 19.",
+        "url": "/story/facebook-new-posts-notebook-may-19-2026",
+        "sourceUrl": "/story/facebook-new-posts-notebook-may-19-2026",
+        "sourceType": "internal_link"
+      }
+    ],
+    "sourceNote": "This is a Facebook-captured event item. The screenshot is used as the primary receipt, with public web context only for Talk Nice identity.",
+    "photoStatus": "exact_photo_approved",
+    "sources": [
+      {
+        "name": "East Nashville Facebook group: supervised Talk Nice post capture",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "type": "Supervised private-group capture"
+      },
+      {
+        "name": "Talk Nice Vintage: public vendor page",
+        "url": "https://marketspread.com/vendor/12360/talk-nice-vintage/",
+        "type": "Vendor identity"
+      }
+    ],
+    "reactions": {
+      "Love": 43,
+      "Side-Eye": 9
+    },
+    "comments": [
+      {
+        "author": "calendar_desk",
+        "text": "This is the kind of small Saturday thing that deserves its own card, not a buried sentence."
+      }
+    ],
+    "social": {
+      "x": "Talk Nice has a Saturday clothing swap/listening party in the Facebook feed: clothes, matcha, live music, 10:30 a.m. May 23.",
+      "instagram": "A tiny weekend receipt from the East Nashville feed: Talk Nice clothing swap, listening party, matcha pop-up, and live music on Saturday morning.",
+      "video": "Lila shows the Facebook screenshot, then explains why this small clothing-swap flyer is exactly the kind of local calendar item worth pulling out of the feed."
+    }
+  },
+  {
     "id": "facebook-new-posts-notebook-may-19-2026",
     "slug": "facebook-new-posts-notebook-may-19-2026",
     "title": "The Facebook Feed Had Flowers, A Clothing Swap, And A Tiny Show Calendar",
-    "deck": "A supervised chronological pass through the East Nashville group turned up one useful weekend event, one Wednesday music flyer, and one tiny flower-business signal worth saving.",
-    "body": "We finally got the Facebook capture lane working the way it should: open the East Nashville group, switch the feed to New posts, and treat the scroll like a notebook instead of a rumor blender.\n\nThe first rule of the pass was restraint. I skipped the private housing budget ask, the car-seat request, job-search posts, and a burglary-identification thread because those either involve personal details, kids, or unverified private-person accusations. That still left some genuinely useful local texture.\n\nThe strongest event item was a Saturday clothing swap and listening party at Talk Nice Vintage. The flyer bills it as Everything Must Go, with a 10:30 a.m. start on Saturday, May 23, plus a matcha pop-up, live music, and a bring-clothes/take-clothes setup. That is exactly the kind of small, very local thing that disappears if you are not in the right feed at the right time.\n\nThe music note is smaller but clean: a flyer for The Underdog lists a Wednesday, May 20 show at 9 p.m. with Meltdown South, Carson Deans Band, and Mike Gowen Jr. The flyer says $10, and the venue listing puts The Underdog at 3208 Gallatin Pike, which keeps this in the East Nashville calendar lane.\n\nThe sweetest micro-business signal was a floral-design side venture from an East-side resident testing prototype bouquets. The post offered free delivery to East Nashville and Madison and showed actual arrangements, not a logo pretending to be a photo. That is not a giant business story yet, but it is a good early-local-market signal: someone is using the group to test demand, get feedback, and move real inventory.\n\nOur ruling: publish this as a Facebook notebook, not a hard-news story. The value is not that every post is news. The value is that the group feed can surface small events, makers, neighborhood commerce, and practical calendar items before they hit search. For future runs, this is the bar: screenshots or captured posts, visible local value, hard skips for sensitive personal details, and real images whenever the post itself gives us something useful.",
+    "deck": "The Facebook New posts pass now has three standalone stories, plus this hub for the capture logic and what we deliberately skipped.",
+    "body": "The first version of this was too compressed. The Facebook capture lane surfaced three different reader jobs: a weekend event, a Wednesday show, and a tiny local-commerce signal. Those should not be flattened into one notebook when each has its own screenshot and reason to exist.\n\nSo the package now works the way the source actually worked. The Talk Nice clothing swap gets its own event story. The Underdog flyer gets its own music-calendar hit. The prototype bouquet post gets its own local-commerce note. This page stays as the index and the source-method receipt.\n\nThe skip list still matters. The pass also showed a private housing budget ask, a car-seat/transportation request, job-search posts, and a burglary-identification thread. Those stayed out because they involved personal financial details, child-related needs, private employment asks, or unverified accusations about private people.\n\nOur ruling: Facebook can absolutely produce publishable neighborhood stories, but the useful unit is usually the post, not the scrape. Summary posts are good for the newsroom trail. Readers need individual stories with screenshots, captions, and a clear reason the item matters.",
     "zone": "East Nashville",
     "beat": "Events",
     "label": "Group Chat Says",
@@ -34,6 +363,30 @@
       }
     ],
     "media": [
+      {
+        "label": "Full Story",
+        "title": "Talk Nice clothing swap and listening party",
+        "description": "The standalone event story from the Facebook capture.",
+        "url": "/story/talk-nice-clothing-swap-listening-party-may-23-2026",
+        "sourceUrl": "/story/talk-nice-clothing-swap-listening-party-may-23-2026",
+        "sourceType": "internal_link"
+      },
+      {
+        "label": "Full Story",
+        "title": "The Underdog May 20 show",
+        "description": "The standalone music-calendar story from the Facebook capture.",
+        "url": "/story/underdog-meltdown-south-carson-deans-may-20-2026",
+        "sourceUrl": "/story/underdog-meltdown-south-carson-deans-may-20-2026",
+        "sourceType": "internal_link"
+      },
+      {
+        "label": "Full Story",
+        "title": "Prototype bouquet photos",
+        "description": "The standalone local-commerce story from the Facebook capture.",
+        "url": "/story/east-side-floral-prototype-bouquets-may-19-2026",
+        "sourceUrl": "/story/east-side-floral-prototype-bouquets-may-19-2026",
+        "sourceType": "internal_link"
+      },
       {
         "label": "Facebook Capture",
         "title": "Talk Nice clothing swap flyer",
@@ -81,30 +434,6 @@
         "relevanceScore": 91,
         "approvalStatus": "approved",
         "rightsNote": "Captured from editor-supervised Facebook group view for event context."
-      },
-      {
-        "label": "Source Trail",
-        "title": "East Nashville Facebook group capture",
-        "description": "Chronological new-posts capture used for the notebook.",
-        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
-        "sourceUrl": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
-        "sourceType": "source_link"
-      },
-      {
-        "label": "Source Trail",
-        "title": "Talk Nice Vintage vendor page",
-        "description": "Public vendor identity page for Talk Nice Vintage.",
-        "url": "https://marketspread.com/vendor/12360/talk-nice-vintage/",
-        "sourceUrl": "https://marketspread.com/vendor/12360/talk-nice-vintage/",
-        "sourceType": "source_link"
-      },
-      {
-        "label": "Source Trail",
-        "title": "The Underdog venue listing",
-        "description": "Public venue listing with address and concert-calendar context.",
-        "url": "https://www.bandsintown.com/v/10173517-the-underdog",
-        "sourceUrl": "https://www.bandsintown.com/v/10173517-the-underdog",
-        "sourceType": "source_link"
       }
     ],
     "sourceNote": "This story uses Facebook as a supervised capture source for small local signals, not as public-record confirmation. Sensitive/private posts from the same pass were deliberately skipped.",
