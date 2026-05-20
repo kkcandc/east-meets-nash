@@ -485,8 +485,8 @@
     "time": "May 19, 2026",
     "priority": 260,
     "imageStyle": "street",
-    "heroImage": "/api/media/location-photo?placeId=ChIJCSKbDgBnZIgR1WPa_kppzk0&photoIndex=0&q=S%202nd%20St%2C%20Nashville%2C%20TN%2037213%2C%20USA",
-    "heroAlt": "The new Nissan Stadium site on Nashville's East Bank.",
+    "heroImage": "/assets/stories/may19-source-pass-cover.png",
+    "heroAlt": "Cover art for the May 19 East Nashville source pass.",
     "factBox": [
       {
         "label": "Date",
@@ -507,24 +507,22 @@
     ],
     "media": [
       {
-        "label": "Location Photo",
-        "title": "New Nissan Stadium",
-        "description": "S 2nd St, Nashville, TN 37213, USA",
-        "url": "https://www.google.com/maps/search/?api=1&query=S%202nd%20St%2C%20Nashville%2C%20TN%2037213%2C%20USA&query_place_id=ChIJCSKbDgBnZIgR1WPa_kppzk0",
-        "imageUrl": "/api/media/location-photo?placeId=ChIJCSKbDgBnZIgR1WPa_kppzk0&photoIndex=0&q=S%202nd%20St%2C%20Nashville%2C%20TN%2037213%2C%20USA",
-        "imageAlt": "New Nissan Stadium location photo.",
-        "credit": "Photo: Google Maps / Google Places; contributor attribution: Ronaldo junior.",
-        "provider": "google_places",
-        "sourceType": "api_photo",
-        "placeId": "ChIJCSKbDgBnZIgR1WPa_kppzk0",
-        "placeQuery": "S 2nd St, Nashville, TN 37213, USA",
+        "label": "Issue Cover",
+        "title": "May 19 source pass cover",
+        "description": "Generated cover art for the daily source pass, combining the day's main beats.",
+        "url": "/story/today-east-nashville-source-pass-may-19-2026",
+        "imageUrl": "/assets/stories/may19-source-pass-cover.png",
+        "imageAlt": "Cover art for the May 19 East Nashville source pass.",
+        "credit": "Image: East Meets Nash generated issue cover.",
+        "displayRole": "hero",
+        "provider": "generated_cover",
+        "sourceType": "generated_cover",
         "relevance": "exact",
-        "relevanceScore": 98,
+        "relevanceScore": 90,
         "approvalStatus": "approved",
-        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "rightsNote": "Generated cover image for a multi-source roundup so the issue lead does not reuse a single-story location photo.",
         "approvedBy": "Photo Desk",
-        "approvedAt": "2026-05-19",
-        "displayRole": "hero"
+        "approvedAt": "2026-05-19"
       },
       {
         "label": "Inline Photo",
