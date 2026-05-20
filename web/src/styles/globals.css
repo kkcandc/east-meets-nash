@@ -1052,6 +1052,14 @@ h3 {
   min-height: 0;
 }
 
+.article-main .article-hero-document-image {
+  height: auto;
+  min-height: 0;
+  max-height: none;
+  object-fit: contain;
+  background: #fffaf0;
+}
+
 .article-hero-figure {
   margin: 0;
 }

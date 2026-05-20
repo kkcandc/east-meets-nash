@@ -34,6 +34,20 @@ function isReceiptCardMedia(item: StoryMediaItem) {
   );
 }
 
+function isDocumentLikeMedia(item: StoryMediaItem | undefined) {
+  if (!item) return false;
+  const label = `${item.label} ${item.title}`;
+  const mediaPath = `${item.imageUrl || ""} ${item.url || ""}`;
+
+  return (
+    item.provider === "facebook_capture" ||
+    /screenshot|flyer|receipt/i.test(label) ||
+    /facebook-|screenshot|flyer|receipt/i.test(mediaPath) ||
+    item.sourceType === "screenshot" ||
+    item.sourceType === "screenshot_crop"
+  );
+}
+
 export async function generateMetadata({ params }: StoryPageProps): Promise<Metadata> {
   const { slug } = await params;
   const story = getStoryBySlug(slug);
@@ -54,6 +68,9 @@ export default async function StoryPage({ params }: StoryPageProps) {
   const heroAlt = featuredAlt(story);
   const publishableMedia = story.media?.filter((item) => !isReceiptCardMedia(item)) || [];
   const heroMedia = publishableMedia.find((item) => item.imageUrl === heroImage);
+  const heroImageClass = `story-art story-image article-hero-image${
+    isDocumentLikeMedia(heroMedia) ? " article-hero-document-image" : ""
+  }`;
   const featureMedia = publishableMedia.find((item) => item.imageUrl && item.label === "Comment Signals");
   const imageMedia =
     publishableMedia.filter(
@@ -97,15 +114,15 @@ export default async function StoryPage({ params }: StoryPageProps) {
           <figure className="article-hero-figure">
             {heroMedia.url ? (
               <a href={heroMedia.url}>
-                <img className="story-art story-image article-hero-image" src={heroImage} alt={heroAlt} />
+                <img className={heroImageClass} src={heroImage} alt={heroAlt} />
               </a>
             ) : (
-              <img className="story-art story-image article-hero-image" src={heroImage} alt={heroAlt} />
+              <img className={heroImageClass} src={heroImage} alt={heroAlt} />
             )}
             <figcaption>{heroMedia.credit || heroMedia.title}</figcaption>
           </figure>
         ) : (
-          <img className="story-art story-image article-hero-image" src={heroImage} alt={heroAlt} />
+          <img className={heroImageClass} src={heroImage} alt={heroAlt} />
         )}
         <div className="article-body">
           {paragraphs.map((paragraph, index) => (
