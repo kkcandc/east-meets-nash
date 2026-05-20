@@ -110,6 +110,8 @@ export default async function StoryPage({ params }: StoryPageProps) {
   const contentBlockCount = articleSections?.length || paragraphs.length;
   const supportingMediaIndex = Math.min(1, contentBlockCount - 1);
   const pullQuoteIndex = Math.min(1, contentBlockCount - 1);
+  const imageCount = publishableMedia.filter((item) => item.imageUrl).length;
+  const mapCount = publishableMedia.filter((item) => item.embedUrl).length;
   const sectionImageMedia = articleSections
     ? articleSections.map((_, sectionIndex) =>
         imageMedia.filter((item, mediaIndex) => sectionIndexForMedia(item, articleSections, mediaIndex) === sectionIndex),
@@ -142,6 +144,24 @@ export default async function StoryPage({ params }: StoryPageProps) {
         </div>
         <h1>{story.title}</h1>
         <p className="article-deck">{story.deck}</p>
+        <aside className="article-trust-strip" aria-label="Story sourcing snapshot">
+          <span>
+            <strong>{story.sources.length}</strong>
+            sources
+          </span>
+          <span>
+            <strong>{imageCount}</strong>
+            images
+          </span>
+          <span>
+            <strong>{mapCount}</strong>
+            maps
+          </span>
+          <span>
+            <strong>{story.label}</strong>
+            confidence
+          </span>
+        </aside>
         {featureMedia ? (
           <figure className="article-inline-media article-feature-media">
             {featureMedia.url ? (

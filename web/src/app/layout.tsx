@@ -15,6 +15,9 @@ export const metadata: Metadata = {
 
 const navItems = [
   ["Latest", "/"],
+  ["Search", "/search"],
+  ["Topics", "/topics"],
+  ["Tips", "/tips"],
 ];
 
 export default function RootLayout({ children }: { children: ReactNode }) {

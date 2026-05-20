@@ -2,6 +2,13 @@ import Link from "next/link";
 import { SubscribeForm } from "@/components/SubscribeForm";
 import { StoryCard } from "@/components/StoryCard";
 import { getStories } from "@/lib/content";
+import type { Story } from "@/lib/types";
+
+function storySection(stories: Story[], usedIds: Set<string>, predicate: (story: Story) => boolean, limit = 4): Story[] {
+  const selected = stories.filter((story) => !usedIds.has(story.id) && predicate(story)).slice(0, limit);
+  selected.forEach((story) => usedIds.add(story.id));
+  return selected;
+}
 
 export default function HomePage() {
   const stories = getStories();
@@ -31,7 +38,57 @@ export default function HomePage() {
   const fallbackStories = stories.filter((story) => !packageStories.includes(story));
   const topStories = [...packageStories, ...fallbackStories].slice(0, 3);
   const topStoryIds = new Set(topStories.map((story) => story.id));
-  const moreStories = stories.filter((story) => !topStoryIds.has(story.id));
+  const sectionUsedIds = new Set(topStoryIds);
+  const whatToDo = storySection(stories, sectionUsedIds, (story) => story.beat === "Events", 4);
+  const civicWatch = storySection(
+    stories,
+    sectionUsedIds,
+    (story) => ["Civic", "Development", "Safety", "Public Safety"].includes(story.beat),
+    4,
+  );
+  const foodAndOpenings = storySection(
+    stories,
+    sectionUsedIds,
+    (story) => ["Food", "Restaurants", "Local Commerce"].includes(story.beat),
+    4,
+  );
+  const neighborhoodSignals = storySection(
+    stories,
+    sectionUsedIds,
+    (story) => ["Group Chat Says", "Seen in the Wild", "Tip Line"].includes(story.label),
+    4,
+  );
+  const keepGoing = stories.filter((story) => !sectionUsedIds.has(story.id)).slice(0, 8);
+  const issueSections = [
+    {
+      title: "What To Do",
+      eyebrow: "Tonight + Weekend",
+      search: "Events",
+      description: "Shows, swaps, runs, markets, and the useful little plans that make the neighborhood feel alive.",
+      stories: whatToDo,
+    },
+    {
+      title: "Civic Watch",
+      eyebrow: "Council + Streets",
+      search: "Civic",
+      description: "The public-record stuff with real consequences: taxes, East Bank, streets, safety, and services.",
+      stories: civicWatch,
+    },
+    {
+      title: "Food + Openings",
+      eyebrow: "Local Commerce",
+      search: "Food",
+      description: "Restaurants, makers, storefronts, and the small business signals worth catching early.",
+      stories: foodAndOpenings,
+    },
+    {
+      title: "Neighborhood Signals",
+      eyebrow: "From The Feed",
+      search: "Facebook",
+      description: "Group-chat texture, tips, screenshots, and the source-backed things that start close to the ground.",
+      stories: neighborhoodSignals,
+    },
+  ].filter((section) => section.stories.length);
   const lead = topStories[0];
 
   return (
@@ -64,17 +121,41 @@ export default function HomePage() {
               placeholder="neighbor@example.com"
             />
           </section>
-          <section className="news-river" aria-label="More East Nashville stories">
-            <div className="section-heading compact-heading">
-              <p className="eyebrow">More From Today</p>
-              <h2>Keep Going</h2>
-            </div>
-            <div className="story-grid">
-              {moreStories.map((story) => (
-                <StoryCard key={story.id} story={story} showZone={false} />
-              ))}
-            </div>
+          <section className="issue-lanes" aria-label="Today's East Nashville issue sections">
+            {issueSections.map((section) => (
+              <section className="issue-lane" key={section.title}>
+                <div className="section-heading compact-heading">
+                  <div>
+                    <p className="eyebrow">{section.eyebrow}</p>
+                    <h2>{section.title}</h2>
+                    <p>{section.description}</p>
+                  </div>
+                  <Link href={`/search?q=${encodeURIComponent(section.search)}`}>Search this lane</Link>
+                </div>
+                <div className="story-grid">
+                  {section.stories.map((story) => (
+                    <StoryCard key={story.id} story={story} showZone={false} />
+                  ))}
+                </div>
+              </section>
+            ))}
           </section>
+          {keepGoing.length ? (
+            <section className="news-river" aria-label="More East Nashville stories">
+              <div className="section-heading compact-heading">
+                <div>
+                  <p className="eyebrow">Archive River</p>
+                  <h2>Keep Going</h2>
+                </div>
+                <Link href="/search">Search everything</Link>
+              </div>
+              <div className="story-grid">
+                {keepGoing.map((story) => (
+                  <StoryCard key={story.id} story={story} showZone={false} />
+                ))}
+              </div>
+            </section>
+          ) : null}
         </div>
         <aside className="side-rail">
           <section className="brief-panel">
