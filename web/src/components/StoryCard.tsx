@@ -1,16 +1,9 @@
 import Link from "next/link";
+import { storyCardImage } from "@/lib/story-images";
 import type { Story } from "@/lib/types";
 
 function isSeriousStory(story: Story) {
   return ["Safety", "Crime", "Public Safety"].includes(story.beat) || story.title.includes("No Jokes");
-}
-
-function featuredImage(story: Story) {
-  return story.heroImage || `/assets/stories/fallback-${story.imageStyle || "street"}.svg`;
-}
-
-function featuredAlt(story: Story) {
-  return story.heroAlt || `${story.beat} featured image for ${story.title}`;
 }
 
 export function StoryCard({
@@ -33,10 +26,11 @@ export function StoryCard({
   ]
     .filter(Boolean)
     .join(" ");
+  const image = storyCardImage(story);
 
   return (
     <Link className={className} href={`/story/${story.slug}`} aria-label={`Read ${story.title}`}>
-      <img className="story-art story-image" src={featuredImage(story)} alt={featuredAlt(story)} />
+      <img className="story-art story-image" src={image.src} alt={image.alt} />
       <div className="story-content">
         <div className="story-meta">
           <span className={`pill ${serious ? "serious" : "hot"}`}>{story.label}</span>
