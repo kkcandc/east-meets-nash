@@ -13,6 +13,10 @@ function storySection(stories: Story[], usedIds: Set<string>, predicate: (story:
 export default function HomePage() {
   const stories = getStories();
   const packageIds = [
+    "may-25-source-pass-east-nashville",
+    "east-park-woodland-gun-scare-facts-may-25-2026",
+    "east-nashville-memorial-day-service-checklist-may-25-2026",
+    "east-nashville-beer-works-cookout-weather-may-25-2026",
     "may-20-source-pass-east-nashville",
     "lower-broadway-super-bowl-celebration-east-bank-may-20-2026",
     "nashville-grocery-tax-vote-deferred-may-20-2026",
