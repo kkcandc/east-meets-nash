@@ -1,5 +1,812 @@
 [
   {
+    "id": "may-25-source-pass-east-nashville",
+    "slug": "today-east-nashville-source-pass-may-25-2026",
+    "title": "Today's East Nashville Source Pass: Holiday Math, Storm Timing, East Park Caution, And A Cookout Window",
+    "deck": "Memorial Day's local stack is practical: WeGo holiday service, the new Waste Services rule, library closure, Shelby Bottoms holiday listings, East Nashville Beer Works timing, WSMV rain odds, and one careful East Park safety report.",
+    "articleSections": [
+      {
+        "heading": "The Holiday Board",
+        "paragraphs": [
+          "Memorial Day lands like a practical little stress test: which things close, which things run light, which things still need a calendar lookup, and what can actually be done before the rain shows up.",
+          "Today's public-source pass has six useful East Nashville notes: WeGo holiday service, Nashville Public Library closure, Waste Services' new Monday-holiday rule, Shelby Bottoms holiday listings, an East Nashville Beer Works cookout window, WSMV's storm timing, and a careful East Park safety item."
+        ]
+      },
+      {
+        "heading": "Transit And Trash",
+        "paragraphs": [
+          "WeGo says local buses and Access vans are running on a Sunday/Holiday schedule today. Regional buses and the WeGo Star are not operating, and administrative offices plus the customer-care window at WeGo Central are closed.",
+          "The trash note is the one worth retraining your brain on. Waste Services says the 2026 schedule shifted residential collection into a Tuesday-through-Friday cycle, and its new holiday rule says if a holiday falls on Monday, pickup days do not change. The safest move is still the boring one: use the Waste Wizard calendar for your exact address."
+        ]
+      },
+      {
+        "heading": "Libraries, Parks, And Errands",
+        "paragraphs": [
+          "Nashville Public Library has a banner up saying all library locations are closed Monday, May 25 in observance of Memorial Day.",
+          "Metro's public event list marks Memorial Day Holiday as an all-day item, and the Shelby Bottoms Nature Center events page shows the same holiday marker before programming resumes later in the week. Translation: the greenway is still a greenway, but do not build your day around a staffed building without checking first."
+        ]
+      },
+      {
+        "heading": "Weather And Cookout Timing",
+        "paragraphs": [
+          "The East Side plan with the most neighborhood value is East Nashville Beer Works on Trinity Lane. Mato lists a Memorial Day Cookout from noon to 5 p.m., with hot dogs, beer brats, vegan options, and the full pizza and salad menu. Nashville Lifestyles also flagged the brewery's cookout as one of the weekend's Nashville plans.",
+          "WSMV's forecast says Memorial Day is not a washout for most people, but showers and thunderstorms are expected to build from the south during the mid-to-late afternoon. The station puts Nashville's highest rain chance around 6 pm to 7 pm. If you want the beer-garden version of the holiday, go early and keep an eye on the radar."
+        ]
+      },
+      {
+        "heading": "East Park Caution",
+        "paragraphs": [
+          "The serious item is from WSMV: a driver told the station she saw men pointing rifle-style weapons at oncoming traffic near East Park on Woodland Street last week.",
+          "The key line is what is not confirmed. WSMV reported Metro Nashville Police had not yet responded to confirm the details or say whether there were other reports. That makes this a caution story, not a rumor engine. If you see a weapon being pointed in traffic, call 911, give the exact location and direction, and do not try to solve it from the sidewalk."
+        ]
+      },
+      {
+        "heading": "Social Capture Status",
+        "paragraphs": [
+          "Facebook and Nextdoor are still a supervised-capture lane today. No visible feed was available in this run, so this issue is not inventing group items.",
+          "When the feeds are open, worthy posts should become individual stories with real screenshots, not one giant notebook, and with the standing redactions: no kids, medical or financial details, private addresses, phone numbers, plates, or unconfirmed private-person accusations."
+        ]
+      }
+    ],
+    "readerUtility": {
+      "title": "Today's Useful Read",
+      "items": [
+        {
+          "label": "WeGo",
+          "value": "Sunday/Holiday local bus and Access service; no regional buses or WeGo Star"
+        },
+        {
+          "label": "Trash",
+          "value": "Monday Metro holiday means no pickup-day change under the 2026 rule"
+        },
+        {
+          "label": "Weather",
+          "value": "WSMV puts the highest Nashville rain chance around 6-7 p.m."
+        },
+        {
+          "label": "Social",
+          "value": "Facebook/Nextdoor held until supervised screenshots are visible"
+        }
+      ]
+    },
+    "pullQuote": "This is not a flashy holiday issue. It is the exact kind of little civic map that keeps a neighborhood from wasting a day.",
+    "closingNote": {
+      "label": "Our Read",
+      "text": "Publish the public-source issue now, keep the private-platform capture lane open, and make the day useful: leave early, check schedules, and keep the East Park report factual."
+    },
+    "zone": "East Nashville",
+    "beat": "News",
+    "label": "Reported",
+    "confidence": "Built from WSMV, WeGo, Nashville.gov, Nashville Public Library, Nashville Waste Services, Shelby Bottoms public listings, East Nashville Beer Works, Mato, and Nashville Lifestyles. Facebook and Nextdoor are waiting on supervised capture.",
+    "reporterId": "june",
+    "time": "May 25, 2026",
+    "priority": 308,
+    "imageStyle": "street",
+    "heroImage": "/api/media/issue-cover?id=may-25-source-pass-east-nashville",
+    "heroAlt": "Cover art for the May 25 East Nashville source pass.",
+    "factBox": [
+      {
+        "label": "Date",
+        "value": "Monday, May 25, 2026"
+      },
+      {
+        "label": "Transit",
+        "value": "WeGo Sunday/Holiday service; no regional buses or WeGo Star"
+      },
+      {
+        "label": "Trash",
+        "value": "No pickup-day changes for a Monday Metro holiday under the 2026 schedule rule"
+      },
+      {
+        "label": "Weather",
+        "value": "WSMV: highest Nashville rain chance around 6-7 p.m."
+      }
+    ],
+    "media": [
+      {
+        "label": "Issue Cover",
+        "title": "May 25 source pass cover",
+        "description": "Generated cover art for the May 25 daily source pass.",
+        "url": "/story/today-east-nashville-source-pass-may-25-2026",
+        "imageUrl": "/api/media/issue-cover?id=may-25-source-pass-east-nashville",
+        "imageAlt": "Cover art for the May 25 East Nashville source pass.",
+        "credit": "Image: East Meets Nash generated issue cover.",
+        "displayRole": "hero",
+        "provider": "generated_cover",
+        "sourceType": "generated_cover",
+        "relevance": "exact",
+        "relevanceScore": 90,
+        "approvalStatus": "approved",
+        "rightsNote": "Generated cover image for a multi-source roundup.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-25"
+      },
+      {
+        "label": "Location Photo",
+        "title": "East Nashville Beer Works beer garden",
+        "description": "320 E Trinity Ln, Nashville, TN 37207, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=320%20E%20Trinity%20Ln%2C%20Nashville%2C%20TN%2037207%2C%20USA&query_place_id=ChIJkzVNF5NnZIgRlsLUEzlmO0M",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJkzVNF5NnZIgRlsLUEzlmO0M&photoIndex=2&q=320%20E%20Trinity%20Ln%2C%20Nashville%2C%20TN%2037207%2C%20USA",
+        "imageAlt": "The beer garden at East Nashville Beer Works on Trinity Lane.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Tim Kiernan.",
+        "displayRole": "inline",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJkzVNF5NnZIgRlsLUEzlmO0M",
+        "placeQuery": "320 E Trinity Ln, Nashville, TN 37207, USA",
+        "relevance": "exact",
+        "relevanceScore": 92,
+        "approvalStatus": "approved",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-25",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "afterSectionHeading": "Weather And Cookout Timing"
+      },
+      {
+        "label": "Location Photo",
+        "title": "Shelby Bottoms Greenway",
+        "description": "Shelby Bottoms Greenway, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=Shelby%20Bottoms%20Greenway%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJ8ehOrVFoZIgR8RYaBLHO160",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJ8ehOrVFoZIgR8RYaBLHO160&photoIndex=0&q=Shelby%20Bottoms%20Greenway%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "Shelby Bottoms Greenway in East Nashville.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: james stewart.",
+        "displayRole": "inline",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJ8ehOrVFoZIgR8RYaBLHO160",
+        "placeQuery": "Shelby Bottoms Greenway, Nashville, TN 37206, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-25",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "afterSectionHeading": "Libraries, Parks, And Errands"
+      },
+      {
+        "label": "Location Photo",
+        "title": "East Park",
+        "description": "700 Woodland St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=700%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJBeQDTM1nZIgRyqj-UKr20Mg",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJBeQDTM1nZIgRyqj-UKr20Mg&photoIndex=0&q=700%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "East Park on Woodland Street in East Nashville.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Mohamed Rafi.",
+        "displayRole": "inline",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJBeQDTM1nZIgRyqj-UKr20Mg",
+        "placeQuery": "700 Woodland St, Nashville, TN 37206, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-25",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "afterSectionHeading": "East Park Caution"
+      },
+      {
+        "label": "Location Map",
+        "title": "East Park map",
+        "description": "700 Woodland St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=700%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJBeQDTM1nZIgRyqj-UKr20Mg",
+        "embedUrl": "https://www.google.com/maps?q=700%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "ChIJBeQDTM1nZIgRyqj-UKr20Mg",
+        "placeQuery": "700 Woodland St, Nashville, TN 37206, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context.",
+        "afterSectionHeading": "East Park Caution"
+      }
+    ],
+    "photoStatus": "exact_photo_approved",
+    "sourceNote": "No source receipt cards are used. Private-platform stories should be added only from visible screenshots or clear editor notes, with the standing redactions.",
+    "sources": [
+      {
+        "name": "WSMV: First Alert Forecast: Unsettled weather to continue",
+        "url": "https://www.wsmv.com/2026/05/24/first-alert-forecast-unsettled-weather-continue/",
+        "type": "Reported"
+      },
+      {
+        "name": "WSMV: Woman warns of men pointing guns at traffic in East Nashville",
+        "url": "https://www.wsmv.com/2026/05/24/woman-warns-men-pointing-guns-traffic-east-nashville/",
+        "type": "Reported"
+      },
+      {
+        "name": "WeGo: Sunday/Holiday schedule on Memorial Day 2026",
+        "url": "https://www.wegotransit.com/wego-to-run-sundayholiday-schedule-on-memorial-day-2026/",
+        "type": "Official release"
+      },
+      {
+        "name": "Nashville.gov event list: Memorial Day Holiday",
+        "url": "https://www.nashville.gov/event-list?field_date_value=05%2F25%2F2026",
+        "type": "Official listing"
+      },
+      {
+        "name": "Nashville Public Library closure notice",
+        "url": "https://library.nashville.gov/blog/audience/adults",
+        "type": "Official notice"
+      },
+      {
+        "name": "Nashville Waste Services new collection schedule",
+        "url": "https://www.nashville.gov/departments/waste-services/trash-and-recycling-services/new-collection-schedule",
+        "type": "Official guidance"
+      },
+      {
+        "name": "Shelby Bottoms Nature Center events",
+        "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center/events",
+        "type": "Official listing"
+      },
+      {
+        "name": "Mato: Memorial Day Cookout at East Nashville Beer Works",
+        "url": "https://ma.to/event/memorial-day-cookout-east-nashville-beer-works-25-may-2026",
+        "type": "Event listing"
+      },
+      {
+        "name": "East Nashville Beer Works",
+        "url": "https://eastnashbeerworks.com/",
+        "type": "Venue site"
+      }
+    ],
+    "reactions": {
+      "Love": 48,
+      "Side-Eye": 21
+    },
+    "comments": [
+      {
+        "author": "source_desk",
+        "text": "Public source pass is published. Facebook and Nextdoor are queued for supervised capture when the feeds are visible."
+      }
+    ],
+    "social": {
+      "x": "Today's East Nashville source pass: holiday transit, trash math, library closure, Shelby Bottoms notes, storm timing, East Park caution, and a beer-garden window.",
+      "instagram": "Memorial Day in East Nashville: check WeGo, leave the trash schedule alone, go early if you want the cookout, and keep the East Park report factual.",
+      "video": "June walks through the Memorial Day board: WeGo holiday service, Waste Services' Monday rule, library closure, storm timing, the East Nashville Beer Works window, and a careful East Park safety note."
+    },
+    "body": "Memorial Day lands like a practical little stress test: which things close, which things run light, which things still need a calendar lookup, and what can actually be done before the rain shows up.\n\nToday's public-source pass has six useful East Nashville notes: WeGo holiday service, Nashville Public Library closure, Waste Services' new Monday-holiday rule, Shelby Bottoms holiday listings, an East Nashville Beer Works cookout window, WSMV's storm timing, and a careful East Park safety item.\n\nWeGo says local buses and Access vans are running on a Sunday/Holiday schedule today. Regional buses and the WeGo Star are not operating, and administrative offices plus the customer-care window at WeGo Central are closed.\n\nThe trash note is the one worth retraining your brain on. Waste Services says the 2026 schedule shifted residential collection into a Tuesday-through-Friday cycle, and its new holiday rule says if a holiday falls on Monday, pickup days do not change. The safest move is still the boring one: use the Waste Wizard calendar for your exact address.\n\nNashville Public Library has a banner up saying all library locations are closed Monday, May 25 in observance of Memorial Day.\n\nMetro's public event list marks Memorial Day Holiday as an all-day item, and the Shelby Bottoms Nature Center events page shows the same holiday marker before programming resumes later in the week. Translation: the greenway is still a greenway, but do not build your day around a staffed building without checking first.\n\nThe East Side plan with the most neighborhood value is East Nashville Beer Works on Trinity Lane. Mato lists a Memorial Day Cookout from noon to 5 p.m., with hot dogs, beer brats, vegan options, and the full pizza and salad menu. Nashville Lifestyles also flagged the brewery's cookout as one of the weekend's Nashville plans.\n\nWSMV's forecast says Memorial Day is not a washout for most people, but showers and thunderstorms are expected to build from the south during the mid-to-late afternoon. The station puts Nashville's highest rain chance around 6 pm to 7 pm. If you want the beer-garden version of the holiday, go early and keep an eye on the radar.\n\nThe serious item is from WSMV: a driver told the station she saw men pointing rifle-style weapons at oncoming traffic near East Park on Woodland Street last week.\n\nThe key line is what is not confirmed. WSMV reported Metro Nashville Police had not yet responded to confirm the details or say whether there were other reports. That makes this a caution story, not a rumor engine. If you see a weapon being pointed in traffic, call 911, give the exact location and direction, and do not try to solve it from the sidewalk.\n\nFacebook and Nextdoor are still a supervised-capture lane today. No visible feed was available in this run, so this issue is not inventing group items.\n\nWhen the feeds are open, worthy posts should become individual stories with real screenshots, not one giant notebook, and with the standing redactions: no kids, medical or financial details, private addresses, phone numbers, plates, or unconfirmed private-person accusations.\n\nOur Read: Publish the public-source issue now, keep the private-platform capture lane open, and make the day useful: leave early, check schedules, and keep the East Park report factual."
+  },
+  {
+    "id": "east-park-woodland-gun-scare-facts-may-25-2026",
+    "slug": "east-park-woodland-gun-scare-facts-may-25-2026",
+    "title": "The East Park Gun-Scare Report Is A Good Reason To Keep The Facts Tight",
+    "deck": "WSMV reported a driver said she saw men pointing rifle-style weapons at traffic near East Park. Police confirmation was still pending in the station's story, so the useful version is caution, not rumor fuel.",
+    "articleSections": [
+      {
+        "heading": "What Was Reported",
+        "paragraphs": [
+          "WSMV published an East Nashville safety report that needs a careful read, not a neighborhood panic spiral.",
+          "A driver told the station she saw three men with rifle-style weapons near East Park on Woodland Street last Thursday morning, pointing them at oncoming traffic. WSMV reported she called police after getting inside a nearby business."
+        ]
+      },
+      {
+        "heading": "What Is Not Confirmed",
+        "paragraphs": [
+          "The important restraint is in the final line of the station's story: Metro Nashville Police had not yet responded to WSMV to confirm the details or say whether there were other reports.",
+          "That does not make the report useless. It means the responsible local version is caution plus clear sourcing, not a mystery-board hunt for names, faces, or guesses."
+        ]
+      },
+      {
+        "heading": "Why East Nashville Notices",
+        "paragraphs": [
+          "East Park and Woodland Street sit inside a normal daily loop for a lot of people: coffee, work, child care, errands, the community center, and bridge traffic. A report like this hits harder because the setting is not abstract.",
+          "It is also exactly where neighborhood media can help: put the location in plain English, make the uncertainty visible, and tell people what to do if they see something similar."
+        ]
+      },
+      {
+        "heading": "If You See It",
+        "paragraphs": [
+          "If someone is pointing a weapon at traffic or pedestrians, call 911. Give the dispatcher the cross street, direction of travel if a vehicle is involved, clothing or vehicle details you can observe safely, and whether anyone appears injured.",
+          "Do not confront the person. Do not turn a social post into an accusation against a private person unless police have confirmed it. Screenshots can be useful, but the facts should carry the story."
+        ]
+      },
+      {
+        "heading": "Screenshot Policy",
+        "paragraphs": [
+          "If Facebook or Nextdoor posts surface about this incident, they should be added as screenshots only when they show public-interest detail: time, place, what was seen, and whether police were called.",
+          "The edit rule stays the same: redact kids, medical or financial details, private addresses, phone numbers, plates, and unverified private-person accusations. Interesting does not have to mean reckless."
+        ]
+      }
+    ],
+    "readerUtility": {
+      "title": "If You See It",
+      "items": [
+        {
+          "label": "Emergency",
+          "value": "Call 911 if a weapon is being pointed at traffic or people"
+        },
+        {
+          "label": "Location",
+          "value": "Give cross street, direction, vehicle, and clothing details if safely visible"
+        },
+        {
+          "label": "Do not",
+          "value": "Confront anyone or turn unconfirmed posts into private-person accusations"
+        },
+        {
+          "label": "Screenshots",
+          "value": "Use only for time/place context, with private details redacted"
+        }
+      ]
+    },
+    "pullQuote": "The responsible local version is caution plus clear sourcing, not a mystery-board hunt.",
+    "closingNote": {
+      "label": "Our Read",
+      "text": "Treat this as a public-safety caution with visible uncertainty: useful enough to know, not confirmed enough to let social media write the suspect list."
+    },
+    "zone": "East Nashville",
+    "beat": "Safety",
+    "label": "Reported",
+    "confidence": "Based on WSMV's reported account. WSMV said Metro Nashville Police had not yet confirmed details or whether there were other reports.",
+    "reporterId": "parker",
+    "time": "May 25, 2026",
+    "priority": 307,
+    "imageStyle": "street",
+    "heroImage": "/api/media/location-photo?placeId=ChIJBeQDTM1nZIgRyqj-UKr20Mg&photoIndex=0&q=700%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+    "heroAlt": "East Park on Woodland Street in East Nashville.",
+    "factBox": [
+      {
+        "label": "Location",
+        "value": "Near East Park on Woodland Street, according to WSMV"
+      },
+      {
+        "label": "Reported",
+        "value": "A driver said men pointed rifle-style weapons at oncoming traffic"
+      },
+      {
+        "label": "Not confirmed",
+        "value": "WSMV said MNPD had not yet confirmed details or other reports"
+      },
+      {
+        "label": "Reader action",
+        "value": "Call 911 for active weapon threats; avoid unconfirmed accusations online"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "East Park",
+        "description": "700 Woodland St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=700%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJBeQDTM1nZIgRyqj-UKr20Mg",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJBeQDTM1nZIgRyqj-UKr20Mg&photoIndex=0&q=700%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "East Park on Woodland Street in East Nashville.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Mohamed Rafi.",
+        "displayRole": "hero",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJBeQDTM1nZIgRyqj-UKr20Mg",
+        "placeQuery": "700 Woodland St, Nashville, TN 37206, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-25",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution."
+      },
+      {
+        "label": "Location Map",
+        "title": "East Park map",
+        "description": "700 Woodland St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=700%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJBeQDTM1nZIgRyqj-UKr20Mg",
+        "embedUrl": "https://www.google.com/maps?q=700%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "ChIJBeQDTM1nZIgRyqj-UKr20Mg",
+        "placeQuery": "700 Woodland St, Nashville, TN 37206, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context.",
+        "afterSectionHeading": "Why East Nashville Notices"
+      }
+    ],
+    "photoStatus": "exact_photo_approved",
+    "sourceNote": "This story intentionally avoids naming private people beyond the linked report and does not include unsupervised social screenshots.",
+    "sources": [
+      {
+        "name": "WSMV: Woman warns of men pointing guns at traffic in East Nashville",
+        "url": "https://www.wsmv.com/2026/05/24/woman-warns-men-pointing-guns-traffic-east-nashville/",
+        "type": "Reported"
+      },
+      {
+        "name": "East Park on Google Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=700%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJBeQDTM1nZIgRyqj-UKr20Mg",
+        "type": "Location context"
+      }
+    ],
+    "reactions": {
+      "Love": 33,
+      "Side-Eye": 42
+    },
+    "comments": [
+      {
+        "author": "woodland_watch",
+        "text": "Good to know, better to keep it sourced. The uncertainty belongs in the headline stack."
+      }
+    ],
+    "social": {
+      "x": "WSMV reported a driver saw men pointing rifle-style weapons at traffic near East Park. Police confirmation was still pending, so the useful story is caution plus facts.",
+      "instagram": "East Park/Woodland safety note: WSMV has a reported account, police confirmation was still pending, and the edit here is clear facts over rumor fuel.",
+      "video": "Parker stands near East Park and explains the difference between a reported public-safety caution and an unconfirmed neighborhood rumor."
+    },
+    "body": "WSMV published an East Nashville safety report that needs a careful read, not a neighborhood panic spiral.\n\nA driver told the station she saw three men with rifle-style weapons near East Park on Woodland Street last Thursday morning, pointing them at oncoming traffic. WSMV reported she called police after getting inside a nearby business.\n\nThe important restraint is in the final line of the station's story: Metro Nashville Police had not yet responded to WSMV to confirm the details or say whether there were other reports.\n\nThat does not make the report useless. It means the responsible local version is caution plus clear sourcing, not a mystery-board hunt for names, faces, or guesses.\n\nEast Park and Woodland Street sit inside a normal daily loop for a lot of people: coffee, work, child care, errands, the community center, and bridge traffic. A report like this hits harder because the setting is not abstract.\n\nIt is also exactly where neighborhood media can help: put the location in plain English, make the uncertainty visible, and tell people what to do if they see something similar.\n\nIf someone is pointing a weapon at traffic or pedestrians, call 911. Give the dispatcher the cross street, direction of travel if a vehicle is involved, clothing or vehicle details you can observe safely, and whether anyone appears injured.\n\nDo not confront the person. Do not turn a social post into an accusation against a private person unless police have confirmed it. Screenshots can be useful, but the facts should carry the story.\n\nIf Facebook or Nextdoor posts surface about this incident, they should be added as screenshots only when they show public-interest detail: time, place, what was seen, and whether police were called.\n\nThe edit rule stays the same: redact kids, medical or financial details, private addresses, phone numbers, plates, and unverified private-person accusations. Interesting does not have to mean reckless.\n\nOur Read: Treat this as a public-safety caution with visible uncertainty: useful enough to know, not confirmed enough to let social media write the suspect list."
+  },
+  {
+    "id": "east-nashville-memorial-day-service-checklist-may-25-2026",
+    "slug": "east-nashville-memorial-day-service-checklist-may-25-2026",
+    "title": "The Memorial Day East Side Checklist: WeGo Runs Holiday Service, Libraries Close, Trash Uses The New Rule",
+    "deck": "The useful version of Memorial Day is one screen long: transit runs lighter, libraries are closed, the trash schedule uses the 2026 Monday rule, and Shelby Bottoms is a check-before-you-go building day.",
+    "articleSections": [
+      {
+        "heading": "Do The Errand Math First",
+        "paragraphs": [
+          "The best Memorial Day story is sometimes the one that keeps you from standing in front of a locked door with a tote bag and a noble sense of optimism.",
+          "For East Nashville, the quick version is this: transit is running lighter, libraries are closed, Metro listings mark the holiday, trash uses the new 2026 rule, and Shelby Bottoms is better treated as a greenway day than a nature-center errand day unless you confirm the building first."
+        ]
+      },
+      {
+        "heading": "WeGo Runs Holiday Service",
+        "paragraphs": [
+          "WeGo Public Transit says buses and Access vans are operating on a Sunday/Holiday schedule Monday, May 25. Regional bus service and the WeGo Star are not running.",
+          "WeGo also says administrative offices, the Customer Care Call Center, and the WeGo Central information window are closed. If you are crossing the river, search schedules by today's date before you commit to a transfer that exists only in weekday memory."
+        ]
+      },
+      {
+        "heading": "Trash Uses The New Rule",
+        "paragraphs": [
+          "Nashville Waste Services changed the residential schedule in 2026, keeping weekly trash and every-other-week recycling on the same service day but moving the city into a Tuesday-through-Friday collection cycle.",
+          "The new holiday rule is unusually humane: if a Metro holiday falls on Monday, pickup days do not change. If the holiday lands Tuesday through Friday, that day's pickup moves to the Monday of that same week. For today, use the calendar or app before touching the cart."
+        ]
+      },
+      {
+        "heading": "Libraries And Parks",
+        "paragraphs": [
+          "Nashville Public Library says all locations are closed Monday, May 25 for Memorial Day. That includes the East Branch, so plan your holds and printer emergencies accordingly.",
+          "Metro's event list marks Memorial Day Holiday as an all-day item, and the Shelby Bottoms Nature Center events page also carries a Memorial Day Holiday listing. The park and greenway are still the East Side pressure-release valve, but staffed services and programs are a check-before-you-go situation."
+        ]
+      },
+      {
+        "heading": "The Reader Move",
+        "paragraphs": [
+          "Before leaving: check your WeGo trip by date, check Waste Services by address, assume library doors are closed, and treat Metro buildings as holiday-mode unless their page says otherwise.",
+          "This is not glamorous local news. It is the kind that saves a household one wet sidewalk conversation with a locked municipal door."
+        ]
+      }
+    ],
+    "readerUtility": {
+      "title": "Before You Leave",
+      "items": [
+        {
+          "label": "WeGo",
+          "value": "Search by today's date; regional buses and WeGo Star are not running"
+        },
+        {
+          "label": "Library",
+          "value": "NPL says all locations are closed Monday, May 25"
+        },
+        {
+          "label": "Trash",
+          "value": "Monday holiday means no pickup-day changes under the new rule"
+        },
+        {
+          "label": "Shelby",
+          "value": "Greenway yes; staffed building/programs should be checked first"
+        }
+      ]
+    },
+    "pullQuote": "The holiday rule is unusually humane: if a Metro holiday falls on Monday, pickup days do not change.",
+    "closingNote": {
+      "label": "Our Read",
+      "text": "The Memorial Day win is small but real: check the bus, leave the cart alone unless your calendar says otherwise, and do not walk to a municipal door on faith."
+    },
+    "zone": "East Nashville",
+    "beat": "Civic",
+    "label": "Confirmed",
+    "confidence": "Built from official WeGo, Nashville Waste Services, Nashville Public Library, Nashville.gov, and Shelby Bottoms public listings.",
+    "reporterId": "parker",
+    "time": "May 25, 2026",
+    "priority": 306,
+    "imageStyle": "civic",
+    "heroImage": "/api/media/location-photo?placeId=ChIJ8ehOrVFoZIgR8RYaBLHO160&photoIndex=0&q=Shelby%20Bottoms%20Greenway%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+    "heroAlt": "Shelby Bottoms Greenway in East Nashville.",
+    "factBox": [
+      {
+        "label": "Transit",
+        "value": "WeGo Sunday/Holiday local service; no regional buses or WeGo Star"
+      },
+      {
+        "label": "Library",
+        "value": "All NPL locations closed Monday, May 25"
+      },
+      {
+        "label": "Trash rule",
+        "value": "Monday holiday means no pickup-day changes"
+      },
+      {
+        "label": "Waste lookup",
+        "value": "Use the Waste Services calendar or app for your exact address"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "Shelby Bottoms Greenway",
+        "description": "Shelby Bottoms Greenway, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=Shelby%20Bottoms%20Greenway%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJ8ehOrVFoZIgR8RYaBLHO160",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJ8ehOrVFoZIgR8RYaBLHO160&photoIndex=0&q=Shelby%20Bottoms%20Greenway%2C%20Nashville%2C%20TN%2037206%2C%20USA",
+        "imageAlt": "Shelby Bottoms Greenway in East Nashville.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: james stewart.",
+        "displayRole": "hero",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJ8ehOrVFoZIgR8RYaBLHO160",
+        "placeQuery": "Shelby Bottoms Greenway, Nashville, TN 37206, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-25",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution."
+      },
+      {
+        "label": "Location Map",
+        "title": "East Nashville civic map",
+        "description": "700 Woodland St, Nashville, TN 37206, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=700%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&query_place_id=ChIJBeQDTM1nZIgRyqj-UKr20Mg",
+        "embedUrl": "https://www.google.com/maps?q=700%20Woodland%20St%2C%20Nashville%2C%20TN%2037206%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "ChIJBeQDTM1nZIgRyqj-UKr20Mg",
+        "placeQuery": "700 Woodland St, Nashville, TN 37206, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context.",
+        "afterSectionHeading": "Libraries And Parks"
+      }
+    ],
+    "photoStatus": "exact_photo_approved",
+    "sourceNote": "This is a reader-service story. Times and service details can change, so check the linked agency pages before leaving.",
+    "sources": [
+      {
+        "name": "WeGo: Sunday/Holiday schedule on Memorial Day 2026",
+        "url": "https://www.wegotransit.com/wego-to-run-sundayholiday-schedule-on-memorial-day-2026/",
+        "type": "Official release"
+      },
+      {
+        "name": "Nashville Public Library closure notice",
+        "url": "https://library.nashville.gov/blog/audience/adults",
+        "type": "Official notice"
+      },
+      {
+        "name": "Nashville Waste Services new collection schedule",
+        "url": "https://www.nashville.gov/departments/waste-services/trash-and-recycling-services/new-collection-schedule",
+        "type": "Official guidance"
+      },
+      {
+        "name": "Collection Calendar and Waste Wizard",
+        "url": "https://www.nashville.gov/departments/waste-services/trash-and-recycling-services/recycling-app",
+        "type": "Official lookup"
+      },
+      {
+        "name": "Shelby Bottoms Nature Center events",
+        "url": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center/events",
+        "type": "Official listing"
+      },
+      {
+        "name": "Nashville.gov event list",
+        "url": "https://www.nashville.gov/event-list?field_date_value=05%2F25%2F2026",
+        "type": "Official listing"
+      }
+    ],
+    "reactions": {
+      "Love": 40,
+      "Side-Eye": 15
+    },
+    "comments": [
+      {
+        "author": "calendar_person",
+        "text": "The cart does not move unless the calendar says it moves. Growth is possible."
+      }
+    ],
+    "social": {
+      "x": "East Nashville Memorial Day checklist: WeGo holiday service, libraries closed, Monday trash holiday means no pickup-day change, Shelby Bottoms building/programs are check-first.",
+      "instagram": "The Memorial Day errand math: check WeGo by date, keep the trash calendar close, assume library doors are closed, and let Shelby Bottoms be a greenway day.",
+      "video": "Parker does the one-screen Memorial Day checklist: WeGo, NPL, Waste Services, Shelby Bottoms, and the part where nobody walks to a locked door."
+    },
+    "body": "The best Memorial Day story is sometimes the one that keeps you from standing in front of a locked door with a tote bag and a noble sense of optimism.\n\nFor East Nashville, the quick version is this: transit is running lighter, libraries are closed, Metro listings mark the holiday, trash uses the new 2026 rule, and Shelby Bottoms is better treated as a greenway day than a nature-center errand day unless you confirm the building first.\n\nWeGo Public Transit says buses and Access vans are operating on a Sunday/Holiday schedule Monday, May 25. Regional bus service and the WeGo Star are not running.\n\nWeGo also says administrative offices, the Customer Care Call Center, and the WeGo Central information window are closed. If you are crossing the river, search schedules by today's date before you commit to a transfer that exists only in weekday memory.\n\nNashville Waste Services changed the residential schedule in 2026, keeping weekly trash and every-other-week recycling on the same service day but moving the city into a Tuesday-through-Friday collection cycle.\n\nThe new holiday rule is unusually humane: if a Metro holiday falls on Monday, pickup days do not change. If the holiday lands Tuesday through Friday, that day's pickup moves to the Monday of that same week. For today, use the calendar or app before touching the cart.\n\nNashville Public Library says all locations are closed Monday, May 25 for Memorial Day. That includes the East Branch, so plan your holds and printer emergencies accordingly.\n\nMetro's event list marks Memorial Day Holiday as an all-day item, and the Shelby Bottoms Nature Center events page also carries a Memorial Day Holiday listing. The park and greenway are still the East Side pressure-release valve, but staffed services and programs are a check-before-you-go situation.\n\nBefore leaving: check your WeGo trip by date, check Waste Services by address, assume library doors are closed, and treat Metro buildings as holiday-mode unless their page says otherwise.\n\nThis is not glamorous local news. It is the kind that saves a household one wet sidewalk conversation with a locked municipal door.\n\nOur Read: The Memorial Day win is small but real: check the bus, leave the cart alone unless your calendar says otherwise, and do not walk to a municipal door on faith."
+  },
+  {
+    "id": "east-nashville-beer-works-cookout-weather-may-25-2026",
+    "slug": "east-nashville-beer-works-cookout-weather-may-25-2026",
+    "title": "East Nashville Beer Works Has The Memorial Day Cookout. The Weather Says Go Early.",
+    "deck": "The Trinity Lane cookout is the cleanest East Side holiday plan on the board: noon start, grilling until 5, the full menu still there, and WSMV's highest rain chance waiting closer to dinner.",
+    "articleSections": [
+      {
+        "heading": "The Plan",
+        "paragraphs": [
+          "If you want the East Nashville Memorial Day plan that actually feels like the neighborhood, the cleanest target is East Nashville Beer Works on Trinity Lane.",
+          "Mato lists the brewery's Memorial Day Cookout for Monday, May 25 from noon to 5 p.m., with hot dogs, beer brats, vegan options, and the full pizza and salad menu. Nashville Lifestyles also singled out the East Nashville Beer Works cookout in its Memorial Day weekend roundup."
+        ]
+      },
+      {
+        "heading": "Why Trinity Lane Fits",
+        "paragraphs": [
+          "The official East Nashville Beer Works site describes the Trinity Lane taproom as the original location, with beer, pizza, a huge outdoor space, and a playground for families.",
+          "That matters because this is not a velvet-rope holiday. It is the version where a long table, an easy menu, and room to move are doing most of the civic work."
+        ]
+      },
+      {
+        "heading": "The Weather Window",
+        "paragraphs": [
+          "WSMV says Memorial Day will be mostly cloudy, warm, and humid, with showers and thunderstorms developing during the mid-to-late afternoon.",
+          "The highest Nashville rain chance is around 6 pm to 7 pm, according to the station, with a 60 percent rain chance for the day. That makes the noon-to-midafternoon window the smart move."
+        ]
+      },
+      {
+        "heading": "What To Watch",
+        "paragraphs": [
+          "The cookout listing says grilling runs until 5 p.m. and both East Nashville Beer Works locations are involved, but the Trinity Lane spot is the move for the full beer-garden vibe.",
+          "Check the brewery's social channels before leaving if the sky looks moody. If storms push in early, the article changes from patio plan to pizza-and-radar plan, which is still a respectable Tennessee holiday."
+        ]
+      }
+    ],
+    "readerUtility": {
+      "title": "Go Window",
+      "items": [
+        {
+          "label": "Cookout",
+          "value": "Mato lists noon to 5 p.m. Monday, May 25"
+        },
+        {
+          "label": "Where",
+          "value": "East Nashville Beer Works, 320 E Trinity Ln"
+        },
+        {
+          "label": "Food",
+          "value": "Hot dogs, beer brats, vegan options, plus pizza and salad menu"
+        },
+        {
+          "label": "Weather",
+          "value": "WSMV: highest Nashville rain chance around 6-7 p.m."
+        }
+      ]
+    },
+    "pullQuote": "This is not a velvet-rope holiday. It is a long table, an easy menu, and room to move.",
+    "closingNote": {
+      "label": "Our Read",
+      "text": "Go early if you want the beer-garden version. After midafternoon, the smarter accessory is radar."
+    },
+    "zone": "East Nashville",
+    "beat": "Events",
+    "label": "Confirmed",
+    "confidence": "Built from Mato, Nashville Lifestyles, East Nashville Beer Works' official site, and WSMV weather. Event details can change with weather.",
+    "reporterId": "lila",
+    "time": "May 25, 2026",
+    "priority": 305,
+    "imageStyle": "event",
+    "heroImage": "/api/media/location-photo?placeId=ChIJkzVNF5NnZIgRlsLUEzlmO0M&photoIndex=2&q=320%20E%20Trinity%20Ln%2C%20Nashville%2C%20TN%2037207%2C%20USA",
+    "heroAlt": "The beer garden at East Nashville Beer Works on Trinity Lane.",
+    "factBox": [
+      {
+        "label": "Event",
+        "value": "Memorial Day Cookout"
+      },
+      {
+        "label": "Time",
+        "value": "Noon to 5 p.m., according to Mato"
+      },
+      {
+        "label": "Address",
+        "value": "320 E Trinity Ln"
+      },
+      {
+        "label": "Weather",
+        "value": "Highest rain chance around 6-7 p.m., per WSMV"
+      }
+    ],
+    "media": [
+      {
+        "label": "Location Photo",
+        "title": "East Nashville Beer Works beer garden",
+        "description": "320 E Trinity Ln, Nashville, TN 37207, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=320%20E%20Trinity%20Ln%2C%20Nashville%2C%20TN%2037207%2C%20USA&query_place_id=ChIJkzVNF5NnZIgRlsLUEzlmO0M",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJkzVNF5NnZIgRlsLUEzlmO0M&photoIndex=2&q=320%20E%20Trinity%20Ln%2C%20Nashville%2C%20TN%2037207%2C%20USA",
+        "imageAlt": "The beer garden at East Nashville Beer Works on Trinity Lane.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: Tim Kiernan.",
+        "displayRole": "hero",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJkzVNF5NnZIgRlsLUEzlmO0M",
+        "placeQuery": "320 E Trinity Ln, Nashville, TN 37207, USA",
+        "relevance": "exact",
+        "relevanceScore": 92,
+        "approvalStatus": "approved",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-25",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution."
+      },
+      {
+        "label": "Location Photo",
+        "title": "East Nashville Beer Works entrance",
+        "description": "320 E Trinity Ln, Nashville, TN 37207, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=320%20E%20Trinity%20Ln%2C%20Nashville%2C%20TN%2037207%2C%20USA&query_place_id=ChIJkzVNF5NnZIgRlsLUEzlmO0M",
+        "imageUrl": "/api/media/location-photo?placeId=ChIJkzVNF5NnZIgRlsLUEzlmO0M&photoIndex=0&q=320%20E%20Trinity%20Ln%2C%20Nashville%2C%20TN%2037207%2C%20USA",
+        "imageAlt": "The front entrance at East Nashville Beer Works on Trinity Lane.",
+        "credit": "Photo: Google Maps / Google Places; contributor attribution: East Nashville Beer Works.",
+        "displayRole": "inline",
+        "provider": "google_places",
+        "sourceType": "api_photo",
+        "placeId": "ChIJkzVNF5NnZIgRlsLUEzlmO0M",
+        "placeQuery": "320 E Trinity Ln, Nashville, TN 37207, USA",
+        "relevance": "exact",
+        "relevanceScore": 98,
+        "approvalStatus": "approved",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-25",
+        "rightsNote": "Google Maps Platform photo served dynamically with Google Maps and contributor attribution.",
+        "afterSectionHeading": "Why Trinity Lane Fits"
+      },
+      {
+        "label": "Location Map",
+        "title": "East Nashville Beer Works map",
+        "description": "320 E Trinity Ln, Nashville, TN 37207, USA",
+        "url": "https://www.google.com/maps/search/?api=1&query=320%20E%20Trinity%20Ln%2C%20Nashville%2C%20TN%2037207%2C%20USA&query_place_id=ChIJkzVNF5NnZIgRlsLUEzlmO0M",
+        "embedUrl": "https://www.google.com/maps?q=320%20E%20Trinity%20Ln%2C%20Nashville%2C%20TN%2037207%2C%20USA&output=embed",
+        "provider": "google_maps_embed",
+        "sourceType": "map_embed",
+        "placeId": "ChIJkzVNF5NnZIgRlsLUEzlmO0M",
+        "placeQuery": "320 E Trinity Ln, Nashville, TN 37207, USA",
+        "relevance": "strong",
+        "relevanceScore": 62,
+        "approvalStatus": "approved",
+        "rightsNote": "Google Maps embed used for location context.",
+        "afterSectionHeading": "What To Watch"
+      }
+    ],
+    "photoStatus": "exact_photo_approved",
+    "sourceNote": "Google Places photos are exact-location images, served dynamically with contributor attribution. Check the venue before leaving if storms arrive early.",
+    "sources": [
+      {
+        "name": "Mato: Memorial Day Cookout at East Nashville Beer Works",
+        "url": "https://ma.to/event/memorial-day-cookout-east-nashville-beer-works-25-may-2026",
+        "type": "Event listing"
+      },
+      {
+        "name": "Nashville Lifestyles: 10 Spots to Kick Off Memorial Day Weekend",
+        "url": "https://nashvillelifestyles.com/nashville-calendar/things-to-do/10-spots-to-kick-off-memorial-day-weekend-in-nashville/",
+        "type": "Reported list"
+      },
+      {
+        "name": "East Nashville Beer Works",
+        "url": "https://eastnashbeerworks.com/",
+        "type": "Venue site"
+      },
+      {
+        "name": "WSMV: First Alert Forecast: Unsettled weather to continue",
+        "url": "https://www.wsmv.com/2026/05/24/first-alert-forecast-unsettled-weather-continue/",
+        "type": "Reported weather"
+      }
+    ],
+    "reactions": {
+      "Love": 51,
+      "Side-Eye": 9
+    },
+    "comments": [
+      {
+        "author": "patio_clock",
+        "text": "Noon to storm window is the whole plot. Respect the radar."
+      }
+    ],
+    "social": {
+      "x": "East Nashville Beer Works has the Memorial Day cookout window: noon to 5 on Trinity Lane. WSMV says the highest rain chance is closer to dinner, so go early.",
+      "instagram": "The East Side holiday move: East Nashville Beer Works on Trinity Lane, cookout early, radar later.",
+      "video": "Lila does the cookout math: noon start, Trinity Lane beer garden, grill until 5, highest rain odds around 6 to 7."
+    },
+    "body": "If you want the East Nashville Memorial Day plan that actually feels like the neighborhood, the cleanest target is East Nashville Beer Works on Trinity Lane.\n\nMato lists the brewery's Memorial Day Cookout for Monday, May 25 from noon to 5 p.m., with hot dogs, beer brats, vegan options, and the full pizza and salad menu. Nashville Lifestyles also singled out the East Nashville Beer Works cookout in its Memorial Day weekend roundup.\n\nThe official East Nashville Beer Works site describes the Trinity Lane taproom as the original location, with beer, pizza, a huge outdoor space, and a playground for families.\n\nThat matters because this is not a velvet-rope holiday. It is the version where a long table, an easy menu, and room to move are doing most of the civic work.\n\nWSMV says Memorial Day will be mostly cloudy, warm, and humid, with showers and thunderstorms developing during the mid-to-late afternoon.\n\nThe highest Nashville rain chance is around 6 pm to 7 pm, according to the station, with a 60 percent rain chance for the day. That makes the noon-to-midafternoon window the smart move.\n\nThe cookout listing says grilling runs until 5 p.m. and both East Nashville Beer Works locations are involved, but the Trinity Lane spot is the move for the full beer-garden vibe.\n\nCheck the brewery's social channels before leaving if the sky looks moody. If storms push in early, the article changes from patio plan to pizza-and-radar plan, which is still a respectable Tennessee holiday.\n\nOur Read: Go early if you want the beer-garden version. After midafternoon, the smarter accessory is radar."
+  },
+  {
     "id": "may-22-source-pass-east-nashville",
     "slug": "today-east-nashville-source-pass-may-22-2026",
     "title": "Today's East Nashville Source Pass: Rain Potholes, Brush Piles, Fire Budget Math, Bikes, And Weekend Plans",
