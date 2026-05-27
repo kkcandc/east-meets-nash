@@ -6,7 +6,12 @@
   "description": "East Nashville local news, gossip, civic watchdog, classifieds, and sponsor prototype.",
   "scripts": {
     "dev": "node site/server.js",
-    "start": "node site/server.js"
+    "start": "node site/server.js",
+    "web:ingest": "npm --prefix web run ingest",
+    "web:typecheck": "npm --prefix web run typecheck",
+    "web:build": "npm --prefix web run build",
+    "publish:check": "npm run web:typecheck && npm run web:build",
+    "verify:live": "node scripts/verify-live-publish.mjs"
   },
   "engines": {
     "node": ">=22 <26"

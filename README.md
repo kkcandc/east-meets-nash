@@ -31,6 +31,20 @@ Default URL: `http://localhost:4188`
 
 The current static prototype still runs from the project root at `http://localhost:4177`.
 
+## Publish Safety
+
+Before calling a daily issue live, run the root publish checks:
+
+```bash
+npm run publish:check
+git add -A
+git commit -m "Publish daily source pass"
+git push origin main
+npm run verify:live
+```
+
+`verify:live` checks production for the newest local story. If production is still serving an older Render build, it fails instead of letting the local-only publish look done.
+
 ## Project Map
 
 - `docs/strategy.md` - brand, audience, positioning, and success goals.
