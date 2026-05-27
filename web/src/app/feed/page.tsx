@@ -1,10 +1,13 @@
-import Link from "next/link";
-import { SubscribeForm } from "@/components/SubscribeForm";
+import type { Metadata } from "next";
 import { StoryCard } from "@/components/StoryCard";
 import { getBeats, getStories, getZones } from "@/lib/content";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Feed",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function FeedPage() {
@@ -14,11 +17,11 @@ export default function FeedPage() {
     <main>
       <section className="feed-hero">
         <div>
-          <p className="eyebrow">Account Preview</p>
+          <p className="eyebrow">ATXP Account Preview</p>
           <h1>Your East Nashville, sorted by what you actually care about.</h1>
           <p>
-            This production route is ready for login-backed preferences. Until auth is connected, it renders a tuned
-            editorial feed from seed data.
+            This production route is ready for ATXP-backed preferences. Until auth is connected, it renders a tuned
+            editorial feed from ingested story data.
           </p>
         </div>
         <aside className="feed-account">
@@ -28,29 +31,13 @@ export default function FeedPage() {
         </aside>
       </section>
       <section className="feed-layout">
-        <aside className="side-rail">
-          <section className="desk-panel">
-            <p className="eyebrow">Account</p>
-            <h2>Save your East Nashville</h2>
-            <p>Join the email list now. Account preferences and saved stories plug in next.</p>
-            <SubscribeForm
-              surface="feed_account_capture"
-              label="Email"
-              buttonLabel="Join free"
-              placeholder="neighbor@example.com"
-            />
-            <Link className="big-link-button" href="#join">
-              Create Account
-            </Link>
-          </section>
-          <section className="desk-panel">
-            <p className="eyebrow">Preferences</p>
-            <h2>Ready To Persist</h2>
-            <h3>Zones</h3>
-            <p>{getZones().join(", ")}</p>
-            <h3>Beats</h3>
-            <p>{getBeats().join(", ")}</p>
-          </section>
+        <aside className="desk-panel">
+          <p className="eyebrow">Preferences</p>
+          <h2>Ready To Persist</h2>
+          <h3>Zones</h3>
+          <p>{getZones().join(", ")}</p>
+          <h3>Beats</h3>
+          <p>{getBeats().join(", ")}</p>
         </aside>
         <section>
           <div className="story-grid one-column">

@@ -1,108 +1,115 @@
 {
-  "date": "May 20, 2026",
+  "date": "May 27, 2026",
   "title": "Daily Source Pass",
-  "summary": "Today's issue is built from WSMV, Visit Music City, Metro Council Legistar, Nashville.gov, Nashville Social, East Nasty, The Basement East, Nashville Public Library, and Google Places media. Facebook and Nextdoor remain queued for supervised screenshot capture.",
+  "summary": "Today's issue is built from Metro Council, Metro Parks, Nashville Public Library, Basement East, Eastside Bowl, Eastpoint public pages/listings, Nashville Guru, City Now Next, and a private-platform hold. The lead package is public-source only.",
   "stages": [
     {
-      "time": "8:00 AM",
-      "name": "Public News Sweep",
-      "goal": "Find the same-day public items with clear local stakes.",
+      "time": "8:30 AM",
+      "name": "Public Civic Scan",
+      "goal": "Find same-day official meetings with local stakes.",
       "sourceIds": [
-        "src-may20-super-bowl-celebration",
-        "src-may20-grocery-tax-deferral"
+        "src-may27-budget-work-session-two",
+        "src-may27-emergency-prep-working-group"
       ],
-      "output": "Published the Super Bowl celebration/East Bank follow-up and grocery-tax deferral explainer."
+      "output": "Found Metro Council Budget and Finance Work Session 2 at 4:30 p.m. and the Emergency Preparedness Working Group at 12:30 p.m."
     },
     {
-      "time": "11:30 AM",
-      "name": "Public Records And Budget Check",
-      "goal": "Use Metro records to backstop the numbers and timing.",
+      "time": "10:30 AM",
+      "name": "Development Watch",
+      "goal": "Update East Bank/Eastpoint timing from public sources.",
       "sourceIds": [
-        "src-may20-grocery-tax-deferral"
+        "src-may27-eastpoint-groundbreaking-kickoff"
       ],
-      "output": "Confirmed the RS2026-1961 rate change, June 16 deferral, and FY2027 revenue note from public records and WSMV."
+      "output": "Found public kickoff listings for Eastpoint at 501 S 2nd Street on May 30 plus reported development context pointing to a May 28 formal groundbreaking."
+    },
+    {
+      "time": "12:00 PM",
+      "name": "Event And Utility Scan",
+      "goal": "Build a practical Wednesday calendar.",
+      "sourceIds": [
+        "src-may27-wednesday-calendar"
+      ],
+      "output": "Pulled East Branch Library, Shelby Bottoms, Basement East, and Eastside Bowl public listings for today's useful calendar."
     },
     {
       "time": "1:00 PM",
-      "name": "Utility And Event Scan",
-      "goal": "Add the useful things people can act on today.",
+      "name": "Private Platform Gate",
+      "goal": "Keep community capture out unless supervised notes exist.",
       "sourceIds": [
-        "src-may20-wednesday-east-side-calendar"
+        "src-may27-facebook-nextdoor-hold"
       ],
-      "output": "Published a Wednesday night East Nashville mini-calendar with Game Point, East Nasty, The Basement East, and East Branch Library."
+      "output": "No new Facebook or Nextdoor material was promoted. Private-platform items stay held until visible supervised capture is available."
     },
     {
-      "time": "3:00 PM",
-      "name": "Community Capture Lane",
-      "goal": "Pull Facebook and Nextdoor only when the editor can show screenshots or post notes.",
-      "sourceIds": [
-        "src-may20-facebook-nextdoor-hold"
-      ],
-      "output": "Held for supervised capture; no private-platform claims were promoted without visible receipts."
-    },
-    {
-      "time": "5:00 PM",
+      "time": "1:30 PM",
       "name": "Publish Pack",
-      "goal": "Ship stories with article sections, utility boxes, pull quotes, source trails, Google Places media, and maps.",
+      "goal": "Ship source-backed web stories and newsletter-ready copy.",
       "sourceIds": [
-        "src-may20-source-pass",
-        "src-may20-super-bowl-celebration",
-        "src-may20-grocery-tax-deferral",
-        "src-may20-wednesday-east-side-calendar"
+        "src-may27-source-pass",
+        "src-may27-budget-work-session-two",
+        "src-may27-emergency-prep-working-group",
+        "src-may27-eastpoint-groundbreaking-kickoff",
+        "src-may27-wednesday-calendar"
       ],
-      "output": "Four May 20 stories are published with real location images, inline media, source trails, and no source receipt card images."
+      "output": "Five May 27 stories are ready with source trails, labels, social cuts, and generated covers pending better exact media."
     }
   ],
   "publishQueue": [
     {
-      "sourceId": "src-may20-source-pass",
+      "sourceId": "src-may27-source-pass",
       "slot": "Issue lead",
       "decision": "Published as today's source pass.",
-      "why": "It explains what was found, what was shipped, and what still needs supervised social capture."
+      "why": "It explains the full public-source run and keeps private-platform material out until supervised capture is available."
     },
     {
-      "sourceId": "src-may20-super-bowl-celebration",
-      "slot": "Development follow-up",
-      "decision": "Published as an East Bank planning homework story.",
-      "why": "The celebration is citywide, but the stadium/East Bank questions are directly relevant to East Nashville."
+      "sourceId": "src-may27-budget-work-session-two",
+      "slot": "Civic lead",
+      "decision": "Published as a budget work session explainer.",
+      "why": "The meeting is official, same-day, and tied to neighborhood services."
     },
     {
-      "sourceId": "src-may20-grocery-tax-deferral",
-      "slot": "Civic utility",
-      "decision": "Published as a plain-English grocery-tax explainer.",
-      "why": "The deferral affects household costs and Metro budget tradeoffs."
+      "sourceId": "src-may27-emergency-prep-working-group",
+      "slot": "Public safety",
+      "decision": "Published as an emergency-preparedness brief.",
+      "why": "The public meeting is official and relevant to storms, outages, and neighborhood readiness."
     },
     {
-      "sourceId": "src-may20-wednesday-east-side-calendar",
+      "sourceId": "src-may27-eastpoint-groundbreaking-kickoff",
+      "slot": "Development watch",
+      "decision": "Published as reported Eastpoint kickoff/watch item.",
+      "why": "The public kickoff gives readers a timely East Bank accountability hook."
+    },
+    {
+      "sourceId": "src-may27-wednesday-calendar",
       "slot": "Daily utility",
-      "decision": "Published as a compact Wednesday night guide.",
-      "why": "The items have clear time/place details and give readers something useful today."
+      "decision": "Published as today's East Nashville calendar.",
+      "why": "The listings have public time/place details and help readers plan today."
     },
     {
-      "sourceId": "src-may20-facebook-nextdoor-hold",
+      "sourceId": "src-may27-facebook-nextdoor-hold",
       "slot": "Community capture",
-      "decision": "Held until screenshots or post notes are available.",
-      "why": "The rule is interesting with receipts, not private-platform guesswork."
+      "decision": "Held.",
+      "why": "Private-platform claims need supervised capture, redaction, and labels before publication."
     }
   ],
   "accessNeeds": [
     {
       "name": "Facebook group",
-      "status": "Waiting on in-app browser capture",
-      "today": "Open the East Nashville group in chronological/New posts mode when ready.",
-      "guardrail": "Publish individual stories only for posts with screenshots, clear public-interest value, and no kids, medical/financial details, private addresses, plates, or unverified accusations."
+      "status": "No May 27 pass used",
+      "today": "Optional later pass should focus on public organization/business links and exact-location civic issues; avoid private medical, housing, kids, plates, phones, or accusations.",
+      "guardrail": "Do not publish raw private-citizen screenshots, kids, medical/financial details, private addresses, plates, phones, or unverified accusations."
     },
     {
       "name": "Nextdoor",
-      "status": "Waiting on working login/feed",
-      "today": "Skip if login/feed remains unavailable.",
+      "status": "Held",
+      "today": "Skip unless a supervised visible feed is available.",
       "guardrail": "Treat as neighborhood signal until independently verified; redact sensitive personal details."
     },
     {
-      "name": "Google Places photo desk",
-      "status": "Working",
-      "today": "Used for Lower Broadway, Nissan Stadium, Courthouse, Game Point, Basement East, and East Branch Library context.",
-      "guardrail": "Use exact or strong location photos with Google Maps/contributor attribution; no source receipt cards."
+      "name": "Eastpoint official release",
+      "status": "Needed for ceremonial details",
+      "today": "Attach official Eastpoint/Fallon/Metro release if available before upgrading the Eastpoint kickoff story to Confirmed.",
+      "guardrail": "Keep reported development context distinct from official commitments."
     }
   ]
 }

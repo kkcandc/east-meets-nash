@@ -4,11 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev -p 4188",
-    "build": "next build",
+    "ingest": "node scripts/ingest-content.mjs",
+    "dev": "npm run ingest && next dev -p 4188",
+    "build": "npm run ingest && next build",
     "start": "next start -p 4188",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "npm run ingest && tsc --noEmit"
   },
   "dependencies": {
     "next": "^15.3.0",

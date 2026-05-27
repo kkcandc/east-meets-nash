@@ -1,8 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getBeats, getStoriesForTopic, getZones } from "@/lib/content";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Topics",
+  description: "Browse East Meets Nash coverage by East Nashville neighborhood zone and editorial beat.",
+  alternates: {
+    canonical: "/topics",
+  },
 };
 
 function TopicCard({ kind, value }: { kind: "zone" | "beat"; value: string }) {

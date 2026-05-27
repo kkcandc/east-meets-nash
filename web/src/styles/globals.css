@@ -389,6 +389,141 @@ h3 {
   line-height: 1.45;
 }
 
+.source-status-strip,
+.community-desk-panel {
+  display: grid;
+  gap: 16px;
+  margin: 22px 0;
+  border-top: 2px solid var(--ink);
+  border-bottom: 2px solid var(--ink);
+  padding: 20px 0;
+}
+
+.source-status-strip {
+  grid-template-columns: minmax(0, 0.95fr) minmax(420px, 1.05fr);
+  align-items: center;
+}
+
+.source-status-copy {
+  display: grid;
+  gap: 6px;
+}
+
+.source-status-copy h2,
+.source-rail-panel h2,
+.community-desk-column h3 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.05;
+}
+
+.source-status-copy p:not(.eyebrow),
+.source-rail-panel p:not(.eyebrow) {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.source-status-grid,
+.community-desk-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.source-status-key,
+.community-desk-column {
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  background: #fffaf0;
+  padding: 14px;
+  box-shadow: 4px 4px 0 var(--ink);
+}
+
+.source-status-key {
+  display: grid;
+  gap: 8px;
+}
+
+.source-status-key span {
+  display: inline-flex;
+  width: fit-content;
+  min-height: 28px;
+  align-items: center;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  padding: 4px 9px;
+  color: #fffaf0;
+  font-size: 0.8rem;
+  font-weight: 950;
+}
+
+.source-status-key.confirmed span {
+  background: var(--green);
+}
+
+.source-status-key.reported span {
+  background: var(--blue);
+}
+
+.source-status-key.group-chat span {
+  background: var(--plum);
+}
+
+.source-status-key p {
+  margin: 0;
+  color: #403830;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.community-desk-panel {
+  border-bottom: 0;
+  padding-bottom: 8px;
+}
+
+.community-desk-column.ready {
+  background: #f0fff6;
+}
+
+.community-desk-column.verify {
+  background: #fff9df;
+}
+
+.community-desk-column.hold {
+  background: #fff2ee;
+}
+
+.community-desk-column ul {
+  display: grid;
+  gap: 10px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.community-desk-column li {
+  display: grid;
+  gap: 4px;
+  border-top: 2px solid rgba(31, 27, 24, 0.14);
+  padding-top: 10px;
+}
+
+.community-desk-column li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.community-desk-column strong {
+  line-height: 1.25;
+}
+
+.community-desk-column span {
+  color: #403830;
+  font-size: 0.86rem;
+  line-height: 1.35;
+}
+
 .section-heading {
   margin-bottom: 18px;
 }
@@ -652,9 +787,67 @@ h3 {
   color: #fffaf0;
 }
 
+.pill.confirmed {
+  background: var(--green);
+  color: #fffaf0;
+}
+
+.pill.reported {
+  background: var(--blue);
+  color: #fffaf0;
+}
+
+.pill.group-chat {
+  background: var(--plum);
+  color: #fffaf0;
+}
+
+.pill.seen,
+.pill.tip,
+.pill.neutral {
+  background: var(--gold);
+  color: var(--ink);
+}
+
+.pill.alleged {
+  background: var(--ink);
+  color: #fffaf0;
+}
+
 .pill.serious {
   background: var(--ink);
   color: #fffaf0;
+}
+
+.story-source-status {
+  display: inline-flex;
+  width: fit-content;
+  max-width: 100%;
+  min-height: 24px;
+  align-items: center;
+  border-left: 4px solid var(--line);
+  padding-left: 8px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 900;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.story-source-status.confirmed {
+  border-color: var(--green);
+}
+
+.story-source-status.reported {
+  border-color: var(--blue);
+}
+
+.story-source-status.group-chat {
+  border-color: var(--plum);
+}
+
+.story-source-status.alleged {
+  border-color: var(--ink);
 }
 
 .serious-card {
@@ -882,6 +1075,47 @@ h3 {
   background: #fffaf0;
   padding: 18px;
   box-shadow: var(--shadow);
+}
+
+.source-rail-panel {
+  display: grid;
+  gap: 12px;
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  background: #fffaf0;
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+
+.source-rail-panel dl {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+
+.source-rail-panel dl div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  border-top: 2px solid rgba(31, 27, 24, 0.14);
+  padding-top: 8px;
+}
+
+.source-rail-panel dt {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.source-rail-panel dd {
+  margin: 0;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--gold);
+  padding: 3px 9px;
+  font-weight: 950;
 }
 
 .tip-panel h2 {
@@ -2673,6 +2907,9 @@ dd {
   .topic-grid,
   .capture-panel,
   .capture-grid,
+  .source-status-strip,
+  .source-status-grid,
+  .community-desk-grid,
   .location-image-grid,
   .reporter-detail-grid,
   .tips-layout,

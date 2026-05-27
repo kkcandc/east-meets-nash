@@ -1,0 +1,295 @@
+[
+  {
+    "id": "best-east-nashville-restaurants",
+    "slug": "best-east-nashville-restaurants",
+    "title": "Best East Nashville Restaurants, Sorted By The Actual Situation",
+    "deck": "A living East Nashville restaurant guide for parents, dates, visitors, patio people, and anyone trying to make one good dinner decision without reading 14 listicles.",
+    "updated": "2026-05-20",
+    "zone": "East Nashville",
+    "beat": "Restaurants",
+    "reporterId": "mabel",
+    "searchIntent": "People searching for best restaurants in East Nashville, family-friendly East Nashville restaurants, East Nashville patios, East Nashville date-night restaurants, and where to eat near Five Points or Gallatin.",
+    "audience": "East Nashville residents, nearby parents, visitors staying east of the river, and locals trying to send one useful link to a group text.",
+    "heroLabel": "Evergreen Guide",
+    "summary": "This guide should not pretend one ranking can solve every meal. East Nashville has different restaurant jobs: kid containment, date-night atmosphere, visitor-proof crowd pleasers, patio afternoons, quick tacos, pizza after a show, and serious dinner. East Meets Nash should own the practical version by sorting restaurants by use case, keeping hours and openings fresh, and adding local notes from reader tips and field checks.",
+    "seoKeywords": [
+      "best East Nashville restaurants",
+      "East Nashville restaurants",
+      "family friendly restaurants East Nashville",
+      "East Nashville patios",
+      "restaurants near Five Points Nashville",
+      "where to eat in East Nashville"
+    ],
+    "picks": [
+      {
+        "name": "East Nashville Beer Works",
+        "category": "Family patio / pizza / beer",
+        "neighborhood": "Trinity Lane",
+        "bestFor": "Parents who want pizza, beer, outdoor space, and a low-stress place for kids to exist.",
+        "why": "The parent/lifestyle source pool and local restaurant listings repeatedly surface East Nashville Beer Works as a family-friendly East side anchor. It is also a natural bridge between restaurant SEO and Parker Mae family content.",
+        "kidNote": "Prioritize this for a first Parker field check because the kids/play area claim is high-conversion and should be verified in person before we make it a lead recommendation.",
+        "verify": "Confirm current patio/playset status, food hours, high-chair situation, parking, and whether rainy-day seating still works for families.",
+        "sourceName": "East Nashville Beer Works",
+        "sourceUrl": "https://eastnashbeerworks.com/"
+      },
+      {
+        "name": "The Pharmacy Burger Parlor & Beer Garden",
+        "category": "Burger garden / visitor-proof staple",
+        "neighborhood": "McFerrin / East Nashville",
+        "bestFor": "Visitors, burger people, outdoor tables, and groups where someone wants a house-made soda instead of a cocktail.",
+        "why": "The Pharmacy is one of the highest-recognition East Nashville restaurant answers and has durable search demand around burgers, beer garden, and kid-friendly outdoor meals.",
+        "kidNote": "Good candidate for 'kids can eat here without the whole table whisper-yelling' but verify current wait times and stroller practicality.",
+        "verify": "Confirm current hours, reservation/waitlist reality, patio access, and best time windows for families.",
+        "sourceName": "Nashville Go listing",
+        "sourceUrl": "https://nashvillego.com/eat-and-drink/restaurants/the-pharmacy-east"
+      },
+      {
+        "name": "Rosepepper Cantina",
+        "category": "Patio / margaritas / group dinner",
+        "neighborhood": "Eastland",
+        "bestFor": "Big East Nashville patio energy, margaritas, group dinners, and people who want the room to feel alive.",
+        "why": "Rosepepper is a long-running Eastland anchor with a public patio/margarita identity, which gives the guide an easy 'group dinner, not quiet dinner' lane.",
+        "verify": "Confirm current patio availability, kid tolerance by time of day, wait-time pattern, and any menu/hour changes.",
+        "sourceName": "Rosepepper official site",
+        "sourceUrl": "https://rosepepper.com/"
+      },
+      {
+        "name": "Five Points Pizza",
+        "category": "Pizza / easy crowd pleaser",
+        "neighborhood": "Five Points",
+        "bestFor": "First East Nashville meal, post-show slice, family takeout, and visitors who need one safe recommendation.",
+        "why": "Five Points Pizza is a classic East Nashville utility pick: easy to explain, easy to search, and useful in guides for visitors, families, and nightlife.",
+        "verify": "Confirm current slice window, dine-in/takeout flow, patio/sidewalk seating, and nearby parking pain.",
+        "sourceName": "Nashville Parent Guide source pool",
+        "sourceUrl": "https://docs.google.com/spreadsheets/d/1ANw7f05GJzG2gL0wJMyDBYQL5mfVganGrhG-0Qb5y5g/edit?usp=sharing"
+      },
+      {
+        "name": "Joyland",
+        "category": "Fast casual / burgers / breakfast energy",
+        "neighborhood": "East Nashville",
+        "bestFor": "Casual burger/chicken/biscuit cravings when the group wants fast and local.",
+        "why": "Joyland appears in the parent-guide source pool and fits the 'useful, casual, not precious' East Meets Nash lane.",
+        "verify": "Confirm current menu, breakfast/lunch/dinner hours, ordering flow, and whether families can sit comfortably during peak times.",
+        "sourceName": "Nashville Parent Guide source pool",
+        "sourceUrl": "https://docs.google.com/spreadsheets/d/1ANw7f05GJzG2gL0wJMyDBYQL5mfVganGrhG-0Qb5y5g/edit?usp=sharing"
+      },
+      {
+        "name": "Mas Tacos Por Favor",
+        "category": "Casual tacos / lunch",
+        "neighborhood": "East Nashville",
+        "bestFor": "A casual East Nashville food stop that visitors ask about and locals still reference.",
+        "why": "Mas Tacos is a durable East Nashville restaurant query target and an easy internal-link hub for visitor guides.",
+        "verify": "Confirm current hours, cash/card flow, lines, seating, and best order notes from a recent visit.",
+        "sourceName": "East Nashville restaurant search results",
+        "sourceUrl": "https://www.everythingnash.com/restaurants/east-nashville/"
+      },
+      {
+        "name": "Folk",
+        "category": "Date night / natural wine / seasonal dinner",
+        "neighborhood": "East Nashville",
+        "bestFor": "A quieter, more grown-up East Nashville dinner where pizza and wine can still feel like a plan.",
+        "why": "Folk gives the guide a serious dinner lane without making the whole page feel like tourist ranking copy.",
+        "verify": "Confirm current reservation flow, menu direction, patio/bar availability, and whether the best use case is date night, friends, or solo bar dinner.",
+        "sourceName": "Folk official site",
+        "sourceUrl": "https://www.goodasfolk.com/"
+      },
+      {
+        "name": "Kisser",
+        "category": "Destination lunch / acclaimed restaurant",
+        "neighborhood": "East Nashville",
+        "bestFor": "Food people who want the East Nashville recommendation that feels current and intentional.",
+        "why": "Kisser has national and local recognition, which helps the guide compete for 'best restaurants' searches while still needing East Meets Nash-specific practical advice.",
+        "verify": "Confirm current hours, wait pattern, reservation reality, kid practicality, and best nearby fallback if the line is too much.",
+        "sourceName": "Current restaurant guide landscape",
+        "sourceUrl": "https://www.theinfatuation.com/nashville/guides/best-restaurants-east-nashville"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "How East Meets Nash Should Rank Restaurants",
+        "body": "Do not publish a single universal top ten. Publish a practical selector: best for parents, best patio, best date night, best visitor meal, best quick lunch, best post-show food, best vegetarian-friendly table, and best 'we did not plan dinner' fallback."
+      },
+      {
+        "heading": "Field Check Rules",
+        "body": "Every restaurant page refresh needs current hours, kid/stroller practicality where relevant, parking or walkability notes, patio status, reservation/wait reality, and at least one local note that could not be copied from a menu."
+      },
+      {
+        "heading": "Internal Link Plan",
+        "body": "Link this guide from daily restaurant openings, farmers market stories, East Nashville weekend plans, family guides, and Five Points/Gallatin topic pages. Each new restaurant story should point back to this evergreen guide when useful."
+      }
+    ],
+    "sources": [
+      {
+        "name": "East Nashville Beer Works",
+        "url": "https://eastnashbeerworks.com/",
+        "type": "Business"
+      },
+      {
+        "name": "The Pharmacy Burger Parlor & Beer Garden listing",
+        "url": "https://nashvillego.com/eat-and-drink/restaurants/the-pharmacy-east",
+        "type": "Local guide"
+      },
+      {
+        "name": "Rosepepper official site",
+        "url": "https://rosepepper.com/",
+        "type": "Business"
+      },
+      {
+        "name": "Nashville Parent Guide source pool",
+        "url": "https://docs.google.com/spreadsheets/d/1ANw7f05GJzG2gL0wJMyDBYQL5mfVganGrhG-0Qb5y5g/edit?usp=sharing",
+        "type": "Source lead"
+      },
+      {
+        "name": "The Infatuation East Nashville restaurant guide",
+        "url": "https://www.theinfatuation.com/nashville/guides/best-restaurants-east-nashville",
+        "type": "Competitive guide"
+      }
+    ],
+    "relatedStorySlugs": [
+      "party-fowl-five-points-opening",
+      "lost-found-gallatin-food-hub",
+      "restaurant-soft-launch"
+    ]
+  },
+  {
+    "id": "best-east-nashville-playgrounds-kids",
+    "slug": "best-east-nashville-playgrounds-kids",
+    "title": "Best East Nashville Playgrounds And Kid Stops, Sorted By Parent Emergency",
+    "deck": "A practical East Nashville family guide for playgrounds, park bathrooms, stroller walks, rainy-day backups, and the places parents actually need at 4:37 p.m.",
+    "updated": "2026-05-20",
+    "zone": "East Nashville",
+    "beat": "Family",
+    "reporterId": "parker",
+    "searchIntent": "People searching for best playgrounds in East Nashville, East Nashville parks for kids, Shelby Park playground, East Park playground, family things to do in East Nashville, and stroller-friendly East Nashville.",
+    "audience": "Parents, caregivers, grandparents, new East Nashville residents, visiting families, and anyone trying to turn kid energy into a plan.",
+    "heroLabel": "Family Guide",
+    "summary": "This guide should become the parent answer engine for East Nashville. Daily news can cover events and park drama, but evergreen search wants a durable map: playgrounds, shade, bathrooms, splash/water options, stroller paths, snack pairings, parking, and what to do when the weather or toddler mood changes.",
+    "seoKeywords": [
+      "best playgrounds East Nashville",
+      "East Nashville parks for kids",
+      "Shelby Park playground",
+      "East Park playground",
+      "family things to do East Nashville",
+      "kid friendly East Nashville"
+    ],
+    "picks": [
+      {
+        "name": "Shelby Park and Shelby Bottoms",
+        "category": "Big park / playgrounds / greenway",
+        "neighborhood": "Shelby Park",
+        "bestFor": "The full parent escape: playgrounds, greenway walks, lake views, dog park sightings, ball fields, and enough room for kid energy to become someone else's problem.",
+        "why": "Metro Parks describes Shelby Park as a 300-acre multi-use park that expands to more than 1,200 acres with Shelby Bottoms and includes playgrounds, picnic shelters, sports fields, lake, dog park, and community-center amenities.",
+        "kidNote": "This should anchor the guide, but East Meets Nash needs field notes for which playground works by age, bathroom reality, shade, stroller routes, and the best snack pairing nearby.",
+        "verify": "Field check playground condition, restrooms, shade, parking, stroller route from lot to play area, and whether construction/events affect access.",
+        "sourceName": "Metro Parks Shelby Park page",
+        "sourceUrl": "https://www.nashville.gov/departments/parks/parks/shelby-park"
+      },
+      {
+        "name": "East Park Community Center",
+        "category": "Playground / indoor backup / pool",
+        "neighborhood": "East Park",
+        "bestFor": "A central East Nashville fallback when you need playground plus indoor backup options.",
+        "why": "Metro Parks lists East Park Community Center with an outdoor playground, indoor pool, gymnasium, track, youth programs, classes, and community rooms.",
+        "kidNote": "High-priority Parker Mae field check because the indoor/outdoor combo is exactly what parents search for when weather ruins the original plan.",
+        "verify": "Confirm playground condition, pool schedule, drop-in rules, fees, parking, stroller access, and current youth program calendar.",
+        "sourceName": "Metro Parks East Park Community Center page",
+        "sourceUrl": "https://www.nashville.gov/departments/parks/community-centers-and-recreation/regional-recreation-centers/east-park-community-center"
+      },
+      {
+        "name": "McFerrin Park",
+        "category": "Updated playground / picnic pavilion",
+        "neighborhood": "McFerrin",
+        "bestFor": "Families looking for newer playground equipment and a smaller park stop close to North/East Nashville errands.",
+        "why": "Metro Parks says the McFerrin Park playground was updated through the 2024 Participatory Budget Program with areas for ages 2-5 and 5-12, expanded swings, turf/rubber surfacing, and a new picnic pavilion.",
+        "kidNote": "This is a strong 'new playground' angle and should be photographed before publishing the final ranking.",
+        "verify": "Field check shade, fencing, restroom access, picnic pavilion status, parking, and after-school crowd pattern.",
+        "sourceName": "Metro Parks McFerrin Park project page",
+        "sourceUrl": "https://www.nashville.gov/departments/parks/planning-and-facilities-development/park-plans-and-projects/mcferrin-park"
+      },
+      {
+        "name": "South Inglewood Park",
+        "category": "Neighborhood park / picnic shelter",
+        "neighborhood": "South Inglewood",
+        "bestFor": "North East Nashville families who need a lower-key park option and picnic shelter potential.",
+        "why": "Metro Parks lists a reservable picnic shelter at South Inglewood Park, making it a candidate for birthdays and small family gatherings.",
+        "kidNote": "Do not overclaim playground quality until field checked. Treat it as a candidate park with a shelter until verified.",
+        "verify": "Confirm playground existence/condition, shade, restroom access, shelter reservation process, parking, and birthday practicality.",
+        "sourceName": "Metro Parks South Inglewood Picnic Shelter page",
+        "sourceUrl": "https://www.nashville.gov/departments/parks/permits-rentals-and-reservations/picnic-shelters/south-inglewood"
+      },
+      {
+        "name": "Wasioto Park",
+        "category": "Riverfront play / water features",
+        "neighborhood": "East Bank / Riverfront",
+        "bestFor": "Families crossing the river for a bigger play-space payoff, especially when water features are running.",
+        "why": "Metro Parks describes Wasioto Park as a riverfront play space with unique play structures, water features, sand play, bouncing pad, maze, see-saw, amphitheater, and bridge access.",
+        "kidNote": "This is not East Nashville proper, but it is highly relevant to East Bank coverage and family search intent.",
+        "verify": "Confirm water-feature season, bathroom access, parking/transit approach, shade, and whether the bridge route is stroller sane.",
+        "sourceName": "Metro Parks Wasioto Park page",
+        "sourceUrl": "https://www.nashville.gov/departments/parks/parks/wasioto-park"
+      },
+      {
+        "name": "Two Rivers Park",
+        "category": "Greenway-connected day trip",
+        "neighborhood": "Donelson / Shelby Bottoms connection",
+        "bestFor": "Families who want to turn the Shelby Bottoms bridge into a bigger outing.",
+        "why": "Metro Parks says Two Rivers Park is accessible from Shelby Bottoms via the pedestrian bridge over the Cumberland and includes major recreation amenities.",
+        "kidNote": "Use as an adjacent option, not the core East Nashville playground answer.",
+        "verify": "Confirm bridge/stroller route, Wave Country season, playground details, bathroom access, and whether this belongs in the East Nashville guide or a linked day-trip guide.",
+        "sourceName": "Metro Parks Two Rivers Park page",
+        "sourceUrl": "https://www.nashville.gov/departments/parks/parks/two-rivers-park"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "How East Meets Nash Should Rank Kid Stops",
+        "body": "Rank by parent use case, not generic beauty: best toddler playground, best bigger-kid energy burn, best shade, best bathrooms, best stroller loop, best picnic birthday, best rainy-day backup, best coffee/snack pairing, and best 'we need to leave the house now' option."
+      },
+      {
+        "heading": "Field Check Rules",
+        "body": "Every park entry needs current photos, playground age range, bathroom reality, shade, parking, stroller paths, nearby snacks, safety/traffic notes, and whether the visit still works after rain."
+      },
+      {
+        "heading": "Internal Link Plan",
+        "body": "Link this guide from Shelby Park stories, sidewalk/traffic coverage, family event roundups, Parker Mae videos, and any restaurant guide sections that mention kid-friendly patio plans."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Metro Parks Shelby Park page",
+        "url": "https://www.nashville.gov/departments/parks/parks/shelby-park",
+        "type": "Official"
+      },
+      {
+        "name": "Metro Parks East Park Community Center page",
+        "url": "https://www.nashville.gov/departments/parks/community-centers-and-recreation/regional-recreation-centers/east-park-community-center",
+        "type": "Official"
+      },
+      {
+        "name": "Metro Parks McFerrin Park project page",
+        "url": "https://www.nashville.gov/departments/parks/planning-and-facilities-development/park-plans-and-projects/mcferrin-park",
+        "type": "Official"
+      },
+      {
+        "name": "Metro Parks South Inglewood Picnic Shelter page",
+        "url": "https://www.nashville.gov/departments/parks/permits-rentals-and-reservations/picnic-shelters/south-inglewood",
+        "type": "Official"
+      },
+      {
+        "name": "Metro Parks Wasioto Park page",
+        "url": "https://www.nashville.gov/departments/parks/parks/wasioto-park",
+        "type": "Official"
+      },
+      {
+        "name": "Metro Parks Two Rivers Park page",
+        "url": "https://www.nashville.gov/departments/parks/parks/two-rivers-park",
+        "type": "Official"
+      }
+    ],
+    "relatedStorySlugs": [
+      "shelby-bottoms-may-calendar",
+      "sidewalk-parent-index",
+      "south-eighth-childcare-community-day-may-16-2026"
+    ]
+  }
+]

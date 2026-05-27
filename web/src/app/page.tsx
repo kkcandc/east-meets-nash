@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { SubscribeForm } from "@/components/SubscribeForm";
 import { StoryCard } from "@/components/StoryCard";
-import { getStories } from "@/lib/content";
-import type { Story } from "@/lib/types";
+import { getDailySourcePass, getSourceItems, getStories } from "@/lib/content";
+import type { SourceItem, Story } from "@/lib/types";
 
 function storySection(stories: Story[], usedIds: Set<string>, predicate: (story: Story) => boolean, limit = 4): Story[] {
   const selected = stories.filter((story) => !usedIds.has(story.id) && predicate(story)).slice(0, limit);
@@ -10,9 +10,101 @@ function storySection(stories: Story[], usedIds: Set<string>, predicate: (story:
   return selected;
 }
 
+const todayPackageIds = [
+  "may-27-source-pass-east-nashville",
+  "metro-budget-work-session-two-may-27-2026",
+  "emergency-preparedness-working-group-may-27-2026",
+  "eastpoint-groundbreaking-weekend-may-27-2026",
+  "wednesday-east-nashville-calendar-may-27-2026",
+];
+
+const recentPackageIds = [
+  "may-26-source-pass-east-nashville",
+  "metro-budget-work-session-may-26-2026",
+  "east-bank-homework-may-26-2026",
+  "tuesday-night-east-nashville-calendar-may-26-2026",
+  "facebook-capture-notebook-may-26-2026",
+  "facebook-capture-pass-two-may-26-2026",
+];
+
+const communityDeskSourceIds = [
+  "src-may26-facebook-plant-parenthood-bongo-java",
+  "src-may26-facebook-rare-dreamburger-foster-foodies",
+  "src-may26-facebook-61-fitness-east-high",
+  "src-may26-facebook-cousin-girl-sandwich-shop",
+  "src-may26-facebook-cleveland-park-green-water",
+  "src-may26-facebook-bluebell-great-dane",
+  "src-may26-facebook-st-kiddie-home-care-enrollment",
+  "src-may26-facebook-housing-support-pattern",
+  "src-may26-facebook-cumberland-hardware-health-hold",
+];
+
+function communityDeskTitle(item: SourceItem): string {
+  if (item.id === "src-may26-facebook-cumberland-hardware-health-hold") {
+    return "Local business family-health update";
+  }
+
+  if (item.id === "src-may26-facebook-housing-support-pattern") {
+    return "Recurring housing-support asks";
+  }
+
+  return item.title;
+}
+
+function communityDeskAction(item: SourceItem): string {
+  if (item.risk === "High") {
+    return "Hold or anonymize before any public use.";
+  }
+
+  if (item.status.toLowerCase().includes("public")) {
+    return "Find or attach a public link before upgrading.";
+  }
+
+  if (item.status.toLowerCase().includes("metro")) {
+    return "Check Metro Parks or hubNashville before publishing claims.";
+  }
+
+  if (item.status.toLowerCase().includes("license")) {
+    return "Verify public business and license details first.";
+  }
+
+  return "Needs editor check before promotion.";
+}
+
+function communityDeskBuckets(sourceItems: SourceItem[]) {
+  const items = communityDeskSourceIds
+    .map((id) => sourceItems.find((item) => item.id === id))
+    .filter((item): item is SourceItem => Boolean(item));
+
+  return [
+    {
+      title: "Ready For Calendar",
+      eyebrow: "Cleanest Leads",
+      className: "ready",
+      items: items.filter((item) => item.risk === "Low"),
+    },
+    {
+      title: "Needs A Check",
+      eyebrow: "Verify Next",
+      className: "verify",
+      items: items.filter((item) => item.risk === "Medium"),
+    },
+    {
+      title: "Held Or Anonymized",
+      eyebrow: "Privacy Rules",
+      className: "hold",
+      items: items.filter((item) => item.risk === "High"),
+    },
+  ].filter((bucket) => bucket.items.length);
+}
+
 export default function HomePage() {
   const stories = getStories();
+  const sourceItems = getSourceItems();
+  const todaySourcePass = getDailySourcePass();
   const packageIds = [
+    ...todayPackageIds,
+    ...recentPackageIds,
     "may-25-source-pass-east-nashville",
     "east-park-woodland-gun-scare-facts-may-25-2026",
     "east-nashville-memorial-day-service-checklist-may-25-2026",
@@ -39,10 +131,14 @@ export default function HomePage() {
   const packageStories = packageIds
     .map((id) => stories.find((story) => story.id === id))
     .filter((story): story is (typeof stories)[number] => Boolean(story));
+  const todayStories = todayPackageIds
+    .map((id) => stories.find((story) => story.id === id))
+    .filter((story): story is Story => Boolean(story));
   const fallbackStories = stories.filter((story) => !packageStories.includes(story));
   const topStories = [...packageStories, ...fallbackStories].slice(0, 3);
   const topStoryIds = new Set(topStories.map((story) => story.id));
   const sectionUsedIds = new Set(topStoryIds);
+  const deskBuckets = communityDeskBuckets(sourceItems);
   const whatToDo = storySection(stories, sectionUsedIds, (story) => story.beat === "Events", 4);
   const civicWatch = storySection(
     stories,
@@ -100,9 +196,12 @@ export default function HomePage() {
       <section className="front-layout home-front">
         <div>
           <div className="section-heading front-page-heading">
-            <p className="eyebrow">East Nashville Today</p>
-            <h1>The News Before The Group Chat Gets To It</h1>
-            <p>Restaurants, roads, civic mess, weekend plans, and the neighborhood details worth forwarding.</p>
+            <p className="eyebrow">East Nashville Today / May 27</p>
+            <h1>Budget Round Two, Emergency Prep, And The Eastpoint Countdown</h1>
+            <p>
+              Today&apos;s issue leads with public records: Metro&apos;s second budget work session, Council emergency
+              prep, Eastpoint&apos;s public kickoff window, and the Wednesday calendar.
+            </p>
           </div>
           <section className="front-package" aria-label="Top stories">
             {lead ? <StoryCard story={lead} lead showZone={false} /> : null}
@@ -124,6 +223,58 @@ export default function HomePage() {
               buttonLabel="Send me the brief"
               placeholder="neighbor@example.com"
             />
+          </section>
+          <section className="source-status-strip" aria-label="How East Meets Nash labels story confidence">
+            <div className="source-status-copy">
+              <p className="eyebrow">Source Status</p>
+              <h2>Read The Label Before The Take</h2>
+              <p>
+                May 27 is a public-source issue: confirmed meeting and event listings, reported development context,
+                and private-platform material held until supervised capture exists.
+              </p>
+            </div>
+            <div className="source-status-grid">
+              <div className="source-status-key confirmed">
+                <span>Confirmed</span>
+                <p>Official or public source checked.</p>
+              </div>
+              <div className="source-status-key reported">
+                <span>Reported</span>
+                <p>Source trail attached, with context still moving.</p>
+              </div>
+              <div className="source-status-key group-chat">
+                <span>Group Chat Says</span>
+                <p>Supervised capture, summarized and redacted.</p>
+              </div>
+            </div>
+          </section>
+          <section className="community-desk-panel" aria-label="Community Desk">
+            <div className="section-heading compact-heading">
+              <div>
+                <p className="eyebrow">Community Desk</p>
+                <h2>What The Facebook Pass Became</h2>
+                <p>
+                  Public-facing leads only. The sensitive stuff stays private, and the useful stuff gets a next action.
+                </p>
+              </div>
+              <Link href="/admin/sources">Open source desk</Link>
+            </div>
+            <div className="community-desk-grid">
+              {deskBuckets.map((bucket) => (
+                <section className={`community-desk-column ${bucket.className}`} key={bucket.title}>
+                  <p className="eyebrow">{bucket.eyebrow}</p>
+                  <h3>{bucket.title}</h3>
+                  <ul>
+                    {bucket.items.map((item) => (
+                      <li key={item.id}>
+                        <strong>{communityDeskTitle(item)}</strong>
+                        <span>{communityDeskAction(item)}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              ))}
+            </div>
           </section>
           <section className="issue-lanes" aria-label="Today's East Nashville issue sections">
             {issueSections.map((section) => (
@@ -162,6 +313,25 @@ export default function HomePage() {
           ) : null}
         </div>
         <aside className="side-rail">
+          <section className="source-rail-panel">
+            <p className="eyebrow">Today&apos;s Package</p>
+            <h2>{todayStories.length} May 27 Stories Live</h2>
+            <p>{todaySourcePass.summary}</p>
+            <dl>
+              <div>
+                <dt>Public stories</dt>
+                <dd>{todayStories.filter((story) => story.label !== "Group Chat Says").length}</dd>
+              </div>
+              <div>
+                <dt>Community notebooks</dt>
+                <dd>{todayStories.filter((story) => story.label === "Group Chat Says").length}</dd>
+              </div>
+              <div>
+                <dt>Nextdoor</dt>
+                <dd>Held</dd>
+              </div>
+            </dl>
+          </section>
           <section className="brief-panel">
             <p className="eyebrow">Today&apos;s Brief</p>
             <h2>Seven Things Worth Knowing</h2>

@@ -1,12 +1,11 @@
 import dailySourcePassData from "../../../data/daily-source-pass.json";
 import sourceAccessData from "../../../data/source-access-matrix.json";
-import sourceItemData from "../../../data/source-items.json";
 import sourceStreamData from "../../../data/sources.json";
-import reporterData from "../../../data/reporters.json";
-import storyData from "../../../data/stories.json";
+import { evergreenGuides, reporters, sourceItems, stories } from "@/data/generated-content";
 import { launchIssueSlots, launchTasks, sponsorProducts } from "@/data/seed";
 import type {
   DailySourcePass,
+  EvergreenGuide,
   LaunchIssueSlot,
   LaunchTask,
   Reporter,
@@ -17,9 +16,6 @@ import type {
   Story,
 } from "@/lib/types";
 
-const stories = storyData as Story[];
-const reporters = reporterData as Reporter[];
-const sourceItems = sourceItemData as SourceItem[];
 const sourceStreams = sourceStreamData as SourceStream[];
 const sourceAccessPlans = sourceAccessData as SourceAccessPlan[];
 const dailySourcePass = dailySourcePassData as DailySourcePass;
@@ -41,7 +37,7 @@ export function getReporter(id: string): Reporter {
 }
 
 export function getReporters(): Reporter[] {
-  return reporters.slice();
+  return reporters;
 }
 
 export function getStoriesByReporter(id: string): Story[] {
@@ -62,6 +58,14 @@ export function getSourceAccessPlans(): SourceAccessPlan[] {
 
 export function getDailySourcePass(): DailySourcePass {
   return dailySourcePass;
+}
+
+export function getEvergreenGuides(): EvergreenGuide[] {
+  return evergreenGuides.slice().sort((a, b) => a.title.localeCompare(b.title));
+}
+
+export function getEvergreenGuideBySlug(slug: string): EvergreenGuide | undefined {
+  return evergreenGuides.find((guide) => guide.slug === slug || guide.id === slug);
 }
 
 export function getSponsorProducts(): SponsorProduct[] {
@@ -104,7 +108,7 @@ export function buildBeehiivExport(storyCount = 5): string {
       [
         `${index + 1}. ${story.title}`,
         story.deck,
-        `Label: ${story.label}. Zone: ${story.zone}. Reported by ${getReporter(story.reporterId).name}.`,
+        `Label: ${story.label}. Zone: ${story.zone}. Filed by ${getReporter(story.reporterId).name}.`,
         `Link: /story/${story.slug}`,
       ].join("\n"),
     ),
@@ -119,8 +123,8 @@ export function buildBeehiivPostTitle(): string {
 }
 
 export function formatReactionLabel(name: string): string {
-  if (name === "Love") return "❤️ Love";
-  if (name === "Side-Eye") return "👀 Side-Eye";
+  if (name === "Love") return "Love";
+  if (name === "Side-Eye") return "Side-Eye";
   return name;
 }
 
@@ -129,7 +133,7 @@ export function buildSocialPack(story: Story): Array<{ channel: string; copy: st
   return [
     {
       channel: "X / Threads",
-      copy: `${story.social.x}\n\nLabel: ${story.label}. Zone: ${story.zone}. Reported by ${reporter.name}.`,
+      copy: `${story.social.x}\n\nLabel: ${story.label}. Zone: ${story.zone}. Filed by ${reporter.name}.`,
     },
     {
       channel: "Instagram",
@@ -168,7 +172,7 @@ export function buildBeehiivHtml(storyCount = 5): string {
             ${escapeHtml(story.deck)}
           </p>
           <p style="margin: 0; color: #6f6258; font-size: 13px;">
-            Reported by ${escapeHtml(reporter.name)}. Read: /story/${escapeHtml(story.slug)}
+            Filed by ${escapeHtml(reporter.name)}. Read: /story/${escapeHtml(story.slug)}
           </p>
         </div>
       `;

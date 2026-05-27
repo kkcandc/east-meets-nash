@@ -220,6 +220,43 @@ export interface LaunchTask {
   detail: string;
 }
 
+export interface EvergreenGuidePick {
+  name: string;
+  category: string;
+  neighborhood: string;
+  bestFor: string;
+  why: string;
+  kidNote?: string;
+  verify: string;
+  sourceName: string;
+  sourceUrl: string;
+}
+
+export interface EvergreenGuideSection {
+  heading: string;
+  body: string;
+}
+
+export interface EvergreenGuide {
+  id: string;
+  slug: string;
+  title: string;
+  deck: string;
+  updated: string;
+  zone: string;
+  beat: string;
+  reporterId: string;
+  searchIntent: string;
+  audience: string;
+  heroLabel: string;
+  summary: string;
+  seoKeywords: string[];
+  picks: EvergreenGuidePick[];
+  sections: EvergreenGuideSection[];
+  sources: SourceLink[];
+  relatedStorySlugs: string[];
+}
+
 export interface DraftInput {
   title: string;
   deck: string;
