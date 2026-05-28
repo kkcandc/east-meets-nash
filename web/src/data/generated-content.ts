@@ -188,6 +188,575 @@ export const reporters = [
 
 export const stories = [
   {
+    "id": "may-28-source-pass-east-nashville",
+    "slug": "today-east-nashville-source-pass-may-28-2026",
+    "title": "Today's East Nashville Source Pass: Storm Response, Budget Round Three, Housing Homework, And Eastpoint's Groundbreaking Week",
+    "deck": "Thursday's source pass is civic-heavy: the Winter Storm Response Commission has a public hearing at 9 a.m., Metro's third budget work session is at 4:30, a homelessness housing committee meets at Park Center East, and Eastpoint's official kickoff window is finally here.",
+    "readerUtility": {
+      "title": "Today's Useful Read",
+      "items": [
+        {
+          "label": "9:00 a.m.",
+          "value": "Winter Storm Response Commission public hearing"
+        },
+        {
+          "label": "2:30 p.m.",
+          "value": "Housing Opportunities Committee at Park Center East"
+        },
+        {
+          "label": "4:30 p.m.",
+          "value": "Budget and Finance Work Session 3"
+        },
+        {
+          "label": "Saturday",
+          "value": "Eastpoint Neighborhood Kickoff Party"
+        }
+      ]
+    },
+    "pullQuote": "Outage response is neighborhood infrastructure.",
+    "zone": "East Nashville",
+    "beat": "News",
+    "label": "Reported",
+    "confidence": "Built from Metro Council, Mayor's Office, Office of Homeless Services, Eastpoint, City Now Next, East Room, and Nashville Public Library public pages. Private-platform items are held for supervised capture.",
+    "reporterId": "june",
+    "time": "May 28, 2026",
+    "priority": 330,
+    "imageStyle": "issue-cover",
+    "factBox": [
+      {
+        "label": "Date",
+        "value": "Thursday, May 28, 2026"
+      },
+      {
+        "label": "Storm response",
+        "value": "Public hearing at 9 a.m."
+      },
+      {
+        "label": "Budget",
+        "value": "Work Session 3 at 4:30 p.m."
+      },
+      {
+        "label": "Housing",
+        "value": "Park Center East meeting at 2:30 p.m."
+      }
+    ],
+    "sourceNote": "Eastpoint formal groundbreaking timing is reported by City Now Next; the May 30 kickoff is confirmed by Eastpoint's official event page.",
+    "sources": [
+      {
+        "name": "Winter Storm Response Commission Public Hearing, May 28",
+        "url": "https://www.nashville.gov/departments/mayor/boards/winter-storm-commission/meetings/winter-storm-response-commission-public-hearing-meeting-may-28-2026",
+        "type": "Official listing"
+      },
+      {
+        "name": "Executive Order 058 creating the Winter Storm Response Commission",
+        "url": "https://www.nashville.gov/departments/metro-clerk/fo058",
+        "type": "Official order"
+      },
+      {
+        "name": "Metro Council Budget and Finance Work Session 3",
+        "url": "https://www.nashville.gov/departments/council/boards/metro-council/meetings/metropolitan-council-budget-finance-committee-work-session-3-meeting-may-28-2026",
+        "type": "Official listing"
+      },
+      {
+        "name": "Metro Council Office Events",
+        "url": "https://www.nashville.gov/departments/council/events",
+        "type": "Official calendar"
+      },
+      {
+        "name": "Continuum of Care Housing Opportunities Committee, May 28",
+        "url": "https://www.nashville.gov/departments/office-homeless-services/boards/homelessness/meetings/continuum-care-homelessness-planning-council-housing-opportunities-committee-meeting-may-28-2026",
+        "type": "Official listing"
+      },
+      {
+        "name": "Eastpoint Neighborhood Kickoff Party",
+        "url": "https://eastpointnashville.com/events/eastpoint-neighborhood-kickoff-party",
+        "type": "Official event page"
+      },
+      {
+        "name": "Eastpoint official site",
+        "url": "https://eastpointnashville.com/",
+        "type": "Project site"
+      },
+      {
+        "name": "City Now Next: Eastpoint renderings and groundbreaking context",
+        "url": "https://citynownext.com/2026/05/05/fallon-releases-new-renderings-parcel-c-next-to-nissan-stadium-in-nashville/",
+        "type": "Reported development context"
+      },
+      {
+        "name": "Bandsintown: Miggie Snyder at The East Room",
+        "url": "https://www.bandsintown.com/e/108077828?app_id=szm_feed&came_from=283",
+        "type": "Event listing"
+      },
+      {
+        "name": "Nashville Public Library East Branch",
+        "url": "https://library.nashville.gov/locations/east",
+        "type": "Library hours and calendar"
+      }
+    ],
+    "social": {
+      "x": "Today's East Nashville source pass: storm-response hearing at 9, budget work session 3 at 4:30, housing homework on Woodland, Eastpoint's kickoff window, and The East Room if you need music after all that.",
+      "instagram": "Thursday source pass: outages, budgets, housing, East Bank promises, and one Gallatin show so the clipboard does not win completely.",
+      "video": "June reads the board: storm response, budget, housing, Eastpoint. Then Lila quietly adds The East Room because democracy needs an outro."
+    },
+    "heroImage": "/api/media/issue-cover?id=may-28-source-pass-east-nashville",
+    "heroAlt": "Cover art for Today's East Nashville Source Pass: Storm Response, Budget Round Three, Housing Homework, And Eastpoint's Groundbreaking Week.",
+    "media": [
+      {
+        "label": "Issue Cover",
+        "title": "May 28 source pass cover",
+        "description": "Generated cover art for the May 28 East Nashville source pass.",
+        "url": "/story/today-east-nashville-source-pass-may-28-2026",
+        "imageUrl": "/api/media/issue-cover?id=may-28-source-pass-east-nashville",
+        "imageAlt": "Cover art for Today's East Nashville Source Pass: Storm Response, Budget Round Three, Housing Homework, And Eastpoint's Groundbreaking Week.",
+        "credit": "Image: East Meets Nash generated issue cover.",
+        "displayRole": "hero",
+        "provider": "generated_cover",
+        "sourceType": "generated_cover",
+        "relevance": "exact",
+        "relevanceScore": 88,
+        "approvalStatus": "approved",
+        "rightsNote": "Generated cover image for a multi-source roundup.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-28"
+      }
+    ],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace generated cover with source screenshots, public embeds, or exact location photos when available."
+    ],
+    "body": "Today's East Nashville source run is not a patio day. It is a public-meeting day with real neighborhood stakes: storm response, budget math, homelessness and affordable-housing coordination, and the East Bank moving another step from renderings toward construction fencing.\n\nMetro lists a Winter Storm Response Commission public hearing today from 9 a.m. to noon at the MNPS Administration Building. Executive Order 058 says the commission exists to review NES and Metro preparation and response after the January 2026 winter storm, including recommendations to reduce delays in power restoration and improve future emergency response.\n\nMetro Council's event page lists Budget and Finance Work Session 3 for today at 4:30 p.m. in the Historic Metro Courthouse. It is the third straight budget work-session day in the source pass, which means the dull nouns are still becoming practical consequences: libraries, parks, transportation, public safety, schools, and storm-response systems.\n\nThe Continuum of Care Homelessness Planning Council Housing Opportunities Committee is listed for 2:30 p.m. today at Park Center East, 948 Woodland Street. The official listing says the committee collaborates with agencies, housing providers, and community stakeholders to expand affordable housing solutions for people experiencing homelessness.\n\nEastpoint's official event page puts the Neighborhood Kickoff Party at 501 South 2nd Street on Saturday, May 30 from 10 a.m. to 1 p.m., and frames it as a celebration of the groundbreaking and kickoff of the new East Bank neighborhood. City Now Next reported the formal Eastpoint groundbreaking for May 28.\n\nThe East Room has Miggie Snyder's Hot & Young album release show at 8 p.m. with Emily O'Neal and Tiffany Johnson on public ticket listings. East Branch Library is open noon to 8 p.m. Private-platform material stays held today unless there is supervised capture with redaction and a public-link upgrade path.\n\nOur Read: Lead with the storm-response hearing and budget work session, then use the Woodland housing meeting and Eastpoint kickoff as the neighborhood accountability hooks.",
+    "articleSections": [
+      {
+        "heading": "Source Desk",
+        "paragraphs": [
+          "Today's East Nashville source run is not a patio day. It is a public-meeting day with real neighborhood stakes: storm response, budget math, homelessness and affordable-housing coordination, and the East Bank moving another step from renderings toward construction fencing.",
+          "Metro lists a Winter Storm Response Commission public hearing today from 9 a.m. to noon at the MNPS Administration Building. Executive Order 058 says the commission exists to review NES and Metro preparation and response after the January 2026 winter storm, including recommendations to reduce delays in power restoration and improve future emergency response.",
+          "Metro Council's event page lists Budget and Finance Work Session 3 for today at 4:30 p.m. in the Historic Metro Courthouse. It is the third straight budget work-session day in the source pass, which means the dull nouns are still becoming practical consequences: libraries, parks, transportation, public safety, schools, and storm-response systems.",
+          "The Continuum of Care Homelessness Planning Council Housing Opportunities Committee is listed for 2:30 p.m. today at Park Center East, 948 Woodland Street. The official listing says the committee collaborates with agencies, housing providers, and community stakeholders to expand affordable housing solutions for people experiencing homelessness.",
+          "Eastpoint's official event page puts the Neighborhood Kickoff Party at 501 South 2nd Street on Saturday, May 30 from 10 a.m. to 1 p.m., and frames it as a celebration of the groundbreaking and kickoff of the new East Bank neighborhood. City Now Next reported the formal Eastpoint groundbreaking for May 28.",
+          "The East Room has Miggie Snyder's Hot & Young album release show at 8 p.m. with Emily O'Neal and Tiffany Johnson on public ticket listings. East Branch Library is open noon to 8 p.m. Private-platform material stays held today unless there is supervised capture with redaction and a public-link upgrade path.",
+          "Our Read: Lead with the storm-response hearing and budget work session, then use the Woodland housing meeting and Eastpoint kickoff as the neighborhood accountability hooks."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "winter-storm-response-hearing-may-28-2026",
+    "slug": "winter-storm-response-commission-hearing-may-28-2026",
+    "title": "The Winter Storm Response Commission Has A Hearing Today, And East Nashville Should Keep The Receipts",
+    "deck": "The 9 a.m. public hearing brings emergency management and disaster-response organizations into the room, while the mayor's order explains the commission's job: review the January outage response and recommend what changes before the next one.",
+    "readerUtility": {
+      "title": "Storm Response Watch",
+      "items": [
+        {
+          "label": "When",
+          "value": "May 28, 9 a.m. to noon"
+        },
+        {
+          "label": "Where",
+          "value": "MNPS Administration Building"
+        },
+        {
+          "label": "Focus",
+          "value": "Power restoration and emergency response"
+        }
+      ]
+    },
+    "pullQuote": "The neighborhood does not need outage lore. It needs a better operating manual.",
+    "zone": "Metro",
+    "beat": "Public Safety",
+    "label": "Confirmed",
+    "confidence": "Official Mayor's Office meeting page and executive order.",
+    "reporterId": "parker",
+    "time": "May 28, 2026",
+    "priority": 329,
+    "imageStyle": "street",
+    "factBox": [
+      {
+        "label": "Hearing",
+        "value": "Winter Storm Response Commission"
+      },
+      {
+        "label": "Time",
+        "value": "9 a.m. to noon"
+      },
+      {
+        "label": "Focus",
+        "value": "Emergency response and power restoration"
+      }
+    ],
+    "sourceNote": "No claim about hearing outcome until video, minutes, or recommendations are reviewed.",
+    "sources": [
+      {
+        "name": "Winter Storm Response Commission Public Hearing, May 28",
+        "url": "https://www.nashville.gov/departments/mayor/boards/winter-storm-commission/meetings/winter-storm-response-commission-public-hearing-meeting-may-28-2026",
+        "type": "Official listing"
+      },
+      {
+        "name": "Executive Order 058 creating the Winter Storm Response Commission",
+        "url": "https://www.nashville.gov/departments/metro-clerk/fo058",
+        "type": "Official order"
+      }
+    ],
+    "social": {
+      "x": "Winter Storm Response Commission hearing is 9-noon today. East Nashville question: who communicates, where do people go, and what changes before the next outage?",
+      "instagram": "The outage story is not over. Today's public hearing is where the operating manual gets questioned.",
+      "video": "Parker stands with a flashlight, a phone at 4 percent, and a public meeting agenda: no more outage folklore, please."
+    },
+    "body": "Metro lists the Winter Storm Response Commission public hearing for Thursday, May 28 from 9 a.m. to noon at the Metro Nashville Public Schools Administration Building.\n\nThe meeting listing says the Office of Emergency Management and Voluntary Organizations Active in Disaster will be present. That makes today's hearing about both official response and the nonprofit/community response that residents feel when systems get strained.\n\nExecutive Order 058 created the commission after the January 2026 winter storm, when Nashville saw widespread outages, property and infrastructure damage, business closures, and displacement.\n\nFor East Nashville, the useful questions are concrete: who communicates first, where do people without power go, how do vulnerable residents get checked on, what did tree and utility coordination miss, and what changes before the next storm.\n\nSource Desk: Confirmed from the Metro meeting page and Executive Order 058.",
+    "articleSections": [
+      {
+        "heading": "Source Desk",
+        "paragraphs": [
+          "Metro lists the Winter Storm Response Commission public hearing for Thursday, May 28 from 9 a.m. to noon at the Metro Nashville Public Schools Administration Building.",
+          "The meeting listing says the Office of Emergency Management and Voluntary Organizations Active in Disaster will be present. That makes today's hearing about both official response and the nonprofit/community response that residents feel when systems get strained.",
+          "Executive Order 058 created the commission after the January 2026 winter storm, when Nashville saw widespread outages, property and infrastructure damage, business closures, and displacement.",
+          "For East Nashville, the useful questions are concrete: who communicates first, where do people without power go, how do vulnerable residents get checked on, what did tree and utility coordination miss, and what changes before the next storm.",
+          "Source Desk: Confirmed from the Metro meeting page and Executive Order 058."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "metro-budget-work-session-three-may-28-2026",
+    "slug": "metro-budget-work-session-three-may-28-2026",
+    "title": "Metro Budget Work Session 3 Is Today, Because The Spreadsheet Has Stamina",
+    "deck": "Metro Council's third FY27 budget work session is listed for 4:30 p.m. at the Historic Metro Courthouse, keeping the week-long budget grind in motion.",
+    "readerUtility": {
+      "title": "Budget Watch",
+      "items": [
+        {
+          "label": "When",
+          "value": "May 28 at 4:30 p.m."
+        },
+        {
+          "label": "Where",
+          "value": "Historic Metro Courthouse"
+        },
+        {
+          "label": "Next",
+          "value": "Budget Work Session 4 is listed for June 3"
+        }
+      ]
+    },
+    "pullQuote": "The budget is not one meeting; it is a slow machine with many chances to hide the important parts.",
+    "zone": "Metro",
+    "beat": "Civic",
+    "label": "Confirmed",
+    "confidence": "Official Metro Council meeting listing.",
+    "reporterId": "june",
+    "time": "May 28, 2026",
+    "priority": 328,
+    "imageStyle": "permit",
+    "factBox": [
+      {
+        "label": "Meeting",
+        "value": "Budget and Finance Work Session 3"
+      },
+      {
+        "label": "Time",
+        "value": "4:30 p.m."
+      },
+      {
+        "label": "Location",
+        "value": "Historic Metro Courthouse"
+      }
+    ],
+    "sourceNote": "No private-platform material used.",
+    "sources": [
+      {
+        "name": "Metro Council Budget and Finance Work Session 3",
+        "url": "https://www.nashville.gov/departments/council/boards/metro-council/meetings/metropolitan-council-budget-finance-committee-work-session-3-meeting-may-28-2026",
+        "type": "Official listing"
+      },
+      {
+        "name": "Metro Council Office Events",
+        "url": "https://www.nashville.gov/departments/council/events",
+        "type": "Official calendar"
+      }
+    ],
+    "social": {
+      "x": "Metro Budget Work Session 3 is today at 4:30. East Nashville translation: street safety, parks, libraries, storm response, and East Bank infrastructure keep asking for a line item.",
+      "instagram": "Budget Work Session 3: the spreadsheet has stamina and so, apparently, must we.",
+      "video": "June holds a budget binder like it has wronged her personally."
+    },
+    "body": "Metro Council's public calendar lists Budget and Finance Work Session 3 for Thursday, May 28 at 4:30 p.m. in the Historic Metro Courthouse.\n\nThis follows Work Sessions 1 and 2 earlier in the week, with another listed for Wednesday, June 3. The budget is not one meeting; it is a slow machine with many chances to hide the important parts.\n\nEvery recurring neighborhood complaint eventually asks for budget language: safer streets, park maintenance, library hours, public safety staffing, storm response, school support, and East Bank infrastructure.\n\nSource Desk: Confirmed from Metro Council's public event calendar.",
+    "articleSections": [
+      {
+        "heading": "Source Desk",
+        "paragraphs": [
+          "Metro Council's public calendar lists Budget and Finance Work Session 3 for Thursday, May 28 at 4:30 p.m. in the Historic Metro Courthouse.",
+          "This follows Work Sessions 1 and 2 earlier in the week, with another listed for Wednesday, June 3. The budget is not one meeting; it is a slow machine with many chances to hide the important parts.",
+          "Every recurring neighborhood complaint eventually asks for budget language: safer streets, park maintenance, library hours, public safety staffing, storm response, school support, and East Bank infrastructure.",
+          "Source Desk: Confirmed from Metro Council's public event calendar."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "housing-opportunities-committee-park-center-east-may-28-2026",
+    "slug": "housing-opportunities-committee-park-center-east-may-28-2026",
+    "title": "A Homelessness Housing Committee Meets On Woodland Today, Which Is Not Just Metro Calendar Filler",
+    "deck": "The Continuum of Care Housing Opportunities Committee is listed for 2:30 p.m. at Park Center East, with an official charge to expand affordable housing solutions for people experiencing homelessness.",
+    "readerUtility": {
+      "title": "Housing Watch",
+      "items": [
+        {
+          "label": "When",
+          "value": "May 28 at 2:30 p.m."
+        },
+        {
+          "label": "Where",
+          "value": "Park Center East, 948 Woodland Street"
+        },
+        {
+          "label": "Scope",
+          "value": "Affordable housing solutions for people experiencing homelessness"
+        }
+      ]
+    },
+    "pullQuote": "The clean way to cover the pattern is public meetings and public data, not individual hardship screenshots.",
+    "zone": "East Nashville",
+    "beat": "Housing",
+    "label": "Confirmed",
+    "confidence": "Official Office of Homeless Services listing.",
+    "reporterId": "parker",
+    "time": "May 28, 2026",
+    "priority": 327,
+    "imageStyle": "street",
+    "factBox": [
+      {
+        "label": "Committee",
+        "value": "Continuum of Care Housing Opportunities"
+      },
+      {
+        "label": "Location",
+        "value": "Park Center East, 948 Woodland Street"
+      },
+      {
+        "label": "Time",
+        "value": "2:30 p.m."
+      }
+    ],
+    "sourceNote": "Use this as a public-source anchor for housing pattern coverage; do not identify private housing asks without consent.",
+    "sources": [
+      {
+        "name": "Continuum of Care Housing Opportunities Committee, May 28",
+        "url": "https://www.nashville.gov/departments/office-homeless-services/boards/homelessness/meetings/continuum-care-homelessness-planning-council-housing-opportunities-committee-meeting-may-28-2026",
+        "type": "Official listing"
+      }
+    ],
+    "social": {
+      "x": "A homelessness Housing Opportunities Committee meets at Park Center East today at 2:30. If we are going to talk about East Nashville housing pressure, this is the public-source lane.",
+      "instagram": "Housing pressure belongs in the source desk, not just the comment thread.",
+      "video": "Parker points to Woodland Street on a map and says: this is how we cover the pattern without exploiting someone's emergency."
+    },
+    "body": "Metro's Office of Homeless Services lists the Continuum of Care Homelessness Planning Council Housing Opportunities Committee for Thursday, May 28 at 2:30 p.m. at Park Center East, 948 Woodland Street.\n\nThe official listing says the committee collaborates with local agencies, housing providers, and community stakeholders to identify, develop, and expand affordable housing solutions for people experiencing homelessness in Nashville.\n\nThis is exactly the kind of meeting that can look small until you connect it to the thing residents are already seeing: voucher pressure, sublet asks, rising rents, shelter gaps, and a lot of private need that should not be turned into clickbait.\n\nSource Desk: Confirmed from the Office of Homeless Services meeting page.",
+    "articleSections": [
+      {
+        "heading": "Source Desk",
+        "paragraphs": [
+          "Metro's Office of Homeless Services lists the Continuum of Care Homelessness Planning Council Housing Opportunities Committee for Thursday, May 28 at 2:30 p.m. at Park Center East, 948 Woodland Street.",
+          "The official listing says the committee collaborates with local agencies, housing providers, and community stakeholders to identify, develop, and expand affordable housing solutions for people experiencing homelessness in Nashville.",
+          "This is exactly the kind of meeting that can look small until you connect it to the thing residents are already seeing: voucher pressure, sublet asks, rising rents, shelter gaps, and a lot of private need that should not be turned into clickbait.",
+          "Source Desk: Confirmed from the Office of Homeless Services meeting page."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "eastpoint-groundbreaking-day-may-28-2026",
+    "slug": "eastpoint-groundbreaking-day-may-28-2026",
+    "title": "Eastpoint's Groundbreaking Week Is Here. Now The Promises Need A Scorecard.",
+    "deck": "Eastpoint's official page confirms the Saturday kickoff, City Now Next reports the formal May 28 groundbreaking, and the project pitch starts with the big promises: affordable housing, childcare, public access, and a riverfront neighborhood instead of another parking-memory machine.",
+    "readerUtility": {
+      "title": "Eastpoint Scorecard",
+      "items": [
+        {
+          "label": "Formal marker",
+          "value": "Reported May 28 groundbreaking"
+        },
+        {
+          "label": "Public event",
+          "value": "May 30, 10 a.m. to 1 p.m."
+        },
+        {
+          "label": "Where",
+          "value": "501 South 2nd Street"
+        },
+        {
+          "label": "Track",
+          "value": "Affordable housing, childcare, river access, phasing"
+        }
+      ]
+    },
+    "pullQuote": "Enjoy the kickoff. Bring the scorecard.",
+    "zone": "East Bank",
+    "beat": "Development",
+    "label": "Reported",
+    "confidence": "Eastpoint official event page plus reported City Now Next development context.",
+    "reporterId": "june",
+    "time": "May 28, 2026",
+    "priority": 326,
+    "imageStyle": "permit",
+    "factBox": [
+      {
+        "label": "Public kickoff",
+        "value": "Saturday, May 30"
+      },
+      {
+        "label": "Address",
+        "value": "501 South 2nd Street"
+      },
+      {
+        "label": "Track",
+        "value": "Affordable housing, childcare, and river access"
+      }
+    ],
+    "sourceNote": "Reported development item. Attach any official groundbreaking release before upgrading every ceremony detail to Confirmed.",
+    "sources": [
+      {
+        "name": "Eastpoint Neighborhood Kickoff Party",
+        "url": "https://eastpointnashville.com/events/eastpoint-neighborhood-kickoff-party",
+        "type": "Official event page"
+      },
+      {
+        "name": "Eastpoint official site",
+        "url": "https://eastpointnashville.com/",
+        "type": "Project site"
+      },
+      {
+        "name": "City Now Next: Eastpoint renderings and groundbreaking context",
+        "url": "https://citynownext.com/2026/05/05/fallon-releases-new-renderings-parcel-c-next-to-nissan-stadium-in-nashville/",
+        "type": "Reported development context"
+      }
+    ],
+    "social": {
+      "x": "Eastpoint's official kickoff is Saturday and the formal groundbreaking is reported for today. Enjoy the party; track the scorecard: affordable housing, childcare, river access, phasing.",
+      "instagram": "Eastpoint has entered the scorecard era.",
+      "video": "June stands between a rendering and a checklist: yes, it is exciting; yes, we are keeping receipts."
+    },
+    "body": "Eastpoint's official event page lists the Neighborhood Kickoff Party for Saturday, May 30 from 10 a.m. to 1 p.m. at 501 South 2nd Street, calling it a celebration of the groundbreaking and kickoff of the Eastpoint Neighborhood.\n\nCity Now Next reported that the formal Eastpoint groundbreaking would be held May 28. Keep the day-specific ceremony at Reported, but the Saturday public kickoff is now on Eastpoint's own site.\n\nEastpoint's official copy frames the project as a people-first riverfront neighborhood with long-term affordability, family-supportive infrastructure, and public access to the Cumberland.\n\nThe first residential phase is described as all-affordable and paired with the neighborhood's first childcare facility. That is the sentence to put on the scorecard now, before the ribbon scissors come out.\n\nSource Desk: The kickoff is confirmed by Eastpoint's event page; the May 28 formal groundbreaking timing is reported context.",
+    "articleSections": [
+      {
+        "heading": "Source Desk",
+        "paragraphs": [
+          "Eastpoint's official event page lists the Neighborhood Kickoff Party for Saturday, May 30 from 10 a.m. to 1 p.m. at 501 South 2nd Street, calling it a celebration of the groundbreaking and kickoff of the Eastpoint Neighborhood.",
+          "City Now Next reported that the formal Eastpoint groundbreaking would be held May 28. Keep the day-specific ceremony at Reported, but the Saturday public kickoff is now on Eastpoint's own site.",
+          "Eastpoint's official copy frames the project as a people-first riverfront neighborhood with long-term affordability, family-supportive infrastructure, and public access to the Cumberland.",
+          "The first residential phase is described as all-affordable and paired with the neighborhood's first childcare facility. That is the sentence to put on the scorecard now, before the ribbon scissors come out.",
+          "Source Desk: The kickoff is confirmed by Eastpoint's event page; the May 28 formal groundbreaking timing is reported context."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "thursday-east-nashville-calendar-may-28-2026",
+    "slug": "thursday-east-nashville-calendar-may-28-2026",
+    "title": "Thursday East Nashville Calendar: The East Room Gets The Album Release, East Branch Gets The Utility Lane",
+    "deck": "Thursday's East Side plan is simple: Miggie Snyder's Hot & Young album release at The East Room tonight, East Branch Library open noon to 8, and a reminder that not every useful calendar needs to act like a festival poster.",
+    "readerUtility": {
+      "title": "Thursday Plans",
+      "items": [
+        {
+          "label": "8:00 p.m.",
+          "value": "Miggie Snyder at The East Room"
+        },
+        {
+          "label": "Noon-8 p.m.",
+          "value": "East Branch Library hours"
+        },
+        {
+          "label": "Saturday",
+          "value": "Eastpoint kickoff and library summer reading lanes"
+        }
+      ]
+    },
+    "pullQuote": "Not every useful calendar needs to act like a festival poster.",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "label": "Confirmed",
+    "confidence": "Public ticket listing and Nashville Public Library East Branch page.",
+    "reporterId": "lila",
+    "time": "May 28, 2026",
+    "priority": 325,
+    "imageStyle": "event",
+    "factBox": [
+      {
+        "label": "Music",
+        "value": "Miggie Snyder at The East Room"
+      },
+      {
+        "label": "Library",
+        "value": "East Branch open noon to 8 p.m."
+      },
+      {
+        "label": "Date",
+        "value": "Thursday, May 28, 2026"
+      }
+    ],
+    "sourceNote": "Venue and branch details can change; check the pages before leaving.",
+    "sources": [
+      {
+        "name": "Bandsintown: Miggie Snyder at The East Room",
+        "url": "https://www.bandsintown.com/e/108077828?app_id=szm_feed&came_from=283",
+        "type": "Event listing"
+      },
+      {
+        "name": "Nashville Public Library East Branch",
+        "url": "https://library.nashville.gov/locations/east",
+        "type": "Library hours and calendar"
+      }
+    ],
+    "social": {
+      "x": "Thursday East Nashville calendar: Miggie Snyder album release at The East Room, East Branch open noon-8, and the rare reminder that a useful public building counts as a plan.",
+      "instagram": "Tonight: The East Room. Today: East Branch if you need the practical lane.",
+      "video": "Lila points one hand toward The East Room and the other toward the library: range."
+    },
+    "body": "Public ticket listings put Miggie Snyder's Hot & Young album release show at The East Room tonight at 8 p.m., with Emily O'Neal and Tiffany Johnson on the bill.\n\nEast Branch Library is open noon to 8 p.m. today, which is not glamorous until you need Wi-Fi, a printer, a hold pickup, a quiet table, or a public building that does not ask you to buy a drink.\n\nThe useful read: The East Room is the music move. East Branch is the practical move. Saturday is where the bigger Eastpoint and summer-reading calendars start to get louder.\n\nCalendar Desk: Check ticket and branch pages before leaving; listings can change.",
+    "articleSections": [
+      {
+        "heading": "Source Desk",
+        "paragraphs": [
+          "Public ticket listings put Miggie Snyder's Hot & Young album release show at The East Room tonight at 8 p.m., with Emily O'Neal and Tiffany Johnson on the bill.",
+          "East Branch Library is open noon to 8 p.m. today, which is not glamorous until you need Wi-Fi, a printer, a hold pickup, a quiet table, or a public building that does not ask you to buy a drink.",
+          "The useful read: The East Room is the music move. East Branch is the practical move. Saturday is where the bigger Eastpoint and summer-reading calendars start to get louder.",
+          "Calendar Desk: Check ticket and branch pages before leaving; listings can change."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
     "id": "may-27-source-pass-east-nashville",
     "slug": "today-east-nashville-source-pass-may-27-2026",
     "title": "Today's East Nashville Source Pass: Budget Work Session 2, Emergency Prep, Eastpoint Countdown, And A Very Wednesday Calendar",
@@ -9392,6 +9961,139 @@ export const stories = [
 ] satisfies Story[];
 
 export const sourceItems = [
+  {
+    "id": "src-may28-source-pass",
+    "title": "May 28 public source pass",
+    "source": "East Meets Nash daily source workflow",
+    "url": "/story/today-east-nashville-source-pass-may-28-2026",
+    "zone": "East Nashville",
+    "beat": "News",
+    "confidence": "Reported",
+    "risk": "Low",
+    "score": 100,
+    "status": "Published May 28",
+    "automation": "Public-source sweep plus private-platform hold",
+    "cadence": "Daily",
+    "verificationRule": "Publish public-source items now; add Facebook/Nextdoor only from supervised notes with redactions.",
+    "suggestedReporter": "june",
+    "suggestedLabel": "Reported",
+    "suggestedAngle": "Make the May 28 source pass the issue lead with storm response, budget, housing, Eastpoint, and calendar utility.",
+    "publishFormat": "Daily source pass"
+  },
+  {
+    "id": "src-may28-winter-storm-response-hearing",
+    "title": "Winter Storm Response Commission public hearing",
+    "source": "Mayor's Office and Metro Clerk",
+    "url": "https://www.nashville.gov/departments/mayor/boards/winter-storm-commission/meetings/winter-storm-response-commission-public-hearing-meeting-may-28-2026",
+    "zone": "Metro",
+    "beat": "Public Safety",
+    "confidence": "Official",
+    "risk": "Low",
+    "score": 98,
+    "status": "Published May 28",
+    "automation": "Metro public meeting scan",
+    "cadence": "As needed",
+    "verificationRule": "Use official meeting page and executive order; do not claim outcomes until minutes/video/recommendations exist.",
+    "suggestedReporter": "parker",
+    "suggestedLabel": "Confirmed",
+    "suggestedAngle": "Frame storm response as neighborhood infrastructure.",
+    "publishFormat": "Public-safety civic brief"
+  },
+  {
+    "id": "src-may28-budget-work-session-three",
+    "title": "Metro Council FY27 Budget and Finance Work Session 3",
+    "source": "Metro Council",
+    "url": "https://www.nashville.gov/departments/council/boards/metro-council/meetings/metropolitan-council-budget-finance-committee-work-session-3-meeting-may-28-2026",
+    "zone": "Metro",
+    "beat": "Civic",
+    "confidence": "Official",
+    "risk": "Low",
+    "score": 97,
+    "status": "Published May 28",
+    "automation": "Metro Council calendar scan",
+    "cadence": "Daily during budget season",
+    "verificationRule": "Use official meeting page for time and room.",
+    "suggestedReporter": "june",
+    "suggestedLabel": "Confirmed",
+    "suggestedAngle": "Keep East Nashville budget stakes visible through the work-session sequence.",
+    "publishFormat": "Civic explainer"
+  },
+  {
+    "id": "src-may28-housing-opportunities-park-center-east",
+    "title": "Housing Opportunities Committee at Park Center East",
+    "source": "Office of Homeless Services",
+    "url": "https://www.nashville.gov/departments/office-homeless-services/boards/homelessness/meetings/continuum-care-homelessness-planning-council-housing-opportunities-committee-meeting-may-28-2026",
+    "zone": "East Nashville",
+    "beat": "Housing",
+    "confidence": "Official",
+    "risk": "Low",
+    "score": 95,
+    "status": "Published May 28",
+    "automation": "Office of Homeless Services meeting scan",
+    "cadence": "Weekly",
+    "verificationRule": "Use as public-source anchor for housing pattern coverage; do not identify private housing asks without consent.",
+    "suggestedReporter": "parker",
+    "suggestedLabel": "Confirmed",
+    "suggestedAngle": "Connect a Woodland Street public meeting to broader housing pressure without exploiting private posts.",
+    "publishFormat": "Housing civic brief"
+  },
+  {
+    "id": "src-may28-eastpoint-groundbreaking-week",
+    "title": "Eastpoint groundbreaking and neighborhood kickoff week",
+    "source": "Eastpoint and City Now Next",
+    "url": "https://eastpointnashville.com/events/eastpoint-neighborhood-kickoff-party",
+    "zone": "East Bank",
+    "beat": "Development",
+    "confidence": "Reported",
+    "risk": "Low",
+    "score": 94,
+    "status": "Published May 28 as reported development watch",
+    "automation": "Development/event public source check",
+    "cadence": "Daily this week",
+    "verificationRule": "Treat May 30 kickoff as official from Eastpoint; keep May 28 formal groundbreaking timing as reported unless an official release is attached.",
+    "suggestedReporter": "june",
+    "suggestedLabel": "Reported",
+    "suggestedAngle": "Build an Eastpoint accountability scorecard around affordable housing, childcare, access, and phasing.",
+    "publishFormat": "Development watch"
+  },
+  {
+    "id": "src-may28-thursday-calendar",
+    "title": "May 28 East Nashville Thursday calendar",
+    "source": "The East Room and Nashville Public Library",
+    "url": "/story/thursday-east-nashville-calendar-may-28-2026",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "confidence": "Public listings",
+    "risk": "Low",
+    "score": 90,
+    "status": "Published May 28",
+    "automation": "Venue/library calendar scan",
+    "cadence": "Daily",
+    "verificationRule": "Use public listing and branch page; remind readers to check details before leaving.",
+    "suggestedReporter": "lila",
+    "suggestedLabel": "Confirmed",
+    "suggestedAngle": "Give Thursday a compact calendar lane.",
+    "publishFormat": "Daily event utility"
+  },
+  {
+    "id": "src-may28-facebook-nextdoor-hold",
+    "title": "May 28 Facebook and Nextdoor supervised capture lane",
+    "source": "Private-platform supervised capture",
+    "url": "/admin/sources",
+    "zone": "East Nashville",
+    "beat": "Neighborhood",
+    "confidence": "Not captured today",
+    "risk": "Medium",
+    "score": 70,
+    "status": "Held May 28; no new supervised private-platform pass used",
+    "automation": "Manual only",
+    "cadence": "When user opens visible feeds",
+    "verificationRule": "Do not publish private-platform claims without screenshots or editor notes, hard redactions where needed, and clear labels.",
+    "suggestedReporter": "mabel",
+    "suggestedLabel": "Group Chat Says",
+    "suggestedAngle": "Run only if a supervised feed pass is available.",
+    "publishFormat": "Capture queue"
+  },
   {
     "id": "src-may27-source-pass",
     "title": "May 27 public source pass",
