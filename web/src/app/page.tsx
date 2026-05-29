@@ -11,15 +11,20 @@ function storySection(stories: Story[], usedIds: Set<string>, predicate: (story:
 }
 
 const todayPackageIds = [
+  "may-29-source-pass-east-nashville",
+  "eastpoint-flats-groundbreaking-follow-may-29-2026",
+  "friday-east-nashville-music-calendar-may-29-2026",
+  "east-branch-summer-reading-kickoff-may-29-2026",
+  "metro-parks-friday-night-calendar-may-29-2026",
+];
+
+const recentPackageIds = [
   "may-28-source-pass-east-nashville",
   "winter-storm-response-hearing-may-28-2026",
   "metro-budget-work-session-three-may-28-2026",
   "housing-opportunities-committee-park-center-east-may-28-2026",
   "eastpoint-groundbreaking-day-may-28-2026",
   "thursday-east-nashville-calendar-may-28-2026",
-];
-
-const recentPackageIds = [
   "may-27-source-pass-east-nashville",
   "metro-budget-work-session-two-may-27-2026",
   "emergency-preparedness-working-group-may-27-2026",
@@ -202,12 +207,12 @@ export default function HomePage() {
       <section className="front-layout home-front">
         <div>
           <div className="section-heading front-page-heading">
-            <p className="eyebrow">East Nashville Today / May 28</p>
-            <h1>Storm Response, Budget Round Three, And Housing Homework</h1>
+            <p className="eyebrow">East Nashville Today / May 29</p>
+            <h1>Eastpoint Starts, Friday Music, And The Weekend Kid Plan</h1>
             <p>
-              Today&apos;s issue leads with public records: the Winter Storm Response hearing, Metro&apos;s third budget
-              work session, the Park Center East housing meeting, Eastpoint&apos;s kickoff window, and a compact
-              Thursday calendar.
+              Today&apos;s issue leads with public sources: Eastpoint Flats construction receipts, tomorrow&apos;s official
+              neighborhood kickoff, three East Nashville music listings, East Branch summer reading, and a citywide
+              parks lane for anyone who needs outside air.
             </p>
           </div>
           <section className="front-package" aria-label="Top stories">
@@ -236,7 +241,7 @@ export default function HomePage() {
               <p className="eyebrow">Source Status</p>
               <h2>Read The Label Before The Take</h2>
               <p>
-                May 28 is a public-source issue: confirmed meeting and event listings, reported Eastpoint development
+                May 29 is a public-source issue: confirmed event and library listings, reported Eastpoint construction
                 context, and private-platform material held until supervised capture exists.
               </p>
             </div>
@@ -322,7 +327,7 @@ export default function HomePage() {
         <aside className="side-rail">
           <section className="source-rail-panel">
             <p className="eyebrow">Today&apos;s Package</p>
-            <h2>{todayStories.length} May 28 Stories Live</h2>
+            <h2>{todayStories.length} May 29 Stories Live</h2>
             <p>{todaySourcePass.summary}</p>
             <dl>
               <div>

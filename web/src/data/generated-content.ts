@@ -188,6 +188,558 @@ export const reporters = [
 
 export const stories = [
   {
+    "id": "may-29-source-pass-east-nashville",
+    "slug": "today-east-nashville-source-pass-may-29-2026",
+    "title": "Today's East Nashville Source Pass: Eastpoint Starts, Friday Music, Summer Reading, And A Moonlit Parks Lane",
+    "deck": "Friday's issue is a weekend-setting run: Eastpoint Flats construction is now reported underway, the official neighborhood kickoff is tomorrow, three East Nashville venues have public listings tonight, and East Branch Library starts summer reading Saturday.",
+    "readerUtility": {
+      "title": "Today's Useful Read",
+      "items": [
+        {
+          "label": "East Bank",
+          "value": "Eastpoint Flats construction reported underway"
+        },
+        {
+          "label": "Saturday",
+          "value": "Eastpoint kickoff, 10 a.m. to 1 p.m."
+        },
+        {
+          "label": "Tonight",
+          "value": "Basement East, Eastside Bowl, and East Room listings"
+        },
+        {
+          "label": "Saturday",
+          "value": "East Branch Summer Reading kickoff"
+        }
+      ]
+    },
+    "pullQuote": "The East Bank promise is no longer just renderings. Now it needs receipts.",
+    "zone": "East Nashville",
+    "beat": "News",
+    "label": "Reported",
+    "confidence": "Built from official Eastpoint, Metro, East Branch Library, Metro Parks, and venue listings, with the Eastpoint construction update reported by the Tennessean via AOL.",
+    "reporterId": "june",
+    "time": "May 29, 2026",
+    "priority": 336,
+    "imageStyle": "issue-cover",
+    "factBox": [
+      {
+        "label": "Date",
+        "value": "Friday, May 29, 2026"
+      },
+      {
+        "label": "Eastpoint",
+        "value": "Kickoff is Saturday at 501 South 2nd Street"
+      },
+      {
+        "label": "Music",
+        "value": "Three East Nashville venue listings tonight"
+      },
+      {
+        "label": "Private platforms",
+        "value": "Held unless supervised capture exists"
+      }
+    ],
+    "sourceNote": "The construction start is reported by the Tennessean via AOL; the May 30 kickoff is confirmed on Eastpoint's official page.",
+    "sources": [
+      {
+        "name": "Tennessean via AOL: Eastpoint Flats construction begins",
+        "url": "https://www.aol.com/articles/construction-begins-affordable-apartments-nashvilles-183302065.html",
+        "type": "Reported local news"
+      },
+      {
+        "name": "Eastpoint Neighborhood Kickoff Party",
+        "url": "https://eastpointnashville.com/events/eastpoint-neighborhood-kickoff-party",
+        "type": "Official event page"
+      },
+      {
+        "name": "Metro Nashville East Bank Development",
+        "url": "https://www.nashville.gov/featured-initiatives/east-bank-development",
+        "type": "Official project page"
+      },
+      {
+        "name": "City Now Next: Eastpoint renderings and groundbreaking context",
+        "url": "https://citynownext.com/2026/05/05/fallon-releases-new-renderings-parcel-c-next-to-nissan-stadium-in-nashville/",
+        "type": "Reported development context"
+      },
+      {
+        "name": "The Basement East: Boot Scootin' Boogie Nights",
+        "url": "https://www.thebasementnashville.com/tm-attraction/boot-scootin-boogie-nights/",
+        "type": "Venue listing"
+      },
+      {
+        "name": "Eastside Bowl shows calendar",
+        "url": "https://shows.eastsidebowl.com/",
+        "type": "Venue listing"
+      },
+      {
+        "name": "TicketWeb: Cooper Moore / Alysia Josephine / Whail / RowenBeau",
+        "url": "https://www.ticketweb.com/event/cooper-moore-alysia-josephine-the-east-room-tickets/14876963",
+        "type": "Ticket listing"
+      },
+      {
+        "name": "Nashville Public Library East Branch",
+        "url": "https://library.nashville.gov/locations/east",
+        "type": "Library hours and calendar"
+      },
+      {
+        "name": "East Branch Summer Reading kickoff: Story Time with Scientists",
+        "url": "https://events.library.nashville.org/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-8a3e8e4b-9e2e7865-019e-41bffaa8-00007510demobedework%40mysite.edu&recurrenceId=",
+        "type": "Library event listing"
+      },
+      {
+        "name": "Metro Parks: Full Moon Pickin' Party",
+        "url": "https://www.nashville.gov/departments/parks/events/full-moon-pickin-party-20",
+        "type": "Official event listing"
+      },
+      {
+        "name": "Nashville.gov events list, May 29",
+        "url": "https://www.nashville.gov/event-list",
+        "type": "Official calendar"
+      }
+    ],
+    "social": {
+      "x": "May 29 source pass: Eastpoint Flats is reported underway, tomorrow's Eastpoint kickoff is official, East Nashville has three venue listings tonight, and East Branch starts summer reading Saturday.",
+      "instagram": "Friday board: Eastpoint construction receipts, tomorrow's kickoff, Gallatin/Woodland music, East Branch kid plans, and private-feed material staying politely locked in the source desk.",
+      "video": "June points to Eastpoint first, then Lila crashes in with Friday venue listings and the East Branch Saturday kid plan."
+    },
+    "heroImage": "/api/media/issue-cover?id=may-29-source-pass-east-nashville",
+    "heroAlt": "Cover art for Today's East Nashville Source Pass: Eastpoint Starts, Friday Music, Summer Reading, And A Moonlit Parks Lane.",
+    "media": [
+      {
+        "label": "Issue Cover",
+        "title": "May 29 source pass cover",
+        "description": "Generated cover art for the May 29 East Nashville source pass.",
+        "url": "/story/today-east-nashville-source-pass-may-29-2026",
+        "imageUrl": "/api/media/issue-cover?id=may-29-source-pass-east-nashville",
+        "imageAlt": "Cover art for Today's East Nashville Source Pass: Eastpoint Starts, Friday Music, Summer Reading, And A Moonlit Parks Lane.",
+        "credit": "Image: East Meets Nash generated issue cover.",
+        "displayRole": "hero",
+        "provider": "generated_cover",
+        "sourceType": "generated_cover",
+        "relevance": "exact",
+        "relevanceScore": 88,
+        "approvalStatus": "approved",
+        "rightsNote": "Generated cover image for a multi-source roundup.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-29"
+      }
+    ],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "Friday's East Nashville run is a weekend-setting issue, not a panic issue: Eastpoint moves from renderings into construction receipts, tomorrow's neighborhood kickoff is officially listed, and the nightly calendar has enough Gallatin/Woodland music to keep the spreadsheet from becoming a personality.\n\nThe Tennessean, syndicated through AOL, reported Thursday night that construction has officially kicked off on Eastpoint Flats, the first residential development on city-owned East Bank land. The report says the 30-acre Eastpoint neighborhood is set to include 323 affordable housing units, an 8,000-square-foot child care facility, and 12,000 square feet of retail.\n\nEastpoint's official event page confirms the public-facing Neighborhood Kickoff Party for Saturday, May 30 from 10 a.m. to 1 p.m. at 501 South 2nd Street. Metro's East Bank page still frames the larger district as a 550-acre redevelopment area with 130 acres of Metro-owned land, which is the scale behind the block-party version of the story.\n\nTonight's East Nashville music lane is cleanly sourced: Boot Scootin' Boogie Nights at The Basement East, Matt Mann & The Shine Runners at Eastside Bowl's The '58, and Cooper Moore / Alysia Josephine / Whail / RowenBeau at The East Room.\n\nEast Branch Library is open today from 10 a.m. to 6 p.m., then turns Saturday into a kid-plan anchor with a Summer Reading Challenge kickoff: dinosaurs and scientists from Adventure Science Center at 10:30 a.m., then face painting from 2 to 4 p.m.\n\nMetro's public event list also has a Friday parks lane: a Fort Negley guided walking tour this morning, Full Moon Pickin' Party tonight, and a Moonlight Meander at Bells Bend. Not East-side-only, but useful for neighbors trying to choose between music, kids, and outside air.\n\nPrivate-platform material stays held today. No Facebook or Nextdoor claims were promoted without supervised capture, redaction, and a public-source upgrade path.",
+    "articleSections": [
+      {
+        "heading": "Source Desk",
+        "paragraphs": [
+          "Friday's East Nashville run is a weekend-setting issue, not a panic issue: Eastpoint moves from renderings into construction receipts, tomorrow's neighborhood kickoff is officially listed, and the nightly calendar has enough Gallatin/Woodland music to keep the spreadsheet from becoming a personality.",
+          "The Tennessean, syndicated through AOL, reported Thursday night that construction has officially kicked off on Eastpoint Flats, the first residential development on city-owned East Bank land. The report says the 30-acre Eastpoint neighborhood is set to include 323 affordable housing units, an 8,000-square-foot child care facility, and 12,000 square feet of retail.",
+          "Eastpoint's official event page confirms the public-facing Neighborhood Kickoff Party for Saturday, May 30 from 10 a.m. to 1 p.m. at 501 South 2nd Street. Metro's East Bank page still frames the larger district as a 550-acre redevelopment area with 130 acres of Metro-owned land, which is the scale behind the block-party version of the story.",
+          "Tonight's East Nashville music lane is cleanly sourced: Boot Scootin' Boogie Nights at The Basement East, Matt Mann & The Shine Runners at Eastside Bowl's The '58, and Cooper Moore / Alysia Josephine / Whail / RowenBeau at The East Room.",
+          "East Branch Library is open today from 10 a.m. to 6 p.m., then turns Saturday into a kid-plan anchor with a Summer Reading Challenge kickoff: dinosaurs and scientists from Adventure Science Center at 10:30 a.m., then face painting from 2 to 4 p.m.",
+          "Metro's public event list also has a Friday parks lane: a Fort Negley guided walking tour this morning, Full Moon Pickin' Party tonight, and a Moonlight Meander at Bells Bend. Not East-side-only, but useful for neighbors trying to choose between music, kids, and outside air.",
+          "Private-platform material stays held today. No Facebook or Nextdoor claims were promoted without supervised capture, redaction, and a public-source upgrade path."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "eastpoint-flats-groundbreaking-follow-may-29-2026",
+    "slug": "eastpoint-flats-groundbreaking-affordable-housing-kickoff-may-29-2026",
+    "title": "Eastpoint Flats Has Officially Moved From Renderings To Shovels. Now Count The Promises.",
+    "deck": "A new Tennessean report says construction has kicked off on Eastpoint Flats, with 323 affordable units, child care, retail, and a public kickoff tomorrow on South 2nd Street.",
+    "readerUtility": {
+      "title": "What To Watch",
+      "items": [
+        {
+          "label": "Units",
+          "value": "323 affordable housing units reported"
+        },
+        {
+          "label": "Child care",
+          "value": "8,000 square feet reported"
+        },
+        {
+          "label": "Retail",
+          "value": "12,000 square feet reported"
+        },
+        {
+          "label": "Kickoff",
+          "value": "Saturday, 10 a.m. to 1 p.m."
+        }
+      ]
+    },
+    "pullQuote": "The celebration is tomorrow. The scorecard starts now.",
+    "zone": "East Nashville",
+    "beat": "Development",
+    "label": "Reported",
+    "confidence": "Construction details are from the Tennessean via AOL; the public kickoff is confirmed by Eastpoint's official event page; Metro provides the East Bank context.",
+    "reporterId": "june",
+    "time": "May 29, 2026",
+    "priority": 335,
+    "imageStyle": "permit",
+    "factBox": [
+      {
+        "label": "Where",
+        "value": "Eastpoint development site, 501 South 2nd Street"
+      },
+      {
+        "label": "What",
+        "value": "First residential development on city-owned East Bank land, per report"
+      },
+      {
+        "label": "Public event",
+        "value": "May 30, 10 a.m. to 1 p.m."
+      }
+    ],
+    "sourceNote": "Keep the construction-start details at Reported because they come from a newspaper report; the kickoff listing itself is official.",
+    "sources": [
+      {
+        "name": "Tennessean via AOL: Eastpoint Flats construction begins",
+        "url": "https://www.aol.com/articles/construction-begins-affordable-apartments-nashvilles-183302065.html",
+        "type": "Reported local news"
+      },
+      {
+        "name": "Eastpoint Neighborhood Kickoff Party",
+        "url": "https://eastpointnashville.com/events/eastpoint-neighborhood-kickoff-party",
+        "type": "Official event page"
+      },
+      {
+        "name": "Metro Nashville East Bank Development",
+        "url": "https://www.nashville.gov/featured-initiatives/east-bank-development",
+        "type": "Official project page"
+      },
+      {
+        "name": "City Now Next: Eastpoint renderings and groundbreaking context",
+        "url": "https://citynownext.com/2026/05/05/fallon-releases-new-renderings-parcel-c-next-to-nissan-stadium-in-nashville/",
+        "type": "Reported development context"
+      }
+    ],
+    "social": {
+      "x": "Eastpoint Flats has moved from renderings to shovels, according to a new Tennessean report: 323 affordable units, child care, retail, and a public kickoff Saturday.",
+      "instagram": "Eastpoint's confetti moment is here. Fine. Now we count the units, the child care, the retail, the timelines, and every promise that got applause.",
+      "video": "A quick East Bank scorecard: what is confirmed, what is reported, and what neighbors should ask at tomorrow's kickoff."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "The East Bank story finally has dirt on its shoes. The Tennessean, syndicated through AOL, reported Thursday night that construction has officially kicked off on Eastpoint Flats, the first residential development on city-owned land in Nashville's East Bank buildout.\n\nThe reported program is the part East Nashville should keep on the wall: 323 affordable housing units, an 8,000-square-foot child care facility, and 12,000 square feet of retail inside the 30-acre Eastpoint district.\n\nThat is not just an architecture update. It is a public-benefit checklist. If the East Bank is going to be sold as a neighborhood instead of a stadium accessory, the affordable units, child care, public access, and local retail mix have to stay measurable after the microphones leave.\n\nEastpoint's official page lists the Neighborhood Kickoff Party for Saturday, May 30 from 10 a.m. to 1 p.m. at 501 South 2nd Street. It describes the event as family friendly and tied to the groundbreaking and kickoff of the Eastpoint Neighborhood.\n\nMetro's East Bank page frames the broader redevelopment as a 550-acre district with 130 acres of Metro-owned land, and notes the East Bank Development Authority's role in implementation. That scale is why the first housing building matters beyond one ribbon-cutting.\n\nUseful questions for tomorrow: when do the 323 units deliver, what affordability levels are locked, how the child care facility will operate, what retail tenants are being courted, and how public river access works while construction is active.",
+    "articleSections": [
+      {
+        "heading": "The Groundbreaking Is The Start, Not The Ending",
+        "paragraphs": [
+          "The East Bank story finally has dirt on its shoes. The Tennessean, syndicated through AOL, reported Thursday night that construction has officially kicked off on Eastpoint Flats, the first residential development on city-owned land in Nashville's East Bank buildout.",
+          "The reported program is the part East Nashville should keep on the wall: 323 affordable housing units, an 8,000-square-foot child care facility, and 12,000 square feet of retail inside the 30-acre Eastpoint district.",
+          "That is not just an architecture update. It is a public-benefit checklist. If the East Bank is going to be sold as a neighborhood instead of a stadium accessory, the affordable units, child care, public access, and local retail mix have to stay measurable after the microphones leave."
+        ]
+      },
+      {
+        "heading": "The Public Hook Is Tomorrow",
+        "paragraphs": [
+          "Eastpoint's official page lists the Neighborhood Kickoff Party for Saturday, May 30 from 10 a.m. to 1 p.m. at 501 South 2nd Street. It describes the event as family friendly and tied to the groundbreaking and kickoff of the Eastpoint Neighborhood.",
+          "Metro's East Bank page frames the broader redevelopment as a 550-acre district with 130 acres of Metro-owned land, and notes the East Bank Development Authority's role in implementation. That scale is why the first housing building matters beyond one ribbon-cutting.",
+          "Useful questions for tomorrow: when do the 323 units deliver, what affordability levels are locked, how the child care facility will operate, what retail tenants are being courted, and how public river access works while construction is active."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "friday-east-nashville-music-calendar-may-29-2026",
+    "slug": "friday-east-nashville-music-calendar-may-29-2026",
+    "title": "Friday East Nashville Music Calendar: Basement East Boots, Eastside Bowl Rock, East Room Indie Stack",
+    "deck": "Three public venue listings make tonight easy to triangulate: Boot Scootin' Boogie Nights, Matt Mann & The Shine Runners, and Cooper Moore / Alysia Josephine / Whail / RowenBeau.",
+    "readerUtility": {
+      "title": "Tonight's Shortlist",
+      "items": [
+        {
+          "label": "7:00 doors",
+          "value": "The Basement East and Eastside Bowl"
+        },
+        {
+          "label": "7:30 doors",
+          "value": "The East Room"
+        },
+        {
+          "label": "8:00 show",
+          "value": "All three listings converge"
+        }
+      ]
+    },
+    "pullQuote": "The Friday choice is less what to do and more which version of 8 p.m. you mean.",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "label": "Confirmed",
+    "confidence": "Confirmed from public venue and ticket listings.",
+    "reporterId": "lila",
+    "time": "May 29, 2026",
+    "priority": 334,
+    "imageStyle": "music",
+    "factBox": [
+      {
+        "label": "The Basement East",
+        "value": "Boot Scootin' Boogie Nights, doors 7, show 8"
+      },
+      {
+        "label": "Eastside Bowl",
+        "value": "Matt Mann & The Shine Runners, doors 7, show 8"
+      },
+      {
+        "label": "The East Room",
+        "value": "Cooper Moore / Alysia Josephine / Whail / RowenBeau, show 8"
+      }
+    ],
+    "sourceNote": "Check ticket availability with the venues before heading out.",
+    "sources": [
+      {
+        "name": "The Basement East: Boot Scootin' Boogie Nights",
+        "url": "https://www.thebasementnashville.com/tm-attraction/boot-scootin-boogie-nights/",
+        "type": "Venue listing"
+      },
+      {
+        "name": "Eastside Bowl shows calendar",
+        "url": "https://shows.eastsidebowl.com/",
+        "type": "Venue listing"
+      },
+      {
+        "name": "TicketWeb: Cooper Moore / Alysia Josephine / Whail / RowenBeau",
+        "url": "https://www.ticketweb.com/event/cooper-moore-alysia-josephine-the-east-room-tickets/14876963",
+        "type": "Ticket listing"
+      },
+      {
+        "name": "Nashville Music Calendar: The East Room, May 29",
+        "url": "https://nashvillemusiccalendar.com/show/cooper-moore-alysia-josephine-whail-rowenbeau-at-the-east-room/",
+        "type": "Event listing"
+      }
+    ],
+    "social": {
+      "x": "Friday East Nashville calendar: Boot Scootin' Boogie Nights at The Basement East, Matt Mann & The Shine Runners at Eastside Bowl, and Cooper Moore / Alysia Josephine / Whail / RowenBeau at The East Room.",
+      "instagram": "Three East-side 8 p.m. doors-to-show decisions, each with a totally different outfit requirement.",
+      "video": "Lila gives the Friday music menu: boots, Shine Runners, or The East Room's indie stack."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "The public listings are mercifully clear tonight. The Basement East has Boot Scootin' Boogie Nights, a 90s country dance-party lane with doors at 7 p.m., show at 8 p.m., and an 18-and-up note.\n\nEastside Bowl's calendar lists Matt Mann & The Shine Runners at The '58 with JB Strauss and Upset Boy & The Queens supporting. Doors are 7 p.m., show is 8 p.m., and the listing tags it as rock.\n\nThe East Room has Cooper Moore / Alysia Josephine / Whail / RowenBeau. TicketWeb lists doors at 7:30 p.m., show at 8 p.m., and an 18-plus age limit.\n\nThe practical read: if you need line-dance catharsis, Woodland. If you want a lower-cost rock bill, Gallatin at Eastside Bowl. If you want the small-room indie stack, The East Room.",
+    "articleSections": [
+      {
+        "heading": "Three Ways To Spend 8 P.M.",
+        "paragraphs": [
+          "The public listings are mercifully clear tonight. The Basement East has Boot Scootin' Boogie Nights, a 90s country dance-party lane with doors at 7 p.m., show at 8 p.m., and an 18-and-up note.",
+          "Eastside Bowl's calendar lists Matt Mann & The Shine Runners at The '58 with JB Strauss and Upset Boy & The Queens supporting. Doors are 7 p.m., show is 8 p.m., and the listing tags it as rock.",
+          "The East Room has Cooper Moore / Alysia Josephine / Whail / RowenBeau. TicketWeb lists doors at 7:30 p.m., show at 8 p.m., and an 18-plus age limit.",
+          "The practical read: if you need line-dance catharsis, Woodland. If you want a lower-cost rock bill, Gallatin at Eastside Bowl. If you want the small-room indie stack, The East Room."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "east-branch-summer-reading-kickoff-may-29-2026",
+    "slug": "east-branch-summer-reading-kickoff-may-29-2026",
+    "title": "East Branch Library Turns Saturday Into The Kid Plan: Dinosaurs, Scientists, And Face Paint",
+    "deck": "East Branch is open Friday until 6 p.m., then starts Summer Reading Challenge weekend Saturday with Adventure Science Center story time and face painting.",
+    "readerUtility": {
+      "title": "Library Plan",
+      "items": [
+        {
+          "label": "Friday",
+          "value": "East Branch open 10 a.m. to 6 p.m."
+        },
+        {
+          "label": "Saturday 10:30",
+          "value": "Story Time with Scientists"
+        },
+        {
+          "label": "Saturday 2:00",
+          "value": "Face painting"
+        }
+      ]
+    },
+    "pullQuote": "This is the rare weekend plan where the word educational is not a threat.",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "label": "Confirmed",
+    "confidence": "Confirmed from Nashville Public Library East Branch and event listings.",
+    "reporterId": "lila",
+    "time": "May 29, 2026",
+    "priority": 333,
+    "imageStyle": "event",
+    "factBox": [
+      {
+        "label": "Where",
+        "value": "East Branch Library, 206 Gallatin Ave"
+      },
+      {
+        "label": "Saturday morning",
+        "value": "10:30 a.m. to 12:30 p.m."
+      },
+      {
+        "label": "Saturday afternoon",
+        "value": "2 to 4 p.m."
+      }
+    ],
+    "sourceNote": "The branch page lists East Branch hours and upcoming events; event pages provide the Saturday details.",
+    "sources": [
+      {
+        "name": "Nashville Public Library East Branch",
+        "url": "https://library.nashville.gov/locations/east",
+        "type": "Library hours and calendar"
+      },
+      {
+        "name": "East Branch Summer Reading kickoff: Story Time with Scientists",
+        "url": "https://events.library.nashville.org/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-8a3e8e4b-9e2e7865-019e-41bffaa8-00007510demobedework%40mysite.edu&recurrenceId=",
+        "type": "Library event listing"
+      },
+      {
+        "name": "East Branch Summer Reading kickoff: Face Painting",
+        "url": "https://events.library.nashville.org/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-8a3e8e4b-9cfcf5be-019c-fd2a0fc2-000003e6demobedework%40mysite.edu&recurrenceId=",
+        "type": "Library event listing"
+      }
+    ],
+    "social": {
+      "x": "East Branch Library starts Summer Reading Challenge weekend Saturday with Adventure Science Center story time at 10:30 and face painting at 2.",
+      "instagram": "Saturday kid plan: dinosaurs in the morning, face paint in the afternoon, East Branch doing the neighborhood a favor.",
+      "video": "A 20-second East Branch weekend brief for parents who need an actual plan."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "East Branch Library's public page lists Friday hours as 10 a.m. to 6 p.m. and Saturday hours as 10 a.m. to 5 p.m., which matters because the branch is carrying a useful chunk of the weekend family calendar.\n\nThe first Saturday listing is Summer Reading Challenge Kickoff: Story Time with Scientists from Adventure Science Center, running 10:30 a.m. to 12:30 p.m. The event description promises dinosaur facts, hands-on activity, and all-ages participation.\n\nThe afternoon listing is face painting with Abrakadabra Events from 2 to 4 p.m. The practical sequence is easy: morning science, lunch, afternoon face paint, then everyone goes home with a book bag and possibly whiskers.",
+    "articleSections": [
+      {
+        "heading": "Saturday Is The Library Move",
+        "paragraphs": [
+          "East Branch Library's public page lists Friday hours as 10 a.m. to 6 p.m. and Saturday hours as 10 a.m. to 5 p.m., which matters because the branch is carrying a useful chunk of the weekend family calendar.",
+          "The first Saturday listing is Summer Reading Challenge Kickoff: Story Time with Scientists from Adventure Science Center, running 10:30 a.m. to 12:30 p.m. The event description promises dinosaur facts, hands-on activity, and all-ages participation.",
+          "The afternoon listing is face painting with Abrakadabra Events from 2 to 4 p.m. The practical sequence is easy: morning science, lunch, afternoon face paint, then everyone goes home with a book bag and possibly whiskers."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "metro-parks-friday-night-calendar-may-29-2026",
+    "slug": "metro-parks-friday-night-calendar-may-29-2026",
+    "title": "Metro's Friday Parks Board Has A Fort Tour, Bluegrass Under The Moon, And One Easy Night Walk",
+    "deck": "Nashville.gov's May 29 event list points to a citywide outdoor lane: Fort Negley in the morning, Full Moon Pickin' Party at night, and Moonlight Meander at Bells Bend.",
+    "readerUtility": {
+      "title": "Parks Lane",
+      "items": [
+        {
+          "label": "10:00 a.m.",
+          "value": "Fort Negley guided walking tour"
+        },
+        {
+          "label": "5:30 p.m.",
+          "value": "Full Moon Pickin' Party"
+        },
+        {
+          "label": "7:30 p.m.",
+          "value": "Moonlight Meander"
+        }
+      ]
+    },
+    "pullQuote": "Not every Friday plan needs a wristband.",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "label": "Confirmed",
+    "confidence": "Confirmed from Nashville.gov and Metro Parks event listings.",
+    "reporterId": "parker",
+    "time": "May 29, 2026",
+    "priority": 332,
+    "imageStyle": "park",
+    "factBox": [
+      {
+        "label": "Fort Negley",
+        "value": "10 to 11:30 a.m."
+      },
+      {
+        "label": "Warner Park",
+        "value": "5:30 to 10 p.m."
+      },
+      {
+        "label": "Bells Bend",
+        "value": "7:30 to 8:30 p.m."
+      }
+    ],
+    "sourceNote": "These are citywide Metro Parks listings, included as Friday utility for East Nashville readers.",
+    "sources": [
+      {
+        "name": "Nashville.gov events list, May 29",
+        "url": "https://www.nashville.gov/event-list",
+        "type": "Official calendar"
+      },
+      {
+        "name": "Metro Parks: Fort Negley Park Guided Walking Tour",
+        "url": "https://www.nashville.gov/departments/parks/events/fort-negley-park-guided-walking-tour-245",
+        "type": "Official event listing"
+      },
+      {
+        "name": "Metro Parks: Full Moon Pickin' Party",
+        "url": "https://www.nashville.gov/departments/parks/events/full-moon-pickin-party-20",
+        "type": "Official event listing"
+      },
+      {
+        "name": "Metro Parks: Moonlight Meander",
+        "url": "https://www.nashville.gov/departments/parks/events/moonlight-meander-0",
+        "type": "Official event listing"
+      }
+    ],
+    "social": {
+      "x": "Metro Parks Friday lane: Fort Negley guided tour at 10, Full Moon Pickin' Party at 5:30, Moonlight Meander at Bells Bend at 7:30.",
+      "instagram": "If the venue stack is too loud, Metro Parks has a moonlit alternate route.",
+      "video": "Parker gives the quiet Friday board: Fort Negley, bluegrass, Bells Bend."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "Nashville.gov's May 29 event list has three public Parks items worth putting near the music calendar, even if only one of them feels like a direct neighborhood plan.\n\nFort Negley has a guided walking tour from 10 to 11:30 a.m. The official page says the one-mile tour covers the site's arc from early Nashville landscape to Union fortress, restoration, neglect, and its recent addition to UNESCO sites of memory.\n\nFull Moon Pickin' Party runs from 5:30 to 10 p.m. at Warner Park Nature Center, with the event page describing bluegrass music, food trucks, and a family-and-dog-friendly outdoor crowd.\n\nMoonlight Meander at Bells Bend runs from 7:30 to 8:30 p.m. The listing describes it as an easy one-mile stroll along primitive paths. Translation: if East Nashville music is too much tonight, the city calendar has a quieter exit.",
+    "articleSections": [
+      {
+        "heading": "The Outside-Air Version Of Friday",
+        "paragraphs": [
+          "Nashville.gov's May 29 event list has three public Parks items worth putting near the music calendar, even if only one of them feels like a direct neighborhood plan.",
+          "Fort Negley has a guided walking tour from 10 to 11:30 a.m. The official page says the one-mile tour covers the site's arc from early Nashville landscape to Union fortress, restoration, neglect, and its recent addition to UNESCO sites of memory.",
+          "Full Moon Pickin' Party runs from 5:30 to 10 p.m. at Warner Park Nature Center, with the event page describing bluegrass music, food trucks, and a family-and-dog-friendly outdoor crowd.",
+          "Moonlight Meander at Bells Bend runs from 7:30 to 8:30 p.m. The listing describes it as an easy one-mile stroll along primitive paths. Translation: if East Nashville music is too much tonight, the city calendar has a quieter exit."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
     "id": "may-28-source-pass-east-nashville",
     "slug": "today-east-nashville-source-pass-may-28-2026",
     "title": "Today's East Nashville Source Pass: Storm Response, Budget Round Three, Housing Homework, And Eastpoint's Groundbreaking Week",
@@ -9961,6 +10513,120 @@ export const stories = [
 ] satisfies Story[];
 
 export const sourceItems = [
+  {
+    "id": "src-may29-source-pass",
+    "title": "May 29 public source pass",
+    "source": "East Meets Nash daily source workflow",
+    "url": "/story/today-east-nashville-source-pass-may-29-2026",
+    "zone": "East Nashville",
+    "beat": "News",
+    "confidence": "Reported",
+    "risk": "Low",
+    "score": 100,
+    "status": "Published May 29",
+    "automation": "Public-source sweep plus private-platform hold",
+    "cadence": "Daily",
+    "verificationRule": "Publish public-source items now; add Facebook/Nextdoor only from supervised notes with redactions.",
+    "suggestedReporter": "june",
+    "suggestedLabel": "Reported",
+    "suggestedAngle": "Make the May 29 source pass the issue lead with Eastpoint, Friday music, library, and parks utility.",
+    "publishFormat": "Daily source pass"
+  },
+  {
+    "id": "src-may29-eastpoint-flats-start",
+    "title": "Eastpoint Flats construction start and kickoff",
+    "source": "Tennessean via AOL, Eastpoint, Metro East Bank",
+    "url": "https://www.aol.com/articles/construction-begins-affordable-apartments-nashvilles-183302065.html",
+    "zone": "East Bank",
+    "beat": "Development",
+    "confidence": "Reported",
+    "risk": "Low",
+    "score": 96,
+    "status": "Published May 29",
+    "automation": "Development watch",
+    "cadence": "Daily during Eastpoint kickoff week",
+    "verificationRule": "Use AOL/Tennessean for construction-start report and Eastpoint official page for public kickoff details.",
+    "suggestedReporter": "june",
+    "suggestedLabel": "Reported",
+    "suggestedAngle": "Turn the post-groundbreaking report into a promise scorecard before Saturday's public kickoff.",
+    "publishFormat": "Development brief"
+  },
+  {
+    "id": "src-may29-friday-east-music",
+    "title": "May 29 East Nashville music listings",
+    "source": "The Basement East, Eastside Bowl, TicketWeb, Nashville Music Calendar",
+    "url": "/story/friday-east-nashville-music-calendar-may-29-2026",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "confidence": "Confirmed",
+    "risk": "Low",
+    "score": 88,
+    "status": "Published May 29",
+    "automation": "Venue calendar sweep",
+    "cadence": "Daily",
+    "verificationRule": "Keep event times tied to venue/ticket listings; do not infer sellout or door policies beyond the listings.",
+    "suggestedReporter": "lila",
+    "suggestedLabel": "Confirmed",
+    "suggestedAngle": "Package the three public East Nashville venue listings into Friday utility.",
+    "publishFormat": "Calendar brief"
+  },
+  {
+    "id": "src-may29-east-branch-summer-reading",
+    "title": "East Branch Summer Reading kickoff",
+    "source": "Nashville Public Library",
+    "url": "https://library.nashville.gov/locations/east",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "confidence": "Confirmed",
+    "risk": "Low",
+    "score": 86,
+    "status": "Published May 29",
+    "automation": "Library calendar sweep",
+    "cadence": "Weekly plus daily during kickoff",
+    "verificationRule": "Use East Branch page for branch hours and event pages for Saturday program details.",
+    "suggestedReporter": "lila",
+    "suggestedLabel": "Confirmed",
+    "suggestedAngle": "Set up Saturday's family utility with East Branch summer reading listings.",
+    "publishFormat": "Calendar brief"
+  },
+  {
+    "id": "src-may29-metro-parks-friday",
+    "title": "May 29 Metro Parks event lane",
+    "source": "Nashville.gov and Metro Parks",
+    "url": "https://www.nashville.gov/event-list",
+    "zone": "Nashville",
+    "beat": "Events",
+    "confidence": "Confirmed",
+    "risk": "Low",
+    "score": 78,
+    "status": "Published May 29",
+    "automation": "Metro events sweep",
+    "cadence": "Daily",
+    "verificationRule": "Label as citywide utility, not East Nashville-only.",
+    "suggestedReporter": "parker",
+    "suggestedLabel": "Confirmed",
+    "suggestedAngle": "Give readers the outdoor alternative to Friday venue listings.",
+    "publishFormat": "Calendar brief"
+  },
+  {
+    "id": "src-may29-facebook-nextdoor-hold",
+    "title": "May 29 Facebook and Nextdoor supervised capture lane",
+    "source": "Private-platform hold",
+    "url": "/admin/sources",
+    "zone": "East Nashville",
+    "beat": "Community Desk",
+    "confidence": "Seed Item",
+    "risk": "Medium",
+    "score": 50,
+    "status": "Held May 29; no new supervised private-platform pass used",
+    "automation": "Manual supervised capture only",
+    "cadence": "As access allows",
+    "verificationRule": "Do not publish private-citizen screenshots, personal details, plates, phones, kids, medical details, or accusations.",
+    "suggestedReporter": "mabel",
+    "suggestedLabel": "Seed Item",
+    "suggestedAngle": "Keep private-platform observations in source desk until public links or supervised redacted notes exist.",
+    "publishFormat": "Held source item"
+  },
   {
     "id": "src-may28-source-pass",
     "title": "May 28 public source pass",
