@@ -1,123 +1,124 @@
 {
-  "date": "May 29, 2026",
+  "date": "May 30, 2026",
   "title": "Daily Source Pass",
-  "summary": "Today's issue is built from Eastpoint, Tennessean/AOL, Metro East Bank, East Nashville venue listings, Nashville Public Library, Metro Parks, and a private-platform hold. The lead package is public-source only.",
+  "summary": "Today's issue is built from Eastpoint, Tennessean/AOL, Metro East Bank, Nashville Public Library, venue listings, Nashville.gov, and a supervised East Nashville Facebook group poll. Private-platform material is labeled and redacted.",
   "stages": [
     {
       "time": "8:30 AM",
-      "name": "Development Follow",
-      "goal": "Update Eastpoint after the May 28 formal groundbreaking.",
+      "name": "Eastpoint Kickoff Check",
+      "goal": "Confirm today's public kickoff and attach development context.",
       "sourceIds": [
-        "src-may29-eastpoint-flats-start"
+        "src-may30-eastpoint-kickoff"
       ],
-      "output": "Found a post-groundbreaking report saying construction kicked off on Eastpoint Flats, and reattached the official May 30 kickoff listing."
+      "output": "Confirmed Eastpoint's May 30 kickoff and connected it to the reported Eastpoint Flats construction start."
     },
     {
-      "time": "10:00 AM",
-      "name": "Friday Venue Scan",
-      "goal": "Build the East Nashville Friday night music lane.",
+      "time": "9:30 AM",
+      "name": "Facebook Group Poll",
+      "goal": "Poll the private East Nashville group without publishing private details.",
       "sourceIds": [
-        "src-may29-friday-east-music"
+        "src-may30-facebook-group-poll"
       ],
-      "output": "Confirmed The Basement East, Eastside Bowl, and The East Room listings for tonight from public venue and ticket pages."
+      "output": "Captured three useful lanes from New posts: a Dee's ticket-launch lead to verify, rental-price discourse to anonymize, and a free-couch classified to hold."
     },
     {
-      "time": "11:00 AM",
-      "name": "Weekend Family Scan",
-      "goal": "Find public family utility for Saturday.",
+      "time": "10:30 AM",
+      "name": "Library And Family Utility",
+      "goal": "Confirm Saturday family plans.",
       "sourceIds": [
-        "src-may29-east-branch-summer-reading"
+        "src-may30-east-branch-summer-reading"
       ],
-      "output": "Confirmed East Branch Library's Saturday Summer Reading Challenge kickoff listings and Friday/Saturday hours."
+      "output": "Confirmed East Branch Summer Reading Challenge kickoff listings and Saturday hours."
     },
     {
-      "time": "12:00 PM",
-      "name": "Metro Utility Scan",
-      "goal": "Add citywide public events only where useful.",
+      "time": "11:30 AM",
+      "name": "Venue Scan",
+      "goal": "Build the Saturday East Nashville music lane.",
       "sourceIds": [
-        "src-may29-metro-parks-friday"
+        "src-may30-saturday-east-music"
       ],
-      "output": "Pulled Nashville.gov's May 29 parks listings: Fort Negley tour, Full Moon Pickin' Party, and Moonlight Meander."
+      "output": "Confirmed Fulton Lee at The Basement East, Kasvot Chatt at Eastside Bowl, and Kip Moore at The East Room."
+    },
+    {
+      "time": "12:30 PM",
+      "name": "Metro Outdoor Utility",
+      "goal": "Add official cleanup and outdoor-service options.",
+      "sourceIds": [
+        "src-may30-metro-cleanups"
+      ],
+      "output": "Pulled Brown's Creek, Whites Creek, and Little Marrowbone cleanup listings from Nashville.gov."
     },
     {
       "time": "1:00 PM",
-      "name": "Private Platform Gate",
-      "goal": "Keep Facebook and Nextdoor out without supervised capture.",
-      "sourceIds": [
-        "src-may29-facebook-nextdoor-hold"
-      ],
-      "output": "No new Facebook or Nextdoor material was promoted. Private-platform items stay held until visible supervised capture is available."
-    },
-    {
-      "time": "1:30 PM",
       "name": "Publish Pack",
       "goal": "Ship source-backed web stories and newsletter-ready copy.",
       "sourceIds": [
-        "src-may29-source-pass",
-        "src-may29-eastpoint-flats-start",
-        "src-may29-friday-east-music",
-        "src-may29-east-branch-summer-reading",
-        "src-may29-metro-parks-friday"
+        "src-may30-source-pass",
+        "src-may30-eastpoint-kickoff",
+        "src-may30-facebook-group-poll",
+        "src-may30-east-branch-summer-reading",
+        "src-may30-saturday-east-music",
+        "src-may30-metro-cleanups"
       ],
-      "output": "Five May 29 stories are ready with source trails, labels, social cuts, and generated/fallback covers."
+      "output": "Six May 30 stories are ready with source trails, labels, social cuts, and generated/fallback covers."
     }
   ],
   "publishQueue": [
     {
-      "sourceId": "src-may29-source-pass",
+      "sourceId": "src-may30-source-pass",
       "slot": "Issue lead",
       "decision": "Published as today's source pass.",
-      "why": "It explains the full public-source run and keeps private-platform material out until supervised capture exists."
+      "why": "It explains the public-source run and the supervised Facebook group poll in one package."
     },
     {
-      "sourceId": "src-may29-eastpoint-flats-start",
+      "sourceId": "src-may30-eastpoint-kickoff",
       "slot": "Development lead",
-      "decision": "Published as reported Eastpoint follow-up.",
-      "why": "It turns the groundbreaking report and Saturday kickoff into a public-benefit scorecard."
+      "decision": "Published as confirmed kickoff brief.",
+      "why": "The official event is today and follows the reported Eastpoint Flats construction start."
     },
     {
-      "sourceId": "src-may29-friday-east-music",
+      "sourceId": "src-may30-facebook-group-poll",
+      "slot": "Community Desk",
+      "decision": "Published as anonymized Group Chat Says.",
+      "why": "The poll has useful local signals, but private details stay redacted and verification gates are explicit."
+    },
+    {
+      "sourceId": "src-may30-east-branch-summer-reading",
+      "slot": "Family utility",
+      "decision": "Published as confirmed library brief.",
+      "why": "The East Branch listings are public, local, and useful before the events start."
+    },
+    {
+      "sourceId": "src-may30-saturday-east-music",
       "slot": "Tonight calendar",
       "decision": "Published as confirmed East Nashville music calendar.",
-      "why": "The listings have public time/place details and direct reader utility."
+      "why": "The venue listings have public time/place details and direct reader utility."
     },
     {
-      "sourceId": "src-may29-east-branch-summer-reading",
-      "slot": "Weekend family utility",
-      "decision": "Published as confirmed East Branch brief.",
-      "why": "The Saturday listings are public, local, and useful before the weekend starts."
-    },
-    {
-      "sourceId": "src-may29-metro-parks-friday",
+      "sourceId": "src-may30-metro-cleanups",
       "slot": "Outdoor utility",
-      "decision": "Published as citywide parks lane.",
-      "why": "It gives readers a non-venue Friday option with official Metro Parks links."
-    },
-    {
-      "sourceId": "src-may29-facebook-nextdoor-hold",
-      "slot": "Community capture",
-      "decision": "Held.",
-      "why": "Private-platform claims need supervised capture, redaction, and labels before publication."
+      "decision": "Published as citywide cleanup lane.",
+      "why": "It gives readers an official Saturday service option without overstating East-side exclusivity."
     }
   ],
   "accessNeeds": [
     {
       "name": "Facebook group",
-      "status": "No May 29 pass used",
-      "today": "Optional later pass should focus on public organization/business links and exact-location civic issues; avoid private medical, housing, kids, plates, phones, or accusations.",
+      "status": "Used with supervised redaction",
+      "today": "Poll found one calendar lead to verify, one rental-pressure signal to anonymize, and one transient classified to hold.",
       "guardrail": "Do not publish raw private-citizen screenshots, kids, medical/financial details, private addresses, plates, phones, or unverified accusations."
     },
     {
       "name": "Nextdoor",
       "status": "Held",
-      "today": "Skip unless a supervised visible feed is available.",
+      "today": "No Nextdoor pass used.",
       "guardrail": "Treat as neighborhood signal until independently verified; redact sensitive personal details."
     },
     {
-      "name": "Eastpoint follow-up",
-      "status": "Watch tomorrow",
-      "today": "If the kickoff yields official materials, update the Eastpoint story with exact quotes, timelines, and public access details.",
-      "guardrail": "Keep celebration copy separate from measurable commitments."
+      "name": "Dee's ticket lead",
+      "status": "Needs public link",
+      "today": "Search for a public ticket/event link before upgrading the Facebook lead to the calendar.",
+      "guardrail": "Do not rely on private group copy alone for ticket, capacity, or organizer details."
     }
   ]
 }

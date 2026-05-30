@@ -11,14 +11,20 @@ function storySection(stories: Story[], usedIds: Set<string>, predicate: (story:
 }
 
 const todayPackageIds = [
+  "may-30-source-pass-east-nashville",
+  "eastpoint-neighborhood-kickoff-may-30-2026",
+  "facebook-group-poll-may-30-2026",
+  "east-branch-summer-reading-may-30-2026",
+  "saturday-east-nashville-music-calendar-may-30-2026",
+  "metro-cleanup-calendar-may-30-2026",
+];
+
+const recentPackageIds = [
   "may-29-source-pass-east-nashville",
   "eastpoint-flats-groundbreaking-follow-may-29-2026",
   "friday-east-nashville-music-calendar-may-29-2026",
   "east-branch-summer-reading-kickoff-may-29-2026",
   "metro-parks-friday-night-calendar-may-29-2026",
-];
-
-const recentPackageIds = [
   "may-28-source-pass-east-nashville",
   "winter-storm-response-hearing-may-28-2026",
   "metro-budget-work-session-three-may-28-2026",
@@ -207,12 +213,12 @@ export default function HomePage() {
       <section className="front-layout home-front">
         <div>
           <div className="section-heading front-page-heading">
-            <p className="eyebrow">East Nashville Today / May 29</p>
-            <h1>Eastpoint Starts, Friday Music, And The Weekend Kid Plan</h1>
+            <p className="eyebrow">East Nashville Today / May 30</p>
+            <h1>Eastpoint Kickoff, Facebook Signals, And The Saturday Calendar</h1>
             <p>
-              Today&apos;s issue leads with public sources: Eastpoint Flats construction receipts, tomorrow&apos;s official
-              neighborhood kickoff, three East Nashville music listings, East Branch summer reading, and a citywide
-              parks lane for anyone who needs outside air.
+              Today&apos;s issue leads with the official Eastpoint kickoff, a supervised Facebook group poll, East Branch
+              summer reading, three East-side music listings, and Metro cleanup options for the service-minded
+              Saturday crowd.
             </p>
           </div>
           <section className="front-package" aria-label="Top stories">
@@ -241,8 +247,8 @@ export default function HomePage() {
               <p className="eyebrow">Source Status</p>
               <h2>Read The Label Before The Take</h2>
               <p>
-                May 29 is a public-source issue: confirmed event and library listings, reported Eastpoint construction
-                context, and private-platform material held until supervised capture exists.
+                May 30 combines confirmed public listings with a supervised private-platform poll. Facebook material is
+                labeled Group Chat Says, anonymized, and held behind public-link or permission gates.
               </p>
             </div>
             <div className="source-status-grid">
@@ -327,7 +333,7 @@ export default function HomePage() {
         <aside className="side-rail">
           <section className="source-rail-panel">
             <p className="eyebrow">Today&apos;s Package</p>
-            <h2>{todayStories.length} May 29 Stories Live</h2>
+            <h2>{todayStories.length} May 30 Stories Live</h2>
             <p>{todaySourcePass.summary}</p>
             <dl>
               <div>

@@ -188,6 +188,627 @@ export const reporters = [
 
 export const stories = [
   {
+    "id": "may-30-source-pass-east-nashville",
+    "slug": "today-east-nashville-source-pass-may-30-2026",
+    "title": "Today's East Nashville Source Pass: Eastpoint Kicks Off, Facebook Signals, Summer Reading, And A Three-Venue Night",
+    "deck": "Saturday's issue leads with the official Eastpoint kickoff, a supervised Facebook group poll, East Branch summer reading, three East-side music listings, and Metro cleanup options for neighbors who want a clipboard with their sunshine.",
+    "readerUtility": {
+      "title": "Today's Useful Read",
+      "items": [
+        {
+          "label": "10:00 a.m.",
+          "value": "Eastpoint Neighborhood Kickoff Party"
+        },
+        {
+          "label": "10:30 a.m.",
+          "value": "East Branch Story Time with Scientists"
+        },
+        {
+          "label": "Facebook",
+          "value": "Dee's lead, rent pressure, classifieds held"
+        },
+        {
+          "label": "Tonight",
+          "value": "Basement East, Eastside Bowl, East Room"
+        }
+      ]
+    },
+    "pullQuote": "The public calendar has the plan. The group poll has the texture.",
+    "zone": "East Nashville",
+    "beat": "News",
+    "label": "Reported",
+    "confidence": "Built from Eastpoint, Metro, Nashville Public Library, venue listings, and a supervised Facebook group New posts poll with private details redacted.",
+    "reporterId": "june",
+    "time": "May 30, 2026",
+    "priority": 343,
+    "imageStyle": "issue-cover",
+    "factBox": [
+      {
+        "label": "Date",
+        "value": "Saturday, May 30, 2026"
+      },
+      {
+        "label": "Eastpoint",
+        "value": "Kickoff at 501 South 2nd Street, 10 a.m. to 1 p.m."
+      },
+      {
+        "label": "Facebook poll",
+        "value": "Anonymized and source-desked"
+      },
+      {
+        "label": "Private details",
+        "value": "No screenshots, names, phone numbers, or private addresses"
+      }
+    ],
+    "sourceNote": "Facebook material is summarized from supervised private-group visibility and is not treated as confirmed public record without a public link.",
+    "sources": [
+      {
+        "name": "Eastpoint Neighborhood Kickoff Party",
+        "url": "https://eastpointnashville.com/events/eastpoint-neighborhood-kickoff-party",
+        "type": "Official event page"
+      },
+      {
+        "name": "Tennessean via AOL: Eastpoint Flats construction begins",
+        "url": "https://www.aol.com/articles/construction-begins-affordable-apartments-nashvilles-183302065.html",
+        "type": "Reported local news"
+      },
+      {
+        "name": "Metro Nashville East Bank Development",
+        "url": "https://www.nashville.gov/featured-initiatives/east-bank-development",
+        "type": "Official project page"
+      },
+      {
+        "name": "East Nashville Facebook group, supervised New posts poll",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "type": "Private group supervised capture"
+      },
+      {
+        "name": "Nashville Public Library East Branch",
+        "url": "https://library.nashville.gov/locations/east",
+        "type": "Library hours and calendar"
+      },
+      {
+        "name": "East Branch Summer Reading kickoff: Story Time with Scientists",
+        "url": "https://events.library.nashville.org/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-8a3e8e4b-9e2e7865-019e-41bffaa8-00007510demobedework%40mysite.edu&recurrenceId=",
+        "type": "Library event listing"
+      },
+      {
+        "name": "Live Nation: Fulton Lee at The Basement East",
+        "url": "https://www.livenation.com/event/rZ7HnEZ1AfepCf/fulton-lee-sing-with-me-tour-2026",
+        "type": "Ticket listing"
+      },
+      {
+        "name": "Nashville Music Calendar: Kasvot Chatt at Eastside Bowl",
+        "url": "https://nashvillemusiccalendar.com/show/kasvot-chatt-a-tribute-to-phish-at-eastside-bowl/",
+        "type": "Event listing"
+      },
+      {
+        "name": "TicketWeb: Kip Moore Album Release Show at The East Room",
+        "url": "https://www.ticketweb.com/event/kip-moore-album-release-show-the-east-room-tickets/14952873",
+        "type": "Ticket listing"
+      },
+      {
+        "name": "Nashville.gov events list, May 30",
+        "url": "https://www.nashville.gov/event-list",
+        "type": "Official calendar"
+      }
+    ],
+    "social": {
+      "x": "May 30 source pass: Eastpoint kickoff today, East Branch summer reading, a supervised Facebook group poll, three East-side music listings, and Metro cleanup options.",
+      "instagram": "Saturday board: Eastpoint confetti, library dinosaurs, group-chat texture, music decisions, and a few cleanup options for the civically hydrated.",
+      "video": "June leads with Eastpoint, Mabel walks through the Facebook poll with redactions, and Lila gives the Saturday calendar."
+    },
+    "heroImage": "/api/media/issue-cover?id=may-30-source-pass-east-nashville",
+    "heroAlt": "Cover art for Today's East Nashville Source Pass: Eastpoint Kicks Off, Facebook Signals, Summer Reading, And A Three-Venue Night.",
+    "media": [
+      {
+        "label": "Issue Cover",
+        "title": "May 30 source pass cover",
+        "description": "Generated cover art for the May 30 East Nashville source pass.",
+        "url": "/story/today-east-nashville-source-pass-may-30-2026",
+        "imageUrl": "/api/media/issue-cover?id=may-30-source-pass-east-nashville",
+        "imageAlt": "Cover art for Today's East Nashville Source Pass: Eastpoint Kicks Off, Facebook Signals, Summer Reading, And A Three-Venue Night.",
+        "credit": "Image: East Meets Nash generated issue cover.",
+        "displayRole": "hero",
+        "provider": "generated_cover",
+        "sourceType": "generated_cover",
+        "relevance": "exact",
+        "relevanceScore": 88,
+        "approvalStatus": "approved",
+        "rightsNote": "Generated cover image for a multi-source roundup.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-05-30"
+      }
+    ],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "Saturday's East Nashville issue has two layers: the official calendar tells people where to go, and the Facebook group poll tells us what the neighborhood is actually circling, arguing about, and trying to unload before dinner.\n\nEastpoint's official event page lists the Neighborhood Kickoff Party today from 10 a.m. to 1 p.m. at 501 South 2nd Street. That is the public-facing follow-up to this week's construction-start report on Eastpoint Flats, the first residential piece on city-owned East Bank land.\n\nThe Facebook poll is private-platform material, so it stays labeled. The top New posts scan produced a Dee's Country Cocktail Lounge ticket-launch lead that needs a public link, a rental-listing thread that became a rent-pressure signal, and a free-couch pickup that belongs in classifieds, not the news river.\n\nEast Branch Library is the family anchor today: Story Time with Scientists from Adventure Science Center at 10:30 a.m., face painting from 2 to 4 p.m., and regular Saturday branch hours from 10 a.m. to 5 p.m.\n\nTonight's East Nashville music calendar has Fulton Lee at The Basement East, Kasvot Chatt at Eastside Bowl, and Kip Moore's album release show at The East Room.\n\nMetro's public calendar adds outdoor utility: Brown's Creek Stream Cleanup this morning, Whites Creek Greenway Cleanup, and Little Marrowbone Creek Cleanup. Not all East-side-only, but useful for neighbors looking for a Saturday service lane.\n\nNo raw private screenshots, personal names, phone numbers, exact private-home details, or accusations were promoted. The group poll becomes a source desk story, not a privacy spill.",
+    "articleSections": [
+      {
+        "heading": "Source Desk",
+        "paragraphs": [
+          "Saturday's East Nashville issue has two layers: the official calendar tells people where to go, and the Facebook group poll tells us what the neighborhood is actually circling, arguing about, and trying to unload before dinner.",
+          "Eastpoint's official event page lists the Neighborhood Kickoff Party today from 10 a.m. to 1 p.m. at 501 South 2nd Street. That is the public-facing follow-up to this week's construction-start report on Eastpoint Flats, the first residential piece on city-owned East Bank land.",
+          "The Facebook poll is private-platform material, so it stays labeled. The top New posts scan produced a Dee's Country Cocktail Lounge ticket-launch lead that needs a public link, a rental-listing thread that became a rent-pressure signal, and a free-couch pickup that belongs in classifieds, not the news river.",
+          "East Branch Library is the family anchor today: Story Time with Scientists from Adventure Science Center at 10:30 a.m., face painting from 2 to 4 p.m., and regular Saturday branch hours from 10 a.m. to 5 p.m.",
+          "Tonight's East Nashville music calendar has Fulton Lee at The Basement East, Kasvot Chatt at Eastside Bowl, and Kip Moore's album release show at The East Room.",
+          "Metro's public calendar adds outdoor utility: Brown's Creek Stream Cleanup this morning, Whites Creek Greenway Cleanup, and Little Marrowbone Creek Cleanup. Not all East-side-only, but useful for neighbors looking for a Saturday service lane.",
+          "No raw private screenshots, personal names, phone numbers, exact private-home details, or accusations were promoted. The group poll becomes a source desk story, not a privacy spill."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "eastpoint-neighborhood-kickoff-may-30-2026",
+    "slug": "eastpoint-neighborhood-kickoff-may-30-2026",
+    "title": "Eastpoint's Public Kickoff Is Today. Enjoy The Party, Then Keep The Scorecard Open.",
+    "deck": "Eastpoint's official page puts the kickoff at 501 South 2nd Street from 10 a.m. to 1 p.m., right after a new report said Eastpoint Flats construction has begun.",
+    "readerUtility": {
+      "title": "Kickoff Checklist",
+      "items": [
+        {
+          "label": "When",
+          "value": "Saturday, 10 a.m. to 1 p.m."
+        },
+        {
+          "label": "Where",
+          "value": "501 South 2nd Street"
+        },
+        {
+          "label": "Ask",
+          "value": "Affordable units, child care, retail, access, timelines"
+        }
+      ]
+    },
+    "pullQuote": "A kickoff is not a receipt. It is where the receipt hunt begins.",
+    "zone": "East Nashville",
+    "beat": "Development",
+    "label": "Confirmed",
+    "confidence": "Kickoff details are confirmed from Eastpoint's official page; construction-start context is reported by the Tennessean via AOL.",
+    "reporterId": "june",
+    "time": "May 30, 2026",
+    "priority": 342,
+    "imageStyle": "permit",
+    "factBox": [
+      {
+        "label": "Event",
+        "value": "Eastpoint Neighborhood Kickoff Party"
+      },
+      {
+        "label": "Time",
+        "value": "10 a.m. to 1 p.m."
+      },
+      {
+        "label": "Reported project hook",
+        "value": "Eastpoint Flats construction has begun"
+      }
+    ],
+    "sourceNote": "Use Eastpoint's page for event details; keep construction metrics tied to the newspaper report until official materials are attached.",
+    "sources": [
+      {
+        "name": "Eastpoint Neighborhood Kickoff Party",
+        "url": "https://eastpointnashville.com/events/eastpoint-neighborhood-kickoff-party",
+        "type": "Official event page"
+      },
+      {
+        "name": "Tennessean via AOL: Eastpoint Flats construction begins",
+        "url": "https://www.aol.com/articles/construction-begins-affordable-apartments-nashvilles-183302065.html",
+        "type": "Reported local news"
+      },
+      {
+        "name": "Metro Nashville East Bank Development",
+        "url": "https://www.nashville.gov/featured-initiatives/east-bank-development",
+        "type": "Official project page"
+      }
+    ],
+    "social": {
+      "x": "Eastpoint's public kickoff is today, 10 to 1 at 501 South 2nd Street. Enjoy the party, then ask about units, affordability, child care, retail, river access, and timelines.",
+      "instagram": "Eastpoint day. Balloons are fine. Scorecards are better.",
+      "video": "A quick Eastpoint kickoff guide: what is confirmed, what is reported, and what to ask while everyone is smiling."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "Eastpoint's official event page lists the Neighborhood Kickoff Party for today, Saturday, May 30, from 10 a.m. to 1 p.m. at 501 South 2nd Street.\n\nThe timing matters because the Tennessean, syndicated through AOL, reported this week that construction has begun on Eastpoint Flats, with 323 affordable units, child care, and retail tied to the first residential move on city-owned East Bank land.\n\nThat makes today's party both useful and dangerous in the way all development parties are useful and dangerous: it gives the public a door into the project, but the measurable story is still timelines, affordability levels, access, tenant mix, and what gets built first.\n\nAsk when the affordable homes deliver, what income bands they serve, how the child care facility will be operated, what kind of retail is being recruited, and how neighbors reach the riverfront while construction is active.\n\nMetro's East Bank page frames the broader district as a 550-acre redevelopment area with 130 acres of Metro-owned land. That is why the first residential building should be treated as a public-benefit test, not just a project milestone.",
+    "articleSections": [
+      {
+        "heading": "The Public-Facing Start",
+        "paragraphs": [
+          "Eastpoint's official event page lists the Neighborhood Kickoff Party for today, Saturday, May 30, from 10 a.m. to 1 p.m. at 501 South 2nd Street.",
+          "The timing matters because the Tennessean, syndicated through AOL, reported this week that construction has begun on Eastpoint Flats, with 323 affordable units, child care, and retail tied to the first residential move on city-owned East Bank land.",
+          "That makes today's party both useful and dangerous in the way all development parties are useful and dangerous: it gives the public a door into the project, but the measurable story is still timelines, affordability levels, access, tenant mix, and what gets built first."
+        ]
+      },
+      {
+        "heading": "What To Ask",
+        "paragraphs": [
+          "Ask when the affordable homes deliver, what income bands they serve, how the child care facility will be operated, what kind of retail is being recruited, and how neighbors reach the riverfront while construction is active.",
+          "Metro's East Bank page frames the broader district as a 550-acre redevelopment area with 130 acres of Metro-owned land. That is why the first residential building should be treated as a public-benefit test, not just a project milestone."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "facebook-group-poll-may-30-2026",
+    "slug": "facebook-group-poll-may-30-2026",
+    "title": "Facebook Group Poll: Dee's Ticket Heat, Rent Pushback, And A Free-Couch Classified That Knows Its Lane",
+    "deck": "A supervised New posts scan found one public-calendar lead to verify, one housing-pressure signal to anonymize, and one classifieds item that should stay exactly that.",
+    "readerUtility": {
+      "title": "Poll Decisions",
+      "items": [
+        {
+          "label": "Verify",
+          "value": "Dee's ticket-launch lead needs a public link"
+        },
+        {
+          "label": "Anonymize",
+          "value": "Rental pushback is a rent-pressure signal"
+        },
+        {
+          "label": "Hold",
+          "value": "Free couch pickup is a transient classified"
+        }
+      ]
+    },
+    "pullQuote": "The group chat is useful. It is not automatically public record.",
+    "zone": "East Nashville",
+    "beat": "Community Desk",
+    "label": "Group Chat Says",
+    "confidence": "Supervised private Facebook group capture from the New posts feed; summarized without raw screenshots, private names, or exact private-home details.",
+    "reporterId": "mabel",
+    "time": "May 30, 2026",
+    "priority": 341,
+    "imageStyle": "gossip",
+    "factBox": [
+      {
+        "label": "Surface",
+        "value": "East Nashville Facebook group, sorted by New posts"
+      },
+      {
+        "label": "Published",
+        "value": "Anonymized source-desk summary only"
+      },
+      {
+        "label": "Not published",
+        "value": "Names, screenshots, direct private-post links, exact private-home details"
+      }
+    ],
+    "sourceNote": "This story is intentionally labeled Group Chat Says. Items need public links, direct permission, or independent verification before becoming Confirmed stories.",
+    "sources": [
+      {
+        "name": "East Nashville Facebook group, supervised New posts poll",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "type": "Private group supervised capture"
+      }
+    ],
+    "social": {
+      "x": "Facebook group poll: Dee's ticket lead needs a public link, rental pushback becomes anonymized rent-pressure signal, free couch stays classifieds. Useful, not automatically public.",
+      "instagram": "Today's group poll had music hunger, rent side-eye, and a couch trying to leave the premises.",
+      "video": "Mabel explains the three bins: verify, anonymize, hold."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "The East Nashville Facebook group was visible and sorted to New posts this morning. This pass is a supervised poll, not a raw scrape: the goal is to find source leads, not turn private posts into public copy.\n\nThe cleanest potential calendar lead was a ticket-launch post tied to a Dee's Country Cocktail Lounge event. The visible copy said tickets had gone live, noted the room's small capacity, and framed the earlier interest as strong. That belongs in the verify bin until there is a public ticket or event link.\n\nThe loudest neighborhood-signal item was a rental listing that drew visible pushback about price and expectations. East Meets Nash should not republish the private poster, commenters, or exact home details from the group thread. The useful story is broader: rental pressure and price fatigue keep surfacing in the neighborhood feed.\n\nThe most straightforward classified was a free couch pickup marked pending for today near Porter Road. That is useful neighbor-to-neighbor infrastructure, but it expires too fast and gets too personal for the news river.\n\nThe sidebar also surfaced an upcoming Melody and Mingle event in Lockeland Springs for June 4. That can go into the forward calendar after checking whether there is a public event page outside the private group.\n\nNo private-citizen names, photos, comment screenshots, phone numbers, precise private-home details, or raw post links were promoted.\n\nThe rule is simple: public organizations and public listings can move toward the calendar; private-resident material becomes either an anonymized trend signal or a held source item.",
+    "articleSections": [
+      {
+        "heading": "What The Group Poll Found",
+        "paragraphs": [
+          "The East Nashville Facebook group was visible and sorted to New posts this morning. This pass is a supervised poll, not a raw scrape: the goal is to find source leads, not turn private posts into public copy.",
+          "The cleanest potential calendar lead was a ticket-launch post tied to a Dee's Country Cocktail Lounge event. The visible copy said tickets had gone live, noted the room's small capacity, and framed the earlier interest as strong. That belongs in the verify bin until there is a public ticket or event link.",
+          "The loudest neighborhood-signal item was a rental listing that drew visible pushback about price and expectations. East Meets Nash should not republish the private poster, commenters, or exact home details from the group thread. The useful story is broader: rental pressure and price fatigue keep surfacing in the neighborhood feed.",
+          "The most straightforward classified was a free couch pickup marked pending for today near Porter Road. That is useful neighbor-to-neighbor infrastructure, but it expires too fast and gets too personal for the news river.",
+          "The sidebar also surfaced an upcoming Melody and Mingle event in Lockeland Springs for June 4. That can go into the forward calendar after checking whether there is a public event page outside the private group."
+        ]
+      },
+      {
+        "heading": "What Stayed Out",
+        "paragraphs": [
+          "No private-citizen names, photos, comment screenshots, phone numbers, precise private-home details, or raw post links were promoted.",
+          "The rule is simple: public organizations and public listings can move toward the calendar; private-resident material becomes either an anonymized trend signal or a held source item."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "east-branch-summer-reading-may-30-2026",
+    "slug": "east-branch-summer-reading-may-30-2026",
+    "title": "East Branch Starts Summer Reading Today With Scientists In The Morning And Face Paint After Lunch",
+    "deck": "The library's Saturday plan is unusually handy: Adventure Science Center story time at 10:30, face painting at 2, and branch hours from 10 to 5.",
+    "readerUtility": {
+      "title": "Family Plan",
+      "items": [
+        {
+          "label": "10:00 a.m.",
+          "value": "East Branch opens"
+        },
+        {
+          "label": "10:30 a.m.",
+          "value": "Story Time with Scientists"
+        },
+        {
+          "label": "2:00 p.m.",
+          "value": "Face painting"
+        }
+      ]
+    },
+    "pullQuote": "The Saturday kid plan has dinosaurs, scientists, and a blessed indoor option.",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "label": "Confirmed",
+    "confidence": "Confirmed from Nashville Public Library East Branch and event listings.",
+    "reporterId": "lila",
+    "time": "May 30, 2026",
+    "priority": 340,
+    "imageStyle": "event",
+    "factBox": [
+      {
+        "label": "Where",
+        "value": "East Branch Library, 206 Gallatin Ave"
+      },
+      {
+        "label": "Morning",
+        "value": "10:30 a.m. to 12:30 p.m."
+      },
+      {
+        "label": "Afternoon",
+        "value": "2 to 4 p.m."
+      }
+    ],
+    "sourceNote": "Check the library event pages before heading over in case room or staffing details change.",
+    "sources": [
+      {
+        "name": "Nashville Public Library East Branch",
+        "url": "https://library.nashville.gov/locations/east",
+        "type": "Library hours and calendar"
+      },
+      {
+        "name": "East Branch Summer Reading kickoff: Story Time with Scientists",
+        "url": "https://events.library.nashville.org/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-8a3e8e4b-9e2e7865-019e-41bffaa8-00007510demobedework%40mysite.edu&recurrenceId=",
+        "type": "Library event listing"
+      },
+      {
+        "name": "East Branch Summer Reading kickoff: Face Painting",
+        "url": "https://events.library.nashville.org/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-8a3e8e4b-9cfcf5be-019c-fd2a0fc2-000003e6demobedework%40mysite.edu&recurrenceId=",
+        "type": "Library event listing"
+      }
+    ],
+    "social": {
+      "x": "East Branch starts Summer Reading today: Adventure Science Center story time at 10:30, face painting at 2, branch open 10 to 5.",
+      "instagram": "Saturday kid plan: science, dinosaurs, face paint, books, air conditioning. East Branch understood the assignment.",
+      "video": "Lila does the East Branch speed brief for parents who need one good plan."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "East Branch Library's public page lists Saturday hours from 10 a.m. to 5 p.m., and today's events make it a clean family anchor.\n\nThe morning listing is Summer Reading Challenge Kickoff: Story Time with Scientists from Adventure Science Center, running 10:30 a.m. to 12:30 p.m. The description promises dinosaur facts and hands-on activity for all ages.\n\nThe afternoon listing is face painting with Abrakadabra Events from 2 to 4 p.m. The practical version: science in the morning, lunch, face paint in the afternoon, and books somewhere in the middle so everyone can claim this was educational.",
+    "articleSections": [
+      {
+        "heading": "The Useful Saturday Anchor",
+        "paragraphs": [
+          "East Branch Library's public page lists Saturday hours from 10 a.m. to 5 p.m., and today's events make it a clean family anchor.",
+          "The morning listing is Summer Reading Challenge Kickoff: Story Time with Scientists from Adventure Science Center, running 10:30 a.m. to 12:30 p.m. The description promises dinosaur facts and hands-on activity for all ages.",
+          "The afternoon listing is face painting with Abrakadabra Events from 2 to 4 p.m. The practical version: science in the morning, lunch, face paint in the afternoon, and books somewhere in the middle so everyone can claim this was educational."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "saturday-east-nashville-music-calendar-may-30-2026",
+    "slug": "saturday-east-nashville-music-calendar-may-30-2026",
+    "title": "Saturday East Nashville Music Calendar: Fulton Lee, Kasvot Chatt, And Kip Moore's East Room Release",
+    "deck": "Tonight's public listings put Fulton Lee at The Basement East, Kasvot Chatt at Eastside Bowl, and Kip Moore's album release show at The East Room.",
+    "readerUtility": {
+      "title": "Tonight's Shortlist",
+      "items": [
+        {
+          "label": "7:00 doors",
+          "value": "Fulton Lee at The Basement East"
+        },
+        {
+          "label": "7:30 doors",
+          "value": "Kasvot Chatt at Eastside Bowl"
+        },
+        {
+          "label": "7:00 p.m.",
+          "value": "Kip Moore at The East Room"
+        }
+      ]
+    },
+    "pullQuote": "Saturday has a three-venue problem, which is the better kind of problem.",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "label": "Confirmed",
+    "confidence": "Confirmed from public venue, ticket, and music-calendar listings.",
+    "reporterId": "lila",
+    "time": "May 30, 2026",
+    "priority": 339,
+    "imageStyle": "music",
+    "factBox": [
+      {
+        "label": "The Basement East",
+        "value": "Fulton Lee, doors 7, show 8"
+      },
+      {
+        "label": "Eastside Bowl",
+        "value": "Kasvot Chatt, doors 7:30, show 8:30"
+      },
+      {
+        "label": "The East Room",
+        "value": "Kip Moore album release show, 7 p.m."
+      }
+    ],
+    "sourceNote": "Ticket availability and age rules can change; check the venue listing before heading out.",
+    "sources": [
+      {
+        "name": "Live Nation: Fulton Lee at The Basement East",
+        "url": "https://www.livenation.com/event/rZ7HnEZ1AfepCf/fulton-lee-sing-with-me-tour-2026",
+        "type": "Ticket listing"
+      },
+      {
+        "name": "Nashville Music Calendar: Kasvot Chatt at Eastside Bowl",
+        "url": "https://nashvillemusiccalendar.com/show/kasvot-chatt-a-tribute-to-phish-at-eastside-bowl/",
+        "type": "Event listing"
+      },
+      {
+        "name": "TicketWeb: Kip Moore Album Release Show at The East Room",
+        "url": "https://www.ticketweb.com/event/kip-moore-album-release-show-the-east-room-tickets/14952873",
+        "type": "Ticket listing"
+      }
+    ],
+    "social": {
+      "x": "Saturday East Nashville music: Fulton Lee at The Basement East, Kasvot Chatt at Eastside Bowl, and Kip Moore's album release show at The East Room.",
+      "instagram": "Three East-side rooms, three very different Saturdays. Choose your shoes accordingly.",
+      "video": "Lila gives the Saturday venue board in 20 seconds."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "The Basement East listing has Fulton Lee's Sing With Me Tour with doors at 7 p.m. and show at 8 p.m.\n\nEastside Bowl's Saturday listing, via Nashville Music Calendar, has Kasvot Chatt, a Phish tribute, with doors at 7:30 p.m. and show at 8:30 p.m.\n\nThe East Room has Kip Moore's album release show listed for 7 p.m. on TicketWeb. It is a small-room listing with the obvious caveat: check availability before you plan your night around it.\n\nThe practical read: Basement East if you want a bigger Saturday swing, Eastside Bowl if your group speaks Phish, East Room if the album-release room is the point.",
+    "articleSections": [
+      {
+        "heading": "Three Rooms, One Saturday",
+        "paragraphs": [
+          "The Basement East listing has Fulton Lee's Sing With Me Tour with doors at 7 p.m. and show at 8 p.m.",
+          "Eastside Bowl's Saturday listing, via Nashville Music Calendar, has Kasvot Chatt, a Phish tribute, with doors at 7:30 p.m. and show at 8:30 p.m.",
+          "The East Room has Kip Moore's album release show listed for 7 p.m. on TicketWeb. It is a small-room listing with the obvious caveat: check availability before you plan your night around it.",
+          "The practical read: Basement East if you want a bigger Saturday swing, Eastside Bowl if your group speaks Phish, East Room if the album-release room is the point."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "metro-cleanup-calendar-may-30-2026",
+    "slug": "metro-cleanup-calendar-may-30-2026",
+    "title": "Metro's Saturday Cleanup Calendar Has Brown's Creek, Whites Creek, And Little Marrowbone On The Board",
+    "deck": "Nashville.gov's May 30 event list gives the service-minded Saturday crowd three official outdoor options, including Brown's Creek Stream Cleanup at Browns Creek Park.",
+    "readerUtility": {
+      "title": "Outdoor Utility",
+      "items": [
+        {
+          "label": "9:00 a.m.",
+          "value": "Brown's Creek Stream Cleanup"
+        },
+        {
+          "label": "9:00 a.m.",
+          "value": "Whites Creek Greenway Cleanup"
+        },
+        {
+          "label": "9:00 a.m.",
+          "value": "Little Marrowbone Creek Cleanup"
+        }
+      ]
+    },
+    "pullQuote": "The Saturday service lane starts early and probably involves shoes you can ruin.",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "label": "Confirmed",
+    "confidence": "Confirmed from Nashville.gov and Metro Parks event listings.",
+    "reporterId": "parker",
+    "time": "May 30, 2026",
+    "priority": 338,
+    "imageStyle": "park",
+    "factBox": [
+      {
+        "label": "Brown's Creek",
+        "value": "Browns Creek Park, 9 to 11 a.m."
+      },
+      {
+        "label": "Whites Creek",
+        "value": "9 to 11 a.m."
+      },
+      {
+        "label": "Little Marrowbone",
+        "value": "9 a.m. to noon"
+      }
+    ],
+    "sourceNote": "These are citywide public listings; included as Saturday utility for East Nashville readers.",
+    "sources": [
+      {
+        "name": "Nashville.gov events list, May 30",
+        "url": "https://www.nashville.gov/event-list",
+        "type": "Official calendar"
+      },
+      {
+        "name": "Nashville.gov: Brown's Creek Stream Cleanup",
+        "url": "https://www.nashville.gov/departments/transportation/events/browns-creek-stream-cleanup-2",
+        "type": "Official event listing"
+      },
+      {
+        "name": "Nashville.gov: Whites Creek Greenway Cleanup",
+        "url": "https://www.nashville.gov/departments/transportation/events/whites-creek-greenway-cleanup-0",
+        "type": "Official event listing"
+      },
+      {
+        "name": "Metro Parks: Little Marrowbone Creek Cleanup",
+        "url": "https://www.nashville.gov/departments/parks/events/little-marrowbone-creek-cleanup",
+        "type": "Official event listing"
+      }
+    ],
+    "social": {
+      "x": "Metro's Saturday cleanup calendar: Brown's Creek Stream Cleanup, Whites Creek Greenway Cleanup, and Little Marrowbone Creek Cleanup all start at 9.",
+      "instagram": "For the people who need their Saturday with gloves, trash bags, and a little civic virtue.",
+      "video": "Parker gives the cleanup calendar: three 9 a.m. options, bring shoes that know what they signed up for."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "Nashville.gov's May 30 event list has three cleanup items that make sense as Saturday utility for East Nashville readers.\n\nBrown's Creek Stream Cleanup is listed for Browns Creek Park from 9 to 11 a.m. That is the closest fit for East-side readers watching neighborhood waterways and park edges.\n\nWhites Creek Greenway Cleanup is also listed from 9 to 11 a.m., and Metro Parks lists Little Marrowbone Creek Cleanup from 9 a.m. to noon.\n\nNone of this needs to be overcomplicated. If you want a service plan before the Eastpoint kickoff or before tonight's shows, the city calendar has the gloves-and-trash-bag lane ready.",
+    "articleSections": [
+      {
+        "heading": "The Service Lane",
+        "paragraphs": [
+          "Nashville.gov's May 30 event list has three cleanup items that make sense as Saturday utility for East Nashville readers.",
+          "Brown's Creek Stream Cleanup is listed for Browns Creek Park from 9 to 11 a.m. That is the closest fit for East-side readers watching neighborhood waterways and park edges.",
+          "Whites Creek Greenway Cleanup is also listed from 9 to 11 a.m., and Metro Parks lists Little Marrowbone Creek Cleanup from 9 a.m. to noon.",
+          "None of this needs to be overcomplicated. If you want a service plan before the Eastpoint kickoff or before tonight's shows, the city calendar has the gloves-and-trash-bag lane ready."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
     "id": "may-29-source-pass-east-nashville",
     "slug": "today-east-nashville-source-pass-may-29-2026",
     "title": "Today's East Nashville Source Pass: Eastpoint Starts, Friday Music, Summer Reading, And A Moonlit Parks Lane",
@@ -10513,6 +11134,120 @@ export const stories = [
 ] satisfies Story[];
 
 export const sourceItems = [
+  {
+    "id": "src-may30-source-pass",
+    "title": "May 30 public source pass",
+    "source": "East Meets Nash daily source workflow",
+    "url": "/story/today-east-nashville-source-pass-may-30-2026",
+    "zone": "East Nashville",
+    "beat": "News",
+    "confidence": "Reported",
+    "risk": "Low",
+    "score": 100,
+    "status": "Published May 30",
+    "automation": "Public-source sweep plus supervised Facebook poll",
+    "cadence": "Daily",
+    "verificationRule": "Publish public-source items now; label Facebook material as Group Chat Says unless a public source exists.",
+    "suggestedReporter": "june",
+    "suggestedLabel": "Reported",
+    "suggestedAngle": "Make the May 30 source pass the issue lead with Eastpoint, Facebook signals, library, music, and Metro cleanup utility.",
+    "publishFormat": "Daily source pass"
+  },
+  {
+    "id": "src-may30-eastpoint-kickoff",
+    "title": "Eastpoint Neighborhood Kickoff Party",
+    "source": "Eastpoint official event page",
+    "url": "https://eastpointnashville.com/events/eastpoint-neighborhood-kickoff-party",
+    "zone": "East Bank",
+    "beat": "Development",
+    "confidence": "Confirmed",
+    "risk": "Low",
+    "score": 96,
+    "status": "Published May 30",
+    "automation": "Development watch",
+    "cadence": "Daily during Eastpoint kickoff week",
+    "verificationRule": "Use Eastpoint's page for event details and keep reported construction metrics tied to the Tennessean/AOL report.",
+    "suggestedReporter": "june",
+    "suggestedLabel": "Confirmed",
+    "suggestedAngle": "Frame the kickoff as a public-benefit scorecard moment.",
+    "publishFormat": "Development brief"
+  },
+  {
+    "id": "src-may30-facebook-group-poll",
+    "title": "May 30 East Nashville Facebook group poll",
+    "source": "Supervised private-group capture",
+    "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+    "zone": "East Nashville",
+    "beat": "Community Desk",
+    "confidence": "Group Chat Says",
+    "risk": "Medium",
+    "score": 82,
+    "status": "Published May 30 as anonymized Group Chat Says",
+    "automation": "Manual supervised capture",
+    "cadence": "As access allows",
+    "verificationRule": "Do not publish raw screenshots, private names, phones, exact private-home details, or accusations; upgrade only with public links or permission.",
+    "suggestedReporter": "mabel",
+    "suggestedLabel": "Group Chat Says",
+    "suggestedAngle": "Summarize the group poll as verify/anonymize/hold: Dee's lead, rent-pressure signal, and classifieds lane.",
+    "publishFormat": "Community desk brief"
+  },
+  {
+    "id": "src-may30-east-branch-summer-reading",
+    "title": "East Branch Summer Reading kickoff day",
+    "source": "Nashville Public Library",
+    "url": "https://library.nashville.gov/locations/east",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "confidence": "Confirmed",
+    "risk": "Low",
+    "score": 88,
+    "status": "Published May 30",
+    "automation": "Library calendar sweep",
+    "cadence": "Weekly plus daily during kickoff",
+    "verificationRule": "Use East Branch page for branch hours and library event pages for program details.",
+    "suggestedReporter": "lila",
+    "suggestedLabel": "Confirmed",
+    "suggestedAngle": "Make East Branch the Saturday family utility anchor.",
+    "publishFormat": "Calendar brief"
+  },
+  {
+    "id": "src-may30-saturday-east-music",
+    "title": "May 30 East Nashville music listings",
+    "source": "Live Nation, Nashville Music Calendar, TicketWeb",
+    "url": "/story/saturday-east-nashville-music-calendar-may-30-2026",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "confidence": "Confirmed",
+    "risk": "Low",
+    "score": 86,
+    "status": "Published May 30",
+    "automation": "Venue calendar sweep",
+    "cadence": "Daily",
+    "verificationRule": "Keep event times tied to venue/ticket listings; avoid inferring sellout, age rules, or availability beyond listings.",
+    "suggestedReporter": "lila",
+    "suggestedLabel": "Confirmed",
+    "suggestedAngle": "Package the three East-side venue listings into Saturday utility.",
+    "publishFormat": "Calendar brief"
+  },
+  {
+    "id": "src-may30-metro-cleanups",
+    "title": "May 30 Metro cleanup calendar",
+    "source": "Nashville.gov",
+    "url": "https://www.nashville.gov/event-list",
+    "zone": "Nashville",
+    "beat": "Events",
+    "confidence": "Confirmed",
+    "risk": "Low",
+    "score": 78,
+    "status": "Published May 30",
+    "automation": "Metro events sweep",
+    "cadence": "Daily",
+    "verificationRule": "Label citywide cleanup listings as utility, not East Nashville-only.",
+    "suggestedReporter": "parker",
+    "suggestedLabel": "Confirmed",
+    "suggestedAngle": "Give readers the Saturday outdoor service lane.",
+    "publishFormat": "Calendar brief"
+  },
   {
     "id": "src-may29-source-pass",
     "title": "May 29 public source pass",
