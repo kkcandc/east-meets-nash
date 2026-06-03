@@ -1,5 +1,619 @@
 [
   {
+    "id": "june-3-source-pass-east-nashville",
+    "slug": "today-east-nashville-source-pass-june-3-2026",
+    "title": "Today's East Nashville Source Pass: Budget Work Session 4, CMA Fest Traffic, East Bank Bridges, And A Wednesday Calendar",
+    "deck": "Wednesday's source run is civic-heavy with a useful calendar tail: Metro budget work session 4, CMA Fest special-event controls beginning today, fresh East Bank bridge timeline reporting, Rebuilding Together at Riverside Revival, and East Nasty's Electric Slide route.",
+    "readerUtility": {
+      "title": "Today's Useful Read",
+      "items": [
+        {
+          "label": "4:30 p.m.",
+          "value": "Budget and Finance Work Session 4"
+        },
+        {
+          "label": "6:00 a.m.",
+          "value": "CMA Fest special event zone begins"
+        },
+        {
+          "label": "11:00 a.m.",
+          "value": "Rebuilding Together breakfast at Riverside Revival"
+        },
+        {
+          "label": "Tonight",
+          "value": "East Nasty, Skinny Dennis, Vinyl Tap, Basement East"
+        }
+      ]
+    },
+    "pullQuote": "Today is where budget math, traffic cones, and East Bank timelines all start talking to each other.",
+    "zone": "East Nashville",
+    "beat": "News",
+    "label": "Reported",
+    "confidence": "Built from Metro Council, Legistar, NDOT, Metro East Bank, Rebuilding Together Nashville, East Nasty, and public venue/event listings. Private-platform material is held.",
+    "reporterId": "june",
+    "time": "June 3, 2026",
+    "priority": 352,
+    "imageStyle": "issue-cover",
+    "factBox": [
+      {
+        "label": "Date",
+        "value": "Wednesday, June 3, 2026"
+      },
+      {
+        "label": "Budget",
+        "value": "Work Session 4 at 4:30 p.m."
+      },
+      {
+        "label": "CMA Fest",
+        "value": "Special Event Zone begins today"
+      },
+      {
+        "label": "Private platforms",
+        "value": "Held unless supervised capture exists"
+      }
+    ],
+    "sourceNote": "East Bank bridge details are treated as Reported because the available public source is a community share of Business Journal reporting; upgrade when the original article or agency materials are attached.",
+    "sources": [
+      {
+        "name": "Metro Council Budget and Finance Committee Work Session 4, June 3",
+        "url": "https://www.nashville.gov/departments/council/boards/metro-council/meetings/metropolitan-council-budget-finance-committee-work-session-4-meeting-june-3-2026",
+        "type": "Official meeting listing"
+      },
+      {
+        "name": "Metro Council meetings calendar",
+        "url": "https://www.nashville.gov/departments/council/boards/metro-council/meetings",
+        "type": "Official calendar"
+      },
+      {
+        "name": "Metro Legistar: BL2026-1363 CMA Fest Special Event Zone",
+        "url": "https://nashville.legistar.com/LegislationDetail.aspx?FullText=1&G=99456586-FDA1-4896-A3EB-8389754A06F8&GUID=CD66956E-8C17-4837-884D-E2BD449A078E&ID=7982897&Options=&Search=",
+        "type": "Official legislation"
+      },
+      {
+        "name": "Metro special event road closures, week of May 30 to June 6",
+        "url": "https://www.nashville.gov/sites/default/files/2026-05/SpecialEventRoadClosures-Weekof_053026-060626.pdf?ct=1780079499",
+        "type": "Official road closure report"
+      },
+      {
+        "name": "Public Reddit share: East Bank bridges get construction timelines",
+        "url": "https://www.reddit.com/r/nashville/comments/1tuuyf0/east_bank_bridges_get_construction_timelines/",
+        "type": "Public community share of reported development news"
+      },
+      {
+        "name": "Metro Nashville East Bank Development",
+        "url": "https://www.nashville.gov/featured-initiatives/east-bank-development",
+        "type": "Official project page"
+      },
+      {
+        "name": "Rebuilding Together Nashville events",
+        "url": "https://www.rtnashville.org/events",
+        "type": "Organization event listing"
+      },
+      {
+        "name": "East Nasty events",
+        "url": "https://www.eastnastyforlife.com/",
+        "type": "Organization calendar"
+      },
+      {
+        "name": "Nashville Music Calendar: Joshua Hedley's Western Wednesday at Skinny Dennis",
+        "url": "https://nashvillemusiccalendar.com/show/joshua-hedleys-western-wednesday-at-skinny-dennis-3/",
+        "type": "Event listing"
+      },
+      {
+        "name": "Vinyl Tap events",
+        "url": "https://www.vinyltapnashville.com/events",
+        "type": "Venue listing"
+      },
+      {
+        "name": "Ticketmaster: The Basement East June 3 listing",
+        "url": "https://www.ticketmaster.com/the-basement-east-tickets-nashville/venue/222610",
+        "type": "Venue listing"
+      }
+    ],
+    "social": {
+      "x": "June 3 source pass: Budget Work Session 4, CMA Fest special-event controls, East Bank bridge timelines, Rebuilding Together at Riverside Revival, and a Wednesday East Nashville calendar.",
+      "instagram": "Wednesday board: budget math, festival traffic, bridge timelines, home repair support, East Nasty, and enough music to make civic homework tolerable.",
+      "video": "June walks the board: budget, CMA traffic, East Bank bridges. Lila gets the last word with East Nasty and the venue calendar."
+    },
+    "heroImage": "/api/media/issue-cover?id=june-3-source-pass-east-nashville",
+    "heroAlt": "Cover art for Today's East Nashville Source Pass: Budget Work Session 4, CMA Fest Traffic, East Bank Bridges, And A Wednesday Calendar.",
+    "media": [
+      {
+        "label": "Issue Cover",
+        "title": "June 3 source pass cover",
+        "description": "Generated cover art for the June 3 East Nashville source pass.",
+        "url": "/story/today-east-nashville-source-pass-june-3-2026",
+        "imageUrl": "/api/media/issue-cover?id=june-3-source-pass-east-nashville",
+        "imageAlt": "Cover art for Today's East Nashville Source Pass: Budget Work Session 4, CMA Fest Traffic, East Bank Bridges, And A Wednesday Calendar.",
+        "credit": "Image: East Meets Nash generated issue cover.",
+        "displayRole": "hero",
+        "provider": "generated_cover",
+        "sourceType": "generated_cover",
+        "relevance": "exact",
+        "relevanceScore": 88,
+        "approvalStatus": "approved",
+        "rightsNote": "Generated cover image for a multi-source roundup.",
+        "approvedBy": "Photo Desk",
+        "approvedAt": "2026-06-03"
+      }
+    ],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "Wednesday's East Nashville run is civic-heavy, but it is not abstract. Budget work session 4 is today, CMA Fest traffic controls start today, and the East Bank keeps producing the kind of timeline details that decide whether a riverfront promise becomes a usable neighborhood.\n\nMetro lists Budget and Finance Committee Work Session 4 for today at 4:30 p.m. in the Jury Assembly Room at the Historic Metro Courthouse. The official listing says the public may view the meeting online through Metro Nashville Network streams.\n\nThe CMA Fest Special Event Zone also starts today. Metro legislation for BL2026-1363 sets the zone from 6 a.m. on June 3 through midnight on June 8, and the official road-closure report puts festival-related closures on the board before the June 4 to 7 public-facing festival run.\n\nThe East Bank development desk has a fresh bridge-timeline item from a public Reddit share of Nashville Business Journal reporting: Oracle's pedestrian bridge, the John Seigenthaler ramp, James Robertson Parkway lowering, and the Oracle-East Nashville connection all have timeline hooks to follow.\n\nThe housing/support lane is Rebuilding Together Nashville's Building Community Breakfast at Riverside Revival from 11 a.m. to 1 p.m., framed by the organization as a fundraiser around affordable homeownership preservation and neighborhood revitalization.\n\nTonight's East Nashville utility stack is Route 10: Electric Slide from East Nasty, Joshua Hedley's Western Wednesday at Skinny Dennis, Waikiki Wednesday with The Volcano Brothers at Vinyl Tap, and Ben Chapman's Peach Jam at The Basement East.\n\nNo new Facebook or Nextdoor material was promoted today. Private-platform items stay held unless there is supervised capture, redaction, and a public-link upgrade path.",
+    "articleSections": [
+      {
+        "heading": "Source Desk",
+        "paragraphs": [
+          "Wednesday's East Nashville run is civic-heavy, but it is not abstract. Budget work session 4 is today, CMA Fest traffic controls start today, and the East Bank keeps producing the kind of timeline details that decide whether a riverfront promise becomes a usable neighborhood.",
+          "Metro lists Budget and Finance Committee Work Session 4 for today at 4:30 p.m. in the Jury Assembly Room at the Historic Metro Courthouse. The official listing says the public may view the meeting online through Metro Nashville Network streams.",
+          "The CMA Fest Special Event Zone also starts today. Metro legislation for BL2026-1363 sets the zone from 6 a.m. on June 3 through midnight on June 8, and the official road-closure report puts festival-related closures on the board before the June 4 to 7 public-facing festival run.",
+          "The East Bank development desk has a fresh bridge-timeline item from a public Reddit share of Nashville Business Journal reporting: Oracle's pedestrian bridge, the John Seigenthaler ramp, James Robertson Parkway lowering, and the Oracle-East Nashville connection all have timeline hooks to follow.",
+          "The housing/support lane is Rebuilding Together Nashville's Building Community Breakfast at Riverside Revival from 11 a.m. to 1 p.m., framed by the organization as a fundraiser around affordable homeownership preservation and neighborhood revitalization.",
+          "Tonight's East Nashville utility stack is Route 10: Electric Slide from East Nasty, Joshua Hedley's Western Wednesday at Skinny Dennis, Waikiki Wednesday with The Volcano Brothers at Vinyl Tap, and Ben Chapman's Peach Jam at The Basement East.",
+          "No new Facebook or Nextdoor material was promoted today. Private-platform items stay held unless there is supervised capture, redaction, and a public-link upgrade path."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "metro-budget-work-session-four-june-3-2026",
+    "slug": "metro-budget-work-session-four-june-3-2026",
+    "title": "Metro Budget Work Session 4 Is Today, And East Nashville Should Keep Watching The Boring Part",
+    "deck": "Metro Council lists Budget and Finance Work Session 4 for 4:30 p.m. in the Jury Assembly Room, with livestream access through Metro Nashville Network.",
+    "readerUtility": {
+      "title": "Budget Watch",
+      "items": [
+        {
+          "label": "When",
+          "value": "June 3 at 4:30 p.m."
+        },
+        {
+          "label": "Where",
+          "value": "Historic Metro Courthouse, Jury Assembly Room"
+        },
+        {
+          "label": "Next",
+          "value": "Work Session 5 is listed for June 4"
+        }
+      ]
+    },
+    "pullQuote": "Every neighborhood complaint eventually asks the budget where it lives.",
+    "zone": "East Nashville",
+    "beat": "Civic",
+    "label": "Confirmed",
+    "confidence": "Confirmed from Metro Council's official meeting listing and meetings calendar.",
+    "reporterId": "june",
+    "time": "June 3, 2026",
+    "priority": 351,
+    "imageStyle": "permit",
+    "factBox": [
+      {
+        "label": "Meeting",
+        "value": "Budget and Finance Committee Work Session 4"
+      },
+      {
+        "label": "Time",
+        "value": "4:30 p.m."
+      },
+      {
+        "label": "View",
+        "value": "Metro Nashville Network streams"
+      }
+    ],
+    "sourceNote": "Use the official meeting page for time and public viewing details.",
+    "sources": [
+      {
+        "name": "Metro Council Budget and Finance Committee Work Session 4, June 3",
+        "url": "https://www.nashville.gov/departments/council/boards/metro-council/meetings/metropolitan-council-budget-finance-committee-work-session-4-meeting-june-3-2026",
+        "type": "Official meeting listing"
+      },
+      {
+        "name": "Metro Council meetings calendar",
+        "url": "https://www.nashville.gov/departments/council/boards/metro-council/meetings",
+        "type": "Official calendar"
+      }
+    ],
+    "social": {
+      "x": "Metro Budget Work Session 4 is today at 4:30. It is not flashy, but it is where East Nashville's parks, streets, schools, libraries, storm response, and service complaints look for money.",
+      "instagram": "The budget is still doing the thing where the boring words become everyone's actual sidewalks.",
+      "video": "June explains why Work Session 4 matters without pretending spreadsheets are a personality."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "Metro Council lists Budget and Finance Committee Work Session 4 for today at 4:30 p.m. in the Jury Assembly Room at the Historic Metro Courthouse.\n\nThe official page says residents can watch the meeting online through stream.nashville.gov, Metro Nashville Network 2, YouTube, and the usual Metro Nashville Network channels.\n\nThis is the fourth budget work session in the current run, with Work Session 5 listed for Thursday, June 4. That means the dull calendar item is not a one-off; it is part of the sequence where priorities turn into amendments, funding lines, and tradeoffs.\n\nFor East Nashville, the practical watch list remains the same: NDOT, parks, libraries, public safety, schools, storm response, housing, traffic calming, East Bank infrastructure, and the small service departments people only notice when they fail.",
+    "articleSections": [
+      {
+        "heading": "Why This One Matters",
+        "paragraphs": [
+          "Metro Council lists Budget and Finance Committee Work Session 4 for today at 4:30 p.m. in the Jury Assembly Room at the Historic Metro Courthouse.",
+          "The official page says residents can watch the meeting online through stream.nashville.gov, Metro Nashville Network 2, YouTube, and the usual Metro Nashville Network channels.",
+          "This is the fourth budget work session in the current run, with Work Session 5 listed for Thursday, June 4. That means the dull calendar item is not a one-off; it is part of the sequence where priorities turn into amendments, funding lines, and tradeoffs.",
+          "For East Nashville, the practical watch list remains the same: NDOT, parks, libraries, public safety, schools, storm response, housing, traffic calming, East Bank infrastructure, and the small service departments people only notice when they fail."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "cma-fest-special-event-zone-june-3-2026",
+    "slug": "cma-fest-special-event-zone-june-3-2026",
+    "title": "CMA Fest Traffic Starts Before CMA Fest, Which Is How You Know It Is Real",
+    "deck": "Metro's special-event ordinance starts the CMA Fest zone at 6 a.m. today, and the road-closure report puts downtown changes on the board before the festival's June 4 start.",
+    "readerUtility": {
+      "title": "Traffic Watch",
+      "items": [
+        {
+          "label": "Zone starts",
+          "value": "June 3 at 6 a.m."
+        },
+        {
+          "label": "Zone ends",
+          "value": "June 8 at midnight"
+        },
+        {
+          "label": "Festival",
+          "value": "CMA Fest runs June 4 to 7"
+        }
+      ]
+    },
+    "pullQuote": "If you cross the river for anything this week, check the cones first.",
+    "zone": "East Bank",
+    "beat": "Transportation",
+    "label": "Confirmed",
+    "confidence": "Confirmed from Metro legislation, NDOT, and the official special-event road-closure report.",
+    "reporterId": "parker",
+    "time": "June 3, 2026",
+    "priority": 350,
+    "imageStyle": "street",
+    "factBox": [
+      {
+        "label": "Special Event Zone",
+        "value": "June 3, 6 a.m. through June 8, midnight"
+      },
+      {
+        "label": "Festival dates",
+        "value": "June 4 to 7"
+      },
+      {
+        "label": "East Nashville relevance",
+        "value": "River crossings, East Bank, stadium, downtown approaches"
+      }
+    ],
+    "sourceNote": "Check official NDOT and road-closure materials before driving downtown or across the East Bank during festival setup.",
+    "sources": [
+      {
+        "name": "Metro Legistar: BL2026-1363 CMA Fest Special Event Zone",
+        "url": "https://nashville.legistar.com/LegislationDetail.aspx?FullText=1&G=99456586-FDA1-4896-A3EB-8389754A06F8&GUID=CD66956E-8C17-4837-884D-E2BD449A078E&ID=7982897&Options=&Search=",
+        "type": "Official legislation"
+      },
+      {
+        "name": "Metro special event road closures, week of May 30 to June 6",
+        "url": "https://www.nashville.gov/sites/default/files/2026-05/SpecialEventRoadClosures-Weekof_053026-060626.pdf?ct=1780079499",
+        "type": "Official road closure report"
+      },
+      {
+        "name": "Nashville Department of Transportation",
+        "url": "https://www.nashville.gov/departments/transportation",
+        "type": "Official transportation page"
+      }
+    ],
+    "social": {
+      "x": "CMA Fest is June 4-7, but Metro's special-event zone starts today at 6 a.m. East Nashville drivers and walkers should check downtown/East Bank closures before crossing the river.",
+      "instagram": "Festival week begins with traffic furniture. The cones got here first.",
+      "video": "Parker gives the East Nashville version of CMA Fest prep: where the official zone starts, why today matters, and why to check routes before crossing the river."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "CMA Fest's public-facing run is June 4 to 7, but Metro's special-event zone starts at 6 a.m. today, June 3, under BL2026-1363.\n\nThe ordinance runs the zone through midnight on June 8 and is tied to regulating downtown public property during CMA Fest and related activities.\n\nMetro's special-event road-closure report for the week also puts June 3 closures on the board. That matters for East Nashville because river crossings, downtown approaches, the stadium edge, and East Bank traffic all get less normal before the music actually starts.\n\nThe practical move: check official road-closure material before driving across the river, and assume the downtown/Nissan Stadium side of errands has entered its festival-week mood.",
+    "articleSections": [
+      {
+        "heading": "The Setup Starts Today",
+        "paragraphs": [
+          "CMA Fest's public-facing run is June 4 to 7, but Metro's special-event zone starts at 6 a.m. today, June 3, under BL2026-1363.",
+          "The ordinance runs the zone through midnight on June 8 and is tied to regulating downtown public property during CMA Fest and related activities.",
+          "Metro's special-event road-closure report for the week also puts June 3 closures on the board. That matters for East Nashville because river crossings, downtown approaches, the stadium edge, and East Bank traffic all get less normal before the music actually starts.",
+          "The practical move: check official road-closure material before driving across the river, and assume the downtown/Nissan Stadium side of errands has entered its festival-week mood."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "east-bank-bridge-timelines-june-3-2026",
+    "slug": "east-bank-bridge-timelines-june-3-2026",
+    "title": "The East Bank Bridge Timeline Is Starting To Look Less Like A Mood Board",
+    "deck": "A public share of Nashville Business Journal reporting lays out timeline hooks for Oracle's pedestrian bridge, the Seigenthaler ramp, James Robertson Parkway, and the Oracle-East Nashville connection.",
+    "readerUtility": {
+      "title": "Timeline Hooks",
+      "items": [
+        {
+          "label": "Oracle bridge",
+          "value": "Targeted August 2026 start, two-year build"
+        },
+        {
+          "label": "Seigenthaler ramp",
+          "value": "Construction procurement expected this summer"
+        },
+        {
+          "label": "James Robertson",
+          "value": "Late-2026 construction start reported"
+        },
+        {
+          "label": "Marine Drive",
+          "value": "Oracle-East Nashville team expected Q2 2027"
+        }
+      ]
+    },
+    "pullQuote": "East Bank connectivity is where the pretty renderings either become streets or stay pictures.",
+    "zone": "East Bank",
+    "beat": "Development",
+    "label": "Reported",
+    "confidence": "Reported from a public Reddit share of Nashville Business Journal development reporting, with Metro East Bank context attached. Upgrade when original source or agency materials are available.",
+    "reporterId": "june",
+    "time": "June 3, 2026",
+    "priority": 349,
+    "imageStyle": "permit",
+    "factBox": [
+      {
+        "label": "Oracle pedestrian bridge",
+        "value": "Targeted August 2026 construction start reported"
+      },
+      {
+        "label": "Seigenthaler ramp",
+        "value": "Expected fall 2027 completion reported"
+      },
+      {
+        "label": "James Robertson Parkway",
+        "value": "Late 2026 start and November 2028 completion reported"
+      }
+    ],
+    "sourceNote": "This is Reported, not Confirmed. The accessible public source is a Reddit share of Business Journal reporting; attach original publication or agency records before upgrading.",
+    "sources": [
+      {
+        "name": "Public Reddit share: East Bank bridges get construction timelines",
+        "url": "https://www.reddit.com/r/nashville/comments/1tuuyf0/east_bank_bridges_get_construction_timelines/",
+        "type": "Public community share of reported development news"
+      },
+      {
+        "name": "Metro Nashville East Bank Development",
+        "url": "https://www.nashville.gov/featured-initiatives/east-bank-development",
+        "type": "Official project page"
+      }
+    ],
+    "social": {
+      "x": "East Bank bridge timeline watch: Oracle bridge targeted for August start, Seigenthaler ramp procurement this summer, James Robertson work late 2026, Oracle-East Nashville contract team Q2 2027.",
+      "instagram": "The East Bank is entering its bridge-and-detour era. Please keep your renderings and your receipts in separate folders.",
+      "video": "June runs through four East Bank connection projects and which details still need official receipts."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "A public Reddit share of Nashville Business Journal reporting put new timeline hooks around four East Bank connection projects: Oracle's pedestrian bridge, the John Seigenthaler Pedestrian Bridge ramp, the James Robertson Parkway lowering, and the Oracle-East Nashville connection.\n\nThe share says Oracle's pedestrian bridge is targeting an August 2026 construction start and an approximate two-year build. The John Seigenthaler Pedestrian Bridge ramp is described as entering construction-team procurement this summer, with fall 2027 completion expected.\n\nThe James Robertson Parkway lowering is described as a late-2026 construction start with a November 2028 completion target. The Oracle-East Nashville connection is reported as heading toward a team under contract in the second quarter of 2027.\n\nThe useful framing for East Nashville is not 'bridges are neat.' It is that every East Bank promise depends on whether people can actually move east-west and north-south without turning the riverfront into a beautiful dead end.",
+    "articleSections": [
+      {
+        "heading": "Four Connection Points To Watch",
+        "paragraphs": [
+          "A public Reddit share of Nashville Business Journal reporting put new timeline hooks around four East Bank connection projects: Oracle's pedestrian bridge, the John Seigenthaler Pedestrian Bridge ramp, the James Robertson Parkway lowering, and the Oracle-East Nashville connection.",
+          "The share says Oracle's pedestrian bridge is targeting an August 2026 construction start and an approximate two-year build. The John Seigenthaler Pedestrian Bridge ramp is described as entering construction-team procurement this summer, with fall 2027 completion expected.",
+          "The James Robertson Parkway lowering is described as a late-2026 construction start with a November 2028 completion target. The Oracle-East Nashville connection is reported as heading toward a team under contract in the second quarter of 2027.",
+          "The useful framing for East Nashville is not 'bridges are neat.' It is that every East Bank promise depends on whether people can actually move east-west and north-south without turning the riverfront into a beautiful dead end."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "rebuilding-together-breakfast-riverside-revival-june-3-2026",
+    "slug": "rebuilding-together-breakfast-riverside-revival-june-3-2026",
+    "title": "Rebuilding Together Has A Riverside Revival Breakfast Today, And The Housing Angle Is Not Subtle",
+    "deck": "The Building Community Breakfast runs 11 a.m. to 1 p.m. at Riverside Revival, with Rebuilding Together Nashville framing the event around affordable homeownership preservation.",
+    "readerUtility": {
+      "title": "Housing Support",
+      "items": [
+        {
+          "label": "When",
+          "value": "11 a.m. to 1 p.m."
+        },
+        {
+          "label": "Where",
+          "value": "Riverside Revival"
+        },
+        {
+          "label": "Why",
+          "value": "Affordable homeownership preservation and neighborhood revitalization"
+        }
+      ]
+    },
+    "pullQuote": "Home repair is housing policy with a tool belt.",
+    "zone": "East Nashville",
+    "beat": "Housing",
+    "label": "Confirmed",
+    "confidence": "Confirmed from Rebuilding Together Nashville's public events page.",
+    "reporterId": "parker",
+    "time": "June 3, 2026",
+    "priority": 348,
+    "imageStyle": "event",
+    "factBox": [
+      {
+        "label": "Event",
+        "value": "Building Community Breakfast"
+      },
+      {
+        "label": "Time",
+        "value": "11 a.m. to 1 p.m."
+      },
+      {
+        "label": "Venue",
+        "value": "Riverside Revival"
+      }
+    ],
+    "sourceNote": "The event is not East Nashville-only, but Riverside Revival makes it local and the home-preservation angle fits the housing beat.",
+    "sources": [
+      {
+        "name": "Rebuilding Together Nashville events",
+        "url": "https://www.rtnashville.org/events",
+        "type": "Organization event listing"
+      }
+    ],
+    "social": {
+      "x": "Rebuilding Together Nashville's Building Community Breakfast is today, 11-1 at Riverside Revival. The housing angle: affordable homeownership preservation and neighborhood revitalization.",
+      "instagram": "Today in housing-adjacent civic life: breakfast, home repair, and the reminder that staying housed is not only a rent story.",
+      "video": "Parker explains why a home-repair fundraiser belongs in the housing lane."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "Rebuilding Together Nashville lists its Building Community Breakfast for today, Wednesday, June 3, from 11 a.m. to 1 p.m. at Riverside Revival.\n\nThe organization describes the event as its third annual spring fundraiser and connects it to more than 30 years of work preserving affordable homeownership and revitalizing neighborhoods across Davidson County.\n\nThat is the useful East Nashville angle. Housing pressure is not only rents and new buildings; it is also whether existing homeowners can keep homes safe, repaired, and livable long enough to stay put.",
+    "articleSections": [
+      {
+        "heading": "The Housing Lane",
+        "paragraphs": [
+          "Rebuilding Together Nashville lists its Building Community Breakfast for today, Wednesday, June 3, from 11 a.m. to 1 p.m. at Riverside Revival.",
+          "The organization describes the event as its third annual spring fundraiser and connects it to more than 30 years of work preserving affordable homeownership and revitalizing neighborhoods across Davidson County.",
+          "That is the useful East Nashville angle. Housing pressure is not only rents and new buildings; it is also whether existing homeowners can keep homes safe, repaired, and livable long enough to stay put."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "wednesday-east-nashville-calendar-june-3-2026",
+    "slug": "wednesday-east-nashville-calendar-june-3-2026",
+    "title": "Wednesday East Nashville Calendar: Electric Slide, Western Wednesday, Waikiki Wednesday, And Peach Jam",
+    "deck": "Tonight's calendar gives you one running route and three music rooms: East Nasty Route 10, Skinny Dennis, Vinyl Tap, and The Basement East.",
+    "readerUtility": {
+      "title": "Tonight's Shortlist",
+      "items": [
+        {
+          "label": "Run",
+          "value": "East Nasty Route 10: Electric Slide"
+        },
+        {
+          "label": "7:00 p.m.",
+          "value": "Joshua Hedley's Western Wednesday at Skinny Dennis"
+        },
+        {
+          "label": "7:00 p.m.",
+          "value": "Waikiki Wednesday at Vinyl Tap"
+        },
+        {
+          "label": "8:00 p.m.",
+          "value": "Ben Chapman's Peach Jam at The Basement East"
+        }
+      ]
+    },
+    "pullQuote": "Wednesday is not quiet. It is just wearing running shoes first.",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "label": "Confirmed",
+    "confidence": "Confirmed from East Nasty, Nashville Music Calendar, Vinyl Tap, and Ticketmaster listings.",
+    "reporterId": "lila",
+    "time": "June 3, 2026",
+    "priority": 347,
+    "imageStyle": "music",
+    "factBox": [
+      {
+        "label": "East Nasty",
+        "value": "Route 10: Electric Slide"
+      },
+      {
+        "label": "Skinny Dennis",
+        "value": "Joshua Hedley's Western Wednesday, 7 to 10 p.m."
+      },
+      {
+        "label": "Vinyl Tap",
+        "value": "Waikiki Wednesday, 7 to 10 p.m."
+      },
+      {
+        "label": "Basement East",
+        "value": "Ben Chapman's Peach Jam, 8 p.m."
+      }
+    ],
+    "sourceNote": "Check venue/ticket listings before leaving; times and availability can change.",
+    "sources": [
+      {
+        "name": "East Nasty events",
+        "url": "https://www.eastnastyforlife.com/",
+        "type": "Organization calendar"
+      },
+      {
+        "name": "Nashville Music Calendar: Joshua Hedley's Western Wednesday at Skinny Dennis",
+        "url": "https://nashvillemusiccalendar.com/show/joshua-hedleys-western-wednesday-at-skinny-dennis-3/",
+        "type": "Event listing"
+      },
+      {
+        "name": "Vinyl Tap events",
+        "url": "https://www.vinyltapnashville.com/events",
+        "type": "Venue listing"
+      },
+      {
+        "name": "Ticketmaster: The Basement East June 3 listing",
+        "url": "https://www.ticketmaster.com/the-basement-east-tickets-nashville/venue/222610",
+        "type": "Venue listing"
+      }
+    ],
+    "social": {
+      "x": "Wednesday East Nashville calendar: East Nasty Route 10, Joshua Hedley's Western Wednesday at Skinny Dennis, Waikiki Wednesday at Vinyl Tap, and Ben Chapman's Peach Jam at The Basement East.",
+      "instagram": "Run first, then choose between western, Waikiki, and Peach Jam. Wednesday has range.",
+      "video": "Lila does the Wednesday calendar in one breath and calls it cross-training."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "East Nasty lists Route 10: Electric Slide for today, June 3. That is the neighborhood movement option before the rest of the evening starts asking for shoes with less foam.\n\nNashville Music Calendar lists Joshua Hedley's Western Wednesday at Skinny Dennis from 7 to 10 p.m., with East Nashville as the neighborhood and a 21-plus note.\n\nVinyl Tap lists Waikiki Wednesdays with The Volcano Brothers from 7 to 10 p.m., billed as monthly Hawaiian and hot-jazz energy with rotating Nashville players.\n\nTicketmaster's Basement East venue page lists Ben Chapman's Peach Jam for 8 p.m., with Rome, Slater Nalley, Benny G, Taylor McCall, Carlyle Griffin, Myron Elkins, Erin Viancourt, and Cornbread Cowboi in the listing.",
+    "articleSections": [
+      {
+        "heading": "The Useful Shortlist",
+        "paragraphs": [
+          "East Nasty lists Route 10: Electric Slide for today, June 3. That is the neighborhood movement option before the rest of the evening starts asking for shoes with less foam.",
+          "Nashville Music Calendar lists Joshua Hedley's Western Wednesday at Skinny Dennis from 7 to 10 p.m., with East Nashville as the neighborhood and a 21-plus note.",
+          "Vinyl Tap lists Waikiki Wednesdays with The Volcano Brothers from 7 to 10 p.m., billed as monthly Hawaiian and hot-jazz energy with rotating Nashville players.",
+          "Ticketmaster's Basement East venue page lists Ben Chapman's Peach Jam for 8 p.m., with Rome, Slater Nalley, Benny G, Taylor McCall, Carlyle Griffin, Myron Elkins, Erin Viancourt, and Cornbread Cowboi in the listing."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
     "id": "may-30-source-pass-east-nashville",
     "slug": "today-east-nashville-source-pass-may-30-2026",
     "title": "Today's East Nashville Source Pass: Eastpoint Kicks Off, Facebook Signals, Summer Reading, And A Three-Venue Night",
