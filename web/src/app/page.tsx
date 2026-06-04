@@ -17,6 +17,7 @@ const todayPackageIds = [
   "east-bank-bridge-timelines-june-3-2026",
   "rebuilding-together-breakfast-riverside-revival-june-3-2026",
   "wednesday-east-nashville-calendar-june-3-2026",
+  "facebook-group-poll-june-3-2026",
 ];
 
 const recentPackageIds = [
@@ -220,11 +221,12 @@ export default function HomePage() {
         <div>
           <div className="section-heading front-page-heading">
             <p className="eyebrow">East Nashville Today / June 3</p>
-            <h1>Budget Work Session 4, CMA Traffic, And East Bank Bridge Timelines</h1>
+            <h1>Budget Work Session 4, CMA Traffic, East Bank Timelines, And Facebook Signals</h1>
             <p>
               Today&apos;s issue leads with public sources: Metro&apos;s fourth budget work session, CMA Fest traffic
               controls starting before the festival, reported East Bank bridge timelines, Rebuilding Together at
-              Riverside Revival, and a Wednesday calendar from East Nasty to East-side music rooms.
+              Riverside Revival, a Wednesday calendar from East Nasty to East-side music rooms, and a supervised
+              Facebook group poll.
             </p>
           </div>
           <section className="front-package" aria-label="Top stories">
@@ -253,9 +255,8 @@ export default function HomePage() {
               <p className="eyebrow">Source Status</p>
               <h2>Read The Label Before The Take</h2>
               <p>
-                June 3 is a public-source issue: confirmed Metro, transportation, nonprofit, and event listings,
-                reported East Bank bridge timeline context, and private-platform material held until supervised
-                capture exists.
+                June 3 combines confirmed Metro, transportation, nonprofit, and event listings with reported East
+                Bank bridge timeline context and one supervised Facebook group poll. Nextdoor remains held.
               </p>
             </div>
             <div className="source-status-grid">

@@ -190,8 +190,8 @@ export const stories = [
   {
     "id": "june-3-source-pass-east-nashville",
     "slug": "today-east-nashville-source-pass-june-3-2026",
-    "title": "Today's East Nashville Source Pass: Budget Work Session 4, CMA Fest Traffic, East Bank Bridges, And A Wednesday Calendar",
-    "deck": "Wednesday's source run is civic-heavy with a useful calendar tail: Metro budget work session 4, CMA Fest special-event controls beginning today, fresh East Bank bridge timeline reporting, Rebuilding Together at Riverside Revival, and East Nasty's Electric Slide route.",
+    "title": "Today's East Nashville Source Pass: Budget Work Session 4, CMA Fest Traffic, East Bank Bridges, Facebook Signals, And A Wednesday Calendar",
+    "deck": "Wednesday's source run is civic-heavy with a useful calendar tail: Metro budget work session 4, CMA Fest special-event controls beginning today, fresh East Bank bridge timeline reporting, Rebuilding Together at Riverside Revival, a supervised Facebook poll, and East Nasty's Electric Slide route.",
     "readerUtility": {
       "title": "Today's Useful Read",
       "items": [
@@ -213,11 +213,11 @@ export const stories = [
         }
       ]
     },
-    "pullQuote": "Today is where budget math, traffic cones, and East Bank timelines all start talking to each other.",
+    "pullQuote": "Today is where budget math, traffic cones, East Bank timelines, and the group chat all start talking to each other.",
     "zone": "East Nashville",
     "beat": "News",
     "label": "Reported",
-    "confidence": "Built from Metro Council, Legistar, NDOT, Metro East Bank, Rebuilding Together Nashville, East Nasty, and public venue/event listings. Private-platform material is held.",
+    "confidence": "Built from Metro Council, Legistar, NDOT, Metro East Bank, Rebuilding Together Nashville, East Nasty, public venue/event listings, and a supervised private Facebook group poll.",
     "reporterId": "june",
     "time": "June 3, 2026",
     "priority": 352,
@@ -237,7 +237,7 @@ export const stories = [
       },
       {
         "label": "Private platforms",
-        "value": "Held unless supervised capture exists"
+        "value": "Facebook anonymized; Nextdoor held"
       }
     ],
     "sourceNote": "East Bank bridge details are treated as Reported because the available public source is a community share of Business Journal reporting; upgrade when the original article or agency materials are attached.",
@@ -299,12 +299,12 @@ export const stories = [
       }
     ],
     "social": {
-      "x": "June 3 source pass: Budget Work Session 4, CMA Fest special-event controls, East Bank bridge timelines, Rebuilding Together at Riverside Revival, and a Wednesday East Nashville calendar.",
-      "instagram": "Wednesday board: budget math, festival traffic, bridge timelines, home repair support, East Nasty, and enough music to make civic homework tolerable.",
-      "video": "June walks the board: budget, CMA traffic, East Bank bridges. Lila gets the last word with East Nasty and the venue calendar."
+      "x": "June 3 source pass: Budget Work Session 4, CMA Fest special-event controls, East Bank bridge timelines, a supervised Facebook poll, Rebuilding Together, and a Wednesday calendar.",
+      "instagram": "Wednesday board: budget math, festival traffic, bridge timelines, home repair support, group-chat signals, East Nasty, and enough music to make civic homework tolerable.",
+      "video": "June walks the board: budget, CMA traffic, East Bank bridges. Mabel adds the Facebook signal, then Lila gets the last word with the venue calendar."
     },
     "heroImage": "/api/media/issue-cover?id=june-3-source-pass-east-nashville",
-    "heroAlt": "Cover art for Today's East Nashville Source Pass: Budget Work Session 4, CMA Fest Traffic, East Bank Bridges, And A Wednesday Calendar.",
+    "heroAlt": "Cover art for Today's East Nashville Source Pass: Budget Work Session 4, CMA Fest Traffic, East Bank Bridges, Facebook Signals, And A Wednesday Calendar.",
     "media": [
       {
         "label": "Issue Cover",
@@ -312,7 +312,7 @@ export const stories = [
         "description": "Generated cover art for the June 3 East Nashville source pass.",
         "url": "/story/today-east-nashville-source-pass-june-3-2026",
         "imageUrl": "/api/media/issue-cover?id=june-3-source-pass-east-nashville",
-        "imageAlt": "Cover art for Today's East Nashville Source Pass: Budget Work Session 4, CMA Fest Traffic, East Bank Bridges, And A Wednesday Calendar.",
+        "imageAlt": "Cover art for Today's East Nashville Source Pass: Budget Work Session 4, CMA Fest Traffic, East Bank Bridges, Facebook Signals, And A Wednesday Calendar.",
         "credit": "Image: East Meets Nash generated issue cover.",
         "displayRole": "hero",
         "provider": "generated_cover",
@@ -329,7 +329,7 @@ export const stories = [
     "photoNeeds": [
       "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
     ],
-    "body": "Wednesday's East Nashville run is civic-heavy, but it is not abstract. Budget work session 4 is today, CMA Fest traffic controls start today, and the East Bank keeps producing the kind of timeline details that decide whether a riverfront promise becomes a usable neighborhood.\n\nMetro lists Budget and Finance Committee Work Session 4 for today at 4:30 p.m. in the Jury Assembly Room at the Historic Metro Courthouse. The official listing says the public may view the meeting online through Metro Nashville Network streams.\n\nThe CMA Fest Special Event Zone also starts today. Metro legislation for BL2026-1363 sets the zone from 6 a.m. on June 3 through midnight on June 8, and the official road-closure report puts festival-related closures on the board before the June 4 to 7 public-facing festival run.\n\nThe East Bank development desk has a fresh bridge-timeline item from a public Reddit share of Nashville Business Journal reporting: Oracle's pedestrian bridge, the John Seigenthaler ramp, James Robertson Parkway lowering, and the Oracle-East Nashville connection all have timeline hooks to follow.\n\nThe housing/support lane is Rebuilding Together Nashville's Building Community Breakfast at Riverside Revival from 11 a.m. to 1 p.m., framed by the organization as a fundraiser around affordable homeownership preservation and neighborhood revitalization.\n\nTonight's East Nashville utility stack is Route 10: Electric Slide from East Nasty, Joshua Hedley's Western Wednesday at Skinny Dennis, Waikiki Wednesday with The Volcano Brothers at Vinyl Tap, and Ben Chapman's Peach Jam at The Basement East.\n\nNo new Facebook or Nextdoor material was promoted today. Private-platform items stay held unless there is supervised capture, redaction, and a public-link upgrade path.",
+    "body": "Wednesday's East Nashville run is civic-heavy, but it is not abstract. Budget work session 4 is today, CMA Fest traffic controls start today, and the East Bank keeps producing the kind of timeline details that decide whether a riverfront promise becomes a usable neighborhood.\n\nMetro lists Budget and Finance Committee Work Session 4 for today at 4:30 p.m. in the Jury Assembly Room at the Historic Metro Courthouse. The official listing says the public may view the meeting online through Metro Nashville Network streams.\n\nThe CMA Fest Special Event Zone also starts today. Metro legislation for BL2026-1363 sets the zone from 6 a.m. on June 3 through midnight on June 8, and the official road-closure report puts festival-related closures on the board before the June 4 to 7 public-facing festival run.\n\nThe East Bank development desk has a fresh bridge-timeline item from a public Reddit share of Nashville Business Journal reporting: Oracle's pedestrian bridge, the John Seigenthaler ramp, James Robertson Parkway lowering, and the Oracle-East Nashville connection all have timeline hooks to follow.\n\nThe housing/support lane is Rebuilding Together Nashville's Building Community Breakfast at Riverside Revival from 11 a.m. to 1 p.m., framed by the organization as a fundraiser around affordable homeownership preservation and neighborhood revitalization.\n\nTonight's East Nashville utility stack is Route 10: Electric Slide from East Nasty, Joshua Hedley's Western Wednesday at Skinny Dennis, Waikiki Wednesday with The Volcano Brothers at Vinyl Tap, and Ben Chapman's Peach Jam at The Basement East.\n\nA supervised Facebook New posts pass was added after the public-source issue shipped. It is published as a Group Chat Says trend poll: found-animal logistics, home-service asks and promos, curb-alert exchanges, and local recommendation requests. No names, raw screenshots, phone numbers, exact private addresses, or direct private-post links were promoted.\n\nNextdoor remains held unless supervised capture, redaction, and a public-link upgrade path exist.",
     "articleSections": [
       {
         "heading": "Source Desk",
@@ -340,7 +340,8 @@ export const stories = [
           "The East Bank development desk has a fresh bridge-timeline item from a public Reddit share of Nashville Business Journal reporting: Oracle's pedestrian bridge, the John Seigenthaler ramp, James Robertson Parkway lowering, and the Oracle-East Nashville connection all have timeline hooks to follow.",
           "The housing/support lane is Rebuilding Together Nashville's Building Community Breakfast at Riverside Revival from 11 a.m. to 1 p.m., framed by the organization as a fundraiser around affordable homeownership preservation and neighborhood revitalization.",
           "Tonight's East Nashville utility stack is Route 10: Electric Slide from East Nasty, Joshua Hedley's Western Wednesday at Skinny Dennis, Waikiki Wednesday with The Volcano Brothers at Vinyl Tap, and Ben Chapman's Peach Jam at The Basement East.",
-          "No new Facebook or Nextdoor material was promoted today. Private-platform items stay held unless there is supervised capture, redaction, and a public-link upgrade path."
+          "A supervised Facebook New posts pass was added after the public-source issue shipped. It is published as a Group Chat Says trend poll: found-animal logistics, home-service asks and promos, curb-alert exchanges, and local recommendation requests. No names, raw screenshots, phone numbers, exact private addresses, or direct private-post links were promoted.",
+          "Nextdoor remains held unless supervised capture, redaction, and a public-link upgrade path exist."
         ]
       }
     ],
@@ -792,6 +793,95 @@ export const stories = [
           "Nashville Music Calendar lists Joshua Hedley's Western Wednesday at Skinny Dennis from 7 to 10 p.m., with East Nashville as the neighborhood and a 21-plus note.",
           "Vinyl Tap lists Waikiki Wednesdays with The Volcano Brothers from 7 to 10 p.m., billed as monthly Hawaiian and hot-jazz energy with rotating Nashville players.",
           "Ticketmaster's Basement East venue page lists Ben Chapman's Peach Jam for 8 p.m., with Rome, Slater Nalley, Benny G, Taylor McCall, Carlyle Griffin, Myron Elkins, Erin Viancourt, and Cornbread Cowboi in the listing."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": []
+  },
+  {
+    "id": "facebook-group-poll-june-3-2026",
+    "slug": "facebook-group-poll-june-3-2026",
+    "title": "Facebook Group Poll: Pets, Home Services, Curb Alerts, And Recommendation Requests",
+    "deck": "A supervised New posts pass found a practical neighborhood feed: found-animal logistics, home-service asks and promos, curb-alert exchanges, and local recommendation requests.",
+    "readerUtility": {
+      "title": "Poll Decisions",
+      "items": [
+        {
+          "label": "Publish",
+          "value": "Anonymized trend summary only"
+        },
+        {
+          "label": "Verify",
+          "value": "Home-service and event leads need public links"
+        },
+        {
+          "label": "Hold",
+          "value": "Names, phone numbers, addresses, photos, and raw private-post details"
+        }
+      ]
+    },
+    "pullQuote": "The useful signal is the pattern, not the private post.",
+    "zone": "East Nashville",
+    "beat": "Community Desk",
+    "label": "Group Chat Says",
+    "confidence": "Supervised private Facebook group capture from the New posts feed; summarized without raw screenshots, private names, phone numbers, exact addresses, or direct private-post links.",
+    "reporterId": "mabel",
+    "time": "June 3, 2026",
+    "priority": 346,
+    "imageStyle": "gossip",
+    "factBox": [
+      {
+        "label": "Surface",
+        "value": "East Nashville Facebook group, sorted by New posts"
+      },
+      {
+        "label": "Published",
+        "value": "Anonymized source-desk trend summary"
+      },
+      {
+        "label": "Not published",
+        "value": "Names, screenshots, phone numbers, exact addresses, private-home details"
+      }
+    ],
+    "sourceNote": "This story is intentionally labeled Group Chat Says. Items need public links, direct permission, or independent verification before becoming Confirmed stories.",
+    "sources": [
+      {
+        "name": "East Nashville Facebook group, supervised New posts poll",
+        "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+        "type": "Private group supervised capture"
+      }
+    ],
+    "social": {
+      "x": "Facebook group poll: found-animal logistics, home-service asks, curb-alert exchanges, and recommendation requests. Published as anonymized trend signal, not private-post copy.",
+      "instagram": "Today in the private feed: pets, plumbers, lawn care, curb alerts, and the eternal local recommendation economy.",
+      "video": "Mabel explains the Facebook bins: trend signal, verify lead, hold the private details."
+    },
+    "media": [],
+    "photoStatus": "contextual_photo_needs_upgrade",
+    "photoNeeds": [
+      "Replace fallback art with exact public-source media, venue photos, or approved embeds when available."
+    ],
+    "body": "After the public-source issue shipped, the East Nashville Facebook group was visible in the in-app browser and sorted to New posts. This is a supervised poll, not a raw scrape: the job is to find neighborhood signal without turning private posts into public copy.\n\nThe clearest theme was practical neighbor logistics. A found-animal thread near an Inglewood grocery showed people trying to connect a handoff without turning the site into a lost-and-found board. That belongs as a pet/help signal, not a public claim with names attached.\n\nHome services were the biggest utility lane. The visible feed included pool or deck work, plumbing, lawn care, availability posts, and contractor recommendations. Some replies included direct contact details, so those stay out. The publishable takeaway is that home-repair demand and local service referrals are still a strong East Side feed pattern.\n\nThere was also neighbor-to-neighbor exchange: curb-alert and free-item posts, plus quick pickup logistics. Those are useful to the group in real time, but exact addresses and one-off private pickup details do not belong in the news river.\n\nThe recommendation economy was active too, including creative-service asks such as tattoo-artist recommendations and trade requests. That is guide/classifieds fuel once public business pages or permission exist.\n\nNo private-citizen names, screenshots, phone numbers, precise private addresses, medical details, kids, plates, allegations, or raw post links were promoted.\n\nMabel's ruling: publish the pattern, hold the particulars, and upgrade only the leads that can move to public sources.",
+    "articleSections": [
+      {
+        "heading": "What The Group Poll Found",
+        "paragraphs": [
+          "After the public-source issue shipped, the East Nashville Facebook group was visible in the in-app browser and sorted to New posts. This is a supervised poll, not a raw scrape: the job is to find neighborhood signal without turning private posts into public copy.",
+          "The clearest theme was practical neighbor logistics. A found-animal thread near an Inglewood grocery showed people trying to connect a handoff without turning the site into a lost-and-found board. That belongs as a pet/help signal, not a public claim with names attached.",
+          "Home services were the biggest utility lane. The visible feed included pool or deck work, plumbing, lawn care, availability posts, and contractor recommendations. Some replies included direct contact details, so those stay out. The publishable takeaway is that home-repair demand and local service referrals are still a strong East Side feed pattern.",
+          "There was also neighbor-to-neighbor exchange: curb-alert and free-item posts, plus quick pickup logistics. Those are useful to the group in real time, but exact addresses and one-off private pickup details do not belong in the news river.",
+          "The recommendation economy was active too, including creative-service asks such as tattoo-artist recommendations and trade requests. That is guide/classifieds fuel once public business pages or permission exist."
+        ]
+      },
+      {
+        "heading": "What Stayed Out",
+        "paragraphs": [
+          "No private-citizen names, screenshots, phone numbers, precise private addresses, medical details, kids, plates, allegations, or raw post links were promoted.",
+          "Mabel's ruling: publish the pattern, hold the particulars, and upgrade only the leads that can move to public sources."
         ]
       }
     ],
@@ -11759,12 +11849,12 @@ export const sourceItems = [
     "risk": "Low",
     "score": 100,
     "status": "Published June 3",
-    "automation": "Public-source sweep plus private-platform hold",
+    "automation": "Public-source sweep plus supervised Facebook poll",
     "cadence": "Daily",
-    "verificationRule": "Publish public-source items now; add Facebook/Nextdoor only from supervised notes with redactions.",
+    "verificationRule": "Publish public-source items now; keep private-platform material anonymized, redacted, and labeled.",
     "suggestedReporter": "june",
     "suggestedLabel": "Reported",
-    "suggestedAngle": "Make the June 3 source pass the issue lead with budget, CMA traffic, East Bank bridges, housing support, and calendar utility.",
+    "suggestedAngle": "Make the June 3 source pass the issue lead with budget, CMA traffic, East Bank bridges, Facebook signals, housing support, and calendar utility.",
     "publishFormat": "Daily source pass"
   },
   {
@@ -11863,8 +11953,27 @@ export const sourceItems = [
     "publishFormat": "Calendar brief"
   },
   {
+    "id": "src-june3-facebook-group-poll",
+    "title": "June 3 East Nashville Facebook group poll",
+    "source": "East Nashville Facebook group",
+    "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+    "zone": "East Nashville",
+    "beat": "Community Desk",
+    "confidence": "Group Chat Says",
+    "risk": "Medium",
+    "score": 68,
+    "status": "Published June 3 as anonymized Group Chat Says",
+    "automation": "Manual supervised private-platform capture",
+    "cadence": "As access allows",
+    "verificationRule": "Do not publish private-citizen names, screenshots, phone numbers, exact addresses, kids, medical details, plates, accusations, or raw post links.",
+    "suggestedReporter": "mabel",
+    "suggestedLabel": "Group Chat Says",
+    "suggestedAngle": "Publish only the anonymized pattern: pets/found animals, home services, curb alerts, and recommendation requests.",
+    "publishFormat": "Anonymized Facebook group poll"
+  },
+  {
     "id": "src-june3-facebook-nextdoor-hold",
-    "title": "June 3 Facebook and Nextdoor supervised capture lane",
+    "title": "June 3 Nextdoor supervised capture lane",
     "source": "Private-platform hold",
     "url": "/admin/sources",
     "zone": "East Nashville",
@@ -11872,14 +11981,14 @@ export const sourceItems = [
     "confidence": "Seed Item",
     "risk": "Medium",
     "score": 50,
-    "status": "Held June 3; no new supervised private-platform pass used",
+    "status": "Nextdoor held June 3; Facebook published only as anonymized supervised poll",
     "automation": "Manual supervised capture only",
     "cadence": "As access allows",
     "verificationRule": "Do not publish private-citizen screenshots, personal details, plates, phones, kids, medical details, or accusations.",
     "suggestedReporter": "mabel",
     "suggestedLabel": "Seed Item",
-    "suggestedAngle": "Keep private-platform observations in source desk until public links or supervised redacted notes exist.",
-    "publishFormat": "Held source item"
+    "suggestedAngle": "Keep Nextdoor observations in source desk until public links or supervised redacted notes exist.",
+    "publishFormat": "Held Nextdoor source item"
   },
   {
     "id": "src-may30-source-pass",

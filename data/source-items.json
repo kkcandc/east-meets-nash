@@ -10,12 +10,12 @@
     "risk": "Low",
     "score": 100,
     "status": "Published June 3",
-    "automation": "Public-source sweep plus private-platform hold",
+    "automation": "Public-source sweep plus supervised Facebook poll",
     "cadence": "Daily",
-    "verificationRule": "Publish public-source items now; add Facebook/Nextdoor only from supervised notes with redactions.",
+    "verificationRule": "Publish public-source items now; keep private-platform material anonymized, redacted, and labeled.",
     "suggestedReporter": "june",
     "suggestedLabel": "Reported",
-    "suggestedAngle": "Make the June 3 source pass the issue lead with budget, CMA traffic, East Bank bridges, housing support, and calendar utility.",
+    "suggestedAngle": "Make the June 3 source pass the issue lead with budget, CMA traffic, East Bank bridges, Facebook signals, housing support, and calendar utility.",
     "publishFormat": "Daily source pass"
   },
   {
@@ -114,8 +114,27 @@
     "publishFormat": "Calendar brief"
   },
   {
+    "id": "src-june3-facebook-group-poll",
+    "title": "June 3 East Nashville Facebook group poll",
+    "source": "East Nashville Facebook group",
+    "url": "https://www.facebook.com/groups/eastnashvilleofficial/?sorting_setting=CHRONOLOGICAL",
+    "zone": "East Nashville",
+    "beat": "Community Desk",
+    "confidence": "Group Chat Says",
+    "risk": "Medium",
+    "score": 68,
+    "status": "Published June 3 as anonymized Group Chat Says",
+    "automation": "Manual supervised private-platform capture",
+    "cadence": "As access allows",
+    "verificationRule": "Do not publish private-citizen names, screenshots, phone numbers, exact addresses, kids, medical details, plates, accusations, or raw post links.",
+    "suggestedReporter": "mabel",
+    "suggestedLabel": "Group Chat Says",
+    "suggestedAngle": "Publish only the anonymized pattern: pets/found animals, home services, curb alerts, and recommendation requests.",
+    "publishFormat": "Anonymized Facebook group poll"
+  },
+  {
     "id": "src-june3-facebook-nextdoor-hold",
-    "title": "June 3 Facebook and Nextdoor supervised capture lane",
+    "title": "June 3 Nextdoor supervised capture lane",
     "source": "Private-platform hold",
     "url": "/admin/sources",
     "zone": "East Nashville",
@@ -123,14 +142,14 @@
     "confidence": "Seed Item",
     "risk": "Medium",
     "score": 50,
-    "status": "Held June 3; no new supervised private-platform pass used",
+    "status": "Nextdoor held June 3; Facebook published only as anonymized supervised poll",
     "automation": "Manual supervised capture only",
     "cadence": "As access allows",
     "verificationRule": "Do not publish private-citizen screenshots, personal details, plates, phones, kids, medical details, or accusations.",
     "suggestedReporter": "mabel",
     "suggestedLabel": "Seed Item",
-    "suggestedAngle": "Keep private-platform observations in source desk until public links or supervised redacted notes exist.",
-    "publishFormat": "Held source item"
+    "suggestedAngle": "Keep Nextdoor observations in source desk until public links or supervised redacted notes exist.",
+    "publishFormat": "Held Nextdoor source item"
   },
   {
     "id": "src-may30-source-pass",

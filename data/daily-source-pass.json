@@ -1,7 +1,7 @@
 {
   "date": "June 3, 2026",
   "title": "Daily Source Pass",
-  "summary": "Today's issue is built from Metro Council, Metro Legistar, NDOT, Metro East Bank, Rebuilding Together Nashville, East Nasty, Nashville Music Calendar, Vinyl Tap, Ticketmaster, and a private-platform hold. The lead package is public-source only.",
+  "summary": "Today's issue is built from Metro Council, Metro Legistar, NDOT, Metro East Bank, Rebuilding Together Nashville, East Nasty, Nashville Music Calendar, Vinyl Tap, Ticketmaster, and a supervised Facebook group poll. Nextdoor remains held.",
   "stages": [
     {
       "time": "8:30 AM",
@@ -43,11 +43,12 @@
     {
       "time": "1:00 PM",
       "name": "Private Platform Gate",
-      "goal": "Keep Facebook and Nextdoor out without supervised capture.",
+      "goal": "Add Facebook only from supervised capture and keep Nextdoor held.",
       "sourceIds": [
+        "src-june3-facebook-group-poll",
         "src-june3-facebook-nextdoor-hold"
       ],
-      "output": "No new Facebook or Nextdoor material was promoted."
+      "output": "Published one anonymized Facebook group poll; no Nextdoor material was promoted."
     },
     {
       "time": "1:30 PM",
@@ -59,9 +60,10 @@
         "src-june3-cma-special-event-zone",
         "src-june3-east-bank-bridge-timelines",
         "src-june3-rebuilding-together-breakfast",
-        "src-june3-wednesday-calendar"
+        "src-june3-wednesday-calendar",
+        "src-june3-facebook-group-poll"
       ],
-      "output": "Six June 3 stories are ready with source trails, labels, social cuts, and generated/fallback covers."
+      "output": "Seven June 3 stories are ready with source trails, labels, social cuts, and generated/fallback covers."
     }
   ],
   "publishQueue": [
@@ -102,17 +104,23 @@
       "why": "The listings have public time/place details and help readers plan today."
     },
     {
-      "sourceId": "src-june3-facebook-nextdoor-hold",
+      "sourceId": "src-june3-facebook-group-poll",
       "slot": "Community capture",
+      "decision": "Published as anonymized Group Chat Says poll.",
+      "why": "The visible New posts feed showed recurring neighborhood patterns, but private names, contact details, addresses, photos, and raw post links stayed out."
+    },
+    {
+      "sourceId": "src-june3-facebook-nextdoor-hold",
+      "slot": "Nextdoor capture",
       "decision": "Held.",
-      "why": "Private-platform claims need supervised capture, redaction, and labels before publication."
+      "why": "No supervised Nextdoor capture was used for the June 3 issue."
     }
   ],
   "accessNeeds": [
     {
       "name": "Facebook group",
-      "status": "No June 3 pass used",
-      "today": "Optional later pass should focus on public organization/business links and exact-location civic issues; avoid private medical, housing, kids, plates, phones, or accusations.",
+      "status": "Published anonymized June 3 poll",
+      "today": "Supervised New posts pass used only for trend-level Group Chat Says summary: pets/found animals, home services, curb alerts, and recommendation requests.",
       "guardrail": "Do not publish raw private-citizen screenshots, kids, medical/financial details, private addresses, plates, phones, or unverified accusations."
     },
     {
