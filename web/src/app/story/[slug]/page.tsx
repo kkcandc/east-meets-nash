@@ -5,6 +5,7 @@ import { ReactionPanel } from "@/components/ReactionPanel";
 import { ReporterAvatar } from "@/components/ReporterAvatar";
 import { SubscribeForm } from "@/components/SubscribeForm";
 import { getReporter, getStories, getStoryBySlug } from "@/lib/content";
+import { isRoundupStory, issueCoverImage } from "@/lib/story-images";
 import type { Story } from "@/lib/types";
 
 interface StoryPageProps {
@@ -17,10 +18,14 @@ type StoryMediaItem = NonNullable<Story["media"]>[number];
 type StorySection = NonNullable<Story["articleSections"]>[number];
 
 function featuredImage(story: NonNullable<ReturnType<typeof getStoryBySlug>>) {
+  if (isRoundupStory(story)) return issueCoverImage(story).src;
+
   return story.heroImage || `/assets/stories/fallback-${story.imageStyle || "street"}.svg`;
 }
 
 function featuredAlt(story: NonNullable<ReturnType<typeof getStoryBySlug>>) {
+  if (isRoundupStory(story)) return issueCoverImage(story).alt;
+
   return story.heroAlt || `${story.beat} featured image for ${story.title}`;
 }
 
