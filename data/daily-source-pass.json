@@ -1,126 +1,126 @@
 {
-  "date": "June 3, 2026",
+  "date": "June 8, 2026",
   "title": "Daily Source Pass",
-  "summary": "Today's issue is built from Metro Council, Metro Legistar, NDOT, Metro East Bank, Rebuilding Together Nashville, East Nasty, Nashville Music Calendar, Vinyl Tap, Ticketmaster, and a supervised Facebook group poll. Nextdoor remains held.",
+  "summary": "Today's issue is built from Metro Council, Metro Legistar, NDOT, Sports Authority, Office of Homeless Services, Ticketmaster, Nashville Music Calendar, and venue listings. Facebook and Nextdoor remain held unless supervised capture is available.",
   "stages": [
     {
       "time": "8:30 AM",
       "name": "Civic Scan",
       "goal": "Find same-day official meetings and civic stakes.",
       "sourceIds": [
-        "src-june3-budget-work-session-four",
-        "src-june3-cma-special-event-zone"
+        "src-june8-interpersonal-violence-working-group",
+        "src-june8-traffic-parking-commission",
+        "src-june8-sports-authority-committee"
       ],
-      "output": "Confirmed Budget Work Session 4 and CMA Fest special-event controls beginning today."
+      "output": "Confirmed the public-safety working group, Traffic and Parking Commission, and Sports Authority committee meetings."
     },
     {
-      "time": "10:00 AM",
-      "name": "East Bank Development Watch",
-      "goal": "Attach fresh East Bank infrastructure movement.",
+      "time": "9:30 AM",
+      "name": "Transportation And Teardown",
+      "goal": "Check CMA Fest teardown and route utility.",
       "sourceIds": [
-        "src-june3-east-bank-bridge-timelines"
+        "src-june8-cma-teardown-closures"
       ],
-      "output": "Added reported bridge timeline hooks for Oracle, Seigenthaler ramp, James Robertson Parkway, and Oracle-East Nashville connection."
+      "output": "Confirmed the CMA Fest special-event zone runs through midnight and attached NDOT closure materials."
     },
     {
-      "time": "11:00 AM",
-      "name": "Housing And Nonprofit Scan",
-      "goal": "Find public housing-support utility.",
+      "time": "10:30 AM",
+      "name": "Housing Systems Scan",
+      "goal": "Find public housing-service governance items.",
       "sourceIds": [
-        "src-june3-rebuilding-together-breakfast"
+        "src-june8-homelessness-governance-charter"
       ],
-      "output": "Confirmed Rebuilding Together Nashville's Building Community Breakfast at Riverside Revival."
+      "output": "Confirmed the Continuum of Care Governance Charter Committee meeting at Edgehill Branch Library."
     },
     {
       "time": "12:00 PM",
-      "name": "Wednesday Calendar",
-      "goal": "Build tonight's neighborhood utility lane.",
+      "name": "Monday Calendar",
+      "goal": "Build tonight's useful East-side event lane.",
       "sourceIds": [
-        "src-june3-wednesday-calendar"
+        "src-june8-monday-calendar"
       ],
-      "output": "Confirmed East Nasty Route 10, Skinny Dennis, Vinyl Tap, and Basement East listings."
+      "output": "Confirmed The East Room's Monday listing and nearby Basement music listings."
     },
     {
       "time": "1:00 PM",
       "name": "Private Platform Gate",
-      "goal": "Add Facebook only from supervised capture and keep Nextdoor held.",
+      "goal": "Use private-platform material only with supervised capture.",
       "sourceIds": [
-        "src-june3-facebook-group-poll",
-        "src-june3-facebook-nextdoor-hold"
+        "src-june8-facebook-hold"
       ],
-      "output": "Published one anonymized Facebook group poll; no Nextdoor material was promoted."
+      "output": "Held Facebook and Nextdoor material because no supervised private-feed capture was available in this run."
     },
     {
       "time": "1:30 PM",
       "name": "Publish Pack",
       "goal": "Ship source-backed web stories and newsletter-ready copy.",
       "sourceIds": [
-        "src-june3-source-pass",
-        "src-june3-budget-work-session-four",
-        "src-june3-cma-special-event-zone",
-        "src-june3-east-bank-bridge-timelines",
-        "src-june3-rebuilding-together-breakfast",
-        "src-june3-wednesday-calendar",
-        "src-june3-facebook-group-poll"
+        "src-june8-source-pass",
+        "src-june8-cma-teardown-closures",
+        "src-june8-interpersonal-violence-working-group",
+        "src-june8-traffic-parking-commission",
+        "src-june8-sports-authority-committee",
+        "src-june8-homelessness-governance-charter",
+        "src-june8-monday-calendar"
       ],
-      "output": "Seven June 3 stories are ready with source trails, labels, social cuts, and generated/fallback covers."
+      "output": "Seven June 8 stories are ready with source trails, labels, social cuts, and generated/fallback covers."
     }
   ],
   "publishQueue": [
     {
-      "sourceId": "src-june3-source-pass",
+      "sourceId": "src-june8-source-pass",
       "slot": "Issue lead",
       "decision": "Published as today's source pass.",
-      "why": "It explains the full public-source run and keeps private-platform material out until supervised capture exists."
+      "why": "It explains the full public-source run and keeps private-platform material held until capture exists."
     },
     {
-      "sourceId": "src-june3-budget-work-session-four",
-      "slot": "Civic lead",
-      "decision": "Published as confirmed budget brief.",
-      "why": "The meeting is official, same-day, and tied to neighborhood services."
+      "sourceId": "src-june8-cma-teardown-closures",
+      "slot": "Transportation lead",
+      "decision": "Published as confirmed CMA teardown and closure utility.",
+      "why": "The special-event zone ends today and route impacts remain useful for East Bank and downtown approaches."
     },
     {
-      "sourceId": "src-june3-cma-special-event-zone",
+      "sourceId": "src-june8-interpersonal-violence-working-group",
+      "slot": "Public safety",
+      "decision": "Published as confirmed meeting brief.",
+      "why": "The meeting is official, same-day, and tied to Metro's public-safety policy work."
+    },
+    {
+      "sourceId": "src-june8-traffic-parking-commission",
       "slot": "Transportation watch",
-      "decision": "Published as confirmed festival traffic brief.",
-      "why": "The special-event zone starts today and affects downtown/East Bank movement."
+      "decision": "Published as confirmed agenda-bearing meeting brief.",
+      "why": "Traffic and parking decisions are high-utility for East Nashville readers."
     },
     {
-      "sourceId": "src-june3-east-bank-bridge-timelines",
-      "slot": "Development watch",
-      "decision": "Published as reported bridge-timeline brief.",
-      "why": "The details are timely and directly tied to East Bank connectivity, but still need original-source upgrade."
+      "sourceId": "src-june8-sports-authority-committee",
+      "slot": "East Bank watch",
+      "decision": "Published as confirmed governance watch.",
+      "why": "Sports Authority work belongs near stadium and East Bank oversight without overclaiming agenda details."
     },
     {
-      "sourceId": "src-june3-rebuilding-together-breakfast",
-      "slot": "Housing support",
-      "decision": "Published as confirmed housing-support event brief.",
-      "why": "The Riverside Revival event has public details and connects to affordable homeownership preservation."
+      "sourceId": "src-june8-homelessness-governance-charter",
+      "slot": "Housing systems",
+      "decision": "Published as confirmed housing governance brief.",
+      "why": "Homelessness governance affects neighborhood service systems and deserves public-source visibility."
     },
     {
-      "sourceId": "src-june3-wednesday-calendar",
+      "sourceId": "src-june8-monday-calendar",
       "slot": "Daily utility",
-      "decision": "Published as confirmed Wednesday calendar.",
-      "why": "The listings have public time/place details and help readers plan today."
+      "decision": "Published as confirmed Monday calendar.",
+      "why": "The listings have public time and venue details for a lean but useful Monday board."
     },
     {
-      "sourceId": "src-june3-facebook-group-poll",
+      "sourceId": "src-june8-facebook-hold",
       "slot": "Community capture",
-      "decision": "Published as anonymized Group Chat Says poll.",
-      "why": "The visible New posts feed showed recurring neighborhood patterns, but private names, contact details, addresses, photos, and raw post links stayed out."
-    },
-    {
-      "sourceId": "src-june3-facebook-nextdoor-hold",
-      "slot": "Nextdoor capture",
       "decision": "Held.",
-      "why": "No supervised Nextdoor capture was used for the June 3 issue."
+      "why": "No supervised visible Facebook capture was available, so no private-group summary was published."
     }
   ],
   "accessNeeds": [
     {
       "name": "Facebook group",
-      "status": "Published anonymized June 3 poll",
-      "today": "Supervised New posts pass used only for trend-level Group Chat Says summary: pets/found animals, home services, curb alerts, and recommendation requests.",
+      "status": "Held June 8",
+      "today": "No Facebook group poll was published because the private feed was not available through a supervised capture path.",
       "guardrail": "Do not publish raw private-citizen screenshots, kids, medical/financial details, private addresses, plates, phones, or unverified accusations."
     },
     {
@@ -130,10 +130,10 @@
       "guardrail": "Treat as neighborhood signal until independently verified; redact sensitive personal details."
     },
     {
-      "name": "East Bank bridge timelines",
-      "status": "Needs original-source upgrade",
-      "today": "Attach original Business Journal article or public agency records before upgrading to Confirmed.",
-      "guardrail": "Keep reported timelines distinct from official project commitments."
+      "name": "Traffic and Parking agenda",
+      "status": "Follow up",
+      "today": "The meeting page links the June 8 agenda; inspect for East-side items after publication if the agenda PDF is needed.",
+      "guardrail": "Do not infer agenda substance from the meeting title alone."
     }
   ]
 }

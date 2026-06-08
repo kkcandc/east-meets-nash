@@ -1,5 +1,586 @@
 [
   {
+    "id": "june-8-source-pass-east-nashville",
+    "slug": "today-east-nashville-source-pass-june-8-2026",
+    "title": "Today's East Nashville Source Pass: CMA Teardown, Public Safety, Traffic Board, Sports Authority, Housing Governance, And A Monday Calendar",
+    "deck": "Monday's source run is public-record heavy: CMA Fest controls wind down, Metro's interpersonal-violence working group meets, Traffic and Parking has an agenda slot, Sports Authority governance stays on the East Bank watch list, homelessness governance meets at Edgehill, and the East-side calendar has a lean but useful music lane.",
+    "readerUtility": {
+      "title": "Today's Useful Read",
+      "items": [
+        {
+          "label": "11:00 a.m.",
+          "value": "Sports Authority Executive and Personnel Committees"
+        },
+        {
+          "label": "1:00 p.m.",
+          "value": "Homelessness Governance Charter Committee"
+        },
+        {
+          "label": "2:30 p.m.",
+          "value": "Traffic and Parking Commission"
+        },
+        {
+          "label": "4:00 p.m.",
+          "value": "Council interpersonal-violence working group"
+        }
+      ]
+    },
+    "pullQuote": "Today is less spectacle than cleanup and governance, which is usually where the useful local-news math hides.",
+    "body": "Today's East Nashville source pass is built from public, source-backed items: Metro Council, NDOT, Metro Legistar, Sports Authority, Office of Homeless Services, Ticketmaster, Nashville Music Calendar, and venue listings. The private-platform lane stays held unless a supervised visible capture is available.",
+    "zone": "East Nashville",
+    "beat": "News",
+    "label": "Reported",
+    "confidence": "Built from official Metro, transportation, public-meeting, venue, and public event sources. Private-platform material is held without supervised capture.",
+    "reporterId": "june",
+    "time": "June 8, 2026",
+    "priority": 360,
+    "imageStyle": "issue-cover",
+    "factBox": [
+      {
+        "label": "Date",
+        "value": "Monday, June 8, 2026"
+      },
+      {
+        "label": "CMA Fest",
+        "value": "Special Event Zone ends at midnight"
+      },
+      {
+        "label": "Civic board",
+        "value": "Public safety, traffic, sports, and homelessness governance"
+      },
+      {
+        "label": "Private platforms",
+        "value": "Facebook held; Nextdoor held"
+      }
+    ],
+    "sourceNote": "Facebook was not promoted today because no supervised private-feed capture was available through the browser tooling in this run.",
+    "sources": [
+      {
+        "name": "Metro Council meetings calendar",
+        "url": "https://www.nashville.gov/departments/council/boards/metro-council/meetings",
+        "type": "Official calendar"
+      },
+      {
+        "name": "Metro Legistar: BL2026-1363 CMA Fest Special Event Zone",
+        "url": "https://nashville.legistar.com/LegislationDetail.aspx?FullText=1&G=99456586-FDA1-4896-A3EB-8389754A06F8&GUID=CD66956E-8C17-4837-884D-E2BD449A078E&ID=7982897&Options=&Search=",
+        "type": "Metro legislation"
+      },
+      {
+        "name": "NDOT roadway closures page",
+        "url": "https://www.nashville.gov/departments/transportation/road-closures",
+        "type": "Official transportation page"
+      },
+      {
+        "name": "Metro special event street closures report, week of May 30 to June 6",
+        "url": "https://www.nashville.gov/sites/default/files/2026-05/SpecialEventRoadClosures-Weekof_053026-060626.pdf?ct=1780079499",
+        "type": "Official closure report"
+      },
+      {
+        "name": "Traffic and Parking Commission Meeting, June 8",
+        "url": "https://www.nashville.gov/departments/transportation/boards/traffic-and-parking-commission/meetings/traffic-and-parking-commission-meeting-june-8-2026",
+        "type": "Official meeting listing"
+      },
+      {
+        "name": "Sports Authority Board meetings",
+        "url": "https://www.nashville.gov/departments/sports-authority/boards/sports-authority-board/meetings",
+        "type": "Official meeting calendar"
+      },
+      {
+        "name": "Continuum of Care Homelessness Planning Council meetings",
+        "url": "https://www.nashville.gov/departments/office-homeless-services/boards/homelessness/meetings",
+        "type": "Official meeting calendar"
+      },
+      {
+        "name": "Ticketmaster Nashville alternative listings, June 8",
+        "url": "https://www.ticketmaster.com/discover/nashville?categoryId=KZFzniwnSyZfZ7v7nJ&classificationId=KnvZfZ7vAvv&tt_scene=anchor_view",
+        "type": "Public event listing"
+      },
+      {
+        "name": "Nashville Music Calendar indie/alternative listings",
+        "url": "https://nashvillemusiccalendar.com/shows/tag/indie-alternative/",
+        "type": "Public event calendar"
+      },
+      {
+        "name": "The Basement Nashville: June 8 just-announced listings",
+        "url": "https://www.thebasementnashville.com/basement-east/contact/",
+        "type": "Venue listing"
+      }
+    ],
+    "articleSections": [
+      {
+        "heading": "Source Desk",
+        "paragraphs": [
+          "The Monday board is useful because it catches the city after the weekend surge. The CMA Fest special-event zone runs through midnight, and NDOT's closure materials still matter for anyone using the downtown, stadium, or East Bank approaches.",
+          "The civic side is unusually stacked for a Monday: a Metro public-safety working group at 4 p.m., Traffic and Parking at 2:30 p.m., Sports Authority committees at 11 a.m., and homelessness governance at 1 p.m. None of those need hype to matter.",
+          "The calendar lane is thinner than a weekend board, but The East Room and nearby venue listings still give readers a practical tonight option. Private social feeds stay out unless we can capture and anonymize them under the site's rules."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": [],
+    "social": {
+      "x": "June 8 source pass: CMA Fest controls wind down, public-safety and traffic meetings are up, Sports Authority and homelessness governance are on the board, and private-platform material stays held without supervised capture.",
+      "instagram": "Monday board: teardown traffic, public safety, Traffic and Parking, Sports Authority, homelessness governance, and a lean East-side calendar. Not glamorous. Useful.",
+      "video": "June walks the board: CMA teardown first, then public safety, traffic, Sports Authority, homelessness governance, and tonight's East-side calendar."
+    }
+  },
+  {
+    "id": "cma-fest-teardown-closures-june-8-2026",
+    "slug": "cma-fest-teardown-closures-june-8-2026",
+    "title": "CMA Fest's Official Zone Ends Tonight, But The East Bank Traffic Hangover Gets A Monday",
+    "deck": "Metro's CMA Fest special-event zone runs through midnight tonight, and NDOT's road-closure materials show why Monday still matters for downtown, river crossings, and East Bank approaches.",
+    "body": "CMA Fest is over on the stage calendar, but the source trail still points to a Monday transportation story. Metro's ordinance keeps the special-event zone active until midnight, and NDOT's closure materials keep the downtown approaches on the board.",
+    "zone": "East Bank / Downtown",
+    "beat": "Transportation",
+    "label": "Confirmed",
+    "confidence": "Confirmed by Metro Legistar, NDOT roadway-closure materials, and the weekly special-event closure report.",
+    "reporterId": "parker",
+    "time": "June 8, 2026",
+    "priority": 359,
+    "imageStyle": "street",
+    "readerUtility": {
+      "title": "What To Watch",
+      "items": [
+        {
+          "label": "Special Event Zone",
+          "value": "Ends at midnight tonight"
+        },
+        {
+          "label": "Likely pinch points",
+          "value": "Downtown approaches, stadium side, river crossings"
+        },
+        {
+          "label": "Best habit",
+          "value": "Check NDOT closures before crossing the river"
+        }
+      ]
+    },
+    "factBox": [
+      {
+        "label": "Zone window",
+        "value": "June 3 at 6 a.m. to June 8 at midnight"
+      },
+      {
+        "label": "Festival dates",
+        "value": "June 4 to 7"
+      },
+      {
+        "label": "East Nashville relevance",
+        "value": "East Bank, downtown access, river crossings"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Metro Legistar: BL2026-1363 CMA Fest Special Event Zone",
+        "url": "https://nashville.legistar.com/LegislationDetail.aspx?FullText=1&G=99456586-FDA1-4896-A3EB-8389754A06F8&GUID=CD66956E-8C17-4837-884D-E2BD449A078E&ID=7982897&Options=&Search=",
+        "type": "Metro legislation"
+      },
+      {
+        "name": "NDOT roadway closures page",
+        "url": "https://www.nashville.gov/departments/transportation/road-closures",
+        "type": "Official transportation page"
+      },
+      {
+        "name": "Metro special event street closures report, week of May 30 to June 6",
+        "url": "https://www.nashville.gov/sites/default/files/2026-05/SpecialEventRoadClosures-Weekof_053026-060626.pdf?ct=1780079499",
+        "type": "Official closure report"
+      }
+    ],
+    "articleSections": [
+      {
+        "heading": "The Teardown Day",
+        "paragraphs": [
+          "The practical point for East Nashville is simple: when downtown's event rules expire at midnight, the route choices do not instantly become normal. Load-out, lane closures, and driver confusion tend to leak into the next commute window.",
+          "Metro's ordinance is the clean legal marker. NDOT's closure pages are the practical marker. Put them together and today reads like a river-crossing caution day, especially for anyone using the stadium side as a shortcut."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": [],
+    "social": {
+      "x": "CMA Fest's special-event zone ends at midnight tonight. The East Nashville angle is the Monday traffic hangover: river crossings, stadium approaches, and downtown routes still deserve a check.",
+      "instagram": "Festival over does not mean cones over. Today's source trail says: check the crossings before you trust your usual route.",
+      "video": "Parker points at the map: CMA Fest zone ends tonight, but Monday traffic still has teardown energy."
+    }
+  },
+  {
+    "id": "interpersonal-violence-working-group-june-8-2026",
+    "slug": "interpersonal-violence-working-group-june-8-2026",
+    "title": "Metro's Interpersonal-Violence Working Group Meets Today, And The Public-Safety Homework Is Public",
+    "deck": "Metro Council lists the Public Health and Safety Committee's interpersonal-violence working group for 4 to 5:30 p.m. at the Historic Metro Courthouse.",
+    "body": "Metro's public-safety board has a same-day meeting worth putting in the East Nashville notebook. The interpersonal-violence working group meets at the Historic Metro Courthouse from 4 to 5:30 p.m.",
+    "zone": "Nashville",
+    "beat": "Public Safety",
+    "label": "Confirmed",
+    "confidence": "Confirmed by the Metro Council meetings calendar.",
+    "reporterId": "june",
+    "time": "June 8, 2026",
+    "priority": 358,
+    "imageStyle": "permit",
+    "readerUtility": {
+      "title": "Meeting Basics",
+      "items": [
+        {
+          "label": "Time",
+          "value": "4 to 5:30 p.m."
+        },
+        {
+          "label": "Place",
+          "value": "Historic Metro Courthouse"
+        },
+        {
+          "label": "Committee lane",
+          "value": "Public Health and Safety"
+        }
+      ]
+    },
+    "factBox": [
+      {
+        "label": "Meeting",
+        "value": "Interpersonal Violence Working Group"
+      },
+      {
+        "label": "Time",
+        "value": "4:00 to 5:30 p.m."
+      },
+      {
+        "label": "Location",
+        "value": "Historic Metro Courthouse"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Metro Council meetings calendar",
+        "url": "https://www.nashville.gov/departments/council/boards/metro-council/meetings",
+        "type": "Official calendar"
+      }
+    ],
+    "articleSections": [
+      {
+        "heading": "Why This Belongs In The Local Brief",
+        "paragraphs": [
+          "Public-safety work is easy to flatten into slogans. A working group is where the less dramatic but more useful questions live: what policy is being built, what service gaps keep recurring, and which departments are being asked to own the follow-through.",
+          "For East Nashville readers, this is a watch-list item rather than a finished story. The next useful step is checking meeting materials, minutes, and any follow-up legislation or budget movement that comes out of the conversation."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": [],
+    "social": {
+      "x": "Metro's interpersonal-violence working group meets today from 4 to 5:30 p.m. at the Historic Metro Courthouse. It belongs in the public-safety watch list.",
+      "instagram": "Not every public-safety story is sirens. Some of it is committee homework. Today's meeting is one to watch.",
+      "video": "June puts the 4 p.m. public-safety meeting on the board and flags the follow-up questions."
+    }
+  },
+  {
+    "id": "traffic-and-parking-commission-june-8-2026",
+    "slug": "traffic-and-parking-commission-june-8-2026",
+    "title": "Traffic And Parking Meets At 2:30, Which Is Basically East Nashville's Love Language",
+    "deck": "NDOT lists the Traffic and Parking Commission for 2:30 p.m. at the Howard Office Building, with the June 8 agenda attached to the public meeting page.",
+    "body": "The Traffic and Parking Commission has a regular meeting today at 2:30 p.m., and the public page attaches the agenda. For a neighborhood that can turn one blocked lane into a full group text, this is the practical civic lane.",
+    "zone": "Nashville",
+    "beat": "Transportation",
+    "label": "Confirmed",
+    "confidence": "Confirmed by NDOT's official Traffic and Parking Commission meeting page.",
+    "reporterId": "parker",
+    "time": "June 8, 2026",
+    "priority": 357,
+    "imageStyle": "street",
+    "readerUtility": {
+      "title": "Meeting Basics",
+      "items": [
+        {
+          "label": "Time",
+          "value": "2:30 p.m."
+        },
+        {
+          "label": "Place",
+          "value": "Howard Office Building, Sonny West Conference Center"
+        },
+        {
+          "label": "Agenda",
+          "value": "Attached to the meeting page"
+        }
+      ]
+    },
+    "factBox": [
+      {
+        "label": "Meeting",
+        "value": "Traffic and Parking Commission"
+      },
+      {
+        "label": "Date",
+        "value": "June 8, 2026"
+      },
+      {
+        "label": "Time",
+        "value": "2:30 p.m."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Traffic and Parking Commission Meeting, June 8",
+        "url": "https://www.nashville.gov/departments/transportation/boards/traffic-and-parking-commission/meetings/traffic-and-parking-commission-meeting-june-8-2026",
+        "type": "Official meeting listing"
+      }
+    ],
+    "articleSections": [
+      {
+        "heading": "The Practical Board",
+        "paragraphs": [
+          "This is the kind of meeting that can affect neighborhood traffic calming, parking rules, and the little decisions that shape how people actually move around. It is not flashy. It is absolutely worth watching.",
+          "Today's page is a clean source: status, date, time, meeting type, location, and an agenda link. That makes it publishable as a confirmed utility item and worth a later follow-up if East-side items appear in the materials."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": [],
+    "social": {
+      "x": "Traffic and Parking meets today at 2:30 p.m. at the Howard Office Building. NDOT has the agenda linked on the public meeting page.",
+      "instagram": "Blocked lane? Weird parking sign? Traffic calming dreams? The board that touches that world meets today.",
+      "video": "Parker gives the practical brief: Traffic and Parking, 2:30 p.m., agenda attached."
+    }
+  },
+  {
+    "id": "sports-authority-committee-east-bank-june-8-2026",
+    "slug": "sports-authority-committee-east-bank-june-8-2026",
+    "title": "Sports Authority Committees Meet Today, So The East Bank Watch List Stays Open",
+    "deck": "Metro lists the Sports Authority Board Executive and Personnel Committees for 11 a.m. at 150 2nd Avenue North, keeping stadium-side governance on the Monday board.",
+    "body": "Sports Authority committee meetings are not automatically East Bank drama, but they are part of the governance universe around stadium operations and public facilities. Metro lists the Executive and Personnel Committees for 11 a.m. today.",
+    "zone": "East Bank / Nashville",
+    "beat": "Development",
+    "label": "Confirmed",
+    "confidence": "Confirmed by the official Sports Authority Board meetings calendar.",
+    "reporterId": "june",
+    "time": "June 8, 2026",
+    "priority": 356,
+    "imageStyle": "permit",
+    "readerUtility": {
+      "title": "Meeting Basics",
+      "items": [
+        {
+          "label": "Time",
+          "value": "11:00 a.m."
+        },
+        {
+          "label": "Place",
+          "value": "150 2nd Avenue North"
+        },
+        {
+          "label": "Why watch",
+          "value": "Public facilities and stadium-adjacent governance"
+        }
+      ]
+    },
+    "factBox": [
+      {
+        "label": "Meeting",
+        "value": "Sports Authority Executive and Personnel Committees"
+      },
+      {
+        "label": "Time",
+        "value": "11:00 a.m."
+      },
+      {
+        "label": "Location",
+        "value": "150 2nd Avenue North"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Sports Authority Board meetings",
+        "url": "https://www.nashville.gov/departments/sports-authority/boards/sports-authority-board/meetings",
+        "type": "Official meeting calendar"
+      }
+    ],
+    "articleSections": [
+      {
+        "heading": "The East Bank Governance Lane",
+        "paragraphs": [
+          "The cautious version is the useful version here: today's listing confirms a committee meeting, not a dramatic stadium vote. Still, Sports Authority governance belongs on the East Bank watch list because stadium operations, facilities, and public oversight keep feeding into the neighborhood story.",
+          "The follow-up is minutes, agenda details, and any committee action that touches stadium, facilities, staffing, or public-facing operations. Until then, this is a confirmed calendar item with a development-watch tag."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": [],
+    "social": {
+      "x": "Sports Authority Executive and Personnel Committees meet at 11 a.m. today. Not every meeting is stadium drama, but it belongs on the East Bank governance watch list.",
+      "instagram": "East Bank homework is still homework when it happens in committee. Sports Authority is on today's board.",
+      "video": "June adds Sports Authority to the East Bank watch list, with a caution label: confirmed meeting, follow-up needed."
+    }
+  },
+  {
+    "id": "homelessness-governance-charter-june-8-2026",
+    "slug": "homelessness-governance-charter-committee-june-8-2026",
+    "title": "Homelessness Governance Meets At Edgehill Today, And Housing Systems Count As Neighborhood News",
+    "deck": "Metro's Office of Homeless Services lists the Continuum of Care Governance Charter Committee for 1 p.m. at Edgehill Branch Library.",
+    "body": "The Continuum of Care Homelessness Planning Council's Governance Charter Committee meets at 1 p.m. today at Edgehill Branch Library. It is not an East Nashville-only item, but housing systems shape every neighborhood's service reality.",
+    "zone": "Nashville",
+    "beat": "Housing",
+    "label": "Confirmed",
+    "confidence": "Confirmed by the Office of Homeless Services meetings calendar.",
+    "reporterId": "parker",
+    "time": "June 8, 2026",
+    "priority": 355,
+    "imageStyle": "park",
+    "readerUtility": {
+      "title": "Meeting Basics",
+      "items": [
+        {
+          "label": "Time",
+          "value": "1:00 p.m."
+        },
+        {
+          "label": "Place",
+          "value": "Edgehill Branch Library"
+        },
+        {
+          "label": "Board",
+          "value": "Continuum of Care Governance Charter Committee"
+        }
+      ]
+    },
+    "factBox": [
+      {
+        "label": "Meeting",
+        "value": "Governance Charter Committee"
+      },
+      {
+        "label": "Time",
+        "value": "1:00 p.m."
+      },
+      {
+        "label": "Location",
+        "value": "Edgehill Branch Library"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Continuum of Care Homelessness Planning Council meetings",
+        "url": "https://www.nashville.gov/departments/office-homeless-services/boards/homelessness/meetings",
+        "type": "Official meeting calendar"
+      }
+    ],
+    "articleSections": [
+      {
+        "heading": "Why Governance Is A Housing Story",
+        "paragraphs": [
+          "Homelessness governance can sound abstract until a service gap lands on a block, at a library, or inside a family budget. The committee structure is part of how Metro's homelessness planning system decides who is at the table and how work moves.",
+          "Today's item is a confirmed meeting notice. The next reporting step is to check whether the charter discussion changes membership, decision rules, public access, or accountability inside the Continuum of Care system."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": [],
+    "social": {
+      "x": "The Continuum of Care Governance Charter Committee meets at 1 p.m. today at Edgehill Branch Library. Housing systems count as neighborhood news.",
+      "instagram": "Housing governance is not glamorous, but it is where service systems get shaped. Today's meeting is on the board.",
+      "video": "Parker explains why a homelessness governance meeting belongs in the neighborhood brief."
+    }
+  },
+  {
+    "id": "monday-east-nashville-calendar-june-8-2026",
+    "slug": "monday-east-nashville-calendar-june-8-2026",
+    "title": "Monday East Nashville Calendar: The East Room Tonight, Basement Listings Nearby, And A Low-Key Board",
+    "deck": "Public listings put Volunteer Department, The Bakery Rat, and Josh Halper at The East Room at 8 p.m., with nearby Basement listings filling out the Monday music lane.",
+    "body": "Monday is not pretending to be Saturday, but the public calendar still has a useful East-side anchor: Volunteer Department, The Bakery Rat, and Josh Halper at The East Room at 8 p.m.",
+    "zone": "East Nashville",
+    "beat": "Events",
+    "label": "Confirmed",
+    "confidence": "Confirmed from Ticketmaster, Nashville Music Calendar, and venue/event calendar listings.",
+    "reporterId": "lila",
+    "time": "June 8, 2026",
+    "priority": 354,
+    "imageStyle": "music",
+    "readerUtility": {
+      "title": "Tonight's Shortlist",
+      "items": [
+        {
+          "label": "The East Room",
+          "value": "Volunteer Department / The Bakery Rat / Josh Halper, 8 p.m."
+        },
+        {
+          "label": "The Basement",
+          "value": "Van Bellman at 7 p.m.; The Strains at 9 p.m."
+        },
+        {
+          "label": "Tomorrow",
+          "value": "Basement East has Galleria on the next-night board"
+        }
+      ]
+    },
+    "factBox": [
+      {
+        "label": "East Room",
+        "value": "8:00 p.m."
+      },
+      {
+        "label": "Basement listings",
+        "value": "7:00 p.m. and 9:00 p.m."
+      },
+      {
+        "label": "Calendar mood",
+        "value": "Low-key Monday, still useful"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Ticketmaster Nashville alternative listings, June 8",
+        "url": "https://www.ticketmaster.com/discover/nashville?categoryId=KZFzniwnSyZfZ7v7nJ&classificationId=KnvZfZ7vAvv&tt_scene=anchor_view",
+        "type": "Public event listing"
+      },
+      {
+        "name": "Nashville Music Calendar indie/alternative listings",
+        "url": "https://nashvillemusiccalendar.com/shows/tag/indie-alternative/",
+        "type": "Public event calendar"
+      },
+      {
+        "name": "The Basement Nashville: June 8 just-announced listings",
+        "url": "https://www.thebasementnashville.com/basement-east/contact/",
+        "type": "Venue listing"
+      }
+    ],
+    "articleSections": [
+      {
+        "heading": "The Useful Shortlist",
+        "paragraphs": [
+          "The East Room is the East Nashville anchor tonight, with public listings for Volunteer Department, The Bakery Rat, and Josh Halper at 8 p.m.",
+          "The nearby Basement listings add Van Bellman with Abigail Hope at 7 p.m. and The Strains with The Glumlots and Gross Motor at 9 p.m. For readers staying strictly east of the river, the East Room is the cleanest pick.",
+          "The practical note: Monday listings can move quietly, so check the ticketing page before you build your whole personality around the plan."
+        ]
+      }
+    ],
+    "reactions": {
+      "Love": 0,
+      "Side-Eye": 0
+    },
+    "comments": [],
+    "social": {
+      "x": "Monday East-side calendar: The East Room has Volunteer Department / The Bakery Rat / Josh Halper at 8 p.m. Nearby Basement listings round out a low-key music board.",
+      "instagram": "Monday does not have to be heroic. The East Room at 8, nearby Basement listings if you are drifting south, and done.",
+      "video": "Lila gives the short version: East Room tonight, Basement nearby, check the ticket page before committing."
+    }
+  },
+  {
     "id": "june-3-source-pass-east-nashville",
     "slug": "today-east-nashville-source-pass-june-3-2026",
     "title": "Today's East Nashville Source Pass: Budget Work Session 4, CMA Fest Traffic, East Bank Bridges, Facebook Signals, And A Wednesday Calendar",

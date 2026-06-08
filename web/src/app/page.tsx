@@ -11,6 +11,16 @@ function storySection(stories: Story[], usedIds: Set<string>, predicate: (story:
 }
 
 const todayPackageIds = [
+  "june-8-source-pass-east-nashville",
+  "cma-fest-teardown-closures-june-8-2026",
+  "interpersonal-violence-working-group-june-8-2026",
+  "traffic-and-parking-commission-june-8-2026",
+  "sports-authority-committee-east-bank-june-8-2026",
+  "homelessness-governance-charter-june-8-2026",
+  "monday-east-nashville-calendar-june-8-2026",
+];
+
+const recentPackageIds = [
   "june-3-source-pass-east-nashville",
   "metro-budget-work-session-four-june-3-2026",
   "cma-fest-special-event-zone-june-3-2026",
@@ -18,9 +28,6 @@ const todayPackageIds = [
   "rebuilding-together-breakfast-riverside-revival-june-3-2026",
   "wednesday-east-nashville-calendar-june-3-2026",
   "facebook-group-poll-june-3-2026",
-];
-
-const recentPackageIds = [
   "may-30-source-pass-east-nashville",
   "eastpoint-neighborhood-kickoff-may-30-2026",
   "facebook-group-poll-may-30-2026",
@@ -220,13 +227,12 @@ export default function HomePage() {
       <section className="front-layout home-front">
         <div>
           <div className="section-heading front-page-heading">
-            <p className="eyebrow">East Nashville Today / June 3</p>
-            <h1>Budget Work Session 4, CMA Traffic, East Bank Timelines, And Facebook Signals</h1>
+            <p className="eyebrow">East Nashville Today / June 8</p>
+            <h1>CMA Teardown, Public Safety, Traffic Board, Sports Authority, And Housing Governance</h1>
             <p>
-              Today&apos;s issue leads with public sources: Metro&apos;s fourth budget work session, CMA Fest traffic
-              controls starting before the festival, reported East Bank bridge timelines, Rebuilding Together at
-              Riverside Revival, a Wednesday calendar from East Nasty to East-side music rooms, and a supervised
-              Facebook group poll.
+              Today&apos;s issue leads with public sources: CMA Fest controls winding down, Metro&apos;s
+              interpersonal-violence working group, Traffic and Parking, Sports Authority governance, homelessness
+              governance at Edgehill, and a lean Monday calendar anchored by The East Room.
             </p>
           </div>
           <section className="front-package" aria-label="Top stories">
@@ -255,8 +261,8 @@ export default function HomePage() {
               <p className="eyebrow">Source Status</p>
               <h2>Read The Label Before The Take</h2>
               <p>
-                June 3 combines confirmed Metro, transportation, nonprofit, and event listings with reported East
-                Bank bridge timeline context and one supervised Facebook group poll. Nextdoor remains held.
+                June 8 combines confirmed Metro, transportation, public-meeting, housing, and event listings.
+                Facebook and Nextdoor remain held unless supervised private-feed capture is available.
               </p>
             </div>
             <div className="source-status-grid">
@@ -278,7 +284,7 @@ export default function HomePage() {
             <div className="section-heading compact-heading">
               <div>
                 <p className="eyebrow">Community Desk</p>
-                <h2>What The Facebook Pass Became</h2>
+                <h2>What Private-Platform Leads Become</h2>
                 <p>
                   Public-facing leads only. The sensitive stuff stays private, and the useful stuff gets a next action.
                 </p>
@@ -341,7 +347,7 @@ export default function HomePage() {
         <aside className="side-rail">
           <section className="source-rail-panel">
             <p className="eyebrow">Today&apos;s Package</p>
-            <h2>{todayStories.length} June 3 Stories Live</h2>
+            <h2>{todayStories.length} June 8 Stories Live</h2>
             <p>{todaySourcePass.summary}</p>
             <dl>
               <div>
